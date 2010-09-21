@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="obj1">
+        <node id="3" infl="pl_num" pos="num" rel="det" root="honderd" sense="honderd" special="hoofd"/>
+        <node gen="de" id="4" num="meas" pos="noun" rel="hd" root="gulden" sc="measure" sense="gulden-MEAS" special="meas_mod"/>
+        <node gen="de" id="5" num="sg" pos="noun" rel="mod" root="beloning" sense="beloning"/>
+      </node>
+      <node id="6" infl="sg3" pos="verb" rel="hd" root="krijg" sc="transitive" sense="krijg" tense="present"/>
+      <node cat="np" id="7" rel="su">
+        <node id="8" infl="elke" pos="det" rel="det" root="elk" sense="elk" wh="nwh"/>
+        <node gen="de" id="9" num="sg" pos="noun" rel="hd" root="employé" sense="employé"/>
+        <node cat="pp" id="10" rel="mod">
+          <node id="11" pos="prep" rel="hd" root="van" sense="van"/>
+          <node id="12" neclass="ORG" num="both" pos="name" rel="obj1" root="Shell" sense="Shell"/>
+        </node>
+        <node cat="rel" id="13" rel="mod">
+          <node case="no_obl" gen="de" id="14" index="1" pos="pron" rel="rhd" root="die" sense="die" wh="rel"/>
+          <node cat="ssub" id="15" rel="body">
+            <node id="16" index="1" rel="su"/>
+            <node gen="de" id="17" num="sg" pos="noun" rel="obj1" root="iemand" sense="iemand"/>
+            <node id="18" infl="sg3" pos="verb" rel="hd" root="breng_aan" sc="part_transitive(aan)" sense="breng_aan" tense="present"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

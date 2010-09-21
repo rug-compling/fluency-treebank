@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node id="4" neclass="ORG" num="both" pos="name" rel="hd" root="FBI" sense="FBI"/>
+      </node>
+      <node id="5" infl="sg3" pos="verb" rel="hd" root="beschik" sc="pc_pp(over)" sense="beschik-over" tense="present"/>
+      <node id="6" pos="adv" rel="mod" root="niet" sense="niet"/>
+      <node cat="pp" id="7" rel="pc">
+        <node id="8" pos="prep" rel="hd" root="over" sense="over"/>
+        <node cat="np" id="9" rel="obj1">
+          <node id="10" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node aform="base" id="11" infl="e" pos="adj" rel="mod" root="enorm" sense="enorm" vform="adj"/>
+          <node gen="het" id="12" num="pl" pos="noun" rel="hd" root="fonds" sense="fonds"/>
+          <node cat="rel" id="13" rel="mod">
+            <node case="no_obl" gen="de" id="14" index="1" pos="pron" rel="rhd" root="die" sense="die" wh="rel"/>
+            <node cat="ssub" id="15" rel="body">
+              <node id="16" index="1" rel="obj1"/>
+              <node cat="mwu" id="17" mwu_root="Cosa Nostra" mwu_sense="Cosa Nostra" rel="su">
+                <node id="18" neclass="ORG" num="both" pos="name" rel="mwp" root="Cosa" sense="Cosa"/>
+                <node id="19" neclass="ORG" num="both" pos="name" rel="mwp" root="Nostra" sense="Nostra"/>
+              </node>
+              <node id="20" infl="sg_heeft" pos="verb" rel="hd" root="heb" sc="transitive_ndev" sense="heb" tense="present"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

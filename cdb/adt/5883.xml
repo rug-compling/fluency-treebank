@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="np" id="2" rel="cnj">
+        <node id="3" infl="pl_num" pos="num" rel="det" root="1000" sense="1000" special="hoofd"/>
+        <node aform="base" id="4" infl="e" pos="adj" rel="mod" root="Zwitsers" sense="Zwitsers" vform="adj"/>
+        <node gen="de" id="5" num="pl" pos="noun" rel="hd" root="franc" sc="measure" sense="franc-MEAS" special="meas_mod"/>
+        <node gen="de" id="6" num="sg" pos="noun" rel="mod" root="boete" sense="boete"/>
+      </node>
+      <node cat="np" id="7" rel="cnj">
+        <node id="8" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node gen="de" id="9" num="meas" pos="noun" rel="hd" root="maand" sc="measure" sense="maand-MEAS" special="tmp"/>
+        <node gen="de" id="10" num="sg" pos="noun" rel="mod" root="schorsing" sense="schorsing"/>
+        <node aform="base" id="11" infl="no_e" pos="adj" rel="mod" root="voorwaardelijk" sense="voorwaardelijk" vform="adj"/>
+      </node>
+      <node id="12" pos="vg" rel="crd" root="en" sense="en"/>
+      <node gen="de" id="13" num="sg" pos="noun" rel="cnj" root="diskwalificatie" sense="diskwalificatie"/>
+    </node>
+  </node>
+</alpino_adt>

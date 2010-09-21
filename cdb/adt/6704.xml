@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="ld">
+        <node id="3" pos="prep" rel="hd" root="aan" sense="aan"/>
+        <node cat="np" id="4" rel="obj1">
+          <node id="5" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node id="6" infl="pl_num" pos="num" rel="det" root="12" sense="12" special="hoofd"/>
+          <node gen="de" id="7" num="pl" pos="noun" rel="hd" root="kapper_vak_school" sense="kapper_vak_school"/>
+          <node cat="pp" id="8" rel="mod">
+            <node id="9" pos="prep" rel="hd" root="in" sense="in"/>
+            <node id="10" neclass="LOC" num="both" pos="name" rel="obj1" root="Nederland" sense="Nederland"/>
+          </node>
+        </node>
+      </node>
+      <node id="11" infl="pl" pos="verb" rel="hd" root="studeer" sc="ld_pp" sense="studeer" tense="present"/>
+      <node id="12" pos="adv" rel="mod" root="nog" sense="nog"/>
+      <node id="13" pos="adv" rel="mod" root="eens" sense="eens" special="tmp"/>
+      <node cat="conj" id="14" rel="su">
+        <node cat="np" id="15" rel="cnj">
+          <node id="16" infl="een" pos="det" rel="det" root="zo&apos;n" sense="zo&apos;n"/>
+          <node id="17" pos="prefix" rel="hd" root="knip" sense="knip"/>
+        </node>
+        <node id="18" pos="vg" rel="crd" root="en" sense="en"/>
+        <node gen="both" id="19" num="both" pos="noun" rel="cnj" root="waslustigen" sense="waslustigen"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node cat="mwu" id="3" mwu_root="Tonny Schrauwen" mwu_sense="Tonny Schrauwen" rel="mod">
+          <node id="4" neclass="PER" num="both" pos="name" rel="mwp" root="Tonny" sense="Tonny"/>
+          <node id="5" neclass="PER" num="both" pos="name" rel="mwp" root="Schrauwen" sense="Schrauwen"/>
+        </node>
+        <node gen="de" id="6" num="sg" pos="noun" rel="hd" root="wereldkampioen" sense="wereldkampioen"/>
+        <node id="7" infl="both" pos="num" rel="app" root="47/2" sense="47/2" special="hoofd"/>
+        <node cat="ppart" id="8" rel="mod">
+          <node cat="pp" id="9" rel="mod">
+            <node id="10" pos="prep" rel="hd" root="in" sense="in"/>
+            <node id="11" neclass="LOC" num="both" pos="name" rel="obj1" root="Groningen" sense="Groningen"/>
+          </node>
+          <node aform="base" id="12" infl="no_e" pos="adj" rel="hd" root="behaald" sense="behaald" vform="psp"/>
+        </node>
+      </node>
+      <node id="13" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+      <node cat="np" id="14" rel="predc">
+        <node id="15" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node aform="base" id="16" infl="e" pos="adj" rel="mod" root="oud" sense="oud" vform="adj"/>
+        <node aform="base" id="17" infl="e" pos="adj" rel="hd" root="bekend" sense="bekend" vform="adj"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

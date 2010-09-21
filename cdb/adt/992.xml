@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="mwu" id="2" mwu_root="Drs. Van der Hoeven" mwu_sense="Drs. Van der Hoeven" rel="su">
+        <node id="3" neclass="PER" num="both" pos="name" rel="mwp" root="Drs." sense="Drs."/>
+        <node id="4" neclass="PER" num="both" pos="name" rel="mwp" root="Van" sense="Van"/>
+        <node id="5" neclass="PER" num="both" pos="name" rel="mwp" root="der" sense="der"/>
+        <node id="6" neclass="PER" num="both" pos="name" rel="mwp" root="Hoeven" sense="Hoeven"/>
+      </node>
+      <node id="7" infl="sg" pos="verb" rel="hd" root="zeg" sc="tr_sbar" sense="zeg" tense="past"/>
+      <node aform="compar" id="8" infl="no_e" pos="adj" rel="mod" root="ver" sense="ver" vform="adj"/>
+      <node cat="cp" id="9" rel="vc">
+        <node id="10" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+        <node cat="ssub" id="11" rel="body">
+          <node id="12" neclass="LOC" num="both" pos="name" rel="su" root="Nederland" sense="Nederland"/>
+          <node cat="advp" id="13" rel="mod">
+            <node id="14" pos="adv" rel="mod" root="beslist" sense="beslist"/>
+            <node id="15" pos="adv" rel="hd" root="niet" sense="niet"/>
+          </node>
+          <node id="16" infl="sg3" pos="verb" rel="hd" root="loop_voorop" sc="part_intransitive(voorop)" sense="loop_voorop" tense="present"/>
+          <node cat="pp" id="17" rel="mod">
+            <node id="18" pos="prep" rel="hd" root="in" sense="in"/>
+            <node cat="np" id="19" rel="obj1">
+              <node id="20" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+              <node gen="het" id="21" num="sg" pos="noun" rel="hd" root="gebruik" sense="gebruik"/>
+              <node cat="pp" id="22" rel="mod">
+                <node id="23" pos="prep" rel="hd" root="van" sense="van"/>
+                <node gen="both" id="24" num="pl" pos="noun" rel="obj1" root="kunststof" sense="kunststof"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

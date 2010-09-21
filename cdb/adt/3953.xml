@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" pos="adv" rel="mod" root="zo" sense="zo"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="heb" sc="transitive_ndev" sense="heb" tense="past"/>
+      <node cat="mwu" id="4" mwu_root="bijvoorbeeld" mwu_sense="bijvoorbeeld" rel="mod">
+        <node id="5" pos="adv" rel="mwp" root="bij" sense="bij" special="sentence"/>
+        <node id="6" pos="adv" rel="mwp" root="voorbeeld" sense="voorbeeld" special="sentence"/>
+      </node>
+      <node cat="conj" id="7" rel="su">
+        <node cat="np" id="8" rel="cnj">
+          <node id="9" infl="het" pos="det" rel="det" root="ieder" sense="ieder" wh="nwh"/>
+          <node gen="het" id="10" num="sg" pos="noun" rel="hd" root="dorp" sense="dorp"/>
+          <node aform="base" id="11" infl="no_e" pos="adj" rel="mod" root="afzonderlijk" sense="afzonderlijk" vform="adj"/>
+        </node>
+        <node id="12" pos="vg" rel="crd" root="of" sense="of"/>
+        <node cat="np" id="13" rel="cnj">
+          <node id="14" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node gen="het" id="15" num="sg" pos="noun" rel="hd" root="aantal" sc="measure" sense="aantal-MEAS"/>
+          <node gen="het" id="16" num="pl" pos="noun" rel="mod" root="dorp" sense="dorp"/>
+          <node aform="base" id="17" infl="no_e" pos="adj" rel="mod" root="gemeenschappelijk" sense="gemeenschappelijk" vform="adj"/>
+        </node>
+      </node>
+      <node cat="np" id="18" rel="obj1">
+        <node id="19" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node gen="de" id="20" num="sg" pos="noun" rel="hd" root="raad" sense="raad"/>
+        <node cat="pp" id="21" rel="mod">
+          <node id="22" pos="prep" rel="hd" root="van" sense="van"/>
+          <node gen="de" id="23" num="pl" pos="noun" rel="obj1" root="oudste" sense="oudste"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

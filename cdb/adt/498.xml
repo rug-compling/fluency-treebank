@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="both" id="4" num="sg" pos="noun" rel="hd" root="entree" sense="entree"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="van" sense="van"/>
+          <node id="7" neclass="year" pos="noun" rel="obj1" root="1970" sense="1970"/>
+        </node>
+      </node>
+      <node id="8" infl="modal_not_u" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="present"/>
+      <node cat="inf" id="9" rel="vc">
+        <node id="10" index="1" rel="su"/>
+        <node cat="pp" id="11" rel="mod">
+          <node id="12" pos="prep" rel="hd" root="in" sense="in"/>
+          <node cat="np" id="13" rel="obj1">
+            <node id="14" infl="het" pos="det" rel="det" root="ons" sense="ons"/>
+            <node aform="base" id="15" infl="e" pos="adj" rel="mod" root="heel" sense="heel" vform="adj"/>
+            <node gen="het" id="16" num="sg" pos="noun" rel="hd" root="land" sense="land"/>
+          </node>
+        </node>
+        <node cat="mwu" id="17" mwu_root="in het teken" mwu_sense="in het teken" rel="svp">
+          <node id="18" pos="fixed" rel="mwp" root="in" sense="in"/>
+          <node id="19" pos="fixed" rel="mwp" root="het" sense="het"/>
+          <node id="20" pos="fixed" rel="mwp" root="teken" sense="teken"/>
+        </node>
+        <node cat="pp" id="21" rel="pc">
+          <node id="22" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="23" rel="obj1">
+            <node id="24" infl="een" pos="det" rel="det" root="een" sense="een"/>
+            <node aform="base" id="25" infl="e" pos="adj" rel="mod" root="fel" sense="fel" vform="adj"/>
+            <node gen="de" id="26" num="sg" pos="noun" rel="hd" root="kou_golf" sense="kou_golf"/>
+          </node>
+        </node>
+        <node id="27" infl="inf(no_e)" pos="verb" rel="hd" root="sta" sc="fixed([{[[in,het,teken],pc(van)]}],no_passive)" sense="in-het-teken-sta-van"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

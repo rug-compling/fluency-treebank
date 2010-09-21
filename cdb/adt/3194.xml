@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="mwu" id="2" mwu_root="Aaron Tolen" mwu_sense="Aaron Tolen" rel="su">
+        <node id="3" neclass="PER" num="both" pos="name" rel="mwp" root="Aaron" sense="Aaron"/>
+        <node id="4" neclass="PER" num="both" pos="name" rel="mwp" root="Tolen" sense="Tolen"/>
+      </node>
+      <node id="5" infl="sg" pos="verb" rel="hd" root="spreek" sc="intransitive" sense="spreek" tense="past"/>
+      <node cat="pp" id="6" rel="mod">
+        <node id="7" pos="prep" rel="hd" root="namens" sense="namens"/>
+        <node cat="np" id="8" rel="obj1">
+          <node id="9" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="10" num="sg" pos="noun" rel="hd" root="jeugd" sense="jeugd"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

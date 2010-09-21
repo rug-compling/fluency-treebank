@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="conj" id="2" rel="su">
+        <node id="3" neclass="PER" num="both" pos="name" rel="cnj" root="Caledonian" sense="Caledonian"/>
+        <node id="4" neclass="LOC" num="both" pos="name" rel="cnj" root="Atlantis" sense="Atlantis"/>
+        <node cat="mwu" id="5" mwu_root="Capitol International" mwu_sense="Capitol International" rel="cnj">
+          <node id="6" neclass="ORG" num="both" pos="name" rel="mwp" root="Capitol" sense="Capitol"/>
+          <node id="7" neclass="ORG" num="both" pos="name" rel="mwp" root="International" sense="International"/>
+        </node>
+        <node id="8" pos="vg" rel="crd" root="en" sense="en"/>
+        <node cat="mwu" id="9" mwu_root="Overseas National" mwu_sense="Overseas National" rel="cnj">
+          <node id="10" neclass="PER" num="both" pos="name" rel="mwp" root="Overseas" sense="Overseas"/>
+          <node id="11" neclass="PER" num="both" pos="name" rel="mwp" root="National" sense="National"/>
+        </node>
+      </node>
+      <node id="12" infl="pl" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+      <node cat="np" id="13" rel="predc">
+        <node aform="base" id="14" infl="e" pos="adj" rel="mod" root="vast" sense="vast" vform="adj"/>
+        <node gen="de" id="15" num="pl" pos="noun" rel="hd" root="klant" sense="klant"/>
+        <node cat="pp" id="16" rel="mod">
+          <node id="17" pos="prep" rel="hd" root="van" sense="van"/>
+          <node id="18" neclass="LOC" num="both" pos="name" rel="obj1" root="Schiphol" sense="Schiphol"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg_heeft" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="present"/>
+      <node id="3" index="1" neclass="PER" num="both" pos="name" rel="su" root="Jelle" sense="Jelle"/>
+      <node cat="ppart" id="4" rel="vc">
+        <node id="5" pos="adv" rel="mod" root="vanmorgen" sense="vanmorgen" special="tmp"/>
+        <node id="6" index="1" rel="su"/>
+        <node id="7" neclass="PER" num="both" pos="name" rel="obj1" root="Atje" sense="Atje"/>
+        <node cat="pp" id="8" rel="ld">
+          <node id="9" pos="prep" rel="hd" root="naar" sense="naar"/>
+          <node id="10" neclass="LOC" num="both" pos="name" rel="obj1" root="Schiphol" sense="Schiphol"/>
+        </node>
+        <node id="11" infl="psp" pos="verb" rel="hd" root="rijd" sc="np_ld_pp" sense="rijd"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

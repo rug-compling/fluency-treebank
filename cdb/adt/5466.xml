@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="ppart" id="1" rel="--">
+      <node cat="pp" id="2" rel="mod">
+        <node id="3" pos="prep" rel="hd" root="in" sense="in"/>
+        <node cat="np" id="4" rel="obj1">
+          <node id="5" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="6" num="sg" pos="noun" rel="hd" root="volksmond" sense="volksmond"/>
+        </node>
+      </node>
+      <node cat="np" id="7" rel="predc">
+        <node id="8" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node id="9" num="both" pos="name" rel="hd" root="Torentjes" sense="Torentjes"/>
+      </node>
+      <node aform="base" id="10" infl="no_e" pos="adj" rel="hd" root="genoemd" sc="pred" sense="genoemd" vform="psp"/>
+    </node>
+  </node>
+</alpino_adt>

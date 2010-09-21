@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="blik" sense="blik"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="mwu" id="7" mwu_root="John Henry Newman" mwu_sense="John Henry Newman" rel="obj1">
+            <node id="8" neclass="PER" num="both" pos="name" rel="mwp" root="John" sense="John"/>
+            <node id="9" neclass="PER" num="both" pos="name" rel="mwp" root="Henry" sense="Henry"/>
+            <node id="10" neclass="PER" num="both" pos="name" rel="mwp" root="Newman" sense="Newman"/>
+          </node>
+        </node>
+      </node>
+      <node id="11" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" tense="present"/>
+      <node cat="ppart" id="12" rel="vc">
+        <node id="13" index="1" rel="su"/>
+        <node cat="np" id="14" rel="predc">
+          <node id="15" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node cat="ppres" id="16" rel="mod">
+            <node aform="base" id="17" infl="no_e" pos="adj" rel="mod" root="ver" sense="ver" vform="adj"/>
+            <node aform="base" id="18" infl="e" pos="adj" rel="hd" root="zie_vooruit" sense="zie_vooruit" vform="gerund"/>
+          </node>
+          <node gen="de" id="19" num="sg" pos="noun" rel="hd" root="blik" sense="blik"/>
+        </node>
+        <node id="20" infl="psp" pos="verb" rel="hd" root="ben" sc="copula" sense="ben"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

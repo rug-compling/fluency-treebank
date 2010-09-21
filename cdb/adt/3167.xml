@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="ppres" id="2" rel="predm">
+        <node aform="base" id="3" infl="no_e" pos="adj" rel="mod" root="keihard" sense="keihard" vform="adj"/>
+        <node aform="base" id="4" infl="no_e" pos="adj" rel="hd" root="speel" sense="speel" vform="gerund"/>
+      </node>
+      <node id="5" infl="sg" pos="verb" rel="hd" root="stop_af" sc="part_transitive(af)" sense="stop_af" tense="past"/>
+      <node case="nom" def="def" gen="de" id="6" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+      <node cat="np" id="7" rel="obj1">
+        <node id="8" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node cat="ap" id="9" rel="mod">
+          <node aform="base" id="10" infl="no_e" pos="adj" rel="mod" root="vaak" sense="vaak" vform="adj"/>
+          <node aform="base" id="11" infl="e" pos="adj" rel="hd" root="eenzaam" sense="eenzaam" vform="adj"/>
+        </node>
+        <node gen="both" id="12" num="sg" pos="noun" rel="hd" root="spits" sense="spits"/>
+        <node cat="mwu" id="13" mwu_root="Gerrie Deijkers" mwu_sense="Gerrie Deijkers" rel="app">
+          <node id="14" neclass="PER" num="both" pos="name" rel="mwp" root="Gerrie" sense="Gerrie"/>
+          <node id="15" neclass="PER" num="both" pos="name" rel="mwp" root="Deijkers" sense="Deijkers"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

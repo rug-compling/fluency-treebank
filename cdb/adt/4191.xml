@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="mod">
+        <node id="3" pos="prep" rel="hd" root="tegen" sense="tegen"/>
+        <node cat="np" id="4" rel="obj1">
+          <node id="5" infl="de" pos="det" rel="det" root="deze" sense="deze" wh="nwh"/>
+          <node gen="de" id="6" num="sg" pos="noun" rel="hd" root="achtergrond" sense="achtergrond"/>
+        </node>
+      </node>
+      <node id="7" infl="sg" pos="verb" rel="hd" root="moet" sc="transitive_ndev_ndev" sense="moet" tense="present"/>
+      <node case="nom" def="def" gen="de" id="8" num="sg" per="thi" pos="pron" rel="su" root="men" sense="men" wh="nwh"/>
+      <node cat="conj" id="9" rel="obj1">
+        <node cat="np" id="10" rel="cnj">
+          <node id="11" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="het" id="12" num="pl" pos="noun" rel="hd" root="werk" sense="werk"/>
+          <node cat="pp" id="13" rel="mod">
+            <node id="14" pos="prep" rel="hd" root="van" sense="van"/>
+            <node cat="np" id="15" rel="obj1">
+              <node cat="mwu" id="16" mwu_root="Loe Sjuun" mwu_sense="Loe Sjuun" rel="obj1">
+                <node id="17" neclass="PER" num="both" pos="name" rel="mwp" root="Loe" sense="Loe"/>
+                <node id="18" neclass="PER" num="both" pos="name" rel="mwp" root="Sjuun" sense="Sjuun"/>
+              </node>
+              <node id="19" pos="verb" rel="hd" root="stel" sc="transitive" sense="stel" special="v_noun"/>
+            </node>
+          </node>
+        </node>
+        <node id="20" pos="vg" rel="crd" root="en" sense="en"/>
+        <node cat="np" id="21" rel="cnj">
+          <node id="22" pos="adv" rel="mod" root="eveneens" sense="eveneens"/>
+          <node id="23" infl="pron" pos="det" rel="det" root="zijn" sense="zijn"/>
+          <node gen="de" id="24" num="sg" pos="noun" rel="hd" root="persoon" sense="persoon"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

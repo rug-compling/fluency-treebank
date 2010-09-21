@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="mwu" id="2" index="1" mwu_root="jhr. Sickinghe" mwu_sense="jhr. Sickinghe" rel="su">
+        <node id="3" neclass="PER" num="both" pos="name" rel="mwp" root="jhr." sense="jhr."/>
+        <node id="4" neclass="PER" num="both" pos="name" rel="mwp" root="Sickinghe" sense="Sickinghe"/>
+      </node>
+      <node id="5" infl="sg" pos="verb" rel="hd" root="verklaar" sc="vp" sense="verklaar" tense="past"/>
+      <node id="6" pos="adv" rel="mod" root="desgevraagd" sense="desgevraagd"/>
+      <node cat="ti" id="7" rel="vc">
+        <node id="8" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+        <node cat="inf" id="9" rel="body">
+          <node id="10" index="1" rel="su"/>
+          <node id="11" num="both" per="u_thi" pos="pron" refl="refl" rel="se" root="zich" sense="zich"/>
+          <node cat="np" id="12" rel="obj1">
+            <node id="13" infl="geen" pos="det" rel="det" root="geen" sense="geen" wh="nwh"/>
+            <node gen="de" id="14" num="pl" pos="noun" rel="hd" root="zorg" sense="zorg"/>
+          </node>
+          <node id="15" infl="inf" pos="verb" rel="hd" root="maak" sc="fixed([{[acc(zorg),pc(over)]},refl],no_passive)" sense="zich-zorg-maak-over"/>
+          <node cat="pp" id="16" rel="pc">
+            <node id="17" pos="prep" rel="hd" root="over" sense="over"/>
+            <node cat="np" id="18" rel="obj1">
+              <node id="19" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node gen="de" id="20" num="sg" pos="noun" rel="hd" root="afwikkeling" sense="afwikkeling"/>
+              <node cat="pp" id="21" rel="mod">
+                <node id="22" pos="prep" rel="hd" root="van" sense="van"/>
+                <node cat="np" id="23" rel="obj1">
+                  <node id="24" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                  <node aform="base" id="25" infl="e" pos="adj" rel="mod" root="loop" sense="loop" vform="gerund"/>
+                  <node gen="both" id="26" num="pl" pos="noun" rel="hd" root="order" sense="order"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

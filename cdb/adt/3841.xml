@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node gen="de" id="3" num="sg" pos="noun" rel="hd" root="doelman" sense="doelman"/>
+        <node cat="mwu" id="4" mwu_root="Jan van Beveren" mwu_sense="Jan van Beveren" rel="app">
+          <node id="5" neclass="PER" num="both" pos="name" rel="mwp" root="Jan" sense="Jan"/>
+          <node id="6" neclass="PER" num="both" pos="name" rel="mwp" root="van" sense="van"/>
+          <node id="7" neclass="PER" num="both" pos="name" rel="mwp" root="Beveren" sense="Beveren"/>
+        </node>
+      </node>
+      <node id="8" infl="modal_not_u" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="present"/>
+      <node cat="inf" id="9" rel="vc">
+        <node id="10" index="1" rel="su"/>
+        <node cat="ap" id="11" rel="mod">
+          <node cat="mwu" id="12" mwu_root="zo goed als" mwu_sense="zo goed als" rel="mod">
+            <node id="13" pos="adv" rel="mwp" root="zo" sense="zo"/>
+            <node id="14" pos="adv" rel="mwp" root="goed" sense="goed"/>
+            <node id="15" pos="adv" rel="mwp" root="als" sense="als"/>
+          </node>
+          <node aform="base" id="16" infl="no_e" pos="adj" rel="hd" root="zeker" sense="zeker" vform="adj"/>
+        </node>
+        <node cat="np" id="17" rel="obj1">
+          <node id="18" infl="pron" pos="det" rel="det" root="zijn" sense="zijn"/>
+          <node gen="de" id="19" num="sg" pos="noun" rel="hd" root="club" sense="club"/>
+          <node id="20" neclass="LOC" num="both" pos="name" rel="app" root="Sparta" sense="Sparta"/>
+        </node>
+        <node cat="pp" id="21" rel="pc">
+          <node id="22" pos="prep" rel="hd" root="voor" sense="voor"/>
+          <node cat="np" id="23" rel="obj1">
+            <node id="24" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node aform="base" id="25" infl="e" pos="adj" rel="mod" root="Brabants" sense="Brabants" vform="adj"/>
+            <node gen="de" id="26" num="sg" pos="noun" rel="hd" root="eredivisie_vereniging" sense="eredivisie_vereniging"/>
+          </node>
+        </node>
+        <node id="27" infl="inf" pos="verb" rel="hd" root="verwissel" sc="np_pc_pp(voor)" sense="verwissel-voor"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

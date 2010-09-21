@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="np" id="2" rel="cnj">
+        <node id="3" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node id="4" pos="verb" rel="hd" root="teken" sc="intransitive" sense="teken" special="v_noun"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="7" rel="obj1">
+            <node id="8" infl="een" pos="det" rel="det" root="een" sense="een"/>
+            <node gen="de" id="9" num="sg" pos="noun" rel="hd" root="politie_staat" sense="politie_staat"/>
+          </node>
+        </node>
+      </node>
+      <node id="10" pos="vg" rel="crd" root="en" sense="en"/>
+      <node cat="np" id="11" rel="cnj">
+        <node id="12" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node aform="base" id="13" infl="e" pos="adj" rel="mod" root="desastreus" sense="desastreus" vform="adj"/>
+        <node gen="het" id="14" num="pl" pos="noun" rel="hd" root="gevolg" sense="gevolg"/>
+        <node cat="pp" id="15" rel="mod">
+          <node id="16" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="17" rel="obj1">
+            <node id="18" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="19" num="sg" pos="noun" rel="hd" root="dictatuur" sense="dictatuur"/>
+          </node>
+        </node>
+        <node cat="pp" id="20" rel="mod">
+          <node id="21" pos="prep" rel="hd" root="voor" sense="voor"/>
+          <node cat="np" id="22" rel="obj1">
+            <node id="23" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+            <node gen="both" id="24" num="sg" pos="noun" rel="hd" root="individu" sense="individu"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

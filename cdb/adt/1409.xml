@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node case="both" def="def" gen="de" id="2" num="both" per="thi" pos="pron" rel="su" root="ze" sense="ze" special="wkpro" wh="nwh"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="reik" sc="ld_adv" sense="reik" tense="past"/>
+      <node id="4" pos="adv" rel="mod" root="niet" sense="niet"/>
+      <node cat="ap" id="5" rel="ld">
+        <node aform="compar" id="6" infl="no_e" pos="adj" rel="hd" root="ver" sense="ver" vform="adj"/>
+        <node cat="cp" id="7" rel="obcomp">
+          <node id="8" pos="comparative" rel="cmp" root="dan" sense="dan"/>
+          <node cat="np" id="9" rel="body">
+            <node id="10" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node id="11" pos="num" rel="mod" root="derde" sense="derde" special="rang"/>
+            <node gen="de" id="12" num="sg" pos="noun" rel="hd" root="plaats" sense="plaats" special="meas_mod"/>
+          </node>
+        </node>
+      </node>
+      <node cat="pp" id="13" rel="mod">
+        <node id="14" pos="prep" rel="hd" root="achter" sense="achter"/>
+        <node cat="conj" id="15" rel="obj1">
+          <node cat="mwu" id="16" mwu_root="Akke Falkena" mwu_sense="Akke Falkena" rel="cnj">
+            <node id="17" neclass="PER" num="both" pos="name" rel="mwp" root="Akke" sense="Akke"/>
+            <node id="18" neclass="PER" num="both" pos="name" rel="mwp" root="Falkena" sense="Falkena"/>
+          </node>
+          <node id="19" pos="vg" rel="crd" root="en" sense="en"/>
+          <node cat="np" id="20" rel="cnj">
+            <node cat="mwu" id="21" mwu_root="Sijtje v. d. Lende" mwu_sense="Sijtje v. d. Lende" rel="hd">
+              <node id="22" num="both" pos="name" rel="mwp" root="Sijtje" sense="Sijtje"/>
+              <node id="23" num="both" pos="name" rel="mwp" root="v." sense="v."/>
+              <node id="24" num="both" pos="name" rel="mwp" root="d." sense="d."/>
+              <node id="25" num="both" pos="name" rel="mwp" root="Lende" sense="Lende"/>
+            </node>
+            <node cat="pp" id="26" rel="mod">
+              <node id="27" pos="prep" rel="hd" root="uit" sense="uit"/>
+              <node id="28" neclass="LOC" num="both" pos="name" rel="obj1" root="Sonnega" sense="Sonnega"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

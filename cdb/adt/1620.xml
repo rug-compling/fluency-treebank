@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node aform="super" id="4" infl="e" pos="adj" rel="mod" root="lekker" sense="lekker" vform="adj"/>
+        <node gen="het" id="5" num="sg" pos="noun" rel="hd" root="hap_DIM" sense="hap_DIM"/>
+      </node>
+      <node id="6" infl="modal_not_u" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="present"/>
+      <node cat="inf" id="7" rel="vc">
+        <node id="8" index="1" rel="su"/>
+        <node id="9" infl="inf" pos="verb" rel="hd" root="word" sc="passive" sense="word"/>
+        <node cat="ppart" id="10" rel="vc">
+          <node id="11" index="1" rel="obj1"/>
+          <node cat="pp" id="12" rel="mod">
+            <node id="13" pos="prep" rel="hd" root="op" sense="op"/>
+            <node id="14" neclass="LOC" num="both" pos="name" rel="obj1" root="Thurlede" sense="Thurlede"/>
+          </node>
+          <node id="15" infl="psp" pos="verb" rel="hd" root="dien_op" sc="part_transitive(op)" sense="dien_op"/>
+          <node cat="whrel" id="16" rel="mod">
+            <node id="17" index="2" pos="pp" rel="rhd" root="waarvan" sense="waarvan" special="waar"/>
+            <node cat="ssub" id="18" rel="body">
+              <node aform="base" id="19" index="3" num="pl" pos="adj" rel="su" root="veel" sense="veel" special="a_noun"/>
+              <node id="20" infl="pl" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="present"/>
+              <node cat="inf" id="21" rel="vc">
+                <node id="22" index="2" rel="pc"/>
+                <node aform="base" id="23" infl="no_e" pos="adj" rel="mod" root="stellig" sense="stellig" vform="adj"/>
+                <node id="24" index="3" rel="su"/>
+                <node gen="both" id="25" num="sg" pos="noun" rel="predc" root="getuige" sense="getuige"/>
+                <node id="26" infl="inf" pos="verb" rel="hd" root="ben" sc="fixed([{[pc(van),np_pred(getuige)]}],no_passive)" sense="getuige-ben-van"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

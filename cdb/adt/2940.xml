@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="smain" id="2" rel="cnj">
+        <node cat="np" id="3" index="1" rel="su">
+          <node id="4" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="both" id="5" num="pl" pos="noun" rel="hd" root="mens" sense="mens"/>
+        </node>
+        <node id="6" infl="pl" pos="verb" rel="hd" root="kom" sc="aux(te_inf)" sense="kom" tense="present"/>
+        <node cat="inf" id="7" rel="vc">
+          <node id="8" index="1" rel="su"/>
+          <node id="9" pos="adv" rel="mod" root="hier" sense="hier" special="er_loc"/>
+          <node id="10" pos="adv" rel="mod" root="nu" sense="nu" special="tmp"/>
+          <node id="11" infl="inf" pos="verb" rel="hd" root="kijk" sc="intransitive" sense="kijk"/>
+        </node>
+      </node>
+      <node cat="smain" id="12" rel="cnj">
+        <node id="13" index="1" rel="su"/>
+        <node id="14" infl="pl" pos="verb" rel="hd" root="fotografeer" sc="intransitive" sense="fotografeer" tense="present"/>
+        <node id="15" pos="adv" rel="mod" root="wat" sense="wat"/>
+      </node>
+      <node id="16" pos="vg" rel="crd" root="maar" sense="maar"/>
+      <node cat="smain" id="17" rel="cnj">
+        <node id="18" index="1" rel="su"/>
+        <node id="19" infl="pl" pos="verb" rel="hd" root="vertrek" sc="intransitive" sense="vertrek" tense="present"/>
+        <node id="20" pos="adv" rel="mod" root="dan" sense="dan" special="tmp"/>
+        <node id="21" pos="adv" rel="mod" root="weer" sense="weer"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

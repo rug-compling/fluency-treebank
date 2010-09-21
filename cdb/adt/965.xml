@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="np" id="1" rel="--">
+      <node gen="de" id="2" num="sg" pos="noun" rel="hd" root="conclusie" sense="conclusie"/>
+      <node cat="pp" id="3" rel="mod">
+        <node id="4" pos="prep" rel="hd" root="van" sense="van"/>
+        <node cat="np" id="5" rel="obj1">
+          <node id="6" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="7" num="pl" pos="noun" rel="hd" root="Insead_hoogleraar" sense="Insead_hoogleraar"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

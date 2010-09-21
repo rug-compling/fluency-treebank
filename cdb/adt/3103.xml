@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="mwu" id="2" mwu_root="Dr. Mellema" mwu_sense="Dr. Mellema" rel="su">
+        <node id="3" neclass="PER" num="both" pos="name" rel="mwp" root="Dr." sense="Dr."/>
+        <node id="4" neclass="PER" num="both" pos="name" rel="mwp" root="Mellema" sense="Mellema"/>
+      </node>
+      <node id="5" infl="sg" pos="verb" rel="hd" root="vind" sc="tr_sbar" sense="vind" tense="past"/>
+      <node cat="cp" id="6" rel="vc">
+        <node id="7" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+        <node cat="ssub" id="8" rel="body">
+          <node id="9" pos="noun" rel="sup" root="het" sense="het" special="het"/>
+          <node cat="mwu" id="10" mwu_root="hoog tijd" mwu_sense="hoog tijd" rel="predc">
+            <node aform="base" id="11" infl="pred" pos="adj" rel="mwp" root="hoog" sc="subject_sbar" sense="hoog" vform="adj"/>
+            <node aform="base" id="12" infl="pred" pos="adj" rel="mwp" root="tijd" sc="subject_sbar" sense="tijd" vform="adj"/>
+          </node>
+          <node id="13" infl="sg" pos="verb" rel="hd" root="word" sc="copula_sbar" sense="word" tense="past"/>
+          <node cat="cp" id="14" rel="su">
+            <node id="15" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+            <node cat="ssub" id="16" rel="body">
+              <node cat="np" id="17" index="1" rel="su">
+                <node id="18" infl="een" pos="det" rel="det" root="een" sense="een"/>
+                <node gen="het" id="19" num="sg" pos="noun" rel="hd" root="onderzoek" sense="onderzoek"/>
+              </node>
+              <node id="20" infl="sg" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="past"/>
+              <node cat="ppart" id="21" rel="vc">
+                <node id="22" index="1" rel="obj1"/>
+                <node id="23" infl="psp" pos="verb" rel="hd" root="stel_in" sc="part_fixed(in,[{[acc(onderzoek),pc(naar)]}],norm_passive)" sense="onderzoek-stel_in-naar"/>
+                <node cat="pp" id="24" rel="pc">
+                  <node id="25" pos="prep" rel="hd" root="naar" sense="naar"/>
+                  <node cat="np" id="26" rel="obj1">
+                    <node id="27" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                    <node gen="de" id="28" num="sg" pos="noun" rel="hd" root="school_melk_verstrekking" sense="school_melk_verstrekking"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

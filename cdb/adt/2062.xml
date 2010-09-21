@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" pos="pp" rel="mod" root="daarvoor" sense="daarvoor" special="er"/>
+      <node id="3" infl="sg3" pos="verb" rel="hd" root="sta" sc="fixed([[op,het,spel]],no_passive)" sense="op-het-spel-sta" tense="present"/>
+      <node id="4" pos="adv" rel="mod" root="er" sense="er" special="er"/>
+      <node cat="whrel" id="5" rel="mod">
+        <node case="both" def="indef" gen="het" id="6" index="1" num="sg" per="thi" pos="pron" rel="rhd" root="wat" sense="wat" special="nparg" wh="ywh"/>
+        <node cat="ssub" id="7" rel="body">
+          <node id="8" index="1" rel="su"/>
+          <node cat="np" id="9" rel="obj1">
+            <node id="10" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node cat="conj" id="11" rel="mod">
+              <node aform="base" id="12" infl="e" pos="adj" rel="cnj" root="politiek" sense="politiek" vform="adj"/>
+              <node id="13" pos="vg" rel="crd" root="en" sense="en"/>
+              <node aform="base" id="14" infl="e" pos="adj" rel="cnj" root="financieel_economisch" sense="financieel_economisch" vform="adj"/>
+            </node>
+            <node gen="de" id="15" num="pl" pos="noun" rel="hd" root="macht_verhouding" sense="macht_verhouding"/>
+            <node cat="pp" id="16" rel="mod">
+              <node id="17" pos="prep" rel="hd" root="in" sense="in"/>
+              <node id="18" neclass="LOC" num="both" pos="name" rel="obj1" root="Europa" sense="Europa"/>
+            </node>
+          </node>
+          <node id="19" infl="sg3" pos="verb" rel="hd" root="betref" sc="transitive" sense="betref" tense="present"/>
+        </node>
+      </node>
+      <node cat="np" id="20" rel="su">
+        <node id="21" pos="adv" rel="mod" root="te" sense="te" special="intensifier"/>
+        <node aform="base" id="22" infl="no_e" pos="adj" rel="hd" root="veel" sense="veel" vform="adj"/>
+      </node>
+      <node cat="mwu" id="23" mwu_root="op het spel" mwu_sense="op het spel" rel="svp">
+        <node id="24" pos="fixed" rel="mwp" root="op" sense="op"/>
+        <node id="25" pos="fixed" rel="mwp" root="het" sense="het"/>
+        <node id="26" pos="fixed" rel="mwp" root="spel" sense="spel"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

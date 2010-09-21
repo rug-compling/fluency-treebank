@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" pos="adv" rel="mod" root="binnenkort" sense="binnenkort" special="tmp"/>
+      <node id="3" infl="sg3" pos="verb" rel="hd" root="kom_uit" sc="part_intransitive(uit)" sense="kom_uit" tense="present"/>
+      <node id="4" pos="adv" rel="mod" root="er" sense="er" special="er"/>
+      <node cat="pp" id="5" rel="mod">
+        <node id="6" pos="prep" rel="hd" root="van" sense="van"/>
+        <node id="7" neclass="PER" num="both" pos="name" rel="obj1" root="Rob" sense="Rob"/>
+      </node>
+      <node id="8" pos="adv" rel="mod" root="weer" sense="weer"/>
+      <node cat="np" id="9" rel="su">
+        <node id="10" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node gen="het" id="11" num="sg" pos="noun" rel="hd" root="grammofoon_plaat_DIM" sense="grammofoon_plaat_DIM"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

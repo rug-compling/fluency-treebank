@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="sv1" id="1" rel="--">
+      <node id="2" infl="sg" pos="verb" rel="hd" root="zeg" sc="transitive" sense="zeg" tense="past"/>
+      <node cat="np" id="3" rel="su">
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="Haarlem_trainer" sense="Haarlem_trainer"/>
+        <node cat="mwu" id="5" mwu_root="Barry Hughes" mwu_sense="Barry Hughes" rel="app">
+          <node id="6" neclass="PER" num="both" pos="name" rel="mwp" root="Barry" sense="Barry"/>
+          <node id="7" neclass="PER" num="both" pos="name" rel="mwp" root="Hughes" sense="Hughes"/>
+        </node>
+      </node>
+      <node cat="pp" id="8" rel="mod">
+        <node id="9" pos="prep" rel="hd" root="na" sense="na"/>
+        <node gen="de" id="10" num="sg" pos="noun" rel="obj1" root="afloop" sense="afloop"/>
+      </node>
+      <node cat="pp" id="11" rel="mod">
+        <node id="12" pos="prep" rel="hd" root="met" sense="met"/>
+        <node cat="np" id="13" rel="obj1">
+          <node aform="base" id="14" infl="e" pos="adj" rel="mod" root="schor" sense="schor" vform="adj"/>
+          <node gen="de" id="15" num="sg" pos="noun" rel="hd" root="stem" sense="stem"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

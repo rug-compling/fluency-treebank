@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="du" id="2" rel="nucl">
+        <node id="3" pos="comp" rel="dlink" root="maar" sc="root" sense="maar"/>
+        <node cat="smain" id="4" rel="nucl">
+          <node cat="np" id="5" rel="su">
+            <node id="6" pos="adv" rel="mod" root="ook" sc="modal" sense="ook"/>
+            <node id="7" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node id="8" pos="num" rel="mod" root="eerste" sense="eerste" special="rang"/>
+            <node gen="de" id="9" num="sg" pos="noun" rel="hd" root="minister" sense="minister"/>
+            <node id="10" neclass="PER" num="both" pos="name" rel="app" root="Papadopoelos" sense="Papadopoelos"/>
+          </node>
+          <node id="11" infl="sg" pos="verb" rel="hd" root="praat" sc="pc_pp(over)" sense="praat-over" tense="present"/>
+          <node cat="pp" id="12" rel="pc">
+            <node id="13" pos="prep" rel="hd" root="over" sense="over"/>
+            <node gen="de" id="14" num="sg" pos="noun" rel="obj1" root="democratie" sense="democratie"/>
+          </node>
+        </node>
+      </node>
+      <node cat="sv1" id="15" rel="tag">
+        <node id="16" infl="sg" pos="verb" rel="hd" root="antwoord" sc="sbar" sense="antwoord" tense="past"/>
+        <node cat="np" id="17" rel="su">
+          <node id="18" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="19" num="sg" pos="noun" rel="hd" root="advocaat" sense="advocaat"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

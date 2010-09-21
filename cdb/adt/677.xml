@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node gen="de" id="2" num="sg" pos="noun" rel="su" root="u" sense="u"/>
+      <node id="3" infl="sg3" pos="verb" rel="hd" root="zie" sc="sbar" sense="zie" tense="present"/>
+      <node cat="cp" id="4" rel="vc">
+        <node id="5" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+        <node cat="ssub" id="6" rel="body">
+          <node case="both" def="def" gen="de" id="7" num="both" per="thi" pos="pron" rel="su" root="ze" sense="ze" special="wkpro" wh="nwh"/>
+          <node case="dat_acc" def="def" gen="de" id="8" index="1" num="sg" per="fir" pos="pron" rel="obj2" root="mij" sense="mij" wh="nwh"/>
+          <node id="9" infl="pl" pos="verb" rel="hd" root="schrijf" sc="np_vp_obj" sense="schrijf" tense="present"/>
+          <node cat="ti" id="10" rel="vc">
+            <node id="11" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+            <node cat="inf" id="12" rel="body">
+              <node id="13" index="1" rel="su"/>
+              <node cat="ppart" id="14" rel="predc">
+                <node id="15" pos="pp" rel="pc" root="ertoe" sense="ertoe" special="er"/>
+                <node aform="base" id="16" infl="no_e" pos="adj" rel="hd" root="bereid" sc="pp(tot)" sense="bereid-tot" vform="psp"/>
+              </node>
+              <node id="17" infl="inf" pos="verb" rel="hd" root="ben" sc="copula" sense="ben"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

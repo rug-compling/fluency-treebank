@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node id="4" infl="pl_num" pos="det" rel="det" root="beide" sense="beide" special="adj_number"/>
+        <node aform="base" id="5" infl="e" pos="adj" rel="mod" root="zelfstandig" sense="zelfstandig" vform="adj"/>
+        <node gen="het" id="6" num="pl" pos="noun" rel="hd" root="kerkgenootschap" sense="kerkgenootschap"/>
+      </node>
+      <node id="7" infl="pl" pos="verb" rel="hd" root="houd" sc="transitive" sense="houd" tense="past"/>
+      <node cat="np" id="8" rel="mod">
+        <node id="9" infl="elke" pos="det" rel="det" root="elk" sense="elk" wh="nwh"/>
+        <node gen="de" id="10" num="sg" pos="noun" rel="hd" root="week" sense="week" special="tmp"/>
+      </node>
+      <node cat="np" id="11" rel="obj1">
+        <node id="12" infl="pron" pos="det" rel="det" root="hun" sense="hun"/>
+        <node gen="de" id="13" num="pl" pos="noun" rel="hd" root="samenkomst" sense="samenkomst"/>
+      </node>
+      <node cat="pp" id="14" rel="mod">
+        <node id="15" pos="prep" rel="hd" root="op" sense="op"/>
+        <node cat="np" id="16" rel="obj1">
+          <node id="17" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node gen="de" id="18" num="sg" pos="noun" rel="hd" root="afstand" sense="afstand" special="meas_mod"/>
+          <node cat="pp" id="19" rel="mod">
+            <node id="20" pos="prep" rel="hd" root="van" sense="van"/>
+            <node cat="np" id="21" rel="obj1">
+              <node id="22" infl="pl_num" pos="num" rel="det" root="700" sense="700" special="hoofd"/>
+              <node gen="de" id="23" num="meas" pos="noun" rel="hd" root="meter" sense="meter" special="meas_mod"/>
+              <node cat="pp" id="24" rel="mod">
+                <node id="25" pos="prep" rel="hd" root="van" sense="van"/>
+                <node case="dat_acc" def="def" gen="de" id="26" num="pl" per="thi" pos="pron" rel="obj1" root="elkaar" sense="elkaar" wh="nwh"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

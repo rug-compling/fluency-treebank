@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="sv1" id="1" rel="--">
+      <node id="2" infl="pl" pos="verb" rel="hd" root="ga" sc="aux(inf)" sense="ga" tense="present"/>
+      <node case="both" def="def" gen="de" id="3" index="1" num="both" per="thi" pos="pron" rel="su" root="ze" sense="ze" special="wkpro" wh="nwh"/>
+      <node cat="inf" id="4" rel="vc">
+        <node id="5" index="1" rel="su"/>
+        <node id="6" pos="adv" rel="mod" root="nu" sense="nu" special="tmp"/>
+        <node id="7" neclass="PER" num="both" pos="name" rel="obj1" root="Enigmatica" sense="Enigmatica"/>
+        <node id="8" infl="inf" pos="verb" rel="hd" root="studeer" sc="np_ld_pp" sense="studeer"/>
+        <node cat="pp" id="9" rel="ld">
+          <node id="10" pos="prep" rel="hd" root="aan" sense="aan"/>
+          <node cat="np" id="11" rel="obj1">
+            <node id="12" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node aform="base" id="13" infl="e" pos="adj" rel="mod" root="puzzologische" sense="puzzologische" vform="adj"/>
+            <node gen="de" id="14" num="sg" pos="noun" rel="hd" root="faculteit" sense="faculteit"/>
+            <node cat="pp" id="15" rel="mod">
+              <node id="16" pos="prep" rel="hd" root="van" sense="van"/>
+              <node cat="np" id="17" rel="obj1">
+                <node id="18" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                <node id="19" neclass="PER" num="both" pos="name" rel="hd" root="R.U." sense="R.U."/>
+                <node cat="pp" id="20" rel="mod">
+                  <node id="21" pos="prep" rel="hd" root="te" sc="nodet" sense="te"/>
+                  <node id="22" neclass="PER" num="both" pos="name" rel="obj1" root="Puzzolanie" sense="Puzzolanie"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

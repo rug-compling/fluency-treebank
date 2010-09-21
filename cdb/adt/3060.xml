@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="het" id="4" num="sg" pos="noun" rel="hd" root="bedrijf" sense="bedrijf"/>
+      </node>
+      <node id="5" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="passive" sense="ben" tense="present"/>
+      <node cat="ppart" id="6" rel="vc">
+        <node id="7" index="1" rel="obj1"/>
+        <node cat="pp" id="8" rel="mod">
+          <node id="9" pos="prep" rel="hd" root="tot" sense="tot"/>
+          <node cat="np" id="10" rel="obj1">
+            <node gen="het" id="11" num="sg" pos="noun" rel="hd" root="eind" sense="eind" special="tmp"/>
+            <node id="12" neclass="year" pos="noun" rel="mod" root="1970" sense="1970"/>
+          </node>
+        </node>
+        <node cat="pp" id="13" rel="mod">
+          <node id="14" pos="prep" rel="hd" root="in" sense="in"/>
+          <node cat="np" id="15" rel="obj1">
+            <node id="16" infl="alle" pos="det" rel="det" root="alle" sense="alle" wh="nwh"/>
+            <node gen="de" id="17" num="pl" pos="noun" rel="hd" root="afdeling" sense="afdeling"/>
+          </node>
+        </node>
+        <node aform="base" id="18" infl="no_e" pos="adj" rel="mod" root="volledig" sense="volledig" vform="adj"/>
+        <node cat="pp" id="19" rel="pc">
+          <node id="20" pos="prep" rel="hd" root="van" sense="van"/>
+          <node gen="de" id="21" num="pl" pos="noun" rel="obj1" root="opdracht" sense="opdracht"/>
+        </node>
+        <node id="22" infl="psp" pos="verb" rel="hd" root="voorzie" sc="np_pc_pp(van)" sense="voorzie-van"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

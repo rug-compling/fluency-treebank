@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="smain" id="2" rel="dp">
+        <node cat="np" id="3" rel="su">
+          <node id="4" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="5" num="sg" pos="noun" rel="hd" root="toekenning" sense="toekenning"/>
+        </node>
+        <node id="6" infl="sg" pos="verb" rel="hd" root="geschied" sc="intransitive" sense="geschied" tense="past"/>
+        <node cat="pp" id="7" rel="mod">
+          <node id="8" pos="adv" rel="mod" root="mede" sc="comp_prep_verb" sense="mede"/>
+          <node id="9" pos="prep" rel="hd" root="tegen" sense="tegen"/>
+          <node cat="np" id="10" rel="obj1">
+            <node id="11" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="12" num="sg" pos="noun" rel="hd" root="achtergrond" sense="achtergrond"/>
+            <node cat="pp" id="13" rel="mod">
+              <node id="14" pos="prep" rel="hd" root="van" sense="van"/>
+              <node id="15" neclass="ORG" num="both" pos="name" rel="obj1" root="N&apos;70" sense="N&apos;70"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node cat="smain" id="16" rel="dp">
+        <node id="17" pos="adv" rel="mod" root="aldus" sense="aldus"/>
+        <node id="18" infl="sg" pos="verb" rel="hd" root="deel_mee" sc="part_intransitive(mee)" sense="deel_mee" tense="past"/>
+        <node cat="np" id="19" rel="su">
+          <node id="20" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node id="21" neclass="ORG" num="both" pos="name" rel="hd" root="ANWB" sense="ANWB"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

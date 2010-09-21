@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg" pos="verb" rel="hd" root="kan" sc="aux(inf)" sense="kan" tense="past"/>
+      <node cat="mwu" id="3" index="1" mwu_root="Ties Kruize" mwu_sense="Ties Kruize" rel="su">
+        <node id="4" neclass="PER" num="both" pos="name" rel="mwp" root="Ties" sense="Ties"/>
+        <node id="5" neclass="PER" num="both" pos="name" rel="mwp" root="Kruize" sense="Kruize"/>
+      </node>
+      <node cat="inf" id="6" rel="vc">
+        <node cat="pp" id="7" rel="mod">
+          <node id="8" pos="adv" rel="mod" root="pas" sc="modal" sense="pas"/>
+          <node cat="np" id="9" rel="mod">
+            <node id="10" infl="pl_num" pos="num" rel="det" root="drie" sense="drie" special="hoofd"/>
+            <node gen="de" id="11" num="pl" pos="noun" rel="hd" root="minuut" sense="minuut" special="tmp"/>
+          </node>
+          <node id="12" pos="prep" rel="hd" root="voor" sense="voor"/>
+          <node gen="de" id="13" num="sg" pos="noun" rel="obj1" root="tijd" sense="tijd" special="tmp"/>
+        </node>
+        <node id="14" index="1" rel="su"/>
+        <node cat="np" id="15" rel="obj1">
+          <node id="16" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+          <node aform="base" id="17" infl="e" pos="adj" rel="mod" root="win" sense="win" vform="gerund"/>
+          <node gen="het" id="18" num="sg" pos="noun" rel="hd" root="doelpunt" sense="doelpunt"/>
+        </node>
+        <node id="19" infl="inf" pos="verb" rel="hd" root="scoor" sc="transitive" sense="scoor"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

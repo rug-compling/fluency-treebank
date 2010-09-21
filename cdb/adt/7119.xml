@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" index="1" infl="het" pos="det" rel="su" root="dit" sense="dit" wh="nwh"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="past"/>
+      <node cat="ppart" id="4" rel="vc">
+        <node id="5" index="1" rel="obj1"/>
+        <node id="6" pos="adv" rel="mod" root="gisteravond" sense="gisteravond" special="tmp"/>
+        <node cat="pp" id="7" rel="mod">
+          <node id="8" pos="prep" rel="hd" root="door" sense="door"/>
+          <node cat="np" id="9" rel="obj1">
+            <node id="10" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+            <node gen="het" id="11" num="sg" pos="noun" rel="hd" root="actie_comité" sense="actie_comité"/>
+            <node cat="rel" id="12" rel="mod">
+              <node case="no_obl" gen="het" id="13" index="2" pos="pron" rel="rhd" root="dat" sense="dat" wh="rel"/>
+              <node cat="ssub" id="14" rel="body">
+                <node id="15" index="2" rel="su"/>
+                <node cat="pp" id="16" rel="mod">
+                  <node id="17" pos="prep" rel="hd" root="in" sense="in"/>
+                  <node cat="np" id="18" rel="obj1">
+                    <node id="19" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+                    <node gen="het" id="20" num="sg" pos="noun" rel="hd" root="CJMV_gebouw" sense="CJMV_gebouw"/>
+                    <node cat="pp" id="21" rel="mod">
+                      <node id="22" pos="prep" rel="hd" root="in" sense="in"/>
+                      <node id="23" neclass="LOC" num="both" pos="name" rel="obj1" root="Groningen" sense="Groningen"/>
+                    </node>
+                  </node>
+                </node>
+                <node id="24" infl="sg" pos="verb" rel="hd" root="vergader" sc="intransitive" sense="vergader" tense="past"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node id="25" infl="psp" pos="verb" rel="hd" root="besluit" sc="transitive" sense="besluit"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

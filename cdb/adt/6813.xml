@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node cat="mwu" id="4" mwu_root="NV Nederlandsche Kabelfabrieken" mwu_sense="NV Nederlandsche Kabelfabrieken" rel="hd">
+          <node id="5" neclass="ORG" num="both" pos="name" rel="mwp" root="NV" sense="NV"/>
+          <node id="6" neclass="ORG" num="both" pos="name" rel="mwp" root="Nederlandsche" sense="Nederlandsche"/>
+          <node id="7" neclass="ORG" num="both" pos="name" rel="mwp" root="Kabelfabrieken" sense="Kabelfabrieken"/>
+        </node>
+      </node>
+      <node id="8" infl="sg_heeft" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="present"/>
+      <node cat="ppart" id="9" rel="vc">
+        <node id="10" index="1" rel="su"/>
+        <node cat="pp" id="11" rel="mod">
+          <node id="12" pos="prep" rel="hd" root="in" sense="in"/>
+          <node id="13" neclass="year" pos="noun" rel="obj1" root="1969" sense="1969"/>
+        </node>
+        <node id="14" infl="psp" pos="verb" rel="hd" root="boek" sc="transitive" sense="boek"/>
+        <node cat="np" id="15" rel="obj1">
+          <node gen="de" id="16" num="sg" pos="noun" rel="hd" root="winst" sense="winst"/>
+          <node cat="ap" id="17" rel="det">
+            <node cat="np" id="18" rel="me">
+              <node id="19" infl="pl_num" pos="num" rel="det" root="15" sense="15" special="hoofd"/>
+              <node gen="both" id="20" num="meas" pos="noun" rel="hd" root="procent" sense="procent" special="meas_mod"/>
+            </node>
+            <node aform="compar" id="21" infl="meer" pos="adj" rel="hd" root="meer" sense="meer" vform="adj"/>
+            <node cat="cp" id="22" rel="obcomp">
+              <node id="23" pos="comparative" rel="cmp" root="dan" sense="dan"/>
+              <node cat="pp" id="24" rel="body">
+                <node id="25" pos="prep" rel="hd" root="over" sense="over"/>
+                <node id="26" neclass="year" pos="noun" rel="obj1" root="1968" sense="1968"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

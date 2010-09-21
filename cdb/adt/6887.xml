@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="smain" id="2" rel="cnj">
+        <node cat="ap" id="3" index="1" rel="mod">
+          <node cat="np" id="4" rel="me">
+            <node id="5" infl="enkele" pos="det" rel="det" root="enkel" sense="enkel" special="adj_number"/>
+            <node gen="de" id="6" num="pl" pos="noun" rel="hd" root="seconde" sense="seconde" special="tmp"/>
+          </node>
+          <node aform="compar" id="7" infl="no_e" pos="adj" rel="hd" root="laat" sense="laat" vform="adj"/>
+        </node>
+        <node id="8" infl="sg3" pos="verb" rel="hd" root="beland" sc="ld_pp" sense="beland" tense="present"/>
+        <node cat="np" id="9" rel="su">
+          <node id="10" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="11" num="sg" pos="noun" rel="hd" root="bal" sense="bal"/>
+        </node>
+        <node cat="pp" id="12" rel="ld">
+          <node id="13" pos="prep" rel="hd" root="tussen" sense="tussen"/>
+          <node cat="np" id="14" rel="obj1">
+            <node id="15" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="16" num="pl" pos="noun" rel="hd" root="fotograaf" sense="fotograaf"/>
+          </node>
+        </node>
+      </node>
+      <node id="17" pos="vg" rel="crd" root="en" sense="en"/>
+      <node cat="smain" id="18" rel="cnj">
+        <node id="19" index="1" rel="mod"/>
+        <node id="20" infl="sg_heeft" pos="verb" rel="hd" root="heb" sc="np_er_pc_pp(bij)" sense="heb-bij" tense="present"/>
+        <node id="21" neclass="ORG" num="both" pos="name" rel="su" root="Feijenoord" sense="Feijenoord"/>
+        <node cat="np" id="22" rel="obj1">
+          <node id="23" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node gen="het" id="24" num="sg" pos="noun" rel="hd" root="probleem_kind" sense="probleem_kind"/>
+        </node>
+        <node cat="pp" id="25" rel="pc">
+          <node id="26" pos="adv" rel="obj1" root="er" sense="er" special="er"/>
+          <node id="27" pos="prep" rel="hd" root="bij" sense="bij"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

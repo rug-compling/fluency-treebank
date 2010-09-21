@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="heer" sense="heer"/>
+        <node cat="mwu" id="5" mwu_root="A. Sikking" mwu_sense="A. Sikking" rel="app">
+          <node id="6" neclass="PER" num="both" pos="name" rel="mwp" root="A." sense="A."/>
+          <node id="7" neclass="PER" num="both" pos="name" rel="mwp" root="Sikking" sense="Sikking"/>
+        </node>
+        <node cat="pp" id="8" rel="mod">
+          <node id="9" pos="prep" rel="hd" root="uit" sense="uit"/>
+          <node id="10" neclass="LOC" num="both" pos="name" rel="obj1" root="Bussum" sense="Bussum"/>
+        </node>
+      </node>
+      <node id="11" infl="modal_not_u" pos="verb" rel="hd" root="kan" sc="aux(inf)" sense="kan" tense="present"/>
+      <node cat="inf" id="12" rel="vc">
+        <node id="13" index="1" rel="su"/>
+        <node id="14" pos="adv" rel="mod" root="straks" sense="straks" special="tmp"/>
+        <node id="15" infl="inf" pos="verb" rel="hd" root="zeg" sc="vp" sense="zeg"/>
+        <node cat="ti" id="16" rel="vc">
+          <node id="17" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+          <node cat="inf" id="18" rel="body">
+            <node id="19" index="1" rel="su"/>
+            <node id="20" infl="inf" pos="verb" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben"/>
+            <node cat="ppart" id="21" rel="vc">
+              <node id="22" index="1" rel="su"/>
+              <node cat="pp" id="23" rel="mod">
+                <node id="24" pos="prep" rel="hd" root="voor" sense="voor"/>
+                <node cat="np" id="25" rel="obj1">
+                  <node id="26" infl="een" pos="det" rel="det" root="een" sense="een"/>
+                  <node gen="de" id="27" num="sg" pos="noun" rel="hd" root="dag" sense="dag" special="tmp"/>
+                </node>
+              </node>
+              <node gen="het" id="28" num="sg" pos="noun" rel="predc" root="raad_lid" sense="raad_lid"/>
+              <node id="29" infl="psp" pos="verb" rel="hd" root="ben" sc="copula" sense="ben"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

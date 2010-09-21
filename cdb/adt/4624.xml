@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="het" id="4" num="sg" pos="noun" rel="hd" root="referendum" sense="referendum"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="7" rel="obj1">
+            <node id="8" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node id="9" neclass="ORG" num="both" pos="name" rel="hd" root="ABC" sense="ABC"/>
+          </node>
+        </node>
+      </node>
+      <node id="10" infl="modal_not_u" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="present"/>
+      <node cat="inf" id="11" rel="vc">
+        <node id="12" index="1" rel="su"/>
+        <node cat="np" id="13" rel="mod">
+          <node id="14" infl="de" pos="det" rel="det" root="deze" sense="deze" wh="nwh"/>
+          <node gen="de" id="15" num="sg" pos="noun" rel="hd" root="week" sense="week" special="tmp"/>
+        </node>
+        <node id="16" infl="inf" pos="verb" rel="hd" root="heb_plaats" sc="part_intransitive(plaats)" sense="heb_plaats"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

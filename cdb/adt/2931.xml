@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node gen="de" id="3" num="sg" pos="noun" rel="hd" root="KNLTB_voorzitter" sense="KNLTB_voorzitter"/>
+        <node cat="mwu" id="4" mwu_root="Van Hoegee" mwu_sense="Van Hoegee" rel="app">
+          <node id="5" neclass="PER" num="both" pos="name" rel="mwp" root="Van" sense="Van"/>
+          <node id="6" neclass="PER" num="both" pos="name" rel="mwp" root="Hoegee" sense="Hoegee"/>
+        </node>
+      </node>
+      <node id="7" infl="sg" pos="verb" rel="hd" root="zorg" sc="pc_pp(voor)" sense="zorg-voor" tense="past"/>
+      <node id="8" pos="adv" rel="mod" root="&apos;s avonds" sense="&apos;s avonds" special="tmp"/>
+      <node id="9" pos="adv" rel="mod" root="tenslotte" sense="tenslotte" special="sentence"/>
+      <node aform="base" id="10" infl="pred" pos="adj" rel="mod" root="wel" sense="wel" vform="adj"/>
+      <node cat="pp" id="11" rel="pc">
+        <node id="12" pos="prep" rel="hd" root="voor" sense="voor"/>
+        <node cat="np" id="13" rel="obj1">
+          <node id="14" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="15" num="sg" pos="noun" rel="hd" root="oplossing" sense="oplossing"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

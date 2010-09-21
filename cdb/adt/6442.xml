@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node gen="de" id="3" num="sg" pos="noun" rel="hd" root="bioloog" sense="bioloog"/>
+        <node cat="mwu" id="4" mwu_root="Van Haaften" mwu_sense="Van Haaften" rel="app">
+          <node id="5" neclass="PER" num="both" pos="name" rel="mwp" root="Van" sense="Van"/>
+          <node id="6" neclass="PER" num="both" pos="name" rel="mwp" root="Haaften" sense="Haaften"/>
+        </node>
+        <node cat="ppart" id="7" rel="mod">
+          <node id="8" pos="pp" rel="mod" root="daarmee" sense="daarmee" special="er"/>
+          <node aform="base" id="9" infl="no_e" pos="adj" rel="hd" root="belast" sense="belast" vform="psp"/>
+        </node>
+      </node>
+      <node id="10" infl="sg3" pos="verb" rel="hd" root="doe" sc="transitive_ndev" sense="doe" tense="present"/>
+      <node id="11" infl="het" pos="det" rel="obj1" root="dat" sense="dat" wh="nwh"/>
+      <node cat="np" id="12" rel="mod">
+        <node id="13" infl="pl_num" pos="num" rel="det" root="twee" sense="twee" special="hoofd"/>
+        <node gen="de" id="14" num="meas" pos="noun" rel="hd" root="maal" sense="maal" special="tmp"/>
+      </node>
+      <node cat="pp" id="15" rel="mod">
+        <node id="16" pos="prep" rel="hd" root="per" sense="per"/>
+        <node gen="het" id="17" num="meas" pos="noun" rel="obj1" root="jaar" sense="jaar" special="tmp"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

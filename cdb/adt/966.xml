@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="pc">
+        <node id="3" pos="prep" rel="hd" root="van" sense="van"/>
+        <node cat="np" id="4" rel="obj1">
+          <node aform="base" id="5" infl="e" pos="adj" rel="mod" root="sociaal" sense="sociaal" vform="adj"/>
+          <node gen="de" id="6" num="sg" pos="noun" rel="hd" root="mobiliteit" sense="mobiliteit"/>
+        </node>
+      </node>
+      <node id="7" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="pc_pp(van)" sense="ben-van" tense="present"/>
+      <node cat="pp" id="8" rel="mod">
+        <node id="9" pos="prep" rel="hd" root="in" sense="in"/>
+        <node id="10" neclass="LOC" num="both" pos="name" rel="obj1" root="Europa" sense="Europa"/>
+      </node>
+      <node id="11" pos="adv" rel="mod" root="nog" sense="nog"/>
+      <node id="12" pos="adv" rel="mod" root="nauwelijks" sense="nauwelijks"/>
+      <node gen="de" id="13" num="sg" pos="noun" rel="su" root="sprake" sense="sprake"/>
+    </node>
+  </node>
+</alpino_adt>

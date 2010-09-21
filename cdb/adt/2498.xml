@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="deze" sense="deze" wh="nwh"/>
+        <node aform="base" id="4" infl="e" pos="adj" rel="mod" root="ongrijpbaar" sense="ongrijpbaar" vform="adj"/>
+        <node gen="de" id="5" num="pl" pos="noun" rel="hd" root="factor" sense="factor"/>
+      </node>
+      <node id="6" infl="pl" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+      <node cat="pp" id="7" rel="mod">
+        <node id="8" pos="prep" rel="hd" root="voor" sense="voor"/>
+        <node cat="np" id="9" rel="obj1">
+          <node id="10" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node aform="base" id="11" infl="e" pos="adj" rel="mod" root="Amerikaans" sense="Amerikaans" vform="adj"/>
+          <node gen="de" id="12" num="sg" pos="noun" rel="hd" root="president_verkiezing" sense="president_verkiezing" special="tmp"/>
+        </node>
+      </node>
+      <node id="13" pos="adv" rel="mod" root="niettemin" sense="niettemin" special="sentence"/>
+      <node cat="ap" id="14" rel="predc">
+        <node aform="base" id="15" infl="no_e" pos="adj" rel="hd" root="belangrijk" sense="belangrijk" vform="adj"/>
+        <node cat="advp" id="16" rel="mod">
+          <node comparative="als" id="17" pos="adv" rel="hd" root="even" sense="even" special="comp"/>
+          <node cat="cp" id="18" rel="obcomp">
+            <node id="19" pos="comparative" rel="cmp" root="als" sense="als"/>
+            <node cat="np" id="20" rel="body">
+              <node id="21" infl="een" pos="det" rel="det" root="een" sense="een"/>
+              <node aform="base" id="22" infl="no_e" pos="adj" rel="mod" root="goed" sense="goed" vform="adj"/>
+              <node cat="ppart" id="23" rel="mod">
+                <node cat="pp" id="24" rel="mod">
+                  <node id="25" pos="prep" rel="hd" root="in" sense="in"/>
+                  <node case="dat_acc" def="def" gen="de" id="26" num="pl" per="thi" pos="pron" rel="obj1" root="elkaar" sense="elkaar" wh="nwh"/>
+                </node>
+                <node aform="base" id="27" infl="no_e" pos="adj" rel="hd" root="getimmerd" sense="getimmerd" vform="psp"/>
+              </node>
+              <node gen="het" id="28" num="sg" pos="noun" rel="hd" root="partij_programma" sense="partij_programma"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

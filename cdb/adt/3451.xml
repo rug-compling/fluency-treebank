@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node aform="base" id="2" infl="no_e" pos="adj" rel="mod" root="gelukkig" sense="gelukkig" vform="adj"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="maak_goed" sc="part_transitive(goed)" sense="maak_goed" tense="past"/>
+      <node cat="np" id="4" rel="su">
+        <node id="5" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="het" id="6" num="sg" pos="noun" rel="hd" root="fenomeen" sense="fenomeen"/>
+        <node cat="mwu" id="7" mwu_root="Ritchie Havens" mwu_sense="Ritchie Havens" rel="app">
+          <node id="8" neclass="PER" num="both" pos="name" rel="mwp" root="Ritchie" sense="Ritchie"/>
+          <node id="9" neclass="PER" num="both" pos="name" rel="mwp" root="Havens" sense="Havens"/>
+        </node>
+      </node>
+      <node gen="het" id="10" num="sg" pos="noun" rel="obj1" root="alles" sense="alles"/>
+    </node>
+  </node>
+</alpino_adt>

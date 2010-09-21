@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node id="2" pos="comp" rel="dlink" root="maar" sc="root" sense="maar"/>
+      <node cat="smain" id="3" rel="nucl">
+        <node case="nom" def="def" gen="de" id="4" index="1" num="sg" per="fir" pos="pron" rel="su" root="ik" sense="ik" wh="nwh"/>
+        <node id="5" infl="sg" pos="verb" rel="hd" root="wil" sc="modifier(aux(inf))" sense="wil" tense="past"/>
+        <node cat="inf" id="6" rel="vc">
+          <node id="7" index="1" rel="su"/>
+          <node case="dat_acc" def="def" gen="de" id="8" num="sg" per="fir" pos="pron" rel="obj1" root="me" sense="me" special="wkpro" wh="nwh"/>
+          <node id="9" pos="adv" rel="mod" root="toch" sense="toch"/>
+          <node id="10" pos="adv" rel="mod" root="niet" sense="niet"/>
+          <node cat="ap" id="11" rel="mod">
+            <node id="12" pos="adv" rel="mod" root="te" sense="te" special="intensifier"/>
+            <node aform="base" id="13" infl="no_e" pos="adj" rel="hd" root="veel" sense="veel" vform="adj"/>
+          </node>
+          <node id="14" infl="inf" pos="verb" rel="hd" root="wind_op" sc="part_transitive(op)" sense="wind_op"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

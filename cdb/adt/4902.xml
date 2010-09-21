@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="smain" id="2" rel="dp">
+        <node cat="conj" id="3" rel="su">
+          <node gen="de" id="4" num="sg" pos="noun" rel="cnj" root="kleur" sense="kleur"/>
+          <node gen="de" id="5" num="sg" pos="noun" rel="cnj" root="kledij" sense="kledij"/>
+          <node id="6" pos="vg" rel="crd" root="en" sense="en"/>
+          <node gen="de" id="7" num="sg" pos="noun" rel="cnj" root="beschaving" sense="beschaving"/>
+        </node>
+        <node id="8" infl="pl" pos="verb" rel="hd" root="los_op" sc="part_refl(op)" sense="zich-los_op" tense="present"/>
+        <node id="9" num="both" per="u_thi" pos="pron" refl="refl" rel="se" root="zich" sense="zich"/>
+      </node>
+      <node cat="smain" id="10" rel="dp">
+        <node gen="de" id="11" index="1" num="pl" pos="noun" rel="su" root="taal" sense="taal"/>
+        <node id="12" infl="pl" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="present"/>
+        <node cat="ppart" id="13" rel="vc">
+          <node id="14" index="1" rel="obj1"/>
+          <node id="15" infl="psp" pos="verb" rel="hd" root="herleid" sc="np_pc_pp(tot)" sense="herleid-tot"/>
+          <node cat="pp" id="16" rel="pc">
+            <node id="17" pos="prep" rel="hd" root="tot" sense="tot"/>
+            <node cat="conj" id="18" rel="obj1">
+              <node gen="het" id="19" num="pl" pos="noun" rel="cnj" root="gebaar" sense="gebaar"/>
+              <node id="20" pos="vg" rel="crd" root="en" sense="en"/>
+              <node gen="de" id="21" num="sg" pos="noun" rel="cnj" root="zwijgzaamheid" sense="zwijgzaamheid"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

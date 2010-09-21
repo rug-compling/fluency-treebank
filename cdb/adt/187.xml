@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="smain" id="2" rel="dp">
+        <node cat="cp" id="3" rel="vc">
+          <node id="4" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+          <node cat="ssub" id="5" rel="body">
+            <node cat="np" id="6" index="1" rel="su">
+              <node id="7" infl="alle" pos="det" rel="det" root="alle" sense="alle" wh="nwh"/>
+              <node gen="het" id="8" num="pl" pos="noun" rel="hd" root="taboe" sense="taboe"/>
+            </node>
+            <node id="9" infl="pl" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="present"/>
+            <node cat="inf" id="10" rel="vc">
+              <node id="11" index="1" rel="su"/>
+              <node id="12" pos="adv" rel="mod" root="weer" sense="weer"/>
+              <node id="13" infl="inf" pos="verb" rel="hd" root="keer_terug" sc="part_intransitive(terug)" sense="keer_terug"/>
+            </node>
+          </node>
+        </node>
+        <node id="14" infl="sg3" pos="verb" rel="hd" root="geloof" sc="sbar_obj" sense="geloof" tense="present"/>
+        <node id="15" neclass="PER" num="both" pos="name" rel="su" root="Serge" sense="Serge"/>
+        <node id="16" pos="adv" rel="mod" root="ook" sense="ook" special="sentence"/>
+        <node id="17" pos="adv" rel="mod" root="niet" sense="niet"/>
+      </node>
+      <node cat="smain" id="18" rel="dp">
+        <node id="19" pos="adv" rel="mod" root="maar" sense="maar"/>
+        <node id="20" infl="sg3" pos="verb" rel="hd" root="zeg" sc="intransitive" sense="zeg" tense="present"/>
+        <node case="nom" def="def" gen="de" id="21" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

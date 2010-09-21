@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node case="nom" def="def" gen="de" id="2" index="1" num="sg" per="thi" pos="pron" rel="su" root="men" sense="men" wh="nwh"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="besluit" sc="vp" sense="besluit" tense="past"/>
+      <node cat="conj" id="4" rel="vc">
+        <node cat="ti" id="5" rel="cnj">
+          <node id="6" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+          <node cat="inf" id="7" rel="body">
+            <node id="8" index="1" rel="su"/>
+            <node cat="np" id="9" rel="obj1">
+              <node id="10" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node id="11" infl="pl_num" pos="num" rel="det" root="vier" sense="vier" special="hoofd"/>
+              <node gen="de" id="12" num="pl" pos="noun" rel="hd" root="boom" sense="boom"/>
+            </node>
+            <node id="13" pos="adv" rel="mod" root="niet" sense="niet"/>
+            <node id="14" infl="inf" pos="verb" rel="hd" root="hak_om" sc="part_transitive(om)" sense="hak_om"/>
+          </node>
+        </node>
+        <node id="15" pos="vg" rel="crd" root="maar" sense="maar"/>
+        <node cat="ti" id="16" rel="cnj">
+          <node id="17" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+          <node cat="inf" id="18" rel="body">
+            <node id="19" index="1" rel="su"/>
+            <node case="both" def="def" gen="de" id="20" num="both" per="thi" pos="pron" rel="obj1" root="ze" sense="ze" special="wkpro" wh="nwh"/>
+            <node cat="pp" id="21" rel="ld">
+              <node id="22" pos="prep" rel="hd" root="naar" sense="naar"/>
+              <node cat="np" id="23" rel="obj1">
+                <node id="24" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+                <node id="25" neclass="ORG" num="both" pos="name" rel="hd" root="Noorderplantsoen" sense="Noorderplantsoen"/>
+              </node>
+            </node>
+            <node id="26" infl="inf" pos="verb" rel="hd" root="breng_over" sc="part_np_ld_pp(over)" sense="breng_over"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

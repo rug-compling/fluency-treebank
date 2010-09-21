@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="sv1" id="2" rel="sat">
+        <node id="3" infl="sg" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="past"/>
+        <node cat="np" id="4" index="1" rel="su">
+          <node id="5" infl="de" pos="det" rel="det" root="die" sense="die" wh="nwh"/>
+          <node gen="de" id="6" num="sg" pos="noun" rel="hd" root="basis" sense="basis"/>
+        </node>
+        <node cat="ppart" id="7" rel="vc">
+          <node id="8" index="1" rel="su"/>
+          <node id="9" infl="psp" pos="verb" rel="hd" root="ontbreek" sc="intransitive" sense="ontbreek"/>
+        </node>
+      </node>
+      <node cat="smain" id="10" rel="nucl">
+        <node id="11" infl="pl" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="past"/>
+        <node cat="np" id="12" index="2" rel="su">
+          <node id="13" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="het" id="14" num="pl" pos="noun" rel="hd" root="gevolg" sense="gevolg"/>
+          <node cat="pp" id="15" rel="mod">
+            <node id="16" pos="prep" rel="hd" root="van" sense="van"/>
+            <node cat="np" id="17" rel="obj1">
+              <node id="18" infl="pron" neclass="PER" pos="det" rel="det" root="Hitler" sense="Hitler" special="name"/>
+              <node gen="het" id="19" num="sg" pos="noun" rel="hd" root="Ardennen_offensief" sense="Ardennen_offensief"/>
+            </node>
+          </node>
+        </node>
+        <node cat="inf" id="20" rel="vc">
+          <node id="21" index="2" rel="su"/>
+          <node id="22" infl="inf" pos="verb" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben"/>
+          <node cat="ppart" id="23" rel="vc">
+            <node id="24" pos="adv" rel="mod" root="dan" sense="dan" special="tmp"/>
+            <node id="25" index="2" rel="su"/>
+            <node cat="ap" id="26" rel="predc">
+              <node aform="base" id="27" infl="no_e" pos="adj" rel="mod" root="veel" sense="veel" vform="adj"/>
+              <node aform="compar" id="28" infl="no_e" pos="adj" rel="hd" root="ernstig" sense="ernstig" vform="adj"/>
+            </node>
+            <node id="29" infl="psp" pos="verb" rel="hd" root="ben" sc="copula" sense="ben"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" pos="adv" rel="mod" root="dan" sense="dan" special="tmp"/>
+      <node id="3" infl="sg3" pos="verb" rel="hd" root="kom" sc="ld_pp" sense="kom" tense="present"/>
+      <node cat="pp" id="4" rel="mod">
+        <node id="5" pos="prep" rel="hd" root="op" sense="op"/>
+        <node cat="np" id="6" rel="obj1">
+          <node gen="de" id="7" num="sg" pos="noun" rel="hd" root="zondag" sense="zondag" special="tmp"/>
+          <node cat="mwu" id="8" mwu_root="29 april" mwu_sense="29 april" rel="mod">
+            <node id="9" pos="noun" rel="mwp" root="29" sense="29" special="tmp"/>
+            <node id="10" pos="noun" rel="mwp" root="april" sense="april" special="tmp"/>
+          </node>
+        </node>
+      </node>
+      <node cat="pp" id="11" rel="mod">
+        <node id="12" pos="prep" rel="hd" root="bij" sense="bij"/>
+        <node cat="np" id="13" rel="obj1">
+          <node id="14" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="15" num="sg" pos="noun" rel="hd" root="nieuws_uitzending" sense="nieuws_uitzending"/>
+          <node cat="pp" id="16" rel="mod">
+            <node id="17" pos="prep" rel="hd" root="van" sense="van"/>
+            <node cat="mwu" id="18" mwu_root="twaalf uur" mwu_sense="twaalf uur" rel="obj1">
+              <node id="19" pos="noun" rel="mwp" root="twaalf" sense="twaalf" special="tmp"/>
+              <node id="20" pos="noun" rel="mwp" root="uur" sense="uur" special="tmp"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node cat="pp" id="21" rel="ld">
+        <node id="22" pos="prep" rel="hd" root="uit" sense="uit"/>
+        <node id="23" neclass="LOC" num="both" pos="name" rel="obj1" root="Londen" sense="Londen"/>
+      </node>
+      <node cat="np" id="24" rel="su">
+        <node id="25" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node aform="base" id="26" infl="e" pos="adj" rel="mod" root="verlos" sense="verlos" vform="gerund"/>
+        <node gen="het" id="27" num="sg" pos="noun" rel="hd" root="bericht" sense="bericht"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="mod">
+        <node id="3" pos="prep" rel="hd" root="in" sense="in"/>
+        <node cat="np" id="4" rel="obj1">
+          <node id="5" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node gen="de" id="6" num="sg" pos="noun" rel="hd" root="nota" sense="nota"/>
+          <node cat="pp" id="7" rel="mod">
+            <node id="8" pos="prep" rel="hd" root="aan" sense="aan"/>
+            <node cat="np" id="9" rel="obj1">
+              <node id="10" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node id="11" neclass="ORG" num="both" pos="name" rel="hd" root="Kamer" sense="Kamer"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="12" infl="pl" pos="verb" rel="hd" root="som_op" sc="part_transitive(op)" sense="som_op" tense="present"/>
+      <node cat="conj" id="13" rel="su">
+        <node cat="np" id="14" rel="cnj">
+          <node gen="de" id="15" num="sg" pos="noun" rel="hd" root="premier" sense="premier"/>
+          <node cat="mwu" id="16" mwu_root="De Jong" mwu_sense="De Jong" rel="app">
+            <node id="17" neclass="PER" num="both" pos="name" rel="mwp" root="De" sense="De"/>
+            <node id="18" neclass="PER" num="both" pos="name" rel="mwp" root="Jong" sense="Jong"/>
+          </node>
+        </node>
+        <node id="19" pos="vg" rel="crd" root="en" sense="en"/>
+        <node cat="np" id="20" rel="cnj">
+          <node gen="de" id="21" num="sg" pos="noun" rel="hd" root="minister" sense="minister"/>
+          <node id="22" neclass="PER" num="both" pos="name" rel="app" root="Luns" sense="Luns"/>
+        </node>
+      </node>
+      <node id="23" pos="adv" rel="mod" root="er" sense="er" special="er"/>
+      <node cat="np" id="24" rel="obj1">
+        <node id="25" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node gen="het" id="26" num="sg" pos="noun" rel="hd" root="aantal" sense="aantal"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

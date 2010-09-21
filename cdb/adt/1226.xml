@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="mwu" id="2" index="1" mwu_root="Jan Aling" mwu_sense="Jan Aling" rel="su">
+        <node id="3" neclass="PER" num="both" pos="name" rel="mwp" root="Jan" sense="Jan"/>
+        <node id="4" neclass="PER" num="both" pos="name" rel="mwp" root="Aling" sense="Aling"/>
+      </node>
+      <node id="5" infl="sg_heeft" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="present"/>
+      <node cat="ppart" id="6" rel="vc">
+        <node id="7" index="1" rel="su"/>
+        <node id="8" pos="adv" rel="mod" root="gisteren" sense="gisteren" special="tmp"/>
+        <node cat="pp" id="9" rel="mod">
+          <node id="10" pos="prep" rel="hd" root="in" sense="in"/>
+          <node cat="np" id="11" rel="obj1">
+            <node id="12" infl="pron" pos="det" rel="det" root="zijn" sense="zijn"/>
+            <node aform="base" id="13" infl="both" pos="adj" rel="mod" root="eigen" sense="eigen" vform="adj"/>
+            <node gen="de" id="14" num="sg" pos="noun" rel="hd" root="gemeente" sense="gemeente"/>
+            <node id="15" neclass="LOC" num="both" pos="name" rel="app" root="Vries" sense="Vries"/>
+          </node>
+        </node>
+        <node cat="np" id="16" rel="obj1">
+          <node id="17" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="18" num="sg" pos="noun" rel="hd" root="overwinning" sense="overwinning"/>
+        </node>
+        <node id="19" infl="psp" pos="verb" rel="hd" root="grijp" sc="transitive" sense="grijp"/>
+        <node cat="pp" id="20" rel="mod">
+          <node id="21" pos="prep" rel="hd" root="in" sense="in"/>
+          <node cat="np" id="22" rel="obj1">
+            <node id="23" infl="een" pos="det" rel="det" root="een" sense="een"/>
+            <node cat="ppart" id="24" rel="mod">
+              <node aform="base" id="25" infl="no_e" pos="adj" rel="mod" root="sterk" sense="sterk" vform="adj"/>
+              <node aform="base" id="26" infl="e" pos="adj" rel="hd" root="bezet" sense="bezet" vform="psp"/>
+            </node>
+            <node gen="de" id="27" num="sg" pos="noun" rel="hd" root="koers" sense="koers"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

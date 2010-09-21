@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="pl" pos="noun" rel="hd" root="kraker" sense="kraker"/>
+      </node>
+      <node id="5" infl="pl" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="present"/>
+      <node cat="ppart" id="6" rel="vc">
+        <node id="7" index="1" rel="su"/>
+        <node id="8" pos="adv" rel="mod" root="gisteren" sense="gisteren" special="tmp"/>
+        <node id="9" infl="psp" pos="verb" rel="hd" root="geef_uit" sc="part_transitive(uit)" sense="geef_uit"/>
+        <node cat="np" id="10" rel="obj1">
+          <node id="11" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node gen="het" id="12" num="sg" pos="noun" rel="hd" root="boek_DIM" sense="boek_DIM"/>
+          <node cat="rel" id="13" rel="mod">
+            <node id="14" index="2" pos="pp" rel="rhd" root="waarin" sense="waarin" special="waar"/>
+            <node cat="ssub" id="15" rel="body">
+              <node id="16" infl="pl" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="present"/>
+              <node cat="ppart" id="17" rel="vc">
+                <node id="18" index="2" rel="mod"/>
+                <node id="19" infl="psp" pos="verb" rel="hd" root="geef" sc="transitive" sense="geef"/>
+                <node cat="np" id="20" index="3" rel="obj1">
+                  <node gen="de" id="21" num="pl" pos="noun" rel="hd" root="aanwijzing" sense="aanwijzing"/>
+                  <node cat="pp" id="22" rel="mod">
+                    <node id="23" pos="prep" rel="hd" root="voor" sense="voor"/>
+                    <node cat="np" id="24" rel="obj1">
+                      <node id="25" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+                      <node id="26" pos="verb" rel="hd" root="kraak" sc="intransitive" sense="kraak" special="v_noun"/>
+                      <node cat="pp" id="27" rel="mod">
+                        <node id="28" pos="prep" rel="hd" root="van" sense="van"/>
+                        <node gen="het" id="29" num="pl" pos="noun" rel="obj1" root="pand" sense="pand"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node id="30" index="3" rel="su"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

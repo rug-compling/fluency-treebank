@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="past"/>
+      <node id="3" index="1" infl="het" pos="det" rel="su" root="dat" sense="dat" wh="nwh"/>
+      <node cat="inf" id="4" rel="vc">
+        <node cat="cp" id="5" rel="mod">
+          <node id="6" pos="comp" rel="cmp" root="als" sc="als" sense="als"/>
+          <node cat="ssub" id="7" rel="body">
+            <node id="8" pos="adv" rel="mod" root="er" sense="er" special="er"/>
+            <node cat="np" id="9" rel="su">
+              <node id="10" infl="geen" pos="det" rel="det" root="geen" sense="geen" wh="nwh"/>
+              <node aform="base" id="11" infl="e" pos="adj" rel="mod" root="werk" sense="werk" vform="gerund"/>
+              <node gen="de" id="12" num="pl" pos="noun" rel="hd" root="vrouw" sense="vrouw"/>
+            </node>
+            <node id="13" infl="pl" pos="verb" rel="hd" root="ben" sc="intransitive" sense="ben" tense="past"/>
+          </node>
+        </node>
+        <node id="14" index="1" rel="su"/>
+        <node cat="np" id="15" rel="obj2">
+          <node id="16" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="17" num="sg" pos="noun" rel="hd" root="schatkist" sense="schatkist"/>
+        </node>
+        <node cat="np" id="18" rel="obj1">
+          <node id="19" pos="adv" rel="mod" root="ongeveer" sc="noun_prep" sense="ongeveer"/>
+          <node id="20" infl="pl_num" pos="num" rel="det" root="350" sense="350" special="hoofd"/>
+          <node gen="both" id="21" num="meas" pos="noun" rel="hd" root="miljoen" sc="measure" sense="miljoen-MEAS" special="meas_mod"/>
+          <node gen="de" id="22" num="meas" pos="noun" rel="mod" root="gulden" sense="gulden" special="meas_mod"/>
+          <node cat="pp" id="23" rel="mod">
+            <node id="24" pos="prep" rel="hd" root="per" sense="per"/>
+            <node gen="het" id="25" num="meas" pos="noun" rel="obj1" root="jaar" sense="jaar" special="tmp"/>
+          </node>
+        </node>
+        <node id="26" infl="inf" pos="verb" rel="hd" root="scheel" sc="np_np" sense="scheel"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

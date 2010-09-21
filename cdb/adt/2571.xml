@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="een" pos="det" rel="det" root="zo&apos;n" sense="zo&apos;n"/>
+        <node gen="het" id="4" num="sg" pos="noun" rel="hd" root="steen_huis" sense="steen_huis"/>
+        <node cat="du" id="5" rel="mod">
+          <node cat="pp" id="6" rel="dp">
+            <node id="7" pos="prep" rel="hd" root="in" sense="in"/>
+            <node id="8" neclass="LOC" num="both" pos="name" rel="obj1" root="Friesland" sense="Friesland"/>
+          </node>
+          <node gen="both" id="9" num="both" pos="noun" rel="dp" root="stins" sense="stins"/>
+        </node>
+      </node>
+      <node id="10" infl="sg" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="past"/>
+      <node cat="np" id="11" rel="predc">
+        <node id="12" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="het" id="13" num="sg" pos="noun" rel="hd" root="begin" sense="begin" special="tmp"/>
+        <node cat="pp" id="14" rel="mod">
+          <node id="15" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="16" rel="obj1">
+            <node id="17" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node aform="super" id="18" infl="e" pos="adj" rel="mod" root="meest" sense="meest" vform="adj"/>
+            <node gen="de" id="19" num="pl" pos="noun" rel="hd" root="borg" sense="borg"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="mod">
+        <node id="3" pos="prep" rel="hd" root="in" sense="in"/>
+        <node cat="np" id="4" rel="obj1">
+          <node id="5" infl="de" pos="det" rel="det" root="deze" sense="deze" wh="nwh"/>
+          <node gen="de" id="6" num="sg" pos="noun" rel="hd" root="poule" sense="poule"/>
+        </node>
+      </node>
+      <node id="7" infl="sg_heeft" pos="verb" rel="hd" root="heb" sc="transitive_ndev" sense="heb" tense="present"/>
+      <node id="8" neclass="LOC" num="both" pos="name" rel="su" root="Rusland" sense="Rusland"/>
+      <node id="9" pos="adv" rel="mod" root="nu" sense="nu" special="tmp"/>
+      <node cat="pp" id="10" rel="mod">
+        <node id="11" pos="prep" rel="hd" root="met" sense="met"/>
+        <node cat="np" id="12" rel="obj1">
+          <node id="13" infl="pl_num" pos="num" rel="det" root="vijf" sense="vijf" special="hoofd"/>
+          <node gen="both" id="14" num="pl" pos="noun" rel="hd" root="punt" sense="punt" special="meas_mod"/>
+          <node cat="pp" id="15" rel="mod">
+            <node id="16" pos="prep" rel="hd" root="uit" sense="uit"/>
+            <node cat="np" id="17" rel="obj1">
+              <node id="18" infl="pl_num" pos="num" rel="det" root="drie" sense="drie" special="hoofd"/>
+              <node gen="de" id="19" num="pl" pos="noun" rel="hd" root="wedstrijd" sense="wedstrijd" special="tmp"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node cat="np" id="20" rel="obj1">
+        <node id="21" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="22" num="sg" pos="noun" rel="hd" root="leiding" sense="leiding"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

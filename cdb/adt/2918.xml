@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node aform="base" id="4" infl="no_e" pos="adj" rel="mod" root="dergelijk" sense="dergelijk" vform="adj"/>
+        <node gen="het" id="5" num="sg" pos="noun" rel="hd" root="voorstel" sense="voorstel"/>
+        <node cat="pp" id="6" rel="mod">
+          <node id="7" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="8" rel="obj1">
+            <node id="9" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node id="10" neclass="ORG" num="both" pos="name" rel="hd" root="PvdA" sense="PvdA"/>
+          </node>
+        </node>
+      </node>
+      <node id="11" infl="sg" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="past"/>
+      <node cat="ppart" id="12" rel="vc">
+        <node id="13" index="1" rel="obj1"/>
+        <node cat="pp" id="14" rel="mod">
+          <node id="15" pos="prep" rel="hd" root="met" sc="absolute" sense="met"/>
+          <node cat="conj" id="16" rel="obj1">
+            <node cat="np" id="17" rel="cnj">
+              <node id="18" infl="pl_num" pos="num" rel="det" root="13" sense="13" special="hoofd"/>
+              <node gen="de" id="19" num="pl" pos="noun" rel="hd" root="stem" sense="stem"/>
+              <node aform="base" id="20" infl="pred" pos="adj" rel="mod" root="voor" sense="voor" vform="adj"/>
+            </node>
+            <node id="21" pos="vg" rel="crd" root="en" sense="en"/>
+            <node id="22" infl="pl_num" pos="num" rel="cnj" root="13" sense="13" special="hoofd"/>
+          </node>
+          <node aform="base" id="23" infl="pred" pos="adj" rel="predc" root="tegen" sense="tegen" vform="adj"/>
+        </node>
+        <node id="24" infl="psp" pos="verb" rel="hd" root="neem_aan" sc="part_transitive(aan)" sense="neem_aan"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

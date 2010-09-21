@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node id="2" pos="comp" rel="dlink" root="maar" sc="root" sense="maar"/>
+      <node cat="smain" id="3" rel="nucl">
+        <node id="4" infl="sg" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="past"/>
+        <node cat="ppart" id="5" rel="vc">
+          <node id="6" pos="adv" rel="mod" root="er" sense="er" special="er"/>
+          <node id="7" infl="psp" pos="verb" rel="hd" root="musiceer" sc="intransitive" sense="musiceer"/>
+          <node cat="pp" id="8" rel="mod">
+            <node id="9" pos="prep" rel="hd" root="met" sense="met"/>
+            <node cat="np" id="10" rel="obj1">
+              <node gen="het" id="11" num="sg" pos="noun" rel="hd" root="enthousiasme" sense="enthousiasme"/>
+              <node cat="ap" id="12" rel="det">
+                <node aform="base" id="13" infl="no_e" pos="adj" rel="hd" root="zoveel" sc="sbar" sense="zoveel" vform="adj"/>
+                <node cat="cp" id="14" rel="obcomp">
+                  <node id="15" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+                  <node cat="ssub" id="16" rel="body">
+                    <node cat="np" id="17" index="1" rel="su">
+                      <node id="18" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                      <node cat="ppart" id="19" rel="mod">
+                        <node aform="compar" id="20" infl="meer" pos="adj" rel="mod" root="minder" sense="minder" vform="adj"/>
+                        <node aform="base" id="21" infl="e" pos="adj" rel="hd" root="geslaagd" sense="geslaagd" vform="psp"/>
+                      </node>
+                      <node gen="both" id="22" num="pl" pos="noun" rel="hd" root="moment" sense="moment" special="tmp"/>
+                    </node>
+                    <node id="23" infl="pl" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="past"/>
+                    <node cat="ppart" id="24" rel="vc">
+                      <node id="25" index="1" rel="obj1"/>
+                      <node aform="base" id="26" infl="both" pos="adj" rel="mod" root="graag" sense="graag" vform="adj"/>
+                      <node cat="mwu" id="27" mwu_root="voor lief" mwu_sense="voor lief" rel="svp">
+                        <node id="28" pos="fixed" rel="mwp" root="voor" sense="voor"/>
+                        <node id="29" pos="fixed" rel="mwp" root="lief" sense="lief"/>
+                      </node>
+                      <node id="30" infl="psp" pos="verb" rel="hd" root="neem" sc="fixed([[voor,lief],acc],norm_passive)" sense="voor-lief-neem"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

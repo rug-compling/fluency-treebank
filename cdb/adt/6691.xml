@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="het" id="4" num="sg" pos="noun" rel="hd" root="weekeinde" sense="weekeinde" special="tmp"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="in" sense="in"/>
+          <node cat="np" id="7" rel="obj1">
+            <node id="8" infl="pron" pos="det" rel="det" root="zijn" sense="zijn"/>
+            <node gen="het" id="9" num="sg" pos="noun" rel="hd" root="geheel" sense="geheel"/>
+          </node>
+        </node>
+      </node>
+      <node id="10" infl="modal_not_u" pos="verb" rel="hd" root="kan" sc="aux(inf)" sense="kan" tense="present"/>
+      <node cat="inf" id="11" rel="vc">
+        <node id="12" index="1" rel="su"/>
+        <node cat="np" id="13" rel="obj1">
+          <node aform="base" id="14" infl="no_e" pos="adj" rel="mod" root="redelijk" sense="redelijk" vform="adj"/>
+          <node gen="het" id="15" num="sg" pos="noun" rel="hd" root="zomer_weer" sense="zomer_weer"/>
+        </node>
+        <node id="16" infl="inf" pos="verb" rel="hd" root="breng" sc="transitive" sense="breng"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

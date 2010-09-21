@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="smain" id="2" rel="cnj">
+        <node id="3" index="1" neclass="PER" num="both" pos="name" rel="su" root="Hromadka" sense="Hromadka"/>
+        <node id="4" infl="sg3" pos="verb" rel="hd" root="spreek" sc="intransitive" sense="spreek" tense="present"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="in" sense="in"/>
+          <node id="7" neclass="LOC" num="both" pos="name" rel="obj1" root="Amerika" sense="Amerika"/>
+        </node>
+      </node>
+      <node id="8" pos="vg" rel="crd" root="en" sense="en"/>
+      <node cat="smain" id="9" rel="cnj">
+        <node id="10" index="1" rel="su"/>
+        <node id="11" infl="sg3" pos="verb" rel="hd" root="krijg" sc="subj_control(pass_te)" sense="krijg" tense="present"/>
+        <node cat="ti" id="12" rel="vc">
+          <node id="13" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+          <node cat="inf" id="14" rel="body">
+            <node id="15" index="1" rel="su"/>
+            <node id="16" infl="inf" pos="verb" rel="hd" root="hoor" sc="transitive_ndev_ndev" sense="hoor"/>
+            <node cat="np" id="17" rel="obj1">
+              <node id="18" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+              <node gen="het" id="19" num="sg" pos="noun" rel="hd" root="verwijt" sc="sbar" sense="verwijt"/>
+              <node cat="cp" id="20" rel="vc">
+                <node id="21" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+                <node cat="ssub" id="22" rel="body">
+                  <node case="nom" def="def" gen="de" id="23" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+                  <node cat="np" id="24" rel="predc">
+                    <node id="25" infl="een" pos="det" rel="det" root="een" sense="een"/>
+                    <node aform="base" id="26" infl="e" pos="adj" rel="mod" root="modern" sense="modern" vform="adj"/>
+                    <node id="27" neclass="PER" num="both" pos="name" rel="hd" root="Judas" sense="Judas"/>
+                  </node>
+                  <node id="28" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

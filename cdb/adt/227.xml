@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="past"/>
+      <node id="3" index="1" infl="het" pos="det" rel="su" root="dat" sense="dat" wh="nwh"/>
+      <node cat="inf" id="4" rel="vc">
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="volgens" sense="volgens"/>
+          <node cat="np" id="7" rel="obj1">
+            <node id="8" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node aform="base" id="9" infl="e" pos="adj" rel="mod" root="Indonesisch" sense="Indonesisch" vform="adj"/>
+            <node gen="de" id="10" num="sg" pos="noun" rel="hd" root="zienswijze" sense="zienswijze"/>
+          </node>
+        </node>
+        <node id="11" index="1" rel="su"/>
+        <node cat="np" id="12" rel="obj1">
+          <node id="13" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node aform="base" id="14" infl="e" pos="adj" rel="mod" root="nieuw" sense="nieuw" vform="adj"/>
+          <node gen="de" id="15" num="sg" pos="noun" rel="hd" root="inflatie" sense="inflatie"/>
+        </node>
+        <node id="16" infl="inf" pos="verb" rel="hd" root="beteken" sc="transitive" sense="beteken"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

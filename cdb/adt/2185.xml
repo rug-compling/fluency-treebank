@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="smain" id="2" rel="nucl">
+        <node gen="het" id="3" num="sg" pos="noun" rel="su" root="niets" sense="niets" special="meas_mod"/>
+        <node id="4" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+        <node cat="ap" id="5" rel="predc">
+          <node aform="compar" id="6" infl="meer" pos="adj" rel="mod" root="minder" sense="minder" vform="adj"/>
+          <node aform="base" id="7" infl="no_e" pos="adj" rel="hd" root="waar" sense="waar" vform="adj"/>
+        </node>
+      </node>
+      <node cat="smain" id="8" rel="tag">
+        <node id="9" pos="adv" rel="vc" root="zo" sc="dip_sbar" sense="zo"/>
+        <node id="10" infl="sg" pos="verb" rel="hd" root="zet_uiteen" sc="part_sbar(uiteen)" sense="zet_uiteen" tense="present"/>
+        <node case="nom" def="def" gen="de" id="11" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+        <node cat="pp" id="12" rel="mod">
+          <node cat="mwu" id="13" mwu_root="aan de hand van" mwu_sense="aan de hand van" rel="hd">
+            <node id="14" pos="prep" rel="mwp" root="aan" sense="aan"/>
+            <node id="15" pos="prep" rel="mwp" root="de" sense="de"/>
+            <node id="16" pos="prep" rel="mwp" root="hand" sense="hand"/>
+            <node id="17" pos="prep" rel="mwp" root="van" sense="van"/>
+          </node>
+          <node gen="het" id="18" num="pl" pos="noun" rel="obj1" root="cijfer" sense="cijfer"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

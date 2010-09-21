@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node case="both" def="def" gen="de" id="2" index="1" num="both" per="thi" pos="pron" rel="su" root="ze" sense="ze" special="wkpro" wh="nwh"/>
+      <node id="3" infl="pl" pos="verb" rel="hd" root="kan" sc="aux(inf)" sense="kan" tense="present"/>
+      <node cat="inf" id="4" rel="vc">
+        <node id="5" index="1" rel="su"/>
+        <node cat="np" id="6" rel="obj1">
+          <node id="7" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="8" num="sg" pos="noun" rel="hd" root="waarneming" sense="waarneming"/>
+          <node cat="pp" id="9" rel="mod">
+            <node id="10" pos="prep" rel="hd" root="van" sense="van"/>
+            <node cat="np" id="11" rel="obj1">
+              <node id="12" infl="een" pos="det" rel="det" root="zo&apos;n" sense="zo&apos;n"/>
+              <node gen="de" id="13" num="sg" pos="noun" rel="hd" root="situatie" sense="situatie"/>
+            </node>
+          </node>
+        </node>
+        <node id="14" pos="adv" rel="mod" root="niet" sense="niet"/>
+        <node id="15" infl="inf" pos="verb" rel="hd" root="zet_om" sc="part_np_pc_pp(om,in)" sense="zet_om-in"/>
+        <node cat="pp" id="16" rel="pc">
+          <node id="17" pos="prep" rel="hd" root="in" sense="in"/>
+          <node cat="np" id="18" rel="obj1">
+            <node id="19" infl="een" pos="det" rel="det" root="een" sense="een"/>
+            <node gen="de" id="20" num="sg" pos="noun" rel="hd" root="handeling" sense="handeling"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

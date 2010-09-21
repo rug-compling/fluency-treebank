@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="mod">
+        <node id="3" pos="prep" rel="hd" root="in" sense="in"/>
+        <node id="4" neclass="LOC" num="both" pos="name" rel="obj1" root="Brussel" sense="Brussel"/>
+      </node>
+      <node id="5" infl="pl" pos="verb" rel="hd" root="loop" sc="intransitive" sense="loop" tense="present"/>
+      <node id="6" pos="adv" rel="mod" root="binnenkort" sense="binnenkort" special="tmp"/>
+      <node cat="conj" id="7" rel="su">
+        <node id="8" pos="vg" rel="crd" root="en" sense="en"/>
+        <node cat="np" id="9" rel="cnj">
+          <node id="10" index="1" infl="enkele" pos="det" rel="det" root="enkel" sense="enkel" special="adj_number"/>
+          <node gen="het" id="11" num="pl" pos="noun" rel="hd" root="meisje" sense="meisje"/>
+          <node cat="pp" id="12" index="2" rel="mod">
+            <node id="13" pos="prep" rel="hd" root="van" sense="van"/>
+            <node cat="np" id="14" rel="obj1">
+              <node id="15" pos="adv" rel="mod" root="nauwelijks" sc="modal" sense="nauwelijks"/>
+              <node id="16" infl="pl_num" pos="num" rel="det" root="tien" sense="tien" special="hoofd"/>
+              <node gen="het" id="17" num="meas" pos="noun" rel="hd" root="jaar" sense="jaar" special="tmp"/>
+            </node>
+          </node>
+        </node>
+        <node cat="np" id="18" rel="cnj">
+          <node id="19" index="1" rel="det"/>
+          <node gen="het" id="20" num="pl" pos="noun" rel="hd" root="jongen_DIM" sense="jongen_DIM"/>
+          <node id="21" index="2" rel="mod"/>
+        </node>
+      </node>
+      <node cat="pp" id="22" rel="mod">
+        <node id="23" pos="prep" rel="hd" root="met" sc="absolute" sense="met"/>
+        <node cat="np" id="24" rel="obj1">
+          <node id="25" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+          <node gen="het" id="26" num="sg" pos="noun" rel="hd" root="type_diploma" sense="type_diploma"/>
+        </node>
+        <node cat="pp" id="27" rel="mod">
+          <node id="28" pos="prep" rel="hd" root="op" sense="op"/>
+          <node gen="de" id="29" num="sg" pos="noun" rel="obj1" root="zak" sense="zak"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

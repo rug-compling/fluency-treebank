@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="smain" id="2" rel="cnj">
+        <node id="3" infl="het" pos="det" rel="su" root="dit" sense="dit" wh="nwh"/>
+        <node id="4" infl="sg" pos="verb" rel="hd" root="doe" sc="aci" sense="doe" tense="past"/>
+        <node cat="np" id="5" index="1" rel="obj1">
+          <node id="6" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="7" num="sg" pos="noun" rel="hd" root="thuis_club" sense="thuis_club"/>
+        </node>
+        <node cat="inf" id="8" rel="vc">
+          <node id="9" index="1" rel="su"/>
+          <node aform="base" id="10" infl="both" pos="adj" rel="mod" root="even" sense="even" vform="adj"/>
+          <node id="11" infl="inf" pos="verb" rel="hd" root="ontwaak" sc="intransitive" sense="ontwaak"/>
+        </node>
+      </node>
+      <node id="12" pos="vg" rel="crd" root="en" sense="en"/>
+      <node cat="smain" id="13" rel="cnj">
+        <node cat="pp" id="14" rel="mod">
+          <node id="15" pos="prep" rel="hd" root="binnen" sense="binnen"/>
+          <node cat="np" id="16" rel="obj1">
+            <node id="17" infl="pl_num" pos="num" rel="det" root="tien" sense="tien" special="hoofd"/>
+            <node gen="de" id="18" num="pl" pos="noun" rel="hd" root="minuut" sense="minuut" special="tmp"/>
+          </node>
+        </node>
+        <node id="19" infl="sg" pos="verb" rel="hd" root="kijk_aan" sc="part_ld_pp(aan)" sense="kijk_aan" tense="past"/>
+        <node id="20" neclass="ORG" num="both" pos="name" rel="su" root="RCH" sense="RCH"/>
+        <node cat="pp" id="21" rel="ld">
+          <node id="22" pos="prep" rel="hd" root="tegen" sense="tegen"/>
+          <node cat="np" id="23" rel="obj1">
+            <node id="24" infl="een" pos="det" rel="det" root="een" sense="een"/>
+            <node aform="base" id="25" infl="e" pos="adj" rel="mod" root="hopeloos" sense="hopeloos" vform="adj"/>
+            <node gen="de" id="26" num="sg" pos="noun" rel="hd" root="achterstand" sense="achterstand"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

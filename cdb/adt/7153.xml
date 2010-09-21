@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="smain" id="2" rel="cnj">
+        <node id="3" infl="het" pos="det" rel="su" root="dat" sense="dat" wh="nwh"/>
+        <node id="4" infl="sg" pos="verb" rel="hd" root="val_op" sc="part_so_np(op)" sense="val_op" tense="past"/>
+        <node case="dat_acc" def="def" gen="de" id="5" num="sg" per="fir" pos="pron" rel="obj2" root="mij" sense="mij" wh="nwh"/>
+      </node>
+      <node id="6" pos="vg" rel="crd" root="en" sense="en"/>
+      <node cat="smain" id="7" rel="cnj">
+        <node case="nom" def="def" gen="de" id="8" num="sg" per="fir" pos="pron" rel="su" root="ik" sense="ik" wh="nwh"/>
+        <node id="9" infl="sg" pos="verb" rel="hd" root="maak" sc="fixed([{[acc(opmerking),pc(over)]}],norm_passive)" sense="opmerking-maak-over" tense="past"/>
+        <node cat="np" id="10" rel="obj1">
+          <node id="11" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node gen="de" id="12" num="sg" pos="noun" rel="hd" root="opmerking" sense="opmerking"/>
+        </node>
+        <node cat="pp" id="13" rel="pc">
+          <node id="14" pos="adv" rel="obj1" root="er" sense="er" special="er"/>
+          <node id="15" pos="prep" rel="hd" root="over" sense="over"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

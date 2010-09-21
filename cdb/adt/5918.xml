@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg_heeft" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="present"/>
+      <node cat="np" id="3" index="1" rel="su">
+        <node id="4" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="5" num="sg" pos="noun" rel="hd" root="president" sense="president"/>
+        <node cat="pp" id="6" rel="mod">
+          <node id="7" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="mwu" id="8" mwu_root="Shell Transport and Trading co" mwu_sense="Shell Transport and Trading co" rel="obj1">
+            <node id="9" neclass="ORG" num="both" pos="name" rel="mwp" root="Shell" sense="Shell"/>
+            <node id="10" neclass="ORG" num="both" pos="name" rel="mwp" root="Transport" sense="Transport"/>
+            <node id="11" neclass="ORG" num="both" pos="name" rel="mwp" root="and" sense="and"/>
+            <node id="12" neclass="ORG" num="both" pos="name" rel="mwp" root="Trading" sense="Trading"/>
+            <node id="13" neclass="ORG" num="both" pos="name" rel="mwp" root="co" sense="co"/>
+          </node>
+        </node>
+        <node cat="mwu" id="14" mwu_root="David Barran" mwu_sense="David Barran" rel="app">
+          <node id="15" neclass="PER" num="both" pos="name" rel="mwp" root="David" sense="David"/>
+          <node id="16" neclass="PER" num="both" pos="name" rel="mwp" root="Barran" sense="Barran"/>
+        </node>
+      </node>
+      <node cat="ppart" id="17" rel="vc">
+        <node id="18" pos="adv" rel="mod" root="zo" sense="zo"/>
+        <node id="19" index="1" rel="su"/>
+        <node id="20" infl="psp" pos="verb" rel="hd" root="verklaar" sc="intransitive" sense="verklaar"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="smain" id="2" rel="dp">
+        <node cat="np" id="3" index="1" rel="su">
+          <node id="4" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="both" id="5" num="both" pos="noun" rel="hd" root="imker" sense="imker"/>
+        </node>
+        <node id="6" infl="sg" pos="verb" rel="hd" root="moet" sc="modifier(aux(inf))" sense="moet" tense="present"/>
+        <node cat="inf" id="7" rel="vc">
+          <node id="8" index="1" rel="su"/>
+          <node id="9" infl="inf" pos="verb" rel="hd" root="word" sc="passive" sense="word"/>
+          <node cat="ppart" id="10" rel="vc">
+            <node id="11" index="1" rel="obj1"/>
+            <node id="12" infl="psp" pos="verb" rel="hd" root="zie" sc="als_pred_np" sense="zie"/>
+            <node cat="cp" id="13" rel="predc">
+              <node id="14" pos="comp" rel="cmp" root="als" sc="als" sense="als"/>
+              <node cat="np" id="15" rel="body">
+                <node id="16" infl="een" pos="det" rel="det" root="een" sense="een"/>
+                <node gen="de" id="17" num="sg" pos="noun" rel="hd" root="liefhebberij" sense="liefhebberij"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node cat="smain" id="18" rel="dp">
+        <node case="both" def="def" gen="de" id="19" num="both" per="thi" pos="pron" rel="su" root="ze" sense="ze" special="wkpro" wh="nwh"/>
+        <node id="20" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+        <node cat="advp" id="21" rel="mod">
+          <node id="22" pos="adv" rel="hd" root="niet" sense="niet"/>
+          <node id="23" pos="adv" rel="mod" root="meer" sense="meer" special="postadv"/>
+        </node>
+        <node cat="np" id="24" rel="predc">
+          <node id="25" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node gen="de" id="26" num="sg" pos="noun" rel="hd" root="broodwinning" sense="broodwinning"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

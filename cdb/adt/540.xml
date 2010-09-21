@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="smain" id="2" rel="cnj">
+        <node cat="np" id="3" index="1" rel="su">
+          <node id="4" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="5" num="sg" pos="noun" rel="hd" root="verkoop_druk" sense="verkoop_druk"/>
+          <node cat="pp" id="6" rel="mod">
+            <node id="7" pos="prep" rel="hd" root="in" sense="in"/>
+            <node cat="mwu" id="8" mwu_root="Wall Street" mwu_sense="Wall Street" rel="obj1">
+              <node id="9" neclass="LOC" num="both" pos="name" rel="mwp" root="Wall" sense="Wall"/>
+              <node id="10" neclass="LOC" num="both" pos="name" rel="mwp" root="Street" sense="Street"/>
+            </node>
+          </node>
+        </node>
+        <node id="11" infl="sg" pos="verb" rel="hd" root="verflauw" sc="intransitive" sense="verflauw" tense="past"/>
+        <node gen="het" id="12" num="sg" pos="noun" rel="mod" root="iets" sense="iets" special="meas_mod"/>
+      </node>
+      <node id="13" pos="vg" rel="crd" root="en" sense="en"/>
+      <node cat="smain" id="14" rel="cnj">
+        <node id="15" index="1" rel="su"/>
+        <node id="16" infl="sg" pos="verb" rel="hd" root="geef" sc="np_np" sense="geef" tense="past"/>
+        <node cat="np" id="17" rel="obj2">
+          <node id="18" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="19" num="pl" pos="noun" rel="hd" root="koper" sense="koper"/>
+        </node>
+        <node gen="de" id="20" num="sg" pos="noun" rel="obj1" root="moed" sense="moed"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

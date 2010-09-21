@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="sv1" id="2" rel="tag">
+        <node id="3" infl="sg1" pos="verb" rel="hd" root="denk" sc="tr_sbar" sense="denk" tense="present"/>
+        <node case="nom" def="def" gen="de" id="4" num="sg" per="fir" pos="pron" rel="su" root="ik" sense="ik" wh="nwh"/>
+      </node>
+      <node cat="smain" id="5" rel="nucl">
+        <node case="nom" def="def" gen="de" id="6" index="1" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+        <node id="7" infl="modal_not_u" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="present"/>
+        <node cat="inf" id="8" rel="vc">
+          <node id="9" index="1" rel="su"/>
+          <node cat="ppart" id="10" rel="vc">
+            <node id="11" index="1" rel="su"/>
+            <node aform="base" id="12" infl="pred" pos="adj" rel="mod" root="wel" sense="wel" vform="adj"/>
+            <node aform="base" id="13" infl="no_e" pos="adj" rel="mod" root="spoedig" sense="spoedig" vform="adj"/>
+            <node id="14" infl="psp" pos="verb" rel="hd" root="acclimatiseer" sc="intransitive" sense="acclimatiseer"/>
+          </node>
+          <node id="15" infl="inf" pos="verb" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

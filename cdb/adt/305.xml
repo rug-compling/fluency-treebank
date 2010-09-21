@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="smain" id="2" rel="nucl">
+        <node case="nom" def="def" gen="de" id="3" num="sg" per="fir" pos="pron" rel="su" root="ik" sense="ik" wh="nwh"/>
+        <node id="4" infl="sg1" pos="verb" rel="hd" root="ken" sc="transitive" sense="ken" tense="present"/>
+        <node case="dat_acc" def="def" gen="de" id="5" num="sg" per="thi" pos="pron" rel="obj1" root="hem" sense="hem" wh="nwh"/>
+        <node cat="np" id="6" rel="mod">
+          <node id="7" pos="adv" rel="mod" root="al" sc="modal" sense="al"/>
+          <node gen="het" id="8" num="pl" pos="noun" rel="hd" root="jaar" sense="jaar" special="tmp"/>
+        </node>
+      </node>
+      <node cat="sv1" id="9" rel="tag">
+        <node id="10" infl="sg1" pos="verb" rel="hd" root="was" sc="transitive" sense="was" tense="present"/>
+        <node cat="np" id="11" rel="obj1">
+          <node id="12" infl="pron" pos="det" rel="det" root="zijn" sense="zijn"/>
+          <node id="13" pos="num" rel="mod" root="eerste" sense="eerste" special="rang"/>
+          <node gen="de" id="14" num="sg" pos="noun" rel="hd" root="reactie" sense="reactie"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

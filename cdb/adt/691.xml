@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" neclass="LOC" num="both" pos="name" rel="su" root="Tafelijsbergen" sense="Tafelijsbergen"/>
+      <node id="3" infl="pl" pos="verb" rel="hd" root="heb" sc="transitive_ndev" sense="heb" tense="present"/>
+      <node cat="np" id="4" rel="obj1">
+        <node id="5" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="het" id="6" num="sg" pos="noun" rel="hd" root="voordeel" sc="sbar" sense="voordeel"/>
+        <node cat="cp" id="7" rel="vc">
+          <node id="8" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+          <node cat="conj" id="9" rel="body">
+            <node cat="ssub" id="10" rel="cnj">
+              <node case="both" def="def" gen="de" id="11" index="1" num="both" per="thi" pos="pron" rel="su" root="ze" sense="ze" special="wkpro" wh="nwh"/>
+              <node aform="base" id="12" infl="no_e" pos="adj" rel="mod" root="stevig" sense="stevig" vform="adj"/>
+              <node cat="pp" id="13" rel="ld">
+                <node id="14" pos="prep" rel="hd" root="in" sense="in"/>
+                <node cat="np" id="15" rel="obj1">
+                  <node id="16" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+                  <node gen="het" id="17" num="sg" pos="noun" rel="hd" root="water" sense="water"/>
+                </node>
+              </node>
+              <node id="18" infl="pl" pos="verb" rel="hd" root="lig" sc="ld_pp" sense="lig" tense="present"/>
+            </node>
+            <node id="19" pos="vg" rel="crd" root="en" sense="en"/>
+            <node cat="ssub" id="20" rel="cnj">
+              <node id="21" index="1" rel="su"/>
+              <node cat="np" id="22" rel="obj1">
+                <node id="23" infl="geen" pos="det" rel="det" root="geen" sense="geen" wh="nwh"/>
+                <node gen="de" id="24" num="pl" pos="noun" rel="hd" root="kantel_neiging" sense="kantel_neiging"/>
+              </node>
+              <node id="25" infl="pl" pos="verb" rel="hd" root="vertoon" sc="transitive" sense="vertoon" tense="present"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

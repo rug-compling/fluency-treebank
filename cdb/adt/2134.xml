@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg3" pos="verb" rel="hd" root="behoef" sc="aux(te)" sense="behoef" tense="present"/>
+      <node case="nom" def="def" gen="de" id="3" index="1" num="sg" per="thi" pos="pron" rel="su" root="men" sense="men" wh="nwh"/>
+      <node cat="ti" id="4" rel="vc">
+        <node id="5" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+        <node cat="inf" id="6" rel="body">
+          <node cat="pp" id="7" rel="pc">
+            <node id="8" pos="prep" rel="hd" root="aan" sense="aan"/>
+            <node cat="np" id="9" rel="obj1">
+              <node id="10" infl="pron" pos="det" rel="det" root="zijn" sense="zijn"/>
+              <node aform="base" id="11" infl="e" pos="adj" rel="mod" root="revolutionair_socialistisch" sense="revolutionair_socialistisch" vform="adj"/>
+              <node gen="het" id="12" num="sg" pos="noun" rel="hd" root="statuut" sense="statuut"/>
+            </node>
+          </node>
+          <node id="13" index="1" rel="su"/>
+          <node id="14" pos="adv" rel="mod" root="dus" sense="dus" special="sentence"/>
+          <node id="15" pos="adv" rel="mod" root="ook" sense="ook" special="sentence"/>
+          <node id="16" pos="adv" rel="mod" root="niet" sense="niet"/>
+          <node id="17" infl="inf" pos="verb" rel="hd" root="twijfel" sc="pc_pp(aan)" sense="twijfel-aan"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

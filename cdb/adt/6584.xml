@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node aform="base" id="4" infl="e" pos="adj" rel="mod" root="reis" sense="reis" vform="gerund"/>
+        <node gen="de" id="5" num="pl" pos="noun" rel="hd" root="woon_wagen" sense="woon_wagen"/>
+      </node>
+      <node id="6" infl="pl" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="present"/>
+      <node cat="inf" id="7" rel="vc">
+        <node id="8" index="1" rel="su"/>
+        <node cat="ap" id="9" rel="mod">
+          <node id="10" pos="adv" rel="mod" root="al" sense="al"/>
+          <node aform="base" id="11" infl="no_e" pos="adj" rel="hd" root="gauw" sense="gauw" vform="adj"/>
+        </node>
+        <node cat="np" id="12" rel="ld">
+          <node id="13" infl="geen" pos="det" rel="det" root="geen" sense="geen" wh="nwh"/>
+          <node gen="de" id="14" num="sg" pos="noun" rel="hd" root="kant" sense="kant"/>
+        </node>
+        <node aform="compar" id="15" infl="meer" pos="adj" rel="mod" root="meer" sense="meer" vform="adj"/>
+        <node id="16" infl="inf" pos="verb" rel="hd" root="kan_uit" sc="part_ld_transitive(uit)" sense="kan_uit"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" pos="adv" rel="mod" root="inderdaad" sense="inderdaad" special="sentence"/>
+      <node id="3" infl="pl" pos="verb" rel="hd" root="doe" sc="fixed([[de,ronde]],no_passive)" sense="de-ronde-doe" tense="present"/>
+      <node id="4" pos="adv" rel="mod" root="er" sense="er" special="er"/>
+      <node gen="het" id="5" num="pl" pos="noun" rel="su" root="verhaal" sense="verhaal"/>
+      <node cat="mwu" id="6" mwu_root="de ronde" mwu_sense="de ronde" rel="svp">
+        <node id="7" pos="fixed" rel="mwp" root="de" sense="de"/>
+        <node id="8" pos="fixed" rel="mwp" root="ronde" sense="ronde"/>
+      </node>
+      <node cat="pp" id="9" rel="mod">
+        <node id="10" pos="prep" rel="hd" root="over" sense="over"/>
+        <node cat="np" id="11" rel="obj1">
+          <node id="12" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node aform="base" id="13" infl="e" pos="adj" rel="mod" root="fabelachtig" sense="fabelachtig" vform="adj"/>
+          <node gen="het" id="14" num="pl" pos="noun" rel="hd" root="kapitaal" sense="kapitaal"/>
+          <node cat="rel" id="15" rel="mod">
+            <node id="16" index="1" pos="pp" rel="rhd" root="waarover" sense="waarover" special="waar"/>
+            <node cat="ssub" id="17" rel="body">
+              <node cat="np" id="18" index="2" rel="su">
+                <node id="19" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+                <node gen="het" id="20" num="sg" pos="noun" rel="hd" root="Vaticaan" sense="Vaticaan"/>
+              </node>
+              <node id="21" infl="sg" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="past"/>
+              <node cat="inf" id="22" rel="vc">
+                <node id="23" index="1" rel="pc"/>
+                <node id="24" index="2" rel="su"/>
+                <node id="25" infl="inf" pos="verb" rel="hd" root="beschik" sc="pc_pp(over)" sense="beschik-over"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

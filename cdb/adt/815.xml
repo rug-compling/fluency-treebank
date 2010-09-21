@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="mod">
+        <node id="3" pos="prep" rel="hd" root="in" sense="in"/>
+        <node cat="np" id="4" rel="obj1">
+          <node id="5" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="6" num="sg" pos="noun" rel="hd" root="bezetting_tijd" sense="bezetting_tijd" special="tmp"/>
+        </node>
+      </node>
+      <node id="7" infl="sg" pos="verb" rel="hd" root="verblijf" sc="ld_pp" sense="verblijf" tense="past"/>
+      <node case="nom" def="def" gen="de" id="8" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+      <node cat="np" id="9" rel="mod">
+        <node id="10" infl="pl_num" pos="num" rel="det" root="twee" sense="twee" special="hoofd"/>
+        <node gen="het" id="11" num="meas" pos="noun" rel="hd" root="jaar" sense="jaar" special="tmp"/>
+      </node>
+      <node cat="pp" id="12" rel="ld">
+        <node id="13" pos="prep" rel="hd" root="in" sense="in"/>
+        <node cat="np" id="14" rel="obj1">
+          <node id="15" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+          <node gen="both" id="16" num="sg" pos="noun" rel="hd" root="gijzelaar_kamp" sense="gijzelaar_kamp"/>
+          <node cat="mwu" id="17" mwu_root="St. Michielsgestel" mwu_sense="St. Michielsgestel" rel="app">
+            <node id="18" neclass="PER" num="both" pos="name" rel="mwp" root="St." sense="St."/>
+            <node id="19" neclass="PER" num="both" pos="name" rel="mwp" root="Michielsgestel" sense="Michielsgestel"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

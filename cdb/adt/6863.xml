@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node id="4" neclass="ORG" num="both" pos="name" rel="hd" root="KLM" sense="KLM"/>
+      </node>
+      <node id="5" infl="sg" pos="verb" rel="hd" root="zeg" sc="subj_control(te)" sense="zeg" tense="past"/>
+      <node id="6" pos="adv" rel="mod" root="vanmorgen" sense="vanmorgen" special="tmp"/>
+      <node cat="ti" id="7" rel="vc">
+        <node id="8" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+        <node cat="inf" id="9" rel="body">
+          <node id="10" index="1" rel="su"/>
+          <node cat="np" id="11" rel="obj1">
+            <node id="12" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="13" num="sg" pos="noun" rel="hd" root="behandeling" sense="behandeling"/>
+            <node cat="pp" id="14" rel="mod">
+              <node id="15" pos="prep" rel="hd" root="van" sense="van"/>
+              <node cat="np" id="16" rel="obj1">
+                <node id="17" infl="de" pos="det" rel="det" root="deze" sense="deze" wh="nwh"/>
+                <node gen="de" id="18" num="sg" pos="noun" rel="hd" root="zaak" sense="zaak"/>
+              </node>
+            </node>
+          </node>
+          <node cat="cp" id="19" rel="predc">
+            <node id="20" pos="comp" rel="cmp" root="als" sc="als" sense="als"/>
+            <node cat="np" id="21" rel="body">
+              <node id="22" infl="een" pos="det" rel="det" root="een" sense="een"/>
+              <node aform="base" id="23" infl="e" pos="adj" rel="mod" root="intern" sense="intern" vform="adj"/>
+              <node gen="de" id="24" num="sg" pos="noun" rel="hd" root="aangelegenheid" sense="aangelegenheid"/>
+            </node>
+          </node>
+          <node id="25" infl="inf" pos="verb" rel="hd" root="beschouw" sc="als_pred_np" sense="beschouw"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

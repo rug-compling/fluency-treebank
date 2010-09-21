@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="np" id="1" rel="--">
+      <node cat="mwu" id="2" mwu_root="Joop Middelink" mwu_sense="Joop Middelink" rel="hd">
+        <node id="3" neclass="PER" num="both" pos="name" rel="mwp" root="Joop" sense="Joop"/>
+        <node id="4" neclass="PER" num="both" pos="name" rel="mwp" root="Middelink" sense="Middelink"/>
+      </node>
+      <node cat="pp" id="5" rel="mod">
+        <node id="6" pos="prep" rel="hd" root="over" sense="over"/>
+        <node cat="np" id="7" rel="obj1">
+          <node id="8" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="het" id="9" num="pl" pos="noun" rel="hd" root="prof_plan" sense="prof_plan"/>
+          <node cat="pp" id="10" rel="mod">
+            <node id="11" pos="prep" rel="hd" root="van" sense="van"/>
+            <node id="12" neclass="PER" num="both" pos="name" rel="obj1" root="Zoetemelk" sense="Zoetemelk"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

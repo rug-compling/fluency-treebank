@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="pl" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="past"/>
+      <node cat="np" id="3" index="1" rel="su">
+        <node id="4" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node id="5" infl="pl_num" pos="num" rel="det" root="drie" sense="drie" special="hoofd"/>
+        <node gen="de" id="6" num="pl" pos="noun" rel="hd" root="man" sense="man"/>
+      </node>
+      <node cat="inf" id="7" rel="vc">
+        <node id="8" index="1" rel="su"/>
+        <node id="9" infl="inf" pos="verb" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben"/>
+        <node cat="ppart" id="10" rel="vc">
+          <node cat="cp" id="11" rel="mod">
+            <node id="12" pos="comp" rel="cmp" root="als" sc="als" sense="als"/>
+            <node cat="ssub" id="13" rel="body">
+              <node cat="np" id="14" index="2" rel="su">
+                <node id="15" pos="adv" rel="mod" root="ook" sc="modal" sense="ook"/>
+                <node id="16" infl="de" pos="det" rel="hd" root="deze" sense="deze" wh="nwh"/>
+              </node>
+              <node id="17" infl="sg" pos="verb" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" tense="past"/>
+              <node cat="ppart" id="18" rel="vc">
+                <node id="19" index="2" rel="su"/>
+                <node cat="pp" id="20" rel="ld">
+                  <node id="21" pos="prep" rel="hd" root="naar" sc="loc_adv" sense="naar"/>
+                  <node id="22" pos="adv" rel="obj1" root="beneden" sense="beneden" special="loc"/>
+                </node>
+                <node id="23" infl="psp" pos="verb" rel="hd" root="kom" sc="ld_pp" sense="kom"/>
+              </node>
+            </node>
+          </node>
+          <node id="24" index="1" rel="su"/>
+          <node aform="base" id="25" infl="no_e" pos="adj" rel="mod" root="vermoedelijk" sense="vermoedelijk" vform="adj"/>
+          <node cat="ppart" id="26" rel="predc">
+            <node cat="ap" id="27" rel="mod">
+              <node aform="base" id="28" infl="no_e" pos="adj" rel="mod" root="veel" sense="veel" vform="adj"/>
+              <node aform="compar" id="29" infl="no_e" pos="adj" rel="hd" root="ernstig" sense="ernstig" vform="adj"/>
+            </node>
+            <node aform="base" id="30" infl="no_e" pos="adj" rel="hd" root="gewond" sense="gewond" vform="psp"/>
+          </node>
+          <node id="31" infl="psp" pos="verb" rel="hd" root="ben" sc="copula" sense="ben"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

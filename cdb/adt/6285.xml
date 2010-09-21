@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node id="4" pos="num" rel="mod" root="eerste" sense="eerste" special="rang"/>
+        <node gen="het" id="5" num="sg" pos="noun" rel="hd" root="onderzoek" sense="onderzoek"/>
+        <node cat="pp" id="6" rel="mod">
+          <node id="7" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="conj" id="8" rel="obj1">
+            <node cat="mwu" id="9" mwu_root="drs. Roe" mwu_sense="drs. Roe" rel="cnj">
+              <node id="10" neclass="ORG" num="both" pos="name" rel="mwp" root="drs." sense="drs."/>
+              <node id="11" neclass="ORG" num="both" pos="name" rel="mwp" root="Roe" sense="Roe"/>
+            </node>
+            <node id="12" pos="vg" rel="crd" root="en" sense="en"/>
+            <node cat="mwu" id="13" mwu_root="drs. De Jong" mwu_sense="drs. De Jong" rel="cnj">
+              <node id="14" neclass="PER" num="both" pos="name" rel="mwp" root="drs." sense="drs."/>
+              <node id="15" neclass="PER" num="both" pos="name" rel="mwp" root="De" sense="De"/>
+              <node id="16" neclass="PER" num="both" pos="name" rel="mwp" root="Jong" sense="Jong"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="17" infl="sg3" pos="verb" rel="hd" root="dateer" sc="pc_pp(uit)" sense="dateer-uit" tense="present"/>
+      <node cat="pp" id="18" rel="pc">
+        <node id="19" pos="prep" rel="hd" root="uit" sense="uit"/>
+        <node id="20" neclass="year" pos="noun" rel="obj1" root="1968" sense="1968"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

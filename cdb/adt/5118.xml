@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="het" pos="det" rel="obj1" root="dit" sense="dit" wh="nwh"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="zeg" sc="transitive" sense="zeg" tense="past"/>
+      <node id="4" pos="adv" rel="mod" root="gisteren" sense="gisteren" special="tmp"/>
+      <node cat="np" id="5" rel="su">
+        <node cat="mwu" id="6" mwu_root="jhr. H. Reuchlin" mwu_sense="jhr. H. Reuchlin" rel="hd">
+          <node id="7" neclass="PER" num="both" pos="name" rel="mwp" root="jhr." sense="jhr."/>
+          <node id="8" neclass="PER" num="both" pos="name" rel="mwp" root="H." sense="H."/>
+          <node id="9" neclass="PER" num="both" pos="name" rel="mwp" root="Reuchlin" sense="Reuchlin"/>
+        </node>
+        <node cat="np" id="10" rel="app">
+          <node gen="de" id="11" num="sg" pos="noun" rel="hd" root="voorzitter" sense="voorzitter"/>
+          <node cat="pp" id="12" rel="mod">
+            <node id="13" pos="prep" rel="hd" root="van" sense="van"/>
+            <node cat="np" id="14" rel="obj1">
+              <node id="15" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node cat="mwu" id="16" mwu_root="Koninklijke Nederlandsche Reedersvereeniging" mwu_sense="Koninklijke Nederlandsche Reedersvereeniging" rel="hd">
+                <node id="17" neclass="ORG" num="both" pos="name" rel="mwp" root="Koninklijke" sense="Koninklijke"/>
+                <node id="18" neclass="ORG" num="both" pos="name" rel="mwp" root="Nederlandsche" sense="Nederlandsche"/>
+                <node id="19" neclass="ORG" num="both" pos="name" rel="mwp" root="Reedersvereeniging" sense="Reedersvereeniging"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node cat="pp" id="20" rel="mod">
+        <node id="21" pos="prep" rel="hd" root="tijdens" sense="tijdens"/>
+        <node cat="np" id="22" rel="obj1">
+          <node id="23" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="24" num="sg" pos="noun" rel="hd" root="jaar_vergadering" sense="jaar_vergadering"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

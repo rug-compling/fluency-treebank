@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node aform="base" id="4" infl="e" pos="adj" rel="mod" root="Engels" sense="Engels" vform="adj"/>
+        <node gen="het" id="5" num="sg" pos="noun" rel="hd" root="politie_korps" sense="politie_korps"/>
+      </node>
+      <node id="6" infl="sg_heeft" pos="verb" rel="hd" root="heb" sc="transitive_ndev" sense="heb" tense="present"/>
+      <node cat="pp" id="7" rel="mod">
+        <node id="8" pos="prep" rel="hd" root="in" sense="in"/>
+        <node cat="conj" id="9" rel="obj1">
+          <node id="10" pos="vg" rel="crd" root="zowel" sense="zowel" special="left"/>
+          <node id="11" pos="prefix" rel="cnj" root="binnen" sense="binnen"/>
+          <node id="12" pos="vg" rel="crd" root="als" sense="als" special="right"/>
+          <node gen="het" id="13" num="sg" pos="noun" rel="cnj" root="buitenland" sense="buitenland"/>
+        </node>
+      </node>
+      <node cat="np" id="14" rel="obj1">
+        <node id="15" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node aform="base" id="16" infl="e" pos="adj" rel="mod" root="goed" sense="goed" vform="adj"/>
+        <node gen="de" id="17" num="sg" pos="noun" rel="hd" root="naam" sense="naam"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

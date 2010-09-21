@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="mwu" id="1" mwu_root="flo 60.000" mwu_sense="flo 60.000" rel="--">
+      <node gen="both" id="2" num="bare_meas" pos="noun" rel="mwp" root="flo" sense="flo" special="amount_meas_mod"/>
+      <node gen="both" id="3" num="bare_meas" pos="noun" rel="mwp" root="60.000" sense="60.000" special="amount_meas_mod"/>
+    </node>
+  </node>
+</alpino_adt>

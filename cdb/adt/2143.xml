@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="smain" id="2" rel="nucl">
+        <node cat="pp" id="3" rel="mod">
+          <node id="4" pos="prep" rel="hd" root="volgens" sense="volgens"/>
+          <node cat="mwu" id="5" mwu_root="G. Th. Rothuizen" mwu_sense="G. Th. Rothuizen" rel="obj1">
+            <node id="6" neclass="PER" num="both" pos="name" rel="mwp" root="G." sense="G."/>
+            <node id="7" neclass="PER" num="both" pos="name" rel="mwp" root="Th." sense="Th."/>
+            <node id="8" neclass="PER" num="both" pos="name" rel="mwp" root="Rothuizen" sense="Rothuizen"/>
+          </node>
+        </node>
+        <node id="9" infl="sg" pos="verb" rel="hd" root="overtuig" sc="intransitive" sense="overtuig" tense="past"/>
+        <node case="nom" def="def" gen="de" id="10" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+        <node cat="pp" id="11" rel="mod">
+          <node id="12" pos="prep" rel="hd" root="door" sense="door"/>
+          <node cat="np" id="13" rel="obj1">
+            <node id="14" infl="een" pos="det" rel="det" root="een" sense="een"/>
+            <node aform="base" id="15" infl="e" pos="adj" rel="mod" root="groot" sense="groot" vform="adj"/>
+            <node gen="de" id="16" num="sg" pos="noun" rel="hd" root="mate" sense="mate"/>
+            <node cat="pp" id="17" rel="mod">
+              <node id="18" pos="prep" rel="hd" root="van" sense="van"/>
+              <node gen="de" id="19" num="sg" pos="noun" rel="obj1" root="weerloos_heid" sense="weerloos_heid"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node cat="mwu" id="20" mwu_root="Gereformeerde Weekblad" mwu_sense="Gereformeerde Weekblad" rel="sat">
+        <node id="21" neclass="PER" num="both" pos="name" rel="mwp" root="Gereformeerde" sense="Gereformeerde"/>
+        <node id="22" neclass="PER" num="both" pos="name" rel="mwp" root="Weekblad" sense="Weekblad"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

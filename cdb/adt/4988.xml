@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="np" id="2" rel="sat">
+        <node id="3" pos="num" rel="mod" root="eerste" sense="eerste" special="rang"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="prijs" sc="app_measure" sense="prijs"/>
+        <node cat="mwu" id="5" mwu_root="flo 189.647,53" mwu_sense="flo 189.647,53" rel="app">
+          <node gen="both" id="6" num="bare_meas" pos="noun" rel="mwp" root="flo" sense="flo" special="amount_meas_mod"/>
+          <node gen="both" id="7" num="bare_meas" pos="noun" rel="mwp" root="189.647,53" sense="189.647,53" special="amount_meas_mod"/>
+        </node>
+        <node cat="np" id="8" rel="app">
+          <node id="9" pos="adv" rel="mod" root="ongeveer" sense="ongeveer" special="sentence"/>
+          <node id="10" infl="pl_num" pos="num" rel="det" root="1500" sense="1500" special="hoofd"/>
+          <node gen="de" id="11" num="pl" pos="noun" rel="hd" root="melding" sense="melding"/>
+        </node>
+      </node>
+      <node cat="smain" id="12" rel="nucl">
+        <node case="both" def="def" gen="de" id="13" num="sg" per="thi" pos="pron" rel="su" root="ieder" sense="ieder" wh="nwh"/>
+        <node id="14" infl="sg3" pos="verb" rel="hd" root="ontvang" sc="transitive" sense="ontvang" tense="present"/>
+        <node cat="np" id="15" rel="obj1">
+          <node id="16" pos="adv" rel="mod" root="ongeveer" sc="noun_prep" sense="ongeveer"/>
+          <node cat="mwu" id="17" mwu_root="flo 125,00" mwu_sense="flo 125,00" rel="hd">
+            <node gen="both" id="18" num="bare_meas" pos="noun" rel="mwp" root="flo" sense="flo" special="amount_meas_mod"/>
+            <node gen="both" id="19" num="bare_meas" pos="noun" rel="mwp" root="125,00" sense="125,00" special="amount_meas_mod"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node aform="base" id="2" infl="no_e" pos="adj" rel="predm" root="sprakeloos" sense="sprakeloos" vform="adj"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="hoor_aan" sc="part_transitive(aan)" sense="hoor_aan" tense="past"/>
+      <node cat="mwu" id="4" mwu_root="Oude Nol" mwu_sense="Oude Nol" rel="su">
+        <node id="5" neclass="PER" num="both" pos="name" rel="mwp" root="Oude" sense="Oude"/>
+        <node id="6" neclass="PER" num="both" pos="name" rel="mwp" root="Nol" sense="Nol"/>
+      </node>
+      <node id="7" pos="adv" rel="mod" root="gistermorgen" sense="gistermorgen" special="tmp"/>
+      <node cat="np" id="8" rel="obj1">
+        <node id="9" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="het" id="10" num="sg" pos="noun" rel="hd" root="arrest" sense="arrest"/>
+        <node cat="pp" id="11" rel="mod">
+          <node id="12" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="13" rel="obj1">
+            <node id="14" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+            <node aform="base" id="15" infl="e" pos="adj" rel="mod" root="Amsterdams" sense="Amsterdams" vform="adj"/>
+            <node id="16" neclass="ORG" num="both" pos="name" rel="hd" root="Hof" sense="Hof"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

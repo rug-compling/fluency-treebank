@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="officier-fiscaal" sense="officier-fiscaal"/>
+        <node cat="mwu" id="5" mwu_root="mr. J. M. Schampers" mwu_sense="mr. J. M. Schampers" rel="app">
+          <node id="6" neclass="PER" num="both" pos="name" rel="mwp" root="mr." sense="mr."/>
+          <node id="7" neclass="PER" num="both" pos="name" rel="mwp" root="J." sense="J."/>
+          <node id="8" neclass="PER" num="both" pos="name" rel="mwp" root="M." sense="M."/>
+          <node id="9" neclass="PER" num="both" pos="name" rel="mwp" root="Schampers" sense="Schampers"/>
+        </node>
+      </node>
+      <node id="10" infl="sg" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="past"/>
+      <node cat="ppart" id="11" rel="vc">
+        <node id="12" index="1" rel="su"/>
+        <node aform="base" id="13" infl="no_e" pos="adj" rel="mod" root="conform" sense="conform" vform="adj"/>
+        <node id="14" infl="psp" pos="verb" rel="hd" root="eis" sc="intransitive" sense="eis"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

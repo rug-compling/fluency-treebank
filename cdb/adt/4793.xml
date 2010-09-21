@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="whq" id="2" rel="nucl">
+        <node case="both" def="indef" gen="het" id="3" index="1" num="sg" per="thi" pos="pron" rel="whd" root="wat" sense="wat" special="nparg" wh="ywh"/>
+        <node cat="sv1" id="4" rel="body">
+          <node id="5" index="1" rel="predc"/>
+          <node id="6" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+          <node cat="pp" id="7" rel="mod">
+            <node id="8" pos="prep" rel="hd" root="onder" sense="onder"/>
+            <node cat="np" id="9" rel="obj1">
+              <node id="10" infl="de" pos="det" rel="det" root="die" sense="die" wh="nwh"/>
+              <node gen="de" id="11" num="pl" pos="noun" rel="hd" root="omstandigheid" sense="omstandigheid"/>
+            </node>
+          </node>
+          <node cat="np" id="12" rel="su">
+            <node id="13" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="14" num="sg" pos="noun" rel="hd" root="betekenis" sense="betekenis"/>
+            <node cat="pp" id="15" rel="mod">
+              <node id="16" pos="prep" rel="hd" root="van" sense="van"/>
+              <node cat="np" id="17" rel="obj1">
+                <node id="18" infl="een" pos="det" rel="det" root="een" sense="een"/>
+                <node aform="base" id="19" infl="no_e" pos="adj" rel="mod" root="unaniem" sense="unaniem" vform="adj"/>
+                <node gen="het" id="20" num="sg" pos="noun" rel="hd" root="Ser_advies" sense="Ser_advies"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node cat="smain" id="21" rel="tag">
+        <node id="22" pos="adv" rel="vc" root="zo" sc="dip_sbar" sense="zo"/>
+        <node id="23" infl="sg" pos="verb" rel="hd" root="vraag" sc="sbar" sense="vraag" tense="past"/>
+        <node case="nom" def="def" gen="de" id="24" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

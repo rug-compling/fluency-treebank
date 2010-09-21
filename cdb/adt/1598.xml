@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" pos="adv" rel="mod" root="intussen" sense="intussen" special="sentence"/>
+      <node id="3" infl="sg3" pos="verb" rel="hd" root="word" sc="copula" sense="word" tense="present"/>
+      <node cat="np" id="4" rel="su">
+        <node id="5" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="het" id="6" num="sg" pos="noun" rel="hd" root="gesprek" sense="gesprek"/>
+        <node cat="pp" id="7" rel="mod">
+          <node id="8" pos="prep" rel="hd" root="over" sense="over"/>
+          <node cat="np" id="9" rel="obj1">
+            <node id="10" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="11" num="sg" pos="noun" rel="hd" root="dageraad" sense="dageraad"/>
+            <node cat="pp" id="12" rel="mod">
+              <node id="13" pos="prep" rel="hd" root="van" sense="van"/>
+              <node cat="np" id="14" rel="obj1">
+                <node id="15" infl="een" pos="det" rel="det" root="een" sense="een"/>
+                <node aform="base" id="16" infl="e" pos="adj" rel="mod" root="herleefd" sense="herleefd" vform="psp"/>
+                <node gen="de" id="17" num="sg" pos="noun" rel="hd" root="wetenschap" sense="wetenschap"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node cat="pp" id="18" rel="mod">
+        <node id="19" pos="prep" rel="hd" root="op" sense="op"/>
+        <node cat="np" id="20" rel="obj1">
+          <node id="21" infl="het" pos="det" rel="det" root="dit" sense="dit" wh="nwh"/>
+          <node gen="both" id="22" num="sg" pos="noun" rel="hd" root="moment" sense="moment" special="tmp"/>
+        </node>
+      </node>
+      <node aform="base" id="23" infl="pred" pos="adj" rel="mod" root="wel" sense="wel" vform="adj"/>
+      <node cat="ap" id="24" rel="predc">
+        <node aform="base" id="25" infl="no_e" pos="adj" rel="mod" root="erg" sense="erg" vform="adj"/>
+        <node aform="base" id="26" infl="no_e" pos="adj" rel="hd" root="smal" sense="smal" vform="adj"/>
+      </node>
+      <node aform="base" id="27" infl="no_e" pos="adj" rel="mod" root="opgezet" sense="opgezet" vform="psp"/>
+    </node>
+  </node>
+</alpino_adt>

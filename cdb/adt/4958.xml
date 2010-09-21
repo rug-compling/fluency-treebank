@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node case="nom" def="def" gen="de" id="2" num="pl" per="fir" pos="pron" rel="su" root="we" sense="we" special="wkpro" wh="nwh"/>
+      <node id="3" infl="pl" pos="verb" rel="hd" root="wil" sc="transitive_ndev_ndev" sense="wil" tense="present"/>
+      <node cat="np" id="4" rel="obj1">
+        <node id="5" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node gen="het" id="6" num="sg" pos="noun" rel="hd" root="eind" sense="eind" special="tmp"/>
+        <node cat="pp" id="7" rel="mod">
+          <node id="8" pos="prep" rel="hd" root="aan" sense="aan"/>
+          <node cat="np" id="9" rel="obj1">
+            <node id="10" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+            <node id="11" pos="verb" rel="hd" root="beroof" sc="intransitive" sense="beroof" special="v_noun"/>
+            <node cat="pp" id="12" rel="mod">
+              <node id="13" pos="prep" rel="hd" root="door" sense="door"/>
+              <node cat="np" id="14" rel="obj1">
+                <node id="15" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                <node gen="de" id="16" num="pl" pos="noun" rel="hd" root="kapitalist" sense="kapitalist"/>
+              </node>
+            </node>
+            <node cat="pp" id="17" rel="mod">
+              <node id="18" pos="prep" rel="hd" root="van" sense="van"/>
+              <node cat="np" id="19" rel="obj1">
+                <node id="20" infl="onze" pos="det" rel="det" root="ons" sense="ons"/>
+                <node gen="de" id="21" num="sg" pos="noun" rel="hd" root="gemeenschap" sense="gemeenschap"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

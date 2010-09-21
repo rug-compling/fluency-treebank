@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="wedstrijd" sense="wedstrijd" special="tmp"/>
+      </node>
+      <node id="5" infl="sg3" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="present"/>
+      <node cat="ppart" id="6" rel="vc">
+        <node id="7" index="1" rel="obj1"/>
+        <node id="8" infl="psp" pos="verb" rel="hd" root="houd" sc="np_ld_pp" sense="houd"/>
+        <node cat="pp" id="9" rel="ld">
+          <node id="10" pos="prep" rel="hd" root="in" sense="in"/>
+          <node cat="np" id="11" rel="obj1">
+            <node id="12" infl="een" pos="det" rel="det" root="een" sense="een"/>
+            <node gen="het" id="13" num="sg" pos="noun" rel="hd" root="hotel" sense="hotel"/>
+            <node cat="pp" id="14" rel="mod">
+              <node id="15" pos="prep" rel="hd" root="te" sc="nodet" sense="te"/>
+              <node id="16" neclass="LOC" num="both" pos="name" rel="obj1" root="Tokio" sense="Tokio"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

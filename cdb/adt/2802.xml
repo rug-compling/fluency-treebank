@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node aform="base" id="4" infl="e" pos="adj" rel="mod" root="dergelijk" sense="dergelijk" vform="adj"/>
+        <node gen="de" id="5" num="sg" pos="noun" rel="hd" root="akte" sense="akte"/>
+      </node>
+      <node id="6" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="te_passive" sense="ben" tense="present"/>
+      <node cat="ti" id="7" rel="vc">
+        <node id="8" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+        <node cat="inf" id="9" rel="body">
+          <node id="10" index="1" rel="obj1"/>
+          <node id="11" pos="adv" rel="mod" root="echter" sense="echter" special="sentence"/>
+          <node id="12" pos="adv" rel="mod" root="niet" sense="niet"/>
+          <node cat="pp" id="13" rel="mod">
+            <node id="14" pos="prep" rel="hd" root="in" sense="in"/>
+            <node cat="np" id="15" rel="obj1">
+              <node id="16" infl="een" pos="det" rel="det" root="een" sense="een"/>
+              <node gen="het" id="17" num="meas" pos="noun" rel="hd" root="jaar" sense="jaar" special="tmp"/>
+            </node>
+          </node>
+          <node id="18" infl="inf" pos="verb" rel="hd" root="haal" sc="transitive" sense="haal"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

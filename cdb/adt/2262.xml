@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="both" id="4" num="both" pos="noun" rel="hd" root="premie-inkomensgrenzen" sense="premie-inkomensgrenzen"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="conj" id="7" rel="obj1">
+            <node cat="mwu" id="8" mwu_root="flo 5.574,-" mwu_sense="flo 5.574,-" rel="cnj">
+              <node gen="both" id="9" num="bare_meas" pos="noun" rel="mwp" root="flo" sense="flo" special="amount_meas_mod"/>
+              <node gen="both" id="10" num="bare_meas" pos="noun" rel="mwp" root="5.574,-" sense="5.574,-" special="amount_meas_mod"/>
+            </node>
+            <node id="11" pos="vg" rel="crd" root="en" sense="en"/>
+            <node cat="mwu" id="12" mwu_root="flo 6.584,-" mwu_sense="flo 6.584,-" rel="cnj">
+              <node gen="both" id="13" num="bare_meas" pos="noun" rel="mwp" root="flo" sense="flo" special="amount_meas_mod"/>
+              <node gen="both" id="14" num="bare_meas" pos="noun" rel="mwp" root="6.584,-" sense="6.584,-" special="amount_meas_mod"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="15" infl="pl" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="present"/>
+      <node cat="ppart" id="16" rel="vc">
+        <node id="17" index="1" rel="obj1"/>
+        <node id="18" infl="psp" pos="verb" rel="hd" root="verhoog" sc="transitive" sense="verhoog"/>
+        <node cat="pp" id="19" rel="mod">
+          <node id="20" pos="prep" rel="hd" root="tot" sense="tot"/>
+          <node cat="conj" id="21" rel="obj1">
+            <node cat="mwu" id="22" mwu_root="flo 5.670,-" mwu_sense="flo 5.670,-" rel="cnj">
+              <node gen="both" id="23" num="bare_meas" pos="noun" rel="mwp" root="flo" sense="flo" special="amount_meas_mod"/>
+              <node gen="both" id="24" num="bare_meas" pos="noun" rel="mwp" root="5.670,-" sense="5.670,-" special="amount_meas_mod"/>
+            </node>
+            <node id="25" pos="vg" rel="crd" root="onderscheidenlijk" sense="onderscheidenlijk"/>
+            <node cat="mwu" id="26" mwu_root="flo 6.680,-" mwu_sense="flo 6.680,-" rel="cnj">
+              <node gen="both" id="27" num="bare_meas" pos="noun" rel="mwp" root="flo" sense="flo" special="amount_meas_mod"/>
+              <node gen="both" id="28" num="bare_meas" pos="noun" rel="mwp" root="6.680,-" sense="6.680,-" special="amount_meas_mod"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

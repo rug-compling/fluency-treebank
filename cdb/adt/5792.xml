@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="ap" id="2" rel="predc">
+        <node id="3" pos="adv" rel="mod" root="niet" sense="niet"/>
+        <node aform="compar" id="4" infl="meer" pos="adj" rel="mod" root="minder" sense="minder" vform="adj"/>
+        <node aform="base" id="5" infl="no_e" pos="adj" rel="hd" root="begrijpelijk" sc="subject_sbar" sense="begrijpelijk" vform="adj"/>
+      </node>
+      <node id="6" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula_sbar" sense="ben" tense="present"/>
+      <node id="7" pos="adv" rel="mod" root="echter" sense="echter" special="sentence"/>
+      <node cat="cp" id="8" rel="su">
+        <node id="9" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+        <node cat="ssub" id="10" rel="body">
+          <node cat="mwu" id="11" mwu_root="prof. Snijders" mwu_sense="prof. Snijders" rel="su">
+            <node id="12" neclass="PER" num="both" pos="name" rel="mwp" root="prof." sense="prof."/>
+            <node id="13" neclass="PER" num="both" pos="name" rel="mwp" root="Snijders" sense="Snijders"/>
+          </node>
+          <node id="14" infl="sg3" pos="verb" rel="hd" root="kom_op" sc="part_pc_pp(op,voor)" sense="kom_op-voor" tense="present"/>
+          <node cat="pp" id="15" rel="pc">
+            <node id="16" pos="prep" rel="hd" root="voor" sense="voor"/>
+            <node cat="whrel" id="17" rel="obj1">
+              <node case="both" def="indef" gen="het" id="18" index="1" num="sg" per="thi" pos="pron" rel="rhd" root="wat" sense="wat" special="nparg" wh="ywh"/>
+              <node cat="ssub" id="19" rel="body">
+                <node id="20" index="1" rel="su"/>
+                <node cat="ppart" id="21" rel="vc">
+                  <node id="22" index="1" rel="obj1"/>
+                  <node cat="pp" id="23" rel="mod">
+                    <node id="24" pos="prep" rel="hd" root="in" sense="in"/>
+                    <node id="25" neclass="LOC" num="both" pos="name" rel="obj1" root="Groningen" sense="Groningen"/>
+                  </node>
+                  <node id="26" infl="psp" pos="verb" rel="hd" root="bereik" sc="transitive" sense="bereik"/>
+                </node>
+                <node id="27" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="passive" sense="ben" tense="present"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

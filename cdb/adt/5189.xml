@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" pos="noun" rel="sup" root="het" sense="het" special="het"/>
+      <node id="3" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula_sbar" sense="ben" tense="present"/>
+      <node id="4" pos="adv" rel="mod" root="niet" sense="niet"/>
+      <node aform="base" id="5" infl="no_e" pos="adj" rel="predc" root="ondenkbaar" sc="subject_sbar" sense="ondenkbaar" vform="adj"/>
+      <node cat="cp" id="6" rel="su">
+        <node id="7" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+        <node cat="ssub" id="8" rel="body">
+          <node id="9" pos="adv" rel="mod" root="er" sense="er" special="er"/>
+          <node id="10" infl="sg3" pos="verb" rel="hd" root="ontsta" sc="intransitive" sense="ontsta" tense="present"/>
+          <node cat="np" id="11" rel="su">
+            <node aform="base" id="12" infl="e" pos="adj" rel="mod" root="voortreffelijk" sense="voortreffelijk" vform="adj"/>
+            <node gen="de" id="13" num="sg" pos="noun" rel="hd" root="samenwerking" sense="samenwerking"/>
+            <node cat="detp" id="14" rel="det">
+              <node comparative="dat" id="15" infl="een" pos="det" rel="hd" root="zo&apos;n" sense="zo&apos;n" special="comp"/>
+              <node cat="cp" id="16" rel="obcomp">
+                <node id="17" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+                <node cat="ssub" id="18" rel="body">
+                  <node case="nom" def="def" gen="de" id="19" num="sg" per="thi" pos="pron" rel="su" root="men" sense="men" wh="nwh"/>
+                  <node id="20" infl="sg3" pos="verb" rel="hd" root="zeg" sc="intransitive" sense="zeg" tense="present"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

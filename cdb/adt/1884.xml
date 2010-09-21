@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="smain" id="2" rel="cnj">
+        <node cat="np" id="3" index="1" rel="su">
+          <node id="4" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="5" num="pl" pos="noun" rel="hd" root="wedstrijd" sense="wedstrijd" special="tmp"/>
+          <node cat="pp" id="6" rel="mod">
+            <node id="7" pos="prep" rel="hd" root="tegen" sense="tegen"/>
+            <node cat="conj" id="8" rel="obj1">
+              <node cat="np" id="9" rel="cnj">
+                <node id="10" index="2" pos="adv" rel="mod" root="onder andere" sc="modal" sense="onder andere"/>
+                <node id="11" neclass="LOC" num="both" pos="name" rel="hd" root="Jena" sense="Jena"/>
+              </node>
+              <node id="12" pos="vg" rel="crd" root="en" sense="en"/>
+              <node cat="np" id="13" rel="cnj">
+                <node id="14" index="2" rel="mod"/>
+                <node cat="mwu" id="15" mwu_root="Karl-Marx Stadt" mwu_sense="Karl-Marx Stadt" rel="hd">
+                  <node id="16" neclass="PER" num="both" pos="name" rel="mwp" root="Karl-Marx" sense="Karl-Marx"/>
+                  <node id="17" neclass="PER" num="both" pos="name" rel="mwp" root="Stadt" sense="Stadt"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node id="18" infl="pl" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+        <node aform="base" id="19" infl="no_e" pos="adj" rel="predc" root="boeiend" sense="boeiend" vform="gerund"/>
+      </node>
+      <node id="20" pos="vg" rel="crd" root="en" sense="en"/>
+      <node cat="smain" id="21" rel="cnj">
+        <node id="22" index="1" rel="su"/>
+        <node id="23" infl="pl" pos="verb" rel="hd" root="ken" sc="transitive" sense="ken" tense="present"/>
+        <node cat="np" id="24" rel="obj1">
+          <node id="25" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="26" num="sg" pos="noun" rel="hd" root="sfeer" sense="sfeer"/>
+          <node cat="pp" id="27" rel="mod">
+            <node id="28" pos="prep" rel="hd" root="van" sense="van"/>
+            <node cat="np" id="29" rel="obj1">
+              <node id="30" infl="een" pos="det" rel="det" root="een" sense="een"/>
+              <node gen="het" id="31" num="sg" pos="noun" rel="hd" root="Cup_duel" sense="Cup_duel" special="tmp"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

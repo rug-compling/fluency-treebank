@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="smain" id="2" rel="dp">
+        <node case="nom" def="def" gen="de" id="3" num="sg" per="fir" pos="pron" rel="su" root="ik" sense="ik" wh="nwh"/>
+        <node id="4" infl="sg1" pos="verb" rel="hd" root="zeg" sc="tr_sbar" sense="zeg" tense="present"/>
+        <node cat="cp" id="5" rel="vc">
+          <node id="6" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+          <node cat="ssub" id="7" rel="body">
+            <node case="nom" def="def" gen="de" id="8" index="1" num="sg" per="fir" pos="pron" rel="su" root="ik" sense="ik" wh="nwh"/>
+            <node id="9" infl="modal_not_u" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="present"/>
+            <node cat="inf" id="10" rel="vc">
+              <node id="11" index="1" rel="su"/>
+              <node id="12" infl="het" pos="det" rel="obj1" root="dat" sense="dat" wh="nwh"/>
+              <node aform="base" id="13" infl="no_e" pos="adj" rel="mod" root="zeker" sense="zeker" vform="adj"/>
+              <node id="14" infl="inf(no_e)" pos="verb" rel="hd" root="doe" sc="transitive_ndev" sense="doe"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node cat="smain" id="15" rel="dp">
+        <node cat="np" id="16" index="2" rel="su">
+          <node id="17" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node aform="base" id="18" infl="e" pos="adj" rel="mod" root="loei" sense="loei" vform="gerund"/>
+          <node gen="de" id="19" num="sg" pos="noun" rel="hd" root="kachel" sense="kachel"/>
+        </node>
+        <node id="20" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="te_passive" sense="ben" tense="present"/>
+        <node cat="ti" id="21" rel="vc">
+          <node id="22" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+          <node cat="inf" id="23" rel="body">
+            <node id="24" index="2" rel="obj1"/>
+            <node id="25" pos="adv" rel="mod" root="niet" sense="niet"/>
+            <node id="26" infl="inf" pos="verb" rel="hd" root="versmaad" sc="transitive" sense="versmaad"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

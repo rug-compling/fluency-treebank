@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="die" sense="die" wh="nwh"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="stroming" sense="stroming"/>
+      </node>
+      <node id="5" infl="modal_not_u" pos="verb" rel="hd" root="kan" sc="aux(inf)" sense="kan" tense="present"/>
+      <node cat="inf" id="6" rel="vc">
+        <node id="7" index="1" rel="su"/>
+        <node cat="ppart" id="8" rel="vc">
+          <node id="9" index="1" rel="obj1"/>
+          <node id="10" pos="adv" rel="mod" root="echter" sense="echter" special="sentence"/>
+          <node cat="pp" id="11" rel="mod">
+            <node id="12" pos="prep" rel="hd" root="door" sense="door"/>
+            <node cat="np" id="13" rel="obj1">
+              <node id="14" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node gen="de" id="15" num="sg" pos="noun" rel="hd" root="wind" sense="wind"/>
+            </node>
+          </node>
+          <node id="16" pos="adv" rel="mod" root="niet" sense="niet"/>
+          <node id="17" infl="psp" pos="verb" rel="hd" root="verander" sc="transitive" sense="verander"/>
+        </node>
+        <node id="18" infl="inf" pos="verb" rel="hd" root="word" sc="passive" sense="word"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

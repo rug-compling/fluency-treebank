@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node gen="de" id="3" num="sg" pos="noun" rel="hd" root="minister" sense="minister"/>
+        <node id="4" neclass="LOC" num="both" pos="name" rel="app" root="Witteveen" sense="Witteveen"/>
+      </node>
+      <node id="5" infl="sg3" pos="verb" rel="hd" root="betreur" sc="sbar_obj" sense="betreur" tense="present"/>
+      <node id="6" pos="noun" rel="pobj1" root="het" sense="het" special="het"/>
+      <node cat="cp" id="7" rel="vc">
+        <node id="8" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+        <node cat="ssub" id="9" rel="body">
+          <node cat="np" id="10" index="1" rel="su">
+            <node id="11" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node aform="base" id="12" infl="e" pos="adj" rel="mod" root="algemeen" sense="algemeen" vform="adj"/>
+            <node gen="de" id="13" num="sg" pos="noun" rel="hd" root="begroting_commissie" sense="begroting_commissie"/>
+            <node cat="pp" id="14" rel="mod">
+              <node id="15" pos="prep" rel="hd" root="in" sense="in"/>
+              <node cat="np" id="16" rel="obj1">
+                <node id="17" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                <node cat="mwu" id="18" mwu_root="Tweede Kamer" mwu_sense="Tweede Kamer" rel="hd">
+                  <node id="19" neclass="ORG" num="both" pos="name" rel="mwp" root="Tweede" sense="Tweede"/>
+                  <node id="20" neclass="ORG" num="both" pos="name" rel="mwp" root="Kamer" sense="Kamer"/>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node id="21" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" tense="present"/>
+          <node cat="inf" id="22" rel="vc">
+            <node id="23" index="1" rel="su"/>
+            <node id="24" infl="inf(no_e)" pos="verb" rel="hd" root="ga" sc="aux(inf)" sense="ga"/>
+            <node cat="inf" id="25" rel="vc">
+              <node id="26" index="1" rel="su"/>
+              <node id="27" pos="adv" rel="mod" root="niet" sense="niet"/>
+              <node id="28" infl="inf" pos="verb" rel="hd" root="functioneer" sc="intransitive" sense="functioneer"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

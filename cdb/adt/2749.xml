@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="spelling" sense="spelling"/>
+      </node>
+      <node id="5" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+      <node cat="pp" id="6" rel="mod">
+        <node id="7" pos="prep" rel="hd" root="voor" sense="voor"/>
+        <node gen="de" id="8" num="sg" pos="noun" rel="obj1" root="hen" sense="hen"/>
+      </node>
+      <node cat="np" id="9" rel="predc">
+        <node id="10" pos="noun" rel="hd" root="iets" sc="iets" sense="iets"/>
+        <node aform="base" id="11" infl="no_e" pos="adj" rel="mod" root="absoluut" sense="absoluut" special="iets" vform="adj"/>
+        <node cat="rel" id="12" rel="mod">
+          <node id="13" index="1" pos="adv" rel="rhd" root="waar" sense="waar" special="er_loc" wh="ywh"/>
+          <node cat="ssub" id="14" rel="body">
+            <node id="15" infl="sg" pos="verb" rel="hd" root="mag" sc="modifier(aux(inf))" sense="mag" tense="present"/>
+            <node cat="inf" id="16" rel="vc">
+              <node id="17" infl="inf" pos="verb" rel="hd" root="word" sc="passive" sense="word"/>
+              <node cat="ppart" id="18" rel="vc">
+                <node id="19" pos="adv" rel="mod" root="niet" sense="niet"/>
+                <node cat="pp" id="20" rel="pc">
+                  <node id="21" index="1" rel="obj1"/>
+                  <node id="22" pos="prep" rel="hd" root="aan" sense="aan"/>
+                </node>
+                <node id="23" infl="psp" pos="verb" rel="hd" root="morrel" sc="pc_pp(aan)" sense="morrel-aan"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

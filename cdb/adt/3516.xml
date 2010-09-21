@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="mod">
+        <node cat="mwu" id="3" mwu_root="op uitnodiging van" mwu_sense="op uitnodiging van" rel="hd">
+          <node id="4" pos="prep" rel="mwp" root="op" sense="op"/>
+          <node id="5" pos="prep" rel="mwp" root="uitnodiging" sense="uitnodiging"/>
+          <node id="6" pos="prep" rel="mwp" root="van" sense="van"/>
+        </node>
+        <node gen="de" id="7" num="pl" pos="noun" rel="obj1" root="zwaluw" sense="zwaluw"/>
+      </node>
+      <node id="8" infl="pl" pos="verb" rel="hd" root="speel" sc="pc_pp(tegen)" sense="speel-tegen" tense="past"/>
+      <node gen="de" id="9" num="sg" pos="noun" rel="mod" root="zaterdag_middag" sense="zaterdag_middag" special="tmp"/>
+      <node cat="pp" id="10" rel="mod">
+        <node id="11" pos="prep" rel="hd" root="op" sense="op"/>
+        <node cat="np" id="12" rel="obj1">
+          <node id="13" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+          <node aform="base" id="14" infl="e" pos="adj" rel="mod" root="half_verhard" sense="half_verhard" vform="psp"/>
+          <node gen="het" id="15" num="sg" pos="noun" rel="hd" root="oefen_terrein" sense="oefen_terrein"/>
+          <node cat="pp" id="16" rel="mod">
+            <node id="17" pos="prep" rel="hd" root="in" sense="in"/>
+            <node id="18" neclass="LOC" num="both" pos="name" rel="obj1" root="Holy" sense="Holy"/>
+          </node>
+        </node>
+      </node>
+      <node cat="np" id="19" rel="su">
+        <node id="20" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node id="21" neclass="ORG" num="both" pos="name" rel="hd" root="DVOers" sense="DVOers"/>
+      </node>
+      <node cat="pp" id="22" rel="pc">
+        <node id="23" pos="prep" rel="hd" root="tegen" sense="tegen"/>
+        <node cat="np" id="24" rel="obj1">
+          <node id="25" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="26" num="pl" pos="noun" rel="hd" root="Zwaluwen_reserve" sense="Zwaluwen_reserve"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

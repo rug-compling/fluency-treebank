@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="mod">
+        <node id="3" infl="de" pos="det" rel="det" root="deze" sense="deze" wh="nwh"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="week" sense="week" special="tmp"/>
+      </node>
+      <node id="5" infl="pl" pos="verb" rel="hd" root="scharrel" sc="intransitive" sense="scharrel" tense="past"/>
+      <node cat="conj" id="6" rel="su">
+        <node cat="np" id="7" rel="cnj">
+          <node gen="de" id="8" num="sg" pos="noun" rel="hd" root="prinses" sense="prinses"/>
+          <node id="9" neclass="PER" num="both" pos="name" rel="app" root="Beatrix" sense="Beatrix"/>
+        </node>
+        <node id="10" pos="vg" rel="crd" root="en" sense="en"/>
+        <node cat="np" id="11" rel="cnj">
+          <node gen="de" id="12" num="sg" pos="noun" rel="hd" root="prins" sense="prins"/>
+          <node id="13" neclass="PER" num="both" pos="name" rel="app" root="Claus" sense="Claus"/>
+        </node>
+      </node>
+      <node cat="ap" id="14" rel="mod">
+        <node id="15" pos="adv" rel="mod" root="wat" sense="wat"/>
+        <node aform="base" id="16" infl="no_e" pos="adj" rel="hd" root="onwennig" sense="onwennig" vform="adj"/>
+      </node>
+      <node cat="pp" id="17" rel="mod">
+        <node id="18" pos="prep" rel="hd" root="door" sense="door"/>
+        <node cat="np" id="19" rel="obj1">
+          <node id="20" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node id="21" neclass="ORG" num="both" pos="name" rel="hd" root="Pieterskerk" sense="Pieterskerk"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

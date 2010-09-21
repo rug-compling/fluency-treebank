@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="np" id="1" rel="--">
+      <node id="2" infl="een" pos="det" rel="det" root="een" sense="een"/>
+      <node aform="base" id="3" infl="e" pos="adj" rel="mod" root="dol" sense="dol" vform="adj"/>
+      <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="inval" sense="inval"/>
+      <node cat="oti" id="5" rel="mod">
+        <node id="6" pos="comp" rel="cmp" root="om" sc="om" sense="om"/>
+        <node cat="ti" id="7" rel="body">
+          <node id="8" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+          <node cat="inf" id="9" rel="body">
+            <node cat="np" id="10" rel="obj1">
+              <node id="11" infl="onze" pos="det" rel="det" root="ons" sense="ons"/>
+              <node aform="base" id="12" infl="e" pos="adj" rel="mod" root="dol" sense="dol" vform="adj"/>
+              <node gen="de" id="13" num="sg" pos="noun" rel="hd" root="wereld" sense="wereld"/>
+            </node>
+            <node id="14" infl="inf" pos="verb" rel="hd" root="ontmasker" sc="transitive" sense="ontmasker"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node id="4" pos="num" rel="mod" root="derde" sense="derde" special="rang"/>
+        <node gen="de" id="5" num="sg" pos="noun" rel="hd" root="passagier" sense="passagier"/>
+      </node>
+      <node id="6" infl="sg" pos="verb" rel="hd" root="word" sc="copula" sense="word" tense="past"/>
+      <node cat="ppart" id="7" rel="predc">
+        <node aform="base" id="8" infl="no_e" pos="adj" rel="mod" root="zwaar" sense="zwaar" vform="adj"/>
+        <node aform="base" id="9" infl="no_e" pos="adj" rel="hd" root="gewond" sense="gewond" vform="psp"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

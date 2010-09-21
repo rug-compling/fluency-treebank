@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="cp" id="2" rel="su">
+        <node id="3" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+        <node cat="ssub" id="4" rel="body">
+          <node cat="np" id="5" index="1" rel="su">
+            <node id="6" infl="een" pos="det" rel="det" root="een" sense="een"/>
+            <node aform="base" id="7" infl="e" pos="adj" rel="mod" root="sterk" sense="sterk" vform="adj"/>
+            <node gen="de" id="8" num="sg" pos="noun" rel="hd" root="roep" sense="roep"/>
+          </node>
+          <node id="9" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" tense="present"/>
+          <node cat="ppart" id="10" rel="vc">
+            <node id="11" index="1" rel="su"/>
+            <node cat="np" id="12" rel="obj1">
+              <node id="13" infl="het" pos="det" rel="det" root="dit" sense="dit" wh="nwh"/>
+              <node gen="het" id="14" num="sg" pos="noun" rel="hd" root="evenement" sense="evenement"/>
+            </node>
+            <node id="15" infl="psp" pos="verb" rel="hd" root="ga_vooraf" sc="part_transitive(vooraf)" sense="ga_vooraf"/>
+          </node>
+        </node>
+      </node>
+      <node id="16" infl="sg3" pos="verb" rel="hd" root="blijk" sc="pp_sbar_subj(uit)" sense="blijk-uit" tense="present"/>
+      <node cat="pp" id="17" rel="pc">
+        <node id="18" pos="prep" rel="hd" root="uit" sense="uit"/>
+        <node cat="np" id="19" rel="obj1">
+          <node id="20" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node aform="base" id="21" infl="e" pos="adj" rel="mod" root="groot" sense="groot" vform="adj"/>
+          <node gen="de" id="22" num="sg" pos="noun" rel="hd" root="belangstelling" sense="belangstelling"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

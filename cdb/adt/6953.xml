@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="conj" id="2" rel="su">
+        <node id="3" neclass="ORG" num="both" pos="name" rel="cnj" root="KVP" sense="KVP"/>
+        <node id="4" pos="vg" rel="crd" root="en" sense="en"/>
+        <node id="5" neclass="ORG" num="both" pos="name" rel="cnj" root="VVD" sense="VVD"/>
+      </node>
+      <node id="6" infl="pl" pos="verb" rel="hd" root="krabbel_terug" sc="part_intransitive(terug)" sense="krabbel_terug" tense="past"/>
+    </node>
+  </node>
+</alpino_adt>

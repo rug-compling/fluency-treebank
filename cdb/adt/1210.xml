@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="modal_not_u" pos="verb" rel="hd" root="kan" sc="aux(inf)" sense="kan" tense="present"/>
+      <node case="nom" def="def" gen="de" id="3" index="1" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+      <node cat="inf" id="4" rel="vc">
+        <node id="5" index="1" rel="su"/>
+        <node cat="ppart" id="6" rel="vc">
+          <node cat="pp" id="7" rel="pc">
+            <node id="8" pos="prep" rel="hd" root="van" sense="van"/>
+            <node cat="np" id="9" rel="obj1">
+              <node id="10" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node gen="de" id="11" num="pl" pos="noun" rel="hd" root="zuurstof_reserve" sense="zuurstof_reserve"/>
+              <node cat="pp" id="12" rel="mod">
+                <node id="13" pos="prep" rel="hd" root="in" sense="in"/>
+                <node cat="conj" id="14" rel="obj1">
+                  <node gen="de" id="15" num="sg" pos="noun" rel="cnj" root="bodem" sense="bodem"/>
+                  <node gen="het" id="16" num="sg" pos="noun" rel="cnj" root="water" sense="water"/>
+                  <node id="17" pos="vg" rel="crd" root="en" sense="en"/>
+                  <node gen="de" id="18" num="sg" pos="noun" rel="cnj" root="atmosfeer" sense="atmosfeer"/>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node id="19" index="1" rel="obj1"/>
+          <node id="20" infl="psp" pos="verb" rel="hd" root="verzeker" sc="np_pc_pp(van)" sense="verzeker-van"/>
+        </node>
+        <node id="21" infl="inf" pos="verb" rel="hd" root="ben" sc="passive" sense="ben"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

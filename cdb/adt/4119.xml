@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="het" id="4" num="pl" pos="noun" rel="hd" root="gebouw" sense="gebouw"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="aan" sense="aan"/>
+          <node cat="np" id="7" rel="obj1">
+            <node id="8" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node id="9" neclass="LOC" num="both" pos="name" rel="hd" root="Herengracht" sense="Herengracht"/>
+            <node cat="pp" id="10" rel="mod">
+              <node id="11" pos="prep" rel="hd" root="te" sc="nodet" sense="te"/>
+              <node id="12" neclass="LOC" num="both" pos="name" rel="obj1" root="Amsterdam" sense="Amsterdam"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="13" infl="pl" pos="verb" rel="hd" root="ben" sc="passive" sense="ben" tense="present"/>
+      <node cat="ppart" id="14" rel="vc">
+        <node id="15" index="1" rel="obj1"/>
+        <node cat="pp" id="16" rel="mod">
+          <node id="17" pos="prep" rel="hd" root="door" sense="door"/>
+          <node cat="mwu" id="18" mwu_root="Lloyds Bank Europe" mwu_sense="Lloyds Bank Europe" rel="obj1">
+            <node id="19" neclass="ORG" num="both" pos="name" rel="mwp" root="Lloyds" sense="Lloyds"/>
+            <node id="20" neclass="ORG" num="both" pos="name" rel="mwp" root="Bank" sense="Bank"/>
+            <node id="21" neclass="ORG" num="both" pos="name" rel="mwp" root="Europe" sense="Europe"/>
+          </node>
+        </node>
+        <node cat="mwu" id="22" mwu_root="in gebruik" mwu_sense="in gebruik" rel="svp">
+          <node id="23" pos="fixed" rel="mwp" root="in" sense="in"/>
+          <node id="24" pos="fixed" rel="mwp" root="gebruik" sense="gebruik"/>
+        </node>
+        <node id="25" infl="psp" pos="verb" rel="hd" root="neem" sc="fixed([[in,gebruik],acc],norm_passive)" sense="in-gebruik-neem"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

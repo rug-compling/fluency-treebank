@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" index="1" neclass="PER" num="both" pos="name" rel="su" root="Frelimo" sense="Frelimo"/>
+      <node id="3" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" tense="present"/>
+      <node cat="ppart" id="4" rel="vc">
+        <node id="5" index="1" rel="su"/>
+        <node aform="base" id="6" infl="no_e" pos="adj" rel="mod" root="volledig" sense="volledig" vform="adj"/>
+        <node cat="pp" id="7" rel="ld">
+          <node id="8" pos="prep" rel="hd" root="in" sense="in"/>
+          <node cat="np" id="9" rel="obj1">
+            <node id="10" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+            <node aform="base" id="11" infl="e" pos="adj" rel="mod" root="communistisch" sense="communistisch" vform="adj"/>
+            <node gen="both" id="12" num="sg" pos="noun" rel="hd" root="kamp" sense="kamp"/>
+          </node>
+        </node>
+        <node id="13" pos="fixed" rel="svp" root="verzeild" sense="verzeild"/>
+        <node id="14" infl="psp" pos="verb" rel="hd" root="raak" sc="fixed([{[[verzeild],ld_pp]}],no_passive)" sense="verzeild-raak"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

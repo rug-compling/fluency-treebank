@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="pron" pos="det" rel="det" root="haar" sense="haar"/>
+        <node id="4" pos="num" rel="mod" root="eerste" sense="eerste" special="rang"/>
+        <node gen="de" id="5" num="sg" pos="noun" rel="hd" root="lang_speel_plaat" sense="lang_speel_plaat"/>
+        <node cat="mwu" id="6" mwu_root="Premiere mit Alexandra" mwu_sense="Premiere mit Alexandra" rel="app">
+          <node id="7" num="both" pos="name" rel="mwp" root="Premiere" sense="Premiere"/>
+          <node id="8" num="both" pos="name" rel="mwp" root="mit" sense="mit"/>
+          <node id="9" num="both" pos="name" rel="mwp" root="Alexandra" sense="Alexandra"/>
+        </node>
+      </node>
+      <node id="10" infl="sg" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="past"/>
+      <node cat="np" id="11" rel="predc">
+        <node id="12" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node aform="base" id="13" infl="no_e" pos="adj" rel="mod" root="overweldigend" sense="overweldigend" vform="adj"/>
+        <node gen="het" id="14" num="sg" pos="noun" rel="hd" root="succes" sense="succes"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

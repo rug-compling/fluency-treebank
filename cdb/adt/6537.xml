@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="heer" sense="heer"/>
+        <node id="5" neclass="PER" num="both" pos="name" rel="app" root="Pazout" sense="Pazout"/>
+      </node>
+      <node id="6" infl="sg" pos="verb" rel="hd" root="zeg" sc="vp" sense="zeg" tense="past"/>
+      <node cat="ti" id="7" rel="vc">
+        <node id="8" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+        <node cat="inf" id="9" rel="body">
+          <node id="10" index="1" rel="su"/>
+          <node id="11" pos="adv" rel="mod" root="niet" sense="niet"/>
+          <node id="12" infl="inf" pos="verb" rel="hd" root="weet" sc="tr_sbar" sense="weet"/>
+          <node cat="whsub" id="13" rel="vc">
+            <node id="14" index="2" pos="adv" rel="whd" root="waar" sense="waar" special="er_loc" wh="ywh"/>
+            <node cat="ssub" id="15" rel="body">
+              <node id="16" index="2" rel="mod"/>
+              <node id="17" neclass="PER" num="both" pos="name" rel="su" root="Cihak" sense="Cihak"/>
+              <node cat="pp" id="18" rel="mod">
+                <node id="19" pos="prep" rel="hd" root="op" sense="op"/>
+                <node cat="np" id="20" rel="obj1">
+                  <node id="21" infl="het" pos="det" rel="det" root="dit" sense="dit" wh="nwh"/>
+                  <node gen="both" id="22" num="sg" pos="noun" rel="hd" root="moment" sense="moment" special="tmp"/>
+                </node>
+              </node>
+              <node id="23" infl="sg3" pos="verb" rel="hd" root="verblijf" sc="intransitive" sense="verblijf" tense="present"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="pron" neclass="PER" pos="det" rel="det" root="Hoogendorn&apos;s" sense="Hoogendorn&apos;s" special="name"/>
+        <node aform="base" id="4" infl="both" pos="adj" rel="mod" root="free-lance" sense="free-lance" vform="adj"/>
+        <node gen="het" id="5" num="sg" pos="noun" rel="hd" root="contract" sense="contract"/>
+      </node>
+      <node id="6" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="passive" sense="ben" tense="present"/>
+      <node cat="ppart" id="7" rel="vc">
+        <node id="8" index="1" rel="obj1"/>
+        <node id="9" infl="psp" pos="verb" rel="hd" root="verleng" sc="transitive" sense="verleng"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="mwu" id="1" mwu_root="Prof. Hueting" mwu_sense="Prof. Hueting" rel="--">
+      <node id="2" neclass="PER" num="both" pos="name" rel="mwp" root="Prof." sense="Prof."/>
+      <node id="3" neclass="PER" num="both" pos="name" rel="mwp" root="Hueting" sense="Hueting"/>
+    </node>
+  </node>
+</alpino_adt>

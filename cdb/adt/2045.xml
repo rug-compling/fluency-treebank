@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="ppart" id="2" rel="predm">
+        <node aform="base" id="3" infl="no_e" pos="adj" rel="hd" root="gevraagd" sc="object_vp" sense="gevraagd" vform="psp"/>
+        <node cat="ti" id="4" rel="vc">
+          <node id="5" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+          <node cat="inf" id="6" rel="body">
+            <node cat="pp" id="7" rel="pc">
+              <node id="8" pos="prep" rel="hd" root="op" sense="op"/>
+              <node cat="np" id="9" rel="obj1">
+                <node id="10" infl="de" pos="det" rel="det" root="deze" sense="deze" wh="nwh"/>
+                <node gen="de" id="11" num="sg" pos="noun" rel="hd" root="veronderstelling" sense="veronderstelling"/>
+              </node>
+            </node>
+            <node id="12" infl="inf" pos="verb" rel="hd" root="reageer" sc="pc_pp(op)" sense="reageer-op"/>
+          </node>
+        </node>
+      </node>
+      <node id="13" infl="sg" pos="verb" rel="hd" root="zeg" sc="intransitive" sense="zeg" tense="past"/>
+      <node cat="conj" id="14" rel="su">
+        <node cat="np" id="15" rel="cnj">
+          <node id="16" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="17" num="sg" pos="noun" rel="hd" root="leger_woordvoerder" sense="leger_woordvoerder"/>
+        </node>
+        <node cat="np" id="18" rel="cnj">
+          <node id="19" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="20" num="sg" pos="noun" rel="hd" root="actie" sense="actie"/>
+        </node>
+      </node>
+      <node aform="base" id="21" infl="no_e" pos="adj" rel="predm" root="samendvattend" sense="samendvattend" vform="gerund"/>
+    </node>
+  </node>
+</alpino_adt>

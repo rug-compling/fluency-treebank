@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node case="nom" def="def" gen="de" id="2" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="zeg" sc="tr_sbar" sense="zeg" tense="past"/>
+      <node cat="cp" id="4" rel="vc">
+        <node id="5" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+        <node cat="ssub" id="6" rel="body">
+          <node cat="np" id="7" rel="su">
+            <node id="8" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+            <node id="9" pos="verb" rel="hd" root="blijf_uit" sc="intransitive" sense="blijf_uit" special="v_noun"/>
+            <node cat="pp" id="10" rel="mod">
+              <node id="11" pos="prep" rel="hd" root="van" sense="van"/>
+              <node cat="mwu" id="12" mwu_root="Nieuw Links_actie" mwu_sense="Nieuw Links_actie" rel="obj1">
+                <node gen="de" id="13" num="pl" pos="noun" rel="mwp" root="Nieuw" sense="Nieuw"/>
+                <node gen="de" id="14" num="pl" pos="noun" rel="mwp" root="Links_actie" sense="Links_actie"/>
+              </node>
+            </node>
+          </node>
+          <node gen="het" id="15" num="sg" pos="noun" rel="obj1" root="niets" sense="niets" special="meas_mod"/>
+          <node cat="ti" id="16" rel="svp">
+            <node id="17" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+            <node id="18" infl="inf" pos="verb" rel="body" root="maak" sc="fixed_dep(intransitive)" sense="maak"/>
+          </node>
+          <node id="19" infl="sg_heeft" pos="verb" rel="hd" root="heb" sc="fixed([vc(maak,pass_te,intransitive),pc(met),acc],no_passive)" sense="heb-met-maak" tense="present"/>
+          <node cat="pp" id="20" rel="pc">
+            <node id="21" pos="prep" rel="hd" root="met" sense="met"/>
+            <node gen="both" id="22" num="both" pos="noun" rel="obj1" root="inkapseling" sense="inkapseling"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="smain" id="2" rel="tag">
+        <node id="3" pos="adv" rel="vc" root="zo" sc="dip_sbar" sense="zo"/>
+        <node id="4" infl="sg3" pos="verb" rel="hd" root="meld" sc="sbar" sense="meld" tense="present"/>
+        <node cat="mwu" id="5" mwu_root="Associated Press" mwu_sense="Associated Press" rel="su">
+          <node id="6" neclass="ORG" num="both" pos="name" rel="mwp" root="Associated" sense="Associated"/>
+          <node id="7" neclass="ORG" num="both" pos="name" rel="mwp" root="Press" sense="Press"/>
+        </node>
+      </node>
+      <node cat="smain" id="8" rel="nucl">
+        <node id="9" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="passive" sense="ben" tense="present"/>
+        <node cat="ppart" id="10" rel="vc">
+          <node id="11" pos="adv" rel="mod" root="aldus" sense="aldus"/>
+          <node id="12" infl="psp" pos="verb" rel="hd" root="deel_mee" sc="part_intransitive(mee)" sense="deel_mee"/>
+          <node cat="pp" id="13" rel="mod">
+            <node id="14" pos="prep" rel="hd" root="in" sense="in"/>
+            <node cat="np" id="15" rel="obj1">
+              <node id="16" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node id="17" neclass="ORG" num="both" pos="name" rel="hd" root="Senaatssubcommissie" sense="Senaatssubcommissie"/>
+              <node cat="pp" id="18" rel="mod">
+                <node id="19" pos="prep" rel="hd" root="voor" sense="voor"/>
+                <node cat="np" id="20" rel="obj1">
+                  <node id="21" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+                  <node id="22" neclass="ORG" num="both" pos="name" rel="hd" root="Leefmilieu" sense="Leefmilieu"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

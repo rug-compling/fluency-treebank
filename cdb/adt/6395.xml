@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="np" id="1" rel="--">
+      <node id="2" infl="een" pos="det" rel="det" root="een" sense="een"/>
+      <node gen="het" id="3" num="sg" pos="noun" rel="hd" root="stuk" sc="measure" sense="stuk-MEAS" special="meas_mod"/>
+      <node cat="np" id="4" rel="mod">
+        <node aform="base" id="5" infl="no_e" pos="adj" rel="mod" root="gecultiveerd" sense="gecultiveerd" vform="psp"/>
+        <node gen="het" id="6" num="sg" pos="noun" rel="hd" root="moeras" sense="moeras"/>
+        <node cat="pp" id="7" rel="mod">
+          <node id="8" pos="prep" rel="hd" root="met" sense="met"/>
+          <node cat="conj" id="9" rel="obj1">
+            <node cat="np" id="10" rel="cnj">
+              <node gen="het" id="11" num="pl" pos="noun" rel="hd" root="huis_DIM" sense="huis_DIM"/>
+              <node cat="pp" id="12" rel="mod">
+                <node id="13" pos="prep" rel="hd" root="op" sense="op"/>
+                <node cat="np" id="14" rel="obj1">
+                  <node id="15" infl="een" pos="det" rel="det" root="een" sense="een"/>
+                  <node gen="de" id="16" num="sg" pos="noun" rel="hd" root="dijk" sense="dijk"/>
+                </node>
+              </node>
+            </node>
+            <node id="17" pos="vg" rel="crd" root="en" sense="en"/>
+            <node cat="np" id="18" rel="cnj">
+              <node aform="base" id="19" infl="e" pos="adj" rel="mod" root="lijnrecht" sense="lijnrecht" vform="adj"/>
+              <node aform="base" id="20" infl="e" pos="adj" rel="mod" root="smal" sense="smal" vform="adj"/>
+              <node gen="de" id="21" num="pl" pos="noun" rel="hd" root="weg" sense="weg" special="tmp"/>
+              <node cat="pp" id="22" rel="mod">
+                <node id="23" pos="prep" rel="hd" root="door" sense="door"/>
+                <node cat="np" id="24" rel="obj1">
+                  <node id="25" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                  <node gen="de" id="26" num="sg" pos="noun" rel="hd" root="polder" sense="polder"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

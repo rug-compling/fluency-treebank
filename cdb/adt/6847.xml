@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="smain" id="2" rel="nucl">
+        <node case="nom" def="def" gen="de" id="3" num="sg" per="fir" pos="pron" rel="su" root="ik" sense="ik" wh="nwh"/>
+        <node id="4" infl="sg" pos="verb" rel="hd" root="zit" sc="fixed([{[[in,de,knoop],pc(met)]}],no_passive)" sense="in-de-knoop-zit-met" tense="past"/>
+        <node aform="base" id="5" infl="no_e" pos="adj" rel="mod" root="duur_voort" sense="duur_voort" vform="gerund"/>
+        <node cat="mwu" id="6" mwu_root="in de knoop" mwu_sense="in de knoop" rel="svp">
+          <node id="7" pos="fixed" rel="mwp" root="in" sense="in"/>
+          <node id="8" pos="fixed" rel="mwp" root="de" sense="de"/>
+          <node id="9" pos="fixed" rel="mwp" root="knoop" sense="knoop"/>
+        </node>
+        <node cat="pp" id="10" rel="pc">
+          <node id="11" pos="prep" rel="hd" root="met" sense="met"/>
+          <node cat="np" id="12" rel="obj1">
+            <node id="13" infl="het" pos="det" rel="det" root="ons" sense="ons"/>
+            <node gen="het" id="14" num="sg" pos="noun" rel="hd" root="prive_budget" sense="prive_budget"/>
+          </node>
+        </node>
+      </node>
+      <node cat="smain" id="15" rel="tag">
+        <node id="16" pos="adv" rel="vc" root="zo" sc="dip_sbar" sense="zo"/>
+        <node id="17" infl="sg" pos="verb" rel="hd" root="vertel" sc="sbar" sense="vertel" tense="past"/>
+        <node case="both" def="def" gen="de" id="18" num="both" per="thi" pos="pron" rel="su" root="ze" sense="ze" special="wkpro" wh="nwh"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

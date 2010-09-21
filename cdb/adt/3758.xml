@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="smain" id="2" rel="cnj">
+        <node id="3" neclass="LOC" num="both" pos="name" rel="su" root="Engeland" sense="Engeland"/>
+        <node id="4" infl="modal_not_u" pos="verb" rel="hd" root="zal" sc="intransitive" sense="zal" tense="present"/>
+      </node>
+      <node id="5" pos="vg" rel="crd" root="of" sense="of"/>
+      <node cat="smain" id="6" rel="cnj">
+        <node id="7" pos="adv" rel="mod" root="daar" sense="daar" special="er_loc"/>
+        <node id="8" infl="pl" pos="verb" rel="hd" root="sneuvel" sc="intransitive" sense="sneuvel" tense="present"/>
+        <node cat="conj" id="9" rel="su">
+          <node id="10" neclass="LOC" num="both" pos="name" rel="cnj" root="Brazilie" sense="Brazilie"/>
+          <node id="11" neclass="LOC" num="both" pos="name" rel="cnj" root="Roemenie" sense="Roemenie"/>
+          <node id="12" pos="vg" rel="crd" root="en" sense="en"/>
+          <node id="13" neclass="LOC" num="both" pos="name" rel="cnj" root="Tsjechoslowakije" sense="Tsjechoslowakije"/>
+        </node>
+      </node>
+      <node id="14" pos="vg" rel="crd" root="of" sense="of"/>
+      <node cat="smain" id="15" rel="cnj">
+        <node id="16" infl="het" pos="det" rel="su" root="het" sense="het" wh="nwh"/>
+        <node id="17" infl="sg3" pos="verb" rel="hd" root="word" sc="copula" sense="word" tense="present"/>
+        <node gen="de" id="18" num="sg" pos="noun" rel="predc" root="wereldkampioen" sense="wereldkampioen"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="pl" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="past"/>
+      <node cat="np" id="3" index="1" rel="su">
+        <node id="4" pos="adv" rel="mod" root="al" sc="modal" sense="al"/>
+        <node id="5" infl="pl_num" pos="num" rel="det" root="32.000" sense="32.000" special="hoofd"/>
+        <node gen="het" id="6" num="pl" pos="noun" rel="hd" root="beton_blok" sense="beton_blok"/>
+      </node>
+      <node cat="ppart" id="7" rel="vc">
+        <node cat="pp" id="8" rel="mod">
+          <node id="9" pos="prep" rel="hd" root="tot" sc="tmp_adv" sense="tot"/>
+          <node id="10" pos="adv" rel="obj1" root="gisteren" sense="gisteren" special="tmp"/>
+        </node>
+        <node cat="pp" id="11" rel="mod">
+          <node id="12" pos="prep" rel="hd" root="sinds" sense="sinds"/>
+          <node gen="de" id="13" num="sg" pos="noun" rel="obj1" root="maandag" sense="maandag" special="tmp"/>
+        </node>
+        <node id="14" index="1" rel="obj1"/>
+        <node cat="pp" id="15" rel="ld">
+          <node id="16" pos="prep" rel="hd" root="in" sense="in"/>
+          <node gen="de" id="17" num="sg" pos="noun" rel="obj1" root="zee" sense="zee"/>
+        </node>
+        <node id="18" infl="psp" pos="verb" rel="hd" root="stort" sc="np_ld_pp" sense="stort"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

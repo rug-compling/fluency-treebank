@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node case="nom" def="def" gen="de" id="2" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="breng_over" sc="part_transitive(over)" sense="breng_over" tense="past"/>
+      <node id="4" pos="adv" rel="mod" root="tevens" sense="tevens"/>
+      <node cat="np" id="5" rel="obj1">
+        <node id="6" infl="pron" pos="det" rel="det" root="zijn" sense="zijn"/>
+        <node aform="super" id="7" infl="e" pos="adj" rel="mod" root="goed" sense="goed" vform="adj"/>
+        <node id="8" pos="verb" rel="hd" root="wens" sc="intransitive" sense="wens" special="v_noun"/>
+      </node>
+      <node cat="pp" id="9" rel="mod">
+        <node id="10" pos="prep" rel="hd" root="voor" sense="voor"/>
+        <node cat="np" id="11" rel="obj1">
+          <node id="12" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+          <node gen="het" id="13" num="sg" pos="noun" rel="hd" root="welzijn" sense="welzijn"/>
+          <node cat="pp" id="14" rel="mod">
+            <node id="15" pos="prep" rel="hd" root="van" sense="van"/>
+            <node cat="np" id="16" rel="obj1">
+              <node id="17" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node aform="base" id="18" infl="e" pos="adj" rel="mod" root="heel" sense="heel" vform="adj"/>
+              <node aform="base" id="19" infl="e" pos="adj" rel="mod" root="koninklijk" sense="koninklijk" vform="adj"/>
+              <node gen="de" id="20" num="sg" pos="noun" rel="hd" root="familie" sense="familie"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

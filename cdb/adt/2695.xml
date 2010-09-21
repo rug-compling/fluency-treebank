@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="heer" sense="heer"/>
+        <node id="5" neclass="PER" num="both" pos="name" rel="app" root="Watsema" sense="Watsema"/>
+      </node>
+      <node id="6" infl="sg_heeft" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="present"/>
+      <node cat="ppart" id="7" rel="vc">
+        <node id="8" index="1" rel="su"/>
+        <node cat="pp" id="9" rel="mod">
+          <node id="10" pos="prep" rel="hd" root="bij" sense="bij"/>
+          <node cat="np" id="11" rel="obj1">
+            <node gen="de" id="12" num="sg" pos="noun" rel="hd" root="aankomst" sense="aankomst"/>
+            <node cat="pp" id="13" rel="mod">
+              <node id="14" pos="prep" rel="hd" root="op" sense="op"/>
+              <node cat="np" id="15" rel="obj1">
+                <node id="16" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                <node gen="de" id="17" num="sg" pos="noun" rel="hd" root="markt" sense="markt"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node aform="base" id="18" infl="no_e" pos="adj" rel="mod" root="onmiddellijk" sense="onmiddellijk" vform="adj"/>
+        <node cat="np" id="19" rel="obj1">
+          <node gen="de" id="20" num="sg" pos="noun" rel="hd" root="aangifte" sense="aangifte"/>
+          <node cat="pp" id="21" rel="mod">
+            <node id="22" pos="prep" rel="hd" root="van" sense="van"/>
+            <node cat="np" id="23" rel="obj1">
+              <node id="24" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node aform="base" id="25" infl="e" pos="adj" rel="mod" root="onrechtmatig" sense="onrechtmatig" vform="adj"/>
+              <node gen="de" id="26" num="sg" pos="noun" rel="hd" root="verkoop" sense="verkoop"/>
+            </node>
+          </node>
+        </node>
+        <node id="27" infl="psp" pos="verb" rel="hd" root="doe" sc="transitive_ndev" sense="doe"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

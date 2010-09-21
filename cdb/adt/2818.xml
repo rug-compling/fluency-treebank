@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="mod">
+        <node id="3" pos="adv" rel="mod" root="direct" sc="comp_prep" sense="direct"/>
+        <node id="4" pos="prep" rel="hd" root="na" sense="na"/>
+        <node cat="np" id="5" rel="obj1">
+          <node id="6" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="7" num="sg" pos="noun" rel="hd" root="titelstrijd" sense="titelstrijd"/>
+          <node cat="pp" id="8" rel="mod">
+            <node id="9" pos="prep" rel="hd" root="in" sense="in"/>
+            <node id="10" neclass="LOC" num="both" pos="name" rel="obj1" root="Engeland" sense="Engeland"/>
+          </node>
+        </node>
+      </node>
+      <node id="11" infl="sg" pos="verb" rel="hd" root="vervang" sc="transitive" sense="vervang" tense="past"/>
+      <node cat="np" id="12" rel="su">
+        <node id="13" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node aform="base" id="14" infl="e" pos="adj" rel="mod" root="58_jarig" sense="58_jarig" vform="adj"/>
+        <node gen="de" id="15" num="sg" pos="noun" rel="hd" root="coach" sense="coach"/>
+        <node cat="mwu" id="16" mwu_root="Gavril Kachalin" mwu_sense="Gavril Kachalin" rel="app">
+          <node id="17" neclass="PER" num="both" pos="name" rel="mwp" root="Gavril" sense="Gavril"/>
+          <node id="18" neclass="PER" num="both" pos="name" rel="mwp" root="Kachalin" sense="Kachalin"/>
+        </node>
+      </node>
+      <node cat="np" id="19" rel="obj1">
+        <node id="20" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node aform="super" id="21" infl="e" pos="adj" rel="mod" root="groot" sense="groot" vform="adj"/>
+        <node gen="het" id="22" num="sg" pos="noun" rel="hd" root="deel" sense="deel" special="mod"/>
+        <node cat="pp" id="23" rel="mod">
+          <node id="24" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="25" rel="obj1">
+            <node id="26" infl="pron" pos="det" rel="det" root="zijn" sense="zijn"/>
+            <node gen="de" id="27" num="sg" pos="noun" rel="hd" root="selectie" sense="selectie"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

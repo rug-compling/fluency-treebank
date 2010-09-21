@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="smain" id="2" rel="dp">
+        <node case="both" def="def" gen="de" id="3" num="both" per="thi" pos="pron" rel="su" root="ze" sense="ze" special="wkpro" wh="nwh"/>
+        <node id="4" infl="pl" pos="verb" rel="hd" root="wil" sc="transitive_ndev_ndev" sense="wil" tense="present"/>
+        <node cat="np" id="5" rel="obj1">
+          <node id="6" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node aform="base" id="7" infl="e" pos="adj" rel="mod" root="ronk" sense="ronk" vform="gerund"/>
+          <node gen="het" id="8" num="pl" pos="noun" rel="hd" root="vliegtuig" sense="vliegtuig"/>
+        </node>
+        <node id="9" pos="adv" rel="mod" root="niet" sense="niet"/>
+      </node>
+      <node cat="du" id="10" rel="dp">
+        <node id="11" pos="comp" rel="dlink" root="en" sc="root" sense="en"/>
+        <node cat="du" id="12" rel="nucl">
+          <node cat="np" id="13" rel="dp">
+            <node id="14" pos="adv" rel="mod" root="ook" sc="modal" sense="ook"/>
+            <node id="15" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="16" num="pl" pos="noun" rel="hd" root="bom" sense="bom"/>
+          </node>
+          <node id="17" pos="adv" rel="dp" root="niet" sense="niet"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" neclass="PER" num="both" pos="name" rel="su" root="Debbie" sense="Debbie"/>
+      <node id="3" infl="sg3" pos="verb" rel="hd" root="maak" sc="ap_pred_refl" sense="zich-maak" tense="present"/>
+      <node id="4" num="both" per="u_thi" pos="pron" refl="refl" rel="se" root="zich" sense="zich"/>
+      <node cat="ap" id="5" rel="predc">
+        <node aform="base" id="6" infl="no_e" pos="adj" rel="hd" root="razend" sc="pp(over)" sense="razend-over" vform="adj"/>
+        <node cat="pp" id="7" rel="pc">
+          <node id="8" pos="prep" rel="hd" root="over" sense="over"/>
+          <node cat="np" id="9" rel="obj1">
+            <node id="10" infl="een" pos="det" rel="det" root="een" sense="een"/>
+            <node aform="base" id="11" infl="e" pos="adj" rel="mod" root="Engels" sense="Engels" vform="adj"/>
+            <node gen="de" id="12" num="sg" pos="noun" rel="hd" root="journalist" sense="journalist"/>
+            <node cat="rel" id="13" rel="mod">
+              <node case="no_obl" gen="de" id="14" index="1" pos="pron" rel="rhd" root="die" sense="die" wh="rel"/>
+              <node cat="ssub" id="15" rel="body">
+                <node id="16" index="1" rel="su"/>
+                <node id="17" infl="sg_heeft" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="present"/>
+                <node cat="ppart" id="18" rel="vc">
+                  <node id="19" index="1" rel="su"/>
+                  <node cat="pp" id="20" rel="mod">
+                    <node id="21" pos="prep" rel="hd" root="in" sense="in"/>
+                    <node cat="np" id="22" rel="obj1">
+                      <node id="23" infl="pron" pos="det" rel="det" root="zijn" sense="zijn"/>
+                      <node gen="de" id="24" num="sg" pos="noun" rel="hd" root="krant" sense="krant"/>
+                    </node>
+                  </node>
+                  <node id="25" infl="psp" pos="verb" rel="hd" root="schrijf" sc="intransitive" sense="schrijf"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" tense="present"/>
+      <node cat="np" id="3" index="1" rel="su">
+        <node id="4" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="het" id="5" num="sg" pos="noun" rel="hd" root="reis_geld" sense="reis_geld"/>
+        <node cat="pp" id="6" rel="mod">
+          <node id="7" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="8" rel="obj1">
+            <node cat="mwu" id="9" mwu_root="tenminste" mwu_sense="tenminste" rel="mod">
+              <node id="10" pos="adv" rel="mwp" root="ten" sc="noun_prep" sense="ten"/>
+              <node id="11" pos="adv" rel="mwp" root="minste" sc="noun_prep" sense="minste"/>
+            </node>
+            <node id="12" infl="pl_num" pos="num" rel="det" root="veertig" sense="veertig" special="hoofd"/>
+            <node gen="de" id="13" num="pl" pos="noun" rel="hd" root="emigrant_ouder" sense="emigrant_ouder"/>
+          </node>
+        </node>
+      </node>
+      <node cat="inf" id="14" rel="vc">
+        <node id="15" index="1" rel="su"/>
+        <node id="16" infl="inf" pos="verb" rel="hd" root="blijf" sc="aux(inf)" sense="blijf"/>
+        <node cat="inf" id="17" rel="vc">
+          <node cat="pp" id="18" rel="mod">
+            <node id="19" pos="prep" rel="hd" root="bij" sense="bij"/>
+            <node cat="np" id="20" rel="obj1">
+              <node id="21" infl="de" pos="det" rel="det" root="deze" sense="deze" wh="nwh"/>
+              <node gen="de" id="22" num="sg" pos="noun" rel="hd" root="transactie" sense="transactie"/>
+            </node>
+          </node>
+          <node id="23" index="1" rel="su"/>
+          <node cat="pp" id="24" rel="ld">
+            <node id="25" pos="prep" rel="hd" root="aan" sense="aan"/>
+            <node cat="np" id="26" rel="obj1">
+              <node id="27" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node gen="de" id="28" num="sg" pos="noun" rel="hd" root="pan" sense="pan"/>
+            </node>
+          </node>
+          <node id="29" infl="inf" pos="verb" rel="hd" root="hang" sc="ld_pp" sense="hang"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

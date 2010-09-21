@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="sv1" id="2" rel="tag">
+        <node id="3" infl="sg1" pos="verb" rel="hd" root="neem" sc="transitive" sense="neem" tense="present"/>
+        <node cat="np" id="4" rel="obj1">
+          <node id="5" infl="de" pos="det" rel="det" root="die" sense="die" wh="nwh"/>
+          <node gen="de" id="6" num="pl" pos="noun" rel="hd" root="jongen" sense="jongen"/>
+          <node cat="pp" id="7" rel="mod">
+            <node id="8" pos="prep" rel="hd" root="van" sense="van"/>
+            <node id="9" neclass="PER" num="both" pos="name" rel="obj1" root="Harrewijn" sense="Harrewijn"/>
+          </node>
+        </node>
+      </node>
+      <node cat="smain" id="10" rel="nucl">
+        <node case="nom" def="def" gen="de" id="11" index="1" num="both" per="thi" pos="pron" rel="su" root="zij" sense="zij" wh="nwh"/>
+        <node id="12" infl="pl" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="present"/>
+        <node cat="inf" id="13" rel="vc">
+          <node id="14" index="1" rel="su"/>
+          <node aform="base" id="15" infl="no_e" pos="adj" rel="mod" root="snel" sense="snel" vform="adj"/>
+          <node cat="ap" id="16" rel="predc">
+            <node id="17" pos="adv" rel="mod" root="nog" sense="nog"/>
+            <node aform="base" id="18" infl="no_e" pos="adj" rel="mod" root="veel" sense="veel" vform="adj"/>
+            <node aform="compar" id="19" infl="no_e" pos="adj" rel="hd" root="goed" sense="goed" vform="adj"/>
+          </node>
+          <node id="20" infl="inf" pos="verb" rel="hd" root="word" sc="copula" sense="word"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

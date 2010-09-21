@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="smain" id="2" rel="cnj">
+        <node case="nom" def="def" gen="de" id="3" index="1" num="both" per="thi" pos="pron" rel="su" root="zij" sense="zij" wh="nwh"/>
+        <node id="4" infl="pl" pos="verb" rel="hd" root="wil" sc="modifier(aux(inf))" sense="wil" tense="present"/>
+        <node cat="inf" id="5" rel="vc">
+          <node id="6" index="1" rel="su"/>
+          <node gen="het" id="7" num="sg" pos="noun" rel="obj1" root="niets" sense="niets" special="meas_mod"/>
+          <node aform="compar" id="8" infl="meer" pos="adj" rel="mod" root="meer" sense="meer" vform="adj"/>
+          <node cat="pp" id="9" rel="pc">
+            <node id="10" pos="prep" rel="hd" root="met" sense="met"/>
+            <node case="dat_acc" def="def" gen="de" id="11" num="sg" per="fir" pos="pron" rel="obj1" root="mij" sense="mij" wh="nwh"/>
+          </node>
+          <node cat="ti" id="12" rel="svp">
+            <node id="13" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+            <node id="14" infl="inf" pos="verb" rel="body" root="maak" sc="fixed_dep(intransitive)" sense="maak"/>
+          </node>
+          <node id="15" infl="inf" pos="verb" rel="hd" root="heb" sc="fixed([vc(maak,pass_te,intransitive),pc(met),acc],no_passive)" sense="heb-met-maak"/>
+        </node>
+      </node>
+      <node id="16" pos="vg" rel="crd" root="en" sense="en"/>
+      <node cat="smain" id="17" rel="cnj">
+        <node case="nom" def="def" gen="de" id="18" index="2" num="sg" per="fir" pos="pron" rel="su" root="ik" sense="ik" wh="nwh"/>
+        <node id="19" infl="modal_not_u" pos="verb" rel="hd" root="kan" sc="aux(inf)" sense="kan" tense="present"/>
+        <node cat="inf" id="20" rel="vc">
+          <node id="21" index="2" rel="su"/>
+          <node id="22" pos="adv" rel="ld" root="daar" sense="daar" special="er_loc"/>
+          <node aform="base" id="23" infl="pred" pos="adj" rel="mod" root="wel" sense="wel" vform="adj"/>
+          <node id="24" infl="inf" pos="verb" rel="hd" root="kom_in" sc="part_ld_adv(in)" sense="kom_in"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

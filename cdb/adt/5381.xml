@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node case="nom" def="def" gen="de" id="2" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="heb_op" sc="part_transitive(op)" sense="heb_op" tense="past"/>
+      <node cat="np" id="4" rel="obj1">
+        <node id="5" infl="enkele" pos="det" rel="det" root="enkel" sense="enkel" special="adj_number"/>
+        <node gen="het" id="6" num="pl" pos="noun" rel="hd" root="glas" sc="measure" sense="glas-MEAS"/>
+        <node gen="de" id="7" num="sg" pos="noun" rel="mod" root="wijn" sense="wijn"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

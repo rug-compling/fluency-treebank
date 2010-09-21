@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node case="nom" def="def" gen="de" id="2" num="both" per="thi" pos="pron" rel="su" root="zij" sense="zij" wh="nwh"/>
+      <node id="3" infl="pl" pos="verb" rel="hd" root="voel" sc="pred_refl" sense="zich-voel" tense="past"/>
+      <node id="4" num="both" per="u_thi" pos="pron" refl="refl" rel="se" root="zich" sense="zich"/>
+      <node aform="base" id="5" infl="no_e" pos="adj" rel="predc" root="bedreigd" sense="bedreigd" vform="psp"/>
+      <node cat="pp" id="6" rel="mod">
+        <node id="7" pos="prep" rel="hd" root="door" sense="door"/>
+        <node cat="np" id="8" rel="obj1">
+          <node id="9" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node aform="base" id="10" infl="e" pos="adj" rel="mod" root="duur_voort" sense="duur_voort" vform="gerund"/>
+          <node gen="de" id="11" num="pl" pos="noun" rel="hd" root="botsing" sense="botsing"/>
+          <node cat="pp" id="12" rel="mod">
+            <node id="13" pos="prep" rel="hd" root="tussen" sense="tussen"/>
+            <node cat="conj" id="14" rel="obj1">
+              <node gen="de" id="15" num="pl" pos="noun" rel="cnj" root="protestant" sense="protestant"/>
+              <node id="16" pos="vg" rel="crd" root="en" sense="en"/>
+              <node gen="de" id="17" num="pl" pos="noun" rel="cnj" root="katholiek" sense="katholiek"/>
+            </node>
+          </node>
+          <node cat="pp" id="18" rel="mod">
+            <node id="19" pos="prep" rel="hd" root="in" sense="in"/>
+            <node id="20" neclass="LOC" num="both" pos="name" rel="obj1" root="Ierland" sense="Ierland"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="het" id="4" num="sg" pos="noun" rel="hd" root="comité" sense="comité"/>
+      </node>
+      <node id="5" infl="sg_heeft" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="present"/>
+      <node cat="ppart" id="6" rel="vc">
+        <node id="7" index="1" rel="su"/>
+        <node id="8" pos="adv" rel="mod" root="bovendien" sense="bovendien" special="sentence"/>
+        <node cat="np" id="9" rel="obj2">
+          <node id="10" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node aform="base" id="11" num="pl" pos="adj" rel="hd" root="ongeorganiseerd" sense="ongeorganiseerd" special="a_noun"/>
+        </node>
+        <node cat="np" id="12" rel="obj1">
+          <node id="13" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="14" num="pl" pos="noun" rel="hd" root="staking_dag" sense="staking_dag" special="tmp"/>
+        </node>
+        <node id="15" infl="psp" pos="verb" rel="hd" root="betaal_uit" sc="part_np_np(uit)" sense="betaal_uit"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

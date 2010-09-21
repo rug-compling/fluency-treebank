@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="modal_not_u" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="present"/>
+      <node cat="np" id="3" index="1" rel="su">
+        <node id="4" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node aform="base" id="5" infl="both" pos="adj" rel="mod" root="afgelopen" sense="afgelopen" vform="psp"/>
+        <node gen="de" id="6" num="sg" pos="noun" rel="hd" root="nacht" sense="nacht" special="tmp"/>
+      </node>
+      <node cat="inf" id="7" rel="vc">
+        <node id="8" index="1" rel="su"/>
+        <node id="9" infl="inf" pos="verb" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben"/>
+        <node cat="ppart" id="10" rel="vc">
+          <node cat="pp" id="11" rel="mod">
+            <node id="12" pos="prep" rel="hd" root="voor" sense="voor"/>
+            <node cat="np" id="13" rel="obj1">
+              <node aform="base" id="14" infl="e" pos="adj" rel="mod" root="veel" sense="veel" vform="adj"/>
+              <node aform="base" id="15" num="pl" pos="adj" rel="hd" root="voetbalenthousiast" sense="voetbalenthousiast" special="a_noun"/>
+            </node>
+          </node>
+          <node id="16" index="1" rel="su"/>
+          <node cat="np" id="17" rel="predc">
+            <node id="18" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node aform="super" id="19" infl="e" pos="adj" rel="hd" root="kort" sense="kort" vform="adj"/>
+          </node>
+          <node id="20" infl="psp" pos="verb" rel="hd" root="ben" sc="copula" sense="ben"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

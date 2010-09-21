@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node case="nom" def="def" gen="de" id="3" num="pl" per="fir" pos="pron" rel="hd" root="wij" sense="wij" wh="nwh"/>
+        <node id="4" pos="adv" rel="mod" root="ook" sense="ook" special="postnp"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="met" sense="met"/>
+          <node cat="conj" id="7" rel="obj1">
+            <node cat="np" id="8" rel="cnj">
+              <node cat="detp" id="9" index="1" rel="det">
+                <node id="10" infl="al" pos="det" rel="mod" root="al" sense="al" special="pre_det_quant"/>
+                <node id="11" infl="onze" pos="det" rel="hd" root="ons" sense="ons"/>
+              </node>
+              <node gen="de" id="12" num="pl" pos="noun" rel="hd" root="vijf" sense="vijf"/>
+            </node>
+            <node id="13" pos="vg" rel="crd" root="en" sense="en"/>
+            <node cat="np" id="14" rel="cnj">
+              <node id="15" index="1" rel="det"/>
+              <node gen="de" id="16" num="pl" pos="noun" rel="hd" root="zes" sense="zes"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="17" infl="pl" pos="verb" rel="hd" root="herken" sc="np_pc_pp(in)" sense="herken-in" tense="present"/>
+      <node case="dat_acc" def="def" gen="de" id="18" num="pl" per="fir" pos="pron" rel="obj1" root="onszelf" sense="onszelf" wh="nwh"/>
+      <node cat="pp" id="19" rel="pc">
+        <node id="20" pos="adv" rel="obj1" root="er" sense="er" special="er"/>
+        <node id="21" pos="prep" rel="hd" root="in" sense="in"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

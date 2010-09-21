@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node id="2" pos="comp" rel="dlink" root="en" sc="root" sense="en"/>
+      <node cat="du" id="3" rel="nucl">
+        <node cat="advp" id="4" rel="dp">
+          <node id="5" pos="adv" rel="hd" root="daar" sense="daar" special="er_loc"/>
+          <node cat="pp" id="6" rel="mod">
+            <node id="7" pos="prep" rel="hd" root="door" sense="door"/>
+            <node aform="base" id="8" infl="e" pos="adj" rel="obj1" root="behoord" sense="behoord" vform="psp"/>
+          </node>
+        </node>
+        <node cat="np" id="9" rel="dp">
+          <node case="nom" def="def" gen="de" id="10" num="sg" per="thi" pos="pron" rel="hd" root="hij" sense="hij" wh="nwh"/>
+          <node cat="pp" id="11" rel="mod">
+            <node id="12" pos="prep" rel="hd" root="bij" sense="bij"/>
+            <node cat="np" id="13" rel="obj1">
+              <node id="14" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node gen="de" id="15" num="pl" pos="noun" rel="hd" root="dode" sense="dode"/>
+              <node cat="rel" id="16" rel="mod">
+                <node case="no_obl" gen="de" id="17" index="1" pos="pron" rel="rhd" root="die" sense="die" wh="rel"/>
+                <node cat="ssub" id="18" rel="body">
+                  <node id="19" index="1" rel="su"/>
+                  <node cat="np" id="20" rel="obj1">
+                    <node id="21" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                    <node gen="de" id="22" num="pl" pos="noun" rel="hd" root="dode" sense="dode"/>
+                  </node>
+                  <node id="23" infl="pl" pos="verb" rel="hd" root="begraaf" sc="transitive" sense="begraaf" tense="present"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

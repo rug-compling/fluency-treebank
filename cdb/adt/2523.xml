@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" pos="adv" rel="mod" root="vooral" sc="modal" sense="vooral"/>
+        <node id="4" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="5" num="sg" pos="noun" rel="hd" root="lucht" sense="lucht"/>
+        <node cat="pp" id="6" rel="mod">
+          <node id="7" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="8" rel="obj1">
+            <node aform="base" id="9" infl="e" pos="adj" rel="mod" root="geteerd" sense="geteerd" vform="psp"/>
+            <node gen="het" id="10" num="pl" pos="noun" rel="hd" root="boek" sense="boek"/>
+          </node>
+        </node>
+      </node>
+      <node id="11" infl="sg3" pos="verb" rel="hd" root="schijn" sc="aux(te)" sense="schijn" tense="present"/>
+      <node cat="ti" id="12" rel="vc">
+        <node id="13" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+        <node cat="inf" id="14" rel="body">
+          <node id="15" index="1" rel="su"/>
+          <node id="16" pos="verb" rel="obj1" root="veel" sc="intransitive" sense="veel" special="v_noun"/>
+          <node cat="mwu" id="17" mwu_root="naar de keel" mwu_sense="naar de keel" rel="svp">
+            <node id="18" pos="fixed" rel="mwp" root="naar" sense="naar"/>
+            <node id="19" pos="fixed" rel="mwp" root="de" sense="de"/>
+            <node id="20" pos="fixed" rel="mwp" root="keel" sense="keel"/>
+          </node>
+          <node id="21" infl="inf" pos="verb" rel="hd" root="grijp" sc="fixed([[naar,de,keel],acc],norm_passive)" sense="naar-de-keel-grijp"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

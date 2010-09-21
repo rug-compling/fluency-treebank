@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="smain" id="2" rel="cnj">
+        <node id="3" index="1" neclass="PER" num="both" pos="name" rel="su" root="Allen" sense="Allen"/>
+        <node id="4" infl="pl" pos="verb" rel="hd" root="bekleed" sc="transitive" sense="bekleed" tense="past"/>
+        <node cat="np" id="5" rel="obj1">
+          <node cat="mwu" id="6" mwu_root="een of ander" mwu_sense="een of ander" rel="mod">
+            <node aform="base" id="7" infl="e" pos="adj" rel="mwp" root="een" sense="een" vform="adj"/>
+            <node aform="base" id="8" infl="e" pos="adj" rel="mwp" root="of" sense="of" vform="adj"/>
+            <node aform="base" id="9" infl="e" pos="adj" rel="mwp" root="ander" sense="ander" vform="adj"/>
+          </node>
+          <node gen="de" id="10" num="sg" pos="noun" rel="hd" root="bestuur_functie" sense="bestuur_functie"/>
+        </node>
+      </node>
+      <node id="11" pos="vg" rel="crd" root="of" sense="of"/>
+      <node cat="smain" id="12" rel="cnj">
+        <node id="13" index="1" rel="su"/>
+        <node id="14" infl="pl" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="past"/>
+        <node cat="ppart" id="15" rel="predc">
+          <node aform="base" id="16" infl="both" pos="adj" rel="hd" root="verbonden" sc="pp(aan)" sense="verbonden-aan" vform="psp"/>
+          <node cat="pp" id="17" rel="pc">
+            <node id="18" pos="prep" rel="hd" root="aan" sense="aan"/>
+            <node cat="np" id="19" rel="obj1">
+              <node case="both" def="indef" gen="both" id="20" num="sg" per="thi" pos="pron" rel="hd" root="één" sense="één" special="strpro" wh="nwh"/>
+              <node cat="np" id="21" rel="mod">
+                <node id="22" infl="der" pos="det" rel="det" root="de" sense="de"/>
+                <node aform="base" id="23" infl="e" pos="adj" rel="mod" root="sociaal" sense="sociaal" vform="adj"/>
+                <node gen="both" id="24" num="pl" pos="noun" rel="hd" root="advies_bureau" sense="advies_bureau"/>
+                <node cat="pp" id="25" rel="mod">
+                  <node id="26" pos="prep" rel="hd" root="van" sense="van"/>
+                  <node cat="np" id="27" rel="obj1">
+                    <node id="28" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                    <node id="29" neclass="LOC" num="both" pos="name" rel="hd" root="PSP_Limburg" sense="PSP_Limburg"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

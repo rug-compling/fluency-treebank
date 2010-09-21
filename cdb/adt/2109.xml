@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="mwu" id="1" mwu_root="Ich bin Weltmeister" mwu_sense="Ich bin Weltmeister" rel="--">
+      <node id="2" num="both" pos="name" rel="mwp" root="Ich" sense="Ich"/>
+      <node id="3" num="both" pos="name" rel="mwp" root="bin" sense="bin"/>
+      <node id="4" num="both" pos="name" rel="mwp" root="Weltmeister" sense="Weltmeister"/>
+    </node>
+  </node>
+</alpino_adt>

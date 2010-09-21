@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node id="4" infl="pl_num" pos="num" rel="det" root="drie" sense="drie" special="hoofd"/>
+        <node aform="base" id="5" infl="e" pos="adj" rel="mod" root="populair" sense="populair" vform="adj"/>
+        <node gen="de" id="6" num="pl" pos="noun" rel="hd" root="beeld_verhaal_held" sense="beeld_verhaal_held"/>
+      </node>
+      <node id="7" infl="pl" pos="verb" rel="hd" root="raak" sc="ld_pp" sense="raak" tense="past"/>
+      <node aform="base" id="8" infl="no_e" pos="adj" rel="mod" root="onmiddellijk" sense="onmiddellijk" vform="adj"/>
+      <node cat="pp" id="9" rel="ld">
+        <node id="10" pos="prep" rel="hd" root="in" sense="in"/>
+        <node cat="np" id="11" rel="obj1">
+          <node id="12" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node aform="base" id="13" infl="no_e" pos="adj" rel="mod" root="geanimeerd" sense="geanimeerd" vform="psp"/>
+          <node gen="het" id="14" num="sg" pos="noun" rel="hd" root="gesprek" sense="gesprek"/>
+          <node cat="pp" id="15" rel="mod">
+            <node id="16" pos="prep" rel="hd" root="over" sense="over"/>
+            <node cat="np" id="17" rel="obj1">
+              <node id="18" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node gen="de" id="19" num="sg" pos="noun" rel="hd" root="inhoud" sense="inhoud"/>
+              <node cat="pp" id="20" rel="mod">
+                <node id="21" pos="prep" rel="hd" root="van" sense="van"/>
+                <node cat="np" id="22" rel="obj1">
+                  <node id="23" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+                  <node aform="base" id="24" infl="e" pos="adj" rel="mod" root="nieuw" sense="nieuw" vform="adj"/>
+                  <node id="25" neclass="ORG" num="both" pos="name" rel="hd" root="Stripschrift" sense="Stripschrift"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

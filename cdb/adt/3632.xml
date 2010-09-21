@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" index="1" neclass="ORG" num="both" pos="name" rel="su" root="SHO" sense="SHO"/>
+      <node id="3" infl="sg_heeft" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="present"/>
+      <node cat="ppart" id="4" rel="vc">
+        <node id="5" index="1" rel="su"/>
+        <node cat="pp" id="6" rel="mod">
+          <node id="7" pos="prep" rel="hd" root="in" sense="in"/>
+          <node cat="np" id="8" rel="obj1">
+            <node id="9" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="10" num="sg" pos="noun" rel="hd" root="competitie" sense="competitie" special="tmp"/>
+            <node cat="pp" id="11" rel="mod">
+              <node id="12" pos="prep" rel="hd" root="voor" sense="voor"/>
+              <node cat="np" id="13" rel="obj1">
+                <node id="14" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                <node gen="de" id="15" num="pl" pos="noun" rel="hd" root="zaterdag_amateur" sense="zaterdag_amateur"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node cat="np" id="16" rel="obj1">
+          <node id="17" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="18" num="sg" pos="noun" rel="hd" root="prestatie" sense="prestatie"/>
+          <node cat="pp" id="19" rel="mod">
+            <node id="20" pos="prep" rel="hd" root="van" sense="van"/>
+            <node gen="both" id="21" num="both" pos="noun" rel="obj1" root="doto" sense="doto"/>
+          </node>
+        </node>
+        <node id="22" infl="psp" pos="verb" rel="hd" root="evenaar" sc="transitive" sense="evenaar"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

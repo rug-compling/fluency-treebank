@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node gen="de" id="3" num="sg" pos="noun" rel="hd" root="minister" sense="minister"/>
+        <node id="4" neclass="PER" num="both" pos="name" rel="app" root="Bakker" sense="Bakker"/>
+      </node>
+      <node id="5" infl="sg3" pos="verb" rel="hd" root="toon" sc="pred_refl" sense="zich-toon" tense="present"/>
+      <node id="6" num="both" per="u_thi" pos="pron" refl="refl" rel="se" root="zich" sense="zich"/>
+      <node id="7" pos="adv" rel="mod" root="immers" sense="immers" special="sentence"/>
+      <node cat="pp" id="8" rel="mod">
+        <node id="9" pos="prep" rel="hd" root="in" sense="in"/>
+        <node cat="np" id="10" rel="obj1">
+          <node gen="de" id="11" num="sg" pos="noun" rel="hd" root="mei" sense="mei" special="tmp"/>
+          <node id="12" neclass="year" pos="noun" rel="mod" root="1967" sense="1967"/>
+        </node>
+      </node>
+      <node cat="pp" id="13" rel="mod">
+        <node id="14" pos="prep" rel="hd" root="tegenover" sense="tegenover"/>
+        <node cat="np" id="15" rel="obj1">
+          <node id="16" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="17" num="pl" pos="noun" rel="hd" root="Fries" sense="Fries"/>
+        </node>
+      </node>
+      <node cat="np" id="18" rel="predc">
+        <node id="19" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node aform="base" id="20" infl="no_e" pos="adj" rel="mod" root="warm" sense="warm" vform="adj"/>
+        <node gen="de" id="21" num="sg" pos="noun" rel="hd" root="voorstander" sense="voorstander"/>
+        <node cat="pp" id="22" rel="mod">
+          <node id="23" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="24" rel="obj1">
+            <node id="25" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+            <node gen="het" id="26" num="sg" pos="noun" rel="hd" root="dam_plan" sense="dam_plan"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node cat="detp" id="3" rel="det">
+          <node id="4" pos="adv" rel="mod" root="vrijwel" sense="vrijwel"/>
+          <node id="5" infl="alle" pos="det" rel="hd" root="alle" sense="alle" wh="nwh"/>
+        </node>
+        <node gen="de" id="6" num="pl" pos="noun" rel="hd" root="medewerker" sense="medewerker"/>
+        <node cat="pp" id="7" rel="mod">
+          <node id="8" pos="prep" rel="hd" root="aan" sense="aan"/>
+          <node cat="np" id="9" rel="obj1">
+            <node id="10" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node id="11" num="both" pos="name" rel="hd" root="Fabeltjeskrant" sense="Fabeltjeskrant"/>
+          </node>
+        </node>
+      </node>
+      <node id="12" infl="pl" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="present"/>
+      <node cat="inf" id="13" rel="vc">
+        <node id="14" index="1" rel="su"/>
+        <node id="15" pos="adv" rel="mod" root="ook" sense="ook" special="sentence"/>
+        <node cat="pp" id="16" rel="pc">
+          <node id="17" pos="prep" rel="hd" root="aan" sense="aan"/>
+          <node cat="np" id="18" rel="obj1">
+            <node id="19" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node cat="mwu" id="20" mwu_root="Woefs en de Lamaars" mwu_sense="Woefs en de Lamaars" rel="hd">
+              <node id="21" num="both" pos="name" rel="mwp" root="Woefs" sense="Woefs"/>
+              <node id="22" num="both" pos="name" rel="mwp" root="en" sense="en"/>
+              <node id="23" num="both" pos="name" rel="mwp" root="de" sense="de"/>
+              <node id="24" num="both" pos="name" rel="mwp" root="Lamaars" sense="Lamaars"/>
+            </node>
+          </node>
+        </node>
+        <node id="25" infl="inf" pos="verb" rel="hd" root="werk_mee" sc="part_pc_pp(mee,aan)" sense="werk_mee-aan"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

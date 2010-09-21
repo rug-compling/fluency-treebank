@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="smain" id="2" rel="cnj">
+        <node cat="np" id="3" rel="su">
+          <node id="4" neclass="PER" num="both" pos="name" rel="hd" root="Herzberg" sense="Herzberg"/>
+          <node id="5" pos="adv" rel="mod" root="zelf" sense="zelf" special="postnp"/>
+        </node>
+        <node id="6" infl="sg3" pos="verb" rel="hd" root="geef" sc="transitive" sense="geef" tense="present"/>
+        <node cat="np" id="7" rel="obj1">
+          <node id="8" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+          <node gen="het" id="9" num="sg" pos="noun" rel="hd" root="antwoord" sense="antwoord"/>
+        </node>
+      </node>
+      <node id="10" pos="vg" rel="crd" root="maar" sense="maar"/>
+      <node cat="smain" id="11" rel="cnj">
+        <node cat="np" id="12" rel="obj1">
+          <node id="13" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node cat="ppres" id="14" rel="mod">
+            <node cat="mwu" id="15" mwu_root="voor de hand" mwu_sense="voor de hand" rel="predc">
+              <node aform="base" id="16" infl="pred" pos="adj" rel="mwp" root="voor" sense="voor" vform="adj"/>
+              <node aform="base" id="17" infl="pred" pos="adj" rel="mwp" root="de" sense="de" vform="adj"/>
+              <node aform="base" id="18" infl="pred" pos="adj" rel="mwp" root="hand" sense="hand" vform="adj"/>
+            </node>
+            <node aform="base" id="19" infl="e" pos="adj" rel="hd" root="lig" sc="pred" sense="lig" vform="gerund"/>
+          </node>
+          <node gen="de" id="20" num="sg" pos="noun" rel="hd" root="conclusie" sense="conclusie"/>
+        </node>
+        <node id="21" infl="sg3" pos="verb" rel="hd" root="geef" sc="transitive" sense="geef" tense="present"/>
+        <node case="nom" def="def" gen="de" id="22" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+        <node id="23" pos="adv" rel="mod" root="niet" sense="niet"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

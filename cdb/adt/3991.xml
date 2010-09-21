@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="pl" pos="noun" rel="hd" root="werknemer" sense="werknemer"/>
+      </node>
+      <node id="5" infl="pl" pos="verb" rel="hd" root="wil" sc="transitive_ndev_ndev" sense="wil" tense="present"/>
+      <node cat="np" id="6" rel="mod">
+        <node id="7" infl="het" pos="det" rel="det" root="elk" sense="elk" wh="nwh"/>
+        <node gen="het" id="8" num="meas" pos="noun" rel="hd" root="jaar" sense="jaar" special="tmp"/>
+      </node>
+      <node cat="np" id="9" rel="obj1">
+        <node cat="detp" id="10" rel="det">
+          <node id="11" infl="both" pos="num" rel="hd" root="zoveel" sense="zoveel" special="hoofd"/>
+          <node aform="base" id="12" infl="no_e" pos="adj" rel="obcomp" root="mogelijk" sense="mogelijk" vform="adj"/>
+        </node>
+        <node gen="het" id="13" num="sg" pos="noun" rel="hd" root="meer" sense="meer"/>
+      </node>
+      <node aform="base" id="14" infl="no_e" pos="adj" rel="mod" root="contant" sense="contant" vform="adj"/>
+      <node cat="pp" id="15" rel="mod">
+        <node id="16" pos="prep" rel="hd" root="in" sense="in"/>
+        <node cat="np" id="17" rel="obj1">
+          <node id="18" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+          <node gen="het" id="19" num="sg" pos="noun" rel="hd" root="loon_zak_DIM" sense="loon_zak_DIM"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

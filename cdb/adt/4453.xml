@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="past"/>
+      <node cat="np" id="3" index="1" rel="su">
+        <node id="4" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="het" id="5" num="sg" pos="noun" rel="hd" root="gezin" sense="gezin"/>
+        <node id="6" neclass="LOC" num="both" pos="name" rel="app" root="Roengge" sense="Roengge"/>
+      </node>
+      <node cat="ppart" id="7" rel="vc">
+        <node cat="pp" id="8" rel="mod">
+          <node id="9" pos="prep" rel="hd" root="bij" sense="bij"/>
+          <node cat="np" id="10" rel="obj1">
+            <node gen="de" id="11" num="sg" pos="noun" rel="hd" root="aankomst" sense="aankomst"/>
+            <node cat="pp" id="12" rel="mod">
+              <node id="13" pos="prep" rel="hd" root="in" sense="in"/>
+              <node cat="np" id="14" rel="obj1">
+                <node id="15" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                <node cat="mwu" id="16" mwu_root="Verenigde Staten" mwu_sense="Verenigde Staten" rel="hd">
+                  <node id="17" neclass="LOC" num="both" pos="name" rel="mwp" root="Verenigde" sense="Verenigde"/>
+                  <node id="18" neclass="LOC" num="both" pos="name" rel="mwp" root="Staten" sense="Staten"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node id="19" index="1" rel="obj1"/>
+        <node id="20" infl="psp" pos="verb" rel="hd" root="omgeef" sc="transitive" sense="omgeef"/>
+        <node cat="pp" id="21" rel="mod">
+          <node id="22" pos="prep" rel="hd" root="door" sense="door"/>
+          <node cat="np" id="23" rel="obj1">
+            <node id="24" infl="een" pos="det" rel="det" root="een" sense="een"/>
+            <node gen="het" id="25" num="sg" pos="noun" rel="hd" root="netwerk" sense="netwerk"/>
+            <node cat="pp" id="26" rel="mod">
+              <node id="27" pos="prep" rel="hd" root="van" sense="van"/>
+              <node gen="de" id="28" num="pl" pos="noun" rel="obj1" root="veiligheidsmaatregel" sense="veiligheidsmaatregel"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

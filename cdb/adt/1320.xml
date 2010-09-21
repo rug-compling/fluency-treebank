@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="mod">
+        <node id="3" pos="prep" rel="hd" root="tegen" sense="tegen"/>
+        <node cat="mwu" id="4" mwu_root="half zeven" mwu_sense="half zeven" rel="obj1">
+          <node id="5" pos="noun" rel="mwp" root="half" sense="half" special="tmp"/>
+          <node id="6" pos="noun" rel="mwp" root="zeven" sense="zeven" special="tmp"/>
+        </node>
+      </node>
+      <node id="7" infl="sg" pos="verb" rel="hd" root="ontdek" sc="transitive" sense="ontdek" tense="past"/>
+      <node cat="np" id="8" rel="su">
+        <node id="9" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node aform="base" id="10" infl="e" pos="adj" rel="mod" root="63_jarig" sense="63_jarig" vform="adj"/>
+        <node gen="de" id="11" num="sg" pos="noun" rel="hd" root="kelner" sense="kelner"/>
+        <node cat="mwu" id="12" mwu_root="Leo Brouwers" mwu_sense="Leo Brouwers" rel="app">
+          <node id="13" neclass="PER" num="both" pos="name" rel="mwp" root="Leo" sense="Leo"/>
+          <node id="14" neclass="PER" num="both" pos="name" rel="mwp" root="Brouwers" sense="Brouwers"/>
+        </node>
+      </node>
+      <node cat="pp" id="15" rel="mod">
+        <node id="16" pos="prep" rel="hd" root="vanuit" sense="vanuit"/>
+        <node cat="np" id="17" rel="obj1">
+          <node id="18" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="19" num="sg" pos="noun" rel="hd" root="foyer" sense="foyer"/>
+        </node>
+      </node>
+      <node cat="np" id="20" rel="obj1">
+        <node id="21" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="22" num="sg" pos="noun" rel="hd" root="brand" sense="brand"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

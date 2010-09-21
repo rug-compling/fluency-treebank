@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg3" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="present"/>
+      <node cat="np" id="3" index="1" rel="su">
+        <node id="4" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="5" num="sg" pos="noun" rel="hd" root="charme" sense="charme"/>
+      </node>
+      <node cat="ppart" id="6" rel="vc">
+        <node cat="pp" id="7" rel="mod">
+          <node id="8" pos="prep" rel="hd" root="op" sense="op"/>
+          <node cat="np" id="9" rel="obj1">
+            <node aform="base" id="10" infl="no_e" pos="adj" rel="mod" root="zakelijk" sense="zakelijk" vform="adj"/>
+            <node gen="het" id="11" num="sg" pos="noun" rel="hd" root="gebied" sense="gebied"/>
+          </node>
+        </node>
+        <node id="12" index="1" rel="obj1"/>
+        <node aform="base" id="13" infl="no_e" pos="adj" rel="mod" root="aanmerkelijk" sense="aanmerkelijk" vform="adj"/>
+        <node id="14" infl="psp" pos="verb" rel="hd" root="temper" sc="transitive" sense="temper"/>
+        <node cat="cp" id="15" rel="mod">
+          <node id="16" pos="comp" rel="cmp" root="als" sc="als" sense="als"/>
+          <node cat="ssub" id="17" rel="body">
+            <node case="nom" def="def" gen="de" id="18" index="2" num="sg" per="fir" pos="pron" rel="su" root="ik" sense="ik" wh="nwh"/>
+            <node id="19" infl="modal_not_u" pos="verb" rel="hd" root="wil" sc="modifier(aux(inf))" sense="wil" tense="present"/>
+            <node cat="inf" id="20" rel="vc">
+              <node id="21" index="2" rel="su"/>
+              <node cat="pp" id="22" rel="mod">
+                <node id="23" pos="prep" rel="hd" root="met" sense="met"/>
+                <node cat="mwu" id="24" mwu_root="traveller cheque" mwu_sense="traveller cheque" rel="obj1">
+                  <node gen="de" id="25" num="pl" pos="noun" rel="mwp" root="traveller" sense="traveller"/>
+                  <node gen="de" id="26" num="pl" pos="noun" rel="mwp" root="cheque" sense="cheque"/>
+                </node>
+              </node>
+              <node cat="pp" id="27" rel="mod">
+                <node id="28" pos="prep" rel="hd" root="in" sense="in"/>
+                <node gen="de" id="29" num="pl" pos="noun" rel="obj1" root="dollar" sense="dollar" special="meas_mod"/>
+              </node>
+              <node id="30" infl="inf" pos="verb" rel="hd" root="betaal" sc="intransitive" sense="betaal"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

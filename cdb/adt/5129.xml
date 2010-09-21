@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="smain" id="2" rel="nucl">
+        <node case="nom" def="def" gen="de" id="3" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+        <node id="4" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+        <node cat="advp" id="5" rel="mod">
+          <node id="6" pos="adv" rel="mod" root="helemaal" sc="adv_comp_prep" sense="helemaal"/>
+          <node id="7" pos="adv" rel="hd" root="niet" sense="niet"/>
+        </node>
+        <node aform="base" id="8" infl="no_e" pos="adj" rel="predc" root="gevaarlijk" sense="gevaarlijk" vform="adj"/>
+      </node>
+      <node cat="sv1" id="9" rel="tag">
+        <node id="10" infl="sg" pos="verb" rel="hd" root="verzeker" sc="np_sbar" sense="verzeker" tense="past"/>
+        <node cat="np" id="11" rel="su">
+          <node id="12" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="13" num="sg" pos="noun" rel="hd" root="politie" sense="politie"/>
+          <node cat="pp" id="14" rel="mod">
+            <node id="15" pos="prep" rel="hd" root="op" sense="op"/>
+            <node id="16" neclass="LOC" num="both" pos="name" rel="obj1" root="Ameland" sense="Ameland"/>
+          </node>
+        </node>
+        <node cat="np" id="17" rel="obj2">
+          <node gen="de" id="18" num="sg" pos="noun" rel="hd" root="kapitein" sense="kapitein"/>
+          <node id="19" neclass="PER" num="both" pos="name" rel="app" root="Keijer" sense="Keijer"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

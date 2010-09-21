@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="show" sense="show"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="7" rel="obj1">
+            <node id="8" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node aform="base" id="9" infl="e" pos="adj" rel="mod" root="Fries" sense="Fries" vform="adj"/>
+            <node gen="de" id="10" num="sg" pos="noun" rel="hd" root="cabaretier" sense="cabaretier"/>
+          </node>
+        </node>
+      </node>
+      <node id="11" infl="modal_not_u" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="present"/>
+      <node cat="inf" id="12" rel="vc">
+        <node id="13" index="1" rel="su"/>
+        <node cat="np" id="14" rel="mod">
+          <node gen="het" id="15" num="sg" pos="noun" rel="hd" root="eind" sense="eind" special="tmp"/>
+          <node gen="de" id="16" num="sg" pos="noun" rel="mod" root="mei" sense="mei" special="tmp"/>
+        </node>
+        <node cat="pp" id="17" rel="ld">
+          <node id="18" pos="prep" rel="hd" root="op" sense="op"/>
+          <node cat="np" id="19" rel="obj1">
+            <node id="20" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+            <node gen="het" id="21" num="sg" pos="noun" rel="hd" root="scherm" sense="scherm"/>
+          </node>
+        </node>
+        <node id="22" infl="inf" pos="verb" rel="hd" root="kom" sc="ld_pp" sense="kom"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

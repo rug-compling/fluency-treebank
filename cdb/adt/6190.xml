@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="enkele" pos="det" rel="det" root="enkel" sense="enkel" special="adj_number"/>
+        <node gen="de" id="4" num="pl" pos="noun" rel="hd" root="honderden" sense="honderden"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="7" rel="obj1">
+            <node id="8" infl="de" pos="det" rel="det" root="deze" sense="deze" wh="nwh"/>
+            <node gen="het" id="9" num="pl" pos="noun" rel="hd" root="mand_DIM" sense="mand_DIM"/>
+          </node>
+        </node>
+      </node>
+      <node id="10" infl="pl" pos="verb" rel="hd" root="ben" sc="passive" sense="ben" tense="past"/>
+      <node cat="ppart" id="11" rel="vc">
+        <node id="12" index="1" rel="obj1"/>
+        <node aform="compar" id="13" infl="no_e" pos="adj" rel="mod" root="laat" sense="laat" vform="adj"/>
+        <node id="14" pos="adv" rel="mod" root="nog" sense="nog"/>
+        <node cat="pp" id="15" rel="ld">
+          <node id="16" pos="prep" rel="hd" root="op" sense="op"/>
+          <node cat="np" id="17" rel="obj1">
+            <node aform="base" id="18" infl="e" pos="adj" rel="mod" root="verschil" sense="verschil" vform="gerund"/>
+            <node gen="het" id="19" num="pl" pos="noun" rel="hd" root="adres" sense="adres"/>
+            <node cat="pp" id="20" rel="mod">
+              <node id="21" pos="prep" rel="hd" root="van" sense="van"/>
+              <node aform="base" id="22" num="pl" pos="adj" rel="obj1" root="bejaard" sense="bejaard" special="a_noun"/>
+            </node>
+          </node>
+        </node>
+        <node id="23" infl="psp" pos="verb" rel="hd" root="bezorg" sc="np_ld_pp" sense="bezorg"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

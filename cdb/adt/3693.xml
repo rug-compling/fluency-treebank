@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" pos="noun" rel="su" root="het" sense="het" special="het"/>
+      <node id="3" infl="pl" pos="verb" rel="hd" root="ben" sc="cleft" sense="ben" tense="present"/>
+      <node id="4" pos="adv" rel="mod" root="overigens" sense="overigens" special="sentence"/>
+      <node cat="np" id="5" rel="predc">
+        <node id="6" infl="geen" pos="det" rel="det" root="geen" sense="geen" wh="nwh"/>
+        <node aform="base" id="7" infl="e" pos="adj" rel="mod" root="echt" sense="echt" vform="adj"/>
+        <node aform="base" id="8" infl="e" pos="adj" rel="mod" root="arm" sense="arm" vform="adj"/>
+        <node gen="het" id="9" num="pl" pos="noun" rel="hd" root="eiland" sense="eiland"/>
+      </node>
+      <node cat="advp" id="10" rel="mod">
+        <node id="11" pos="adv" rel="mod" root="zeker" sc="modal" sense="zeker"/>
+        <node id="12" pos="adv" rel="hd" root="niet" sense="niet"/>
+      </node>
+      <node cat="cp" id="13" rel="mod">
+        <node id="14" pos="comp" rel="cmp" root="als" sc="als" sense="als"/>
+        <node cat="ssub" id="15" rel="body">
+          <node case="nom" def="def" gen="de" id="16" num="sg" per="thi" pos="pron" rel="su" root="men" sense="men" wh="nwh"/>
+          <node case="both" def="def" gen="de" id="17" num="both" per="thi" pos="pron" rel="obj1" root="ze" sense="ze" special="wkpro" wh="nwh"/>
+          <node id="18" infl="sg3" pos="verb" rel="hd" root="vergelijk" sc="np_pc_pp(met)" sense="vergelijk-met" tense="present"/>
+          <node cat="pp" id="19" rel="pc">
+            <node id="20" pos="prep" rel="hd" root="met" sense="met"/>
+            <node cat="np" id="21" rel="obj1">
+              <node id="22" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+              <node aform="base" id="23" infl="e" pos="adj" rel="mod" root="Latijns-Amerikaans" sense="Latijns-Amerikaans" vform="adj"/>
+              <node gen="het" id="24" num="sg" pos="noun" rel="hd" root="geheel" sense="geheel"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

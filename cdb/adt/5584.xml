@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" pos="adv" rel="mod" root="er" sense="er" special="er"/>
+      <node id="3" infl="pl" pos="verb" rel="hd" root="kom" sc="intransitive" sense="kom" tense="present"/>
+      <node id="4" pos="adv" rel="mod" root="ook" sense="ook" special="sentence"/>
+      <node gen="de" id="5" num="pl" pos="noun" rel="su" root="voetganger_oversteek_plaats" sense="voetganger_oversteek_plaats" special="meas_mod"/>
+      <node cat="cp" id="6" rel="mod">
+        <node id="7" pos="comp" rel="cmp" root="evenals" sc="pp" sense="evenals"/>
+        <node cat="pp" id="8" rel="body">
+          <node id="9" pos="prep" rel="hd" root="op" sense="op"/>
+          <node cat="np" id="10" rel="obj1">
+            <node id="11" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="12" num="sg" pos="noun" rel="hd" root="kruising" sense="kruising"/>
+            <node cat="mwu" id="13" mwu_root="Stationsstraat-Ged. Zuiderdiep" mwu_sense="Stationsstraat-Ged. Zuiderdiep" rel="app">
+              <node id="14" num="both" pos="name" rel="mwp" root="Stationsstraat-Ged." sense="Stationsstraat-Ged."/>
+              <node id="15" num="both" pos="name" rel="mwp" root="Zuiderdiep" sense="Zuiderdiep"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="pp" id="1" rel="--">
+      <node id="2" pos="adv" rel="mod" root="vooral" sc="modal" sense="vooral"/>
+      <node id="3" pos="prep" rel="hd" root="in" sense="in"/>
+      <node cat="np" id="4" rel="obj1">
+        <node id="5" neclass="LOC" num="both" pos="name" rel="hd" root="Italie" sense="Italie"/>
+        <node cat="rel" id="6" rel="mod">
+          <node id="7" index="1" pos="adv" rel="rhd" root="waar" sense="waar" special="er_loc" wh="ywh"/>
+          <node cat="ssub" id="8" rel="body">
+            <node id="9" index="1" rel="mod"/>
+            <node cat="np" id="10" rel="su">
+              <node id="11" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node gen="de" id="12" num="sg" pos="noun" rel="hd" root="bank" sense="bank"/>
+              <node cat="pp" id="13" rel="mod">
+                <node id="14" pos="prep" rel="hd" root="van" sense="van"/>
+                <node cat="np" id="15" rel="obj1">
+                  <node id="16" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                  <node cat="mwu" id="17" mwu_root="Heilige Geest" mwu_sense="Heilige Geest" rel="hd">
+                    <node id="18" num="both" pos="name" rel="mwp" root="Heilige" sense="Heilige"/>
+                    <node id="19" num="both" pos="name" rel="mwp" root="Geest" sense="Geest"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node id="20" infl="sg3" pos="verb" rel="hd" root="opereer" sc="intransitive" sense="opereer" tense="present"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

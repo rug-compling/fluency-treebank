@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node case="nom" def="def" gen="de" id="2" num="pl" per="fir" pos="pron" rel="su" root="wij" sense="wij" wh="nwh"/>
+      <node id="3" infl="pl" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+      <node cat="mwu" id="4" mwu_root="als het ware" mwu_sense="als het ware" rel="mod">
+        <node id="5" pos="adv" rel="mwp" root="als" sense="als"/>
+        <node id="6" pos="adv" rel="mwp" root="het" sense="het"/>
+        <node id="7" pos="adv" rel="mwp" root="ware" sense="ware"/>
+      </node>
+      <node cat="np" id="8" rel="predc">
+        <node id="9" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node gen="de" id="10" num="sg" pos="noun" rel="hd" root="commune" sense="commune"/>
+      </node>
+      <node cat="pp" id="11" rel="mod">
+        <node id="12" pos="prep" rel="hd" root="vanuit" sense="vanuit"/>
+        <node cat="np" id="13" rel="obj1">
+          <node id="14" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+          <node gen="het" id="15" num="sg" pos="noun" rel="hd" root="evangelie" sense="evangelie"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

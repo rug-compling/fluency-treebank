@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="pl" pos="noun" rel="hd" root="auto_bus_dienst" sense="auto_bus_dienst"/>
+      </node>
+      <node id="5" infl="pl" pos="verb" rel="hd" root="kan" sc="aux(inf)" sense="kan" tense="past"/>
+      <node cat="inf" id="6" rel="vc">
+        <node id="7" index="1" rel="su"/>
+        <node cat="pp" id="8" rel="mod">
+          <node id="9" pos="prep" rel="hd" root="op" sense="op"/>
+          <node cat="np" id="10" rel="obj1">
+            <node id="11" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node aform="super" id="12" infl="e" pos="adj" rel="mod" root="meest" sense="meest" vform="adj"/>
+            <node gen="de" id="13" num="pl" pos="noun" rel="hd" root="plaats" sense="plaats" special="meas_mod"/>
+            <node cat="pp" id="14" rel="mod">
+              <node id="15" pos="prep" rel="hd" root="in" sense="in"/>
+              <node cat="np" id="16" rel="obj1">
+                <node id="17" infl="het" pos="det" rel="det" root="ons" sense="ons"/>
+                <node gen="het" id="18" num="sg" pos="noun" rel="hd" root="land" sense="land"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node cat="pp" id="19" rel="mod">
+          <node id="20" pos="prep" rel="hd" root="met" sense="met"/>
+          <node gen="de" id="21" num="sg" pos="noun" rel="obj1" root="moeite" sense="moeite"/>
+        </node>
+        <node cat="np" id="22" rel="obj1">
+          <node id="23" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node gen="de" id="24" num="sg" pos="noun" rel="hd" root="dienst_regeling" sense="dienst_regeling"/>
+        </node>
+        <node cat="mwu" id="25" mwu_root="op gang" mwu_sense="op gang" rel="svp">
+          <node id="26" pos="fixed" rel="mwp" root="op" sense="op"/>
+          <node id="27" pos="fixed" rel="mwp" root="gang" sense="gang"/>
+        </node>
+        <node id="28" infl="inf" pos="verb" rel="hd" root="houd" sc="fixed([[op,gang],acc],norm_passive)" sense="op-gang-houd"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="pl" pos="noun" rel="hd" root="Joegoslaaf" sense="Joegoslaaf"/>
+      </node>
+      <node id="5" infl="pl" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="past"/>
+      <node id="6" pos="adv" rel="mod" root="toen" sense="toen" special="tmp"/>
+      <node aform="base" id="7" infl="no_e" pos="adj" rel="mod" root="militair" sense="militair" vform="adj"/>
+      <node id="8" pos="adv" rel="mod" root="al" sense="al"/>
+      <node cat="ppart" id="9" rel="predc">
+        <node aform="base" id="10" infl="both" pos="adj" rel="mod" root="volkomen" sense="volkomen" vform="adj"/>
+        <node aform="base" id="11" infl="no_e" pos="adj" rel="hd" root="voorbereid" sc="pp(op)" sense="voorbereid-op" vform="psp"/>
+        <node cat="pp" id="12" rel="pc">
+          <node id="13" pos="prep" rel="hd" root="op" sense="op"/>
+          <node cat="np" id="14" rel="obj1">
+            <node id="15" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="16" num="sg" pos="noun" rel="hd" root="mogelijkheid" sense="mogelijkheid"/>
+            <node cat="pp" id="17" rel="mod">
+              <node id="18" pos="prep" rel="hd" root="van" sense="van"/>
+              <node cat="np" id="19" rel="obj1">
+                <node id="20" infl="een" pos="det" rel="det" root="een" sense="een"/>
+                <node aform="base" id="21" infl="e" pos="adj" rel="mod" root="Russisch" sense="Russisch" vform="adj"/>
+                <node gen="de" id="22" num="sg" pos="noun" rel="hd" root="inval" sense="inval"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

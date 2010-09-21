@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node gen="het" id="2" num="sg" pos="noun" rel="cnj" root="rook_vlees" sense="rook_vlees"/>
+      <node gen="both" id="3" num="both" pos="noun" rel="cnj" root="rosbief" sense="rosbief"/>
+      <node gen="het" id="4" num="sg" pos="noun" rel="cnj" root="pekel_vlees" sense="pekel_vlees"/>
+      <node cat="np" id="5" rel="cnj">
+        <node gen="de" id="6" num="pl" pos="noun" rel="hd" root="portie" sc="measure" sense="portie-MEAS"/>
+        <node gen="de" id="7" num="sg" pos="noun" rel="mod" root="lever_worst" sense="lever_worst"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

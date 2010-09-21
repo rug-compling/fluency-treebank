@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="pl" pos="verb" rel="hd" root="schijn" sc="aux(te)" sense="schijn" tense="present"/>
+      <node cat="np" id="3" index="1" rel="su">
+        <node id="4" infl="geen" pos="det" rel="det" root="geen" sense="geen" wh="nwh"/>
+        <node gen="de" id="5" num="pl" pos="noun" rel="hd" root="dwars_verbinding" sense="dwars_verbinding"/>
+      </node>
+      <node cat="ti" id="6" rel="vc">
+        <node id="7" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+        <node cat="inf" id="8" rel="body">
+          <node id="9" pos="adv" rel="mod" root="er" sense="er" special="er"/>
+          <node id="10" index="1" rel="su"/>
+          <node id="11" infl="inf" pos="verb" rel="hd" root="loop" sc="ld_pp" sense="loop"/>
+          <node cat="pp" id="12" rel="ld">
+            <node id="13" pos="prep" rel="hd" root="tussen" sense="tussen"/>
+            <node cat="np" id="14" rel="obj1">
+              <node id="15" infl="de" pos="det" rel="det" root="die" sense="die" wh="nwh"/>
+              <node id="16" infl="pl_num" pos="num" rel="det" root="twee" sense="twee" special="hoofd"/>
+              <node gen="het" id="17" num="pl" pos="noun" rel="hd" root="ministerie" sense="ministerie"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

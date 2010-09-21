@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="mwu" id="2" mwu_root="Joris Diels" mwu_sense="Joris Diels" rel="su">
+        <node id="3" neclass="PER" num="both" pos="name" rel="mwp" root="Joris" sense="Joris"/>
+        <node id="4" neclass="PER" num="both" pos="name" rel="mwp" root="Diels" sense="Diels"/>
+      </node>
+      <node id="5" infl="sg" pos="verb" rel="hd" root="stel" sc="transitive" sense="stel" tense="past"/>
+      <node cat="ap" id="6" rel="mod">
+        <node id="7" pos="adv" rel="mod" root="heel" sense="heel" special="intensifier"/>
+        <node aform="base" id="8" infl="no_e" pos="adj" rel="hd" root="nuchter" sense="nuchter" vform="adj"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

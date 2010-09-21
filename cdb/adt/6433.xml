@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="mod">
+        <node id="3" pos="prep" rel="hd" root="na" sense="na"/>
+        <node cat="np" id="4" rel="obj1">
+          <node id="5" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="6" num="sg" pos="noun" rel="hd" root="botsing" sense="botsing"/>
+        </node>
+      </node>
+      <node id="7" infl="pl" pos="verb" rel="hd" root="vlieg" sc="pp_copula(in,brand)" sense="in-brand-vlieg" tense="past"/>
+      <node cat="conj" id="8" rel="su">
+        <node id="9" pos="vg" rel="crd" root="zowel" sense="zowel" special="left"/>
+        <node cat="np" id="10" rel="cnj">
+          <node id="11" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="12" num="sg" pos="noun" rel="hd" root="trein" sense="trein"/>
+        </node>
+        <node id="13" pos="vg" rel="crd" root="als" sense="als" special="right"/>
+        <node cat="np" id="14" rel="cnj">
+          <node id="15" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="16" num="sg" pos="noun" rel="hd" root="auto" sense="auto"/>
+        </node>
+      </node>
+      <node cat="pp" id="17" rel="predc">
+        <node id="18" pos="prep" rel="hd" root="in" sense="in"/>
+        <node gen="de" id="19" num="sg" pos="noun" rel="obj1" root="brand" sc="pred_pp(in)" sense="brand"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

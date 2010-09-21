@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node id="4" neclass="ORG" num="both" pos="name" rel="hd" root="CHU" sense="CHU"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="in" sense="in"/>
+          <node id="7" neclass="LOC" num="both" pos="name" rel="obj1" root="Rotterdam" sense="Rotterdam"/>
+        </node>
+      </node>
+      <node id="8" infl="sg_heeft" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="present"/>
+      <node cat="ppart" id="9" rel="vc">
+        <node id="10" index="1" rel="su"/>
+        <node id="11" pos="adv" rel="mod" root="nu" sense="nu" special="tmp"/>
+        <node id="12" pos="adv" rel="mod" root="ook" sense="ook" special="sentence"/>
+        <node cat="np" id="13" rel="obj1">
+          <node id="14" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="15" num="sg" pos="noun" rel="hd" root="kandidaat_lijst" sense="kandidaat_lijst"/>
+          <node cat="pp" id="16" rel="mod">
+            <node id="17" pos="prep" rel="hd" root="voor" sense="voor"/>
+            <node cat="np" id="18" rel="obj1">
+              <node id="19" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node gen="de" id="20" num="pl" pos="noun" rel="hd" root="gemeente_raad_verkiezing" sense="gemeente_raad_verkiezing" special="tmp"/>
+            </node>
+          </node>
+        </node>
+        <node id="21" infl="psp" pos="verb" rel="hd" root="stel_samen" sc="part_transitive(samen)" sense="stel_samen"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

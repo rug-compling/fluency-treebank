@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="pp" id="1" rel="--">
+      <node id="2" pos="prep" rel="hd" root="met" sense="met"/>
+      <node cat="conj" id="3" rel="obj1">
+        <node cat="np" id="4" rel="cnj">
+          <node id="5" index="1" pos="adv" rel="mod" root="onder andere" sc="modal" sense="onder andere"/>
+          <node cat="mwu" id="6" mwu_root="Dean Jones" mwu_sense="Dean Jones" rel="hd">
+            <node id="7" neclass="PER" num="both" pos="name" rel="mwp" root="Dean" sense="Dean"/>
+            <node id="8" neclass="PER" num="both" pos="name" rel="mwp" root="Jones" sense="Jones"/>
+          </node>
+        </node>
+        <node cat="np" id="9" rel="cnj">
+          <node id="10" index="1" rel="mod"/>
+          <node cat="mwu" id="11" mwu_root="David Tomlinson" mwu_sense="David Tomlinson" rel="hd">
+            <node id="12" neclass="PER" num="both" pos="name" rel="mwp" root="David" sense="David"/>
+            <node id="13" neclass="PER" num="both" pos="name" rel="mwp" root="Tomlinson" sense="Tomlinson"/>
+          </node>
+        </node>
+        <node cat="np" id="14" rel="cnj">
+          <node id="15" index="1" rel="mod"/>
+          <node cat="mwu" id="16" mwu_root="Buddy Hackett" mwu_sense="Buddy Hackett" rel="hd">
+            <node id="17" neclass="PER" num="both" pos="name" rel="mwp" root="Buddy" sense="Buddy"/>
+            <node id="18" neclass="PER" num="both" pos="name" rel="mwp" root="Hackett" sense="Hackett"/>
+          </node>
+        </node>
+        <node id="19" pos="vg" rel="crd" root="en" sense="en"/>
+        <node cat="np" id="20" rel="cnj">
+          <node id="21" index="1" rel="mod"/>
+          <node cat="mwu" id="22" mwu_root="Michele Lee" mwu_sense="Michele Lee" rel="hd">
+            <node id="23" neclass="PER" num="both" pos="name" rel="mwp" root="Michele" sense="Michele"/>
+            <node id="24" neclass="PER" num="both" pos="name" rel="mwp" root="Lee" sense="Lee"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

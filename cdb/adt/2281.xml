@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="mwu" id="2" mwu_root="Gerrit Schutte" mwu_sense="Gerrit Schutte" rel="su">
+        <node id="3" neclass="PER" num="both" pos="name" rel="mwp" root="Gerrit" sense="Gerrit"/>
+        <node id="4" neclass="PER" num="both" pos="name" rel="mwp" root="Schutte" sense="Schutte"/>
+      </node>
+      <node id="5" infl="sg" pos="verb" rel="hd" root="bied" sc="transitive" sense="bied" tense="past"/>
+      <node cat="pp" id="6" rel="mod">
+        <node id="7" pos="prep" rel="hd" root="bij" sense="bij"/>
+        <node cat="np" id="8" rel="obj1">
+          <node id="9" infl="pron" pos="det" rel="det" root="zijn" sense="zijn"/>
+          <node gen="de" id="10" num="sg" pos="noun" rel="hd" root="aanhouding" sense="aanhouding"/>
+          <node cat="pp" id="11" rel="mod">
+            <node id="12" pos="prep" rel="hd" root="op" sense="op"/>
+            <node cat="np" id="13" rel="obj1">
+              <node id="14" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node gen="de" id="15" num="sg" pos="noun" rel="hd" root="hoek" sense="hoek"/>
+              <node cat="pp" id="16" rel="mod">
+                <node id="17" pos="prep" rel="hd" root="van" sense="van"/>
+                <node cat="conj" id="18" rel="obj1">
+                  <node cat="np" id="19" rel="cnj">
+                    <node id="20" index="1" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                    <node cat="mwu" id="21" mwu_root="Tweede Helmerstraat" mwu_sense="Tweede Helmerstraat" rel="hd">
+                      <node id="22" neclass="LOC" num="both" pos="name" rel="mwp" root="Tweede" sense="Tweede"/>
+                      <node id="23" neclass="LOC" num="both" pos="name" rel="mwp" root="Helmerstraat" sense="Helmerstraat"/>
+                    </node>
+                  </node>
+                  <node id="24" pos="vg" rel="crd" root="en" sense="en"/>
+                  <node cat="np" id="25" rel="cnj">
+                    <node id="26" index="1" rel="det"/>
+                    <node cat="mwu" id="27" mwu_root="Constantijn Huygensstraat" mwu_sense="Constantijn Huygensstraat" rel="hd">
+                      <node id="28" neclass="LOC" num="both" pos="name" rel="mwp" root="Constantijn" sense="Constantijn"/>
+                      <node id="29" neclass="LOC" num="both" pos="name" rel="mwp" root="Huygensstraat" sense="Huygensstraat"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node cat="np" id="30" rel="obj1">
+        <node id="31" infl="geen" pos="det" rel="det" root="geen" sense="geen" wh="nwh"/>
+        <node gen="het" id="32" num="sg" pos="noun" rel="hd" root="verzet" sense="verzet"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

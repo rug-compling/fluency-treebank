@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node gen="de" id="2" num="sg" pos="noun" rel="mod" root="donderdag" sense="donderdag" special="tmp"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="hoor" sc="sbar" sense="hoor" tense="past"/>
+      <node case="nom" def="def" gen="de" id="4" num="sg" per="fir" pos="pron" rel="su" root="ik" sense="ik" wh="nwh"/>
+      <node id="5" pos="adv" rel="mod" root="echter" sense="echter" special="sentence"/>
+      <node cat="cp" id="6" rel="vc">
+        <node id="7" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+        <node cat="ssub" id="8" rel="body">
+          <node case="nom" def="def" gen="de" id="9" num="sg" per="fir" pos="pron" rel="su" root="ik" sense="ik" wh="nwh"/>
+          <node cat="pp" id="10" rel="mod">
+            <node id="11" pos="prep" rel="hd" root="naar" sense="naar"/>
+            <node gen="het" id="12" num="sg" pos="noun" rel="obj1" root="huis" sense="huis"/>
+          </node>
+          <node id="13" infl="sg" pos="verb" rel="hd" root="mag" sc="intransitive" sense="mag" tense="past"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

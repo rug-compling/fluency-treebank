@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node gen="de" id="2" num="sg" pos="noun" rel="su" root="zij" sense="zij"/>
+      <node id="3" infl="sg3" pos="verb" rel="hd" root="schrijf" sc="sbar" sense="schrijf" tense="present"/>
+      <node cat="cp" id="4" rel="vc">
+        <node id="5" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+        <node cat="conj" id="6" rel="body">
+          <node cat="ssub" id="7" rel="cnj">
+            <node gen="de" id="8" index="1" num="sg" pos="noun" rel="su" root="zij" sense="zij"/>
+            <node aform="base" id="9" infl="no_e" pos="adj" rel="predc" root="geblinddoekt" sense="geblinddoekt" vform="psp"/>
+            <node id="10" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+          </node>
+          <node id="11" pos="vg" rel="crd" root="en" sense="en"/>
+          <node cat="ssub" id="12" rel="cnj">
+            <node id="13" index="1" rel="su"/>
+            <node id="14" infl="het" pos="det" rel="obj1" root="het" sense="het" wh="nwh"/>
+            <node cat="ap" id="15" rel="predc">
+              <node aform="base" id="16" infl="no_e" pos="adj" rel="mod" root="erg" sense="erg" vform="adj"/>
+              <node aform="base" id="17" infl="no_e" pos="adj" rel="hd" root="koud" sense="koud" vform="adj"/>
+            </node>
+            <node id="18" infl="sg_heeft" pos="verb" rel="hd" root="heb" sc="nonp_pred_np_ndev" sense="heb" tense="present"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

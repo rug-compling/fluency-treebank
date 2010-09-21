@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="opium" sense="opium"/>
+      </node>
+      <node id="5" infl="sg3" pos="verb" rel="hd" root="verschaf" sc="so_pp_np" sense="verschaf" tense="present"/>
+      <node cat="pp" id="6" rel="mod">
+        <node id="7" pos="prep" rel="hd" root="op" sense="op"/>
+        <node cat="np" id="8" rel="obj1">
+          <node id="9" infl="het" pos="det" rel="det" root="dit" sense="dit" wh="nwh"/>
+          <node gen="het" id="10" num="sg" pos="noun" rel="hd" root="ogenblik" sense="ogenblik" special="tmp"/>
+        </node>
+      </node>
+      <node cat="pp" id="11" rel="obj2">
+        <node id="12" pos="prep" rel="hd" root="aan" sense="aan"/>
+        <node cat="np" id="13" rel="obj1">
+          <node id="14" pos="adv" rel="mod" root="ongeveer" sc="noun_prep" sense="ongeveer"/>
+          <node id="15" infl="pl_num" pos="num" rel="det" root="70.000" sense="70.000" special="hoofd"/>
+          <node gen="de" id="16" num="pl" pos="noun" rel="hd" root="familie" sense="familie"/>
+        </node>
+      </node>
+      <node gen="het" id="17" num="sg" pos="noun" rel="obj1" root="werk" sense="werk"/>
+    </node>
+  </node>
+</alpino_adt>

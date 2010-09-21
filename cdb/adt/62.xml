@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" neclass="PER" num="both" pos="name" rel="obj1" root="Financieringsproblemen" sense="Financieringsproblemen"/>
+      <node id="3" infl="pl" pos="verb" rel="hd" root="heb" sc="transitive_ndev" sense="heb" tense="present"/>
+      <node case="nom" def="def" gen="de" id="4" num="pl" per="fir" pos="pron" rel="su" root="we" sense="we" special="wkpro" wh="nwh"/>
+      <node id="5" pos="adv" rel="mod" root="niet" sense="niet"/>
+    </node>
+  </node>
+</alpino_adt>

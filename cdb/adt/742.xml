@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node case="both" def="def" gen="de" id="2" index="1" num="both" per="thi" pos="pron" rel="su" root="ze" sense="ze" special="wkpro" wh="nwh"/>
+      <node id="3" infl="pl" pos="verb" rel="hd" root="ben" sc="aan_het" sense="ben-aan_het" tense="present"/>
+      <node aform="base" id="4" infl="no_e" pos="adj" rel="mod" root="druk" sense="druk" vform="adj"/>
+      <node cat="ahi" id="5" rel="vc">
+        <node cat="mwu" id="6" mwu_root="aan het" mwu_sense="aan het" rel="cmp">
+          <node id="7" pos="comp" rel="mwp" root="aan" sc="aan_het" sense="aan"/>
+          <node id="8" pos="comp" rel="mwp" root="het" sc="aan_het" sense="het"/>
+        </node>
+        <node cat="inf" id="9" rel="body">
+          <node id="10" index="1" rel="su"/>
+          <node id="11" infl="inf" pos="verb" rel="hd" root="rijd_proef" sc="part_intransitive(proef)" sense="rijd_proef"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg_heeft" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="present"/>
+      <node id="3" index="1" pos="noun" rel="su" root="het" sense="het" special="het"/>
+      <node cat="ppart" id="4" rel="vc">
+        <node cat="conj" id="5" rel="mod">
+          <node cat="pp" id="6" rel="cnj">
+            <node id="7" pos="prep" rel="hd" root="in" sense="in"/>
+            <node cat="conj" id="8" rel="obj1">
+              <node id="9" neclass="LOC" num="both" pos="name" rel="cnj" root="Zwitserland" sense="Zwitserland"/>
+              <node id="10" neclass="LOC" num="both" pos="name" rel="cnj" root="Oostenrijk" sense="Oostenrijk"/>
+            </node>
+          </node>
+          <node id="11" pos="vg" rel="crd" root="en" sense="en"/>
+          <node cat="pp" id="12" rel="cnj">
+            <node id="13" pos="adv" rel="mod" root="ook" sense="ook" special="sentence"/>
+            <node id="14" pos="prep" rel="hd" root="in" sense="in"/>
+            <node id="15" neclass="LOC" num="both" pos="name" rel="obj1" root="Zuid_Duitsland" sense="Zuid_Duitsland"/>
+          </node>
+        </node>
+        <node id="16" index="1" rel="su"/>
+        <node cat="pp" id="17" rel="mod">
+          <node id="18" pos="prep" rel="hd" root="in" sense="in"/>
+          <node cat="np" id="19" rel="obj1">
+            <node id="20" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+            <node aform="base" id="21" infl="both" pos="adj" rel="mod" root="afgelopen" sense="afgelopen" vform="psp"/>
+            <node gen="het" id="22" num="sg" pos="noun" rel="hd" root="etmaal" sense="etmaal" special="tmp"/>
+          </node>
+        </node>
+        <node cat="ap" id="23" rel="mod">
+          <node aform="base" id="24" infl="no_e" pos="adj" rel="mod" root="vrij" sense="vrij" vform="adj"/>
+          <node aform="base" id="25" infl="no_e" pos="adj" rel="hd" root="veel" sense="veel" vform="adj"/>
+        </node>
+        <node id="26" infl="psp" pos="verb" rel="hd" root="regen" sc="het_subj" sense="het-regen"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

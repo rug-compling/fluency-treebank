@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node id="4" neclass="ORG" num="both" pos="name" rel="hd" root="AVRO" sense="AVRO"/>
+      </node>
+      <node id="5" infl="sg" pos="verb" rel="hd" root="doe" sc="fixed([acc(plezier),inv(dat),pc(met)],norm_passive)" sense="plezier-doe-met" tense="past"/>
+      <node case="dat_acc" def="def" gen="de" id="6" num="pl" per="fir" pos="pron" rel="obj2" root="ons" sense="ons" wh="nwh"/>
+      <node cat="np" id="7" rel="obj1">
+        <node id="8" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node gen="het" id="9" num="sg" pos="noun" rel="hd" root="plezier" sense="plezier"/>
+      </node>
+      <node cat="pp" id="10" rel="pc">
+        <node id="11" pos="prep" rel="hd" root="met" sense="met"/>
+        <node cat="np" id="12" rel="obj1">
+          <node id="13" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node gen="de" id="14" num="sg" pos="noun" rel="hd" root="kleur_reportage" sense="kleur_reportage"/>
+          <node cat="pp" id="15" rel="mod">
+            <node id="16" pos="prep" rel="hd" root="van" sense="van"/>
+            <node cat="np" id="17" rel="obj1">
+              <node id="18" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node aform="base" id="19" infl="e" pos="adj" rel="mod" root="spannend" sense="spannend" vform="adj"/>
+              <node gen="de" id="20" num="sg" pos="noun" rel="hd" root="wedstrijd" sense="wedstrijd" special="tmp"/>
+              <node cat="mwu" id="21" mwu_root="Derby Country-Liverpool" mwu_sense="Derby Country-Liverpool" rel="app">
+                <node id="22" num="both" pos="name" rel="mwp" root="Derby" sense="Derby"/>
+                <node id="23" num="both" pos="name" rel="mwp" root="Country-Liverpool" sense="Country-Liverpool"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

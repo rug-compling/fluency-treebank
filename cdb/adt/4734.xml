@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node aform="base" id="3" infl="no_e" pos="adj" rel="mod" root="vrouwelijk" sense="vrouwelijk" vform="adj"/>
+        <node gen="het" id="4" num="sg" pos="noun" rel="hd" root="gedrag" sense="gedrag"/>
+      </node>
+      <node id="5" infl="sg3" pos="verb" rel="hd" root="ontsta" sc="intransitive" sense="ontsta" tense="present"/>
+      <node cat="pp" id="6" rel="mod">
+        <node cat="mwu" id="7" mwu_root="onder invloed van" mwu_sense="onder invloed van" rel="hd">
+          <node id="8" pos="prep" rel="mwp" root="onder" sense="onder"/>
+          <node id="9" pos="prep" rel="mwp" root="invloed" sense="invloed"/>
+          <node id="10" pos="prep" rel="mwp" root="van" sense="van"/>
+        </node>
+        <node cat="np" id="11" rel="obj1">
+          <node cat="conj" id="12" rel="mod">
+            <node aform="base" id="13" infl="e" pos="adj" rel="cnj" root="cultureel" sense="cultureel" vform="adj"/>
+            <node id="14" pos="vg" rel="crd" root="en" sense="en"/>
+            <node aform="base" id="15" infl="e" pos="adj" rel="cnj" root="sociaal" sense="sociaal" vform="adj"/>
+          </node>
+          <node gen="de" id="16" num="pl" pos="noun" rel="hd" root="factor" sense="factor"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

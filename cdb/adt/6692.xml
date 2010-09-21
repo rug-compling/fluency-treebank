@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="mod">
+        <node id="3" pos="prep" rel="hd" root="boven" sense="boven"/>
+        <node id="4" neclass="LOC" num="both" pos="name" rel="obj1" root="noord_Italie" sense="noord_Italie"/>
+      </node>
+      <node id="5" infl="sg3" pos="verb" rel="hd" root="lig" sc="intransitive" sense="lig" tense="present"/>
+      <node cat="np" id="6" rel="su">
+        <node id="7" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node gen="de" id="8" num="sg" pos="noun" rel="hd" root="storing" sense="storing"/>
+        <node cat="rel" id="9" rel="mod">
+          <node case="no_obl" gen="de" id="10" index="1" pos="pron" rel="rhd" root="die" sense="die" wh="rel"/>
+          <node cat="ssub" id="11" rel="body">
+            <node id="12" index="1" rel="su"/>
+            <node cat="pp" id="13" rel="mod">
+              <node id="14" pos="prep" rel="hd" root="tot" sc="pp" sense="tot"/>
+              <node cat="pp" id="15" rel="obj1">
+                <node id="16" pos="prep" rel="hd" root="in" sense="in"/>
+                <node cat="conj" id="17" rel="obj1">
+                  <node id="18" neclass="LOC" num="both" pos="name" rel="cnj" root="Zwitserland" sense="Zwitserland"/>
+                  <node id="19" pos="vg" rel="crd" root="en" sense="en"/>
+                  <node id="20" neclass="LOC" num="both" pos="name" rel="cnj" root="zuid_Duitsland" sense="zuid_Duitsland"/>
+                </node>
+              </node>
+            </node>
+            <node cat="np" id="21" rel="obj1">
+              <node aform="base" id="22" infl="no_e" pos="adj" rel="det" root="veel" sense="veel" vform="adj"/>
+              <node gen="de" id="23" num="sg" pos="noun" rel="hd" root="regen" sense="regen"/>
+            </node>
+            <node id="24" infl="sg3" pos="verb" rel="hd" root="geef" sc="transitive" sense="geef" tense="present"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

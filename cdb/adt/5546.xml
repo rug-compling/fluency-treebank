@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="smain" id="2" rel="cnj">
+        <node id="3" neclass="LOC" num="both" pos="name" rel="su" root="Heerenveen" sense="Heerenveen"/>
+        <node id="4" infl="sg" pos="verb" rel="hd" root="ga" sc="fixed([[van,start]],no_passive)" sense="van-start-ga" tense="past"/>
+        <node aform="base" id="5" infl="no_e" pos="adj" rel="mod" root="veelbelovend" sense="veelbelovend" vform="adj"/>
+        <node cat="mwu" id="6" mwu_root="van start" mwu_sense="van start" rel="svp">
+          <node id="7" pos="fixed" rel="mwp" root="van" sense="van"/>
+          <node id="8" pos="fixed" rel="mwp" root="start" sense="start"/>
+        </node>
+      </node>
+      <node id="9" pos="vg" rel="crd" root="en" sense="en"/>
+      <node cat="smain" id="10" rel="cnj">
+        <node cat="pp" id="11" rel="mod">
+          <node id="12" pos="adv" rel="mod" root="reeds" sc="modal" sense="reeds"/>
+          <node id="13" pos="prep" rel="hd" root="in" sense="in"/>
+          <node cat="np" id="14" rel="obj1">
+            <node id="15" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node aform="base" id="16" infl="e" pos="adj" rel="mod" root="zeef" sense="zeef" vform="gerund"/>
+            <node gen="de" id="17" num="sg" pos="noun" rel="hd" root="minuut" sense="minuut" special="tmp"/>
+          </node>
+        </node>
+        <node id="18" infl="pl" pos="verb" rel="hd" root="kom" sc="fixed([[aan,de,leiding]],no_passive)" sense="aan-de-leiding-kom" tense="past"/>
+        <node cat="np" id="19" rel="su">
+          <node id="20" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="21" num="pl" pos="noun" rel="hd" root="Fries" sense="Fries"/>
+        </node>
+        <node cat="mwu" id="22" mwu_root="aan de leiding" mwu_sense="aan de leiding" rel="svp">
+          <node id="23" pos="fixed" rel="mwp" root="aan" sense="aan"/>
+          <node id="24" pos="fixed" rel="mwp" root="de" sense="de"/>
+          <node id="25" pos="fixed" rel="mwp" root="leiding" sense="leiding"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

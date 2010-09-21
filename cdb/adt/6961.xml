@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="pron" pos="det" rel="det" root="hun" sense="hun"/>
+        <node aform="base" id="4" infl="e" pos="adj" rel="mod" root="goed" sense="goed" vform="adj"/>
+        <node gen="het" id="5" num="pl" pos="noun" rel="hd" root="ding" sense="ding"/>
+      </node>
+      <node id="6" infl="pl" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+      <node cat="pp" id="7" rel="mod">
+        <node id="8" pos="prep" rel="hd" root="voor" sense="voor"/>
+        <node case="dat_acc" def="def" gen="de" id="9" num="sg" per="fir" pos="pron" rel="obj1" root="mij" sense="mij" wh="nwh"/>
+      </node>
+      <node cat="conj" id="10" rel="predc">
+        <node cat="np" id="11" rel="cnj">
+          <node id="12" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+          <node gen="het" id="13" num="sg" pos="noun" rel="hd" root="gebruik" sense="gebruik"/>
+          <node cat="pp" id="14" rel="mod">
+            <node id="15" pos="prep" rel="hd" root="van" sense="van"/>
+            <node cat="np" id="16" rel="obj1">
+              <node aform="base" id="17" infl="e" pos="adj" rel="mod" root="electronisch" sense="electronisch" vform="adj"/>
+              <node gen="de" id="18" num="sg" pos="noun" rel="hd" root="apparatuur" sense="apparatuur"/>
+            </node>
+          </node>
+        </node>
+        <node id="19" pos="vg" rel="crd" root="en" sense="en"/>
+        <node cat="np" id="20" rel="cnj">
+          <node id="21" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node aform="base" id="22" infl="e" pos="adj" rel="mod" root="informeel" sense="informeel" vform="adj"/>
+          <node gen="de" id="23" num="sg" pos="noun" rel="hd" root="sfeer" sense="sfeer"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

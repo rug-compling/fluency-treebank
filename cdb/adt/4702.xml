@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="np" id="1" rel="--">
+      <node cat="mwu" id="2" mwu_root="Go Ahead_secretaris" mwu_sense="Go Ahead_secretaris" rel="hd">
+        <node gen="de" id="3" num="sg" pos="noun" rel="mwp" root="Go" sense="Go"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="mwp" root="Ahead_secretaris" sense="Ahead_secretaris"/>
+      </node>
+      <node id="5" neclass="PER" num="both" pos="name" rel="app" root="Werf" sense="Werf"/>
+    </node>
+  </node>
+</alpino_adt>

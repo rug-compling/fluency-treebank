@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="modal_inv" pos="verb" rel="hd" root="kan" sc="aux(inf)" sense="kan" tense="present"/>
+      <node case="both" def="def" gen="de" id="3" index="1" num="sg" per="je" pos="pron" rel="su" root="je" sense="je" special="wkpro" wh="nwh"/>
+      <node cat="inf" id="4" rel="vc">
+        <node cat="np" id="5" rel="obj1">
+          <node id="6" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node id="7" neclass="LOC" num="both" pos="name" rel="hd" root="Nachtwacht" sense="Nachtwacht"/>
+          <node cat="pp" id="8" rel="mod">
+            <node id="9" pos="prep" rel="hd" root="van" sense="van"/>
+            <node id="10" neclass="PER" num="both" pos="name" rel="obj1" root="Rembrandt" sense="Rembrandt"/>
+          </node>
+        </node>
+        <node id="11" index="1" rel="su"/>
+        <node cat="pp" id="12" rel="mod">
+          <node id="13" pos="prep" rel="hd" root="plus" sense="plus"/>
+          <node gen="het" id="14" num="sg" pos="noun" rel="obj1" root="hond_DIM" sense="hond_DIM"/>
+        </node>
+        <node cat="pp" id="15" rel="mod">
+          <node id="16" pos="prep" rel="hd" root="in" sense="in"/>
+          <node cat="np" id="17" rel="obj1">
+            <node aform="base" id="18" infl="e" pos="adj" rel="mod" root="levende" sense="levende" vform="adj"/>
+            <node gen="both" id="19" num="both" pos="noun" rel="hd" root="lijve" sense="lijve"/>
+          </node>
+        </node>
+        <node id="20" infl="inf" pos="verb" rel="hd" root="kom_tegen" sc="part_transitive(tegen)" sense="kom_tegen"/>
+        <node cat="pp" id="21" rel="mod">
+          <node id="22" pos="prep" rel="hd" root="in" sense="in"/>
+          <node cat="mwu" id="23" mwu_root="Berg en Terblijt" mwu_sense="Berg en Terblijt" rel="obj1">
+            <node id="24" neclass="LOC" num="both" pos="name" rel="mwp" root="Berg" sense="Berg"/>
+            <node id="25" neclass="LOC" num="both" pos="name" rel="mwp" root="en" sense="en"/>
+            <node id="26" neclass="LOC" num="both" pos="name" rel="mwp" root="Terblijt" sense="Terblijt"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" index="1" infl="het" pos="det" rel="su" root="het" sense="het" wh="nwh"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="past"/>
+      <node cat="inf" id="4" rel="vc">
+        <node id="5" index="1" rel="su"/>
+        <node cat="ap" id="6" rel="predc">
+          <node cat="pp" id="7" rel="mod">
+            <node id="8" pos="prep" rel="hd" root="voor" sense="voor"/>
+            <node cat="np" id="9" rel="obj1">
+              <node id="10" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node gen="de" id="11" num="sg" pos="noun" rel="hd" root="sport" sense="sport"/>
+            </node>
+          </node>
+          <node aform="compar" id="12" infl="no_e" pos="adj" rel="hd" root="goed" sense="goed" vform="adj"/>
+        </node>
+        <node id="13" infl="inf" pos="verb" rel="hd" root="ben" sc="copula" sense="ben"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

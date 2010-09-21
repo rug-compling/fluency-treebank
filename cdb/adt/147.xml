@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg3" pos="verb" rel="hd" root="behoef" sc="aux(te)" sense="behoef" tense="present"/>
+      <node case="both" def="indef" gen="de" id="3" index="1" num="sg" per="thi" pos="pron" rel="su" root="niemand" sense="niemand" special="strpro" wh="nwh"/>
+      <node cat="ti" id="4" rel="vc">
+        <node id="5" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+        <node cat="inf" id="6" rel="body">
+          <node cat="pp" id="7" rel="pc">
+            <node id="8" pos="prep" rel="hd" root="op" sense="op"/>
+            <node cat="np" id="9" rel="obj1">
+              <node gen="both" id="10" num="both" pos="noun" rel="hd" root="goedertierenheid" sense="goedertierenheid"/>
+              <node cat="pp" id="11" rel="mod">
+                <node id="12" pos="prep" rel="hd" root="van" sense="van"/>
+                <node gen="de" id="13" num="pl" pos="noun" rel="obj1" root="parkeer_wachter" sense="parkeer_wachter"/>
+              </node>
+            </node>
+          </node>
+          <node id="14" index="1" rel="su"/>
+          <node id="15" infl="inf" pos="verb" rel="hd" root="reken" sc="pc_pp(op)" sense="reken-op"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="advp" id="1" rel="--">
+      <node id="2" pos="adv" rel="mod" root="bepaald" sense="bepaald"/>
+      <node id="3" pos="adv" rel="hd" root="niet" sense="niet"/>
+    </node>
+  </node>
+</alpino_adt>

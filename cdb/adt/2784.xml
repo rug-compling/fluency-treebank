@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="het" id="4" num="sg" pos="noun" rel="hd" root="gas" sense="gas"/>
+      </node>
+      <node id="5" infl="modal_not_u" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="present"/>
+      <node cat="inf" id="6" rel="vc">
+        <node id="7" index="1" rel="su"/>
+        <node id="8" infl="inf" pos="verb" rel="hd" root="word" sc="passive" sense="word"/>
+        <node cat="ppart" id="9" rel="vc">
+          <node id="10" index="1" rel="obj1"/>
+          <node cat="pp" id="11" rel="mod">
+            <node id="12" pos="prep" rel="hd" root="door" sense="door"/>
+            <node cat="np" id="13" rel="obj1">
+              <node id="14" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node id="15" neclass="ORG" num="both" pos="name" rel="hd" root="NAM" sense="NAM"/>
+            </node>
+          </node>
+          <node id="16" infl="psp" pos="verb" rel="hd" root="produceer" sc="transitive" sense="produceer"/>
+          <node cat="pp" id="17" rel="mod">
+            <node id="18" pos="prep" rel="hd" root="uit" sense="uit"/>
+            <node cat="np" id="19" rel="obj1">
+              <node id="20" pos="verb" rel="hd" root="put" sc="intransitive" sense="put" special="v_noun"/>
+              <node cat="pp" id="21" rel="mod">
+                <node id="22" pos="prep" rel="hd" root="in" sense="in"/>
+                <node id="23" neclass="LOC" num="both" pos="name" rel="obj1" root="Twenthe" sense="Twenthe"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

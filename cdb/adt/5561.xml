@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="favoriet" sense="favoriet"/>
+        <node cat="mwu" id="5" mwu_root="Dynamiet Hannover" mwu_sense="Dynamiet Hannover" rel="app">
+          <node id="6" neclass="PER" num="both" pos="name" rel="mwp" root="Dynamiet" sense="Dynamiet"/>
+          <node id="7" neclass="PER" num="both" pos="name" rel="mwp" root="Hannover" sense="Hannover"/>
+        </node>
+      </node>
+      <node id="8" infl="sg" pos="verb" rel="hd" root="stel_teleur" sc="part_intransitive(teleur)" sense="stel_teleur" tense="past"/>
+      <node id="9" pos="adv" rel="mod" root="ditmaal" sense="ditmaal" special="sentence"/>
+    </node>
+  </node>
+</alpino_adt>

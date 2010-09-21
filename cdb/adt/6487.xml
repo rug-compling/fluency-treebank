@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="pl" pos="noun" rel="hd" root="umpire" sense="umpire"/>
+        <node id="5" pos="adv" rel="mod" root="hier" sense="hier" special="er_loc"/>
+        <node cat="pp" id="6" rel="mod">
+          <node id="7" pos="prep" rel="hd" root="bij" sense="bij"/>
+          <node cat="np" id="8" rel="obj1">
+            <node id="9" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+            <node gen="het" id="10" num="sg" pos="noun" rel="hd" root="toernooi" sense="toernooi" special="tmp"/>
+            <node cat="pp" id="11" rel="mod">
+              <node id="12" pos="prep" rel="hd" root="in" sense="in"/>
+              <node id="13" neclass="LOC" num="both" pos="name" rel="obj1" root="Hilversum" sense="Hilversum"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="14" infl="pl" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+      <node id="15" pos="adv" rel="mod" root="niet" sense="niet"/>
+      <node cat="ap" id="16" rel="predc">
+        <node id="17" pos="adv" rel="mod" root="zo" sense="zo"/>
+        <node aform="base" id="18" infl="no_e" pos="adj" rel="hd" root="goed" sense="goed" vform="adj"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

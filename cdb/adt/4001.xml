@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="pl" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="present"/>
+      <node gen="de" id="3" index="1" num="pl" pos="noun" rel="su" root="voorbereiding" sense="voorbereiding"/>
+      <node cat="ppart" id="4" rel="vc">
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="voor" sense="voor"/>
+          <node gen="de" id="7" num="pl" pos="noun" rel="obj1" root="polikliniek" sense="polikliniek"/>
+        </node>
+        <node aform="compar" id="8" infl="no_e" pos="adj" rel="mod" root="ver" sense="ver" vform="adj"/>
+        <node id="9" pos="adv" rel="mod" root="nog" sense="nog"/>
+        <node id="10" index="1" rel="obj1"/>
+        <node id="11" infl="psp" pos="verb" rel="hd" root="tref" sc="transitive" sense="tref"/>
+        <node cat="pp" id="12" rel="mod">
+          <node id="13" pos="prep" rel="hd" root="in" sense="in"/>
+          <node id="14" neclass="LOC" num="both" pos="name" rel="obj1" root="Utrecht" sense="Utrecht"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

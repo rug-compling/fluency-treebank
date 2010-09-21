@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" pos="adv" rel="mod" root="ook" sense="ook" special="sentence"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="word" sc="copula" sense="word" tense="past"/>
+      <node id="4" pos="adv" rel="mod" root="gisteren" sense="gisteren" special="tmp"/>
+      <node cat="np" id="5" rel="su">
+        <node id="6" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node gen="de" id="7" num="sg" pos="noun" rel="hd" root="wapenstilstand" sense="wapenstilstand"/>
+        <node cat="pp" id="8" rel="mod">
+          <node id="9" pos="prep" rel="hd" root="tussen" sense="tussen"/>
+          <node cat="np" id="10" rel="obj1">
+            <node id="11" infl="pl_num" pos="det" rel="det" root="beide" sense="beide" special="adj_number"/>
+            <node gen="de" id="12" num="pl" pos="noun" rel="hd" root="partij" sense="partij"/>
+          </node>
+        </node>
+      </node>
+      <node cat="mwu" id="13" mwu_root="van kracht" mwu_sense="van kracht" rel="predc">
+        <node aform="base" id="14" infl="pred" pos="adj" rel="mwp" root="van" sense="van" vform="adj"/>
+        <node aform="base" id="15" infl="pred" pos="adj" rel="mwp" root="kracht" sense="kracht" vform="adj"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

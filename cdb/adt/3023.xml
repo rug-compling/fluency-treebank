@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node case="nom" def="def" gen="de" id="2" num="sg" per="fir" pos="pron" rel="su" root="ik" sense="ik" wh="nwh"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="betwist" sc="sbar" sense="betwist" tense="present"/>
+      <node id="4" pos="adv" rel="mod" root="niet" sense="niet"/>
+      <node cat="cp" id="5" rel="vc">
+        <node id="6" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+        <node cat="ssub" id="7" rel="body">
+          <node cat="np" id="8" rel="su">
+            <node id="9" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+            <node aform="base" id="10" infl="e" pos="adj" rel="mod" root="didactisch" sense="didactisch" vform="adj"/>
+            <node gen="het" id="11" num="sg" pos="noun" rel="hd" root="gedeelte" sense="gedeelte"/>
+            <node cat="pp" id="12" rel="mod">
+              <node id="13" pos="prep" rel="hd" root="van" sense="van"/>
+              <node cat="np" id="14" rel="obj1">
+                <node id="15" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+                <node gen="het" id="16" num="sg" pos="noun" rel="hd" root="onderwijs" sense="onderwijs"/>
+              </node>
+            </node>
+          </node>
+          <node cat="pp" id="17" rel="ld">
+            <node id="18" pos="prep" rel="hd" root="bij" sense="bij"/>
+            <node cat="np" id="19" rel="obj1">
+              <node id="20" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node gen="de" id="21" num="pl" pos="noun" rel="hd" root="onderwijzer" sense="onderwijzer"/>
+            </node>
+          </node>
+          <node id="22" infl="sg3" pos="verb" rel="hd" root="hoor" sc="ld_pp" sense="hoor" tense="present"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

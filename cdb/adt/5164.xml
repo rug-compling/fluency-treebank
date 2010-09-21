@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="oppositie" sense="oppositie"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="tegen" sense="tegen"/>
+          <node id="7" neclass="LOC" num="both" pos="name" rel="obj1" root="Ongania" sense="Ongania"/>
+        </node>
+      </node>
+      <node id="8" infl="sg" pos="verb" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" tense="past"/>
+      <node cat="ppart" id="9" rel="vc">
+        <node id="10" index="1" rel="su"/>
+        <node cat="np" id="11" rel="mod">
+          <node id="12" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node aform="super" id="13" infl="e" pos="adj" rel="mod" root="laat" sense="laat" vform="adj"/>
+          <node gen="de" id="14" num="sg" pos="noun" rel="hd" root="tijd" sense="tijd" special="tmp"/>
+        </node>
+        <node cat="ap" id="15" rel="predc">
+          <node id="16" pos="adv" rel="mod" root="steeds" sense="steeds"/>
+          <node aform="compar" id="17" infl="no_e" pos="adj" rel="hd" root="groot" sense="groot" vform="adj"/>
+        </node>
+        <node id="18" infl="psp" pos="verb" rel="hd" root="word" sc="copula" sense="word"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="passive" sense="ben" tense="present"/>
+      <node cat="np" id="3" index="1" rel="su">
+        <node id="4" infl="het" pos="det" rel="det" root="dit" sense="dit" wh="nwh"/>
+        <node gen="het" id="5" num="sg" pos="noun" rel="hd" root="type" sense="type"/>
+      </node>
+      <node cat="ppart" id="6" rel="vc">
+        <node id="7" pos="adv" rel="mod" root="uiteraard" sense="uiteraard" special="sentence"/>
+        <node id="8" index="1" rel="obj1"/>
+        <node id="9" pos="adv" rel="mod" root="ook" sense="ook" special="sentence"/>
+        <node id="10" infl="psp" pos="verb" rel="hd" root="rust_uit" sc="part_np_pc_pp(uit,met)" sense="rust_uit-met"/>
+        <node cat="pp" id="11" rel="pc">
+          <node id="12" pos="prep" rel="hd" root="met" sense="met"/>
+          <node cat="np" id="13" rel="obj1">
+            <node id="14" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node aform="base" id="15" infl="e" pos="adj" rel="mod" root="bekend" sense="bekend" vform="adj"/>
+            <node aform="base" id="16" infl="e" pos="adj" rel="mod" root="hydropneumatische" sense="hydropneumatische" vform="adj"/>
+            <node gen="de" id="17" num="sg" pos="noun" rel="hd" root="vering" sense="vering"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="pl" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="present"/>
+      <node cat="np" id="3" index="1" rel="su">
+        <node id="4" infl="pl_num" pos="num" rel="det" root="12.500" sense="12.500" special="hoofd"/>
+        <node id="5" num="pl" pos="name" rel="hd" root="DC-3" sense="DC-3"/>
+      </node>
+      <node cat="ppart" id="6" rel="vc">
+        <node cat="pp" id="7" rel="mod">
+          <node id="8" pos="prep" rel="hd" root="in" sense="in"/>
+          <node gen="het" id="9" num="sg" pos="noun" rel="obj1" root="totaal" sense="totaal"/>
+        </node>
+        <node id="10" pos="adv" rel="mod" root="er" sense="er" special="er"/>
+        <node cat="pp" id="11" rel="mod">
+          <node id="12" pos="prep" rel="hd" root="in" sense="in"/>
+          <node cat="np" id="13" rel="obj1">
+            <node id="14" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="15" num="sg" pos="noun" rel="hd" root="luchtvaart_historie" sense="luchtvaart_historie"/>
+          </node>
+        </node>
+        <node id="16" index="1" rel="su"/>
+        <node id="17" infl="psp" pos="verb" rel="hd" root="vlieg" sc="intransitive" sense="vlieg"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="deze" sense="deze" wh="nwh"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="aangelegenheid" sense="aangelegenheid"/>
+      </node>
+      <node id="5" infl="sg_heeft" pos="verb" rel="hd" root="heb" sc="transitive_ndev" sense="heb" tense="present"/>
+      <node cat="np" id="6" rel="obj1">
+        <node id="7" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node aform="base" id="8" infl="e" pos="adj" rel="mod" root="duur_voort" sense="duur_voort" vform="gerund"/>
+        <node gen="de" id="9" num="sg" pos="noun" rel="hd" root="aandacht" sense="aandacht"/>
+        <node cat="pp" id="10" rel="mod">
+          <node id="11" pos="prep" rel="hd" root="van" sense="van"/>
+          <node gen="de" id="12" num="pl" pos="noun" rel="obj1" root="bewindvoerder" sense="bewindvoerder"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

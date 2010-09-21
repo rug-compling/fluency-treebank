@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node cat="mwu" id="4" mwu_root="Amstel Gold Race" mwu_sense="Amstel Gold Race" rel="hd">
+          <node id="5" num="both" pos="name" rel="mwp" root="Amstel" sense="Amstel"/>
+          <node id="6" num="both" pos="name" rel="mwp" root="Gold" sense="Gold"/>
+          <node id="7" num="both" pos="name" rel="mwp" root="Race" sense="Race"/>
+        </node>
+      </node>
+      <node id="8" infl="modal_not_u" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="present"/>
+      <node cat="inf" id="9" rel="vc">
+        <node id="10" index="1" rel="su"/>
+        <node id="11" infl="inf" pos="verb" rel="hd" root="word" sc="passive" sense="word"/>
+        <node cat="ppart" id="12" rel="vc">
+          <node id="13" index="1" rel="obj1"/>
+          <node cat="np" id="14" rel="mod">
+            <node aform="base" id="15" infl="no_e" pos="adj" rel="mod" root="volg" sense="volg" vform="gerund"/>
+            <node gen="het" id="16" num="meas" pos="noun" rel="hd" root="jaar" sense="jaar" special="tmp"/>
+          </node>
+          <node cat="pp" id="17" rel="mod">
+            <node id="18" pos="prep" rel="hd" root="op" sense="op"/>
+            <node cat="np" id="19" rel="obj1">
+              <node gen="de" id="20" num="sg" pos="noun" rel="hd" root="zaterdag" sense="zaterdag" special="tmp"/>
+              <node cat="mwu" id="21" mwu_root="25 april" mwu_sense="25 april" rel="mod">
+                <node id="22" pos="noun" rel="mwp" root="25" sense="25" special="tmp"/>
+                <node id="23" pos="noun" rel="mwp" root="april" sense="april" special="tmp"/>
+              </node>
+            </node>
+          </node>
+          <node id="24" infl="psp" pos="verb" rel="hd" root="houd" sc="transitive" sense="houd"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

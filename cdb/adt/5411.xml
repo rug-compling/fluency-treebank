@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="predc">
+        <node id="3" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="atlete" sense="atlete"/>
+        <node cat="rel" id="5" rel="mod">
+          <node case="no_obl" gen="de" id="6" index="1" pos="pron" rel="rhd" root="die" sense="die" wh="rel"/>
+          <node cat="ssub" id="7" rel="body">
+            <node id="8" index="1" rel="su"/>
+            <node id="9" infl="sg" pos="verb" rel="hd" root="krijg" sc="so_passive" sense="krijg" tense="past"/>
+            <node cat="ppart" id="10" rel="vc">
+              <node id="11" index="1" rel="obj2"/>
+              <node aform="base" id="12" infl="no_e" pos="adj" rel="mod" root="onverwachts" sense="onverwachts" vform="adj"/>
+              <node id="13" pos="adv" rel="mod" root="ook" sense="ook" special="sentence"/>
+              <node cat="np" id="14" rel="obj1">
+                <node id="15" infl="een" pos="det" rel="det" root="een" sense="een"/>
+                <node gen="de" id="16" num="sg" pos="noun" rel="hd" root="figurant_rol" sense="figurant_rol"/>
+              </node>
+              <node id="17" infl="psp" pos="verb" rel="hd" root="dring_op" sc="part_np_np(op)" sense="dring_op"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="18" infl="sg" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="past"/>
+      <node cat="mwu" id="19" mwu_root="Wilma van den Berg" mwu_sense="Wilma van den Berg" rel="su">
+        <node id="20" neclass="PER" num="both" pos="name" rel="mwp" root="Wilma" sense="Wilma"/>
+        <node id="21" neclass="PER" num="both" pos="name" rel="mwp" root="van" sense="van"/>
+        <node id="22" neclass="PER" num="both" pos="name" rel="mwp" root="den" sense="den"/>
+        <node id="23" neclass="PER" num="both" pos="name" rel="mwp" root="Berg" sense="Berg"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

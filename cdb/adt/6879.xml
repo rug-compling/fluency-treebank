@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="mod">
+        <node id="3" pos="prep" rel="hd" root="in" sense="in"/>
+        <node cat="np" id="4" rel="obj1">
+          <node id="5" infl="pron" pos="det" rel="det" root="zijn" sense="zijn"/>
+          <node gen="het" id="6" num="sg" pos="noun" rel="hd" root="verslag" sense="verslag"/>
+          <node cat="pp" id="7" rel="mod">
+            <node id="8" pos="prep" rel="hd" root="over" sense="over"/>
+            <node cat="np" id="9" rel="obj1">
+              <node id="10" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+              <node aform="base" id="11" infl="both" pos="adj" rel="mod" root="afgelopen" sense="afgelopen" vform="psp"/>
+              <node gen="het" id="12" num="sg" pos="noun" rel="hd" root="studie_jaar" sense="studie_jaar" special="tmp"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="13" infl="sg" pos="verb" rel="hd" root="memoreer" sc="transitive" sense="memoreer" tense="past"/>
+      <node cat="mwu" id="14" mwu_root="prof. Slagter" mwu_sense="prof. Slagter" rel="su">
+        <node id="15" neclass="PER" num="both" pos="name" rel="mwp" root="prof." sense="prof."/>
+        <node id="16" neclass="PER" num="both" pos="name" rel="mwp" root="Slagter" sense="Slagter"/>
+      </node>
+      <node cat="np" id="17" rel="obj1">
+        <node id="18" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node id="19" pos="verb" rel="hd" root="verschijn" sc="intransitive" sense="verschijn" special="v_noun"/>
+        <node cat="pp" id="20" rel="mod">
+          <node id="21" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="22" rel="obj1">
+            <node id="23" infl="pl_num" pos="num" rel="det" root="twee" sense="twee" special="hoofd"/>
+            <node aform="base" id="24" infl="e" pos="adj" rel="mod" root="belangrijk" sense="belangrijk" vform="adj"/>
+            <node gen="het" id="25" num="pl" pos="noun" rel="hd" root="rapport" sense="rapport"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

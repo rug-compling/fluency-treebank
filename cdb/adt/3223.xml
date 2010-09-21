@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="conj" id="2" index="1" rel="su">
+        <node cat="mwu" id="3" mwu_root="Theo Uittenbogaart" mwu_sense="Theo Uittenbogaart" rel="cnj">
+          <node id="4" neclass="PER" num="both" pos="name" rel="mwp" root="Theo" sense="Theo"/>
+          <node id="5" neclass="PER" num="both" pos="name" rel="mwp" root="Uittenbogaart" sense="Uittenbogaart"/>
+        </node>
+        <node id="6" pos="vg" rel="crd" root="en" sense="en"/>
+        <node cat="np" id="7" rel="cnj">
+          <node gen="de" id="8" num="sg" pos="noun" rel="hd" root="cameraman" sense="cameraman"/>
+          <node cat="mwu" id="9" mwu_root="Ferenc Kalman Kall" mwu_sense="Ferenc Kalman Kall" rel="app">
+            <node id="10" neclass="PER" num="both" pos="name" rel="mwp" root="Ferenc" sense="Ferenc"/>
+            <node id="11" neclass="PER" num="both" pos="name" rel="mwp" root="Kalman" sense="Kalman"/>
+            <node id="12" neclass="PER" num="both" pos="name" rel="mwp" root="Kall" sense="Kall"/>
+          </node>
+        </node>
+      </node>
+      <node id="13" infl="pl" pos="verb" rel="hd" root="besluit" sc="vp" sense="besluit" tense="past"/>
+      <node cat="pp" id="14" rel="mod">
+        <node id="15" pos="prep" rel="hd" root="na" sense="na"/>
+        <node cat="np" id="16" rel="obj1">
+          <node id="17" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node aform="base" id="18" infl="e" pos="adj" rel="mod" root="lang" sense="lang" vform="adj"/>
+          <node gen="de" id="19" num="sg" pos="noun" rel="hd" root="discussie" sense="discussie"/>
+        </node>
+      </node>
+      <node cat="ti" id="20" rel="vc">
+        <node id="21" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+        <node cat="inf" id="22" rel="body">
+          <node id="23" index="1" rel="su"/>
+          <node cat="pp" id="24" rel="pc">
+            <node id="25" pos="prep" rel="hd" root="van" sense="van"/>
+            <node cat="np" id="26" rel="obj1">
+              <node id="27" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+              <node id="28" pos="verb" rel="hd" root="film" sc="intransitive" sense="film" special="v_noun"/>
+            </node>
+          </node>
+          <node id="29" infl="inf(no_e)" pos="verb" rel="hd" root="zie_af" sc="part_pc_pp(af,van)" sense="zie_af-van"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="np" id="1" rel="--">
+      <node gen="de" id="2" num="sg" pos="noun" rel="hd" root="woensdag" sense="woensdag" special="tmp"/>
+      <node cat="mwu" id="3" mwu_root="18 februari" mwu_sense="18 februari" rel="mod">
+        <node id="4" pos="noun" rel="mwp" root="18" sense="18" special="tmp"/>
+        <node id="5" pos="noun" rel="mwp" root="februari" sense="februari" special="tmp"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

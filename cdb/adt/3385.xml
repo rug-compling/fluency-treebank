@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node case="nom" def="def" gen="de" id="2" num="sg" per="thi" pos="pron" rel="su" root="men" sense="men" wh="nwh"/>
+      <node id="3" infl="sg3" pos="verb" rel="hd" root="denk" sc="tr_sbar" sense="denk" tense="present"/>
+      <node aform="base" id="4" infl="pred" pos="adj" rel="mod" root="wel" sense="wel" vform="adj"/>
+      <node cat="cp" id="5" rel="vc">
+        <node id="6" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+        <node cat="ssub" id="7" rel="body">
+          <node cat="np" id="8" index="1" rel="su">
+            <node id="9" infl="pron" pos="det" rel="det" root="haar" sense="haar"/>
+            <node aform="base" id="10" infl="e" pos="adj" rel="mod" root="schijnbaar" sense="schijnbaar" vform="adj"/>
+            <node gen="de" id="11" num="sg" pos="noun" rel="hd" root="onkwetsbaar_heid" sense="onkwetsbaar_heid"/>
+          </node>
+          <node id="12" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="te_passive" sense="ben" tense="present"/>
+          <node cat="ti" id="13" rel="vc">
+            <node id="14" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+            <node cat="inf" id="15" rel="body">
+              <node id="16" index="1" rel="obj1"/>
+              <node id="17" infl="inf" pos="verb" rel="hd" root="voer_terug" sc="part_np_pc_pp(terug,op)" sense="voer_terug-op"/>
+              <node cat="pp" id="18" rel="pc">
+                <node id="19" pos="prep" rel="hd" root="op" sense="op"/>
+                <node cat="np" id="20" rel="obj1">
+                  <node gen="de" id="21" num="sg" pos="noun" rel="hd" root="gevoelloos_heid" sense="gevoelloos_heid"/>
+                  <node cat="pp" id="22" rel="mod">
+                    <node id="23" pos="prep" rel="hd" root="in" sense="in"/>
+                    <node cat="np" id="24" rel="obj1">
+                      <node id="25" infl="pron" pos="det" rel="det" root="haar" sense="haar"/>
+                      <node gen="het" id="26" num="sg" pos="noun" rel="hd" root="karakter" sense="karakter"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

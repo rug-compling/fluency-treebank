@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="pl" pos="verb" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" tense="past"/>
+      <node cat="np" id="3" index="1" rel="su">
+        <node id="4" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="5" num="pl" pos="noun" rel="hd" root="student_voorziening" sense="student_voorziening"/>
+      </node>
+      <node cat="ppart" id="6" rel="vc">
+        <node cat="pp" id="7" rel="mod">
+          <node id="8" pos="prep" rel="hd" root="in" sense="in"/>
+          <node cat="np" id="9" rel="obj1">
+            <node id="10" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+            <node cat="ppart" id="11" rel="mod">
+              <node aform="base" id="12" infl="no_e" pos="adj" rel="mod" root="vlot" sense="vlot" vform="adj"/>
+              <node aform="base" id="13" infl="both" pos="adj" rel="hd" root="verlopen" sense="verlopen" vform="psp"/>
+            </node>
+            <node gen="het" id="14" num="sg" pos="noun" rel="hd" root="gesprek" sense="gesprek"/>
+          </node>
+        </node>
+        <node cat="advp" id="15" rel="mod">
+          <node id="16" pos="adv" rel="mod" root="ook" sc="modal" sense="ook"/>
+          <node id="17" pos="adv" rel="hd" root="nog" sense="nog"/>
+        </node>
+        <node id="18" index="1" rel="su"/>
+        <node cat="mwu" id="19" mwu_root="ter sprake" mwu_sense="ter sprake" rel="svp">
+          <node id="20" pos="fixed" rel="mwp" root="ter" sense="ter"/>
+          <node id="21" pos="fixed" rel="mwp" root="sprake" sense="sprake"/>
+        </node>
+        <node id="22" infl="psp" pos="verb" rel="hd" root="kom" sc="fixed([[ter,sprake]],no_passive)" sense="ter-sprake-kom"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="buit" sense="buit"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="7" rel="obj1">
+            <node id="8" infl="pl_num" pos="det" rel="det" root="beide" sense="beide" special="adj_number"/>
+            <node gen="de" id="9" num="pl" pos="noun" rel="hd" root="man" sense="man"/>
+          </node>
+        </node>
+      </node>
+      <node id="10" infl="sg" pos="verb" rel="hd" root="bedraag" sc="meas" sense="bedraag" tense="past"/>
+      <node cat="mwu" id="11" mwu_root="flo 570" mwu_sense="flo 570" rel="me">
+        <node gen="both" id="12" num="bare_meas" pos="noun" rel="mwp" root="flo" sense="flo" special="amount_meas_mod"/>
+        <node gen="both" id="13" num="bare_meas" pos="noun" rel="mwp" root="570" sense="570" special="amount_meas_mod"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

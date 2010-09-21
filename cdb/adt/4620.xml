@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg_heeft" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="present"/>
+      <node cat="np" id="3" index="1" rel="su">
+        <node id="4" infl="geen" pos="det" rel="det" root="geen" sense="geen" wh="nwh"/>
+        <node id="5" infl="enkele" pos="det" rel="det" root="enkel" sense="enkel" special="adj_number"/>
+        <node aform="base" id="6" infl="e" pos="adj" rel="mod" root="Nederlands" sense="Nederlands" vform="adj"/>
+        <node gen="de" id="7" num="sg" pos="noun" rel="hd" root="scheidsrechter" sense="scheidsrechter"/>
+      </node>
+      <node cat="ppart" id="8" rel="vc">
+        <node cat="np" id="9" rel="mod">
+          <node aform="base" id="10" infl="no_e" pos="adj" rel="mod" root="vorig" sense="vorig" vform="adj"/>
+          <node gen="het" id="11" num="meas" pos="noun" rel="hd" root="jaar" sense="jaar" special="tmp"/>
+        </node>
+        <node id="12" index="1" rel="su"/>
+        <node cat="np" id="13" rel="obj1">
+          <node id="14" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node aform="base" id="15" infl="e" pos="adj" rel="mod" root="belangrijk" sense="belangrijk" vform="adj"/>
+          <node aform="base" id="16" infl="e" pos="adj" rel="mod" root="internationaal" sense="internationaal" vform="adj"/>
+          <node gen="de" id="17" num="sg" pos="noun" rel="hd" root="wedstrijd" sense="wedstrijd" special="tmp"/>
+        </node>
+        <node id="18" infl="psp" pos="verb" rel="hd" root="fluit" sc="transitive" sense="fluit"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

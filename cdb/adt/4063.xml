@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="pl" pos="noun" rel="hd" root="kosten" sense="kosten"/>
+      </node>
+      <node id="5" infl="pl" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+      <node cat="smain" id="6" rel="mod">
+        <node id="7" pos="adv" rel="mod" root="uiteraard" sense="uiteraard" special="sentence"/>
+        <node id="8" infl="pl" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+        <node cat="pp" id="9" rel="mod">
+          <node id="10" pos="prep" rel="hd" root="per" sense="per"/>
+          <node gen="de" id="11" num="sg" pos="noun" rel="obj1" root="uitvoering" sense="uitvoering"/>
+        </node>
+        <node gen="de" id="12" num="pl" pos="noun" rel="su" root="variatie" sense="variatie"/>
+        <node aform="base" id="13" infl="no_e" pos="adj" rel="predc" root="mogelijk" sense="mogelijk" vform="adj"/>
+      </node>
+      <node cat="np" id="14" rel="predc">
+        <node id="15" pos="adv" rel="mod" root="bijna" sc="adv_noun_prep" sense="bijna"/>
+        <node id="16" infl="pl_num" pos="num" rel="det" root="twee" sense="twee" special="hoofd"/>
+        <node gen="de" id="17" num="meas" pos="noun" rel="hd" root="ton" sense="ton" special="meas_mod"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node case="nom" def="def" gen="de" id="2" index="1" num="sg" per="fir" pos="pron" rel="su" root="ik" sense="ik" wh="nwh"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="moet" sc="modifier(aux(inf))" sense="moet" tense="present"/>
+      <node cat="inf" id="4" rel="vc">
+        <node id="5" index="1" rel="su"/>
+        <node id="6" pos="adv" rel="mod" root="toch" sense="toch"/>
+        <node id="7" pos="adv" rel="mod" root="ook" sense="ook" special="sentence"/>
+        <node id="8" infl="inf" pos="verb" rel="hd" root="heb" sc="transitive_ndev" sense="heb"/>
+        <node cat="np" id="9" rel="obj1">
+          <node id="10" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+          <node gen="het" id="11" num="sg" pos="noun" rel="hd" root="recht" sc="vp" sense="recht"/>
+          <node cat="ti" id="12" rel="vc">
+            <node id="13" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+            <node cat="inf" id="14" rel="body">
+              <node id="15" pos="adv" rel="mod" root="morgen" sense="morgen" special="tmp"/>
+              <node cat="np" id="16" rel="obj1">
+                <node id="17" infl="een" pos="det" rel="det" root="een" sense="een"/>
+                <node gen="het" id="18" num="sg" pos="noun" rel="hd" root="auto_ongeluk" sense="auto_ongeluk"/>
+              </node>
+              <node id="19" infl="inf" pos="verb" rel="hd" root="krijg" sc="transitive" sense="krijg"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

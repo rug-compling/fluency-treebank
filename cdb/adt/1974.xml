@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" pos="noun" rel="sup" root="het" sense="het" special="het"/>
+      <node id="3" infl="sg3" pos="verb" rel="hd" root="blijf" sc="copula_sbar" sense="blijf" tense="present"/>
+      <node id="4" pos="adv" rel="mod" root="intussen" sense="intussen" special="sentence"/>
+      <node cat="np" id="5" rel="predc">
+        <node id="6" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="7" num="sg" pos="noun" rel="hd" root="vraag" sc="subject_sbar" sense="vraag"/>
+      </node>
+      <node cat="cp" id="8" rel="su">
+        <node id="9" pos="comp" rel="cmp" root="of" sc="of" sense="of"/>
+        <node cat="ssub" id="10" rel="body">
+          <node cat="np" id="11" index="1" rel="su">
+            <node id="12" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+            <node gen="het" id="13" num="sg" pos="noun" rel="hd" root="middel" sense="middel"/>
+          </node>
+          <node id="14" infl="modal_not_u" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="present"/>
+          <node cat="inf" id="15" rel="vc">
+            <node id="16" index="1" rel="su"/>
+            <node aform="base" id="17" infl="no_e" pos="adj" rel="predc" root="effectief" sense="effectief" vform="adj"/>
+            <node id="18" infl="inf" pos="verb" rel="hd" root="ben" sc="copula" sense="ben"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

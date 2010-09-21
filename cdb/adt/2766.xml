@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="het" pos="det" rel="obj1" root="dat" sense="dat" wh="nwh"/>
+      <node id="3" infl="sg3" pos="verb" rel="hd" root="doe" sc="transitive_ndev" sense="doe" tense="present"/>
+      <node cat="mwu" id="4" mwu_root="Jan de Vries" mwu_sense="Jan de Vries" rel="su">
+        <node id="5" neclass="PER" num="both" pos="name" rel="mwp" root="Jan" sense="Jan"/>
+        <node id="6" neclass="PER" num="both" pos="name" rel="mwp" root="de" sense="de"/>
+        <node id="7" neclass="PER" num="both" pos="name" rel="mwp" root="Vries" sense="Vries"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

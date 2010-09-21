@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="smain" id="2" rel="nucl">
+        <node id="3" infl="het" pos="det" rel="su" root="dit" sense="dit" wh="nwh"/>
+        <node id="4" infl="sg" pos="verb" rel="hd" root="gebeur" sc="intransitive" sense="gebeur" tense="past"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="adv" rel="mod" root="volkomen" sc="prep" sense="volkomen"/>
+          <node id="7" pos="prep" rel="hd" root="tegen" sense="tegen"/>
+          <node cat="np" id="8" rel="obj1">
+            <node id="9" infl="pron" pos="det" rel="det" root="mijn" sense="mijn"/>
+            <node gen="de" id="10" num="sg" pos="noun" rel="hd" root="wil" sense="wil"/>
+          </node>
+          <node id="11" pos="part" rel="hdf" root="in" sense="in"/>
+        </node>
+      </node>
+      <node cat="sv1" id="12" rel="tag">
+        <node id="13" infl="sg" pos="verb" rel="hd" root="geef" sc="fixed([vc(ken,pass_te,intransitive),sbar],imp_passive)" sense="geef-ken" tense="past"/>
+        <node id="14" neclass="PER" num="both" pos="name" rel="su" root="Castenmiller" sense="Castenmiller"/>
+        <node cat="ti" id="15" rel="svp">
+          <node id="16" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+          <node id="17" infl="inf" pos="verb" rel="body" root="ken" sc="fixed_dep(intransitive)" sense="ken"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

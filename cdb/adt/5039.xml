@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg3" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="present"/>
+      <node cat="ppart" id="3" rel="vc">
+        <node cat="pp" id="4" rel="mod">
+          <node id="5" pos="prep" rel="hd" root="in" sense="in"/>
+          <node id="6" neclass="LOC" num="both" pos="name" rel="obj1" root="West-Berlijn" sense="West-Berlijn"/>
+        </node>
+        <node id="7" infl="psp" pos="verb" rel="hd" root="hoop" sc="tr_sbar" sense="hoop"/>
+        <node cat="cp" id="8" rel="vc">
+          <node id="9" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+          <node cat="ssub" id="10" rel="body">
+            <node gen="de" id="11" index="1" num="pl" pos="noun" rel="su" root="onderhandeling" sense="onderhandeling"/>
+            <node id="12" infl="pl" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="present"/>
+            <node cat="inf" id="13" rel="vc">
+              <node id="14" index="1" rel="su"/>
+              <node cat="pp" id="15" rel="mod">
+                <node id="16" pos="prep" rel="hd" root="in" sense="in"/>
+                <node cat="np" id="17" rel="obj1">
+                  <node id="18" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+                  <node aform="base" id="19" infl="no_e" pos="adj" rel="hd" root="bijzonder" sense="bijzonder" vform="adj"/>
+                </node>
+              </node>
+              <node id="20" infl="inf" pos="verb" rel="hd" root="leid" sc="pc_pp(tot)" sense="leid-tot"/>
+              <node cat="pp" id="21" rel="pc">
+                <node id="22" pos="prep" rel="hd" root="tot" sense="tot"/>
+                <node cat="np" id="23" rel="obj1">
+                  <node id="24" infl="een" pos="det" rel="det" root="een" sense="een"/>
+                  <node gen="de" id="25" num="sg" pos="noun" rel="hd" root="verbetering" sense="verbetering"/>
+                  <node cat="pp" id="26" rel="mod">
+                    <node id="27" pos="prep" rel="hd" root="van" sense="van"/>
+                    <node cat="np" id="28" rel="obj1">
+                      <node id="29" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+                      <node gen="het" id="30" num="sg" pos="noun" rel="hd" root="Berlijn_verkeer" sense="Berlijn_verkeer"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

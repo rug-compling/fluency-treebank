@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="mwu" id="2" index="1" mwu_root="Mevr. Plantinga" mwu_sense="Mevr. Plantinga" rel="su">
+        <node id="3" neclass="PER" num="both" pos="name" rel="mwp" root="Mevr." sense="Mevr."/>
+        <node id="4" neclass="PER" num="both" pos="name" rel="mwp" root="Plantinga" sense="Plantinga"/>
+      </node>
+      <node id="5" infl="sg" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="past"/>
+      <node cat="ppart" id="6" rel="vc">
+        <node id="7" index="1" rel="obj1"/>
+        <node cat="pp" id="8" rel="ld">
+          <node id="9" pos="prep" rel="hd" root="uit" sense="uit"/>
+          <node cat="np" id="10" rel="obj1">
+            <node id="11" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="12" num="sg" pos="noun" rel="hd" root="wagen" sense="wagen"/>
+          </node>
+        </node>
+        <node id="13" infl="psp" pos="verb" rel="hd" root="slinger" sc="np_ld_pp" sense="slinger"/>
+        <node cat="cp" id="14" rel="mod">
+          <node id="15" pos="comp" rel="cmp" root="nadat" sense="nadat"/>
+          <node cat="ssub" id="16" rel="body">
+            <node cat="np" id="17" index="2" rel="su">
+              <node id="18" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node gen="de" id="19" num="sg" pos="noun" rel="hd" root="wagen" sense="wagen"/>
+            </node>
+            <node id="20" infl="sg" pos="verb" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" tense="past"/>
+            <node cat="ppart" id="21" rel="vc">
+              <node id="22" index="2" rel="su"/>
+              <node cat="pp" id="23" rel="ld">
+                <node id="24" pos="prep" rel="hd" root="door" sense="door"/>
+                <node cat="np" id="25" rel="obj1">
+                  <node id="26" infl="een" pos="det" rel="det" root="een" sense="een"/>
+                  <node gen="de" id="27" num="sg" pos="noun" rel="hd" root="brug_leuning" sense="brug_leuning"/>
+                </node>
+              </node>
+              <node id="28" infl="psp" pos="verb" rel="hd" root="sla" sc="ld_pp" sense="sla"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

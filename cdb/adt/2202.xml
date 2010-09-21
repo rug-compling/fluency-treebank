@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node aform="base" id="4" infl="e" pos="adj" rel="mod" root="Braziliaans" sense="Braziliaans" vform="adj"/>
+        <node gen="de" id="5" num="sg" pos="noun" rel="hd" root="bisschop" sense="bisschop"/>
+        <node cat="mwu" id="6" mwu_root="Helder Camera" mwu_sense="Helder Camera" rel="app">
+          <node id="7" neclass="PER" num="both" pos="name" rel="mwp" root="Helder" sense="Helder"/>
+          <node id="8" neclass="PER" num="both" pos="name" rel="mwp" root="Camera" sense="Camera"/>
+        </node>
+      </node>
+      <node id="9" infl="sg" pos="verb" rel="hd" root="krijg" sc="so_passive" sense="krijg" tense="past"/>
+      <node cat="ppart" id="10" rel="vc">
+        <node id="11" index="1" rel="obj2"/>
+        <node cat="np" id="12" rel="obj1">
+          <node id="13" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node gen="het" id="14" num="sg" pos="noun" rel="hd" root="spreek_verbod" sense="spreek_verbod"/>
+        </node>
+        <node id="15" infl="psp" pos="verb" rel="hd" root="leg_op" sc="part_np_np(op)" sense="leg_op"/>
+        <node cat="pp" id="16" rel="mod">
+          <node id="17" pos="prep" rel="hd" root="wegens" sense="wegens"/>
+          <node cat="np" id="18" rel="obj1">
+            <node id="19" infl="pron" pos="det" rel="det" root="zijn" sense="zijn"/>
+            <node gen="de" id="20" num="sg" pos="noun" rel="hd" root="opvatting" sense="opvatting"/>
+            <node cat="pp" id="21" rel="mod">
+              <node id="22" pos="prep" rel="hd" root="over" sense="over"/>
+              <node cat="np" id="23" rel="obj1">
+                <node aform="base" id="24" infl="e" pos="adj" rel="mod" root="sociaal" sense="sociaal" vform="adj"/>
+                <node gen="de" id="25" num="pl" pos="noun" rel="hd" root="kwestie" sense="kwestie"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

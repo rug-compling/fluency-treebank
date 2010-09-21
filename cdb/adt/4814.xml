@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="np" id="1" rel="--">
+      <node id="2" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+      <node aform="base" id="3" infl="e" pos="adj" rel="mod" root="absoluut" sense="absoluut" vform="adj"/>
+      <node gen="het" id="4" num="sg" pos="noun" rel="hd" root="salaris_peil" sense="salaris_peil"/>
+    </node>
+  </node>
+</alpino_adt>

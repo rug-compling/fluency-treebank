@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" pos="noun" rel="su" root="het" sense="het" special="het"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="regen" sc="fixed([het_subj,acc],no_passive)" sense="regen" tense="past"/>
+      <node id="4" pos="adv" rel="mod" root="gisteren" sense="gisteren" special="tmp"/>
+      <node gen="de" id="5" num="pl" pos="noun" rel="obj1" root="klacht" sense="klacht"/>
+      <node cat="pp" id="6" rel="mod">
+        <node id="7" pos="prep" rel="hd" root="in" sense="in"/>
+        <node cat="np" id="8" rel="obj1">
+          <node id="9" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+          <node id="10" neclass="LOC" num="both" pos="name" rel="hd" root="Rijnmondgebied" sense="Rijnmondgebied"/>
+          <node cat="pp" id="11" rel="mod">
+            <node id="12" pos="prep" rel="hd" root="over" sense="over"/>
+            <node gen="de" id="13" num="sg" pos="noun" rel="obj1" root="luchtverontreiniging" sense="luchtverontreiniging"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

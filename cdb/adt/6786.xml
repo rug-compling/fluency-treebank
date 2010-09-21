@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="pron" pos="det" rel="det" root="haar" sense="haar"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="echt_genoot" sense="echt_genoot"/>
+        <node cat="np" id="5" rel="app">
+          <node id="6" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="7" num="sg" pos="noun" rel="hd" root="heer" sense="heer"/>
+          <node cat="mwu" id="8" mwu_root="Chr. K. Mol" mwu_sense="Chr. K. Mol" rel="app">
+            <node id="9" neclass="PER" num="both" pos="name" rel="mwp" root="Chr." sense="Chr."/>
+            <node id="10" neclass="PER" num="both" pos="name" rel="mwp" root="K." sense="K."/>
+            <node id="11" neclass="PER" num="both" pos="name" rel="mwp" root="Mol" sense="Mol"/>
+          </node>
+        </node>
+      </node>
+      <node id="12" infl="sg_heeft" pos="verb" rel="hd" root="heb" sc="transitive_ndev" sense="heb" tense="present"/>
+      <node cat="np" id="13" rel="obj1">
+        <node id="14" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node gen="both" id="15" num="sg" pos="noun" rel="hd" root="reclame_advies_bureau" sense="reclame_advies_bureau"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

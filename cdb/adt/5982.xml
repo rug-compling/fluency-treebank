@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="pl" pos="noun" rel="hd" root="zorg" sense="zorg"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="mwu" id="7" mwu_root="Holland Sport" mwu_sense="Holland Sport" rel="obj1">
+            <node id="8" neclass="ORG" num="both" pos="name" rel="mwp" root="Holland" sense="Holland"/>
+            <node id="9" neclass="ORG" num="both" pos="name" rel="mwp" root="Sport" sense="Sport"/>
+          </node>
+        </node>
+      </node>
+      <node id="10" infl="pl" pos="verb" rel="hd" root="word" sc="copula" sense="word" tense="present"/>
+      <node id="11" pos="adv" rel="mod" root="langzamerhand" sense="langzamerhand" special="sentence"/>
+      <node cat="ap" id="12" rel="predc">
+        <node id="13" pos="adv" rel="mod" root="wat" sense="wat"/>
+        <node aform="compar" id="14" infl="no_e" pos="adj" rel="hd" root="licht" sense="licht" vform="adj"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

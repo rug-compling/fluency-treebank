@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="deze" sense="deze" wh="nwh"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="regeling" sense="regeling"/>
+      </node>
+      <node id="5" infl="sg3" pos="verb" rel="hd" root="blijf" sc="copula" sense="blijf" tense="present"/>
+      <node cat="pp" id="6" rel="mod">
+        <node id="7" pos="prep" rel="hd" root="in" sense="in"/>
+        <node cat="np" id="8" rel="obj1">
+          <node id="9" infl="het" pos="det" rel="det" root="ieder" sense="ieder" wh="nwh"/>
+          <node gen="both" id="10" num="sg" pos="noun" rel="hd" root="geval" sense="geval"/>
+        </node>
+      </node>
+      <node cat="pp" id="11" rel="mod">
+        <node id="12" pos="prep" rel="hd" root="tot" sense="tot"/>
+        <node cat="mwu" id="13" mwu_root="1 oktober" mwu_sense="1 oktober" rel="obj1">
+          <node id="14" pos="noun" rel="mwp" root="1" sense="1" special="tmp"/>
+          <node id="15" pos="noun" rel="mwp" root="oktober" sense="oktober" special="tmp"/>
+        </node>
+      </node>
+      <node cat="mwu" id="16" mwu_root="van kracht" mwu_sense="van kracht" rel="predc">
+        <node aform="base" id="17" infl="pred" pos="adj" rel="mwp" root="van" sense="van" vform="adj"/>
+        <node aform="base" id="18" infl="pred" pos="adj" rel="mwp" root="kracht" sense="kracht" vform="adj"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

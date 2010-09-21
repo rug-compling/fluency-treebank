@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node case="nom" def="def" gen="de" id="2" num="sg" per="fir" pos="pron" rel="su" root="ik" sense="ik" wh="nwh"/>
+      <node id="3" infl="sg1" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+      <node cat="ppart" id="4" rel="predc">
+        <node aform="base" id="5" infl="no_e" pos="adj" rel="hd" root="benieuwd" sc="pp(naar)" sense="benieuwd-naar" vform="psp"/>
+        <node cat="pp" id="6" rel="pc">
+          <node id="7" pos="prep" rel="hd" root="naar" sense="naar"/>
+          <node cat="np" id="8" rel="obj1">
+            <node id="9" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="10" num="pl" pos="noun" rel="hd" root="conclusie" sense="conclusie"/>
+            <node cat="rel" id="11" rel="mod">
+              <node case="no_obl" gen="de" id="12" index="1" pos="pron" rel="rhd" root="die" sense="die" wh="rel"/>
+              <node cat="ssub" id="13" rel="body">
+                <node id="14" index="1" rel="su"/>
+                <node id="15" infl="pl" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="present"/>
+                <node cat="inf" id="16" rel="vc">
+                  <node id="17" index="1" rel="su"/>
+                  <node cat="ppart" id="18" rel="vc">
+                    <node id="19" index="1" rel="obj1"/>
+                    <node gen="de" id="20" num="sg" pos="noun" rel="mod" root="vrijdag_avond" sense="vrijdag_avond" special="tmp"/>
+                    <node cat="pp" id="21" rel="mod">
+                      <node id="22" pos="prep" rel="hd" root="in" sense="in"/>
+                      <node cat="np" id="23" rel="obj1">
+                        <node id="24" infl="een" pos="det" rel="det" root="een" sense="een"/>
+                        <node aform="base" id="25" infl="e" pos="adj" rel="mod" root="vul_aan" sense="vul_aan" vform="gerund"/>
+                        <node gen="de" id="26" num="sg" pos="noun" rel="hd" root="uitzending" sense="uitzending"/>
+                      </node>
+                    </node>
+                    <node id="27" infl="psp" pos="verb" rel="hd" root="trek" sc="transitive" sense="trek"/>
+                  </node>
+                  <node id="28" infl="inf" pos="verb" rel="hd" root="word" sc="passive" sense="word"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="sv1" id="1" rel="--">
+      <node id="2" infl="sg" pos="verb" rel="hd" root="moet" sc="modifier(aux(inf))" sense="moet" tense="present"/>
+      <node cat="np" id="3" index="1" rel="su">
+        <node id="4" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node aform="base" id="5" infl="e" pos="adj" rel="mod" root="wettelijk" sense="wettelijk" vform="adj"/>
+        <node gen="de" id="6" num="sg" pos="noun" rel="hd" root="regeling" sense="regeling"/>
+        <node cat="pp" id="7" rel="mod">
+          <node id="8" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="9" rel="obj1">
+            <node id="10" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+            <node gen="het" id="11" num="sg" pos="noun" rel="hd" root="omroep_onderwijs" sense="omroep_onderwijs"/>
+          </node>
+        </node>
+      </node>
+      <node cat="inf" id="12" rel="vc">
+        <node id="13" pos="adv" rel="mod" root="er" sense="er" special="er"/>
+        <node id="14" index="1" rel="su"/>
+        <node id="15" infl="inf" pos="verb" rel="hd" root="kom" sc="intransitive" sense="kom"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

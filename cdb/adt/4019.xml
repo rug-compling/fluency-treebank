@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="omzet" sense="omzet"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="mwu" id="7" mwu_root="Albert Heijn" mwu_sense="Albert Heijn" rel="obj1">
+            <node id="8" neclass="ORG" num="both" pos="name" rel="mwp" root="Albert" sense="Albert"/>
+            <node id="9" neclass="ORG" num="both" pos="name" rel="mwp" root="Heijn" sense="Heijn"/>
+          </node>
+        </node>
+      </node>
+      <node id="10" infl="sg_heeft" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="present"/>
+      <node cat="ppart" id="11" rel="vc">
+        <node id="12" index="1" rel="su"/>
+        <node cat="pp" id="13" rel="mod">
+          <node id="14" pos="prep" rel="hd" root="in" sense="in"/>
+          <node id="15" neclass="year" pos="noun" rel="obj1" root="1969" sense="1969"/>
+        </node>
+        <node cat="mwu" id="16" mwu_root="voor het eerst" mwu_sense="voor het eerst" rel="mod">
+          <node aform="base" id="17" infl="pred" pos="adj" rel="mwp" root="voor" sense="voor" vform="adj"/>
+          <node aform="base" id="18" infl="pred" pos="adj" rel="mwp" root="het" sense="het" vform="adj"/>
+          <node aform="base" id="19" infl="pred" pos="adj" rel="mwp" root="eerst" sense="eerst" vform="adj"/>
+        </node>
+        <node cat="np" id="20" rel="obj1">
+          <node id="21" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node cat="mwu" id="22" mwu_root="flo 1 miljard" mwu_sense="flo 1 miljard" rel="hd">
+            <node gen="both" id="23" num="bare_meas" pos="noun" rel="mwp" root="flo" sense="flo" special="amount_meas_mod"/>
+            <node gen="both" id="24" num="bare_meas" pos="noun" rel="mwp" root="1" sense="1" special="amount_meas_mod"/>
+            <node gen="both" id="25" num="bare_meas" pos="noun" rel="mwp" root="miljard" sense="miljard" special="amount_meas_mod"/>
+          </node>
+        </node>
+        <node id="26" infl="psp" pos="verb" rel="hd" root="overschrijd" sc="transitive" sense="overschrijd"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

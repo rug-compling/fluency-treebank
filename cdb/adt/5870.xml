@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="pl" pos="noun" rel="hd" root="speelgoed_maker" sense="speelgoed_maker"/>
+      </node>
+      <node id="5" infl="pl" pos="verb" rel="hd" root="ben_uit" sc="part_er_pp_vp(uit,op)" sense="ben_uit-op" tense="present"/>
+      <node aform="base" id="6" infl="no_e" pos="adj" rel="mod" root="duur_voort" sense="duur_voort" vform="gerund"/>
+      <node cat="pp" id="7" rel="pc">
+        <node id="8" pos="adv" rel="pobj1" root="er" sense="er" special="er"/>
+        <node id="9" pos="prep" rel="hd" root="op" sense="op"/>
+        <node cat="oti" id="10" rel="vc">
+          <node id="11" pos="comp" rel="cmp" root="om" sc="om" sense="om"/>
+          <node cat="ti" id="12" rel="body">
+            <node id="13" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+            <node cat="inf" id="14" rel="body">
+              <node id="15" index="1" rel="su"/>
+              <node cat="np" id="16" rel="obj1">
+                <node id="17" infl="pron" pos="det" rel="det" root="hun" sense="hun"/>
+                <node gen="het" id="18" num="pl" pos="noun" rel="hd" root="product" sense="product"/>
+              </node>
+              <node cat="ap" id="19" rel="predc">
+                <node aform="base" id="20" infl="no_e" pos="adj" rel="hd" root="aantrekkelijk" sense="aantrekkelijk" vform="adj"/>
+                <node cat="advp" id="21" rel="mod">
+                  <node id="22" pos="adv" rel="hd" root="zo" sc="zo_mogelijk" sense="zo"/>
+                  <node aform="base" id="23" infl="no_e" pos="adj" rel="obcomp" root="mogelijk" sc="zo_mogelijk" sense="mogelijk" vform="adj"/>
+                </node>
+              </node>
+              <node id="24" infl="inf" pos="verb" rel="hd" root="maak" sc="pred_np" sense="maak"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

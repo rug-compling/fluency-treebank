@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="pl" pos="noun" rel="hd" root="dame" sense="dame"/>
+        <node cat="rel" id="5" rel="mod">
+          <node case="no_obl" gen="de" id="6" index="2" pos="pron" rel="rhd" root="die" sense="die" wh="rel"/>
+          <node cat="ssub" id="7" rel="body">
+            <node id="8" index="2" rel="su"/>
+            <node id="9" infl="pl" pos="verb" rel="hd" root="wil" sc="modifier(aux(inf))" sense="wil" tense="present"/>
+            <node cat="inf" id="10" rel="vc">
+              <node id="11" index="2" rel="su"/>
+              <node cat="pp" id="12" rel="pc">
+                <node id="13" pos="prep" rel="hd" root="aan" sense="aan"/>
+                <node cat="np" id="14" rel="obj1">
+                  <node id="15" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                  <node gen="de" id="16" num="sg" pos="noun" rel="hd" root="wedstrijd" sense="wedstrijd" special="tmp"/>
+                </node>
+              </node>
+              <node id="17" infl="inf(no_e)" pos="verb" rel="hd" root="doe_mee" sc="part_pc_pp(mee,aan)" sense="doe_mee-aan"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="18" infl="pl" pos="verb" rel="hd" root="dien" sc="aux(te)" sense="dien" tense="present"/>
+      <node cat="ti" id="19" rel="vc">
+        <node id="20" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+        <node cat="inf" id="21" rel="body">
+          <node id="22" index="1" rel="su"/>
+          <node cat="pp" id="23" rel="pc">
+            <node id="24" pos="prep" rel="hd" root="aan" sense="aan"/>
+            <node cat="np" id="25" rel="obj1">
+              <node id="26" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node aform="base" id="27" infl="e" pos="adj" rel="mod" root="volg" sense="volg" vform="gerund"/>
+              <node gen="de" id="28" num="pl" pos="noun" rel="hd" root="voorwaarde" sense="voorwaarde"/>
+            </node>
+          </node>
+          <node id="29" infl="inf(no_e)" pos="verb" rel="hd" root="voldoe" sc="pc_pp(aan)" sense="voldoe-aan"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

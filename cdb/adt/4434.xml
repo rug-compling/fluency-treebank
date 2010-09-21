@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="pl" pos="noun" rel="hd" root="agent" sense="agent"/>
+      </node>
+      <node id="5" infl="pl" pos="verb" rel="hd" root="ben" sc="passive" sense="ben" tense="past"/>
+      <node cat="ppart" id="6" rel="vc">
+        <node id="7" index="1" rel="obj1"/>
+        <node cat="pp" id="8" rel="mod">
+          <node id="9" pos="prep" rel="hd" root="door" sense="door"/>
+          <node cat="np" id="10" rel="obj1">
+            <node id="11" infl="een" pos="det" rel="det" root="een" sense="een"/>
+            <node gen="de" id="12" num="sg" pos="noun" rel="hd" root="menigte" sc="measure" sense="menigte-MEAS"/>
+            <node gen="de" id="13" num="pl" pos="noun" rel="mod" root="Dam_jongere" sense="Dam_jongere"/>
+          </node>
+        </node>
+        <node cat="pp" id="14" rel="mod">
+          <node id="15" pos="prep" rel="hd" root="met" sense="met"/>
+          <node cat="conj" id="16" rel="obj1">
+            <node gen="de" id="17" num="pl" pos="noun" rel="cnj" root="fiets_bel" sense="fiets_bel"/>
+            <node id="18" pos="vg" rel="crd" root="en" sense="en"/>
+            <node cat="np" id="19" rel="cnj">
+              <node aform="base" id="20" infl="e" pos="adj" rel="mod" root="leeg" sense="leeg" vform="adj"/>
+              <node gen="het" id="21" num="pl" pos="noun" rel="hd" root="fles_DIM" sense="fles_DIM"/>
+            </node>
+          </node>
+        </node>
+        <node id="22" infl="psp" pos="verb" rel="hd" root="bekogel" sc="transitive" sense="bekogel"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="kunstenaar" sense="kunstenaar"/>
+      </node>
+      <node id="5" infl="sg" pos="verb" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" tense="past"/>
+      <node cat="ppart" id="6" rel="vc">
+        <node id="7" index="1" rel="su"/>
+        <node id="8" pos="adv" rel="mod" root="namelijk" sense="namelijk" special="sentence"/>
+        <node cat="np" id="9" rel="mod">
+          <node aform="base" id="10" infl="e" pos="adj" rel="mod" root="lang" sense="lang" vform="adj"/>
+          <node gen="de" id="11" num="sg" pos="noun" rel="hd" root="tijd" sense="tijd" special="tmp"/>
+        </node>
+        <node cat="mwu" id="12" mwu_root="in gebreke" mwu_sense="in gebreke" rel="svp">
+          <node id="13" pos="fixed" rel="mwp" root="in" sense="in"/>
+          <node id="14" pos="fixed" rel="mwp" root="gebreke" sense="gebreke"/>
+        </node>
+        <node id="15" infl="psp" pos="verb" rel="hd" root="blijf" sc="fixed([[in,gebreke],vp],no_passive)" sense="in-gebreke-blijf"/>
+        <node cat="ti" id="16" rel="vc">
+          <node id="17" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+          <node cat="inf" id="18" rel="body">
+            <node id="19" index="1" rel="su"/>
+            <node cat="np" id="20" rel="obj1">
+              <node id="21" infl="pron" pos="det" rel="det" root="zijn" sense="zijn"/>
+              <node gen="de" id="22" num="pl" pos="noun" rel="hd" root="huur_penning" sense="huur_penning"/>
+            </node>
+            <node id="23" infl="inf" pos="verb" rel="hd" root="betaal" sc="transitive" sense="betaal"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

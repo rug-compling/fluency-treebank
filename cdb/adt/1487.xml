@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node case="both" def="def" gen="de" id="2" num="both" per="thi" pos="pron" rel="su" root="ze" sense="ze" special="wkpro" wh="nwh"/>
+      <node id="3" infl="pl" pos="verb" rel="hd" root="speel" sc="intransitive" sense="speel" tense="present"/>
+      <node cat="pp" id="4" rel="mod">
+        <node id="5" pos="prep" rel="hd" root="in" sense="in"/>
+        <node cat="np" id="6" rel="obj1">
+          <node id="7" infl="het" pos="det" rel="det" root="dat" sense="dat" wh="nwh"/>
+          <node gen="het" id="8" num="meas" pos="noun" rel="hd" root="jaar" sense="jaar" special="tmp"/>
+          <node id="9" infl="pl_num" pos="num" rel="app" root="1950" sense="1950" special="hoofd"/>
+        </node>
+      </node>
+      <node id="10" pos="adv" rel="mod" root="nog" sense="nog"/>
+      <node id="11" pos="adv" rel="mod" root="maar" sense="maar"/>
+      <node cat="advp" id="12" rel="mod">
+        <node cat="advp" id="13" rel="mod">
+          <node id="14" pos="adv" rel="mod" root="al" sense="al"/>
+          <node id="15" pos="adv" rel="hd" root="te" sense="te" special="intensifier"/>
+        </node>
+        <node id="16" pos="adv" rel="hd" root="zeer" sense="zeer"/>
+      </node>
+      <node id="17" pos="adv" rel="mod" root="dooreen" sense="dooreen" special="loc"/>
+    </node>
+  </node>
+</alpino_adt>

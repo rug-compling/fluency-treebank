@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node aform="base" id="4" infl="no_e" pos="adj" rel="mod" root="landelijk" sense="landelijk" vform="adj"/>
+        <node gen="both" id="5" num="sg" pos="noun" rel="hd" root="uitzend_bureau" sense="uitzend_bureau"/>
+      </node>
+      <node id="6" infl="sg3" pos="verb" rel="hd" root="meen" sc="subj_control(te)" sense="meen" tense="present"/>
+      <node cat="ti" id="7" rel="vc">
+        <node id="8" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+        <node cat="inf" id="9" rel="body">
+          <node id="10" index="1" rel="su"/>
+          <node cat="ppart" id="11" rel="vc">
+            <node id="12" index="1" rel="su"/>
+            <node aform="base" id="13" infl="pred" pos="adj" rel="mod" root="voor" sense="voor" vform="adj"/>
+            <node cat="np" id="14" rel="obj1">
+              <node id="15" infl="het" pos="det" rel="det" root="dit" sense="dit" wh="nwh"/>
+              <node aform="super" id="16" infl="e" pos="adj" rel="mod" root="laat" sense="laat" vform="adj"/>
+              <node gen="het" id="17" num="sg" pos="noun" rel="hd" root="probleem" sense="probleem"/>
+            </node>
+            <node id="18" infl="psp" pos="verb" rel="hd" root="vind" sc="transitive_ndev_ndev" sense="vind"/>
+          </node>
+          <node id="19" infl="inf" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

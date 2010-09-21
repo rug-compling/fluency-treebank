@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="past"/>
+      <node cat="np" id="3" index="1" rel="su">
+        <node id="4" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node aform="base" id="5" infl="e" pos="adj" rel="mod" root="groot" sense="groot" vform="adj"/>
+        <node gen="de" id="6" num="sg" pos="noun" rel="hd" root="hoeveelheid" sc="measure" sense="hoeveelheid-MEAS"/>
+        <node cat="np" id="7" rel="mod">
+          <node gen="het" id="8" num="pl" pos="noun" rel="hd" root="zak_DIM" sense="zak_DIM"/>
+          <node cat="pp" id="9" rel="mod">
+            <node id="10" pos="prep" rel="hd" root="met" sense="met"/>
+            <node cat="conj" id="11" rel="obj1">
+              <node gen="both" id="12" num="sg" pos="noun" rel="cnj" root="cement_poeder" sense="cement_poeder"/>
+              <node id="13" pos="vg" rel="crd" root="en" sense="en"/>
+              <node gen="de" id="14" num="sg" pos="noun" rel="cnj" root="zwavel" sense="zwavel"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node cat="ppart" id="15" rel="vc">
+        <node id="16" pos="adv" rel="mod" root="voorts" sense="voorts"/>
+        <node id="17" index="1" rel="obj1"/>
+        <node id="18" infl="psp" pos="verb" rel="hd" root="tref_aan" sc="part_transitive(aan)" sense="tref_aan"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

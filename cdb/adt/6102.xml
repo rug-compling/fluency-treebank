@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node id="2" pos="comp" rel="dlink" root="en" sc="root" sense="en"/>
+      <node cat="smain" id="3" rel="nucl">
+        <node id="4" neclass="LOC" num="both" pos="name" rel="su" root="Oost-Duitsland" sense="Oost-Duitsland"/>
+        <node id="5" infl="sg" pos="verb" rel="hd" root="haal_adem" sc="part_intransitive(adem)" sense="haal_adem" tense="past"/>
+        <node aform="base" id="6" infl="no_e" pos="adj" rel="predm" root="opgelucht" sense="opgelucht" vform="psp"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

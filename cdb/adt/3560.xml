@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node id="2" pos="comp" rel="dlink" root="en" sc="root" sense="en"/>
+      <node cat="smain" id="3" rel="nucl">
+        <node case="nom" def="def" gen="de" id="4" index="1" num="pl" per="fir" pos="pron" rel="su" root="we" sense="we" special="wkpro" wh="nwh"/>
+        <node id="5" infl="pl" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="past"/>
+        <node aform="base" id="6" infl="pred" pos="adj" rel="predm" root="samen" sense="samen" vform="adj"/>
+        <node cat="inf" id="7" rel="vc">
+          <node id="8" index="1" rel="su"/>
+          <node cat="pp" id="9" rel="ld">
+            <node id="10" pos="prep" rel="hd" root="naar" sense="naar"/>
+            <node cat="np" id="11" rel="obj1">
+              <node id="12" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node gen="de" id="13" num="sg" pos="noun" rel="hd" root="Europacup_finale" sense="Europacup_finale"/>
+              <node cat="pp" id="14" rel="mod">
+                <node id="15" pos="prep" rel="hd" root="in" sense="in"/>
+                <node id="16" neclass="LOC" num="both" pos="name" rel="obj1" root="Milaan" sense="Milaan"/>
+              </node>
+            </node>
+          </node>
+          <node id="17" infl="inf(no_e)" pos="verb" rel="hd" root="ga" sc="ld_pp" sense="ga"/>
+          <node cat="pp" id="18" rel="mod">
+            <node cat="mwu" id="19" mwu_root="na afloop van" mwu_sense="na afloop van" rel="hd">
+              <node id="20" pos="prep" rel="mwp" root="na" sense="na"/>
+              <node id="21" pos="prep" rel="mwp" root="afloop" sense="afloop"/>
+              <node id="22" pos="prep" rel="mwp" root="van" sense="van"/>
+            </node>
+            <node cat="np" id="23" rel="obj1">
+              <node id="24" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+              <node gen="het" id="25" num="sg" pos="noun" rel="hd" root="toernooi" sense="toernooi" special="tmp"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

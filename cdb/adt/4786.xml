@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="pc">
+        <node id="3" pos="prep" rel="hd" root="over" sense="over"/>
+        <node cat="mwu" id="4" mwu_root="Oscar Wilde" mwu_sense="Oscar Wilde" rel="obj1">
+          <node id="5" neclass="PER" num="both" pos="name" rel="mwp" root="Oscar" sense="Oscar"/>
+          <node id="6" neclass="PER" num="both" pos="name" rel="mwp" root="Wilde" sense="Wilde"/>
+        </node>
+      </node>
+      <node id="7" infl="sg3" pos="verb" rel="hd" root="weid_uit" sc="part_pc_pp(uit,over)" sense="weid_uit-over" tense="present"/>
+      <node id="8" neclass="PER" num="both" pos="name" rel="su" root="Hyde" sense="Hyde"/>
+      <node id="9" pos="adv" rel="mod" root="niet" sense="niet"/>
+    </node>
+  </node>
+</alpino_adt>

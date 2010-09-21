@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node case="nom" def="def" gen="de" id="2" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="acht" sc="pred_np" sense="acht" tense="present"/>
+      <node cat="np" id="4" rel="obj1">
+        <node id="5" infl="de" pos="det" rel="det" root="deze" sense="deze" wh="nwh"/>
+        <node gen="de" id="6" num="sg" pos="noun" rel="hd" root="gedachte" sense="gedachte"/>
+      </node>
+      <node id="7" pos="adv" rel="mod" root="vooralsnog" sense="vooralsnog"/>
+      <node cat="conj" id="8" rel="predc">
+        <node cat="ap" id="9" rel="cnj">
+          <node id="10" pos="adv" rel="mod" root="te" sense="te" special="intensifier"/>
+          <node aform="base" id="11" infl="no_e" pos="adj" rel="hd" root="idealistisch" sense="idealistisch" vform="adj"/>
+        </node>
+        <node id="12" pos="vg" rel="crd" root="en" sense="en"/>
+        <node cat="ap" id="13" rel="cnj">
+          <node aform="base" id="14" infl="no_e" pos="adj" rel="mod" root="practisch" sense="practisch" vform="adj"/>
+          <node aform="base" id="15" infl="no_e" pos="adj" rel="hd" root="onuitvoerbaar" sense="onuitvoerbaar" vform="adj"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="both" id="4" num="both" pos="noun" rel="hd" root="ikor" sense="ikor"/>
+      </node>
+      <node id="5" infl="sg_heeft" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="present"/>
+      <node cat="inf" id="6" rel="vc">
+        <node id="7" index="1" rel="su"/>
+        <node id="8" infl="inf" pos="verb" rel="hd" root="wil" sc="modifier(aux(inf))" sense="wil"/>
+        <node cat="inf" id="9" rel="vc">
+          <node id="10" index="1" rel="su"/>
+          <node id="11" pos="adv" rel="mod" root="overigens" sense="overigens" special="sentence"/>
+          <node cat="np" id="12" rel="obj1">
+            <node id="13" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="14" num="sg" pos="noun" rel="hd" root="kijker" sense="kijker"/>
+          </node>
+          <node id="15" infl="inf" pos="verb" rel="hd" root="bereid_voor" sc="part_transitive(voor)" sense="bereid_voor"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

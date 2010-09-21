@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="het" id="4" num="sg" pos="noun" rel="hd" root="enthousiasme" sense="enthousiasme"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="7" rel="obj1">
+            <node id="8" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="9" num="sg" pos="noun" rel="hd" root="zaal" sense="zaal"/>
+          </node>
+        </node>
+        <node cat="pp" id="10" rel="mod">
+          <node id="11" pos="prep" rel="hd" root="voor" sense="voor"/>
+          <node cat="conj" id="12" rel="obj1">
+            <node gen="de" id="13" num="sg" pos="noun" rel="cnj" root="solist" sense="solist"/>
+            <node gen="de" id="14" num="sg" pos="noun" rel="cnj" root="dirigent" sense="dirigent"/>
+            <node id="15" pos="vg" rel="crd" root="en" sense="en"/>
+            <node gen="het" id="16" num="sg" pos="noun" rel="cnj" root="orkest" sense="orkest"/>
+          </node>
+        </node>
+      </node>
+      <node id="17" infl="sg" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="past"/>
+      <node aform="base" id="18" infl="no_e" pos="adj" rel="predc" root="begrijpelijk" sense="begrijpelijk" vform="adj"/>
+    </node>
+  </node>
+</alpino_adt>

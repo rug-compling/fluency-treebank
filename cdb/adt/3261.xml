@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="mod">
+        <node id="3" pos="prep" rel="hd" root="in" sense="in"/>
+        <node cat="conj" id="4" rel="obj1">
+          <node id="5" neclass="LOC" num="both" pos="name" rel="cnj" root="Pisa" sense="Pisa"/>
+          <node id="6" neclass="LOC" num="both" pos="name" rel="cnj" root="Milaan" sense="Milaan"/>
+          <node id="7" pos="vg" rel="crd" root="en" sense="en"/>
+          <node id="8" neclass="LOC" num="both" pos="name" rel="cnj" root="Turijn" sense="Turijn"/>
+        </node>
+      </node>
+      <node id="9" infl="sg" pos="verb" rel="hd" root="kom" sc="pc_pp(tot)" sense="kom-tot" tense="past"/>
+      <node id="10" infl="het" pos="det" rel="su" root="het" sense="het" wh="nwh"/>
+      <node cat="conj" id="11" rel="pc">
+        <node cat="pp" id="12" rel="cnj">
+          <node id="13" pos="prep" rel="hd" root="tot" sense="tot"/>
+          <node cat="np" id="14" rel="obj1">
+            <node aform="base" id="15" infl="e" pos="adj" rel="mod" root="ernstig" sense="ernstig" vform="adj"/>
+            <node gen="de" id="16" num="pl" pos="noun" rel="hd" root="botsing" sense="botsing"/>
+          </node>
+        </node>
+        <node id="17" pos="vg" rel="crd" root="en" sense="en"/>
+        <node cat="pp" id="18" rel="cnj">
+          <node id="19" pos="prep" rel="hd" root="tot" sense="tot"/>
+          <node cat="np" id="20" rel="obj1">
+            <node gen="de" id="21" num="sg" pos="noun" rel="hd" root="ontwrichting" sense="ontwrichting"/>
+            <node cat="pp" id="22" rel="mod">
+              <node id="23" pos="prep" rel="hd" root="van" sense="van"/>
+              <node cat="np" id="24" rel="obj1">
+                <node id="25" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                <node aform="base" id="26" infl="e" pos="adj" rel="mod" root="openbaar" sense="openbaar" vform="adj"/>
+                <node gen="de" id="27" num="pl" pos="noun" rel="hd" root="dienst" sense="dienst"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

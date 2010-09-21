@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node gen="de" id="2" num="sg" pos="noun" rel="su" root="prinses" sense="prinses"/>
+      <node id="3" infl="sg3" pos="verb" rel="hd" root="publiceer" sc="transitive" sense="publiceer" tense="present"/>
+      <node cat="np" id="4" rel="mod">
+        <node id="5" infl="de" pos="det" rel="det" root="deze" sense="deze" wh="nwh"/>
+        <node gen="de" id="6" num="sg" pos="noun" rel="hd" root="week" sense="week" special="tmp"/>
+      </node>
+      <node cat="np" id="7" rel="obj1">
+        <node id="8" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node aform="super" id="9" infl="e" pos="adj" rel="mod" root="laat" sense="laat" vform="adj"/>
+        <node gen="de" id="10" num="sg" pos="noun" rel="hd" root="aflevering" sense="aflevering"/>
+        <node cat="pp" id="11" rel="mod">
+          <node id="12" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="13" rel="obj1">
+            <node id="14" infl="een" pos="det" rel="det" root="een" sense="een"/>
+            <node gen="de" id="15" num="sg" pos="noun" rel="hd" root="reportage" sense="reportage"/>
+            <node cat="pp" id="16" rel="mod">
+              <node id="17" pos="prep" rel="hd" root="over" sense="over"/>
+              <node cat="mwu" id="18" mwu_root="Cristina Deutekom" mwu_sense="Cristina Deutekom" rel="obj1">
+                <node id="19" neclass="PER" num="both" pos="name" rel="mwp" root="Cristina" sense="Cristina"/>
+                <node id="20" neclass="PER" num="both" pos="name" rel="mwp" root="Deutekom" sense="Deutekom"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

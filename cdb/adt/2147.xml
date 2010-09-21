@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node case="nom" def="def" gen="de" id="2" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+      <node id="3" infl="sg3" pos="verb" rel="hd" root="vraag_af" sc="part_refl_sbar(af)" sense="zich-vraag_af" tense="present"/>
+      <node id="4" num="both" per="u_thi" pos="pron" refl="refl" rel="se" root="zich" sense="zich"/>
+      <node cat="cp" id="5" rel="vc">
+        <node id="6" pos="comp" rel="cmp" root="of" sc="of" sense="of"/>
+        <node cat="ssub" id="7" rel="body">
+          <node case="nom" def="def" gen="de" id="8" index="1" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+          <node id="9" infl="sg_heeft" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="present"/>
+          <node cat="ppart" id="10" rel="vc">
+            <node id="11" index="1" rel="su"/>
+            <node gen="het" id="12" num="sg" pos="noun" rel="obj1" root="alles" sense="alles"/>
+            <node id="13" pos="adv" rel="mod" root="dan" sense="dan" special="tmp"/>
+            <node cat="ap" id="14" rel="predc">
+              <node id="15" pos="adv" rel="mod" root="zo" sense="zo"/>
+              <node aform="base" id="16" infl="no_e" pos="adj" rel="hd" root="slecht" sense="slecht" vform="adj"/>
+            </node>
+            <node id="17" infl="psp" pos="verb" rel="hd" root="leg_uit" sc="part_pred_np(uit)" sense="leg_uit"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

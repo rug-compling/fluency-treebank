@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="mod">
+        <node id="3" pos="prep" rel="hd" root="langs" sense="langs"/>
+        <node cat="np" id="4" rel="obj1">
+          <node id="5" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="het" id="6" num="pl" pos="noun" rel="hd" root="wagen_DIM" sense="wagen_DIM"/>
+          <node cat="pp" id="7" rel="mod">
+            <node id="8" pos="prep" rel="hd" root="met" sense="met"/>
+            <node cat="conj" id="9" rel="obj1">
+              <node gen="de" id="10" num="sg" pos="noun" rel="cnj" root="vracht" sense="vracht"/>
+              <node id="11" pos="vg" rel="crd" root="en" sense="en"/>
+              <node gen="de" id="12" num="sg" pos="noun" rel="cnj" root="ruim_bagage" sense="ruim_bagage"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="13" infl="pl" pos="verb" rel="hd" root="houd" sc="transitive" sense="houd" tense="past"/>
+      <node cat="np" id="14" rel="su">
+        <node cat="conj" id="15" rel="mod">
+          <node aform="base" id="16" infl="e" pos="adj" rel="cnj" root="Nederlands" sense="Nederlands" vform="adj"/>
+          <node id="17" pos="vg" rel="crd" root="en" sense="en"/>
+          <node aform="base" id="18" infl="e" pos="adj" rel="cnj" root="Israëlisch" sense="Israëlisch" vform="adj"/>
+        </node>
+        <node gen="de" id="19" num="pl" pos="noun" rel="hd" root="detective" sense="detective"/>
+      </node>
+      <node cat="np" id="20" rel="obj1">
+        <node id="21" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="22" num="sg" pos="noun" rel="hd" root="wacht" sense="wacht"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

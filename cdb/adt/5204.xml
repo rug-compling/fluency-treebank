@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="kassa" sense="kassa"/>
+      </node>
+      <node id="5" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="passive" sense="ben" tense="present"/>
+      <node cat="ppart" id="6" rel="vc">
+        <node id="7" index="1" rel="obj1"/>
+        <node cat="np" id="8" rel="mod">
+          <node id="9" infl="elke" pos="det" rel="det" root="elk" sense="elk" wh="nwh"/>
+          <node gen="de" id="10" num="sg" pos="noun" rel="hd" root="dag" sense="dag" special="tmp"/>
+          <node cat="cp" id="11" rel="mod">
+            <node id="12" pos="comp" rel="cmp" root="behalve" sc="np" sense="behalve"/>
+            <node gen="de" id="13" num="sg" pos="noun" rel="body" root="zondag" sense="zondag" special="tmp"/>
+          </node>
+        </node>
+        <node cat="pp" id="14" rel="mod">
+          <node id="15" pos="prep" rel="hd" root="tot" sense="tot"/>
+          <node cat="mwu" id="16" mwu_root="drie uur" mwu_sense="drie uur" rel="obj1">
+            <node id="17" pos="noun" rel="mwp" root="drie" sense="drie" special="tmp"/>
+            <node id="18" pos="noun" rel="mwp" root="uur" sense="uur" special="tmp"/>
+          </node>
+        </node>
+        <node id="19" infl="psp" pos="verb" rel="hd" root="open" sc="transitive" sense="open"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

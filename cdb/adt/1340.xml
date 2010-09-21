@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node case="nom" def="def" gen="de" id="2" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="ondervind" sc="transitive" sense="ondervind" tense="past"/>
+      <node cat="pp" id="4" rel="mod">
+        <node id="5" pos="prep" rel="hd" root="op" sense="op"/>
+        <node cat="np" id="6" rel="obj1">
+          <node id="7" infl="het" pos="det" rel="det" root="dat" sense="dat" wh="nwh"/>
+          <node gen="both" id="8" num="meas" pos="noun" rel="hd" root="punt" sense="punt" special="meas_mod"/>
+        </node>
+      </node>
+      <node cat="pp" id="9" rel="mod">
+        <node id="10" pos="prep" rel="hd" root="van" sense="van"/>
+        <node cat="np" id="11" rel="obj1">
+          <node aform="base" id="12" infl="e" pos="adj" rel="mod" root="veel" sense="veel" vform="adj"/>
+          <node gen="de" id="13" num="pl" pos="noun" rel="hd" root="kant" sense="kant"/>
+        </node>
+      </node>
+      <node gen="de" id="14" num="sg" pos="noun" rel="obj1" root="kritiek" sense="kritiek"/>
+    </node>
+  </node>
+</alpino_adt>

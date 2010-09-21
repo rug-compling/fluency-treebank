@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="np" id="1" rel="--">
+      <node gen="de" id="2" num="sg" pos="noun" rel="hd" root="regisseur" sense="regisseur"/>
+      <node cat="mwu" id="3" mwu_root="Rene Coelho" mwu_sense="Rene Coelho" rel="app">
+        <node id="4" neclass="PER" num="both" pos="name" rel="mwp" root="Rene" sense="Rene"/>
+        <node id="5" neclass="PER" num="both" pos="name" rel="mwp" root="Coelho" sense="Coelho"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

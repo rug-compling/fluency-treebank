@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="mod">
+        <node id="3" pos="prep" rel="hd" root="aan" sense="aan"/>
+        <node cat="np" id="4" rel="obj1">
+          <node id="5" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node aform="compar" id="6" infl="e" pos="adj" rel="mod" root="ander" sense="ander" vform="adj"/>
+          <node gen="de" id="7" num="sg" pos="noun" rel="hd" root="kant" sense="kant"/>
+        </node>
+      </node>
+      <node id="8" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+      <node id="9" pos="adv" rel="mod" root="er" sense="er" special="er"/>
+      <node cat="pp" id="10" rel="mod">
+        <node id="11" pos="prep" rel="hd" root="in" sense="in"/>
+        <node cat="np" id="12" rel="obj1">
+          <node id="13" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node aform="base" id="14" infl="e" pos="adj" rel="mod" root="heel" sense="heel" vform="adj"/>
+          <node gen="de" id="15" num="sg" pos="noun" rel="hd" root="wereld" sense="wereld"/>
+        </node>
+      </node>
+      <node cat="conj" id="16" rel="su">
+        <node cat="np" id="17" rel="cnj">
+          <node id="18" index="1" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node cat="ppres" id="19" index="2" rel="mod">
+            <node aform="base" id="20" infl="no_e" pos="adj" rel="mod" root="sterk" sense="sterk" vform="adj"/>
+            <node aform="base" id="21" infl="e" pos="adj" rel="hd" root="groei" sense="groei" vform="gerund"/>
+          </node>
+          <node id="22" pos="prefix" rel="hd" root="lees" sense="lees"/>
+        </node>
+        <node id="23" pos="vg" rel="crd" root="en" sense="en"/>
+        <node cat="np" id="24" rel="cnj">
+          <node id="25" index="1" rel="det"/>
+          <node id="26" index="2" rel="mod"/>
+          <node gen="de" id="27" num="sg" pos="noun" rel="hd" root="weet_honger" sense="weet_honger"/>
+        </node>
+      </node>
+      <node aform="base" id="28" infl="no_e" pos="adj" rel="predc" root="merkbaar" sense="merkbaar" vform="adj"/>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="past"/>
+      <node cat="np" id="3" index="1" rel="su">
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="mevrouw" sense="mevrouw"/>
+        <node cat="mwu" id="5" mwu_root="C. H. Evenhuis-Van Essen" mwu_sense="C. H. Evenhuis-Van Essen" rel="app">
+          <node id="6" neclass="PER" num="both" pos="name" rel="mwp" root="C." sense="C."/>
+          <node id="7" neclass="PER" num="both" pos="name" rel="mwp" root="H." sense="H."/>
+          <node id="8" neclass="PER" num="both" pos="name" rel="mwp" root="Evenhuis-Van" sense="Evenhuis-Van"/>
+          <node id="9" neclass="PER" num="both" pos="name" rel="mwp" root="Essen" sense="Essen"/>
+        </node>
+      </node>
+      <node cat="ppart" id="10" rel="vc">
+        <node id="11" pos="adv" rel="mod" root="tevoren" sense="tevoren"/>
+        <node id="12" index="1" rel="su"/>
+        <node cat="np" id="13" rel="obj1">
+          <node id="14" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node gen="de" id="15" num="sg" pos="noun" rel="hd" root="inleiding" sense="inleiding"/>
+          <node cat="pp" id="16" rel="mod">
+            <node id="17" pos="prep" rel="hd" root="over" sense="over"/>
+            <node cat="np" id="18" rel="obj1">
+              <node id="19" infl="het" pos="det" rel="det" root="dit" sense="dit" wh="nwh"/>
+              <node gen="het" id="20" num="sg" pos="noun" rel="hd" root="onderwerp" sense="onderwerp"/>
+            </node>
+          </node>
+        </node>
+        <node id="21" infl="psp" pos="verb" rel="hd" root="houd" sc="transitive" sense="houd"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

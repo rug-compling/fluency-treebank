@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="pl" pos="noun" rel="hd" root="verandering" sense="verandering"/>
+      </node>
+      <node id="5" infl="pl" pos="verb" rel="hd" root="ga" sc="ld_pp" sense="ga" tense="present"/>
+      <node cat="pp" id="6" rel="ld">
+        <node id="7" pos="prep" rel="hd" root="in" sense="in"/>
+        <node cat="np" id="8" rel="obj1">
+          <node id="9" infl="de" pos="det" rel="det" root="dezelfde" sense="dezelfde" wh="nwh"/>
+          <node gen="de" id="10" num="sg" pos="noun" rel="hd" root="richting" sense="richting"/>
+          <node cat="rel" id="11" rel="mod">
+            <node case="no_obl" gen="de" id="12" index="1" pos="pron" rel="rhd" root="die" sense="die" wh="rel"/>
+            <node cat="ssub" id="13" rel="body">
+              <node id="14" index="1" rel="obj1"/>
+              <node cat="np" id="15" rel="su">
+                <node id="16" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+                <node cat="mwu" id="17" mwu_root="Chemisch Weekblad" mwu_sense="Chemisch Weekblad" rel="hd">
+                  <node id="18" neclass="LOC" num="both" pos="name" rel="mwp" root="Chemisch" sense="Chemisch"/>
+                  <node id="19" neclass="LOC" num="both" pos="name" rel="mwp" root="Weekblad" sense="Weekblad"/>
+                </node>
+              </node>
+              <node cat="ap" id="20" rel="mod">
+                <node id="21" pos="adv" rel="mod" root="al" sense="al"/>
+                <node cat="np" id="22" rel="me">
+                  <node id="23" infl="enkele" pos="det" rel="det" root="enkel" sense="enkel" special="adj_number"/>
+                  <node gen="het" id="24" num="pl" pos="noun" rel="hd" root="jaar" sense="jaar" special="tmp"/>
+                </node>
+                <node id="25" pos="adj" rel="hd" root="geleden" sc="pred_np_me" sense="geleden"/>
+              </node>
+              <node cat="pp" id="26" rel="mod">
+                <node id="27" pos="prep" rel="hd" root="met" sense="met"/>
+                <node gen="het" id="28" num="sg" pos="noun" rel="obj1" root="succes" sense="succes"/>
+              </node>
+              <node id="29" infl="sg" pos="verb" rel="hd" root="sla_in" sc="part_transitive(in)" sense="sla_in" tense="past"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

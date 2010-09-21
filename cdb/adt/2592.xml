@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="np" id="1" rel="--">
+      <node cat="mwu" id="2" mwu_root="De Bruin" mwu_sense="De Bruin" rel="hd">
+        <node id="3" neclass="PER" num="both" pos="name" rel="mwp" root="De" sense="De"/>
+        <node id="4" neclass="PER" num="both" pos="name" rel="mwp" root="Bruin" sense="Bruin"/>
+      </node>
+      <node cat="conj" id="5" rel="app">
+        <node cat="np" id="6" rel="cnj">
+          <node gen="de" id="7" num="sg" pos="noun" rel="hd" root="eigenaar" sense="eigenaar"/>
+          <node cat="pp" id="8" rel="mod">
+            <node id="9" pos="prep" rel="hd" root="van" sense="van"/>
+            <node cat="np" id="10" rel="obj1">
+              <node id="11" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+              <node aform="base" id="12" infl="e" pos="adj" rel="hd" root="Pierke" sense="Pierke" vform="adj"/>
+            </node>
+          </node>
+        </node>
+        <node gen="both" id="13" num="both" pos="noun" rel="cnj" root="koffietapper" sense="koffietapper"/>
+        <node id="14" pos="vg" rel="crd" root="en" sense="en"/>
+        <node cat="np" id="15" rel="cnj">
+          <node gen="de" id="16" num="sg" pos="noun" rel="hd" root="handelaar" sense="handelaar"/>
+          <node cat="pp" id="17" rel="mod">
+            <node id="18" pos="prep" rel="hd" root="in" sense="in"/>
+            <node id="19" pos="verb" rel="obj1" root="wurm" sc="intransitive" sense="wurm" special="v_noun"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

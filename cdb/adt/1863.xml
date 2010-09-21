@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node gen="de" id="3" num="sg" pos="noun" rel="hd" root="president" sense="president"/>
+        <node id="4" neclass="PER" num="both" pos="name" rel="app" root="Nixon" sense="Nixon"/>
+      </node>
+      <node id="5" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="fixed([[van,plan],vp],no_passive)" sense="van-plan-ben" tense="present"/>
+      <node cat="mwu" id="6" mwu_root="van plan" mwu_sense="van plan" rel="svp">
+        <node id="7" pos="fixed" rel="mwp" root="van" sense="van"/>
+        <node id="8" pos="fixed" rel="mwp" root="plan" sense="plan"/>
+      </node>
+      <node cat="ti" id="9" rel="vc">
+        <node id="10" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+        <node cat="inf" id="11" rel="body">
+          <node id="12" index="1" rel="su"/>
+          <node id="13" neclass="LOC" num="both" pos="name" rel="obj1" root="Europa" sense="Europa"/>
+          <node id="14" pos="adv" rel="mod" root="weer" sense="weer"/>
+          <node id="15" infl="inf" pos="verb" rel="hd" root="bezoek" sc="transitive" sense="bezoek"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

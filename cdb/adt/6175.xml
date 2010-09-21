@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="pl" pos="noun" rel="hd" root="draverij_liefhebber" sense="draverij_liefhebber"/>
+      </node>
+      <node id="5" infl="pl" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="present"/>
+      <node cat="inf" id="6" rel="vc">
+        <node id="7" index="1" rel="su"/>
+        <node gen="het" id="8" num="sg" pos="noun" rel="obj1" root="haar" sense="haar"/>
+        <node cat="pp" id="9" rel="mod">
+          <node id="10" pos="prep" rel="hd" root="op" sense="op"/>
+          <node cat="np" id="11" rel="obj1">
+            <node id="12" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node cat="conj" id="13" rel="mod">
+              <node id="14" pos="prefix" rel="cnj" root="binnen" sense="binnen"/>
+              <node id="15" pos="vg" rel="crd" root="en" sense="en"/>
+              <node aform="base" id="16" infl="e" pos="adj" rel="cnj" root="buitenlands" sense="buitenlands" vform="adj"/>
+            </node>
+            <node gen="de" id="17" num="pl" pos="noun" rel="hd" root="renbaan" sense="renbaan"/>
+          </node>
+        </node>
+        <node cat="advp" id="18" rel="mod">
+          <node id="19" pos="adv" rel="hd" root="niet" sense="niet"/>
+          <node id="20" pos="adv" rel="mod" root="meer" sense="meer" special="postadv"/>
+        </node>
+        <node cat="pp" id="21" rel="mod">
+          <node id="22" pos="prep" rel="hd" root="in" sense="in"/>
+          <node gen="de" id="23" num="sg" pos="noun" rel="obj1" root="actie" sense="actie"/>
+        </node>
+        <node id="24" infl="inf(no_e)" pos="verb" rel="hd" root="zie" sc="transitive_ndev_ndev" sense="zie"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

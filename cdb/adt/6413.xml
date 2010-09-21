@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="deze" sense="deze" wh="nwh"/>
+        <node cat="ppres" id="4" rel="mod">
+          <node id="5" pos="adv" rel="mod" root="nog" sense="nog"/>
+          <node cat="pp" id="6" rel="mod">
+            <node id="7" pos="prep" rel="hd" root="op" sense="op"/>
+            <node gen="de" id="8" num="sg" pos="noun" rel="obj1" root="olie" sense="olie"/>
+          </node>
+          <node aform="base" id="9" infl="e" pos="adj" rel="hd" root="brandend" sense="brandend" vform="gerund"/>
+        </node>
+        <node gen="both" id="10" num="both" pos="noun" rel="hd" root="verlichtingsapparaturen" sense="verlichtingsapparaturen"/>
+      </node>
+      <node id="11" infl="pl" pos="verb" rel="hd" root="ben" sc="passive" sense="ben" tense="present"/>
+      <node cat="ppart" id="12" rel="vc">
+        <node id="13" index="1" rel="obj1"/>
+        <node cat="ap" id="14" rel="mod">
+          <node gen="het" id="15" num="pl" pos="noun" rel="me" root="jaar" sense="jaar" special="tmp"/>
+          <node id="16" pos="adj" rel="hd" root="geleden" sc="pred_np_me" sense="geleden"/>
+        </node>
+        <node id="17" infl="psp" pos="verb" rel="hd" root="verkoop" sc="transitive" sense="verkoop"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

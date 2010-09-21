@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="sv1" id="1" rel="--">
+      <node id="2" infl="sg3" pos="verb" rel="hd" root="kom_terug" sc="part_ld_pp(terug)" sense="kom_terug" tense="present"/>
+      <node cat="np" id="3" rel="su">
+        <node cat="mwu" id="4" mwu_root="Bert Sitters" mwu_sense="Bert Sitters" rel="hd">
+          <node id="5" neclass="PER" num="both" pos="name" rel="mwp" root="Bert" sense="Bert"/>
+          <node id="6" neclass="PER" num="both" pos="name" rel="mwp" root="Sitters" sense="Sitters"/>
+        </node>
+        <node cat="np" id="7" rel="app">
+          <node id="8" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node aform="base" id="9" infl="e" pos="adj" rel="mod" root="succesvol" sense="succesvol" vform="adj"/>
+          <node gen="de" id="10" num="sg" pos="noun" rel="hd" root="trainer" sense="trainer"/>
+          <node cat="pp" id="11" rel="mod">
+            <node id="12" pos="prep" rel="hd" root="van" sense="van"/>
+            <node cat="np" id="13" rel="obj1">
+              <node id="14" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node aform="base" id="15" infl="e" pos="adj" rel="mod" root="Spaans" sense="Spaans" vform="adj"/>
+              <node gen="de" id="16" num="sg" pos="noun" rel="hd" root="zwem_club" sense="zwem_club"/>
+              <node id="17" neclass="ORG" num="both" pos="name" rel="app" root="Sabadell" sense="Sabadell"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node cat="pp" id="18" rel="ld">
+        <node id="19" pos="prep" rel="hd" root="naar" sense="naar"/>
+        <node id="20" neclass="LOC" num="both" pos="name" rel="obj1" root="Nederland" sense="Nederland"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

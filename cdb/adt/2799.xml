@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" pos="adv" rel="mod" root="bovendien" sense="bovendien" special="sentence"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="heb" sc="fixed([[in,de,aarde],acc(voet)],no_passive)" sense="voet-in-de-aarde-heb" tense="past"/>
+      <node cat="np" id="4" rel="su">
+        <node id="5" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="het" id="6" num="sg" pos="noun" rel="hd" root="vertrek" sense="vertrek"/>
+      </node>
+      <node gen="de" id="7" num="pl" pos="noun" rel="obj1" root="voet" sense="voet"/>
+      <node cat="mwu" id="8" mwu_root="in de aarde" mwu_sense="in de aarde" rel="svp">
+        <node id="9" pos="fixed" rel="mwp" root="in" sense="in"/>
+        <node id="10" pos="fixed" rel="mwp" root="de" sense="de"/>
+        <node id="11" pos="fixed" rel="mwp" root="aarde" sense="aarde"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

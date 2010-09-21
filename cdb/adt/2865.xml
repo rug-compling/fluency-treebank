@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="smain" id="2" rel="cnj">
+        <node cat="np" id="3" index="1" rel="su">
+          <node id="4" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="5" num="pl" pos="noun" rel="hd" root="prijs" sense="prijs"/>
+        </node>
+        <node id="6" infl="pl" pos="verb" rel="hd" root="lig" sc="nonp_copula" sense="lig" tense="present"/>
+        <node id="7" pos="adv" rel="mod" root="nog" sense="nog"/>
+        <node aform="base" id="8" infl="no_e" pos="adj" rel="predc" root="laag" sense="laag" vform="adj"/>
+      </node>
+      <node id="9" pos="vg" rel="crd" root="maar" sense="maar"/>
+      <node cat="smain" id="10" rel="cnj">
+        <node id="11" index="1" rel="su"/>
+        <node id="12" infl="pl" pos="verb" rel="hd" root="kan" sc="aux(inf)" sense="kan" tense="present"/>
+        <node cat="inf" id="13" rel="vc">
+          <node id="14" index="1" rel="su"/>
+          <node cat="cp" id="15" rel="mod">
+            <node id="16" pos="comp" rel="cmp" root="naar" sc="naar" sense="naar"/>
+            <node cat="ssub" id="17" rel="body">
+              <node id="18" infl="sg3" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="present"/>
+              <node id="19" infl="psp" pos="verb" rel="vc" root="verwacht" sc="tr_sbar" sense="verwacht"/>
+            </node>
+          </node>
+          <node aform="base" id="20" infl="no_e" pos="adj" rel="mod" root="spoedig" sense="spoedig" vform="adj"/>
+          <node id="21" infl="inf" pos="verb" rel="hd" root="trek_aan" sc="part_intransitive(aan)" sense="trek_aan"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

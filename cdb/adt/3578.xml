@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" pos="adv" rel="mod" root="evenzo" sense="evenzo"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="doe" sc="intransitive" sense="doe" tense="past"/>
+      <node cat="np" id="4" rel="su">
+        <node cat="mwu" id="5" mwu_root="Oswaldo Oliveira" mwu_sense="Oswaldo Oliveira" rel="hd">
+          <node id="6" neclass="PER" num="both" pos="name" rel="mwp" root="Oswaldo" sense="Oswaldo"/>
+          <node id="7" neclass="PER" num="both" pos="name" rel="mwp" root="Oliveira" sense="Oliveira"/>
+        </node>
+        <node id="8" infl="pl_num" pos="num" rel="mod" root="23" sense="23" special="hoofd"/>
+        <node cat="rel" id="9" rel="mod">
+          <node case="no_obl" gen="de" id="10" index="1" pos="pron" rel="rhd" root="die" sense="die" wh="rel"/>
+          <node cat="ssub" id="11" rel="body">
+            <node id="12" index="1" rel="su"/>
+            <node gen="het" id="13" num="sg" pos="noun" rel="obj1" root="geld" sense="geld"/>
+            <node aform="base" id="14" infl="no_e" pos="adj" rel="predc" root="nodig" sense="nodig" vform="adj"/>
+            <node id="15" infl="sg" pos="verb" rel="hd" root="heb" sc="nonp_pred_np_ndev" sense="heb" tense="past"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

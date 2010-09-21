@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="mod">
+        <node id="3" pos="prep" rel="hd" root="na" sense="na"/>
+        <node cat="np" id="4" rel="obj1">
+          <node id="5" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="6" num="sg" pos="noun" rel="hd" root="hervatting" sense="hervatting"/>
+        </node>
+      </node>
+      <node id="7" infl="pl" pos="verb" rel="hd" root="dirigeer" sc="transitive" sense="dirigeer" tense="past"/>
+      <node cat="np" id="8" rel="su">
+        <node id="9" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="10" num="pl" pos="noun" rel="hd" root="Amsterdammer" sense="Amsterdammer"/>
+      </node>
+      <node cat="pp" id="11" rel="mod">
+        <node id="12" pos="prep" rel="hd" root="met" sense="met"/>
+        <node cat="np" id="13" rel="obj1">
+          <node aform="base" id="14" infl="no_e" pos="adj" rel="mod" root="groot" sense="groot" vform="adj"/>
+          <node gen="het" id="15" num="sg" pos="noun" rel="hd" root="machtsvertoon" sense="machtsvertoon"/>
+        </node>
+      </node>
+      <node cat="np" id="16" rel="obj1">
+        <node id="17" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="18" num="sg" pos="noun" rel="hd" root="wedstrijd" sense="wedstrijd" special="tmp"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

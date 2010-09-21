@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="het" id="4" num="sg" pos="noun" rel="hd" root="totaal" sense="totaal"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="7" rel="obj1">
+            <node id="8" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="9" num="sg" pos="noun" rel="hd" root="beleg_gin_portefeuille" sense="beleg_gin_portefeuille"/>
+          </node>
+        </node>
+      </node>
+      <node id="10" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" tense="present"/>
+      <node cat="ppart" id="11" rel="vc">
+        <node id="12" index="1" rel="su"/>
+        <node cat="pp" id="13" rel="mod">
+          <node id="14" pos="prep" rel="hd" root="in" sense="in"/>
+          <node cat="np" id="15" rel="obj1">
+            <node id="16" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+            <node gen="het" id="17" num="meas" pos="noun" rel="hd" root="verslag_jaar" sense="verslag_jaar" special="tmp"/>
+          </node>
+        </node>
+        <node id="18" infl="psp" pos="verb" rel="hd" root="groei" sc="ld_pp" sense="groei"/>
+        <node cat="pp" id="19" rel="mod">
+          <node id="20" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="mwu" id="21" mwu_root="flo 1.292 mln." mwu_sense="flo 1.292 mln." rel="obj1">
+            <node gen="both" id="22" num="bare_meas" pos="noun" rel="mwp" root="flo" sense="flo" special="amount_meas_mod"/>
+            <node gen="both" id="23" num="bare_meas" pos="noun" rel="mwp" root="1.292" sense="1.292" special="amount_meas_mod"/>
+            <node gen="both" id="24" num="bare_meas" pos="noun" rel="mwp" root="mln." sense="mln." special="amount_meas_mod"/>
+          </node>
+        </node>
+        <node cat="pp" id="25" rel="ld">
+          <node id="26" pos="prep" rel="hd" root="tot" sense="tot"/>
+          <node cat="mwu" id="27" mwu_root="flo 1.405 mln" mwu_sense="flo 1.405 mln" rel="obj1">
+            <node gen="both" id="28" num="bare_meas" pos="noun" rel="mwp" root="flo" sense="flo" special="amount_meas_mod"/>
+            <node gen="both" id="29" num="bare_meas" pos="noun" rel="mwp" root="1.405" sense="1.405" special="amount_meas_mod"/>
+            <node gen="both" id="30" num="bare_meas" pos="noun" rel="mwp" root="mln" sense="mln" special="amount_meas_mod"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

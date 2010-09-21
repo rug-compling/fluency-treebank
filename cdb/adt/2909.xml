@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg3" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="present"/>
+      <node cat="np" id="3" index="1" rel="su">
+        <node id="4" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node aform="base" id="5" infl="e" pos="adj" rel="mod" root="sterk" sense="sterk" vform="adj"/>
+        <node gen="de" id="6" num="sg" pos="noun" rel="hd" root="expansie" sense="expansie"/>
+      </node>
+      <node cat="ppart" id="7" rel="vc">
+        <node cat="pp" id="8" rel="mod">
+          <node id="9" pos="prep" rel="hd" root="op" sense="op"/>
+          <node cat="np" id="10" rel="obj1">
+            <node aform="base" id="11" infl="e" pos="adj" rel="mod" root="kort" sense="kort" vform="adj"/>
+            <node gen="de" id="12" num="sg" pos="noun" rel="hd" root="termijn" sense="termijn" special="tmp"/>
+          </node>
+        </node>
+        <node cat="advp" id="13" rel="mod">
+          <node cat="mwu" id="14" mwu_root="alleen al" mwu_sense="alleen al" rel="mod">
+            <node id="15" pos="adv" rel="mwp" root="alleen" sc="modal" sense="alleen"/>
+            <node id="16" pos="adv" rel="mwp" root="al" sc="modal" sense="al"/>
+          </node>
+          <node cat="mwu" id="17" mwu_root="uit dien hoofde" mwu_sense="uit dien hoofde" rel="hd">
+            <node id="18" pos="adv" rel="mwp" root="uit" sense="uit"/>
+            <node id="19" pos="adv" rel="mwp" root="dien" sense="dien"/>
+            <node id="20" pos="adv" rel="mwp" root="hoofde" sense="hoofde"/>
+          </node>
+        </node>
+        <node id="21" index="1" rel="obj1"/>
+        <node id="22" infl="psp" pos="verb" rel="hd" root="verwacht" sc="transitive" sense="verwacht"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

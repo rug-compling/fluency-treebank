@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node gen="de" id="2" num="pl" pos="noun" rel="cnj" root="ras_onlust" sense="ras_onlust"/>
+      <node gen="de" id="3" num="pl" pos="noun" rel="cnj" root="drug" sense="drug"/>
+      <node id="4" neclass="LOC" num="both" pos="name" rel="cnj" root="Vietnam" sense="Vietnam"/>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="strijd" sense="strijd"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="tussen" sense="tussen"/>
+          <node cat="conj" id="7" rel="obj1">
+            <node id="8" neclass="ORG" num="both" pos="name" rel="cnj" root="Snip" sense="Snip"/>
+            <node id="9" pos="vg" rel="crd" root="en" sense="en"/>
+            <node id="10" neclass="ORG" num="both" pos="name" rel="cnj" root="Hondema" sense="Hondema"/>
+          </node>
+        </node>
+      </node>
+      <node id="11" infl="sg" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="past"/>
+      <node cat="ppart" id="12" rel="vc">
+        <node id="13" index="1" rel="obj1"/>
+        <node cat="pp" id="14" rel="mod">
+          <node id="15" pos="prep" rel="hd" root="in" sense="in"/>
+          <node cat="np" id="16" rel="obj1">
+            <node id="17" infl="een" pos="det" rel="det" root="een" sense="een"/>
+            <node cat="ap" id="18" rel="mod">
+              <node aform="base" id="19" infl="no_e" pos="adj" rel="mod" root="duidelijk" sense="duidelijk" vform="adj"/>
+              <node aform="compar" id="20" infl="e" pos="adj" rel="hd" root="goed" sense="goed" vform="adj"/>
+            </node>
+            <node gen="de" id="21" num="sg" pos="noun" rel="hd" root="stelling" sense="stelling"/>
+            <node cat="pp" id="22" rel="mod">
+              <node id="23" pos="prep" rel="hd" root="voor" sense="voor"/>
+              <node id="24" neclass="ORG" num="both" pos="name" rel="obj1" root="Snip" sense="Snip"/>
+            </node>
+          </node>
+        </node>
+        <node id="25" infl="psp" pos="verb" rel="hd" root="breek_af" sc="part_transitive(af)" sense="breek_af"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg3" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="present"/>
+      <node cat="ppart" id="3" rel="vc">
+        <node cat="cp" id="4" rel="mod">
+          <node id="5" pos="comp" rel="cmp" root="zoals" sc="zoals" sense="zoals"/>
+          <node id="6" infl="psp" pos="verb" rel="body" root="beken" sc="sbar" sense="beken"/>
+        </node>
+        <node id="7" infl="psp" pos="verb" rel="hd" root="stel_voor" sc="part_vp_no_control(voor)" sense="stel_voor"/>
+        <node cat="ti" id="8" rel="vc">
+          <node id="9" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+          <node cat="inf" id="10" rel="body">
+            <node cat="np" id="11" rel="obj1">
+              <node id="12" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+              <node gen="het" id="13" num="sg" pos="noun" rel="hd" root="dividend" sense="dividend"/>
+              <node cat="du" id="14" rel="mod">
+                <node id="15" pos="adv" rel="dp" root="v.j." sense="v.j." special="tmp"/>
+                <node cat="np" id="16" rel="dp">
+                  <node id="17" infl="pl_num" pos="num" rel="det" root="10" sense="10" special="hoofd"/>
+                  <node gen="both" id="18" num="meas" pos="noun" rel="hd" root="procent" sense="procent" special="meas_mod"/>
+                </node>
+              </node>
+            </node>
+            <node id="19" infl="inf" pos="verb" rel="hd" root="passeer" sc="transitive" sense="passeer"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="past"/>
+      <node case="nom" def="def" gen="de" id="3" index="1" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+      <node cat="ppart" id="4" rel="vc">
+        <node cat="pp" id="5" rel="mod">
+          <node cat="np" id="6" rel="mod">
+            <node id="7" infl="een" pos="det" rel="det" root="een" sense="een"/>
+            <node gen="het" id="8" num="meas" pos="noun" rel="hd" root="uur" sense="uur" special="tmp"/>
+          </node>
+          <node id="9" pos="prep" rel="hd" root="voor" sense="voor"/>
+          <node cat="np" id="10" rel="obj1">
+            <node id="11" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="12" num="sg" pos="noun" rel="hd" root="overval" sense="overval"/>
+          </node>
+        </node>
+        <node id="13" index="1" rel="su"/>
+        <node cat="pp" id="14" rel="mod">
+          <node id="15" pos="prep" rel="hd" root="met" sense="met"/>
+          <node cat="np" id="16" rel="obj1">
+            <node id="17" infl="enkele" pos="det" rel="det" root="enkel" sense="enkel" special="adj_number"/>
+            <node gen="de" id="18" num="pl" pos="noun" rel="hd" root="politieman" sense="politieman"/>
+          </node>
+        </node>
+        <node id="19" pos="adv" rel="mod" root="nog" sense="nog"/>
+        <node gen="de" id="20" num="sg" pos="noun" rel="obj1" root="koffie" sense="koffie"/>
+        <node id="21" infl="psp" pos="verb" rel="hd" root="drink" sc="transitive" sense="drink"/>
+        <node cat="pp" id="22" rel="mod">
+          <node id="23" pos="prep" rel="hd" root="in" sense="in"/>
+          <node cat="np" id="24" rel="obj1">
+            <node id="25" infl="pron" pos="det" rel="det" root="zijn" sense="zijn"/>
+            <node gen="het" id="26" num="sg" pos="noun" rel="hd" root="station" sense="station"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

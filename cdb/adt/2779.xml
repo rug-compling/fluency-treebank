@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="mwu" id="2" index="1" mwu_root="Holland Sport" mwu_sense="Holland Sport" rel="su">
+        <node id="3" neclass="ORG" num="both" pos="name" rel="mwp" root="Holland" sense="Holland"/>
+        <node id="4" neclass="ORG" num="both" pos="name" rel="mwp" root="Sport" sense="Sport"/>
+      </node>
+      <node id="5" infl="modal_not_u" pos="verb" rel="hd" root="wil" sc="modifier(aux(inf))" sense="wil" tense="present"/>
+      <node cat="inf" id="6" rel="vc">
+        <node id="7" index="1" rel="su"/>
+        <node cat="np" id="8" rel="obj1">
+          <node id="9" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="10" num="sg" pos="noun" rel="hd" root="zaak" sense="zaak"/>
+        </node>
+        <node cat="pp" id="11" rel="ld">
+          <node id="12" pos="prep" rel="hd" root="voor" sense="voor"/>
+          <node cat="np" id="13" rel="obj1">
+            <node id="14" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="15" num="sg" pos="noun" rel="hd" root="arbitrage_commissie" sense="arbitrage_commissie"/>
+            <node cat="pp" id="16" rel="mod">
+              <node id="17" pos="prep" rel="hd" root="van" sense="van"/>
+              <node cat="np" id="18" rel="obj1">
+                <node id="19" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                <node id="20" neclass="ORG" num="both" pos="name" rel="hd" root="KNVB" sense="KNVB"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node id="21" infl="inf" pos="verb" rel="hd" root="gooi" sc="np_ld_pp" sense="gooi"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

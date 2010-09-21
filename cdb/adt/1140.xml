@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="pp" id="2" rel="dp">
+        <node id="3" pos="prep" rel="hd" root="tot" sc="loc_adv" sense="tot"/>
+        <node aform="base" id="4" infl="pred" pos="adj" rel="obj1" root="zover" sense="zover" vform="adj"/>
+      </node>
+      <node cat="np" id="5" rel="dp">
+        <node id="6" infl="onze" pos="det" rel="det" root="ons" sense="ons"/>
+        <node gen="de" id="7" num="sg" pos="noun" rel="hd" root="correspondent" sense="correspondent"/>
+        <node cat="pp" id="8" rel="mod">
+          <node id="9" pos="prep" rel="hd" root="te" sc="nodet" sense="te"/>
+          <node cat="mwu" id="10" mwu_root="Tel Aviv" mwu_sense="Tel Aviv" rel="obj1">
+            <node id="11" neclass="LOC" num="both" pos="name" rel="mwp" root="Tel" sense="Tel"/>
+            <node id="12" neclass="LOC" num="both" pos="name" rel="mwp" root="Aviv" sense="Aviv"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

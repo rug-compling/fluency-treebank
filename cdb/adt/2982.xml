@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" pos="noun" rel="sup" root="het" sense="het" special="het"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="ben" sc="copula_vp" sense="ben" tense="past"/>
+      <node id="4" pos="adv" rel="mod" root="niet" sense="niet"/>
+      <node aform="base" id="5" infl="no_e" pos="adj" rel="predc" root="moeilijk" sc="subject_vp" sense="moeilijk" vform="adj"/>
+      <node cat="ti" id="6" rel="su">
+        <node id="7" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+        <node cat="inf" id="8" rel="body">
+          <node id="9" infl="inf" pos="verb" rel="hd" root="kom" sc="pc_pp(tot)" sense="kom-tot"/>
+          <node cat="pp" id="10" rel="pc">
+            <node id="11" pos="prep" rel="hd" root="tot" sense="tot"/>
+            <node cat="np" id="12" rel="obj1">
+              <node id="13" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node gen="de" id="14" num="sg" pos="noun" rel="hd" root="conclusie" sc="sbar" sense="conclusie"/>
+              <node cat="cp" id="15" rel="vc">
+                <node id="16" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+                <node cat="ssub" id="17" rel="body">
+                  <node cat="np" id="18" index="1" rel="su">
+                    <node id="19" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                    <node aform="base" id="20" infl="e" pos="adj" rel="mod" root="Joods" sense="Joods" vform="adj"/>
+                    <node gen="de" id="21" num="pl" pos="noun" rel="hd" root="speler" sense="speler"/>
+                  </node>
+                  <node id="22" infl="pl" pos="verb" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" tense="past"/>
+                  <node cat="ppart" id="23" rel="vc">
+                    <node id="24" index="1" rel="su"/>
+                    <node id="25" pos="adv" rel="mod" root="niet" sense="niet"/>
+                    <node cat="pp" id="26" rel="mod">
+                      <node id="27" pos="prep" rel="hd" root="uit" sense="uit"/>
+                      <node id="28" neclass="LOC" num="both" pos="name" rel="obj1" root="Moskou" sense="Moskou"/>
+                    </node>
+                    <node id="29" infl="psp" pos="verb" rel="hd" root="reis_af" sc="part_intransitive(af)" sense="reis_af"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" tense="present"/>
+      <node cat="np" id="3" index="1" rel="su">
+        <node id="4" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node aform="base" id="5" infl="e" pos="adj" rel="mod" root="54_jarig" sense="54_jarig" vform="adj"/>
+        <node gen="de" id="6" num="sg" pos="noun" rel="hd" root="beeldhouwer" sense="beeldhouwer"/>
+        <node cat="mwu" id="7" mwu_root="John Grosman" mwu_sense="John Grosman" rel="app">
+          <node id="8" neclass="PER" num="both" pos="name" rel="mwp" root="John" sense="John"/>
+          <node id="9" neclass="PER" num="both" pos="name" rel="mwp" root="Grosman" sense="Grosman"/>
+        </node>
+      </node>
+      <node cat="ppart" id="10" rel="vc">
+        <node cat="pp" id="11" rel="mod">
+          <node id="12" pos="prep" rel="hd" root="bij" sense="bij"/>
+          <node cat="np" id="13" rel="obj1">
+            <node id="14" infl="een" pos="det" rel="det" root="een" sense="een"/>
+            <node gen="het" id="15" num="sg" pos="noun" rel="hd" root="auto_ongeluk" sense="auto_ongeluk"/>
+          </node>
+        </node>
+        <node id="16" pos="adv" rel="mod" root="gisteravond" sense="gisteravond" special="tmp"/>
+        <node cat="pp" id="17" rel="mod">
+          <node id="18" pos="prep" rel="hd" root="in" sense="in"/>
+          <node id="19" neclass="LOC" num="both" pos="name" rel="obj1" root="Zwolle" sense="Zwolle"/>
+        </node>
+        <node id="20" index="1" rel="su"/>
+        <node id="21" infl="psp" pos="verb" rel="hd" root="kom_om" sc="part_intransitive(om)" sense="kom_om"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

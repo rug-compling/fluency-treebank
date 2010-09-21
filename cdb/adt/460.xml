@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="conj" id="2" rel="su">
+        <node id="3" pos="vg" rel="crd" root="en" sense="en"/>
+        <node cat="np" id="4" rel="cnj">
+          <node cat="mwu" id="5" mwu_root="Kutsuko Kanai" mwu_sense="Kutsuko Kanai" rel="hd">
+            <node id="6" neclass="PER" num="both" pos="name" rel="mwp" root="Kutsuko" sense="Kutsuko"/>
+            <node id="7" neclass="PER" num="both" pos="name" rel="mwp" root="Kanai" sense="Kanai"/>
+          </node>
+          <node cat="np" id="8" index="1" rel="app">
+            <node cat="pp" id="9" rel="mod">
+              <node id="10" pos="prep" rel="hd" root="in" sense="in"/>
+              <node id="11" neclass="LOC" num="both" pos="name" rel="obj1" root="Japan" sense="Japan"/>
+            </node>
+            <node gen="de" id="12" num="pl" pos="noun" rel="hd" root="ster" sense="ster"/>
+            <node cat="pp" id="13" rel="mod">
+              <node id="14" pos="prep" rel="hd" root="van" sense="van"/>
+              <node gen="het" id="15" num="sg" pos="noun" rel="obj1" root="formaat" sense="formaat"/>
+            </node>
+          </node>
+        </node>
+        <node cat="np" id="16" rel="cnj">
+          <node cat="mwu" id="17" mwu_root="Antonio Koga" mwu_sense="Antonio Koga" rel="hd">
+            <node id="18" neclass="PER" num="both" pos="name" rel="mwp" root="Antonio" sense="Antonio"/>
+            <node id="19" neclass="PER" num="both" pos="name" rel="mwp" root="Koga" sense="Koga"/>
+          </node>
+          <node id="20" index="1" rel="app"/>
+        </node>
+        <node cat="np" id="21" rel="cnj">
+          <node cat="mwu" id="22" mwu_root="Mie Nakao" mwu_sense="Mie Nakao" rel="hd">
+            <node id="23" neclass="PER" num="both" pos="name" rel="mwp" root="Mie" sense="Mie"/>
+            <node id="24" neclass="PER" num="both" pos="name" rel="mwp" root="Nakao" sense="Nakao"/>
+          </node>
+          <node id="25" index="1" rel="app"/>
+        </node>
+      </node>
+      <node id="26" infl="pl" pos="verb" rel="hd" root="vertolk" sc="transitive" sense="vertolk" tense="present"/>
+      <node cat="np" id="27" rel="obj1">
+        <node id="28" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="29" num="pl" pos="noun" rel="hd" root="hoofdrol" sense="hoofdrol"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

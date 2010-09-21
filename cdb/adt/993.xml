@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" pos="adv" rel="mod" root="ook" sc="modal" sense="ook"/>
+        <node id="4" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="5" num="sg" pos="noun" rel="hd" root="bewering" sc="sbar" sense="bewering"/>
+        <node cat="cp" id="6" rel="vc">
+          <node id="7" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+          <node cat="ssub" id="8" rel="body">
+            <node cat="np" id="9" rel="su">
+              <node id="10" infl="het" pos="det" rel="det" root="dit" sense="dit" wh="nwh"/>
+              <node gen="het" id="11" num="sg" pos="noun" rel="hd" root="kabinet" sense="kabinet"/>
+            </node>
+            <node cat="np" id="12" rel="obj1">
+              <node id="13" infl="een" pos="det" rel="det" root="een" sense="een"/>
+              <node aform="base" id="14" infl="no_e" pos="adj" rel="mod" root="typisch" sense="typisch" vform="adj"/>
+              <node gen="both" id="15" num="sg" pos="noun" rel="hd" root="Vvd_stempel" sense="Vvd_stempel"/>
+            </node>
+            <node id="16" infl="sg3" pos="verb" rel="hd" root="draag" sc="transitive" sense="draag" tense="present"/>
+          </node>
+        </node>
+      </node>
+      <node id="17" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+      <node aform="base" id="18" infl="no_e" pos="adj" rel="predc" root="onjuist" sense="onjuist" vform="adj"/>
+    </node>
+  </node>
+</alpino_adt>

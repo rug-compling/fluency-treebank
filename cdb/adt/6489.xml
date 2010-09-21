@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="pl" pos="noun" rel="hd" root="umpire" sense="umpire"/>
+      </node>
+      <node id="5" infl="pl" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+      <node id="6" pos="adv" rel="mod" root="niet" sense="niet"/>
+      <node cat="np" id="7" rel="predc">
+        <node gen="het" id="8" num="sg" pos="noun" rel="hd" root="goed" sense="goed"/>
+        <node id="9" pos="adv" rel="mod" root="genoeg" sense="genoeg" special="postnp"/>
+      </node>
+      <node cat="cp" id="10" rel="mod">
+        <node id="11" pos="comp" rel="cmp" root="omdat" sense="omdat"/>
+        <node cat="ssub" id="12" rel="body">
+          <node case="both" def="def" gen="de" id="13" index="1" num="both" per="thi" pos="pron" rel="su" root="ze" sense="ze" special="wkpro" wh="nwh"/>
+          <node id="14" infl="pl" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="present"/>
+          <node cat="ppart" id="15" rel="vc">
+            <node id="16" index="1" rel="obj1"/>
+            <node id="17" pos="adv" rel="mod" root="niet" sense="niet"/>
+            <node id="18" infl="psp" pos="verb" rel="hd" root="betaal" sc="transitive" sense="betaal"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

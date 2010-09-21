@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="pl_num" pos="det" rel="det" root="beide" sense="beide" special="adj_number"/>
+        <node gen="de" id="4" num="pl" pos="noun" rel="hd" root="onderneming" sense="onderneming"/>
+        <node cat="rel" id="5" rel="mod">
+          <node case="no_obl" gen="de" id="6" index="1" pos="pron" rel="rhd" root="die" sense="die" wh="rel"/>
+          <node cat="ssub" id="7" rel="body">
+            <node id="8" index="1" rel="su"/>
+            <node cat="np" id="9" rel="obj1">
+              <node id="10" infl="een" pos="det" rel="det" root="een" sense="een"/>
+              <node aform="base" id="11" infl="no_e" pos="adj" rel="mod" root="complementair" sense="complementair" vform="adj"/>
+              <node gen="het" id="12" num="sg" pos="noun" rel="hd" root="werk_terrein" sense="werk_terrein"/>
+            </node>
+            <node id="13" infl="pl" pos="verb" rel="hd" root="heb" sc="transitive_ndev" sense="heb" tense="present"/>
+          </node>
+        </node>
+      </node>
+      <node id="14" infl="pl" pos="verb" rel="hd" root="zet_voort" sc="part_transitive(voort)" sense="zet_voort" tense="past"/>
+      <node cat="np" id="15" rel="obj1">
+        <node id="16" infl="pron" pos="det" rel="det" root="hun" sense="hun"/>
+        <node gen="de" id="17" num="pl" pos="noun" rel="hd" root="werkzaamheid" sense="werkzaamheid"/>
+      </node>
+      <node aform="base" id="18" infl="no_e" pos="adj" rel="mod" root="zelfstandig" sense="zelfstandig" vform="adj"/>
+    </node>
+  </node>
+</alpino_adt>

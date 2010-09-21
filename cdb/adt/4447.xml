@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="staatssecretaris" sense="staatssecretaris"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="van" sense="van"/>
+          <node gen="het" id="7" num="sg" pos="noun" rel="obj1" root="onderwijs" sense="onderwijs"/>
+        </node>
+      </node>
+      <node id="8" infl="sg" pos="verb" rel="hd" root="kondig_aan" sc="part_transitive(aan)" sense="kondig_aan" tense="past"/>
+      <node cat="np" id="9" rel="obj1">
+        <node id="10" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node gen="de" id="11" num="sg" pos="noun" rel="hd" root="vernieuwing" sense="vernieuwing"/>
+        <node cat="pp" id="12" rel="mod">
+          <node id="13" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="14" rel="obj1">
+            <node id="15" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="het" id="16" num="pl" pos="noun" rel="hd" root="eind_examen" sense="eind_examen"/>
+            <node cat="pp" id="17" rel="mod">
+              <node id="18" pos="prep" rel="hd" root="voor" sense="voor"/>
+              <node cat="np" id="19" rel="obj1">
+                <node id="20" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+                <node id="21" neclass="ORG" num="both" pos="name" rel="hd" root="V.W.O.-Havo-Mavo" sense="V.W.O.-Havo-Mavo"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

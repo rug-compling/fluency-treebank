@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="smain" id="2" rel="cnj">
+        <node cat="np" id="3" index="1" rel="su">
+          <node aform="compar" id="4" infl="meer" pos="adj" rel="det" root="meer" sense="meer" vform="adj"/>
+          <node gen="de" id="5" num="pl" pos="noun" rel="hd" root="onderhandeling" sense="onderhandeling"/>
+        </node>
+        <node id="6" infl="pl" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="past"/>
+        <node cat="inf" id="7" rel="vc">
+          <node id="8" index="1" rel="su"/>
+          <node aform="base" id="9" infl="pred" pos="adj" rel="mod" root="wel" sense="wel" vform="adj"/>
+          <node aform="base" id="10" infl="no_e" pos="adj" rel="predc" root="mogelijk" sense="mogelijk" vform="adj"/>
+          <node id="11" infl="inf" pos="verb" rel="hd" root="ben" sc="copula" sense="ben"/>
+        </node>
+      </node>
+      <node id="12" pos="vg" rel="crd" root="maar" sense="maar"/>
+      <node cat="smain" id="13" rel="cnj">
+        <node cat="np" id="14" rel="su">
+          <node id="15" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="16" num="sg" pos="noun" rel="hd" root="tijd" sense="tijd" special="tmp"/>
+        </node>
+        <node id="17" infl="sg3" pos="verb" rel="hd" root="dring" sc="intransitive" sense="dring" tense="present"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

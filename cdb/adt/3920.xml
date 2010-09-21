@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" pos="adv" rel="mod" root="er" sense="er" special="er"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="besta" sc="intransitive" sense="besta" tense="past"/>
+      <node id="4" pos="adv" rel="mod" root="toch" sense="toch"/>
+      <node cat="np" id="5" rel="su">
+        <node case="both" def="indef" gen="het" id="6" num="sg" per="thi" pos="pron" rel="hd" root="zoiets" sense="zoiets" special="strpro" wh="nwh"/>
+        <node cat="cp" id="7" rel="mod">
+          <node id="8" pos="comp" rel="cmp" root="als" sc="als" sense="als"/>
+          <node cat="mwu" id="9" mwu_root="De Lachende Kerk" mwu_sense="De Lachende Kerk" rel="body">
+            <node id="10" num="both" pos="name" rel="mwp" root="De" sense="De"/>
+            <node id="11" num="both" pos="name" rel="mwp" root="Lachende" sense="Lachende"/>
+            <node id="12" num="both" pos="name" rel="mwp" root="Kerk" sense="Kerk"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="mod">
+        <node id="3" pos="prep" rel="hd" root="om" sense="om"/>
+        <node cat="np" id="4" rel="obj1">
+          <node cat="mwu" id="5" mwu_root="tien uur" mwu_sense="tien uur" rel="hd">
+            <node id="6" pos="noun" rel="mwp" root="tien" sense="tien" special="tmp"/>
+            <node id="7" pos="noun" rel="mwp" root="uur" sense="uur" special="tmp"/>
+          </node>
+          <node cat="pp" id="8" rel="mod">
+            <node id="9" pos="prep" rel="hd" root="op" sense="op"/>
+            <node cat="np" id="10" rel="obj1">
+              <node id="11" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node gen="de" id="12" num="sg" pos="noun" rel="hd" root="zondag_morgen" sense="zondag_morgen" special="tmp"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="13" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+      <node id="14" neclass="LOC" num="both" pos="name" rel="su" root="Antwerpen" sense="Antwerpen"/>
+      <node cat="np" id="15" rel="predc">
+        <node id="16" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node aform="base" id="17" infl="e" pos="adj" rel="mod" root="bedeesd" sense="bedeesd" vform="adj"/>
+        <node gen="both" id="18" num="sg" pos="noun" rel="hd" root="stad" sense="stad"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

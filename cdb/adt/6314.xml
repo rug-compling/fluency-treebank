@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="pl" pos="noun" rel="hd" root="vertraging" sense="vertraging"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="op" sense="op"/>
+          <node cat="np" id="7" rel="obj1">
+            <node id="8" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="9" num="sg" pos="noun" rel="hd" root="lijn" sense="lijn"/>
+            <node cat="mwu" id="10" mwu_root="Utrecht_Den Bosch" mwu_sense="Utrecht_Den Bosch" rel="app">
+              <node id="11" neclass="LOC" num="both" pos="name" rel="mwp" root="Utrecht_Den" sense="Utrecht_Den"/>
+              <node id="12" neclass="LOC" num="both" pos="name" rel="mwp" root="Bosch" sense="Bosch"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="13" infl="pl" pos="verb" rel="hd" root="bedraag" sc="meas" sense="bedraag" tense="past"/>
+      <node id="14" pos="adv" rel="mod" root="toen" sense="toen" special="tmp"/>
+      <node id="15" pos="adv" rel="mod" root="nog" sense="nog"/>
+      <node cat="np" id="16" rel="me">
+        <node id="17" pos="adv" rel="mod" root="slechts" sc="modal" sense="slechts"/>
+        <node cat="conj" id="18" rel="det">
+          <node id="19" infl="pl_num" pos="num" rel="cnj" root="vijf" sense="vijf" special="hoofd"/>
+          <node id="20" pos="vg" rel="crd" root="tot" sense="tot"/>
+          <node id="21" infl="pl_num" pos="num" rel="cnj" root="twaalf" sense="twaalf" special="hoofd"/>
+        </node>
+        <node gen="de" id="22" num="pl" pos="noun" rel="hd" root="minuut" sense="minuut" special="tmp"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

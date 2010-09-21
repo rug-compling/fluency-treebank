@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="sv1" id="2" rel="tag">
+        <node id="3" infl="sg1" pos="verb" rel="hd" root="geloof" sc="sbar" sense="geloof" tense="present"/>
+        <node case="nom" def="def" gen="de" id="4" num="sg" per="fir" pos="pron" rel="su" root="ik" sense="ik" wh="nwh"/>
+      </node>
+      <node cat="smain" id="5" rel="nucl">
+        <node id="6" infl="het" pos="det" rel="su" root="dat" sense="dat" wh="nwh"/>
+        <node id="7" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+        <node aform="base" id="8" infl="pred" pos="adj" rel="mod" root="wel" sense="wel" vform="adj"/>
+        <node cat="np" id="9" rel="predc">
+          <node id="10" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node aform="base" id="11" infl="e" pos="adj" rel="mod" root="juist" sense="juist" vform="adj"/>
+          <node gen="de" id="12" num="sg" pos="noun" rel="hd" root="typering" sense="typering"/>
+          <node cat="pp" id="13" rel="mod">
+            <node id="14" pos="prep" rel="hd" root="van" sense="van"/>
+            <node cat="np" id="15" rel="obj1">
+              <node gen="de" id="16" num="sg" pos="noun" rel="hd" root="meneer" sense="meneer"/>
+              <node id="17" neclass="PER" num="both" pos="name" rel="app" root="Michels" sense="Michels"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" tense="present"/>
+      <node cat="ppart" id="3" rel="vc">
+        <node id="4" infl="psp" pos="verb" rel="hd" root="blijk" sc="dip_sbar_subj_no_het" sense="blijk"/>
+        <node cat="cp" id="5" rel="su">
+          <node id="6" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+          <node cat="ssub" id="7" rel="body">
+            <node cat="np" id="8" rel="su">
+              <node id="9" infl="pl_num" pos="det" rel="det" root="sommige" sense="sommige" wh="nwh"/>
+              <node gen="de" id="10" num="pl" pos="noun" rel="hd" root="bezoeker" sense="bezoeker"/>
+            </node>
+            <node id="11" infl="pl" pos="verb" rel="hd" root="krijg" sc="transitive" sense="krijg" tense="present"/>
+            <node cat="np" id="12" rel="obj1">
+              <node gen="de" id="13" num="sg" pos="noun" rel="hd" root="jeuk" sense="jeuk"/>
+              <node cat="pp" id="14" rel="mod">
+                <node id="15" pos="prep" rel="hd" root="van" sense="van"/>
+                <node cat="np" id="16" rel="obj1">
+                  <node id="17" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                  <node gen="het" id="18" num="pl" pos="noun" rel="hd" root="object" sense="object"/>
+                </node>
+              </node>
+            </node>
+            <node cat="cp" id="19" rel="mod">
+              <node id="20" pos="comp" rel="cmp" root="doordat" sense="doordat"/>
+              <node cat="ssub" id="21" rel="body">
+                <node case="both" def="def" gen="de" id="22" num="both" per="thi" pos="pron" rel="su" root="ze" sense="ze" special="wkpro" wh="nwh"/>
+                <node cat="ap" id="23" rel="predc">
+                  <node aform="base" id="24" infl="no_e" pos="adj" rel="hd" root="allergisch" sc="pp(voor)" sense="allergisch-voor" vform="adj"/>
+                  <node cat="pp" id="25" rel="pc">
+                    <node id="26" pos="prep" rel="hd" root="voor" sense="voor"/>
+                    <node cat="conj" id="27" rel="obj1">
+                      <node gen="both" id="28" num="both" pos="noun" rel="cnj" root="kippeveren" sense="kippeveren"/>
+                      <node id="29" pos="vg" rel="crd" root="en" sense="en"/>
+                      <node gen="de" id="30" num="sg" pos="noun" rel="cnj" root="teer" sense="teer"/>
+                    </node>
+                  </node>
+                </node>
+                <node id="31" infl="pl" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

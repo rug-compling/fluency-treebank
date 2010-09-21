@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" neclass="PER" num="both" pos="name" rel="su" root="Politievaartuigen" sense="Politievaartuigen"/>
+      <node id="3" infl="pl" pos="verb" rel="hd" root="breng" sc="np_ld_pp" sense="breng" tense="past"/>
+      <node cat="np" id="4" rel="obj1">
+        <node id="5" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node aform="base" id="6" num="pl" pos="adj" rel="hd" root="genodigd" sense="genodigd" special="a_noun"/>
+      </node>
+      <node cat="pp" id="7" rel="ld">
+        <node id="8" pos="prep" rel="hd" root="naar" sense="naar"/>
+        <node cat="np" id="9" rel="obj1">
+          <node id="10" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="11" num="sg" pos="noun" rel="hd" root="plaats" sense="plaats" special="meas_mod"/>
+          <node cat="pp" id="12" rel="mod">
+            <node id="13" pos="prep" rel="hd" root="in" sense="in"/>
+            <node cat="np" id="14" rel="obj1">
+              <node id="15" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+              <node cat="mwu" id="16" mwu_root="Hollands Diep" mwu_sense="Hollands Diep" rel="hd">
+                <node id="17" neclass="LOC" num="both" pos="name" rel="mwp" root="Hollands" sense="Hollands"/>
+                <node id="18" neclass="LOC" num="both" pos="name" rel="mwp" root="Diep" sense="Diep"/>
+              </node>
+            </node>
+          </node>
+          <node cat="rel" id="19" rel="mod">
+            <node id="20" index="1" pos="adv" rel="rhd" root="waar" sense="waar" special="er_loc" wh="ywh"/>
+            <node cat="ssub" id="21" rel="body">
+              <node cat="np" id="22" index="2" rel="su">
+                <node id="23" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                <node cat="mwu" id="24" mwu_root="Rhenus 127" mwu_sense="Rhenus 127" rel="hd">
+                  <node id="25" num="both" pos="name" rel="mwp" root="Rhenus" sense="Rhenus"/>
+                  <node id="26" num="both" pos="name" rel="mwp" root="127" sense="127"/>
+                </node>
+              </node>
+              <node id="27" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" tense="present"/>
+              <node cat="ppart" id="28" rel="vc">
+                <node id="29" index="1" rel="mod"/>
+                <node id="30" index="2" rel="su"/>
+                <node id="31" infl="psp" pos="verb" rel="hd" root="zink" sc="intransitive" sense="zink"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

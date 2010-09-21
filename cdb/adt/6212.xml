@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="np" id="1" rel="--">
+      <node gen="het" id="2" num="pl" pos="noun" rel="hd" root="kind" sense="kind"/>
+      <node cat="pp" id="3" rel="mod">
+        <node id="4" pos="prep" rel="hd" root="van" sense="van"/>
+        <node cat="np" id="5" rel="obj1">
+          <node aform="base" id="6" infl="e" pos="adj" rel="mod" root="half_Amerikaans" sense="half_Amerikaans" vform="adj"/>
+          <node aform="base" id="7" infl="e" pos="adj" rel="mod" root="half_Koreaans" sense="half_Koreaans" vform="adj"/>
+          <node gen="de" id="8" num="sg" pos="noun" rel="hd" root="afkomst" sense="afkomst"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

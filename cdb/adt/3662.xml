@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="np" id="2" rel="cnj">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node aform="base" id="4" infl="e" pos="adj" rel="mod" root="officieel" sense="officieel" vform="adj"/>
+        <node gen="de" id="5" num="sg" pos="noun" rel="hd" root="nota" sense="nota"/>
+      </node>
+      <node id="6" pos="vg" rel="crd" root="ofwel" sense="ofwel"/>
+      <node cat="np" id="7" rel="cnj">
+        <node id="8" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node aform="base" id="9" infl="no_e" pos="adj" rel="mod" root="aardig" sense="aardig" vform="adj"/>
+        <node aform="base" id="10" infl="no_e" pos="adj" rel="mod" root="geïllustreerd" sense="geïllustreerd" vform="psp"/>
+        <node gen="het" id="11" num="sg" pos="noun" rel="hd" root="geschrift" sense="geschrift"/>
+        <node cat="rel" id="12" rel="mod">
+          <node case="no_obl" gen="het" id="13" index="1" pos="pron" rel="rhd" root="dat" sense="dat" wh="rel"/>
+          <node cat="ssub" id="14" rel="body">
+            <node id="15" index="1" rel="su"/>
+            <node id="16" infl="modal_not_u" pos="verb" rel="hd" root="wil" sc="modifier(aux(inf))" sense="wil" tense="present"/>
+            <node cat="inf" id="17" rel="vc">
+              <node id="18" index="1" rel="su"/>
+              <node cat="np" id="19" rel="predc">
+                <node id="20" infl="een" pos="det" rel="det" root="een" sense="een"/>
+                <node gen="de" id="21" num="sg" pos="noun" rel="hd" root="vertaling" sense="vertaling"/>
+                <node cat="pp" id="22" rel="mod">
+                  <node id="23" pos="prep" rel="hd" root="van" sense="van"/>
+                  <node cat="np" id="24" rel="obj1">
+                    <node id="25" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+                    <node aform="base" id="26" infl="e" pos="adj" rel="mod" root="ambtelijk" sense="ambtelijk" vform="adj"/>
+                    <node gen="het" id="27" num="sg" pos="noun" rel="hd" root="stuk" sense="stuk" special="meas_mod"/>
+                  </node>
+                </node>
+              </node>
+              <node id="28" infl="inf" pos="verb" rel="hd" root="ben" sc="copula" sense="ben"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

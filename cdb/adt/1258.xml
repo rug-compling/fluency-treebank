@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node case="both" def="def" gen="de" id="2" num="both" per="thi" pos="pron" rel="su" root="ze" sense="ze" special="wkpro" wh="nwh"/>
+      <node id="3" infl="pl" pos="verb" rel="hd" root="werk" sc="intransitive" sense="werk" tense="present"/>
+      <node cat="cp" id="4" rel="predm">
+        <node id="5" pos="comp" rel="cmp" root="als" sc="als" sense="als"/>
+        <node cat="conj" id="6" rel="body">
+          <node cat="np" id="7" rel="cnj">
+            <node gen="both" id="8" num="both" pos="noun" rel="hd" root="versnellers" sense="versnellers"/>
+            <node cat="pp" id="9" rel="mod">
+              <node id="10" pos="prep" rel="hd" root="van" sense="van"/>
+              <node gen="het" id="11" num="pl" pos="noun" rel="obj1" root="proces" sense="proces"/>
+            </node>
+          </node>
+          <node id="12" pos="vg" rel="crd" root="of" sense="of"/>
+          <node cat="np" id="13" rel="cnj">
+            <node id="14" pos="adv" rel="mod" root="zelfs" sense="zelfs"/>
+            <node gen="both" id="15" num="both" pos="noun" rel="hd" root="aanzwengelaars" sense="aanzwengelaars"/>
+            <node cat="pp" id="16" rel="mod">
+              <node id="17" pos="prep" rel="hd" root="van" sense="van"/>
+              <node gen="het" id="18" num="pl" pos="noun" rel="obj1" root="proces" sense="proces"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

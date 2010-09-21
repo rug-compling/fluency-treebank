@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="np" id="1" rel="--">
+      <node id="2" infl="geen" pos="det" rel="det" root="geen" sense="geen" wh="nwh"/>
+      <node aform="base" id="3" infl="no_e" pos="adj" rel="mod" root="gewillig" sense="gewillig" vform="adj"/>
+      <node gen="het" id="4" num="sg" pos="noun" rel="hd" root="oor" sense="oor"/>
+      <node cat="pp" id="5" rel="mod">
+        <node id="6" pos="prep" rel="hd" root="van" sense="van"/>
+        <node cat="conj" id="7" rel="obj1">
+          <node gen="de" id="8" num="sg" pos="noun" rel="cnj" root="kardinaal" sense="kardinaal"/>
+          <node id="9" pos="vg" rel="crd" root="en" sense="en"/>
+          <node gen="de" id="10" num="pl" pos="noun" rel="cnj" root="bisschop" sense="bisschop"/>
+        </node>
+      </node>
+      <node cat="pp" id="11" rel="mod">
+        <node id="12" pos="prep" rel="hd" root="voor" sense="voor"/>
+        <node cat="np" id="13" rel="obj1">
+          <node id="14" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node aform="base" id="15" infl="e" pos="adj" rel="mod" root="ongenood" sense="ongenood" vform="adj"/>
+          <node gen="de" id="16" num="pl" pos="noun" rel="hd" root="spreker" sense="spreker"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

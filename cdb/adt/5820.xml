@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="both" id="4" num="both" pos="noun" rel="hd" root="kngv" sense="kngv"/>
+      </node>
+      <node id="5" infl="sg3" pos="verb" rel="hd" root="zie" sc="obj1_passive" sense="zie" tense="present"/>
+      <node cat="np" id="6" index="1" rel="obj1">
+        <node id="7" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node cat="conj" id="8" rel="mod">
+          <node id="9" pos="num" rel="cnj" root="eerste" sense="eerste" special="rang"/>
+          <node id="10" pos="vg" rel="crd" root="en" sense="en"/>
+          <node id="11" pos="num" rel="cnj" root="tweede" sense="tweede" special="rang"/>
+        </node>
+        <node gen="de" id="12" num="sg" pos="noun" rel="hd" root="fase" sense="fase" special="tmp"/>
+        <node cat="pp" id="13" rel="mod">
+          <node id="14" pos="prep" rel="hd" root="in" sense="in"/>
+          <node cat="np" id="15" rel="obj1">
+            <node id="16" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+            <node gen="het" id="17" num="sg" pos="noun" rel="hd" root="fusie_plan" sense="fusie_plan"/>
+          </node>
+        </node>
+      </node>
+      <node cat="ppart" id="18" rel="vc">
+        <node id="19" index="1" rel="obj1"/>
+        <node aform="base" id="20" infl="no_e" pos="adj" rel="mod" root="onverbrekelijk" sense="onverbrekelijk" vform="adj"/>
+        <node id="21" infl="psp" pos="verb" rel="hd" root="verbind" sc="np_pc_pp(aan)" sense="verbind-aan"/>
+        <node cat="pp" id="22" rel="pc">
+          <node id="23" pos="prep" rel="hd" root="aan" sense="aan"/>
+          <node cat="np" id="24" rel="obj1">
+            <node id="25" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node id="26" pos="num" rel="hd" root="derde" sense="derde" special="rang"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="pp" id="1" rel="--">
+      <node cat="np" id="2" rel="mod">
+        <node id="3" infl="pl_num" pos="num" rel="det" root="100" sense="100" special="hoofd"/>
+        <node gen="de" id="4" num="meas" pos="noun" rel="hd" root="kilo_meter" sense="kilo_meter" special="meas_mod"/>
+      </node>
+      <node id="5" pos="prep" rel="hd" root="van" sense="van"/>
+      <node id="6" neclass="LOC" num="both" pos="name" rel="obj1" root="Groningen" sense="Groningen"/>
+    </node>
+  </node>
+</alpino_adt>

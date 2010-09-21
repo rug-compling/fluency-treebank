@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="mwu" id="2" mwu_root="Le Monde" mwu_sense="Le Monde" rel="su">
+        <node id="3" neclass="ORG" num="both" pos="name" rel="mwp" root="Le" sense="Le"/>
+        <node id="4" neclass="ORG" num="both" pos="name" rel="mwp" root="Monde" sense="Monde"/>
+      </node>
+      <node id="5" infl="sg3" pos="verb" rel="hd" root="leer" sc="np_sbar" sense="leer" tense="present"/>
+      <node case="dat_acc" def="def" gen="de" id="6" num="pl" per="fir" pos="pron" rel="obj2" root="ons" sense="ons" wh="nwh"/>
+      <node gen="de" id="7" num="sg" pos="noun" rel="mod" root="vrijdag_avond" sense="vrijdag_avond" special="tmp"/>
+      <node cat="whsub" id="8" rel="vc">
+        <node id="9" index="1" pos="adj" rel="whd" root="hoe" sense="hoe" wh="ywh"/>
+        <node cat="ssub" id="10" rel="body">
+          <node id="11" index="1" rel="mod"/>
+          <node cat="np" id="12" rel="su">
+            <node id="13" neclass="PER" num="both" pos="name" rel="mod" root="Franse" sense="Franse"/>
+            <node gen="de" id="14" num="pl" pos="noun" rel="hd" root="werkgever" sense="werkgever"/>
+          </node>
+          <node id="15" infl="pl" pos="verb" rel="hd" root="spring_om" sc="part_pc_pp(om,met)" sense="spring_om-met" tense="present"/>
+          <node cat="pp" id="16" rel="pc">
+            <node id="17" pos="prep" rel="hd" root="met" sense="met"/>
+            <node cat="np" id="18" rel="obj1">
+              <node id="19" infl="pron" pos="det" rel="det" root="hun" sense="hun"/>
+              <node gen="de" id="20" num="pl" pos="noun" rel="hd" root="gast_arbeider" sense="gast_arbeider"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

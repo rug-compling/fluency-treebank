@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="het" id="4" num="sg" pos="noun" rel="hd" root="systeem" sense="systeem"/>
+        <node cat="rel" id="5" rel="mod">
+          <node id="6" index="1" pos="pp" rel="rhd" root="waarom" sense="waarom" special="waar"/>
+          <node cat="ssub" id="7" rel="body">
+            <node id="8" index="1" rel="pc"/>
+            <node id="9" infl="het" pos="det" rel="su" root="het" sense="het" wh="nwh"/>
+            <node id="10" infl="sg3" pos="verb" rel="hd" root="ga" sc="pc_pp(om)" sense="ga-om" tense="present"/>
+          </node>
+        </node>
+      </node>
+      <node id="11" infl="sg3" pos="verb" rel="hd" root="werk" sc="intransitive" sense="werk" tense="present"/>
+      <node cat="mwu" id="12" mwu_root="als volgt" mwu_sense="als volgt" rel="mod">
+        <node aform="base" id="13" infl="pred" pos="adj" rel="mwp" root="als" sense="als" vform="adj"/>
+        <node aform="base" id="14" infl="pred" pos="adj" rel="mwp" root="volgt" sense="volgt" vform="adj"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="np" id="1" rel="--">
+      <node id="2" infl="een" pos="det" rel="det" root="een" sense="een"/>
+      <node cat="pp" id="3" rel="mod">
+        <node id="4" pos="prep" rel="hd" root="over" sense="over"/>
+        <node cat="np" id="5" rel="obj1">
+          <node id="6" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+          <node gen="het" id="7" num="sg" pos="noun" rel="hd" root="algemeen" sense="algemeen"/>
+        </node>
+      </node>
+      <node cat="mwu" id="8" mwu_root="verre van" mwu_sense="verre van" rel="mod">
+        <node id="9" pos="adv" rel="mwp" root="verre" sense="verre" special="intensifier"/>
+        <node id="10" pos="adv" rel="mwp" root="van" sense="van" special="intensifier"/>
+      </node>
+      <node aform="base" id="11" infl="e" pos="adj" rel="hd" root="rooskleurig" sense="rooskleurig" vform="adj"/>
+    </node>
+  </node>
+</alpino_adt>

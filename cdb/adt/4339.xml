@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node case="nom" def="def" gen="de" id="2" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="past"/>
+      <node cat="pp" id="4" rel="mod">
+        <node id="5" pos="prep" rel="hd" root="bij" sense="bij"/>
+        <node cat="np" id="6" rel="obj1">
+          <node id="7" infl="pron" pos="det" rel="det" root="zijn" sense="zijn"/>
+          <node gen="de" id="8" num="sg" pos="noun" rel="hd" root="ontsnapping" sense="ontsnapping"/>
+        </node>
+      </node>
+      <node cat="ppart" id="9" rel="predc">
+        <node aform="base" id="10" infl="no_e" pos="adj" rel="hd" root="gekleed" sense="gekleed" vform="psp"/>
+        <node cat="pp" id="11" rel="mod">
+          <node id="12" pos="prep" rel="hd" root="in" sense="in"/>
+          <node cat="np" id="13" rel="obj1">
+            <node id="14" infl="een" pos="det" rel="det" root="een" sense="een"/>
+            <node aform="base" id="15" infl="no_e" pos="adj" rel="mod" root="donkerbruin" sense="donkerbruin" vform="adj"/>
+            <node gen="het" id="16" num="sg" pos="noun" rel="hd" root="kostuum" sense="kostuum"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

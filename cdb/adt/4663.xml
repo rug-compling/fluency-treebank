@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="commissie" sense="commissie"/>
+      </node>
+      <node id="5" infl="sg" pos="verb" rel="hd" root="pleeg" sc="transitive" sense="pleeg" tense="past"/>
+      <node cat="np" id="6" rel="obj1">
+        <node aform="base" id="7" infl="no_e" pos="adj" rel="mod" root="uitvoerig" sense="uitvoerig" vform="adj"/>
+        <node cat="conj" id="8" rel="mod">
+          <node id="9" pos="vg" rel="crd" root="zowel" sense="zowel" special="left"/>
+          <node aform="base" id="10" infl="no_e" pos="adj" rel="cnj" root="mondeling" sense="mondeling" vform="adj"/>
+          <node id="11" pos="vg" rel="crd" root="als" sense="als" special="right"/>
+          <node aform="base" id="12" infl="no_e" pos="adj" rel="cnj" root="schriftelijk" sense="schriftelijk" vform="adj"/>
+        </node>
+        <node gen="het" id="13" num="sg" pos="noun" rel="hd" root="overleg" sense="overleg"/>
+      </node>
+      <node cat="pp" id="14" rel="mod">
+        <node id="15" pos="prep" rel="hd" root="over" sense="over"/>
+        <node cat="np" id="16" rel="obj1">
+          <node id="17" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="18" num="sg" pos="noun" rel="hd" root="opheffing" sense="opheffing"/>
+          <node cat="pp" id="19" rel="mod">
+            <node id="20" pos="prep" rel="hd" root="van" sense="van"/>
+            <node cat="np" id="21" rel="obj1">
+              <node id="22" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node aform="base" id="23" infl="e" pos="adj" rel="mod" root="buitenlands" sense="buitenlands" vform="adj"/>
+              <node gen="de" id="24" num="sg" pos="noun" rel="hd" root="inlichting_dienst" sense="inlichting_dienst"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

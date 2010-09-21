@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="np" id="1" rel="--">
+      <node id="2" infl="een" pos="det" rel="det" root="een" sense="een"/>
+      <node gen="de" id="3" num="sg" pos="noun" rel="hd" root="beneden_woning" sense="beneden_woning"/>
+      <node cat="pp" id="4" rel="mod">
+        <node id="5" pos="prep" rel="hd" root="aan" sense="aan"/>
+        <node cat="np" id="6" rel="obj1">
+          <node id="7" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node cat="mwu" id="8" mwu_root="Bankastraat 56" mwu_sense="Bankastraat 56" rel="hd">
+            <node id="9" neclass="ORG" num="both" pos="name" rel="mwp" root="Bankastraat" sense="Bankastraat"/>
+            <node id="10" neclass="ORG" num="both" pos="name" rel="mwp" root="56" sense="56"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

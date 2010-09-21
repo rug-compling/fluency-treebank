@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="smain" id="2" rel="cnj">
+        <node cat="np" id="3" rel="su">
+          <node id="4" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="5" num="sg" pos="noun" rel="hd" root="Oostenrijker" sense="Oostenrijker"/>
+          <node id="6" neclass="PER" num="both" pos="name" rel="app" root="Hartwich" sense="Hartwich"/>
+        </node>
+        <node id="7" infl="sg" pos="verb" rel="hd" root="bied" sc="transitive" sense="bied" tense="past"/>
+        <node cat="cp" id="8" rel="predm">
+          <node id="9" pos="comp" rel="cmp" root="als" sc="als" sense="als"/>
+          <node aform="base" id="10" infl="pred" pos="adj" rel="body" root="zuid" sense="zuid" vform="adj"/>
+        </node>
+        <node cat="np" id="11" rel="obj1">
+          <node id="12" infl="pl_num" pos="num" rel="det" root="drie" sense="drie" special="hoofd"/>
+          <node id="13" neclass="PER" num="both" pos="name" rel="hd" root="Sans" sense="Sans"/>
+        </node>
+      </node>
+      <node cat="smain" id="14" rel="cnj">
+        <node gen="both" id="15" num="sg" pos="noun" rel="su" root="west" sense="west"/>
+        <node id="16" infl="sg" pos="verb" rel="hd" root="doubleer" sc="intransitive" sense="doubleer" tense="past"/>
+      </node>
+      <node id="17" pos="vg" rel="crd" root="en" sense="en"/>
+      <node cat="smain" id="18" rel="cnj">
+        <node gen="both" id="19" num="sg" pos="noun" rel="su" root="noord" sense="noord"/>
+        <node id="20" infl="sg" pos="verb" rel="hd" root="redoubleer" sc="intransitive" sense="redoubleer" tense="past"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

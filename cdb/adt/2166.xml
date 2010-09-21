@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="bal" sense="bal"/>
+      </node>
+      <node id="5" infl="sg" pos="verb" rel="hd" root="spring_terug" sc="part_ld_pp(terug)" sense="spring_terug" tense="past"/>
+      <node cat="pp" id="6" rel="ld">
+        <node id="7" pos="prep" rel="hd" root="van" sense="van"/>
+        <node cat="np" id="8" rel="obj1">
+          <node gen="de" id="9" num="sg" pos="noun" rel="hd" root="doelman" sense="doelman"/>
+          <node id="10" neclass="PER" num="both" pos="name" rel="app" root="Winter" sense="Winter"/>
+        </node>
+      </node>
+      <node cat="whrel" id="11" rel="mod">
+        <node id="12" index="1" pos="pp" rel="rhd" root="waarna" sense="waarna" special="waar"/>
+        <node cat="ssub" id="13" rel="body">
+          <node cat="mwu" id="14" index="2" mwu_root="Van Ede" mwu_sense="Van Ede" rel="su">
+            <node id="15" neclass="PER" num="both" pos="name" rel="mwp" root="Van" sense="Van"/>
+            <node id="16" neclass="PER" num="both" pos="name" rel="mwp" root="Ede" sense="Ede"/>
+          </node>
+          <node id="17" infl="sg" pos="verb" rel="hd" root="kan" sc="aux(inf)" sense="kan" tense="past"/>
+          <node cat="inf" id="18" rel="vc">
+            <node id="19" index="1" rel="mod"/>
+            <node id="20" index="2" rel="su"/>
+            <node aform="base" id="21" infl="no_e" pos="adj" rel="mod" root="gemakkelijk" sense="gemakkelijk" vform="adj"/>
+            <node id="22" infl="inf" pos="verb" rel="hd" root="schiet_raak" sc="part_intransitive(raak)" sense="schiet_raak"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

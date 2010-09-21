@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node gen="het" id="2" num="sg" pos="noun" rel="su" root="alles" sense="alles"/>
+      <node id="3" infl="sg3" pos="verb" rel="hd" root="wijs" sc="er_pp_sbar(op)" sense="wijs-op" tense="present"/>
+      <node id="4" pos="adv" rel="mod" root="dus" sense="dus" special="sentence"/>
+      <node cat="pp" id="5" rel="pc">
+        <node id="6" pos="adv" rel="pobj1" root="er" sense="er" special="er"/>
+        <node id="7" pos="prep" rel="hd" root="op" sense="op"/>
+        <node cat="cp" id="8" rel="vc">
+          <node id="9" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+          <node cat="ssub" id="10" rel="body">
+            <node cat="np" id="11" index="1" rel="su">
+              <node id="12" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node id="13" infl="pl_num" pos="num" rel="det" root="drie" sense="drie" special="hoofd"/>
+              <node gen="de" id="14" num="pl" pos="noun" rel="hd" root="wethouder" sense="wethouder"/>
+              <node cat="pp" id="15" rel="mod">
+                <node id="16" pos="prep" rel="hd" root="van" sc="tmp_adv" sense="van"/>
+                <node id="17" pos="adv" rel="obj1" root="voorheen" sense="voorheen" special="tmp"/>
+              </node>
+            </node>
+            <node cat="cp" id="18" rel="predm">
+              <node id="19" pos="adv" rel="mod" root="althans" sc="modal" sense="althans"/>
+              <node id="20" pos="comp" rel="cmp" root="als" sc="als" sense="als"/>
+              <node gen="het" id="21" num="sg" pos="noun" rel="body" root="raad_lid" sense="raad_lid"/>
+            </node>
+            <node id="22" infl="pl" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="present"/>
+            <node cat="inf" id="23" rel="vc">
+              <node id="24" index="1" rel="su"/>
+              <node id="25" infl="inf" pos="verb" rel="hd" root="keer_terug" sc="part_intransitive(terug)" sense="keer_terug"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

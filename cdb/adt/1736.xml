@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="smain" id="2" rel="dp">
+        <node cat="np" id="3" rel="su">
+          <node id="4" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node aform="super" id="5" infl="e" pos="adj" rel="mod" root="meest" sense="meest" vform="adj"/>
+          <node gen="de" id="6" num="pl" pos="noun" rel="hd" root="foto" sense="foto"/>
+        </node>
+        <node id="7" infl="pl" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+        <node gen="het" id="8" num="pl" pos="noun" rel="predc" root="zomer_beeld" sense="zomer_beeld"/>
+      </node>
+      <node cat="smain" id="9" rel="dp">
+        <node cat="np" id="10" rel="su">
+          <node gen="het" id="11" num="pl" pos="noun" rel="hd" root="winter_landschap" sense="winter_landschap"/>
+          <node cat="ap" id="12" rel="mod">
+            <node cat="np" id="13" rel="obj2">
+              <node id="14" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node gen="de" id="15" num="pl" pos="noun" rel="hd" root="winter_sport_liefhebber" sense="winter_sport_liefhebber"/>
+            </node>
+            <node id="16" pos="adv" rel="mod" root="zo" sense="zo"/>
+            <node aform="base" id="17" infl="no_e" pos="adj" rel="hd" root="dierbaar" sc="so_np" sense="dierbaar" vform="adj"/>
+          </node>
+        </node>
+        <node id="18" infl="pl" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+        <node id="19" pos="adv" rel="mod" root="er" sense="er" special="er"/>
+        <node cat="np" id="20" rel="predc">
+          <node id="21" pos="adv" rel="mod" root="slechts" sense="slechts"/>
+          <node aform="base" id="22" infl="e" pos="adj" rel="hd" root="enkel" sense="enkel" vform="adj"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node aform="base" id="2" infl="no_e" pos="adj" rel="mod" root="omgekeerd" sense="omgekeerd" vform="psp"/>
+      <node id="3" infl="sg1" pos="verb" rel="hd" root="houd" sc="nonp_pred_np" sense="houd" tense="present"/>
+      <node case="nom" def="def" gen="de" id="4" num="sg" per="fir" pos="pron" rel="su" root="ik" sense="ik" wh="nwh"/>
+      <node cat="np" id="5" rel="obj1">
+        <node id="6" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="both" id="7" num="pl" pos="noun" rel="hd" root="EEG_mens" sense="EEG_mens"/>
+      </node>
+      <node cat="ap" id="8" rel="predc">
+        <node cat="mwu" id="9" mwu_root="op de hoogte" mwu_sense="op de hoogte-van" rel="hd">
+          <node aform="base" id="10" infl="pred" pos="adj" rel="mwp" root="op" sc="pp(van)" sense="op-van" vform="adj"/>
+          <node aform="base" id="11" infl="pred" pos="adj" rel="mwp" root="de" sc="pp(van)" sense="de-van" vform="adj"/>
+          <node aform="base" id="12" infl="pred" pos="adj" rel="mwp" root="hoogte" sc="pp(van)" sense="hoogte-van" vform="adj"/>
+        </node>
+        <node cat="pp" id="13" rel="pc">
+          <node id="14" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="whrel" id="15" rel="obj1">
+            <node case="both" def="indef" gen="het" id="16" index="1" num="sg" per="thi" pos="pron" rel="rhd" root="wat" sense="wat" special="nparg" wh="ywh"/>
+            <node cat="ssub" id="17" rel="body">
+              <node id="18" index="1" rel="su"/>
+              <node id="19" num="both" per="u_thi" pos="pron" refl="refl" rel="se" root="zich" sense="zich"/>
+              <node cat="pp" id="20" rel="mod">
+                <node id="21" pos="prep" rel="hd" root="op" sense="op"/>
+                <node cat="np" id="22" rel="obj1">
+                  <node id="23" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+                  <node aform="base" id="24" infl="e" pos="adj" rel="mod" root="Nederlands" sense="Nederlands" vform="adj"/>
+                  <node aform="base" id="25" infl="e" pos="adj" rel="mod" root="politiek" sense="politiek" vform="adj"/>
+                  <node gen="het" id="26" num="sg" pos="noun" rel="hd" root="toneel" sense="toneel"/>
+                </node>
+              </node>
+              <node id="27" infl="sg3" pos="verb" rel="hd" root="speel_af" sc="part_refl(af)" sense="zich-speel_af" tense="present"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

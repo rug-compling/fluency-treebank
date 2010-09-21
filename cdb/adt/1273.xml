@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node aform="base" id="4" infl="e" pos="adj" rel="mod" root="achttien_jarig" sense="achttien_jarig" vform="adj"/>
+        <node gen="de" id="5" num="sg" pos="noun" rel="hd" root="schipper_knecht" sense="schipper_knecht"/>
+        <node cat="mwu" id="6" mwu_root="J. J. Christiaansen" mwu_sense="J. J. Christiaansen" rel="app">
+          <node id="7" neclass="PER" num="both" pos="name" rel="mwp" root="J." sense="J."/>
+          <node id="8" neclass="PER" num="both" pos="name" rel="mwp" root="J." sense="J."/>
+          <node id="9" neclass="PER" num="both" pos="name" rel="mwp" root="Christiaansen" sense="Christiaansen"/>
+        </node>
+        <node cat="pp" id="10" rel="mod">
+          <node id="11" pos="prep" rel="hd" root="uit" sense="uit"/>
+          <node id="12" neclass="LOC" num="both" pos="name" rel="obj1" root="Breskens" sense="Breskens"/>
+        </node>
+      </node>
+      <node id="13" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" tense="present"/>
+      <node cat="ppart" id="14" rel="vc">
+        <node id="15" index="1" rel="su"/>
+        <node id="16" pos="adv" rel="mod" root="vannacht" sense="vannacht" special="tmp"/>
+        <node cat="pp" id="17" rel="mod">
+          <node id="18" pos="prep" rel="hd" root="door" sense="door"/>
+          <node gen="both" id="19" num="both" pos="noun" rel="obj1" root="koolmonoxydevergiftiging" sense="koolmonoxydevergiftiging"/>
+        </node>
+        <node cat="mwu" id="20" mwu_root="om het leven" mwu_sense="om het leven" rel="svp">
+          <node id="21" pos="fixed" rel="mwp" root="om" sense="om"/>
+          <node id="22" pos="fixed" rel="mwp" root="het" sense="het"/>
+          <node id="23" pos="fixed" rel="mwp" root="leven" sense="leven"/>
+        </node>
+        <node id="24" infl="psp" pos="verb" rel="hd" root="kom" sc="fixed([[om,het,leven]],no_passive)" sense="om-het-leven-kom"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

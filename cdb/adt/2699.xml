@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="sv1" id="1" rel="--">
+      <node id="2" infl="sg1" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+      <node case="nom" def="def" gen="de" id="3" num="sg" per="fir" pos="pron" rel="su" root="ik" sense="ik" wh="nwh"/>
+      <node id="4" pos="pp" rel="mod" root="daarom" sense="daarom" special="er"/>
+      <node id="5" pos="adv" rel="mod" root="nu" sense="nu" special="tmp"/>
+      <node cat="pp" id="6" rel="predc">
+        <node id="7" pos="prep" rel="hd" root="van" sense="van"/>
+        <node cat="np" id="8" rel="obj1">
+          <node aform="base" id="9" infl="no_e" pos="adj" rel="mod" root="bijzonder" sense="bijzonder" vform="adj"/>
+          <node gen="het" id="10" num="sg" pos="noun" rel="hd" root="kaliber" sc="pred_pp(van)" sense="kaliber"/>
+        </node>
+      </node>
+      <node cat="cp" id="11" rel="mod">
+        <node id="12" pos="comp" rel="cmp" root="zoals" sc="zoals" sense="zoals"/>
+        <node cat="ssub" id="13" rel="body">
+          <node gen="de" id="14" num="sg" pos="noun" rel="su" root="u" sense="u"/>
+          <node id="15" infl="sg3" pos="verb" rel="hd" root="schrijf" sc="intransitive" sense="schrijf" tense="present"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

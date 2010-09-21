@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="mod">
+        <node id="3" pos="prep" rel="hd" root="in" sense="in"/>
+        <node cat="np" id="4" rel="obj1">
+          <node id="5" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node id="6" pos="num" rel="mod" root="eerste" sense="eerste" special="rang"/>
+          <node gen="de" id="7" num="sg" pos="noun" rel="hd" root="helft" sense="helft" special="tmp"/>
+        </node>
+      </node>
+      <node id="8" infl="sg" pos="verb" rel="hd" root="neem" sc="transitive" sense="neem" tense="past"/>
+      <node id="9" neclass="LOC" num="both" pos="name" rel="su" root="Eindhoven" sense="Eindhoven"/>
+      <node cat="pp" id="10" rel="mod">
+        <node id="11" pos="adv" rel="mod" root="onder andere" sc="modal" sense="onder andere"/>
+        <node id="12" pos="prep" rel="hd" root="door" sense="door"/>
+        <node cat="np" id="13" rel="obj1">
+          <node id="14" infl="pl_num" pos="num" rel="det" root="twee" sense="twee" special="hoofd"/>
+          <node aform="base" id="15" infl="e" pos="adj" rel="mod" root="mooi" sense="mooi" vform="adj"/>
+          <node gen="de" id="16" num="pl" pos="noun" rel="hd" root="slem_bieding" sense="slem_bieding"/>
+        </node>
+      </node>
+      <node cat="np" id="17" rel="obj1">
+        <node id="18" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node aform="base" id="19" infl="e" pos="adj" rel="mod" root="royaal" sense="royaal" vform="adj"/>
+        <node gen="de" id="20" num="sg" pos="noun" rel="hd" root="voorsprong" sense="voorsprong"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

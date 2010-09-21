@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node id="1" neclass="PER" num="both" pos="name" rel="--" root="Kees" sense="Kees"/>
+  </node>
+</alpino_adt>

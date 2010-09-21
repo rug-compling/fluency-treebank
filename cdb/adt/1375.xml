@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" pos="adv" rel="mod" root="er" sense="er" special="er"/>
+      <node id="3" infl="pl" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+      <node cat="pp" id="4" rel="mod">
+        <node id="5" pos="prep" rel="hd" root="in" sense="in"/>
+        <node cat="np" id="6" rel="obj1">
+          <node aform="base" id="7" infl="e" pos="adj" rel="mod" root="verschil" sense="verschil" vform="gerund"/>
+          <node gen="de" id="8" num="pl" pos="noun" rel="hd" root="plaats" sense="plaats" special="meas_mod"/>
+        </node>
+      </node>
+      <node cat="np" id="9" rel="su">
+        <node aform="base" id="10" infl="e" pos="adj" rel="mod" root="nieuw" sense="nieuw" vform="adj"/>
+        <node gen="het" id="11" num="pl" pos="noun" rel="hd" root="proces" sense="proces"/>
+      </node>
+      <node cat="mwu" id="12" mwu_root="op komst" mwu_sense="op komst" rel="predc">
+        <node aform="base" id="13" infl="pred" pos="adj" rel="mwp" root="op" sense="op" vform="adj"/>
+        <node aform="base" id="14" infl="pred" pos="adj" rel="mwp" root="komst" sense="komst" vform="adj"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

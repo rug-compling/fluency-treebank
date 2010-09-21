@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="np" id="1" rel="--">
+      <node cat="mwu" id="2" mwu_root="Ernst Happel" mwu_sense="Ernst Happel" rel="hd">
+        <node id="3" neclass="PER" num="both" pos="name" rel="mwp" root="Ernst" sense="Ernst"/>
+        <node id="4" neclass="PER" num="both" pos="name" rel="mwp" root="Happel" sense="Happel"/>
+      </node>
+      <node cat="pp" id="5" rel="mod">
+        <node cat="mwu" id="6" mwu_root="na afloop van" mwu_sense="na afloop van" rel="hd">
+          <node id="7" pos="prep" rel="mwp" root="na" sense="na"/>
+          <node id="8" pos="prep" rel="mwp" root="afloop" sense="afloop"/>
+          <node id="9" pos="prep" rel="mwp" root="van" sense="van"/>
+        </node>
+        <node cat="np" id="10" rel="obj1">
+          <node id="11" neclass="ORG" num="both" pos="name" rel="hd" root="Feijenoord_SVV" sense="Feijenoord_SVV"/>
+          <node id="12" infl="both" pos="num" rel="mod" root="6-0" sense="6-0" special="hoofd"/>
+        </node>
+      </node>
+      <node cat="pp" id="13" rel="mod">
+        <node id="14" pos="prep" rel="hd" root="over" sense="over"/>
+        <node cat="np" id="15" rel="obj1">
+          <node id="16" infl="het" pos="det" rel="det" root="dit" sense="dit" wh="nwh"/>
+          <node aform="base" id="17" infl="e" pos="adj" rel="mod" root="merkwaardig" sense="merkwaardig" vform="adj"/>
+          <node gen="het" id="18" num="sg" pos="noun" rel="hd" root="voorval" sense="voorval"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

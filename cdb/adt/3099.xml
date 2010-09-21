@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node gen="de" id="2" num="sg" pos="noun" rel="mod" root="donderdag" sense="donderdag" special="tmp"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="win" sc="intransitive" sense="win" tense="past"/>
+      <node cat="mwu" id="4" mwu_root="Lodewijk Meeter" mwu_sense="Lodewijk Meeter" rel="su">
+        <node id="5" neclass="PER" num="both" pos="name" rel="mwp" root="Lodewijk" sense="Lodewijk"/>
+        <node id="6" neclass="PER" num="both" pos="name" rel="mwp" root="Meeter" sense="Meeter"/>
+      </node>
+      <node cat="pp" id="7" rel="mod">
+        <node id="8" pos="prep" rel="hd" root="met" sense="met"/>
+        <node cat="np" id="9" rel="obj1">
+          <node cat="mwu" id="10" mwu_root="Siete Meeter" mwu_sense="Siete Meeter" rel="hd">
+            <node id="11" neclass="PER" num="both" pos="name" rel="mwp" root="Siete" sense="Siete"/>
+            <node id="12" neclass="PER" num="both" pos="name" rel="mwp" root="Meeter" sense="Meeter"/>
+          </node>
+          <node cat="pp" id="13" rel="mod">
+            <node id="14" pos="prep" rel="hd" root="op" sense="op"/>
+            <node cat="np" id="15" rel="obj1">
+              <node id="16" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node id="17" pos="num" rel="mod" root="tweede" sense="tweede" special="rang"/>
+              <node gen="de" id="18" num="sg" pos="noun" rel="hd" root="plaats" sense="plaats" special="meas_mod"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

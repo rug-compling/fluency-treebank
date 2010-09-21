@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="mod">
+        <node id="3" pos="prep" rel="hd" root="op" sense="op"/>
+        <node cat="np" id="4" rel="obj1">
+          <node id="5" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node aform="base" id="6" infl="no_e" pos="adj" rel="mod" root="gewoon" sense="gewoon" vform="adj"/>
+          <node gen="het" id="7" num="sg" pos="noun" rel="hd" root="veld" sense="veld"/>
+        </node>
+      </node>
+      <node id="8" infl="pl" pos="verb" rel="hd" root="kom_tekort" sc="part_transitive(tekort)" sense="kom_tekort" tense="present"/>
+      <node case="both" def="def" gen="de" id="9" num="both" per="thi" pos="pron" rel="su" root="ze" sense="ze" special="wkpro" wh="nwh"/>
+      <node cat="pp" id="10" rel="mod">
+        <node id="11" pos="prep" rel="hd" root="tegen" sense="tegen"/>
+        <node case="dat_acc" def="def" gen="de" id="12" num="pl" per="fir" pos="pron" rel="obj1" root="ons" sense="ons" wh="nwh"/>
+      </node>
+      <node aform="base" id="13" infl="no_e" pos="adj" rel="mod" root="gewoon" sense="gewoon" vform="adj"/>
+      <node gen="de" id="14" num="sg" pos="noun" rel="obj1" root="klasse" sense="klasse"/>
+      <node cat="mwu" id="15" mwu_root="tekort" mwu_sense="tekort" rel="svp">
+        <node id="16" pos="part" rel="mwp" root="te" sense="te"/>
+        <node id="17" pos="part" rel="mwp" root="kort" sense="kort"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

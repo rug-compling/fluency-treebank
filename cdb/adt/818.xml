@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="smain" id="2" rel="cnj">
+        <node cat="np" id="3" index="1" rel="su">
+          <node id="4" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="5" num="pl" pos="noun" rel="hd" root="Palestijn" sense="Palestijn"/>
+        </node>
+        <node id="6" index="2" infl="pl" pos="verb" rel="hd" root="ben" sc="passive" sense="ben" tense="present"/>
+        <node cat="ppart" id="7" rel="vc">
+          <node id="8" index="1" rel="obj1"/>
+          <node cat="pp" id="9" rel="mod">
+            <node id="10" pos="prep" rel="hd" root="onder" sense="onder"/>
+            <node cat="np" id="11" rel="obj1">
+              <node id="12" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+              <node gen="het" id="13" num="sg" pos="noun" rel="hd" root="bestuur" sense="bestuur"/>
+              <node cat="pp" id="14" rel="mod">
+                <node id="15" pos="prep" rel="hd" root="van" sense="van"/>
+                <node cat="np" id="16" rel="obj1">
+                  <node gen="de" id="17" num="sg" pos="noun" rel="hd" root="koning" sense="koning"/>
+                  <node id="18" neclass="PER" num="both" pos="name" rel="app" root="Hoessein" sense="Hoessein"/>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node cat="cp" id="19" rel="predc">
+            <node id="20" pos="comp" rel="cmp" root="als" sc="als" sense="als"/>
+            <node cat="np" id="21" rel="body">
+              <node aform="base" id="22" infl="both" pos="adj" rel="mod" root="tweederangs" sense="tweederangs" vform="adj"/>
+              <node gen="de" id="23" num="pl" pos="noun" rel="hd" root="burger" sense="burger"/>
+            </node>
+          </node>
+          <node id="24" infl="psp" pos="verb" rel="hd" root="behandel" sc="als_pred_np" sense="behandel"/>
+        </node>
+      </node>
+      <node id="25" pos="vg" rel="crd" root="en" sense="en"/>
+      <node cat="smain" id="26" rel="cnj">
+        <node id="27" index="1" rel="su"/>
+        <node id="28" index="2" rel="hd"/>
+        <node cat="ppart" id="29" rel="vc">
+          <node id="30" index="1" rel="obj1"/>
+          <node id="31" infl="psp" pos="verb" rel="hd" root="discrimineer" sc="transitive" sense="discrimineer"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

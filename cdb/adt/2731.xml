@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="smain" id="2" rel="nucl">
+        <node cat="np" id="3" index="1" rel="su">
+          <node id="4" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+          <node gen="het" id="5" num="sg" pos="noun" rel="hd" root="personeel" sense="personeel"/>
+        </node>
+        <node id="6" infl="modal_not_u" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="present"/>
+        <node cat="inf" id="7" rel="vc">
+          <node id="8" index="1" rel="su"/>
+          <node id="9" infl="inf" pos="verb" rel="hd" root="moet" sc="modifier(aux(inf))" sense="moet"/>
+          <node cat="inf" id="10" rel="vc">
+            <node id="11" index="1" rel="su"/>
+            <node cat="pp" id="12" rel="pc">
+              <node id="13" pos="prep" rel="hd" root="voor" sense="voor"/>
+              <node cat="np" id="14" rel="obj1">
+                <node id="15" infl="de" pos="det" rel="det" root="deze" sense="deze" wh="nwh"/>
+                <node aform="base" id="16" infl="e" pos="adj" rel="mod" root="nieuw" sense="nieuw" vform="adj"/>
+                <node gen="de" id="17" num="sg" pos="noun" rel="hd" root="aanpak" sense="aanpak"/>
+              </node>
+            </node>
+            <node gen="het" id="18" num="sg" pos="noun" rel="obj1" root="begrip" sense="begrip"/>
+            <node id="19" infl="inf" pos="verb" rel="hd" root="heb" sc="fixed([{[acc(begrip),pc(voor)]}],no_passive)" sense="begrip-heb-voor"/>
+          </node>
+        </node>
+      </node>
+      <node cat="smain" id="20" rel="tag">
+        <node id="21" pos="adv" rel="vc" root="zo" sc="dip_sbar" sense="zo"/>
+        <node id="22" infl="sg3" pos="verb" rel="hd" root="meen" sc="sbar" sense="meen" tense="present"/>
+        <node cat="mwu" id="23" mwu_root="jhr. Sickinghe" mwu_sense="jhr. Sickinghe" rel="su">
+          <node id="24" neclass="PER" num="both" pos="name" rel="mwp" root="jhr." sense="jhr."/>
+          <node id="25" neclass="PER" num="both" pos="name" rel="mwp" root="Sickinghe" sense="Sickinghe"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

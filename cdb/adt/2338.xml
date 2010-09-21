@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="het" id="4" num="sg" pos="noun" rel="hd" root="ijs" sense="ijs"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="op" sense="op"/>
+          <node cat="np" id="7" rel="obj1">
+            <node id="8" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+            <node id="9" neclass="LOC" num="both" pos="name" rel="hd" root="Ijsselmeer" sense="Ijsselmeer"/>
+          </node>
+        </node>
+      </node>
+      <node id="10" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+      <node cat="pp" id="11" rel="mod">
+        <node id="12" pos="prep" rel="hd" root="door" sense="door"/>
+        <node cat="np" id="13" rel="obj1">
+          <node id="14" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node aform="base" id="15" infl="e" pos="adj" rel="mod" root="krachtig" sense="krachtig" vform="adj"/>
+          <node gen="de" id="16" num="sg" pos="noun" rel="hd" root="wind" sense="wind"/>
+        </node>
+      </node>
+      <node cat="pp" id="17" rel="predc">
+        <node id="18" pos="prep" rel="hd" root="in" sense="in"/>
+        <node gen="de" id="19" num="sg" pos="noun" rel="obj1" root="beweging" sc="pred_pp(in)" sense="beweging"/>
+      </node>
+      <node cat="whrel" id="20" rel="mod">
+        <node id="21" index="1" pos="pp" rel="rhd" root="waardoor" sense="waardoor" special="waar"/>
+        <node cat="ssub" id="22" rel="body">
+          <node id="23" index="1" rel="mod"/>
+          <node cat="np" id="24" rel="su">
+            <node id="25" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="26" num="sg" pos="noun" rel="hd" root="ijs_toestand" sense="ijs_toestand"/>
+          </node>
+          <node id="27" pos="adv" rel="mod" root="steeds" sense="steeds"/>
+          <node id="28" infl="sg3" pos="verb" rel="hd" root="verander" sc="intransitive" sense="verander" tense="present"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

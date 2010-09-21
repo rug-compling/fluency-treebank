@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="directeur" sense="directeur"/>
+      </node>
+      <node id="5" infl="sg" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="past"/>
+      <node cat="inf" id="6" rel="vc">
+        <node id="7" index="1" rel="su"/>
+        <node id="8" infl="inf" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb"/>
+        <node cat="ppart" id="9" rel="vc">
+          <node id="10" index="1" rel="su"/>
+          <node aform="base" id="11" infl="no_e" pos="adj" rel="mod" root="eigenmachtig" sense="eigenmachtig" vform="adj"/>
+          <node cat="cp" id="12" rel="mod">
+            <node id="13" pos="comp" rel="cmp" root="zonder" sc="inf" sense="zonder"/>
+            <node cat="ti" id="14" rel="body">
+              <node id="15" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+              <node cat="inf" id="16" rel="body">
+                <node cat="np" id="17" rel="obj1">
+                  <node id="18" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                  <node gen="de" id="19" num="pl" pos="noun" rel="hd" root="arts" sense="arts"/>
+                </node>
+                <node id="20" pos="pp" rel="pc" root="erin" sense="erin" special="er"/>
+                <node id="21" infl="inf" pos="verb" rel="hd" root="ken" sc="np_pc_pp(in)" sense="ken-in"/>
+              </node>
+            </node>
+          </node>
+          <node cat="np" id="22" rel="obj1">
+            <node id="23" infl="een" pos="det" rel="det" root="een" sense="een"/>
+            <node id="24" pos="verb" rel="hd" root="ambulance_waag" sc="intransitive" sense="ambulance_waag" special="v_noun"/>
+          </node>
+          <node id="25" infl="psp" pos="verb" rel="hd" root="bestel" sc="transitive" sense="bestel"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

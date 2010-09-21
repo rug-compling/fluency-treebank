@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="modal_not_u" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="present"/>
+      <node gen="het" id="3" index="1" num="sg" pos="noun" rel="su" root="proces-verbaal" sense="proces-verbaal"/>
+      <node cat="inf" id="4" rel="vc">
+        <node id="5" index="1" rel="su"/>
+        <node id="6" infl="inf" pos="verb" rel="hd" root="word" sc="passive" sense="word"/>
+        <node cat="ppart" id="7" rel="vc">
+          <node cat="pp" id="8" rel="mod">
+            <node id="9" pos="prep" rel="hd" root="tegen" sense="tegen"/>
+            <node cat="mwu" id="10" mwu_root="Van V." mwu_sense="Van V." rel="obj1">
+              <node id="11" neclass="PER" num="both" pos="name" rel="mwp" root="Van" sense="Van"/>
+              <node id="12" neclass="PER" num="both" pos="name" rel="mwp" root="V." sense="V."/>
+            </node>
+          </node>
+          <node id="13" index="1" rel="obj1"/>
+          <node id="14" infl="psp" pos="verb" rel="hd" root="maak_op" sc="part_transitive(op)" sense="maak_op"/>
+          <node cat="pp" id="15" rel="mod">
+            <node id="16" pos="prep" rel="hd" root="wegens" sense="wegens"/>
+            <node gen="de" id="17" num="sg" pos="noun" rel="obj1" root="dier_mishandeling" sense="dier_mishandeling"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

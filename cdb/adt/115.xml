@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="smain" id="2" rel="cnj">
+        <node case="both" def="def" gen="de" id="3" num="sg" per="je" pos="pron" rel="su" root="je" sense="je" special="wkpro" wh="nwh"/>
+        <node id="4" infl="sg" pos="verb" rel="hd" root="kom_thuis" sc="part_intransitive(thuis)" sense="kom_thuis" tense="past"/>
+        <node aform="base" id="5" infl="no_e" pos="adj" rel="predm" root="doodmoe" sense="doodmoe" vform="adj"/>
+      </node>
+      <node id="6" pos="vg" rel="crd" root="maar" sense="maar"/>
+      <node cat="smain" id="7" rel="cnj">
+        <node case="both" def="def" gen="de" id="8" num="sg" per="je" pos="pron" rel="su" root="je" sense="je" special="wkpro" wh="nwh"/>
+        <node id="9" infl="sg" pos="verb" rel="hd" root="heb" sc="transitive_ndev" sense="heb" tense="past"/>
+        <node id="10" pos="adv" rel="mod" root="dan" sense="dan" special="tmp"/>
+        <node id="11" pos="adv" rel="mod" root="ook" sense="ook" special="sentence"/>
+        <node cat="np" id="12" rel="obj1">
+          <node id="13" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+          <node gen="het" id="14" num="sg" pos="noun" rel="hd" root="gevoel" sc="vp" sense="gevoel"/>
+          <node cat="ti" id="15" rel="vc">
+            <node id="16" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+            <node cat="inf" id="17" rel="body">
+              <node id="18" infl="inf" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb"/>
+              <node cat="ppart" id="19" rel="vc">
+                <node id="20" infl="wat" pos="det" rel="obj1" root="wat" sense="wat" wh="nwh"/>
+                <node id="21" infl="psp" pos="verb" rel="hd" root="doe" sc="transitive_ndev" sense="doe"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="pl" pos="verb" rel="hd" root="kan" sc="aux(inf)" sense="kan" tense="present"/>
+      <node case="both" def="def" gen="de" id="3" index="1" num="both" per="thi" pos="pron" rel="su" root="ze" sense="ze" special="wkpro" wh="nwh"/>
+      <node cat="inf" id="4" rel="vc">
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="met" sense="met"/>
+          <node cat="np" id="7" rel="obj1">
+            <node id="8" infl="een" pos="det" rel="det" root="een" sense="een"/>
+            <node gen="de" id="9" num="sg" pos="noun" rel="hd" root="snelheid" sense="snelheid"/>
+            <node cat="pp" id="10" rel="mod">
+              <node id="11" pos="prep" rel="hd" root="van" sense="van"/>
+              <node cat="np" id="12" rel="obj1">
+                <node cat="conj" id="13" rel="det">
+                  <node id="14" infl="pl_num" pos="num" rel="cnj" root="300" sense="300" special="hoofd"/>
+                  <node id="15" pos="vg" rel="crd" root="tot" sense="tot"/>
+                  <node id="16" infl="pl_num" pos="num" rel="cnj" root="400" sense="400" special="hoofd"/>
+                </node>
+                <node gen="de" id="17" num="meas" pos="noun" rel="hd" root="kilo_meter" sense="kilo_meter" special="meas_mod"/>
+                <node cat="pp" id="18" rel="mod">
+                  <node id="19" pos="prep" rel="hd" root="per" sense="per"/>
+                  <node gen="het" id="20" num="meas" pos="noun" rel="obj1" root="uur" sense="uur" special="tmp"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node id="21" index="1" rel="su"/>
+        <node cat="pp" id="22" rel="mod">
+          <node id="23" pos="prep" rel="hd" root="rond" sense="rond"/>
+          <node cat="mwu" id="24" mwu_root="een uur" mwu_sense="een uur" rel="obj1">
+            <node id="25" pos="noun" rel="mwp" root="een" sense="een" special="tmp"/>
+            <node id="26" pos="noun" rel="mwp" root="uur" sense="uur" special="tmp"/>
+          </node>
+        </node>
+        <node id="27" pos="adv" rel="ld" root="hier" sense="hier" special="er_loc"/>
+        <node id="28" infl="inf" pos="verb" rel="hd" root="ben" sc="ld_adv" sense="ben"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

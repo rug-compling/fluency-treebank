@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="smain" id="2" rel="cnj">
+        <node aform="compar" id="3" infl="no_e" pos="adj" rel="mod" root="vroeg" sense="vroeg" vform="adj"/>
+        <node id="4" infl="sg" pos="verb" rel="hd" root="maak" sc="transitive" sense="maak" tense="past"/>
+        <node case="both" def="def" gen="de" id="5" num="sg" per="je" pos="pron" rel="su" root="je" sense="je" special="wkpro" wh="nwh"/>
+        <node id="6" pos="adv" rel="mod" root="nog" sense="nog"/>
+        <node cat="np" id="7" rel="obj1">
+          <node gen="de" id="8" num="sg" pos="noun" rel="hd" root="kans" sc="sbar" sense="kans"/>
+          <node cat="cp" id="9" rel="vc">
+            <node id="10" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+            <node cat="ssub" id="11" rel="body">
+              <node id="12" infl="het" pos="det" rel="su" root="het" sense="het" wh="nwh"/>
+              <node aform="base" id="13" infl="no_e" pos="adj" rel="mod" root="goed" sense="goed" vform="adj"/>
+              <node id="14" infl="sg" pos="verb" rel="hd" root="ga" sc="intransitive" sense="ga" tense="past"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="15" pos="vg" rel="crd" root="maar" sense="maar"/>
+      <node cat="smain" id="16" rel="cnj">
+        <node id="17" infl="het" pos="det" rel="su" root="het" sense="het" wh="nwh"/>
+        <node id="18" infl="sg_heeft" pos="verb" rel="hd" root="heb" sc="transitive_ndev" sense="heb" tense="present"/>
+        <node id="19" pos="adv" rel="mod" root="nu" sense="nu" special="tmp"/>
+        <node cat="np" id="20" rel="obj1">
+          <node id="21" infl="geen" pos="det" rel="det" root="geen" sense="geen" wh="nwh"/>
+          <node id="22" infl="enkele" pos="det" rel="det" root="enkel" sense="enkel" special="adj_number"/>
+          <node gen="de" id="23" num="sg" pos="noun" rel="hd" root="zin" sense="zin"/>
+        </node>
+        <node aform="compar" id="24" infl="meer" pos="adj" rel="mod" root="meer" sense="meer" vform="adj"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

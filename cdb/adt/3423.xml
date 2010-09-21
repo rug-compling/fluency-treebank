@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="sv1" id="2" rel="cnj">
+        <node id="3" infl="sg1" pos="verb" rel="hd" root="garneer" sc="transitive" sense="garneer" tense="present"/>
+        <node cat="pp" id="4" rel="mod">
+          <node id="5" pos="prep" rel="hd" root="om" sense="om"/>
+          <node cat="np" id="6" rel="obj1">
+            <node id="7" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+            <node gen="het" id="8" num="sg" pos="noun" rel="hd" root="ijs" sense="ijs"/>
+          </node>
+        </node>
+        <node cat="np" id="9" rel="obj1">
+          <node id="10" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node gen="de" id="11" num="sg" pos="noun" rel="hd" root="sliert" sc="measure" sense="sliert-MEAS"/>
+          <node gen="de" id="12" num="sg" pos="noun" rel="mod" root="slagroom" sense="slagroom"/>
+        </node>
+      </node>
+      <node id="13" pos="vg" rel="crd" root="en" sense="en"/>
+      <node cat="sv1" id="14" rel="cnj">
+        <node id="15" infl="sg1" pos="verb" rel="hd" root="leg" sc="np_ld_pp" sense="leg" tense="present"/>
+        <node cat="np" id="16" rel="obj1">
+          <node id="17" infl="pl_num" pos="num" rel="det" root="vier" sense="vier" special="hoofd"/>
+          <node gen="het" id="18" num="pl" pos="noun" rel="hd" root="part_DIM" sc="measure" sense="part_DIM-MEAS"/>
+          <node gen="de" id="19" num="sg" pos="noun" rel="mod" root="sinaasappel" sense="sinaasappel"/>
+        </node>
+        <node cat="pp" id="20" rel="ld">
+          <node id="21" pos="adv" rel="obj1" root="daar" sense="daar" special="er_loc"/>
+          <node id="22" pos="prep" rel="hd" root="op" sense="op"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

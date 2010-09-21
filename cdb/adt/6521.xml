@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="np" id="2" rel="nucl">
+        <node id="3" pos="noun" rel="hd" root="weinig" sc="iets" sense="weinig"/>
+        <node aform="base" id="4" infl="no_e" pos="adj" rel="mod" root="goed" sense="goed" special="iets" vform="adj"/>
+      </node>
+      <node cat="smain" id="5" rel="tag">
+        <node id="6" infl="sg_heeft" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="present"/>
+        <node cat="mwu" id="7" index="1" mwu_root="Leo Ferre" mwu_sense="Leo Ferre" rel="su">
+          <node id="8" neclass="PER" num="both" pos="name" rel="mwp" root="Leo" sense="Leo"/>
+          <node id="9" neclass="PER" num="both" pos="name" rel="mwp" root="Ferre" sense="Ferre"/>
+        </node>
+        <node cat="ppart" id="10" rel="vc">
+          <node id="11" pos="adv" rel="vc" root="zo" sc="dip_sbar" sense="zo"/>
+          <node id="12" index="1" rel="su"/>
+          <node id="13" infl="psp" pos="verb" rel="hd" root="ondervind" sc="sbar" sense="ondervind"/>
+          <node cat="pp" id="14" rel="mod">
+            <node id="15" pos="prep" rel="hd" root="in" sense="in"/>
+            <node id="16" neclass="LOC" num="both" pos="name" rel="obj1" root="Vichy" sense="Vichy"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

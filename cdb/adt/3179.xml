@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="mwu" id="2" index="1" mwu_root="Rood en Wit" mwu_sense="Rood en Wit" rel="su">
+        <node id="3" neclass="ORG" num="both" pos="name" rel="mwp" root="Rood" sense="Rood"/>
+        <node id="4" neclass="ORG" num="both" pos="name" rel="mwp" root="en" sense="en"/>
+        <node id="5" neclass="ORG" num="both" pos="name" rel="mwp" root="Wit" sense="Wit"/>
+      </node>
+      <node id="6" infl="sg" pos="verb" rel="hd" root="slaag" sc="er_pp_vp(in)" sense="slaag-in" tense="past"/>
+      <node id="7" pos="adv" rel="mod" root="daarna" sense="daarna" special="tmp"/>
+      <node id="8" pos="adv" rel="mod" root="niet" sense="niet"/>
+      <node cat="pp" id="9" rel="pc">
+        <node id="10" pos="adv" rel="pobj1" root="er" sense="er" special="er"/>
+        <node id="11" pos="prep" rel="hd" root="in" sense="in"/>
+        <node cat="ti" id="12" rel="vc">
+          <node id="13" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+          <node cat="inf" id="14" rel="body">
+            <node id="15" index="1" rel="su"/>
+            <node cat="np" id="16" rel="obj1">
+              <node id="17" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node gen="de" id="18" num="sg" pos="noun" rel="hd" root="overwinning" sense="overwinning"/>
+            </node>
+            <node id="19" infl="inf" pos="verb" rel="hd" root="forceer" sc="transitive" sense="forceer"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

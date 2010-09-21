@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="mwu" id="1" mwu_root="Yes, I do, thank you very much" mwu_sense="Yes, I do, thank you very much" rel="--">
+      <node id="2" num="both" pos="name" rel="mwp" root="Yes," sense="Yes,"/>
+      <node id="3" num="both" pos="name" rel="mwp" root="I" sense="I"/>
+      <node id="4" num="both" pos="name" rel="mwp" root="do," sense="do,"/>
+      <node id="5" num="both" pos="name" rel="mwp" root="thank" sense="thank"/>
+      <node id="6" num="both" pos="name" rel="mwp" root="you" sense="you"/>
+      <node id="7" num="both" pos="name" rel="mwp" root="very" sense="very"/>
+      <node id="8" num="both" pos="name" rel="mwp" root="much" sense="much"/>
+    </node>
+  </node>
+</alpino_adt>

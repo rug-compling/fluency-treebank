@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node aform="base" id="2" infl="pred" pos="adj" rel="mod" root="wel" sense="wel" vform="adj"/>
+      <node id="3" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula_vp" sense="ben" tense="present"/>
+      <node id="4" pos="noun" rel="sup" root="het" sense="het" special="het"/>
+      <node aform="base" id="5" infl="no_e" pos="adj" rel="predc" root="verbazingwekkend" sc="subject_vp" sense="verbazingwekkend" vform="adj"/>
+      <node cat="ti" id="6" rel="su">
+        <node id="7" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+        <node cat="inf" id="8" rel="body">
+          <node id="9" infl="inf" pos="verb" rel="hd" root="constateer" sc="sbar" sense="constateer"/>
+          <node cat="cp" id="10" rel="vc">
+            <node id="11" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+            <node cat="ssub" id="12" rel="body">
+              <node cat="np" id="13" rel="su">
+                <node id="14" infl="pl_num" pos="num" rel="hd" root="twee" sense="twee" special="hoofd"/>
+                <node cat="pp" id="15" rel="mod">
+                  <node id="16" pos="prep" rel="hd" root="van" sense="van"/>
+                  <node cat="np" id="17" rel="obj1">
+                    <node id="18" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                    <node id="19" infl="pl_num" pos="num" rel="det" root="drie" sense="drie" special="hoofd"/>
+                    <node aform="base" id="20" infl="e" pos="adj" rel="mod" root="getoond" sense="getoond" vform="psp"/>
+                    <node gen="de" id="21" num="pl" pos="noun" rel="hd" root="hond" sense="hond"/>
+                  </node>
+                </node>
+              </node>
+              <node cat="np" id="22" rel="obj1">
+                <node aform="base" id="23" infl="e" pos="adj" rel="mod" root="sneeuwwit" sense="sneeuwwit" vform="adj"/>
+                <node gen="de" id="24" num="pl" pos="noun" rel="hd" root="vacht" sense="vacht"/>
+              </node>
+              <node id="25" infl="pl" pos="verb" rel="hd" root="heb" sc="transitive_ndev" sense="heb" tense="present"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

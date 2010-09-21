@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node case="nom" def="def" gen="de" id="2" num="sg" per="thi" pos="pron" rel="su" root="men" sense="men" wh="nwh"/>
+      <node id="3" infl="sg3" pos="verb" rel="hd" root="ken" sc="als_pred_np" sense="ken" tense="present"/>
+      <node cat="np" id="4" rel="obj1">
+        <node id="5" pos="adv" rel="mod" root="zowel" sc="modal" sense="zowel"/>
+        <node aform="base" id="6" infl="e" pos="adj" rel="mod" root="goedmoedig" sense="goedmoedig" vform="adj"/>
+        <node gen="de" id="7" num="sg" pos="noun" rel="hd" root="ironie" sense="ironie"/>
+      </node>
+      <node cat="cp" id="8" rel="predc">
+        <node id="9" pos="comp" rel="cmp" root="als" sc="als" sense="als"/>
+        <node cat="conj" id="10" rel="body">
+          <node aform="base" id="11" infl="e" pos="adj" rel="cnj" root="bijtend" sense="bijtend" vform="gerund"/>
+          <node id="12" pos="vg" rel="crd" root="of" sense="of"/>
+          <node cat="np" id="13" rel="cnj">
+            <node id="14" pos="adv" rel="mod" root="zelfs" sense="zelfs"/>
+            <node aform="base" id="15" infl="e" pos="adj" rel="hd" root="snijdend" sense="snijdend" vform="adj"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

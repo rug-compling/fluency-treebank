@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="np" id="2" rel="cnj">
+        <node cat="np" id="3" rel="obj1">
+          <node id="4" infl="pl_num" pos="num" rel="det" root="twee" sense="twee" special="hoofd"/>
+          <node cat="ppart" id="5" rel="mod">
+            <node cat="pp" id="6" rel="mod">
+              <node id="7" pos="prep" rel="hd" root="in" sense="in"/>
+              <node gen="het" id="8" num="pl" pos="noun" rel="obj1" root="plak_DIM" sense="plak_DIM"/>
+            </node>
+            <node aform="base" id="9" infl="both" pos="adj" rel="hd" root="gesneden" sense="gesneden" vform="psp"/>
+          </node>
+          <node gen="de" id="10" num="pl" pos="noun" rel="hd" root="banaan" sense="banaan"/>
+        </node>
+        <node cat="pp" id="11" rel="mod">
+          <node id="12" pos="prep" rel="hd" root="in" sense="in"/>
+          <node cat="np" id="13" rel="obj1">
+            <node id="14" infl="pl_num" pos="num" rel="det" root="vier" sense="vier" special="hoofd"/>
+            <node gen="het" id="15" num="pl" pos="noun" rel="hd" root="glas" sc="measure" sense="glas-MEAS"/>
+            <node gen="het" id="16" num="sg" pos="noun" rel="mod" root="water" sense="water"/>
+          </node>
+        </node>
+        <node id="17" pos="verb" rel="hd" root="verdeel" sc="transitive" sense="verdeel" special="v_noun"/>
+      </node>
+      <node id="18" pos="vg" rel="crd" root="en" sense="en"/>
+      <node cat="np" id="19" rel="cnj">
+        <node cat="np" id="20" rel="obj1">
+          <node id="21" infl="pl_num" pos="num" rel="det" root="vier" sense="vier" special="hoofd"/>
+          <node gen="de" id="22" num="pl" pos="noun" rel="hd" root="eet_lepel" sc="measure" sense="eet_lepel-MEAS" special="meas_mod"/>
+          <node cat="np" id="23" rel="mod">
+            <node aform="base" id="24" infl="e" pos="adj" rel="mod" root="klein_gemaakt" sense="klein_gemaakt" vform="psp"/>
+            <node gen="het" id="25" num="pl" pos="noun" rel="hd" root="blok_DIM" sc="measure" sense="blok_DIM-MEAS"/>
+            <node gen="het" id="26" num="sg" pos="noun" rel="mod" root="ijs" sense="ijs"/>
+          </node>
+        </node>
+        <node id="27" pos="verb" rel="hd" root="voeg_toe" sc="transitive" sense="voeg_toe" special="v_noun"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

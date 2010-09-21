@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" pos="noun" rel="su" root="het" sense="het" special="het"/>
+      <node id="3" infl="pl" pos="verb" rel="hd" root="ben" sc="cleft" sense="ben" tense="present"/>
+      <node cat="conj" id="4" rel="predc">
+        <node cat="np" id="5" rel="cnj">
+          <node id="6" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node id="7" neclass="LOC" num="both" pos="name" rel="hd" root="Filadelfiakerk" sense="Filadelfiakerk"/>
+        </node>
+        <node id="8" pos="vg" rel="crd" root="en" sense="en"/>
+        <node cat="np" id="9" rel="cnj">
+          <node id="10" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node aform="base" id="11" infl="e" pos="adj" rel="mod" root="vol" sense="vol" vform="adj"/>
+          <node gen="de" id="12" num="sg" pos="noun" rel="hd" root="evangelie_gemeente" sense="evangelie_gemeente"/>
+          <node cat="pp" id="13" rel="mod">
+            <node id="14" pos="prep" rel="hd" root="in" sense="in"/>
+            <node cat="np" id="15" rel="obj1">
+              <node id="16" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node gen="de" id="17" num="sg" pos="noun" rel="hd" root="wijk" sense="wijk"/>
+              <node id="18" neclass="LOC" num="both" pos="name" rel="app" root="Pendrecht" sense="Pendrecht"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" neclass="LOC" num="both" pos="name" rel="su" root="Rusland" sense="Rusland"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="win" sc="pc_pp(van)" sense="win-van" tense="past"/>
+      <node cat="pp" id="4" rel="mod">
+        <node id="5" pos="prep" rel="hd" root="in" sense="in"/>
+        <node id="6" neclass="LOC" num="both" pos="name" rel="obj1" root="Moskou" sense="Moskou"/>
+      </node>
+      <node cat="pp" id="7" rel="mod">
+        <node id="8" pos="prep" rel="hd" root="in" sense="in"/>
+        <node cat="np" id="9" rel="obj1">
+          <node gen="de" id="10" num="sg" pos="noun" rel="hd" root="groep" sense="groep"/>
+          <node id="11" infl="pl_num" pos="num" rel="app" root="4" sense="4" special="hoofd"/>
+        </node>
+      </node>
+      <node cat="pp" id="12" rel="mod">
+        <node id="13" pos="prep" rel="hd" root="met" sense="met"/>
+        <node id="14" infl="both" pos="num" rel="obj1" root="2-0" sense="2-0" special="hoofd"/>
+      </node>
+      <node cat="pp" id="15" rel="pc">
+        <node id="16" pos="prep" rel="hd" root="van" sense="van"/>
+        <node cat="np" id="17" rel="obj1">
+          <node id="18" neclass="LOC" num="both" pos="name" rel="hd" root="Noord-Ierland" sense="Noord-Ierland"/>
+          <node cat="rel" id="19" rel="mod">
+            <node case="no_obl" gen="het" id="20" index="1" pos="pron" rel="rhd" root="dat" sense="dat" wh="rel"/>
+            <node cat="ssub" id="21" rel="body">
+              <node id="22" index="1" rel="su"/>
+              <node cat="np" id="23" rel="obj1">
+                <node id="24" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                <node aform="base" id="25" infl="e" pos="adj" rel="mod" root="geblesseerd" sense="geblesseerd" vform="psp"/>
+                <node cat="mwu" id="26" mwu_root="George Best" mwu_sense="George Best" rel="hd">
+                  <node id="27" neclass="PER" num="both" pos="name" rel="mwp" root="George" sense="George"/>
+                  <node id="28" neclass="PER" num="both" pos="name" rel="mwp" root="Best" sense="Best"/>
+                </node>
+              </node>
+              <node aform="base" id="29" infl="no_e" pos="adj" rel="mod" root="geducht" sense="geducht" vform="psp"/>
+              <node id="30" infl="sg" pos="verb" rel="hd" root="mis" sc="transitive" sense="mis" tense="past"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="mod">
+        <node id="3" pos="prep" rel="hd" root="naast" sense="naast"/>
+        <node cat="np" id="4" rel="obj1">
+          <node id="5" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+          <node cat="ppart" id="6" rel="mod">
+            <node cat="pp" id="7" rel="mod">
+              <node id="8" pos="prep" rel="hd" root="door" sense="door"/>
+              <node cat="np" id="9" rel="obj1">
+                <node gen="de" id="10" num="sg" pos="noun" rel="hd" root="baan_coach" sense="baan_coach"/>
+                <node cat="mwu" id="11" mwu_root="Frans Mahn" mwu_sense="Frans Mahn" rel="app">
+                  <node id="12" neclass="PER" num="both" pos="name" rel="mwp" root="Frans" sense="Frans"/>
+                  <node id="13" neclass="PER" num="both" pos="name" rel="mwp" root="Mahn" sense="Mahn"/>
+                </node>
+              </node>
+            </node>
+            <node aform="base" id="14" infl="no_e" pos="adj" rel="mod" root="zorgvuldig" sense="zorgvuldig" vform="adj"/>
+            <node aform="base" id="15" infl="e" pos="adj" rel="hd" root="geprepareerd" sense="geprepareerd" vform="psp"/>
+          </node>
+          <node gen="het" id="16" num="meas" pos="noun" rel="hd" root="tandem_paar" sense="tandem_paar" special="meas_mod"/>
+        </node>
+      </node>
+      <node id="17" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+      <node id="18" neclass="LOC" num="both" pos="name" rel="su" root="Nederland" sense="Nederland"/>
+      <node id="19" pos="adv" rel="mod" root="ook" sense="ook" special="sentence"/>
+      <node cat="ap" id="20" rel="predc">
+        <node aform="base" id="21" infl="no_e" pos="adj" rel="hd" root="favoriet" sc="pp(bij)" sense="favoriet-bij" vform="adj"/>
+        <node cat="pp" id="22" rel="pc">
+          <node id="23" pos="prep" rel="hd" root="bij" sense="bij"/>
+          <node cat="np" id="24" rel="obj1">
+            <node id="25" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="both" id="26" num="both" pos="noun" rel="hd" root="amateurstayers" sense="amateurstayers"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="het" id="4" num="sg" pos="noun" rel="hd" root="zuurstof_gehalte" sense="zuurstof_gehalte"/>
+      </node>
+      <node id="5" infl="sg" pos="verb" rel="hd" root="loop_uiteen" sc="part_intransitive(uiteen)" sense="loop_uiteen" tense="past"/>
+      <node cat="pp" id="6" rel="mod">
+        <node id="7" pos="prep" rel="hd" root="in" sense="in"/>
+        <node cat="np" id="8" rel="obj1">
+          <node id="9" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="10" num="pl" pos="noun" rel="hd" root="zomer" sense="zomer" special="tmp"/>
+          <node cat="pp" id="11" rel="mod">
+            <node id="12" pos="prep" rel="hd" root="van" sense="van"/>
+            <node id="13" neclass="year" pos="noun" rel="obj1" root="1966" sense="1966"/>
+          </node>
+          <node cat="pp" id="14" rel="mod">
+            <node cat="mwu" id="15" mwu_root="tot en met" mwu_sense="tot en met" rel="hd">
+              <node id="16" pos="prep" rel="mwp" root="tot" sense="tot"/>
+              <node id="17" pos="prep" rel="mwp" root="en" sense="en"/>
+              <node id="18" pos="prep" rel="mwp" root="met" sense="met"/>
+            </node>
+            <node id="19" neclass="year" pos="noun" rel="obj1" root="1969" sense="1969"/>
+          </node>
+        </node>
+      </node>
+      <node aform="base" id="20" infl="no_e" pos="adj" rel="mod" root="sterk" sense="sterk" vform="adj"/>
+    </node>
+  </node>
+</alpino_adt>

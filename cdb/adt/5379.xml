@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="aanrijding" sense="aanrijding"/>
+      </node>
+      <node id="5" infl="sg" pos="verb" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" tense="past"/>
+      <node cat="ppart" id="6" rel="vc">
+        <node id="7" index="1" rel="su"/>
+        <node cat="pp" id="8" rel="mod">
+          <node id="9" pos="prep" rel="hd" root="op" sense="op"/>
+          <node cat="np" id="10" rel="obj1">
+            <node id="11" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="12" num="sg" pos="noun" rel="hd" root="avond" sense="avond" special="tmp"/>
+            <node cat="pp" id="13" rel="mod">
+              <node id="14" pos="prep" rel="hd" root="van" sense="van"/>
+              <node cat="np" id="15" rel="obj1">
+                <node cat="mwu" id="16" mwu_root="de 28ste juni" mwu_sense="de 28ste juni" rel="hd">
+                  <node id="17" pos="noun" rel="mwp" root="de" sense="de" special="tmp"/>
+                  <node id="18" pos="noun" rel="mwp" root="28ste" sense="28ste" special="tmp"/>
+                  <node id="19" pos="noun" rel="mwp" root="juni" sense="juni" special="tmp"/>
+                </node>
+                <node cat="pp" id="20" rel="mod">
+                  <node id="21" pos="prep" rel="hd" root="van" sense="van"/>
+                  <node cat="np" id="22" rel="obj1">
+                    <node id="23" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+                    <node aform="base" id="24" infl="both" pos="adj" rel="mod" root="afgelopen" sense="afgelopen" vform="psp"/>
+                    <node gen="het" id="25" num="meas" pos="noun" rel="hd" root="jaar" sense="jaar" special="tmp"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node id="26" infl="psp" pos="verb" rel="hd" root="gebeur" sc="intransitive" sense="gebeur"/>
+        <node cat="pp" id="27" rel="mod">
+          <node id="28" pos="prep" rel="hd" root="onder" sense="onder"/>
+          <node id="29" neclass="PER" num="both" pos="name" rel="obj1" root="Wassenaar" sense="Wassenaar"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

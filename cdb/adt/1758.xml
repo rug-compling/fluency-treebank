@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="conj" id="2" rel="nucl">
+        <node gen="both" id="3" num="both" pos="noun" rel="cnj" root="wikke" sense="wikke"/>
+        <node gen="both" id="4" num="both" pos="noun" rel="cnj" root="alfalfa" sense="alfalfa"/>
+        <node gen="de" id="5" num="pl" pos="noun" rel="cnj" root="zonnebloem" sense="zonnebloem"/>
+      </node>
+      <node cat="sv1" id="6" rel="tag">
+        <node id="7" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="passive" sense="ben" tense="present"/>
+        <node cat="ppart" id="8" rel="vc">
+          <node id="9" infl="psp" pos="verb" rel="hd" root="zeg" sc="tr_sbar" sense="zeg"/>
+          <node cat="ap" id="10" rel="mod">
+            <node aform="compar" id="11" infl="no_e" pos="adj" rel="hd" root="makkelijk" sense="makkelijk" vform="adj"/>
+            <node cat="cp" id="12" rel="obcomp">
+              <node id="13" pos="comparative" rel="cmp" root="dan" sense="dan"/>
+              <node id="14" infl="psp" pos="verb" rel="body" root="doe" sc="sbar" sense="doe"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

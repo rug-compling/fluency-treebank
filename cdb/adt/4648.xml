@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node id="2" pos="comp" rel="dlink" root="maar" sc="root" sense="maar"/>
+      <node cat="smain" id="3" rel="nucl">
+        <node cat="np" id="4" rel="su">
+          <node id="5" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node aform="super" id="6" infl="e" pos="adj" rel="mod" root="groot" sense="groot" vform="adj"/>
+          <node gen="de" id="7" num="sg" pos="noun" rel="hd" root="zorg" sense="zorg"/>
+        </node>
+        <node id="8" infl="sg" pos="verb" rel="hd" root="blijf" sc="copula" sense="blijf" tense="past"/>
+        <node cat="np" id="9" rel="predc">
+          <node id="10" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+          <node gen="het" id="11" num="sg" pos="noun" rel="hd" root="veld" sense="veld"/>
+          <node cat="rel" id="12" rel="mod">
+            <node case="no_obl" gen="het" id="13" index="1" pos="pron" rel="rhd" root="dat" sense="dat" wh="rel"/>
+            <node cat="ssub" id="14" rel="body">
+              <node id="15" index="1" rel="su"/>
+              <node id="16" infl="sg" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="past"/>
+              <node cat="ppart" id="17" rel="vc">
+                <node id="18" index="1" rel="obj1"/>
+                <node cat="pp" id="19" rel="mod">
+                  <node id="20" pos="prep" rel="hd" root="met" sense="met"/>
+                  <node cat="np" id="21" rel="obj1">
+                    <node id="22" infl="alle" pos="det" rel="det" root="alle" sense="alle" wh="nwh"/>
+                    <node aform="base" id="23" infl="e" pos="adj" rel="mod" root="beschikbaar" sense="beschikbaar" vform="adj"/>
+                    <node gen="het" id="24" num="pl" pos="noun" rel="hd" root="materiaal" sense="materiaal"/>
+                  </node>
+                </node>
+                <node cat="mwu" id="25" mwu_root="onder handen" mwu_sense="onder handen" rel="svp">
+                  <node id="26" pos="fixed" rel="mwp" root="onder" sense="onder"/>
+                  <node id="27" pos="fixed" rel="mwp" root="handen" sense="handen"/>
+                </node>
+                <node id="28" infl="psp" pos="verb" rel="hd" root="neem" sc="fixed([[onder,handen],acc],norm_passive)" sense="onder-handen-neem"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

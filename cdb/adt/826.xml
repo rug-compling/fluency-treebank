@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" index="1" infl="het" pos="det" rel="su" root="dit" sense="dit" wh="nwh"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="ben" sc="te_passive" sense="ben" tense="past"/>
+      <node cat="ti" id="4" rel="vc">
+        <node id="5" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+        <node cat="inf" id="6" rel="body">
+          <node id="7" index="1" rel="obj1"/>
+          <node id="8" infl="inf" pos="verb" rel="hd" root="wijt" sc="np_pc_pp(aan)" sense="wijt-aan"/>
+          <node cat="pp" id="9" rel="pc">
+            <node id="10" pos="prep" rel="hd" root="aan" sense="aan"/>
+            <node cat="np" id="11" rel="obj1">
+              <node id="12" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node aform="base" id="13" infl="e" pos="adj" rel="mod" root="flauw" sense="flauw" vform="adj"/>
+              <node gen="de" id="14" num="sg" pos="noun" rel="hd" root="stemming" sense="stemming"/>
+              <node cat="pp" id="15" rel="mod">
+                <node id="16" pos="prep" rel="hd" root="in" sense="in"/>
+                <node cat="mwu" id="17" mwu_root="Wall Street" mwu_sense="Wall Street" rel="obj1">
+                  <node id="18" neclass="LOC" num="both" pos="name" rel="mwp" root="Wall" sense="Wall"/>
+                  <node id="19" neclass="LOC" num="both" pos="name" rel="mwp" root="Street" sense="Street"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

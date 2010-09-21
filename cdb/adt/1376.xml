@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node case="nom" def="def" gen="de" id="2" num="sg" per="fir" pos="pron" rel="su" root="ik" sense="ik" wh="nwh"/>
+      <node id="3" infl="sg1" pos="verb" rel="hd" root="verdien" sc="transitive" sense="verdien" tense="present"/>
+      <node id="4" pos="adv" rel="mod" root="beneden" sense="beneden" special="loc"/>
+      <node cat="np" id="5" rel="obj1">
+        <node cat="detp" id="6" rel="det">
+          <node id="7" infl="pl_indef" pos="det" rel="mod" root="zo&apos;n" sense="zo&apos;n" special="pre_num_adv"/>
+          <node id="8" infl="pl_num" pos="num" rel="hd" root="vierhonderd" sense="vierhonderd" special="hoofd"/>
+        </node>
+        <node gen="de" id="9" num="meas" pos="noun" rel="hd" root="frank" sense="frank" special="meas_mod"/>
+        <node cat="np" id="10" rel="mod">
+          <node id="11" infl="pl_num" pos="num" rel="det" root="30" sense="30" special="hoofd"/>
+          <node gen="de" id="12" num="meas" pos="noun" rel="hd" root="gulden" sense="gulden" special="meas_mod"/>
+        </node>
+        <node id="13" pos="adv" rel="mod" root="bruto" sense="bruto" special="postn"/>
+      </node>
+      <node cat="pp" id="14" rel="mod">
+        <node id="15" pos="prep" rel="hd" root="per" sense="per"/>
+        <node gen="de" id="16" num="sg" pos="noun" rel="obj1" root="dag" sense="dag" special="tmp"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

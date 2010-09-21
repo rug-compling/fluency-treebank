@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="paus" sense="paus"/>
+      </node>
+      <node id="5" infl="modal_not_u" pos="verb" rel="hd" root="wil" sc="modifier(aux(inf))" sense="wil" tense="present"/>
+      <node cat="inf" id="6" rel="vc">
+        <node id="7" index="1" rel="su"/>
+        <node cat="np" id="8" rel="obj1">
+          <node id="9" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="10" num="sg" pos="noun" rel="hd" root="celibaat_verplichting" sense="celibaat_verplichting"/>
+          <node cat="pp" id="11" rel="mod">
+            <node id="12" pos="prep" rel="hd" root="voor" sense="voor"/>
+            <node gen="de" id="13" num="pl" pos="noun" rel="obj1" root="priester" sense="priester"/>
+          </node>
+        </node>
+        <node id="14" infl="inf" pos="verb" rel="hd" root="handhaaf" sc="transitive" sense="handhaaf"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

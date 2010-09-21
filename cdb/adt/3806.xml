@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="pl" pos="noun" rel="hd" root="jongen" sense="jongen"/>
+      </node>
+      <node id="5" infl="pl" pos="verb" rel="hd" root="vind" sc="pred_np_vp" sense="vind" tense="past"/>
+      <node id="6" pos="noun" rel="pobj1" root="het" sense="het" special="het"/>
+      <node cat="ap" id="7" rel="predc">
+        <node aform="base" id="8" infl="no_e" pos="adj" rel="mod" root="beslist" sense="beslist" vform="psp"/>
+        <node aform="base" id="9" infl="no_e" pos="adj" rel="hd" root="nodig" sc="subject_vp" sense="nodig" vform="adj"/>
+      </node>
+      <node cat="ti" id="10" rel="vc">
+        <node id="11" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+        <node cat="inf" id="12" rel="body">
+          <node cat="mwu" id="13" index="1" mwu_root="baggar Julia" mwu_sense="baggar Julia" rel="obj1">
+            <node id="14" num="both" pos="name" rel="mwp" root="baggar" sense="baggar"/>
+            <node id="15" num="both" pos="name" rel="mwp" root="Julia" sense="Julia"/>
+          </node>
+          <node id="16" infl="inf" pos="verb" rel="hd" root="laat" sc="aci" sense="laat"/>
+          <node cat="inf" id="17" rel="vc">
+            <node id="18" index="1" rel="su"/>
+            <node cat="np" id="19" rel="obj1">
+              <node id="20" infl="een" pos="det" rel="det" root="een" sense="een"/>
+              <node cat="mwu" id="21" mwu_root="time trip" mwu_sense="time trip" rel="hd">
+                <node id="22" num="both" pos="name" rel="mwp" root="time" sense="time"/>
+                <node id="23" num="both" pos="name" rel="mwp" root="trip" sense="trip"/>
+              </node>
+            </node>
+            <node id="24" infl="inf" pos="verb" rel="hd" root="maak" sc="transitive" sense="maak"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

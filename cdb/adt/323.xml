@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" pos="adv" rel="mod" root="toch" sense="toch"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="breek_uit" sc="part_intransitive(uit)" sense="breek_uit" tense="past"/>
+      <node id="4" pos="adv" rel="mod" root="er" sense="er" special="er"/>
+      <node cat="np" id="5" rel="su">
+        <node id="6" infl="geen" pos="det" rel="det" root="geen" sense="geen" wh="nwh"/>
+        <node gen="de" id="7" num="sg" pos="noun" rel="hd" root="paniek" sense="paniek"/>
+      </node>
+      <node cat="pp" id="8" rel="mod">
+        <node id="9" pos="prep" rel="hd" root="bij" sense="bij"/>
+        <node cat="np" id="10" rel="obj1">
+          <node id="11" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node cat="mwu" id="12" mwu_root="Rode Duivels" mwu_sense="Rode Duivels" rel="hd">
+            <node id="13" neclass="ORG" num="both" pos="name" rel="mwp" root="Rode" sense="Rode"/>
+            <node id="14" neclass="ORG" num="both" pos="name" rel="mwp" root="Duivels" sense="Duivels"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

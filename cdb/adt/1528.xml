@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node id="2" pos="comp" rel="dlink" root="maar" sc="root" sense="maar"/>
+      <node cat="whq" id="3" rel="nucl">
+        <node id="4" index="1" pos="adv" rel="whd" root="waar" sense="waar" special="er_loc" wh="ywh"/>
+        <node cat="sv1" id="5" rel="body">
+          <node id="6" index="1" rel="mod"/>
+          <node id="7" infl="pl" pos="verb" rel="hd" root="blijf" sc="intransitive" sense="blijf" tense="present"/>
+          <node cat="conj" id="8" rel="su">
+            <node id="9" neclass="LOC" num="both" pos="name" rel="cnj" root="Amsterdam" sense="Amsterdam"/>
+            <node id="10" neclass="LOC" num="both" pos="name" rel="cnj" root="Rotterdam" sense="Rotterdam"/>
+            <node id="11" pos="vg" rel="crd" root="en" sense="en"/>
+            <node cat="mwu" id="12" mwu_root="Den Haag" mwu_sense="Den Haag" rel="cnj">
+              <node id="13" neclass="LOC" num="both" pos="name" rel="mwp" root="Den" sense="Den"/>
+              <node id="14" neclass="LOC" num="both" pos="name" rel="mwp" root="Haag" sense="Haag"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

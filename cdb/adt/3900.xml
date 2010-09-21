@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="np" id="1" rel="--">
+      <node cat="mwu" id="2" mwu_root="Van der Ley" mwu_sense="Van der Ley" rel="hd">
+        <node id="3" neclass="PER" num="both" pos="name" rel="mwp" root="Van" sense="Van"/>
+        <node id="4" neclass="PER" num="both" pos="name" rel="mwp" root="der" sense="der"/>
+        <node id="5" neclass="PER" num="both" pos="name" rel="mwp" root="Ley" sense="Ley"/>
+      </node>
+      <node cat="pp" id="6" rel="mod">
+        <node id="7" pos="prep" rel="hd" root="over" sense="over"/>
+        <node cat="np" id="8" rel="obj1">
+          <node id="9" infl="pron" pos="det" rel="det" root="zijn" sense="zijn"/>
+          <node gen="de" id="10" num="sg" pos="noun" rel="hd" root="dienst_tijd" sense="dienst_tijd" special="tmp"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

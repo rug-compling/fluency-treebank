@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" index="1" pos="noun" rel="su" root="het" sense="het" special="het"/>
+      <node id="3" infl="modal_not_u" pos="verb" rel="hd" root="kan" sc="aux(inf)" sense="kan" tense="present"/>
+      <node cat="inf" id="4" rel="vc">
+        <node id="5" index="1" rel="sup"/>
+        <node id="6" pos="adv" rel="mod" root="dan" sense="dan" special="tmp"/>
+        <node aform="base" id="7" infl="pred" pos="adj" rel="mod" root="wel" sense="wel" vform="adj"/>
+        <node aform="base" id="8" infl="no_e" pos="adj" rel="predc" root="waar" sc="subject_sbar" sense="waar" vform="adj"/>
+        <node id="9" infl="inf" pos="verb" rel="hd" root="ben" sc="copula_sbar" sense="ben"/>
+        <node cat="cp" id="10" rel="su">
+          <node id="11" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+          <node cat="ssub" id="12" rel="body">
+            <node id="13" neclass="LOC" num="both" pos="name" rel="su" root="Moskou" sense="Moskou"/>
+            <node id="14" infl="het" pos="det" rel="obj1" root="het" sense="het" wh="nwh"/>
+            <node id="15" infl="sg_heeft" pos="verb" rel="hd" root="heb" sc="nonp_pred_np_ndev" sense="heb" tense="present"/>
+            <node cat="ap" id="16" rel="predc">
+              <node aform="base" id="17" infl="no_e" pos="adj" rel="hd" root="druk" sc="pp(met)" sense="druk-met" vform="adj"/>
+              <node cat="pp" id="18" rel="pc">
+                <node id="19" pos="prep" rel="hd" root="met" sense="met"/>
+                <node cat="conj" id="20" rel="obj1">
+                  <node id="21" neclass="LOC" num="both" pos="name" rel="cnj" root="China" sense="China"/>
+                  <node id="22" pos="vg" rel="crd" root="en" sense="en"/>
+                  <node cat="np" id="23" rel="cnj">
+                    <node id="24" infl="pron" pos="det" rel="det" root="zijn" sense="zijn"/>
+                    <node aform="base" id="25" infl="both" pos="adj" rel="mod" root="eigen" sense="eigen" vform="adj"/>
+                    <node aform="base" id="26" infl="e" pos="adj" rel="mod" root="binnenlands" sense="binnenlands" vform="adj"/>
+                    <node gen="het" id="27" num="pl" pos="noun" rel="hd" root="probleem" sense="probleem"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

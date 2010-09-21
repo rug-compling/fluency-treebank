@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="het" id="4" num="sg" pos="noun" rel="hd" root="dagverblijf" sense="dagverblijf"/>
+      </node>
+      <node id="5" infl="sg3" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="present"/>
+      <node cat="ppart" id="6" rel="vc">
+        <node id="7" index="1" rel="obj1"/>
+        <node cat="np" id="8" rel="mod">
+          <node id="9" pos="adv" rel="mod" root="nog" sc="modal" sense="nog"/>
+          <node id="10" infl="het" pos="det" rel="det" root="dit" sense="dit" wh="nwh"/>
+          <node gen="het" id="11" num="sg" pos="noun" rel="hd" root="najaar" sense="najaar" special="tmp"/>
+        </node>
+        <node cat="mwu" id="12" mwu_root="in gebruik" mwu_sense="in gebruik" rel="svp">
+          <node id="13" pos="fixed" rel="mwp" root="in" sense="in"/>
+          <node id="14" pos="fixed" rel="mwp" root="gebruik" sense="gebruik"/>
+        </node>
+        <node id="15" infl="psp" pos="verb" rel="hd" root="neem" sc="fixed([[in,gebruik],acc],norm_passive)" sense="in-gebruik-neem"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

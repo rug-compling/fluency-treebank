@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="mod">
+        <node id="3" pos="prep" rel="hd" root="op" sense="op"/>
+        <node cat="np" id="4" rel="obj1">
+          <node id="5" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+          <node gen="het" id="6" num="sg" pos="noun" rel="hd" root="ogenblik" sense="ogenblik" special="tmp"/>
+        </node>
+      </node>
+      <node id="7" infl="pl" pos="verb" rel="hd" root="doe_dienst" sc="part_als_copula(dienst)" sense="doe_dienst" tense="present"/>
+      <node id="8" pos="adv" rel="mod" root="er" sense="er" special="er"/>
+      <node cat="np" id="9" rel="su">
+        <node id="10" pos="adv" rel="mod" root="nog" sense="nog"/>
+        <node id="11" pos="adv" rel="mod" root="maar" sense="maar"/>
+        <node aform="base" id="12" infl="e" pos="adj" rel="hd" root="enkel" sense="enkel" vform="adj"/>
+      </node>
+      <node cat="cp" id="13" rel="predc">
+        <node id="14" pos="comp" rel="cmp" root="als" sc="als" sense="als"/>
+        <node aform="base" id="15" infl="no_e" pos="adj" rel="body" root="zodanig" sense="zodanig" vform="adj"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

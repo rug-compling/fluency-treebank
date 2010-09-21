@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node aform="base" id="4" infl="e" pos="adj" rel="mod" root="16_jarig" sense="16_jarig" vform="adj"/>
+        <node gen="de" id="5" num="sg" pos="noun" rel="hd" root="jongen" sense="jongen"/>
+      </node>
+      <node id="6" infl="sg" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="past"/>
+      <node cat="ppart" id="7" rel="vc">
+        <node id="8" index="1" rel="obj1"/>
+        <node cat="pp" id="9" rel="mod">
+          <node id="10" pos="prep" rel="hd" root="in" sense="in"/>
+          <node id="11" neclass="LOC" num="both" pos="name" rel="obj1" root="Emmen" sense="Emmen"/>
+        </node>
+        <node id="12" infl="psp" pos="verb" rel="hd" root="houd_aan" sc="part_transitive(aan)" sense="houd_aan"/>
+        <node cat="cp" id="13" rel="mod">
+          <node id="14" pos="comp" rel="cmp" root="omdat" sense="omdat"/>
+          <node cat="ssub" id="15" rel="body">
+            <node case="nom" def="def" gen="de" id="16" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+            <node cat="pp" id="17" rel="pc">
+              <node id="18" pos="prep" rel="hd" root="met" sense="met"/>
+              <node gen="het" id="19" num="sg" pos="noun" rel="obj1" root="vuurwerk" sense="vuurwerk"/>
+            </node>
+            <node id="20" infl="sg" pos="verb" rel="hd" root="gooi" sc="pc_pp(met)" sense="gooi-met" tense="past"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" index="1" neclass="LOC" num="both" pos="name" rel="su" root="Hellevoetsluis" sense="Hellevoetsluis"/>
+      <node id="3" infl="sg3" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="present"/>
+      <node cat="ppart" id="4" rel="vc">
+        <node id="5" index="1" rel="obj1"/>
+        <node id="6" infl="psp" pos="verb" rel="hd" root="beveel_aan" sc="part_als_pred_np(aan)" sense="beveel_aan"/>
+        <node cat="cp" id="7" rel="predc">
+          <node id="8" pos="comp" rel="cmp" root="als" sc="als" sense="als"/>
+          <node cat="np" id="9" rel="body">
+            <node gen="de" id="10" num="sg" pos="noun" rel="hd" root="haven" sense="haven"/>
+            <node cat="pp" id="11" rel="mod">
+              <node id="12" pos="prep" rel="hd" root="voor" sense="voor"/>
+              <node cat="np" id="13" rel="obj1">
+                <node cat="conj" id="14" rel="mod">
+                  <node aform="base" id="15" infl="e" pos="adj" rel="cnj" root="zee_waardig" sense="zee_waardig" vform="adj"/>
+                  <node id="16" pos="vg" rel="crd" root="en" sense="en"/>
+                  <node cat="ap" id="17" rel="cnj">
+                    <node id="18" pos="adv" rel="mod" root="dus" sense="dus" special="sentence"/>
+                    <node aform="base" id="19" infl="e" pos="adj" rel="hd" root="groot" sense="groot" vform="adj"/>
+                  </node>
+                </node>
+                <node gen="het" id="20" num="pl" pos="noun" rel="hd" root="jacht" sense="jacht"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

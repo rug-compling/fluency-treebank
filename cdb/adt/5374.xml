@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" pos="adv" rel="mod" root="ook" sc="modal" sense="ook"/>
+        <node gen="de" id="4" num="pl" pos="noun" rel="hd" root="hotel_houder" sense="hotel_houder"/>
+      </node>
+      <node id="5" infl="pl" pos="verb" rel="hd" root="ondervind" sc="transitive" sense="ondervind" tense="present"/>
+      <node cat="np" id="6" rel="obj1">
+        <node aform="base" id="7" infl="no_e" pos="adj" rel="det" root="veel" sense="veel" vform="adj"/>
+        <node gen="de" id="8" num="sg" pos="noun" rel="hd" root="last" sense="last"/>
+        <node cat="pp" id="9" rel="mod">
+          <node id="10" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="11" rel="obj1">
+            <node id="12" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="13" num="sg" pos="noun" rel="hd" root="stook_olie" sense="stook_olie"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

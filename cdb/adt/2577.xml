@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node id="4" neclass="PER" num="both" pos="name" rel="hd" root="K." sense="K."/>
+      </node>
+      <node id="5" infl="sg" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="past"/>
+      <node cat="ap" id="6" rel="predm">
+        <node aform="base" id="7" infl="pred" pos="adj" rel="hd" root="samen" sc="pp(met)" sense="samen-met" vform="adj"/>
+        <node cat="pp" id="8" rel="pc">
+          <node id="9" pos="prep" rel="hd" root="met" sense="met"/>
+          <node cat="np" id="10" rel="obj1">
+            <node id="11" infl="een" pos="det" rel="det" root="een" sense="een"/>
+            <node gen="de" id="12" num="sg" pos="noun" rel="hd" root="vriend" sense="vriend"/>
+          </node>
+        </node>
+      </node>
+      <node cat="ppart" id="13" rel="vc">
+        <node id="14" index="1" rel="su"/>
+        <node cat="pp" id="15" rel="mod">
+          <node id="16" pos="prep" rel="hd" root="in" sense="in"/>
+          <node cat="np" id="17" rel="obj1">
+            <node id="18" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+            <node gen="het" id="19" num="sg" pos="noun" rel="hd" root="café" sense="café"/>
+          </node>
+        </node>
+        <node id="20" infl="psp" pos="verb" rel="hd" root="val_lastig" sc="part_transitive(lastig)" sense="val_lastig"/>
+        <node cat="np" id="21" rel="obj1">
+          <node id="22" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node gen="de" id="23" num="bare_meas" pos="noun" rel="hd" root="man" sense="man"/>
+          <node cat="rel" id="24" rel="mod">
+            <node case="no_obl" gen="de" id="25" index="2" pos="pron" rel="rhd" root="die" sense="die" wh="rel"/>
+            <node cat="ssub" id="26" rel="body">
+              <node id="27" index="2" rel="su"/>
+              <node id="28" infl="sg" pos="verb" rel="hd" root="sta" sc="subj_control(pass_te)" sense="sta" tense="past"/>
+              <node cat="ti" id="29" rel="vc">
+                <node id="30" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+                <node cat="inf" id="31" rel="body">
+                  <node id="32" index="2" rel="su"/>
+                  <node id="33" infl="inf" pos="verb" rel="hd" root="biljart" sc="intransitive" sense="biljart"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

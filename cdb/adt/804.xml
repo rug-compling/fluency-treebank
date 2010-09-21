@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" index="1" infl="het" pos="det" rel="su" root="dit" sense="dit" wh="nwh"/>
+      <node id="3" infl="sg3" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="present"/>
+      <node cat="ppart" id="4" rel="vc">
+        <node id="5" index="1" rel="obj1"/>
+        <node id="6" pos="adv" rel="mod" root="niet" sense="niet"/>
+        <node cat="pp" id="7" rel="mod">
+          <node id="8" pos="prep" rel="hd" root="door" sense="door"/>
+          <node id="9" neclass="ORG" num="both" pos="name" rel="obj1" root="Goodyear" sense="Goodyear"/>
+        </node>
+        <node aform="base" id="10" infl="no_e" pos="adj" rel="mod" root="rechtstreeks" sense="rechtstreeks" vform="adj"/>
+        <node id="11" infl="psp" pos="verb" rel="hd" root="breng_uit" sc="part_transitive(uit)" sense="breng_uit"/>
+        <node id="12" pos="adv" rel="mod" root="maar" sense="maar"/>
+        <node cat="pp" id="13" rel="mod">
+          <node id="14" pos="prep" rel="hd" root="door" sense="door"/>
+          <node cat="np" id="15" rel="obj1">
+            <node id="16" infl="een" pos="det" rel="det" root="een" sense="een"/>
+            <node gen="de" id="17" num="sg" pos="noun" rel="hd" root="dochter_onderneming" sense="dochter_onderneming"/>
+            <node cat="pp" id="18" rel="mod">
+              <node id="19" pos="prep" rel="hd" root="van" sense="van"/>
+              <node id="20" neclass="PER" num="both" pos="name" rel="obj1" root="Vredstein" sense="Vredstein"/>
+            </node>
+            <node cat="np" id="21" rel="app">
+              <node id="22" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node cat="mwu" id="23" mwu_root="N.V. Conoreum" mwu_sense="N.V. Conoreum" rel="hd">
+                <node id="24" neclass="ORG" num="both" pos="name" rel="mwp" root="N.V." sense="N.V."/>
+                <node id="25" neclass="ORG" num="both" pos="name" rel="mwp" root="Conoreum" sense="Conoreum"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

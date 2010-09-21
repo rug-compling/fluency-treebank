@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="pp" id="1" rel="--">
+      <node id="2" pos="adv" rel="mod" root="ook" sc="modal" sense="ook"/>
+      <node id="3" pos="prep" rel="hd" root="boven" sense="boven"/>
+      <node cat="np" id="4" rel="obj1">
+        <node id="5" infl="het" pos="det" rel="hd" root="dat" sense="dat" wh="nwh"/>
+        <node cat="pp" id="6" rel="mod">
+          <node id="7" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="8" rel="obj1">
+            <node id="9" neclass="PER" num="both" pos="name" rel="hd" root="Vultink" sense="Vultink"/>
+            <node cat="rel" id="10" rel="mod">
+              <node case="no_obl" gen="de" id="11" index="1" pos="pron" rel="rhd" root="die" sense="die" wh="rel"/>
+              <node cat="ssub" id="12" rel="body">
+                <node id="13" index="1" rel="su"/>
+                <node id="14" infl="sg3" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="present"/>
+                <node cat="ppart" id="15" rel="vc">
+                  <node id="16" index="1" rel="obj1"/>
+                  <node id="17" pos="adv" rel="mod" root="nogal" sense="nogal"/>
+                  <node id="18" pos="adv" rel="mod" root="eens" sense="eens" special="tmp"/>
+                  <node id="19" infl="psp" pos="verb" rel="hd" root="verras" sc="transitive" sense="verras"/>
+                  <node cat="pp" id="20" rel="mod">
+                    <node id="21" pos="prep" rel="hd" root="door" sense="door"/>
+                    <node cat="np" id="22" rel="obj1">
+                      <node id="23" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                      <node cat="ppres" id="24" rel="mod">
+                        <node aform="base" id="25" infl="no_e" pos="adj" rel="mod" root="super_snel" sense="super_snel" vform="adj"/>
+                        <node aform="base" id="26" infl="e" pos="adj" rel="hd" root="loop" sense="loop" vform="gerund"/>
+                      </node>
+                      <node gen="de" id="27" num="pl" pos="noun" rel="hd" root="tafel" sense="tafel"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

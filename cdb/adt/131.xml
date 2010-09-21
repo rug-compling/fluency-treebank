@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg3" pos="verb" rel="hd" root="schijn" sc="aux(te)" sense="schijn" tense="present"/>
+      <node cat="np" id="3" index="1" rel="su">
+        <node id="4" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node aform="base" id="5" infl="e" pos="adj" rel="mod" root="heel" sense="heel" vform="adj"/>
+        <node gen="de" id="6" num="sg" pos="noun" rel="hd" root="zaak" sense="zaak"/>
+      </node>
+      <node cat="ti" id="7" rel="vc">
+        <node id="8" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+        <node cat="inf" id="9" rel="body">
+          <node cat="pp" id="10" rel="mod">
+            <node id="11" pos="prep" rel="hd" root="in" sense="in"/>
+            <node cat="np" id="12" rel="obj1">
+              <node id="13" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+              <node gen="het" id="14" num="sg" pos="noun" rel="hd" root="bestuur" sense="bestuur"/>
+              <node id="15" pos="adv" rel="mod" root="zelf" sense="zelf" special="postnp"/>
+            </node>
+          </node>
+          <node id="16" index="1" rel="su"/>
+          <node id="17" pos="adv" rel="mod" root="al" sense="al"/>
+          <node cat="pp" id="18" rel="ld">
+            <node id="19" pos="prep" rel="hd" root="in" sense="in"/>
+            <node cat="mwu" id="20" mwu_root="kannen en kruiken" mwu_sense="kannen en kruiken" rel="obj1">
+              <node id="21" num="both" pos="name" rel="mwp" root="kannen" sense="kannen"/>
+              <node id="22" num="both" pos="name" rel="mwp" root="en" sense="en"/>
+              <node id="23" num="both" pos="name" rel="mwp" root="kruiken" sense="kruiken"/>
+            </node>
+          </node>
+          <node id="24" infl="inf" pos="verb" rel="hd" root="ben" sc="ld_pp" sense="ben"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

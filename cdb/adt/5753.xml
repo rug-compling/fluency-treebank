@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="heer" sense="heer"/>
+        <node cat="mwu" id="5" mwu_root="De Bas" mwu_sense="De Bas" rel="app">
+          <node id="6" neclass="PER" num="both" pos="name" rel="mwp" root="De" sense="De"/>
+          <node id="7" neclass="PER" num="both" pos="name" rel="mwp" root="Bas" sense="Bas"/>
+        </node>
+      </node>
+      <node id="8" infl="sg" pos="verb" rel="hd" root="weet" sc="tr_sbar" sense="weet" tense="present"/>
+      <node cat="whsub" id="9" rel="vc">
+        <node id="10" index="1" pos="pp" rel="whd" root="waarover" sense="waarover" special="waar"/>
+        <node cat="ssub" id="11" rel="body">
+          <node id="12" index="1" rel="pc"/>
+          <node case="nom" def="def" gen="de" id="13" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+          <node id="14" infl="sg" pos="verb" rel="hd" root="praat" sc="pc_pp(over)" sense="praat-over" tense="present"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

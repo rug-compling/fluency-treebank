@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg" pos="verb" rel="hd" root="wil" sc="modifier(aux(inf))" sense="wil" tense="past"/>
+      <node case="nom" def="def" gen="de" id="3" index="1" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+      <node cat="inf" id="4" rel="vc">
+        <node id="5" pos="pp" rel="mod" root="daarom" sense="daarom" special="er"/>
+        <node id="6" index="1" rel="su"/>
+        <node cat="ap" id="7" rel="mod">
+          <node cat="np" id="8" rel="me">
+            <node id="9" infl="pl_num" pos="num" rel="det" root="acht" sense="acht" special="hoofd"/>
+            <node gen="het" id="10" num="meas" pos="noun" rel="hd" root="jaar" sense="jaar" special="tmp"/>
+          </node>
+          <node id="11" pos="adj" rel="hd" root="geleden" sc="pred_np_me" sense="geleden"/>
+        </node>
+        <node id="12" pos="adv" rel="mod" root="al" sense="al"/>
+        <node gen="de" id="13" num="sg" pos="noun" rel="obj1" root="dienst" sense="dienst"/>
+        <node id="14" infl="inf" pos="verb" rel="hd" root="weiger" sc="transitive" sense="weiger"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

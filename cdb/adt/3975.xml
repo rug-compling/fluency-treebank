@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="het" id="4" num="pl" pos="noun" rel="hd" root="cijfer" sense="cijfer"/>
+      </node>
+      <node id="5" infl="pl" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+      <node cat="ppres" id="6" rel="predc">
+        <node id="7" pos="adv" rel="mod" root="nogal" sense="nogal"/>
+        <node aform="base" id="8" infl="no_e" pos="adj" rel="hd" root="onthul" sense="onthul" vform="gerund"/>
+      </node>
+      <node cat="cp" id="9" rel="mod">
+        <node id="10" pos="comp" rel="cmp" root="omdat" sense="omdat"/>
+        <node cat="ssub" id="11" rel="body">
+          <node cat="pp" id="12" rel="ld">
+            <node id="13" pos="prep" rel="hd" root="in" sense="in"/>
+            <node cat="mwu" id="14" mwu_root="Den Haag" mwu_sense="Den Haag" rel="obj1">
+              <node id="15" neclass="LOC" num="both" pos="name" rel="mwp" root="Den" sense="Den"/>
+              <node id="16" neclass="LOC" num="both" pos="name" rel="mwp" root="Haag" sense="Haag"/>
+            </node>
+          </node>
+          <node cat="np" id="17" rel="su">
+            <node id="18" infl="geen" pos="det" rel="det" root="geen" sense="geen" wh="nwh"/>
+            <node aform="base" id="19" infl="e" pos="adj" rel="mod" root="luchtverontreinigende" sense="luchtverontreinigende" vform="gerund"/>
+            <node gen="de" id="20" num="sg" pos="noun" rel="hd" root="industrie" sense="industrie"/>
+            <node cat="pp" id="21" rel="mod">
+              <node id="22" pos="prep" rel="hd" root="van" sense="van"/>
+              <node gen="de" id="23" num="sg" pos="noun" rel="obj1" root="betekenis" sense="betekenis"/>
+            </node>
+          </node>
+          <node id="24" infl="sg3" pos="verb" rel="hd" root="kom_voor" sc="part_ld_pp(voor)" sense="kom_voor" tense="present"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

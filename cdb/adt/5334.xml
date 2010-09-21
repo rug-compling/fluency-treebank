@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node id="4" neclass="ORG" num="both" pos="name" rel="hd" root="KNLTB" sense="KNLTB"/>
+      </node>
+      <node id="5" infl="sg3" pos="verb" rel="hd" root="blijf" sc="copula" sense="blijf" tense="present"/>
+      <node cat="np" id="6" rel="mod">
+        <node id="7" pos="adv" rel="mod" root="nog" sc="modal" sense="nog"/>
+        <node id="8" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node gen="het" id="9" num="meas" pos="noun" rel="hd" root="jaar" sense="jaar" special="tmp"/>
+      </node>
+      <node cat="ppart" id="10" rel="predc">
+        <node aform="base" id="11" infl="no_e" pos="adj" rel="hd" root="geleid" sense="geleid" vform="psp"/>
+        <node cat="pp" id="12" rel="mod">
+          <node id="13" pos="prep" rel="hd" root="door" sense="door"/>
+          <node cat="np" id="14" rel="obj1">
+            <node id="15" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="16" num="sg" pos="noun" rel="hd" root="heer" sense="heer"/>
+            <node cat="mwu" id="17" mwu_root="H. van Hoegee" mwu_sense="H. van Hoegee" rel="app">
+              <node id="18" neclass="PER" num="both" pos="name" rel="mwp" root="H." sense="H."/>
+              <node id="19" neclass="PER" num="both" pos="name" rel="mwp" root="van" sense="van"/>
+              <node id="20" neclass="PER" num="both" pos="name" rel="mwp" root="Hoegee" sense="Hoegee"/>
+            </node>
+            <node cat="pp" id="21" rel="mod">
+              <node id="22" pos="prep" rel="hd" root="uit" sense="uit"/>
+              <node cat="mwu" id="23" mwu_root="Den Haag" mwu_sense="Den Haag" rel="obj1">
+                <node id="24" neclass="LOC" num="both" pos="name" rel="mwp" root="Den" sense="Den"/>
+                <node id="25" neclass="LOC" num="both" pos="name" rel="mwp" root="Haag" sense="Haag"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

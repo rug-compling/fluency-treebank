@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="conj" id="2" rel="su">
+        <node cat="np" id="3" rel="cnj">
+          <node id="4" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node aform="base" id="5" infl="no_e" pos="adj" rel="mod" root="verregend" sense="verregend" vform="psp"/>
+          <node gen="het" id="6" num="sg" pos="noun" rel="hd" root="programma" sense="programma"/>
+        </node>
+        <node id="7" pos="vg" rel="crd" root="of" sense="of"/>
+        <node cat="np" id="8" rel="cnj">
+          <node id="9" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node gen="het" id="10" num="sg" pos="noun" rel="hd" root="programma" sense="programma"/>
+          <node cat="rel" id="11" rel="mod">
+            <node case="no_obl" gen="het" id="12" index="1" pos="pron" rel="rhd" root="dat" sense="dat" wh="rel"/>
+            <node cat="ssub" id="13" rel="body">
+              <node id="14" index="1" rel="su"/>
+              <node id="15" infl="sg3" pos="verb" rel="hd" root="stagneer" sc="intransitive" sense="stagneer" tense="present"/>
+              <node cat="pp" id="16" rel="mod">
+                <node id="17" pos="prep" rel="hd" root="door" sense="door"/>
+                <node cat="np" id="18" rel="obj1">
+                  <node aform="base" id="19" infl="e" pos="adj" rel="mod" root="duur_voort" sense="duur_voort" vform="gerund"/>
+                  <node gen="de" id="20" num="sg" pos="noun" rel="hd" root="regen_val" sense="regen_val"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="21" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+      <node cat="np" id="22" rel="predc">
+        <node gen="het" id="23" num="sg" pos="noun" rel="hd" root="iets" sense="iets" special="meas_mod"/>
+        <node cat="rel" id="24" rel="mod">
+          <node case="both" gen="het" id="25" index="2" pos="pron" rel="rhd" root="wat" sense="wat" wh="rel"/>
+          <node cat="ssub" id="26" rel="body">
+            <node id="27" index="2" rel="su"/>
+            <node cat="ap" id="28" rel="predc">
+              <node aform="base" id="29" infl="no_e" pos="adj" rel="mod" root="gewoon" sense="gewoon" vform="adj"/>
+              <node aform="base" id="30" infl="no_e" pos="adj" rel="hd" root="vervelend" sense="vervelend" vform="adj"/>
+            </node>
+            <node id="31" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="het" pos="det" rel="su" root="het" sense="het" wh="nwh"/>
+      <node id="3" infl="sg3" pos="verb" rel="hd" root="ga" sc="pc_pp(over)" sense="ga-over" tense="present"/>
+      <node cat="pp" id="4" rel="pc">
+        <node id="5" pos="prep" rel="hd" root="over" sense="over"/>
+        <node cat="np" id="6" rel="obj1">
+          <node id="7" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node gen="de" id="8" num="sg" pos="noun" rel="hd" root="televisie_reporter" sense="televisie_reporter"/>
+          <node cat="rel" id="9" rel="mod">
+            <node case="no_obl" gen="de" id="10" index="1" pos="pron" rel="rhd" root="die" sense="die" wh="rel"/>
+            <node cat="ssub" id="11" rel="body">
+              <node id="12" index="1" rel="su"/>
+              <node cat="pp" id="13" rel="mod">
+                <node id="14" pos="prep" rel="hd" root="op" sense="op"/>
+                <node id="15" neclass="LOC" num="both" pos="name" rel="obj1" root="Ibiza" sense="Ibiza"/>
+              </node>
+              <node cat="np" id="16" rel="obj1">
+                <node id="17" infl="een" pos="det" rel="det" root="een" sense="een"/>
+                <node gen="de" id="18" num="sg" pos="noun" rel="hd" root="toerist_film" sense="toerist_film"/>
+              </node>
+              <node id="19" infl="sg3" pos="verb" rel="hd" root="maak" sc="transitive" sense="maak" tense="present"/>
+            </node>
+          </node>
+          <node cat="mwu" id="20" mwu_root="Aart Staartjes" mwu_sense="Aart Staartjes" rel="mod">
+            <node id="21" neclass="PER" num="both" pos="name" rel="mwp" root="Aart" sense="Aart"/>
+            <node id="22" neclass="PER" num="both" pos="name" rel="mwp" root="Staartjes" sense="Staartjes"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="smain" id="2" rel="cnj">
+        <node case="nom" def="def" gen="de" id="3" index="1" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+        <node id="4" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" tense="present"/>
+        <node cat="ppart" id="5" rel="vc">
+          <node id="6" index="1" rel="su"/>
+          <node id="7" infl="psp" pos="verb" rel="hd" root="wijk" sc="pc_pp(voor)" sense="wijk-voor"/>
+          <node cat="pp" id="8" rel="pc">
+            <node id="9" pos="prep" rel="hd" root="voor" sense="voor"/>
+            <node gen="de" id="10" num="sg" pos="noun" rel="obj1" root="bedreiging" sense="bedreiging"/>
+          </node>
+        </node>
+      </node>
+      <node id="11" pos="vg" rel="crd" root="en" sense="en"/>
+      <node cat="conj" id="12" rel="cnj">
+        <node cat="smain" id="13" rel="cnj">
+          <node id="14" index="1" rel="su"/>
+          <node id="15" index="2" infl="sg_heeft" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="present"/>
+          <node cat="ppart" id="16" rel="vc">
+            <node id="17" index="1" rel="su"/>
+            <node case="dat_acc" def="def" gen="de" id="18" num="both" per="thi" pos="pron" rel="obj1" root="zich" sense="zich" special="wkpro" wh="nwh"/>
+            <node aform="base" id="19" infl="both" pos="adj" rel="mod" root="onvoldoende" sense="onvoldoende" vform="adj"/>
+            <node cat="pp" id="20" rel="ld">
+              <node id="21" pos="prep" rel="hd" root="achter" sense="achter"/>
+              <node cat="np" id="22" rel="obj1">
+                <node id="23" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                <node gen="de" id="24" num="sg" pos="noun" rel="hd" root="rector" sense="rector"/>
+              </node>
+            </node>
+            <node id="25" infl="psp" pos="verb" rel="hd" root="plaats" sc="np_ld_pp" sense="plaats"/>
+          </node>
+        </node>
+        <node id="26" pos="vg" rel="crd" root="en" sense="en"/>
+        <node cat="smain" id="27" rel="cnj">
+          <node id="28" index="1" rel="su"/>
+          <node id="29" index="2" rel="hd"/>
+          <node cat="ppart" id="30" rel="vc">
+            <node id="31" index="1" rel="su"/>
+            <node cat="np" id="32" rel="obj1">
+              <node id="33" infl="pron" pos="det" rel="det" root="diens" sense="diens"/>
+              <node gen="het" id="34" num="sg" pos="noun" rel="hd" root="gezag" sense="gezag"/>
+            </node>
+            <node aform="base" id="35" infl="both" pos="adj" rel="mod" root="onvoldoende" sense="onvoldoende" vform="adj"/>
+            <node id="36" infl="psp" pos="verb" rel="hd" root="houd_hoog" sc="part_transitive(hoog)" sense="houd_hoog"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

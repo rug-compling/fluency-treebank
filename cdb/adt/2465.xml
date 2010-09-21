@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node id="1" pos="prep" rel="--" root="met" sense="met"/>
+    <node cat="du" id="2" rel="--">
+      <node cat="smain" id="3" rel="dp">
+        <node cat="pp" id="4" rel="mod">
+          <node id="5" pos="prep" rel="hd" root="in" sense="in"/>
+          <node id="6" neclass="year" pos="noun" rel="obj1" root="1969" sense="1969"/>
+        </node>
+        <node id="7" infl="sg" pos="verb" rel="hd" root="publiceer" sc="transitive" sense="publiceer" tense="past"/>
+        <node case="nom" def="def" gen="de" id="8" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+        <node cat="np" id="9" rel="obj1">
+          <node id="10" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node aform="base" id="11" infl="no_e" pos="adj" rel="mod" root="revolutionair" sense="revolutionair" vform="adj"/>
+          <node gen="het" id="12" num="sg" pos="noun" rel="hd" root="ontwerp" sense="ontwerp"/>
+          <node cat="pp" id="13" rel="mod">
+            <node id="14" pos="prep" rel="hd" root="voor" sense="voor"/>
+            <node cat="np" id="15" rel="obj1">
+              <node id="16" infl="een" pos="det" rel="det" root="een" sense="een"/>
+              <node aform="base" id="17" infl="no_e" pos="adj" rel="mod" root="nieuw" sense="nieuw" vform="adj"/>
+              <node aform="base" id="18" infl="no_e" pos="adj" rel="mod" root="socialistisch" sense="socialistisch" vform="adj"/>
+              <node id="19" neclass="LOC" num="both" pos="name" rel="hd" root="Frankrijk" sense="Frankrijk"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node cat="cp" id="20" rel="dp">
+        <node id="21" pos="comp" rel="cmp" root="als" sc="als" sense="als"/>
+        <node gen="de" id="22" num="sg" pos="noun" rel="body" root="titel" sense="titel"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

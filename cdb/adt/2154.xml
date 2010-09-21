@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="modal_not_u" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="present"/>
+      <node id="3" index="1" neclass="LOC" num="both" pos="name" rel="su" root="Friesland" sense="Friesland"/>
+      <node aform="base" id="4" infl="no_e" pos="adj" rel="predm" root="culinair" sense="culinair" vform="adj"/>
+      <node cat="inf" id="5" rel="vc">
+        <node id="6" index="1" rel="su"/>
+        <node id="7" infl="inf" pos="verb" rel="hd" root="word" sc="passive" sense="word"/>
+        <node cat="ppart" id="8" rel="vc">
+          <node cat="pp" id="9" rel="mod">
+            <node id="10" pos="prep" rel="hd" root="op" sense="op"/>
+            <node cat="np" id="11" rel="obj1">
+              <node id="12" infl="een" pos="det" rel="det" root="een" sense="een"/>
+              <node gen="de" id="13" num="sg" pos="noun" rel="hd" root="tafel" sense="tafel"/>
+            </node>
+          </node>
+          <node id="14" index="1" rel="obj1"/>
+          <node id="15" infl="psp" pos="verb" rel="hd" root="geef_weer" sc="part_transitive(weer)" sense="geef_weer"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="mwu" id="2" mwu_root="Ned. Ford" mwu_sense="Ned. Ford" rel="su">
+        <node id="3" neclass="PER" num="both" pos="name" rel="mwp" root="Ned." sense="Ned."/>
+        <node id="4" neclass="PER" num="both" pos="name" rel="mwp" root="Ford" sense="Ford"/>
+      </node>
+      <node id="5" infl="sg" pos="verb" rel="hd" root="stijg" sc="intransitive" sense="stijg" tense="past"/>
+      <node cat="mwu" id="6" mwu_root="flo 5" mwu_sense="flo 5" rel="mod">
+        <node gen="both" id="7" num="bare_meas" pos="noun" rel="mwp" root="flo" sense="flo" special="amount_meas_mod"/>
+        <node gen="both" id="8" num="bare_meas" pos="noun" rel="mwp" root="5" sense="5" special="amount_meas_mod"/>
+      </node>
+      <node cat="np" id="9" rel="mod">
+        <node cat="conj" id="10" rel="mod">
+          <node cat="mwu" id="11" mwu_root="Ned. Kabel 6" mwu_sense="Ned. Kabel 6" rel="cnj">
+            <node id="12" num="both" pos="name" rel="mwp" root="Ned." sense="Ned."/>
+            <node id="13" num="both" pos="name" rel="mwp" root="Kabel" sense="Kabel"/>
+            <node id="14" num="both" pos="name" rel="mwp" root="6" sense="6"/>
+          </node>
+          <node id="15" pos="vg" rel="crd" root="en" sense="en"/>
+          <node cat="mwu" id="16" mwu_root="Naarden 8" mwu_sense="Naarden 8" rel="cnj">
+            <node id="17" num="both" pos="name" rel="mwp" root="Naarden" sense="Naarden"/>
+            <node id="18" num="both" pos="name" rel="mwp" root="8" sense="8"/>
+          </node>
+        </node>
+        <node gen="both" id="19" num="pl" pos="noun" rel="hd" root="punt" sense="punt" special="meas_mod"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

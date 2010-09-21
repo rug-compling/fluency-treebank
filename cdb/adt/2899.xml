@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="smain" id="2" rel="cnj">
+        <node cat="np" id="3" index="1" rel="su">
+          <node id="4" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="5" num="sg" pos="noun" rel="hd" root="hoogleraar" sense="hoogleraar"/>
+        </node>
+        <node id="6" infl="sg3" pos="verb" rel="hd" root="blijf" sc="copula" sense="blijf" tense="present"/>
+        <node id="7" pos="adv" rel="mod" root="echter" sense="echter" special="sentence"/>
+        <node cat="np" id="8" rel="predc">
+          <node id="9" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node aform="base" id="10" infl="e" pos="adj" rel="mod" root="eigenlijk" sense="eigenlijk" vform="adj"/>
+          <node gen="de" id="11" num="sg" pos="noun" rel="hd" root="voorzitter" sense="voorzitter"/>
+        </node>
+      </node>
+      <node id="12" pos="vg" rel="crd" root="en" sense="en"/>
+      <node cat="smain" id="13" rel="cnj">
+        <node id="14" index="1" rel="su"/>
+        <node id="15" infl="sg3" pos="verb" rel="hd" root="behartig" sc="transitive" sense="behartig" tense="present"/>
+        <node cat="pp" id="16" rel="mod">
+          <node id="17" pos="prep" rel="hd" root="in" sense="in"/>
+          <node cat="np" id="18" rel="obj1">
+            <node id="19" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+            <node aform="base" id="20" infl="no_e" pos="adj" rel="hd" root="bijzonder" sense="bijzonder" vform="adj"/>
+          </node>
+        </node>
+        <node gen="de" id="21" num="pl" pos="noun" rel="obj1" root="onderwijs_zaak" sense="onderwijs_zaak"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="predc">
+        <node id="3" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node aform="compar" id="4" infl="e" pos="adj" rel="mod" root="ander" sense="ander" vform="adj"/>
+        <node gen="de" id="5" num="sg" pos="noun" rel="hd" root="vraag" sc="subject_sbar" sense="vraag"/>
+      </node>
+      <node id="6" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula_sbar" sense="ben" tense="present"/>
+      <node cat="cp" id="7" rel="su">
+        <node id="8" pos="comp" rel="cmp" root="of" sc="of" sense="of"/>
+        <node cat="ssub" id="9" rel="body">
+          <node cat="np" id="10" index="1" rel="su">
+            <node id="11" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="12" num="pl" pos="noun" rel="hd" root="omroep" sense="omroep"/>
+            <node id="13" pos="adv" rel="mod" root="zelf" sense="zelf" special="postnp"/>
+          </node>
+          <node id="14" infl="pl" pos="verb" rel="hd" root="moet" sc="modifier(aux(inf))" sense="moet" tense="present"/>
+          <node cat="inf" id="15" rel="vc">
+            <node id="16" index="1" rel="su"/>
+            <node id="17" pos="adv" rel="mod" root="ook" sense="ook" special="sentence"/>
+            <node cat="ap" id="18" rel="predc">
+              <node aform="base" id="19" infl="no_e" pos="adj" rel="hd" root="blij" sc="pp(met)" sense="blij-met" vform="adj"/>
+              <node cat="pp" id="20" rel="pc">
+                <node id="21" pos="adv" rel="obj1" root="er" sense="er" special="er"/>
+                <node id="22" pos="prep" rel="hd" root="met" sc="extracted_np" sense="met"/>
+              </node>
+            </node>
+            <node id="23" infl="inf" pos="verb" rel="hd" root="ben" sc="copula" sense="ben"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

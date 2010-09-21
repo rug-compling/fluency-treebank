@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="mod">
+        <node id="3" pos="prep" rel="hd" root="naast" sense="naast"/>
+        <node cat="np" id="4" rel="obj1">
+          <node id="5" infl="de" pos="det" rel="hd" root="die" sense="die" wh="nwh"/>
+          <node cat="pp" id="6" rel="mod">
+            <node id="7" pos="prep" rel="hd" root="van" sense="van"/>
+            <node cat="mwu" id="8" mwu_root="Erik Terpstra" mwu_sense="Erik Terpstra" rel="obj1">
+              <node id="9" neclass="PER" num="both" pos="name" rel="mwp" root="Erik" sense="Erik"/>
+              <node id="10" neclass="PER" num="both" pos="name" rel="mwp" root="Terpstra" sense="Terpstra"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="11" infl="sg3" pos="verb" rel="hd" root="kom" sc="intransitive" sense="kom" tense="present"/>
+      <node id="12" pos="adv" rel="mod" root="er" sense="er" special="er"/>
+      <node id="13" pos="adv" rel="mod" root="misschien" sense="misschien" special="sentence"/>
+      <node cat="np" id="14" rel="su">
+        <node id="15" pos="adv" rel="mod" root="nog" sc="modal" sense="nog"/>
+        <node id="16" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node aform="base" id="17" infl="e" pos="adj" rel="mod" root="nieuw" sense="nieuw" vform="adj"/>
+        <node aform="base" id="18" infl="e" pos="adj" rel="mod" root="Nederlands" sense="Nederlands" vform="adj"/>
+        <node gen="de" id="19" num="sg" pos="noun" rel="hd" root="speel_film" sense="speel_film"/>
+        <node cat="pp" id="20" rel="mod">
+          <node id="21" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="mwu" id="22" mwu_root="Frans Weisz" mwu_sense="Frans Weisz" rel="obj1">
+            <node id="23" neclass="PER" num="both" pos="name" rel="mwp" root="Frans" sense="Frans"/>
+            <node id="24" neclass="PER" num="both" pos="name" rel="mwp" root="Weisz" sense="Weisz"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

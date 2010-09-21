@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg3" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="present"/>
+      <node cat="ppart" id="3" rel="vc">
+        <node id="4" pos="adv" rel="mod" root="ook" sense="ook" special="sentence"/>
+        <node id="5" infl="psp" pos="verb" rel="hd" root="beveel_aan" sc="part_vp(aan)" sense="beveel_aan"/>
+        <node cat="ti" id="6" rel="vc">
+          <node id="7" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+          <node cat="inf" id="8" rel="body">
+            <node id="9" infl="inf" pos="verb" rel="hd" root="laat" sc="aci_no_obj" sense="laat"/>
+            <node cat="inf" id="10" rel="vc">
+              <node cat="conj" id="11" rel="obj1">
+                <node cat="np" id="12" rel="cnj">
+                  <node aform="base" id="13" index="1" infl="e" pos="adj" rel="mod" root="gezellig" sense="gezellig" vform="adj"/>
+                  <node gen="both" id="14" num="both" pos="noun" rel="hd" root="plate-mats" sense="plate-mats"/>
+                </node>
+                <node id="15" pos="vg" rel="crd" root="en" sense="en"/>
+                <node cat="np" id="16" rel="cnj">
+                  <node id="17" index="1" rel="mod"/>
+                  <node gen="het" id="18" num="pl" pos="noun" rel="hd" root="servet" sense="servet"/>
+                </node>
+              </node>
+              <node id="19" infl="inf" pos="verb" rel="hd" root="ontwerp" sc="transitive" sense="ontwerp"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

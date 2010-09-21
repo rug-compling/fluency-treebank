@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" pos="pp" rel="pc" root="daartoe" sense="daartoe" special="er"/>
+      <node id="3" infl="sg3" pos="verb" rel="hd" root="behoor" sc="pc_pp(tot)" sense="behoor-tot" tense="present"/>
+      <node cat="np" id="4" rel="su">
+        <node id="5" pos="adv" rel="mod" root="onder andere" sc="modal" sense="onder andere"/>
+        <node id="6" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node aform="compar" id="7" infl="e" pos="adj" rel="mod" root="groot" sense="groot" vform="adj"/>
+        <node gen="de" id="8" num="sg" pos="noun" rel="hd" root="inspraak" sense="inspraak"/>
+        <node cat="pp" id="9" rel="mod">
+          <node id="10" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="conj" id="11" rel="obj1">
+            <node gen="de" id="12" num="sg" pos="noun" rel="cnj" root="vak_beweging" sense="vak_beweging"/>
+            <node gen="de" id="13" num="sg" pos="noun" rel="cnj" root="onderneming_raad" sense="onderneming_raad"/>
+            <node id="14" pos="vg" rel="crd" root="en" sense="en"/>
+            <node gen="het" id="15" num="sg" pos="noun" rel="cnj" root="personeel" sense="personeel"/>
+          </node>
+        </node>
+        <node cat="pp" id="16" rel="mod">
+          <node id="17" pos="prep" rel="hd" root="bij" sense="bij"/>
+          <node cat="conj" id="18" rel="obj1">
+            <node gen="de" id="19" num="pl" pos="noun" rel="cnj" root="fusie" sense="fusie"/>
+            <node gen="de" id="20" num="pl" pos="noun" rel="cnj" root="bedrijf_sluiting" sense="bedrijf_sluiting"/>
+            <node id="21" pos="vg" rel="crd" root="en" sense="en"/>
+            <node gen="de" id="22" num="pl" pos="noun" rel="cnj" root="reorganisatie" sense="reorganisatie"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

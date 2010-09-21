@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" index="1" neclass="LOC" num="both" pos="name" rel="su" root="Jordanie" sense="Jordanie"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="past"/>
+      <node cat="inf" id="4" rel="vc">
+        <node id="5" index="1" rel="su"/>
+        <node id="6" pos="pp" rel="mod" root="daardoor" sense="daardoor" special="er"/>
+        <node cat="pp" id="7" rel="mod">
+          <node id="8" pos="prep" rel="hd" root="in" sense="in"/>
+          <node cat="np" id="9" rel="obj1">
+            <node id="10" infl="zulke" pos="det" rel="det" root="zulk" sense="zulk" wh="nwh"/>
+            <node gen="de" id="11" num="pl" pos="noun" rel="hd" root="onderhandeling" sense="onderhandeling"/>
+          </node>
+        </node>
+        <node cat="advp" id="12" rel="mod">
+          <node id="13" pos="adv" rel="hd" root="niet" sense="niet"/>
+          <node id="14" pos="adv" rel="mod" root="meer" sense="meer" special="postadv"/>
+        </node>
+        <node id="15" infl="inf" pos="verb" rel="hd" root="heb" sc="transitive_ndev" sense="heb"/>
+        <node cat="np" id="16" rel="obj1">
+          <node gen="de" id="17" num="sg" pos="noun" rel="hd" root="beweging_vrijheid" sense="beweging_vrijheid"/>
+          <node cat="detp" id="18" rel="det">
+            <node comparative="als" id="19" infl="de" pos="det" rel="hd" root="dezelfde" sense="dezelfde" special="comp"/>
+            <node cat="cp" id="20" rel="obcomp">
+              <node id="21" pos="comparative" rel="cmp" root="als" sense="als"/>
+              <node cat="conj" id="22" rel="body">
+                <node id="23" neclass="LOC" num="both" pos="name" rel="cnj" root="Egypte" sense="Egypte"/>
+                <node id="24" pos="vg" rel="crd" root="of" sense="of"/>
+                <node id="25" neclass="LOC" num="both" pos="name" rel="cnj" root="Syrie" sense="Syrie"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

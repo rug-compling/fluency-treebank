@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node gen="de" id="2" num="sg" pos="noun" rel="mod" root="maandag_ochtend" sense="maandag_ochtend" special="tmp"/>
+      <node id="3" infl="pl" pos="verb" rel="hd" root="kom" sc="intransitive" sense="kom" tense="past"/>
+      <node id="4" pos="adv" rel="mod" root="opnieuw" sense="opnieuw"/>
+      <node cat="np" id="5" rel="su">
+        <node cat="np" id="6" rel="det">
+          <node id="7" infl="pl_num" pos="det" rel="det" root="een" sense="een"/>
+          <node gen="both" id="8" num="sg" pos="noun" rel="hd" root="reeks" sense="reeks"/>
+        </node>
+        <node gen="de" id="9" num="pl" pos="noun" rel="hd" root="aard_schok" sense="aard_schok"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

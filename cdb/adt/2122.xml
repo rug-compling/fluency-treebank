@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node gen="de" id="2" num="sg" pos="noun" rel="mod" root="zaterdag" sense="zaterdag" special="tmp"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="brand_uit" sc="part_intransitive(uit)" sense="brand_uit" tense="past"/>
+      <node cat="np" id="4" rel="su">
+        <node id="5" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="both" id="6" num="both" pos="noun" rel="hd" root="jongerensocieteit" sense="jongerensocieteit"/>
+        <node cat="pp" id="7" rel="mod">
+          <node id="8" pos="prep" rel="hd" root="in" sense="in"/>
+          <node cat="np" id="9" rel="obj1">
+            <node id="10" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node id="11" neclass="LOC" num="both" pos="name" rel="hd" root="Landweerstraat" sense="Landweerstraat"/>
+            <node cat="pp" id="12" rel="mod">
+              <node id="13" pos="prep" rel="hd" root="in" sense="in"/>
+              <node id="14" neclass="LOC" num="both" pos="name" rel="obj1" root="Oss" sense="Oss"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node aform="base" id="15" infl="no_e" pos="adj" rel="mod" root="geheel" sense="geheel" vform="adj"/>
+    </node>
+  </node>
+</alpino_adt>

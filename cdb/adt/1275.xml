@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="olie_kachel" sense="olie_kachel"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="in" sense="in"/>
+          <node cat="np" id="7" rel="obj1">
+            <node id="8" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+            <node gen="het" id="9" num="sg" pos="noun" rel="hd" root="vooronder" sense="vooronder"/>
+          </node>
+        </node>
+      </node>
+      <node id="10" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" tense="present"/>
+      <node cat="ppart" id="11" rel="vc">
+        <node id="12" index="1" rel="su"/>
+        <node aform="base" id="13" infl="no_e" pos="adj" rel="predc" root="oververhit" sense="oververhit" vform="adj"/>
+        <node id="14" infl="psp" pos="verb" rel="hd" root="raak" sc="copula" sense="raak"/>
+        <node cat="whrel" id="15" rel="mod">
+          <node id="16" index="2" pos="pp" rel="rhd" root="waardoor" sense="waardoor" special="waar"/>
+          <node cat="ssub" id="17" rel="body">
+            <node id="18" index="2" rel="mod"/>
+            <node cat="np" id="19" index="3" rel="su">
+              <node id="20" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node gen="de" id="21" num="sg" pos="noun" rel="hd" root="betimmering" sense="betimmering"/>
+            </node>
+            <node id="22" infl="sg" pos="verb" rel="hd" root="begin" sc="vp" sense="begin" tense="past"/>
+            <node cat="ti" id="23" rel="vc">
+              <node id="24" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+              <node cat="inf" id="25" rel="body">
+                <node id="26" index="3" rel="su"/>
+                <node id="27" infl="inf" pos="verb" rel="hd" root="smeul" sc="intransitive" sense="smeul"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

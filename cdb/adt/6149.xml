@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node case="nom" def="def" gen="de" id="2" num="sg" per="fir" pos="pron" rel="su" root="ik" sense="ik" wh="nwh"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="weet" sc="tr_sbar" sense="weet" tense="present"/>
+      <node cat="pp" id="4" rel="mod">
+        <node id="5" pos="prep" rel="hd" root="uit" sense="uit"/>
+        <node gen="de" id="6" num="sg" pos="noun" rel="obj1" root="ervaring" sense="ervaring"/>
+      </node>
+      <node cat="cp" id="7" rel="vc">
+        <node id="8" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+        <node cat="ssub" id="9" rel="body">
+          <node cat="np" id="10" rel="su">
+            <node id="11" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="12" num="pl" pos="noun" rel="hd" root="natuur_voetballer" sense="natuur_voetballer"/>
+          </node>
+          <node gen="het" id="13" num="sg" pos="noun" rel="obj1" root="niets" sense="niets" special="meas_mod"/>
+          <node aform="compar" id="14" infl="no_e" pos="adj" rel="mod" root="lief" sense="lief" vform="adj"/>
+          <node id="15" infl="pl" pos="verb" rel="hd" root="wil" sc="transitive_ndev_ndev" sense="wil" tense="present"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

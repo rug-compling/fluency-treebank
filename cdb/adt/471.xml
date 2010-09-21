@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="gondel" sense="gondel"/>
+        <node id="5" pos="adv" rel="mod" root="zelf" sense="zelf" special="postnp"/>
+      </node>
+      <node id="6" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+      <node cat="pp" id="7" rel="mod">
+        <node id="8" pos="prep" rel="hd" root="na" sense="na"/>
+        <node cat="np" id="9" rel="obj1">
+          <node id="10" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="11" num="sg" pos="noun" rel="hd" root="val" sense="val"/>
+        </node>
+      </node>
+      <node cat="mwu" id="12" mwu_root="total loss" mwu_sense="total loss" rel="predc">
+        <node aform="base" id="13" infl="pred" pos="adj" rel="mwp" root="total" sense="total" vform="adj"/>
+        <node aform="base" id="14" infl="pred" pos="adj" rel="mwp" root="loss" sense="loss" vform="adj"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="past"/>
+      <node case="nom" def="def" gen="de" id="3" index="1" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+      <node cat="ppart" id="4" rel="vc">
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="op" sense="op"/>
+          <node cat="np" id="7" rel="obj1">
+            <node gen="de" id="8" num="sg" pos="noun" rel="hd" root="belofte" sc="vp" sense="belofte"/>
+            <node cat="ti" id="9" rel="vc">
+              <node id="10" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+              <node cat="inf" id="11" rel="body">
+                <node cat="advp" id="12" rel="mod">
+                  <node id="13" pos="adv" rel="hd" root="niet" sense="niet"/>
+                  <node id="14" pos="adv" rel="mod" root="meer" sense="meer" special="postadv"/>
+                </node>
+                <node cat="pp" id="15" rel="pc">
+                  <node id="16" pos="prep" rel="hd" root="op" sense="op"/>
+                  <node cat="np" id="17" rel="obj1">
+                    <node id="18" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+                    <node gen="het" id="19" num="sg" pos="noun" rel="hd" root="inbreker_pad" sense="inbreker_pad"/>
+                  </node>
+                </node>
+                <node id="20" infl="inf(no_e)" pos="verb" rel="hd" root="ga" sc="pc_pp(op)" sense="ga-op"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node id="21" index="1" rel="obj1"/>
+        <node cat="pp" id="22" rel="mod">
+          <node id="23" pos="prep" rel="hd" root="in" sense="in"/>
+          <node gen="de" id="24" num="sg" pos="noun" rel="obj1" root="mei" sense="mei" special="tmp"/>
+        </node>
+        <node cat="mwu" id="25" mwu_root="op vrije voeten" mwu_sense="op vrije voeten" rel="svp">
+          <node id="26" pos="fixed" rel="mwp" root="op" sense="op"/>
+          <node id="27" pos="fixed" rel="mwp" root="vrije" sense="vrije"/>
+          <node id="28" pos="fixed" rel="mwp" root="voeten" sense="voeten"/>
+        </node>
+        <node id="29" infl="psp" pos="verb" rel="hd" root="stel" sc="fixed([[op,vrije,voeten],acc],norm_passive)" sense="op-vrije-voeten-stel"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

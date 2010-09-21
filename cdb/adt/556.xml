@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node case="nom" def="def" gen="de" id="2" index="1" num="pl" per="fir" pos="pron" rel="su" root="we" sense="we" special="wkpro" wh="nwh"/>
+      <node id="3" infl="pl" pos="verb" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" tense="present"/>
+      <node cat="ppart" id="4" rel="vc">
+        <node id="5" index="1" rel="su"/>
+        <node cat="ap" id="6" rel="mod">
+          <node cat="np" id="7" rel="mod">
+            <node id="8" infl="een" pos="det" rel="det" root="een" sense="een"/>
+            <node gen="het" id="9" num="sg" pos="noun" rel="hd" root="beetje" sense="beetje" special="mod"/>
+          </node>
+          <node aform="base" id="10" infl="no_e" pos="adj" rel="hd" root="teveel" sc="me" sense="teveel" vform="adj"/>
+        </node>
+        <node cat="pp" id="11" rel="ld">
+          <node id="12" pos="prep" rel="hd" root="in" sense="in"/>
+          <node cat="np" id="13" rel="obj1">
+            <node id="14" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="15" num="sg" pos="noun" rel="hd" root="pers" sense="pers"/>
+          </node>
+        </node>
+        <node id="16" infl="psp" pos="verb" rel="hd" root="ben" sc="ld_pp" sense="ben"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

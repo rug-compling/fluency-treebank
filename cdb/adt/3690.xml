@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node case="nom" def="def" gen="de" id="2" num="both" per="thi" pos="pron" rel="su" root="zij" sense="zij" wh="nwh"/>
+      <node id="3" infl="pl" pos="verb" rel="hd" root="barst_uit" sc="part_pc_pp(uit,in)" sense="barst_uit-in" tense="past"/>
+      <node cat="pp" id="4" rel="pc">
+        <node id="5" pos="prep" rel="hd" root="in" sense="in"/>
+        <node id="6" pos="noun" rel="obj1" root="geschater" sc="intransitive" sense="geschater" special="ge_v_noun"/>
+      </node>
+      <node cat="cp" id="7" rel="mod">
+        <node id="8" pos="comp" rel="cmp" root="wanneer" sense="wanneer"/>
+        <node cat="ssub" id="9" rel="body">
+          <node cat="np" id="10" rel="su">
+            <node cat="ap" id="11" rel="mod">
+              <node id="12" pos="adv" rel="mod" root="haast" sense="haast"/>
+              <node aform="base" id="13" infl="e" pos="adj" rel="hd" root="doods" sense="doods" vform="adj"/>
+            </node>
+            <node gen="de" id="14" num="sg" pos="noun" rel="hd" root="stilte" sense="stilte"/>
+          </node>
+          <node id="15" infl="sg3" pos="verb" rel="hd" root="heers" sc="intransitive" sense="heers" tense="present"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="mod">
+        <node id="3" pos="prep" rel="hd" root="van" sense="van"/>
+        <node cat="np" id="4" rel="obj1">
+          <node id="5" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node cat="mwu" id="6" mwu_root="Rolling Stones" mwu_sense="Rolling Stones" rel="hd">
+            <node id="7" neclass="ORG" num="both" pos="name" rel="mwp" root="Rolling" sense="Rolling"/>
+            <node id="8" neclass="ORG" num="both" pos="name" rel="mwp" root="Stones" sense="Stones"/>
+          </node>
+        </node>
+      </node>
+      <node id="9" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+      <node id="10" pos="adv" rel="mod" root="nu" sense="nu" special="tmp"/>
+      <node cat="np" id="11" rel="su">
+        <node id="12" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node aform="base" id="13" infl="e" pos="adj" rel="mod" root="definitief" sense="definitief" vform="adj"/>
+        <node gen="het" id="14" num="sg" pos="noun" rel="hd" root="tournee_plan" sense="tournee_plan"/>
+      </node>
+      <node aform="base" id="15" infl="no_e" pos="adj" rel="predc" root="bekend" sense="bekend" vform="adj"/>
+    </node>
+  </node>
+</alpino_adt>

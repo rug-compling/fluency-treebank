@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="du" id="2" rel="nucl">
+        <node id="3" pos="adv" rel="dp" root="allemaal" sense="allemaal" special="predm"/>
+        <node gen="both" id="4" num="both" pos="noun" rel="dp" root="kwatsch" sense="kwatsch"/>
+      </node>
+      <node cat="sv1" id="5" rel="tag">
+        <node id="6" infl="sg3" pos="verb" rel="hd" root="zeg" sc="tr_sbar" sense="zeg" tense="present"/>
+        <node cat="np" id="7" rel="su">
+          <node cat="mwu" id="8" mwu_root="Rens van Adrichem" mwu_sense="Rens van Adrichem" rel="hd">
+            <node id="9" neclass="PER" num="both" pos="name" rel="mwp" root="Rens" sense="Rens"/>
+            <node id="10" neclass="PER" num="both" pos="name" rel="mwp" root="van" sense="van"/>
+            <node id="11" neclass="PER" num="both" pos="name" rel="mwp" root="Adrichem" sense="Adrichem"/>
+          </node>
+          <node cat="ppart" id="12" rel="mod">
+            <node id="13" pos="adv" rel="predm" root="zelf" sense="zelf" special="predm"/>
+            <node cat="pp" id="14" rel="pc">
+              <node id="15" pos="prep" rel="hd" root="bij" sense="bij"/>
+              <node cat="np" id="16" rel="obj1">
+                <node id="17" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                <node gen="het" id="18" num="pl" pos="noun" rel="hd" root="feest" sense="feest"/>
+              </node>
+            </node>
+            <node cat="cp" id="19" rel="mod">
+              <node id="20" pos="comp" rel="cmp" root="als" sc="als" sense="als"/>
+              <node cat="conj" id="21" rel="body">
+                <node gen="both" id="22" num="both" pos="noun" rel="cnj" root="grimeur" sense="grimeur"/>
+                <node id="23" pos="vg" rel="crd" root="en" sense="en"/>
+                <node gen="de" id="24" num="sg" pos="noun" rel="cnj" root="decor_bouwer" sense="decor_bouwer"/>
+              </node>
+            </node>
+            <node aform="base" id="25" infl="both" pos="adj" rel="hd" root="betrokken" sc="pp(bij)" sense="betrokken-bij" vform="psp"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

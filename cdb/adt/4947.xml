@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="smain" id="2" rel="nucl">
+        <node gen="de" id="3" num="sg" pos="noun" rel="su" root="publiciteit" sense="publiciteit"/>
+        <node id="4" infl="sg3" pos="verb" rel="hd" root="hoor" sc="intransitive" sense="hoor" tense="present"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="bij" sense="bij"/>
+          <node cat="np" id="7" rel="obj1">
+            <node id="8" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+            <node gen="het" id="9" num="sg" pos="noun" rel="hd" root="bedrijf" sense="bedrijf"/>
+            <node cat="pp" id="10" rel="mod">
+              <node id="11" pos="prep" rel="hd" root="in" sense="in"/>
+              <node id="12" neclass="LOC" num="both" pos="name" rel="obj1" root="Cinecitta" sense="Cinecitta"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node cat="np" id="13" rel="sat">
+        <node aform="compar" id="14" infl="meer" pos="adj" rel="hd" root="minder" sense="minder" vform="adj"/>
+        <node cat="pp" id="15" rel="mod">
+          <node id="16" pos="prep" rel="hd" root="bij" sense="bij"/>
+          <node id="17" neclass="PER" num="both" pos="name" rel="obj1" root="Fellini" sense="Fellini"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

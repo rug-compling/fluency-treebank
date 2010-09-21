@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="het" pos="det" rel="su" root="dat" sense="dat" wh="nwh"/>
+      <node id="3" infl="sg3" pos="verb" rel="hd" root="breng_mee" sc="part_np_pc_pp_refl(mee,met)" sense="met-zich-breng_mee" tense="present"/>
+      <node gen="het" id="4" num="pl" pos="noun" rel="obj1" root="ongemak" sense="ongemak"/>
+      <node cat="pp" id="5" rel="pc">
+        <node id="6" pos="prep" rel="hd" root="met" sense="met"/>
+        <node id="7" num="both" per="u_thi" pos="pron" refl="refl" rel="se" root="zich" sense="zich"/>
+      </node>
+      <node id="8" pos="comp" rel="mod" root="als" sc="als" sense="als"/>
+    </node>
+  </node>
+</alpino_adt>

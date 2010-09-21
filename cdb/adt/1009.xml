@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="mwu" id="2" index="1" mwu_root="Wall Street" mwu_sense="Wall Street" rel="su">
+        <node id="3" neclass="LOC" num="both" pos="name" rel="mwp" root="Wall" sense="Wall"/>
+        <node id="4" neclass="LOC" num="both" pos="name" rel="mwp" root="Street" sense="Street"/>
+      </node>
+      <node id="5" infl="sg_heeft" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="present"/>
+      <node cat="inf" id="6" rel="vc">
+        <node id="7" index="1" rel="su"/>
+        <node id="8" infl="inf" pos="verb" rel="hd" root="kan" sc="aux(inf)" sense="kan"/>
+        <node cat="inf" id="9" rel="vc">
+          <node id="10" index="1" rel="su"/>
+          <node cat="np" id="11" rel="obj1">
+            <node id="12" infl="pron" pos="det" rel="det" root="zijn" sense="zijn"/>
+            <node aform="base" id="13" infl="e" pos="adj" rel="mod" root="stuw" sense="stuw" vform="gerund"/>
+            <node gen="de" id="14" num="sg" pos="noun" rel="hd" root="kracht" sense="kracht"/>
+          </node>
+          <node id="15" pos="adv" rel="mod" root="ook" sense="ook" special="sentence"/>
+          <node cat="pp" id="16" rel="mod">
+            <node id="17" pos="prep" rel="hd" root="op" sense="op"/>
+            <node cat="np" id="18" rel="obj1">
+              <node id="19" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node aform="super" id="20" infl="e" pos="adj" rel="mod" root="laat" sense="laat" vform="adj"/>
+              <node gen="de" id="21" num="sg" pos="noun" rel="hd" root="dag" sense="dag" special="tmp"/>
+              <node cat="pp" id="22" rel="mod">
+                <node id="23" pos="prep" rel="hd" root="van" sense="van"/>
+                <node cat="np" id="24" rel="obj1">
+                  <node id="25" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                  <node gen="de" id="26" num="sg" pos="noun" rel="hd" root="beur_week" sense="beur_week" special="tmp"/>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node id="27" infl="inf" pos="verb" rel="hd" root="handhaaf" sc="transitive" sense="handhaaf"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

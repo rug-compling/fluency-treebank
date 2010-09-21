@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" index="1" neclass="LOC" num="both" pos="name" rel="su" root="Frankrijk" sense="Frankrijk"/>
+      <node id="3" infl="sg_heeft" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="present"/>
+      <node id="4" pos="adv" rel="predm" root="zelf" sense="zelf" special="predm"/>
+      <node cat="ppart" id="5" rel="vc">
+        <node id="6" index="1" rel="su"/>
+        <node cat="np" id="7" rel="obj1">
+          <node aform="base" id="8" infl="no_e" pos="adj" rel="det" root="veel" sense="veel" vform="adj"/>
+          <node gen="het" id="9" num="sg" pos="noun" rel="hd" root="geld" sense="geld"/>
+        </node>
+        <node id="10" infl="psp" pos="verb" rel="hd" root="geef_uit" sc="part_fixed(uit,[{[er_pp(voor,_735),acc(geld)]},extra_vp(_735)],norm_passive)" sense="geld-geef_uit-voor"/>
+        <node cat="pp" id="11" rel="pc">
+          <node id="12" pos="adv" rel="pobj1" root="er" sense="er" special="er"/>
+          <node id="13" pos="prep" rel="hd" root="voor" sense="voor"/>
+          <node cat="oti" id="14" rel="vc">
+            <node id="15" pos="comp" rel="cmp" root="om" sc="om" sense="om"/>
+            <node cat="ti" id="16" rel="body">
+              <node id="17" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+              <node cat="inf" id="18" rel="body">
+                <node id="19" index="1" rel="su"/>
+                <node cat="conj" id="20" rel="obj1">
+                  <node cat="np" id="21" rel="cnj">
+                    <node id="22" index="2" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                    <node aform="base" id="23" index="3" infl="e" pos="adj" rel="mod" root="nodig" sense="nodig" vform="adj"/>
+                    <node gen="de" id="24" num="sg" pos="noun" rel="hd" root="vuur_schepen" sense="vuur_schepen"/>
+                  </node>
+                  <node id="25" pos="vg" rel="crd" root="en" sense="en"/>
+                  <node cat="np" id="26" rel="cnj">
+                    <node id="27" index="2" rel="det"/>
+                    <node id="28" index="3" rel="mod"/>
+                    <node gen="de" id="29" num="pl" pos="noun" rel="hd" root="boei" sense="boei"/>
+                  </node>
+                </node>
+                <node id="30" infl="inf" pos="verb" rel="hd" root="plaats" sc="transitive" sense="plaats"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

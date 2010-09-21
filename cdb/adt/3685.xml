@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="smain" id="2" rel="cnj">
+        <node id="3" index="1" infl="het" pos="det" rel="su" root="dat" sense="dat" wh="nwh"/>
+        <node id="4" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+        <node cat="cp" id="5" rel="predm">
+          <node id="6" pos="comp" rel="cmp" root="als" sc="als" sense="als"/>
+          <node gen="de" id="7" num="sg" pos="noun" rel="body" root="vondst" sense="vondst"/>
+        </node>
+        <node aform="compar" id="8" infl="no_e" pos="adj" rel="predc" root="aardig" sense="aardig" vform="adj"/>
+      </node>
+      <node id="9" pos="vg" rel="crd" root="en" sense="en"/>
+      <node cat="smain" id="10" rel="cnj">
+        <node id="11" index="1" rel="su"/>
+        <node id="12" infl="sg3" pos="verb" rel="hd" root="voorkom" sc="transitive" sense="voorkom" tense="present"/>
+        <node id="13" pos="adv" rel="mod" root="ook" sense="ook" special="sentence"/>
+        <node cat="np" id="14" rel="obj1">
+          <node id="15" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+          <node gen="het" id="16" num="sg" pos="noun" rel="hd" root="misverstand" sc="sbar" sense="misverstand"/>
+          <node cat="cp" id="17" rel="vc">
+            <node id="18" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+            <node cat="ssub" id="19" rel="body">
+              <node cat="np" id="20" index="2" rel="su">
+                <node id="21" infl="de" pos="det" rel="det" root="die" sense="die" wh="nwh"/>
+                <node gen="de" id="22" num="pl" pos="noun" rel="hd" root="god" sense="god"/>
+              </node>
+              <node id="23" infl="pl" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="past"/>
+              <node cat="inf" id="24" rel="vc">
+                <node id="25" index="2" rel="su"/>
+                <node id="26" infl="inf" pos="verb" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben"/>
+                <node cat="ppart" id="27" rel="vc">
+                  <node id="28" index="2" rel="su"/>
+                  <node gen="de" id="29" num="pl" pos="noun" rel="predc" root="Rus" sense="Rus"/>
+                  <node id="30" infl="psp" pos="verb" rel="hd" root="ben" sc="copula" sense="ben"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

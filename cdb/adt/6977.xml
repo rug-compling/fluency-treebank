@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="het" id="4" num="sg" pos="noun" rel="hd" root="congres" sense="congres"/>
+      </node>
+      <node id="5" infl="sg3" pos="verb" rel="hd" root="verzoek" sc="np_vp_obj" sense="verzoek" tense="present"/>
+      <node cat="np" id="6" index="1" rel="obj2">
+        <node id="7" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node cat="mwu" id="8" mwu_root="Eerste Kamer" mwu_sense="Eerste Kamer" rel="hd">
+          <node id="9" neclass="ORG" num="both" pos="name" rel="mwp" root="Eerste" sense="Eerste"/>
+          <node id="10" neclass="ORG" num="both" pos="name" rel="mwp" root="Kamer" sense="Kamer"/>
+        </node>
+      </node>
+      <node cat="pp" id="11" rel="mod">
+        <node id="12" pos="prep" rel="hd" root="met" sense="met"/>
+        <node gen="de" id="13" num="sg" pos="noun" rel="obj1" root="klem" sense="klem"/>
+      </node>
+      <node cat="ti" id="14" rel="vc">
+        <node id="15" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+        <node cat="inf" id="16" rel="body">
+          <node id="17" index="1" rel="su"/>
+          <node cat="np" id="18" rel="obj1">
+            <node id="19" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="20" num="sg" pos="noun" rel="hd" root="loon_wet" sense="loon_wet"/>
+          </node>
+          <node id="21" infl="inf" pos="verb" rel="hd" root="verwerp" sc="transitive" sense="verwerp"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

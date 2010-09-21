@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node case="nom" def="def" gen="de" id="2" num="sg" per="fir" pos="pron" rel="su" root="ik" sense="ik" wh="nwh"/>
+      <node id="3" infl="sg1" pos="verb" rel="hd" root="verdeel" sc="np_pc_pp(onder)" sense="verdeel-onder" tense="present"/>
+      <node id="4" infl="het" pos="det" rel="obj1" root="het" sense="het" wh="nwh"/>
+      <node cat="pp" id="5" rel="pc">
+        <node id="6" pos="prep" rel="hd" root="onder" sense="onder"/>
+        <node cat="conj" id="7" rel="obj1">
+          <node cat="np" id="8" rel="cnj">
+            <node id="9" index="1" infl="pron" pos="det" rel="det" root="mijn" sense="mijn"/>
+            <node id="10" index="2" infl="pl_num" pos="num" rel="det" root="dertien" sense="dertien" special="hoofd"/>
+            <node gen="het" id="11" num="pl" pos="noun" rel="hd" root="broer_DIM" sense="broer_DIM"/>
+          </node>
+          <node id="12" pos="vg" rel="crd" root="en" sense="en"/>
+          <node cat="np" id="13" rel="cnj">
+            <node id="14" index="1" rel="det"/>
+            <node id="15" index="2" rel="det"/>
+            <node gen="het" id="16" num="pl" pos="noun" rel="hd" root="zus_DIM" sense="zus_DIM"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

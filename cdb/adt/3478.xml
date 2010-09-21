@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="smain" id="2" rel="cnj">
+        <node cat="cp" id="3" index="1" rel="predm">
+          <node id="4" pos="comp" rel="cmp" root="als" sc="als" sense="als"/>
+          <node gen="de" id="5" num="pl" pos="noun" rel="body" root="officier" sense="officier"/>
+        </node>
+        <node id="6" index="2" infl="pl" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="present"/>
+        <node case="both" def="def" gen="de" id="7" index="3" num="both" per="thi" pos="pron" rel="su" root="ze" sense="ze" special="wkpro" wh="nwh"/>
+        <node cat="ppart" id="8" rel="vc">
+          <node id="9" index="3" rel="su"/>
+          <node cat="np" id="10" rel="obj1">
+            <node id="11" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="12" num="sg" pos="noun" rel="hd" root="positie" sense="positie"/>
+            <node cat="pp" id="13" rel="mod">
+              <node id="14" pos="prep" rel="hd" root="van" sense="van"/>
+              <node cat="np" id="15" rel="obj1">
+                <node id="16" infl="pron" pos="det" rel="det" root="hun" sense="hun"/>
+                <node gen="het" id="17" num="sg" pos="noun" rel="hd" root="regiment" sense="regiment"/>
+              </node>
+            </node>
+          </node>
+          <node cat="pp" id="18" rel="obj2">
+            <node id="19" pos="prep" rel="hd" root="aan" sense="aan"/>
+            <node cat="np" id="20" rel="obj1">
+              <node id="21" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node aform="base" id="22" num="pl" pos="adj" rel="hd" root="noordelijk" sense="noordelijk" special="a_noun"/>
+            </node>
+          </node>
+          <node id="23" infl="psp" pos="verb" rel="hd" root="verraad" sc="so_pp_np" sense="verraad"/>
+        </node>
+      </node>
+      <node id="24" pos="vg" rel="crd" root="en" sense="en"/>
+      <node cat="smain" id="25" rel="cnj">
+        <node id="26" index="1" rel="predm"/>
+        <node id="27" index="2" rel="hd"/>
+        <node id="28" index="3" rel="su"/>
+        <node cat="ppart" id="29" rel="vc">
+          <node id="30" index="3" rel="su"/>
+          <node cat="np" id="31" rel="obj1">
+            <node cat="detp" id="32" rel="det">
+              <node id="33" infl="al" pos="det" rel="mod" root="al" sense="al" special="pre_det_quant"/>
+              <node id="34" infl="pron" pos="det" rel="hd" root="hun" sense="hun"/>
+            </node>
+            <node gen="de" id="35" num="pl" pos="noun" rel="hd" root="kameraad" sense="kameraad"/>
+          </node>
+          <node id="36" infl="psp" pos="verb" rel="hd" root="dood" sc="transitive" sense="dood"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

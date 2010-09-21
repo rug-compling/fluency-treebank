@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node aform="compar" id="2" infl="no_e" pos="adj" rel="predc" root="belangrijk" sense="belangrijk" vform="adj"/>
+      <node id="3" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+      <node cat="whrel" id="4" rel="su">
+        <node case="both" def="indef" gen="het" id="5" index="1" num="sg" per="thi" pos="pron" rel="rhd" root="wat" sense="wat" special="nparg" wh="ywh"/>
+        <node cat="ssub" id="6" rel="body">
+          <node id="7" index="1" rel="su"/>
+          <node id="8" pos="adv" rel="mod" root="er" sense="er" special="er"/>
+          <node cat="pp" id="9" rel="pc">
+            <node id="10" pos="prep" rel="hd" root="met" sense="met"/>
+            <node cat="np" id="11" rel="obj1">
+              <node id="12" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node gen="de" id="13" num="sg" pos="noun" rel="hd" root="rente" sense="rente"/>
+              <node cat="pp" id="14" rel="mod">
+                <node id="15" pos="prep" rel="hd" root="in" sense="in"/>
+                <node cat="np" id="16" rel="obj1">
+                  <node id="17" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                  <node cat="mwu" id="18" mwu_root="Verenigde Staten" mwu_sense="Verenigde Staten" rel="hd">
+                    <node id="19" neclass="LOC" num="both" pos="name" rel="mwp" root="Verenigde" sense="Verenigde"/>
+                    <node id="20" neclass="LOC" num="both" pos="name" rel="mwp" root="Staten" sense="Staten"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node id="21" infl="sg3" pos="verb" rel="hd" root="gebeur" sc="pc_pp(met)" sense="gebeur-met" tense="present"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

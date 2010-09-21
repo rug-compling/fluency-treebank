@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node id="2" pos="tag" rel="tag" root="welnu" sense="welnu"/>
+      <node cat="smain" id="3" rel="nucl">
+        <node case="nom" def="def" gen="de" id="4" num="both" per="thi" pos="pron" rel="su" root="zij" sense="zij" wh="nwh"/>
+        <node id="5" infl="pl" pos="verb" rel="hd" root="heb" sc="transitive_ndev" sense="heb" tense="present"/>
+        <node cat="conj" id="6" rel="obj1">
+          <node cat="np" id="7" rel="cnj">
+            <node id="8" index="1" infl="pron" pos="det" rel="det" root="hun" sense="hun"/>
+            <node gen="de" id="9" num="sg" pos="noun" rel="hd" root="inspraak" sense="inspraak"/>
+          </node>
+          <node cat="np" id="10" rel="cnj">
+            <node id="11" index="1" rel="det"/>
+            <node gen="de" id="12" num="sg" pos="noun" rel="hd" root="medezeggenschap" sense="medezeggenschap"/>
+          </node>
+          <node id="13" pos="vg" rel="crd" root="en" sense="en"/>
+          <node cat="np" id="14" rel="cnj">
+            <node id="15" index="1" rel="det"/>
+            <node gen="de" id="16" num="sg" pos="noun" rel="hd" root="democratisering" sense="democratisering"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

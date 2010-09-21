@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="mod">
+        <node id="3" pos="adv" rel="mod" root="ook" sc="modal" sense="ook"/>
+        <node id="4" pos="prep" rel="hd" root="in" sense="in"/>
+        <node cat="np" id="5" rel="obj1">
+          <node id="6" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node cat="ppart" id="7" rel="mod">
+            <node cat="pp" id="8" rel="mod">
+              <node id="9" pos="prep" rel="hd" root="in" sense="in"/>
+              <node cat="np" id="10" rel="obj1">
+                <node id="11" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+                <node gen="het" id="12" num="sg" pos="noun" rel="hd" root="plan" sense="plan"/>
+              </node>
+            </node>
+            <node aform="base" id="13" infl="e" pos="adj" rel="hd" root="voorgesteld" sense="voorgesteld" vform="psp"/>
+          </node>
+          <node gen="de" id="14" num="sg" pos="noun" rel="hd" root="financiering" sense="financiering"/>
+        </node>
+      </node>
+      <node id="15" infl="sg3" pos="verb" rel="hd" root="wreek" sc="refl" sense="zich-wreek" tense="present"/>
+      <node id="16" num="both" per="u_thi" pos="pron" refl="refl" rel="se" root="zich" sense="zich"/>
+      <node cat="np" id="17" rel="su">
+        <node id="18" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node cat="conj" id="19" rel="mod">
+          <node cat="ap" id="20" rel="cnj">
+            <node id="21" index="1" pos="adv" rel="mod" root="te" sense="te" special="intensifier"/>
+            <node aform="base" id="22" infl="e" pos="adj" rel="hd" root="dirigistische" sense="dirigistische" vform="adj"/>
+          </node>
+          <node id="23" pos="vg" rel="crd" root="en" sense="en"/>
+          <node cat="ap" id="24" rel="cnj">
+            <node id="25" index="1" rel="mod"/>
+            <node aform="base" id="26" infl="e" pos="adj" rel="hd" root="centralistisch" sense="centralistisch" vform="adj"/>
+          </node>
+        </node>
+        <node gen="de" id="27" num="sg" pos="noun" rel="hd" root="opzet" sense="opzet"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

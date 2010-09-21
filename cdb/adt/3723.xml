@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" pos="adv" rel="mod" root="er" sense="er" special="er"/>
+      <node id="3" infl="pl" pos="verb" rel="hd" root="ben" sc="intransitive" sense="ben" tense="present"/>
+      <node cat="pp" id="4" rel="mod">
+        <node id="5" pos="prep" rel="hd" root="in" sense="in"/>
+        <node cat="conj" id="6" rel="obj1">
+          <node id="7" neclass="LOC" num="both" pos="name" rel="cnj" root="Groningen" sense="Groningen"/>
+          <node id="8" pos="vg" rel="crd" root="en" sense="en"/>
+          <node id="9" neclass="LOC" num="both" pos="name" rel="cnj" root="Friesland" sense="Friesland"/>
+        </node>
+      </node>
+      <node cat="np" id="10" rel="su">
+        <node id="11" infl="pl_num" pos="num" rel="det" root="drie" sense="drie" special="hoofd"/>
+        <node gen="de" id="12" num="pl" pos="noun" rel="hd" root="instantie" sense="instantie"/>
+        <node cat="rel" id="13" rel="mod">
+          <node case="no_obl" gen="de" id="14" index="1" pos="pron" rel="rhd" root="die" sense="die" wh="rel"/>
+          <node cat="ssub" id="15" rel="body">
+            <node id="16" index="1" rel="su"/>
+            <node case="dat_acc" def="def" gen="de" id="17" num="both" per="thi" pos="pron" rel="obj1" root="zich" sense="zich" special="wkpro" wh="nwh"/>
+            <node cat="pp" id="18" rel="pc">
+              <node id="19" pos="prep" rel="hd" root="met" sense="met"/>
+              <node id="20" pos="verb" rel="obj1" root="wad_wandel" sc="intransitive" sense="wad_wandel" special="v_noun"/>
+            </node>
+            <node id="21" infl="pl" pos="verb" rel="hd" root="houd_bezig" sc="part_np_pc_pp(bezig,met)" sense="houd_bezig-met" tense="present"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

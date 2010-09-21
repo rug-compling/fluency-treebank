@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node gen="de" id="3" num="sg" pos="noun" rel="hd" root="koningin" sense="koningin"/>
+        <node id="4" neclass="PER" num="both" pos="name" rel="app" root="Juliana" sense="Juliana"/>
+      </node>
+      <node id="5" infl="sg3" pos="verb" rel="hd" root="open" sc="transitive" sense="open" tense="present"/>
+      <node cat="pp" id="6" rel="mod">
+        <node id="7" pos="prep" rel="hd" root="op" sense="op"/>
+        <node cat="np" id="8" rel="obj1">
+          <node cat="mwu" id="9" mwu_root="18 september" mwu_sense="18 september" rel="hd">
+            <node id="10" pos="noun" rel="mwp" root="18" sense="18" special="tmp"/>
+            <node id="11" pos="noun" rel="mwp" root="september" sense="september" special="tmp"/>
+          </node>
+          <node cat="np" id="12" rel="mod">
+            <node id="13" infl="pron" neclass="LOC" pos="det" rel="det" root="Eindhoven" sense="Eindhoven" special="name"/>
+            <node id="14" pos="num" rel="mod" root="255ste" sense="255ste" special="rang"/>
+            <node gen="de" id="15" num="sg" pos="noun" rel="hd" root="bevrijding_dag" sense="bevrijding_dag" special="tmp"/>
+          </node>
+        </node>
+      </node>
+      <node cat="np" id="16" rel="obj1">
+        <node id="17" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node aform="base" id="18" infl="e" pos="adj" rel="mod" root="nieuw" sense="nieuw" vform="adj"/>
+        <node gen="het" id="19" num="sg" pos="noun" rel="hd" root="stadhuis" sense="stadhuis"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

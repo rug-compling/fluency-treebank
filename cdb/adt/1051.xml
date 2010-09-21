@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="smain" id="2" rel="nucl">
+        <node cat="np" id="3" rel="su">
+          <node id="4" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node aform="base" id="5" infl="e" pos="adj" rel="mod" root="werk" sense="werk" vform="gerund"/>
+          <node gen="de" id="6" num="pl" pos="noun" rel="hd" root="jongere" sense="jongere"/>
+        </node>
+        <node id="7" infl="pl" pos="verb" rel="hd" root="heb" sc="fixed([{[acc(recht),pc(op)]}],no_passive)" sense="recht-heb-op" tense="present"/>
+        <node id="8" pos="pp" rel="pc" root="daarop" sense="daarop" special="er"/>
+        <node aform="base" id="9" infl="no_e" pos="adj" rel="mod" root="volledig" sense="volledig" vform="adj"/>
+        <node gen="het" id="10" num="sg" pos="noun" rel="obj1" root="recht" sense="recht"/>
+      </node>
+      <node cat="pp" id="11" rel="tag">
+        <node id="12" pos="prep" rel="hd" root="aldus" sense="aldus"/>
+        <node cat="np" id="13" rel="obj1">
+          <node id="14" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="15" num="sg" pos="noun" rel="hd" root="heer" sense="heer"/>
+          <node cat="mwu" id="16" mwu_root="Den Uyl" mwu_sense="Den Uyl" rel="app">
+            <node id="17" neclass="PER" num="both" pos="name" rel="mwp" root="Den" sense="Den"/>
+            <node id="18" neclass="PER" num="both" pos="name" rel="mwp" root="Uyl" sense="Uyl"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

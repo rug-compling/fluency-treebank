@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="pl_num" pos="num" rel="det" root="twee" sense="twee" special="hoofd"/>
+        <node gen="de" id="4" num="pl" pos="noun" rel="hd" root="agent" sense="agent"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="7" rel="obj1">
+            <node id="8" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node id="9" num="both" pos="name" rel="mod" root="Weerter" sense="Weerter"/>
+            <node gen="de" id="10" num="sg" pos="noun" rel="hd" root="politie" sense="politie"/>
+          </node>
+        </node>
+      </node>
+      <node id="11" infl="pl" pos="verb" rel="hd" root="moet" sc="modifier(aux(inf))" sense="moet" tense="past"/>
+      <node cat="inf" id="12" rel="vc">
+        <node id="13" index="1" rel="su"/>
+        <node id="14" infl="inf" pos="verb" rel="hd" root="word" sc="passive" sense="word"/>
+        <node cat="ppart" id="15" rel="vc">
+          <node id="16" index="1" rel="obj1"/>
+          <node cat="pp" id="17" rel="mod">
+            <node id="18" pos="prep" rel="hd" root="met" sense="met"/>
+            <node cat="np" id="19" rel="obj1">
+              <node id="20" infl="een" pos="det" rel="det" root="een" sense="een"/>
+              <node aform="base" id="21" infl="e" pos="adj" rel="mod" root="zwaar" sense="zwaar" vform="adj"/>
+              <node gen="de" id="22" num="sg" pos="noun" rel="hd" root="hersenschudding" sense="hersenschudding"/>
+            </node>
+          </node>
+          <node cat="pp" id="23" rel="ld">
+            <node id="24" pos="prep" rel="hd" root="in" sense="in"/>
+            <node cat="np" id="25" rel="obj1">
+              <node id="26" infl="een" pos="det" rel="det" root="een" sense="een"/>
+              <node gen="het" id="27" num="sg" pos="noun" rel="hd" root="ziekenhuis" sense="ziekenhuis"/>
+            </node>
+          </node>
+          <node id="28" infl="psp" pos="verb" rel="hd" root="neem_op" sc="part_np_ld_pp(op)" sense="neem_op"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

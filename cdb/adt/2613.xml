@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="mwu" id="2" mwu_root="Aalt Toersen" mwu_sense="Aalt Toersen" rel="su">
+        <node id="3" neclass="PER" num="both" pos="name" rel="mwp" root="Aalt" sense="Aalt"/>
+        <node id="4" neclass="PER" num="both" pos="name" rel="mwp" root="Toersen" sense="Toersen"/>
+      </node>
+      <node id="5" infl="sg" pos="verb" rel="hd" root="word" sc="copula" sense="word" tense="past"/>
+      <node id="6" pos="num" rel="predc" root="derde" sense="derde" special="rang"/>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="het" pos="det" rel="det" root="dit" sense="dit" wh="nwh"/>
+        <node gen="het" id="4" num="sg" pos="noun" rel="hd" root="besluit" sense="besluit"/>
+      </node>
+      <node id="5" infl="sg3" pos="verb" rel="hd" root="betref" sc="transitive" sense="betref" tense="present"/>
+      <node cat="np" id="6" rel="obj1">
+        <node gen="de" id="7" num="pl" pos="noun" rel="hd" root="student" sense="student"/>
+        <node cat="pp" id="8" rel="mod">
+          <node id="9" pos="prep" rel="hd" root="uit" sense="uit"/>
+          <node cat="np" id="10" rel="obj1">
+            <node id="11" pos="verb" rel="hd" root="plaats" sc="intransitive" sense="plaats" special="v_noun"/>
+            <node cat="rel" id="12" rel="mod">
+              <node id="13" index="1" pos="adv" rel="rhd" root="waar" sense="waar" special="er_loc" wh="ywh"/>
+              <node cat="ssub" id="14" rel="body">
+                <node cat="np" id="15" index="2" rel="su">
+                  <node id="16" infl="een" pos="det" rel="det" root="een" sense="een"/>
+                  <node gen="de" id="17" num="sg" pos="noun" rel="hd" root="scheuring" sense="scheuring"/>
+                </node>
+                <node id="18" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" tense="present"/>
+                <node cat="ppart" id="19" rel="vc">
+                  <node id="20" index="1" rel="mod"/>
+                  <node id="21" index="2" rel="su"/>
+                  <node id="22" infl="psp" pos="verb" rel="hd" root="ontsta" sc="intransitive" sense="ontsta"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

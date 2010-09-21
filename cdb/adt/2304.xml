@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="pl" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="present"/>
+      <node cat="np" id="3" index="1" rel="su">
+        <node id="4" infl="enkele" pos="det" rel="det" root="enkel" sense="enkel" special="adj_number"/>
+        <node gen="de" id="5" num="pl" pos="noun" rel="hd" root="huiseigenaar" sense="huiseigenaar"/>
+      </node>
+      <node cat="ppart" id="6" rel="vc">
+        <node cat="pp" id="7" rel="mod">
+          <node id="8" pos="prep" rel="hd" root="volgens" sense="volgens"/>
+          <node cat="mwu" id="9" mwu_root="drs. Bakker" mwu_sense="drs. Bakker" rel="obj1">
+            <node id="10" neclass="PER" num="both" pos="name" rel="mwp" root="drs." sense="drs."/>
+            <node id="11" neclass="PER" num="both" pos="name" rel="mwp" root="Bakker" sense="Bakker"/>
+          </node>
+        </node>
+        <node id="12" index="1" rel="su"/>
+        <node cat="np" id="13" index="2" rel="obj1">
+          <node id="14" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node id="15" neclass="ORG" num="both" pos="name" rel="hd" root="Emro" sense="Emro"/>
+        </node>
+        <node id="16" infl="psp" pos="verb" rel="hd" root="sommeer" sc="np_vp_obj1" sense="sommeer"/>
+        <node cat="ti" id="17" rel="vc">
+          <node id="18" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+          <node cat="inf" id="19" rel="body">
+            <node id="20" index="2" rel="su"/>
+            <node cat="np" id="21" rel="obj1">
+              <node id="22" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node gen="het" id="23" num="pl" pos="noun" rel="hd" root="huis" sense="huis"/>
+              <node cat="pp" id="24" rel="mod">
+                <node id="25" pos="prep" rel="hd" root="voor" sense="voor"/>
+                <node cat="mwu" id="26" mwu_root="15 januari" mwu_sense="15 januari" rel="obj1">
+                  <node id="27" pos="noun" rel="mwp" root="15" sense="15" special="tmp"/>
+                  <node id="28" pos="noun" rel="mwp" root="januari" sense="januari" special="tmp"/>
+                </node>
+              </node>
+            </node>
+            <node id="29" infl="inf" pos="verb" rel="hd" root="bouw_af" sc="part_transitive(af)" sense="bouw_af"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

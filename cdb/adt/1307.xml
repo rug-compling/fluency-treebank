@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node case="both" def="def" gen="de" id="2" num="both" per="thi" pos="pron" rel="su" root="ze" sense="ze" special="wkpro" wh="nwh"/>
+      <node id="3" infl="pl" pos="verb" rel="hd" root="ben" sc="fixed([{[pc(voor),[als,de,dood]]}],no_passive)" sense="als-de-dood-ben-voor" tense="present"/>
+      <node cat="mwu" id="4" mwu_root="als de dood" mwu_sense="als de dood" rel="svp">
+        <node id="5" pos="fixed" rel="mwp" root="als" sense="als"/>
+        <node id="6" pos="fixed" rel="mwp" root="de" sense="de"/>
+        <node id="7" pos="fixed" rel="mwp" root="dood" sense="dood"/>
+      </node>
+      <node cat="pp" id="8" rel="pc">
+        <node id="9" pos="prep" rel="hd" root="voor" sense="voor"/>
+        <node cat="np" id="10" rel="obj1">
+          <node id="11" infl="de" pos="det" rel="det" root="die" sense="die" wh="nwh"/>
+          <node gen="het" id="12" num="pl" pos="noun" rel="hd" root="beest" sense="beest"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="het" pos="det" rel="su" root="dat" sense="dat" wh="nwh"/>
+      <node id="3" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+      <node cat="np" id="4" rel="predc">
+        <node id="5" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="het" id="6" num="sg" pos="noun" rel="hd" root="oordeel" sense="oordeel"/>
+        <node cat="pp" id="7" rel="mod">
+          <node id="8" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="9" rel="obj1">
+            <node gen="de" id="10" num="sg" pos="noun" rel="hd" root="brigade_generaal" sense="brigade_generaal"/>
+            <node cat="mwu" id="11" mwu_root="W. K. Brederode" mwu_sense="W. K. Brederode" rel="app">
+              <node id="12" neclass="PER" num="both" pos="name" rel="mwp" root="W." sense="W."/>
+              <node id="13" neclass="PER" num="both" pos="name" rel="mwp" root="K." sense="K."/>
+              <node id="14" neclass="PER" num="both" pos="name" rel="mwp" root="Brederode" sense="Brederode"/>
+            </node>
+            <node cat="np" id="15" rel="app">
+              <node gen="de" id="16" num="sg" pos="noun" rel="hd" root="commandant" sense="commandant"/>
+              <node cat="pp" id="17" rel="mod">
+                <node id="18" pos="prep" rel="hd" root="van" sense="van"/>
+                <node cat="np" id="19" rel="obj1">
+                  <node id="20" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                  <node id="21" pos="num" rel="mod" root="dertiende" sense="dertiende" special="rang"/>
+                  <node gen="de" id="22" num="sg" pos="noun" rel="hd" root="pantser-infanterie_brigade" sense="pantser-infanterie_brigade"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

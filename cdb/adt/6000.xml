@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="het" pos="det" rel="su" root="het" sense="het" wh="nwh"/>
+      <node id="3" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+      <node cat="pp" id="4" rel="mod">
+        <node id="5" pos="prep" rel="hd" root="in" sense="in"/>
+        <node cat="np" id="6" rel="obj1">
+          <node aform="base" id="7" infl="e" pos="adj" rel="mod" root="verschil" sense="verschil" vform="gerund"/>
+          <node gen="het" id="8" num="pl" pos="noun" rel="hd" root="opzicht" sense="opzicht"/>
+        </node>
+      </node>
+      <node cat="np" id="9" rel="predc">
+        <node id="10" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node gen="de" id="11" num="sg" pos="noun" rel="hd" root="terugkeer" sense="terugkeer"/>
+        <node cat="pp" id="12" rel="mod">
+          <node id="13" pos="prep" rel="hd" root="naar" sense="naar"/>
+          <node cat="np" id="14" rel="obj1">
+            <node id="15" infl="pron" neclass="LOC" pos="det" rel="det" root="Carpentiers" sense="Carpentiers" special="name"/>
+            <node id="16" pos="num" rel="mod" root="eerste" sense="eerste" special="rang"/>
+            <node gen="de" id="17" num="sg" pos="noun" rel="hd" root="roman" sense="roman"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

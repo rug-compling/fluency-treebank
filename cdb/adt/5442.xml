@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="sv1" id="1" rel="--">
+      <node id="2" infl="modal_not_u" pos="verb" rel="hd" root="kan" sc="aux(inf)" sense="kan" tense="present"/>
+      <node id="3" index="1" neclass="LOC" num="both" pos="name" rel="su" root="Portugal" sense="Portugal"/>
+      <node cat="inf" id="4" rel="vc">
+        <node id="5" index="1" rel="su"/>
+        <node id="6" infl="inf" pos="verb" rel="hd" root="blijf" sc="aux(inf)" sense="blijf"/>
+        <node cat="inf" id="7" rel="vc">
+          <node id="8" index="1" rel="su"/>
+          <node id="9" num="both" per="u_thi" pos="pron" refl="refl" rel="se" root="zich" sense="zich"/>
+          <node cat="mwu" id="10" mwu_root="op den duur" mwu_sense="op den duur" rel="mod">
+            <node id="11" pos="adv" rel="mwp" root="op" sense="op" special="sentence"/>
+            <node id="12" pos="adv" rel="mwp" root="den" sense="den" special="sentence"/>
+            <node id="13" pos="adv" rel="mwp" root="duur" sense="duur" special="sentence"/>
+          </node>
+          <node id="14" pos="pp" rel="pc" root="hiertegen" sense="hiertegen" special="er"/>
+          <node id="15" infl="inf" pos="verb" rel="hd" root="verzet" sc="refl_pc_pp(tegen)" sense="zich-verzet-tegen"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

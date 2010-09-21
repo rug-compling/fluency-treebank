@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="wereldluchtvaart" sense="wereldluchtvaart"/>
+      </node>
+      <node id="5" infl="sg3" pos="verb" rel="hd" root="sta" sc="pc_pp(voor)" sense="sta-voor" tense="present"/>
+      <node cat="pp" id="6" rel="mod">
+        <node id="7" pos="prep" rel="hd" root="volgens" sense="volgens"/>
+        <node cat="mwu" id="8" mwu_root="dr. Van der Wal" mwu_sense="dr. Van der Wal" rel="obj1">
+          <node id="9" neclass="PER" num="both" pos="name" rel="mwp" root="dr." sense="dr."/>
+          <node id="10" neclass="PER" num="both" pos="name" rel="mwp" root="Van" sense="Van"/>
+          <node id="11" neclass="PER" num="both" pos="name" rel="mwp" root="der" sense="der"/>
+          <node id="12" neclass="PER" num="both" pos="name" rel="mwp" root="Wal" sense="Wal"/>
+        </node>
+      </node>
+      <node id="13" pos="adv" rel="mod" root="nu" sense="nu" special="tmp"/>
+      <node cat="pp" id="14" rel="pc">
+        <node id="15" pos="prep" rel="hd" root="voor" sense="voor"/>
+        <node cat="np" id="16" rel="obj1">
+          <node id="17" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node gen="het" id="18" num="sg" pos="noun" rel="hd" root="dilemma" sense="dilemma"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

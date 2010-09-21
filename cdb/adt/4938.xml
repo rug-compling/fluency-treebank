@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="pl" pos="verb" rel="hd" root="moet" sc="modifier(aux(inf))" sense="moet" tense="present"/>
+      <node cat="np" id="3" index="1" rel="su">
+        <node id="4" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="het" id="5" num="pl" pos="noun" rel="hd" root="verkeer_slachtoffer" sense="verkeer_slachtoffer"/>
+      </node>
+      <node cat="inf" id="6" rel="vc">
+        <node cat="pp" id="7" rel="pc">
+          <node id="8" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="9" rel="obj1">
+            <node id="10" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="11" num="pl" pos="noun" rel="hd" root="veroorzaker" sense="veroorzaker"/>
+            <node cat="pp" id="12" rel="mod">
+              <node id="13" pos="prep" rel="hd" root="van" sense="van"/>
+              <node cat="np" id="14" rel="obj1">
+                <node id="15" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+                <node gen="het" id="16" num="sg" pos="noun" rel="hd" root="letsel" sense="letsel"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node id="17" index="1" rel="su"/>
+        <node id="18" infl="het" pos="det" rel="obj1" root="het" sense="het" wh="nwh"/>
+        <node cat="pp" id="19" rel="mod">
+          <node id="20" pos="prep" rel="hd" root="in" sense="in"/>
+          <node cat="np" id="21" rel="obj1">
+            <node id="22" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+            <node gen="het" id="23" num="sg" pos="noun" rel="hd" root="algemeen" sense="algemeen"/>
+          </node>
+        </node>
+        <node id="24" pos="adv" rel="mod" root="niet" sense="niet"/>
+        <node id="25" infl="inf" pos="verb" rel="hd" root="heb" sc="np_pc_pp(van)" sense="heb-van"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

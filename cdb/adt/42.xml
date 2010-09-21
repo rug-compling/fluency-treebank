@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="np" id="2" rel="dp">
+        <node id="3" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node aform="base" id="4" infl="no_e" pos="adj" rel="mod" root="nieuw" sense="nieuw" vform="adj"/>
+        <node gen="het" id="5" num="sg" pos="noun" rel="hd" root="gezicht" sense="gezicht"/>
+      </node>
+      <node id="6" pos="adv" rel="dp" root="dus" sense="dus" special="sentence"/>
+    </node>
+  </node>
+</alpino_adt>

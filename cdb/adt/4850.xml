@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node id="2" pos="comp" rel="dlink" root="en" sc="root" sense="en"/>
+      <node cat="du" id="3" rel="nucl">
+        <node id="4" pos="adv" rel="dp" root="bovenal" sense="bovenal"/>
+        <node cat="np" id="5" rel="dp">
+          <node id="6" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="7" num="sg" pos="noun" rel="hd" root="handhaving" sense="handhaving"/>
+          <node cat="pp" id="8" rel="mod">
+            <node id="9" pos="prep" rel="hd" root="van" sense="van"/>
+            <node cat="np" id="10" rel="obj1">
+              <node id="11" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node aform="base" id="12" infl="e" pos="adj" rel="mod" root="seculaire" sense="seculaire" vform="adj"/>
+              <node gen="de" id="13" num="sg" pos="noun" rel="hd" root="republiek" sense="republiek"/>
+              <node cat="np" id="14" rel="app">
+                <node id="15" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                <node gen="de" id="16" num="sg" pos="noun" rel="hd" root="scheiding" sense="scheiding"/>
+                <node cat="pp" id="17" rel="mod">
+                  <node id="18" pos="prep" rel="hd" root="tussen" sense="tussen"/>
+                  <node cat="conj" id="19" rel="obj1">
+                    <node gen="de" id="20" num="sg" pos="noun" rel="cnj" root="kerk" sense="kerk"/>
+                    <node id="21" pos="vg" rel="crd" root="en" sense="en"/>
+                    <node gen="de" id="22" num="sg" pos="noun" rel="cnj" root="staat" sense="staat"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node case="nom" def="def" gen="de" id="2" index="1" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="past"/>
+      <node cat="ppart" id="4" rel="vc">
+        <node id="5" index="1" rel="obj1"/>
+        <node cat="pp" id="6" rel="mod">
+          <node id="7" pos="prep" rel="hd" root="met" sense="met"/>
+          <node cat="np" id="8" rel="obj1">
+            <node aform="base" id="9" infl="e" pos="adj" rel="mod" root="algemeen" sense="algemeen" vform="adj"/>
+            <node gen="de" id="10" num="pl" pos="noun" rel="hd" root="stem" sense="stem"/>
+          </node>
+        </node>
+        <node cat="pp" id="11" rel="ld">
+          <node id="12" pos="prep" rel="hd" root="in" sense="in"/>
+          <node cat="np" id="13" rel="obj1">
+            <node id="14" infl="de" pos="det" rel="det" root="die" sense="die" wh="nwh"/>
+            <node gen="de" id="15" num="sg" pos="noun" rel="hd" root="functie" sense="functie"/>
+          </node>
+        </node>
+        <node id="16" infl="psp" pos="verb" rel="hd" root="kies" sc="np_ld_pp" sense="kies"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

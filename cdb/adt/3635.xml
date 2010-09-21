@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="mwu" id="2" mwu_root="Jan den Boer" mwu_sense="Jan den Boer" rel="su">
+        <node id="3" neclass="PER" num="both" pos="name" rel="mwp" root="Jan" sense="Jan"/>
+        <node id="4" neclass="PER" num="both" pos="name" rel="mwp" root="den" sense="den"/>
+        <node id="5" neclass="PER" num="both" pos="name" rel="mwp" root="Boer" sense="Boer"/>
+      </node>
+      <node id="6" infl="sg" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="past"/>
+      <node cat="pp" id="7" rel="mod">
+        <node id="8" pos="prep" rel="hd" root="met" sense="met"/>
+        <node cat="np" id="9" rel="obj1">
+          <node id="10" infl="pl_num" pos="num" rel="det" root="drie" sense="drie" special="hoofd"/>
+          <node gen="het" id="11" num="pl" pos="noun" rel="hd" root="doelpunt" sense="doelpunt"/>
+        </node>
+      </node>
+      <node cat="np" id="12" rel="predc">
+        <node id="13" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node aform="base" id="14" infl="e" pos="adj" rel="mod" root="groot" sense="groot" vform="adj"/>
+        <node gen="de" id="15" num="sg" pos="noun" rel="hd" root="held" sense="held"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

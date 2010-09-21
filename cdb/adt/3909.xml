@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="smain" id="2" rel="cnj">
+        <node cat="np" id="3" rel="su">
+          <node id="4" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="5" num="pl" pos="noun" rel="hd" root="zaak" sense="zaak"/>
+        </node>
+        <node id="6" infl="pl" pos="verb" rel="hd" root="ga" sc="intransitive" sense="ga" tense="present"/>
+        <node aform="base" id="7" infl="no_e" pos="adj" rel="mod" root="goed" sense="goed" vform="adj"/>
+      </node>
+      <node id="8" pos="vg" rel="crd" root="en" sense="en"/>
+      <node cat="smain" id="9" rel="cnj">
+        <node case="nom" def="def" gen="de" id="10" num="pl" per="fir" pos="pron" rel="su" root="wij" sense="wij" wh="nwh"/>
+        <node id="11" infl="pl" pos="verb" rel="hd" root="heb" sc="transitive_ndev" sense="heb" tense="present"/>
+        <node id="12" pos="adv" rel="mod" root="nog" sense="nog"/>
+        <node cat="np" id="13" rel="obj1">
+          <node aform="base" id="14" infl="e" pos="adj" rel="mod" root="grootscheeps" sense="grootscheeps" vform="adj"/>
+          <node gen="het" id="15" num="pl" pos="noun" rel="hd" root="uitbreiding_plan" sense="uitbreiding_plan"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

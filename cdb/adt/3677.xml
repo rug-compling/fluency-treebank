@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="smain" id="2" rel="tag">
+        <node id="3" pos="adv" rel="vc" root="zo" sc="dip_sbar" sense="zo"/>
+        <node id="4" infl="sg3" pos="verb" rel="hd" root="waarschuw" sc="sbar" sense="waarschuw" tense="present"/>
+        <node case="nom" def="def" gen="de" id="5" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+      </node>
+      <node cat="conj" id="6" rel="nucl">
+        <node cat="smain" id="7" rel="cnj">
+          <node cat="np" id="8" index="1" rel="su">
+            <node aform="base" id="9" infl="no_e" pos="adj" rel="mod" root="buitenechtelijk" sense="buitenechtelijk" vform="adj"/>
+            <node gen="het" id="10" num="sg" pos="noun" rel="hd" root="verkeer" sense="verkeer"/>
+          </node>
+          <node id="11" infl="sg3" pos="verb" rel="hd" root="ga" sc="ap_copula" sense="ga" tense="present"/>
+          <node id="12" pos="adv" rel="mod" root="altijd" sense="altijd" special="sentence"/>
+          <node cat="ppart" id="13" rel="predc">
+            <node aform="base" id="14" infl="no_e" pos="adj" rel="hd" root="gepaard" sc="pp(met)" sense="gepaard-met" vform="psp"/>
+            <node cat="pp" id="15" rel="pc">
+              <node id="16" pos="prep" rel="hd" root="met" sense="met"/>
+              <node cat="np" id="17" rel="obj1">
+                <node aform="base" id="18" infl="e" pos="adj" rel="mod" root="nerveus" sense="nerveus" vform="adj"/>
+                <node gen="de" id="19" num="pl" pos="noun" rel="hd" root="spanning" sense="spanning"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node id="20" pos="vg" rel="crd" root="en" sense="en"/>
+        <node cat="smain" id="21" rel="cnj">
+          <node id="22" index="1" rel="su"/>
+          <node id="23" infl="sg" pos="verb" rel="hd" root="put_uit" sc="part_transitive(uit)" sense="put_uit" tense="present"/>
+          <node cat="np" id="24" rel="obj1">
+            <node id="25" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+            <node gen="het" id="26" num="sg" pos="noun" rel="hd" root="lichaam" sense="lichaam"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

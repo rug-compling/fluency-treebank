@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node case="nom" def="def" gen="de" id="2" num="pl" per="fir" pos="pron" rel="su" root="we" sense="we" special="wkpro" wh="nwh"/>
+      <node id="3" infl="pl" pos="verb" rel="hd" root="ga_uit" sc="part_pc_pp(uit,van)" sense="ga_uit-van" tense="present"/>
+      <node id="4" pos="pp" rel="pc" root="ervan" sense="ervan" special="er"/>
+    </node>
+  </node>
+</alpino_adt>

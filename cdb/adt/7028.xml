@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="np" id="2" rel="dp">
+        <node id="3" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node gen="het" id="4" num="sg" pos="noun" rel="hd" root="stadhuis" sense="stadhuis"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="van" sense="van"/>
+          <node gen="het" id="7" num="sg" pos="noun" rel="obj1" root="&quot;D&quot;_niveau" sense="&quot;D&quot;_niveau"/>
+        </node>
+        <node gen="de" id="8" num="pl" pos="noun" rel="app" root="bouw_kosten" sense="bouw_kosten"/>
+      </node>
+      <node cat="np" id="9" rel="dp">
+        <node cat="mwu" id="10" mwu_root="flo 19 miljoen" mwu_sense="flo 19 miljoen" rel="hd">
+          <node gen="both" id="11" num="bare_meas" pos="noun" rel="mwp" root="flo" sense="flo" special="amount_meas_mod"/>
+          <node gen="both" id="12" num="bare_meas" pos="noun" rel="mwp" root="19" sense="19" special="amount_meas_mod"/>
+          <node gen="both" id="13" num="bare_meas" pos="noun" rel="mwp" root="miljoen" sense="miljoen" special="amount_meas_mod"/>
+        </node>
+        <node gen="de" id="14" num="sg" pos="noun" rel="app" root="inrichting" sense="inrichting"/>
+      </node>
+      <node cat="mwu" id="15" mwu_root="flo 5.4 miljoen" mwu_sense="flo 5.4 miljoen" rel="dp">
+        <node gen="both" id="16" num="bare_meas" pos="noun" rel="mwp" root="flo" sense="flo" special="amount_meas_mod"/>
+        <node gen="both" id="17" num="bare_meas" pos="noun" rel="mwp" root="5.4" sense="5.4" special="amount_meas_mod"/>
+        <node gen="both" id="18" num="bare_meas" pos="noun" rel="mwp" root="miljoen" sense="miljoen" special="amount_meas_mod"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

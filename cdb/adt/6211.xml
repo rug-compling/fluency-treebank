@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node cat="mwu" id="3" mwu_root="W. Bloemarts" mwu_sense="W. Bloemarts" rel="hd">
+          <node id="4" neclass="PER" num="both" pos="name" rel="mwp" root="W." sense="W."/>
+          <node id="5" neclass="PER" num="both" pos="name" rel="mwp" root="Bloemarts" sense="Bloemarts"/>
+        </node>
+        <node cat="np" id="6" rel="app">
+          <node gen="de" id="7" num="sg" pos="noun" rel="hd" root="president" sense="president"/>
+          <node cat="pp" id="8" rel="mod">
+            <node id="9" pos="prep" rel="hd" root="van" sense="van"/>
+            <node cat="np" id="10" rel="obj1">
+              <node id="11" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node aform="base" id="12" infl="e" pos="adj" rel="mod" root="Haarlems" sense="Haarlems" vform="adj"/>
+              <node gen="de" id="13" num="sg" pos="noun" rel="hd" root="rechtbank" sense="rechtbank"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="14" infl="sg" pos="verb" rel="hd" root="geef" sc="np_np" sense="geef" tense="past"/>
+      <node cat="mwu" id="15" mwu_root="Henk Elsink" mwu_sense="Henk Elsink" rel="obj2">
+        <node id="16" neclass="PER" num="both" pos="name" rel="mwp" root="Henk" sense="Henk"/>
+        <node id="17" neclass="PER" num="both" pos="name" rel="mwp" root="Elsink" sense="Elsink"/>
+      </node>
+      <node gen="het" id="18" num="sg" pos="noun" rel="obj1" root="gelijk" sense="gelijk"/>
+    </node>
+  </node>
+</alpino_adt>

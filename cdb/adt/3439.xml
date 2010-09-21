@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="modal_not_u" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="present"/>
+      <node id="3" index="1" neclass="LOC" num="both" pos="name" rel="su" root="Nederland" sense="Nederland"/>
+      <node cat="inf" id="4" rel="vc">
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="in" sense="in"/>
+          <node id="7" pos="noun" rel="obj1" root="1970-1971" sense="1970-1971"/>
+        </node>
+        <node id="8" index="1" rel="su"/>
+        <node cat="pp" id="9" rel="mod">
+          <node id="10" pos="prep" rel="hd" root="voor" sense="voor"/>
+          <node cat="np" id="11" rel="obj1">
+            <node id="12" infl="pl_num" pos="num" rel="det" root="143" sense="143" special="hoofd"/>
+            <node gen="both" id="13" num="meas" pos="noun" rel="hd" root="miljoen" sense="miljoen" special="meas_mod"/>
+          </node>
+        </node>
+        <node gen="de" id="14" num="sg" pos="noun" rel="obj1" root="steun" sense="steun"/>
+        <node id="15" infl="inf" pos="verb" rel="hd" root="verleen" sc="transitive" sense="verleen"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node id="2" pos="comp" rel="dlink" root="en" sc="root" sense="en"/>
+      <node cat="smain" id="3" rel="nucl">
+        <node cat="conj" id="4" rel="su">
+          <node gen="de" id="5" num="sg" pos="noun" rel="cnj" root="vriendelijkheid" sense="vriendelijkheid"/>
+          <node gen="het" id="6" num="sg" pos="noun" rel="cnj" root="geduld" sense="geduld"/>
+          <node id="7" pos="vg" rel="crd" root="en" sense="en"/>
+          <node gen="de" id="8" num="sg" pos="noun" rel="cnj" root="blijdschap" sense="blijdschap"/>
+        </node>
+        <node id="9" infl="pl" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+        <node cat="advp" id="10" rel="mod">
+          <node id="11" pos="adv" rel="mod" root="nog" sc="modal" sense="nog"/>
+          <node id="12" pos="adv" rel="hd" root="altijd" sense="altijd" special="sentence"/>
+        </node>
+        <node cat="np" id="13" rel="predc">
+          <node id="14" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node aform="base" id="15" infl="e" pos="adj" rel="mod" root="overwin" sense="overwin" vform="gerund"/>
+          <node aform="base" id="16" infl="e" pos="adj" rel="mod" root="zacht" sense="zacht" vform="adj"/>
+          <node gen="de" id="17" num="pl" pos="noun" rel="hd" root="kracht" sense="kracht"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

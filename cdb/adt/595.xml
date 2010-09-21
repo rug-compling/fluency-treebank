@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="np" id="1" rel="--">
+      <node cat="mwu" id="2" mwu_root="Lucjan Brychczy" mwu_sense="Lucjan Brychczy" rel="hd">
+        <node id="3" neclass="PER" num="both" pos="name" rel="mwp" root="Lucjan" sense="Lucjan"/>
+        <node id="4" neclass="PER" num="both" pos="name" rel="mwp" root="Brychczy" sense="Brychczy"/>
+      </node>
+      <node cat="conj" id="5" rel="app">
+        <node cat="np" id="6" rel="cnj">
+          <node id="7" infl="pl_num" pos="num" rel="det" root="36" sense="36" special="hoofd"/>
+          <node gen="het" id="8" num="meas" pos="noun" rel="hd" root="jaar" sense="jaar" special="tmp"/>
+          <node id="9" pos="adv" rel="mod" root="al" sense="al" special="postnp"/>
+        </node>
+        <node id="10" pos="vg" rel="crd" root="maar" sense="maar"/>
+        <node cat="np" id="11" rel="cnj">
+          <node cat="advp" id="12" rel="mod">
+            <node id="13" pos="adv" rel="mod" root="nog" sc="modal" sense="nog"/>
+            <node id="14" pos="adv" rel="hd" root="immer" sense="immer"/>
+          </node>
+          <node id="15" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node aform="base" id="16" infl="e" pos="adj" rel="mod" root="hooggewaardeerd" sense="hooggewaardeerd" vform="adj"/>
+          <node gen="de" id="17" num="sg" pos="noun" rel="hd" root="kracht" sense="kracht"/>
+          <node cat="pp" id="18" rel="mod">
+            <node id="19" pos="prep" rel="hd" root="in" sense="in"/>
+            <node gen="de" id="20" num="pl" pos="noun" rel="obj1" root="Legia_kring" sense="Legia_kring"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

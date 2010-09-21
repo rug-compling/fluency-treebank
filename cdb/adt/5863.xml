@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="mwu" id="2" mwu_root="Giovanni Michelotti" mwu_sense="Giovanni Michelotti" rel="su">
+        <node id="3" neclass="PER" num="both" pos="name" rel="mwp" root="Giovanni" sense="Giovanni"/>
+        <node id="4" neclass="PER" num="both" pos="name" rel="mwp" root="Michelotti" sense="Michelotti"/>
+      </node>
+      <node id="5" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+      <node cat="np" id="6" rel="predc">
+        <node id="7" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="8" num="sg" pos="noun" rel="hd" root="ontwerper" sense="ontwerper"/>
+        <node cat="pp" id="9" rel="mod">
+          <node id="10" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="11" rel="obj1">
+            <node id="12" pos="adv" rel="mod" root="onder meer" sc="modal" sense="onder meer"/>
+            <node id="13" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node id="14" neclass="ORG" num="both" pos="name" rel="hd" root="Daf" sense="Daf"/>
+            <node cat="conj" id="15" rel="app">
+              <node id="16" infl="pl_num" pos="num" rel="cnj" root="44" sense="44" special="hoofd"/>
+              <node id="17" pos="vg" rel="crd" root="en" sense="en"/>
+              <node id="18" infl="pl_num" pos="num" rel="cnj" root="55" sense="55" special="hoofd"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

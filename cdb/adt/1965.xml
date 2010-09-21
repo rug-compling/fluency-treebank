@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node cat="detp" id="3" rel="det">
+          <node cat="mwu" id="4" mwu_root="een kleine" mwu_sense="een kleine" rel="mod">
+            <node id="5" infl="pl_indef" pos="det" rel="mwp" root="een" sense="een" special="pre_num_adv"/>
+            <node id="6" infl="pl_indef" pos="det" rel="mwp" root="kleine" sense="kleine" special="pre_num_adv"/>
+          </node>
+          <node id="7" infl="pl_num" pos="num" rel="hd" root="honderd" sense="honderd" special="hoofd"/>
+        </node>
+        <node gen="de" id="8" num="pl" pos="noun" rel="hd" root="politieman" sense="politieman"/>
+      </node>
+      <node id="9" infl="pl" pos="verb" rel="hd" root="moet" sc="modifier(aux(inf))" sense="moet" tense="past"/>
+      <node cat="inf" id="10" rel="vc">
+        <node id="11" index="1" rel="su"/>
+        <node id="12" pos="pp" rel="pc" root="eraan" sense="eraan" special="er"/>
+        <node cat="mwu" id="13" mwu_root="te pas" mwu_sense="te pas" rel="svp">
+          <node id="14" pos="fixed" rel="mwp" root="te" sense="te"/>
+          <node id="15" pos="fixed" rel="mwp" root="pas" sense="pas"/>
+        </node>
+        <node id="16" infl="inf" pos="verb" rel="hd" root="kom" sc="fixed([{[[te,pas],pc(aan)]}],no_passive)" sense="te-pas-kom-aan"/>
+        <node cat="oti" id="17" rel="mod">
+          <node id="18" pos="comp" rel="cmp" root="om" sc="om" sense="om"/>
+          <node cat="ti" id="19" rel="body">
+            <node id="20" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+            <node cat="inf" id="21" rel="body">
+              <node cat="np" id="22" rel="obj1">
+                <node id="23" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                <node gen="de" id="24" num="sg" pos="noun" rel="hd" root="rust" sense="rust"/>
+              </node>
+              <node id="25" infl="inf" pos="verb" rel="hd" root="herstel" sc="transitive" sense="herstel"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

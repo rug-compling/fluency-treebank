@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node cat="ppart" id="4" rel="mod">
+          <node cat="pp" id="5" rel="obj2">
+            <node id="6" pos="prep" rel="hd" root="aan" sense="aan"/>
+            <node cat="np" id="7" rel="obj1">
+              <node id="8" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node cat="mwu" id="9" mwu_root="Tweede Kamer" mwu_sense="Tweede Kamer" rel="hd">
+                <node id="10" neclass="ORG" num="both" pos="name" rel="mwp" root="Tweede" sense="Tweede"/>
+                <node id="11" neclass="ORG" num="both" pos="name" rel="mwp" root="Kamer" sense="Kamer"/>
+              </node>
+            </node>
+          </node>
+          <node aform="base" id="12" infl="e" pos="adj" rel="hd" root="uitgebracht" sc="so_pp(aan)" sense="uitgebracht" vform="psp"/>
+        </node>
+        <node gen="het" id="13" num="sg" pos="noun" rel="hd" root="verslag" sense="verslag"/>
+      </node>
+      <node id="14" infl="sg" pos="verb" rel="hd" root="omvat" sc="transitive" sense="omvat" tense="present"/>
+      <node cat="np" id="15" rel="obj1">
+        <node id="16" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="17" num="pl" pos="noun" rel="hd" root="werkzaamheid" sense="werkzaamheid"/>
+        <node cat="pp" id="18" rel="mod">
+          <node id="19" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="20" rel="obj1">
+            <node id="21" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="22" num="sg" pos="noun" rel="hd" root="commissie" sense="commissie"/>
+          </node>
+        </node>
+        <node cat="pp" id="23" rel="mod">
+          <node id="24" pos="prep" rel="hd" root="sinds" sense="sinds"/>
+          <node cat="np" id="25" rel="obj1">
+            <node gen="de" id="26" num="sg" pos="noun" rel="hd" root="november" sense="november" special="tmp"/>
+            <node id="27" neclass="year" pos="noun" rel="mod" root="&apos;67" sense="&apos;67"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

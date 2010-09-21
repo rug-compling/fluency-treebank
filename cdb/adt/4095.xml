@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node cat="ppart" id="4" rel="mod">
+          <node cat="pp" id="5" rel="mod">
+            <node id="6" pos="prep" rel="hd" root="per" sense="per"/>
+            <node gen="het" id="7" num="sg" pos="noun" rel="obj1" root="bed" sense="bed"/>
+          </node>
+          <node aform="base" id="8" infl="e" pos="adj" rel="hd" root="betaald" sense="betaald" vform="psp"/>
+        </node>
+        <node gen="de" id="9" num="pl" pos="noun" rel="hd" root="huur" sense="huur"/>
+      </node>
+      <node id="10" infl="pl" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+      <node cat="ap" id="11" rel="predc">
+        <node cat="advp" id="12" rel="mod">
+          <node aform="base" id="13" infl="no_e" pos="adj" rel="me" root="veel" sense="veel" vform="adj"/>
+          <node id="14" pos="adv" rel="hd" root="te" sense="te" special="me_intensifier"/>
+        </node>
+        <node aform="base" id="15" infl="no_e" pos="adj" rel="hd" root="hoog" sense="hoog" vform="adj"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

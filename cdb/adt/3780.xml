@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="het" id="4" num="pl" pos="noun" rel="hd" root="land" sense="land"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="7" rel="obj1">
+            <node id="8" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+            <node cat="mwu" id="9" mwu_root="Warschau Pact" mwu_sense="Warschau Pact" rel="hd">
+              <node id="10" neclass="LOC" num="both" pos="name" rel="mwp" root="Warschau" sense="Warschau"/>
+              <node id="11" neclass="LOC" num="both" pos="name" rel="mwp" root="Pact" sense="Pact"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="12" infl="pl" pos="verb" rel="hd" root="vorm" sc="transitive" sense="vorm" tense="present"/>
+      <node cat="pp" id="13" rel="mod">
+        <node id="14" pos="prep" rel="hd" root="volgens" sense="volgens"/>
+        <node cat="np" id="15" rel="obj1">
+          <node id="16" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node cat="mwu" id="17" mwu_root="Conservatieve Partij" mwu_sense="Conservatieve Partij" rel="hd">
+            <node id="18" neclass="ORG" num="both" pos="name" rel="mwp" root="Conservatieve" sense="Conservatieve"/>
+            <node id="19" neclass="ORG" num="both" pos="name" rel="mwp" root="Partij" sense="Partij"/>
+          </node>
+        </node>
+      </node>
+      <node cat="np" id="20" rel="obj1">
+        <node id="21" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node aform="base" id="22" infl="e" pos="adj" rel="mod" root="blijf" sense="blijf" vform="gerund"/>
+        <node gen="de" id="23" num="sg" pos="noun" rel="hd" root="bedreiging" sense="bedreiging"/>
+        <node cat="pp" id="24" rel="mod">
+          <node id="25" pos="prep" rel="hd" root="voor" sense="voor"/>
+          <node id="26" neclass="LOC" num="both" pos="name" rel="obj1" root="West-Europa" sense="West-Europa"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

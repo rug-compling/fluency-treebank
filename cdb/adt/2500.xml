@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="pc">
+        <node id="3" pos="prep" rel="hd" root="van" sense="van"/>
+        <node cat="conj" id="4" rel="obj1">
+          <node cat="np" id="5" rel="cnj">
+            <node id="6" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+            <node aform="base" id="7" infl="e" pos="adj" rel="mod" root="afgeknipt" sense="afgeknipt" vform="psp"/>
+            <node gen="het" id="8" num="sg" pos="noun" rel="hd" root="boven_stuk" sense="boven_stuk" special="meas_mod"/>
+          </node>
+          <node id="9" pos="vg" rel="crd" root="en" sense="en"/>
+          <node gen="de" id="10" num="pl" pos="noun" rel="cnj" root="mouw" sense="mouw"/>
+        </node>
+      </node>
+      <node id="11" infl="sg3" pos="verb" rel="hd" root="maak" sc="np_pc_pp(van)" sense="maak-van" tense="present"/>
+      <node gen="de" id="12" num="sg" pos="noun" rel="su" root="u" sense="u"/>
+      <node cat="conj" id="13" rel="obj1">
+        <node cat="np" id="14" rel="cnj">
+          <node id="15" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="16" num="pl" pos="noun" rel="hd" root="galg" sense="galg"/>
+        </node>
+        <node id="17" pos="vg" rel="crd" root="en" sense="en"/>
+        <node cat="np" id="18" rel="cnj">
+          <node aform="base" id="19" infl="no_e" pos="adj" rel="mod" root="eventueel" sense="eventueel" vform="adj"/>
+          <node gen="de" id="20" num="pl" pos="noun" rel="hd" root="zak" sense="zak"/>
+        </node>
+      </node>
+      <node cat="oti" id="21" rel="mod">
+        <node id="22" pos="comp" rel="cmp" root="om" sc="om" sense="om"/>
+        <node cat="ti" id="23" rel="body">
+          <node id="24" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+          <node cat="inf" id="25" rel="body">
+            <node cat="np" id="26" rel="obj1">
+              <node aform="base" id="27" infl="e" pos="adj" rel="mod" root="ingescheurd" sense="ingescheurd" vform="psp"/>
+              <node gen="de" id="28" num="pl" pos="noun" rel="hd" root="steek_zak" sense="steek_zak"/>
+            </node>
+            <node id="29" infl="inf" pos="verb" rel="hd" root="camoufleer" sc="transitive" sense="camoufleer"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

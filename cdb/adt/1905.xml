@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="het" id="4" num="sg" pos="noun" rel="hd" root="percentage" sense="percentage"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="7" rel="obj1">
+            <node id="8" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="both" id="9" num="pl" pos="noun" rel="hd" root="idee" sense="idee"/>
+          </node>
+        </node>
+        <node cat="rel" id="10" rel="mod">
+          <node case="no_obl" gen="het" id="11" index="1" pos="pron" rel="rhd" root="dat" sense="dat" wh="rel"/>
+          <node cat="ssub" id="12" rel="body">
+            <node id="13" index="1" rel="su"/>
+            <node aform="base" id="14" infl="no_e" pos="adj" rel="predc" root="bruikbaar" sense="bruikbaar" vform="adj"/>
+            <node id="15" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+          </node>
+        </node>
+      </node>
+      <node id="16" infl="sg3" pos="verb" rel="hd" root="lig" sc="ld_pp" sense="lig" tense="present"/>
+      <node cat="pp" id="17" rel="ld">
+        <node id="18" pos="prep" rel="hd" root="tussen" sense="tussen"/>
+        <node cat="np" id="19" rel="obj1">
+          <node id="20" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node cat="conj" id="21" rel="det">
+            <node id="22" infl="pl_num" pos="num" rel="cnj" root="20" sense="20" special="hoofd"/>
+            <node id="23" pos="vg" rel="crd" root="en" sense="en"/>
+            <node id="24" infl="pl_num" pos="num" rel="cnj" root="40" sense="40" special="hoofd"/>
+          </node>
+          <node gen="both" id="25" num="meas" pos="noun" rel="hd" root="procent" sense="procent" special="meas_mod"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

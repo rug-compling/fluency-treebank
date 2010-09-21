@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="pl" pos="noun" rel="hd" root="Schiedammer" sense="Schiedammer"/>
+      </node>
+      <node id="5" infl="pl" pos="verb" rel="hd" root="toon" sc="pred_refl" sense="zich-toon" tense="past"/>
+      <node id="6" num="both" per="u_thi" pos="pron" refl="refl" rel="se" root="zich" sense="zich"/>
+      <node cat="pp" id="7" rel="mod">
+        <node id="8" pos="prep" rel="hd" root="in" sense="in"/>
+        <node cat="np" id="9" rel="obj1">
+          <node id="10" infl="het" pos="det" rel="det" root="ieder" sense="ieder" wh="nwh"/>
+          <node gen="het" id="11" num="sg" pos="noun" rel="hd" root="opzicht" sense="opzicht"/>
+        </node>
+      </node>
+      <node id="12" pos="adv" rel="mod" root="veruit" sense="veruit"/>
+      <node cat="np" id="13" rel="predc">
+        <node id="14" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node aform="compar" id="15" infl="e" pos="adj" rel="hd" root="min" sense="min" vform="adj"/>
+        <node cat="pp" id="16" rel="mod">
+          <node id="17" pos="prep" rel="hd" root="van" sense="van"/>
+          <node id="18" neclass="ORG" num="both" pos="name" rel="obj1" root="Ajax" sense="Ajax"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

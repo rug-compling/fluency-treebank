@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" pos="pp" rel="mod" root="hiervoor" sense="hiervoor" special="er"/>
+      <node id="3" infl="sg3" pos="verb" rel="hd" root="vraag" sc="np_vp_obj" sense="vraag" tense="present"/>
+      <node cat="np" id="4" rel="su">
+        <node id="5" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="het" id="6" num="sg" pos="noun" rel="hd" root="college" sense="college"/>
+      </node>
+      <node cat="np" id="7" index="1" rel="obj2">
+        <node id="8" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="9" num="sg" pos="noun" rel="hd" root="raad" sense="raad"/>
+      </node>
+      <node cat="oti" id="10" rel="vc">
+        <node id="11" pos="comp" rel="cmp" root="om" sc="om" sense="om"/>
+        <node cat="ti" id="12" rel="body">
+          <node id="13" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+          <node cat="inf" id="14" rel="body">
+            <node id="15" index="1" rel="su"/>
+            <node cat="np" id="16" rel="obj1">
+              <node id="17" infl="een" pos="det" rel="det" root="een" sense="een"/>
+              <node gen="het" id="18" num="sg" pos="noun" rel="hd" root="krediet" sense="krediet"/>
+              <node cat="pp" id="19" rel="mod">
+                <node id="20" pos="prep" rel="hd" root="van" sense="van"/>
+                <node cat="mwu" id="21" mwu_root="flo 24.600,-" mwu_sense="flo 24.600,-" rel="obj1">
+                  <node gen="both" id="22" num="bare_meas" pos="noun" rel="mwp" root="flo" sense="flo" special="amount_meas_mod"/>
+                  <node gen="both" id="23" num="bare_meas" pos="noun" rel="mwp" root="24.600,-" sense="24.600,-" special="amount_meas_mod"/>
+                </node>
+              </node>
+            </node>
+            <node id="24" pos="fixed" rel="svp" root="beschikbaar" sense="beschikbaar"/>
+            <node id="25" infl="inf" pos="verb" rel="hd" root="stel" sc="fixed([[beschikbaar],acc],norm_passive)" sense="beschikbaar-stel"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

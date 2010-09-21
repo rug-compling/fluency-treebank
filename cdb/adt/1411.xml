@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="mwu" id="2" mwu_root="zo ja" mwu_sense="zo ja" rel="sat">
+        <node id="3" pos="comp" rel="mwp" root="zo" sense="zo"/>
+        <node id="4" pos="comp" rel="mwp" root="ja" sense="ja"/>
+      </node>
+      <node cat="sv1" id="5" rel="nucl">
+        <node id="6" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+        <node cat="np" id="7" rel="su">
+          <node id="8" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="9" num="sg" pos="noun" rel="hd" root="bouw" sense="bouw"/>
+          <node cat="pp" id="10" rel="mod">
+            <node id="11" pos="prep" rel="hd" root="van" sense="van"/>
+            <node cat="np" id="12" rel="obj1">
+              <node id="13" infl="een" pos="det" rel="det" root="een" sense="een"/>
+              <node aform="base" id="14" infl="e" pos="adj" rel="mod" root="nieuw" sense="nieuw" vform="adj"/>
+              <node aform="base" id="15" infl="e" pos="adj" rel="mod" root="overdekt" sense="overdekt" vform="psp"/>
+              <node gen="de" id="16" num="sg" pos="noun" rel="hd" root="tribune" sense="tribune"/>
+            </node>
+          </node>
+          <node cat="pp" id="17" rel="mod">
+            <node id="18" pos="prep" rel="hd" root="op" sense="op"/>
+            <node id="19" neclass="LOC" num="both" pos="name" rel="obj1" root="Woudesteijn" sense="Woudesteijn"/>
+          </node>
+        </node>
+        <node cat="ppart" id="20" rel="predc">
+          <node aform="base" id="21" infl="no_e" pos="adj" rel="mod" root="economisch" sense="economisch" vform="adj"/>
+          <node aform="base" id="22" infl="no_e" pos="adj" rel="hd" root="verantwoord" sense="verantwoord" vform="psp"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

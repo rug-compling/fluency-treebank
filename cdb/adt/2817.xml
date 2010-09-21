@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="passive" sense="ben" tense="present"/>
+      <node aform="base" id="3" index="1" infl="no_e" pos="adj" rel="su" root="veel" sense="veel" vform="adj"/>
+      <node cat="ppart" id="4" rel="vc">
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="sinds" sense="sinds"/>
+          <node cat="np" id="7" rel="obj1">
+            <node id="8" infl="de" pos="det" rel="det" root="die" sense="die" wh="nwh"/>
+            <node gen="de" id="9" num="sg" pos="noun" rel="hd" root="tijd" sense="tijd" special="tmp"/>
+          </node>
+        </node>
+        <node id="10" pos="adv" rel="mod" root="er" sense="er" special="er"/>
+        <node cat="pp" id="11" rel="mod">
+          <node id="12" pos="prep" rel="hd" root="in" sense="in"/>
+          <node cat="np" id="13" rel="obj1">
+            <node id="14" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+            <node aform="base" id="15" infl="e" pos="adj" rel="mod" root="Russisch" sense="Russisch" vform="adj"/>
+            <node gen="het" id="16" num="sg" pos="noun" rel="hd" root="elftal" sense="elftal"/>
+          </node>
+        </node>
+        <node id="17" pos="adv" rel="mod" root="dan" sense="dan" special="tmp"/>
+        <node id="18" pos="adv" rel="mod" root="ook" sense="ook" special="sentence"/>
+        <node id="19" index="1" rel="obj1"/>
+        <node id="20" infl="psp" pos="verb" rel="hd" root="verander" sc="transitive" sense="verander"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

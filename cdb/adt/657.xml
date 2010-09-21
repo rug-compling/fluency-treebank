@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" pos="noun" rel="sup" root="het" sense="het" special="het"/>
+      <node id="3" infl="sg3" pos="verb" rel="hd" root="gebeur" sc="sbar_subj" sense="gebeur" tense="present"/>
+      <node cat="ap" id="4" rel="mod">
+        <node id="5" pos="adv" rel="mod" root="maar" sense="maar"/>
+        <node aform="base" id="6" infl="no_e" pos="adj" rel="hd" root="weinig" sense="weinig" vform="adj"/>
+      </node>
+      <node cat="cp" id="7" rel="su">
+        <node id="8" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+        <node cat="ssub" id="9" rel="body">
+          <node cat="np" id="10" rel="su">
+            <node id="11" infl="een" pos="det" rel="det" root="een" sense="een"/>
+            <node aform="base" id="12" infl="no_e" pos="adj" rel="mod" root="Nederlands" sense="Nederlands" vform="adj"/>
+            <node gen="het" id="13" num="sg" pos="noun" rel="hd" root="lied_DIM" sense="lied_DIM"/>
+          </node>
+          <node cat="np" id="14" rel="obj1">
+            <node aform="base" id="15" infl="e" pos="adj" rel="mod" root="internationaal" sense="internationaal" vform="adj"/>
+            <node gen="de" id="16" num="sg" pos="noun" rel="hd" root="faam" sense="faam"/>
+          </node>
+          <node id="17" infl="sg3" pos="verb" rel="hd" root="krijg" sc="transitive" sense="krijg" tense="present"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

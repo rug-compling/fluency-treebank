@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg3" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="present"/>
+      <node gen="het" id="3" index="1" num="sg" pos="noun" rel="su" root="alles" sense="alles"/>
+      <node cat="ppart" id="4" rel="vc">
+        <node id="5" pos="adv" rel="mod" root="daarna" sense="daarna" special="tmp"/>
+        <node id="6" index="1" rel="obj1"/>
+        <node id="7" pos="adv" rel="mod" root="opnieuw" sense="opnieuw"/>
+        <node id="8" infl="psp" pos="verb" rel="hd" root="gooi_open" sc="part_transitive(open)" sense="gooi_open"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node case="both" def="def" gen="de" id="2" num="sg" per="je" pos="pron" rel="su" root="je" sense="je" special="wkpro" wh="nwh"/>
+      <node id="3" infl="sg3" pos="verb" rel="hd" root="sla" sc="fixed([{[pc(op),acc(acht)]}],norm_passive)" sense="acht-sla-op" tense="present"/>
+      <node id="4" pos="adv" rel="mod" root="eerst" sense="eerst"/>
+      <node cat="np" id="5" rel="obj1">
+        <node id="6" infl="geen" pos="det" rel="det" root="geen" sense="geen" wh="nwh"/>
+        <node gen="de" id="7" num="sg" pos="noun" rel="hd" root="acht" sense="acht"/>
+      </node>
+      <node cat="pp" id="8" rel="pc">
+        <node id="9" pos="adv" rel="obj1" root="er" sense="er" special="er"/>
+        <node id="10" pos="prep" rel="hd" root="op" sense="op"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

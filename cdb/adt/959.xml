@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" index="1" neclass="PER" num="both" pos="name" rel="su" root="Goudzwaard" sense="Goudzwaard"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="past"/>
+      <node cat="inf" id="4" rel="vc">
+        <node id="5" index="1" rel="su"/>
+        <node id="6" infl="inf" pos="verb" rel="hd" root="kan" sc="aux(inf)" sense="kan"/>
+        <node cat="inf" id="7" rel="vc">
+          <node id="8" index="1" rel="su"/>
+          <node id="9" pos="adv" rel="mod" root="zijns inziens" sense="zijns inziens"/>
+          <node id="10" pos="adv" rel="mod" root="dan" sense="dan" special="tmp"/>
+          <node id="11" pos="adv" rel="mod" root="maar" sense="maar"/>
+          <node aform="compar" id="12" infl="no_e" pos="adj" rel="mod" root="goed" sense="goed" vform="adj"/>
+          <node cat="np" id="13" rel="obj1">
+            <node id="14" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+            <node id="15" neclass="LOC" num="both" pos="name" rel="hd" root="Enquetevoorstel-Aarden" sense="Enquetevoorstel-Aarden"/>
+          </node>
+          <node id="16" infl="inf" pos="verb" rel="hd" root="amendeer" sc="transitive" sense="amendeer"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

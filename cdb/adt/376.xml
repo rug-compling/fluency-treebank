@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" pos="adv" rel="mod" root="vooral" sc="modal" sense="vooral"/>
+        <node id="4" infl="het" pos="det" rel="det" root="dit" sense="dit" wh="nwh"/>
+        <node aform="super" id="5" infl="e" pos="adj" rel="hd" root="laat" sense="laat" vform="adj"/>
+      </node>
+      <node id="6" infl="sg_heeft" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="present"/>
+      <node cat="ppart" id="7" rel="vc">
+        <node id="8" index="1" rel="su"/>
+        <node cat="pp" id="9" rel="mod">
+          <node id="10" pos="prep" rel="hd" root="in" sense="in"/>
+          <node id="11" neclass="LOC" num="both" pos="name" rel="obj1" root="Brussel" sense="Brussel"/>
+        </node>
+        <node cat="np" id="12" rel="obj1">
+          <node aform="base" id="13" infl="e" pos="adj" rel="mod" root="groot" sense="groot" vform="adj"/>
+          <node gen="de" id="14" num="sg" pos="noun" rel="hd" root="ongerustheid" sense="ongerustheid"/>
+        </node>
+        <node id="15" infl="psp" pos="verb" rel="hd" root="wek" sc="transitive" sense="wek"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

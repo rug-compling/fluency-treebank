@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="smain" id="2" rel="cnj">
+        <node cat="np" id="3" index="1" rel="su">
+          <node id="4" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="5" num="sg" pos="noun" rel="hd" root="paus" sense="paus"/>
+        </node>
+        <node id="6" infl="sg" pos="verb" rel="hd" root="mag" sc="modifier(aux(inf))" sense="mag" tense="present"/>
+        <node cat="inf" id="7" rel="vc">
+          <node id="8" index="1" rel="su"/>
+          <node aform="base" id="9" infl="no_e" pos="adj" rel="predc" root="onfeilbaar" sense="onfeilbaar" vform="adj"/>
+          <node id="10" infl="inf" pos="verb" rel="hd" root="ben" sc="copula" sense="ben"/>
+        </node>
+      </node>
+      <node id="11" pos="vg" rel="crd" root="maar" sense="maar"/>
+      <node cat="smain" id="12" rel="cnj">
+        <node aform="base" id="13" infl="no_e" pos="adj" rel="predc" root="failliet" sense="failliet" vform="adj"/>
+        <node id="14" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+        <node case="nom" def="def" gen="de" id="15" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+        <node aform="base" id="16" infl="no_e" pos="adj" rel="mod" root="zeker" sense="zeker" vform="adj"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="np" id="1" rel="--">
+      <node aform="base" id="2" infl="no_e" pos="adj" rel="mod" root="meervoudig" sense="meervoudig" vform="adj"/>
+      <node gen="de" id="3" num="sg" pos="noun" rel="hd" root="kampioen" sense="kampioen"/>
+      <node cat="pp" id="4" rel="mod">
+        <node id="5" pos="prep" rel="hd" root="van" sense="van"/>
+        <node id="6" neclass="LOC" num="both" pos="name" rel="obj1" root="Europa" sense="Europa"/>
+      </node>
+      <node cat="pp" id="7" rel="mod">
+        <node id="8" pos="prep" rel="hd" root="achter" sense="achter"/>
+        <node cat="np" id="9" rel="obj1">
+          <node id="10" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="both" id="11" num="both" pos="noun" rel="hd" root="dernies" sense="dernies"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

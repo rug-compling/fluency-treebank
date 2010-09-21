@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="sv1" id="2" rel="tag">
+        <node id="3" infl="pl" pos="verb" rel="hd" root="zeg" sc="tr_sbar" sense="zeg" tense="present"/>
+        <node cat="np" id="4" rel="su">
+          <node id="5" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node aform="base" id="6" infl="e" pos="adj" rel="mod" root="Anglicaanse" sense="Anglicaanse" vform="adj"/>
+          <node gen="de" id="7" num="pl" pos="noun" rel="hd" root="leider" sense="leider"/>
+        </node>
+      </node>
+      <node cat="smain" id="8" rel="nucl">
+        <node cat="np" id="9" index="1" rel="su">
+          <node id="10" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node gen="de" id="11" num="sg" pos="noun" rel="hd" root="heilig_verklaring" sense="heilig_verklaring"/>
+        </node>
+        <node id="12" infl="sg" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="past"/>
+        <node cat="inf" id="13" rel="vc">
+          <node id="14" index="1" rel="su"/>
+          <node cat="np" id="15" rel="obj2">
+            <node id="16" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="17" num="sg" pos="noun" rel="hd" root="oecumene" sense="oecumene"/>
+          </node>
+          <node cat="mwu" id="18" mwu_root="in de weg" mwu_sense="in de weg" rel="svp">
+            <node id="19" pos="fixed" rel="mwp" root="in" sense="in"/>
+            <node id="20" pos="fixed" rel="mwp" root="de" sense="de"/>
+            <node id="21" pos="fixed" rel="mwp" root="weg" sense="weg"/>
+          </node>
+          <node id="22" infl="inf(no_e)" pos="verb" rel="hd" root="sta" sc="fixed([[in,de,weg],dat],no_passive)" sense="in-de-weg-sta"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

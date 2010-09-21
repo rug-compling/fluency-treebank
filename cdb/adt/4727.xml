@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="mod">
+        <node id="3" pos="prep" rel="hd" root="op" sense="op"/>
+        <node cat="np" id="4" rel="obj1">
+          <node id="5" infl="pron" pos="det" rel="det" root="mijn" sense="mijn"/>
+          <node gen="de" id="6" num="sg" pos="noun" rel="hd" root="vraag" sc="sbar" sense="vraag"/>
+          <node cat="whsub" id="7" rel="vc">
+            <node id="8" index="1" pos="adj" rel="whd" root="hoe" sense="hoe" wh="ywh"/>
+            <node cat="ssub" id="9" rel="body">
+              <node id="10" infl="modal_not_u" pos="verb" rel="hd" root="kan" sc="aux(inf)" sense="kan" tense="present"/>
+              <node cat="inf" id="11" rel="vc">
+                <node id="12" infl="inf" pos="verb" rel="hd" root="word" sc="passive" sense="word"/>
+                <node cat="ppart" id="13" rel="vc">
+                  <node id="14" index="1" rel="mod"/>
+                  <node id="15" infl="psp" pos="verb" rel="hd" root="breng" sc="transitive" sense="breng"/>
+                  <node cat="np" id="16" index="2" rel="obj1">
+                    <node id="17" infl="een" pos="det" rel="det" root="een" sense="een"/>
+                    <node gen="het" id="18" num="sg" pos="noun" rel="hd" root="begin" sense="begin" special="tmp"/>
+                    <node cat="pp" id="19" rel="mod">
+                      <node id="20" pos="prep" rel="hd" root="van" sense="van"/>
+                      <node cat="np" id="21" rel="obj1">
+                        <node gen="de" id="22" num="sg" pos="noun" rel="hd" root="verandering" sense="verandering"/>
+                        <node cat="pp" id="23" rel="mod">
+                          <node id="24" pos="prep" rel="hd" root="in" sense="in"/>
+                          <node cat="np" id="25" rel="obj1">
+                            <node id="26" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                            <node aform="base" id="27" infl="e" pos="adj" rel="mod" root="zorgwekkend" sense="zorgwekkend" vform="adj"/>
+                            <node gen="de" id="28" num="sg" pos="noun" rel="hd" root="toestand" sense="toestand"/>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node id="29" index="2" rel="su"/>
+              </node>
+              <node id="30" index="2" rel="su"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="31" infl="sg" pos="verb" rel="hd" root="antwoord" sc="intransitive" sense="antwoord" tense="past"/>
+      <node case="nom" def="def" gen="de" id="32" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+    </node>
+  </node>
+</alpino_adt>

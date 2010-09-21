@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node case="both" def="def" gen="de" id="2" num="sg" per="je" pos="pron" rel="su" root="je" sense="je" special="wkpro" wh="nwh"/>
+      <node id="3" infl="sg_hebt" pos="verb" rel="hd" root="heb" sc="np_pc_pp(van)" sense="heb-van" tense="present"/>
+      <node cat="pp" id="4" rel="pc">
+        <node id="5" pos="prep" rel="hd" root="van" sense="van"/>
+        <node cat="np" id="6" rel="obj1">
+          <node cat="ap" id="7" rel="det">
+            <node aform="base" id="8" infl="pred" pos="adj" rel="mod" root="wel" sense="wel" vform="adj"/>
+            <node aform="compar" id="9" infl="meer" pos="adj" rel="hd" root="meer" sense="meer" vform="adj"/>
+          </node>
+          <node id="10" pos="verb" rel="hd" root="ding" sc="intransitive" sense="ding" special="v_noun"/>
+        </node>
+      </node>
+      <node gen="de" id="11" num="sg" pos="noun" rel="obj1" root="spijt" sense="spijt"/>
+      <node cat="pp" id="12" rel="mod">
+        <node id="13" pos="prep" rel="hd" root="in" sense="in"/>
+        <node cat="np" id="14" rel="obj1">
+          <node id="15" infl="pron" pos="det" rel="det" root="je" sense="je"/>
+          <node gen="het" id="16" num="sg" pos="noun" rel="hd" root="leven" sense="leven" special="tmp"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

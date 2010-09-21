@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node gen="de" id="3" num="sg" pos="noun" rel="hd" root="trainer" sense="trainer"/>
+        <node cat="mwu" id="4" mwu_root="Rinus Michels" mwu_sense="Rinus Michels" rel="app">
+          <node id="5" neclass="PER" num="both" pos="name" rel="mwp" root="Rinus" sense="Rinus"/>
+          <node id="6" neclass="PER" num="both" pos="name" rel="mwp" root="Michels" sense="Michels"/>
+        </node>
+      </node>
+      <node id="7" infl="sg_heeft" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="present"/>
+      <node cat="ppart" id="8" rel="vc">
+        <node id="9" index="1" rel="su"/>
+        <node cat="np" id="10" rel="obj2">
+          <node id="11" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="12" num="sg" pos="noun" rel="hd" root="Deen" sense="Deen"/>
+        </node>
+        <node id="13" infl="psp" pos="verb" rel="hd" root="deel_mee" sc="part_np_sbar(mee)" sense="deel_mee"/>
+        <node cat="cp" id="14" rel="vc">
+          <node id="15" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+          <node cat="ssub" id="16" rel="body">
+            <node case="nom" def="def" gen="de" id="17" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+            <node cat="pp" id="18" rel="pc">
+              <node id="19" pos="prep" rel="hd" root="op" sense="op"/>
+              <node cat="np" id="20" rel="obj1">
+                <node id="21" infl="pron" pos="det" rel="det" root="diens" sense="diens"/>
+                <node gen="de" id="22" num="sg" pos="noun" rel="hd" root="aanwezigheid" sense="aanwezigheid"/>
+              </node>
+            </node>
+            <node cat="np" id="23" rel="obj1">
+              <node id="24" infl="geen" pos="det" rel="det" root="geen" sense="geen" wh="nwh"/>
+              <node gen="de" id="25" num="sg" pos="noun" rel="hd" root="prijs" sense="prijs"/>
+            </node>
+            <node aform="compar" id="26" infl="meer" pos="adj" rel="mod" root="meer" sense="meer" vform="adj"/>
+            <node id="27" infl="sg3" pos="verb" rel="hd" root="stel" sc="fixed([{[acc(prijs),pc(op)]}],norm_passive)" sense="prijs-stel-op" tense="present"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

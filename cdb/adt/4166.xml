@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="ppart" id="2" rel="predm">
+        <node aform="base" id="3" infl="no_e" pos="adj" rel="mod" root="warm" sense="warm" vform="adj"/>
+        <node aform="base" id="4" infl="both" pos="adj" rel="hd" root="gezeten" sense="gezeten" vform="psp"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="in" sense="in"/>
+          <node cat="np" id="7" rel="obj1">
+            <node id="8" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="9" num="sg" pos="noun" rel="hd" root="cultuur_tempel" sense="cultuur_tempel"/>
+            <node cat="pp" id="10" rel="mod">
+              <node id="11" pos="prep" rel="hd" root="van" sense="van"/>
+              <node id="12" neclass="LOC" num="both" pos="name" rel="obj1" root="Heerlen" sense="Heerlen"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="13" infl="sg" pos="verb" rel="hd" root="tracht" sc="subj_control(te)" sense="tracht" tense="present"/>
+      <node gen="de" id="14" index="1" num="sg" pos="noun" rel="su" root="u" sense="u"/>
+      <node cat="ti" id="15" rel="vc">
+        <node id="16" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+        <node cat="inf" id="17" rel="body">
+          <node id="18" index="1" rel="su"/>
+          <node case="dat_acc" def="def" gen="de" id="19" num="both" per="thi" pos="pron" rel="obj2" root="zich" sense="zich" special="wkpro" wh="nwh"/>
+          <node cat="np" id="20" rel="obj1">
+            <node id="21" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+            <node aform="base" id="22" infl="e" pos="adj" rel="mod" root="veeg" sense="veeg" vform="adj"/>
+            <node gen="het" id="23" num="sg" pos="noun" rel="hd" root="lijf" sense="lijf"/>
+          </node>
+          <node id="24" infl="inf" pos="verb" rel="hd" root="red" sc="np_np" sense="red"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

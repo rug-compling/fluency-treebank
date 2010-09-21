@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="smain" id="2" rel="cnj">
+        <node aform="base" id="3" infl="no_e" pos="adj" rel="mod" root="eigenlijk" sense="eigenlijk" vform="adj"/>
+        <node id="4" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+        <node id="5" infl="het" pos="det" rel="su" root="dat" sense="dat" wh="nwh"/>
+        <node id="6" pos="adv" rel="mod" root="niet" sense="niet"/>
+        <node gen="de" id="7" num="sg" pos="noun" rel="predc" root="fair" sense="fair"/>
+      </node>
+      <node id="8" pos="vg" rel="crd" root="want" sense="want"/>
+      <node cat="smain" id="9" rel="cnj">
+        <node cat="np" id="10" rel="su">
+          <node id="11" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+          <node gen="het" id="12" num="sg" pos="noun" rel="hd" root="rantsoen" sense="rantsoen"/>
+          <node cat="pp" id="13" rel="mod">
+            <node id="14" pos="prep" rel="hd" root="voor" sense="voor"/>
+            <node case="both" def="indef" gen="de" id="15" num="pl" per="thi" pos="pron" rel="obj1" root="beide" sense="beide" wh="nwh"/>
+          </node>
+        </node>
+        <node id="16" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+        <node id="17" pos="adv" rel="mod" root="toch" sense="toch"/>
+        <node id="18" pos="adv" rel="mod" root="al" sense="al"/>
+        <node cat="ap" id="19" rel="predc">
+          <node aform="base" id="20" infl="no_e" pos="adj" rel="hd" root="karig" sense="karig" vform="adj"/>
+          <node id="21" pos="adv" rel="mod" root="genoeg" sense="genoeg" special="postadj"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

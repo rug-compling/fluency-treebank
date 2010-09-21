@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node id="2" pos="comp" rel="dlink" root="maar" sc="root" sense="maar"/>
+      <node cat="smain" id="3" rel="nucl">
+        <node id="4" infl="sg" pos="verb" rel="hd" root="kan" sc="aux(inf)" sense="kan" tense="past"/>
+        <node cat="np" id="5" index="1" rel="su">
+          <node id="6" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="7" num="sg" pos="noun" rel="hd" root="giro" sense="giro"/>
+        </node>
+        <node cat="inf" id="8" rel="vc">
+          <node id="9" pos="adv" rel="mod" root="telkenjare" sense="telkenjare" special="sentence"/>
+          <node aform="base" id="10" infl="pred" pos="adj" rel="mod" root="wel" sense="wel" vform="adj"/>
+          <node id="11" index="1" rel="su"/>
+          <node cat="np" id="12" rel="obj1">
+            <node id="13" infl="een" pos="det" rel="det" root="een" sense="een"/>
+            <node aform="base" id="14" infl="e" pos="adj" rel="mod" root="zoet" sense="zoet" vform="adj"/>
+            <node gen="de" id="15" num="meas" pos="noun" rel="hd" root="cent" sense="cent" special="meas_mod"/>
+          </node>
+          <node id="16" infl="inf" pos="verb" rel="hd" root="draag_af" sc="part_so_pp_np(af)" sense="draag_af"/>
+          <node cat="pp" id="17" rel="obj2">
+            <node id="18" pos="prep" rel="hd" root="aan" sense="aan"/>
+            <node cat="np" id="19" rel="obj1">
+              <node id="20" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+              <node id="21" neclass="ORG" num="both" pos="name" rel="hd" root="Rijk" sense="Rijk"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

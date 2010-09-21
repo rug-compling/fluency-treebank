@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="mwu" id="2" mwu_root="Josef in Dothan" mwu_sense="Josef in Dothan" rel="cnj">
+        <node id="3" num="both" pos="name" rel="mwp" root="Josef" sense="Josef"/>
+        <node id="4" num="both" pos="name" rel="mwp" root="in" sense="in"/>
+        <node id="5" num="both" pos="name" rel="mwp" root="Dothan" sense="Dothan"/>
+      </node>
+      <node gen="de" id="6" num="sg" pos="noun" rel="cnj" root="lucifer" sense="lucifer"/>
+      <node cat="mwu" id="7" mwu_root="Gysbreght van Aemstel" mwu_sense="Gysbreght van Aemstel" rel="cnj">
+        <node id="8" neclass="PER" num="both" pos="name" rel="mwp" root="Gysbreght" sense="Gysbreght"/>
+        <node id="9" neclass="PER" num="both" pos="name" rel="mwp" root="van" sense="van"/>
+        <node id="10" neclass="PER" num="both" pos="name" rel="mwp" root="Aemstel" sense="Aemstel"/>
+      </node>
+      <node cat="mwu" id="11" mwu_root="Adam in ballingschap" mwu_sense="Adam in ballingschap" rel="cnj">
+        <node id="12" num="both" pos="name" rel="mwp" root="Adam" sense="Adam"/>
+        <node id="13" num="both" pos="name" rel="mwp" root="in" sense="in"/>
+        <node id="14" num="both" pos="name" rel="mwp" root="ballingschap" sense="ballingschap"/>
+      </node>
+      <node id="15" pos="vg" rel="crd" root="en" sense="en"/>
+      <node id="16" neclass="PER" num="both" pos="name" rel="cnj" root="Jephte" sense="Jephte"/>
+    </node>
+  </node>
+</alpino_adt>

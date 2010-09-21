@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="smain" id="2" rel="cnj">
+        <node case="nom" def="def" gen="de" id="3" index="1" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+        <node id="4" infl="modal_not_u" pos="verb" rel="hd" root="kan" sc="aux(inf)" sense="kan" tense="present"/>
+        <node cat="inf" id="5" rel="vc">
+          <node id="6" index="1" rel="su"/>
+          <node id="7" infl="inf" pos="verb" rel="hd" root="verras" sc="intransitive" sense="verras"/>
+        </node>
+      </node>
+      <node id="8" pos="vg" rel="crd" root="want" sense="want"/>
+      <node cat="smain" id="9" rel="cnj">
+        <node cat="np" id="10" rel="su">
+          <node gen="de" id="11" num="sg" pos="noun" rel="hd" root="trainer" sense="trainer"/>
+          <node cat="mwu" id="12" mwu_root="Bonne de Jong" mwu_sense="Bonne de Jong" rel="app">
+            <node id="13" neclass="PER" num="both" pos="name" rel="mwp" root="Bonne" sense="Bonne"/>
+            <node id="14" neclass="PER" num="both" pos="name" rel="mwp" root="de" sense="de"/>
+            <node id="15" neclass="PER" num="both" pos="name" rel="mwp" root="Jong" sense="Jong"/>
+          </node>
+        </node>
+        <node id="16" infl="sg_heeft" pos="verb" rel="hd" root="heb" sc="nonp_pred_np_ndev" sense="heb" tense="present"/>
+        <node cat="np" id="17" rel="obj1">
+          <node id="18" infl="pron" pos="det" rel="det" root="zijn" sense="zijn"/>
+          <node gen="het" id="19" num="pl" pos="noun" rel="hd" root="paard" sense="paard"/>
+        </node>
+        <node aform="base" id="20" infl="no_e" pos="adj" rel="mod" root="goed" sense="goed" vform="adj"/>
+        <node cat="mwu" id="21" mwu_root="in orde" mwu_sense="in orde" rel="predc">
+          <node aform="base" id="22" infl="pred" pos="adj" rel="mwp" root="in" sense="in" vform="adj"/>
+          <node aform="base" id="23" infl="pred" pos="adj" rel="mwp" root="orde" sense="orde" vform="adj"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

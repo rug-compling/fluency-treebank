@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="smain" id="2" rel="nucl">
+        <node id="3" infl="sg3" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="present"/>
+        <node cat="ppart" id="4" rel="vc">
+          <node id="5" pos="adv" rel="mod" root="er" sense="er" special="er"/>
+          <node id="6" infl="psp" pos="verb" rel="hd" root="manipuleer" sc="pc_pp(met)" sense="manipuleer-met"/>
+          <node cat="pp" id="7" rel="pc">
+            <node id="8" pos="prep" rel="hd" root="met" sense="met"/>
+            <node cat="np" id="9" rel="obj1">
+              <node id="10" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+              <node gen="het" id="11" num="sg" pos="noun" rel="hd" root="woord" sense="woord"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node cat="sv1" id="12" rel="tag">
+        <node id="13" infl="sg3" pos="verb" rel="hd" root="zeg" sc="tr_sbar" sense="zeg" tense="present"/>
+        <node case="nom" def="def" gen="de" id="14" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

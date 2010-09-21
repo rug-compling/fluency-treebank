@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node id="2" pos="pp" rel="sat" root="daarvoor" sense="daarvoor" special="er"/>
+      <node cat="smain" id="3" rel="nucl">
+        <node cat="pp" id="4" rel="mod">
+          <node id="5" pos="adv" rel="mod" root="vlak" sc="comp_prep" sense="vlak"/>
+          <node id="6" pos="prep" rel="hd" root="na" sense="na"/>
+          <node cat="np" id="7" rel="obj1">
+            <node id="8" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="9" num="sg" pos="noun" rel="hd" root="bevrijding" sense="bevrijding"/>
+          </node>
+        </node>
+        <node id="10" infl="sg" pos="verb" rel="hd" root="werk" sc="intransitive" sense="werk" tense="past"/>
+        <node case="nom" def="def" gen="de" id="11" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+        <node cat="np" id="12" rel="mod">
+          <node id="13" infl="pl_num" pos="num" rel="det" root="drie" sense="drie" special="hoofd"/>
+          <node gen="de" id="14" num="pl" pos="noun" rel="hd" root="maand" sense="maand" special="tmp"/>
+        </node>
+        <node cat="pp" id="15" rel="mod">
+          <node id="16" pos="prep" rel="hd" root="in" sense="in"/>
+          <node id="17" neclass="LOC" num="both" pos="name" rel="obj1" root="Engeland" sense="Engeland"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

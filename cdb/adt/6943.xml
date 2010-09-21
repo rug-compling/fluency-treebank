@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="conj" id="2" index="1" rel="su">
+        <node cat="np" id="3" rel="cnj">
+          <node id="4" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node gen="de" id="5" num="sg" pos="noun" rel="hd" root="meubel_zaak" sense="meubel_zaak"/>
+        </node>
+        <node id="6" pos="vg" rel="crd" root="en" sense="en"/>
+        <node cat="np" id="7" rel="cnj">
+          <node id="8" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+          <node gen="het" id="9" num="sg" pos="noun" rel="hd" root="magazijn" sense="magazijn"/>
+          <node cat="pp" id="10" rel="mod">
+            <node id="11" pos="prep" rel="hd" root="van" sense="van"/>
+            <node cat="mwu" id="12" mwu_root="V. en D." mwu_sense="V. en D." rel="obj1">
+              <node id="13" neclass="ORG" num="both" pos="name" rel="mwp" root="V." sense="V."/>
+              <node id="14" neclass="ORG" num="both" pos="name" rel="mwp" root="en" sense="en"/>
+              <node id="15" neclass="ORG" num="both" pos="name" rel="mwp" root="D." sense="D."/>
+            </node>
+          </node>
+          <node cat="pp" id="16" rel="mod">
+            <node id="17" pos="prep" rel="hd" root="in" sense="in"/>
+            <node cat="np" id="18" rel="obj1">
+              <node id="19" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+              <node gen="het" id="20" num="sg" pos="noun" rel="hd" root="winkel_centrum" sense="winkel_centrum"/>
+              <node cat="pp" id="21" rel="mod">
+                <node id="22" pos="prep" rel="hd" root="van" sense="van"/>
+                <node id="23" neclass="LOC" num="both" pos="name" rel="obj1" root="Haarlem" sense="Haarlem"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="24" infl="pl" pos="verb" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" tense="present"/>
+      <node cat="ppart" id="25" rel="vc">
+        <node id="26" index="1" rel="su"/>
+        <node id="27" pos="adv" rel="mod" root="vannacht" sense="vannacht" special="tmp"/>
+        <node id="28" infl="psp" pos="verb" rel="hd" root="brand_af" sc="part_intransitive(af)" sense="brand_af"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="np" id="2" rel="cnj">
+        <node cat="ap" id="3" rel="mod">
+          <node cat="np" id="4" rel="me">
+            <node id="5" infl="pl_num" pos="num" rel="det" root="vier" sense="vier" special="hoofd"/>
+            <node gen="de" id="6" num="meas" pos="noun" rel="hd" root="meter" sense="meter" special="meas_mod"/>
+          </node>
+          <node aform="base" id="7" infl="e" pos="adj" rel="hd" root="lang" sc="np_me" sense="lang" vform="adj"/>
+        </node>
+        <node gen="de" id="8" num="pl" pos="noun" rel="hd" root="peil_stok" sense="peil_stok"/>
+        <node cat="rel" id="9" rel="mod">
+          <node id="10" index="1" pos="pp" rel="rhd" root="waarmee" sense="waarmee" special="waar"/>
+          <node cat="ssub" id="11" rel="body">
+            <node id="12" infl="sg3" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="present"/>
+            <node cat="ppart" id="13" rel="vc">
+              <node id="14" index="1" rel="mod"/>
+              <node aform="base" id="15" infl="no_e" pos="adj" rel="mod" root="systematisch" sense="systematisch" vform="adj"/>
+              <node id="16" infl="psp" pos="verb" rel="hd" root="sondeer" sc="intransitive" sense="sondeer"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="17" pos="vg" rel="crd" root="en" sense="en"/>
+      <node gen="de" id="18" num="pl" pos="noun" rel="cnj" root="schop" sense="schop"/>
+    </node>
+  </node>
+</alpino_adt>

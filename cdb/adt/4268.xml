@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="modal_not_u" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="present"/>
+      <node cat="np" id="3" index="1" rel="su">
+        <node id="4" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="5" num="sg" pos="noun" rel="hd" root="stichting" sense="stichting"/>
+      </node>
+      <node cat="inf" id="6" rel="vc">
+        <node id="7" pos="pp" rel="mod" root="hiervoor" sense="hiervoor" special="er"/>
+        <node id="8" index="1" rel="su"/>
+        <node cat="np" id="9" rel="obj1">
+          <node cat="np" id="10" rel="det">
+            <node cat="np" id="11" rel="det">
+              <node id="12" infl="een" pos="det" rel="det" root="een" sense="een"/>
+              <node gen="het" id="13" num="meas" pos="noun" rel="hd" root="paar" sense="paar" special="meas_mod"/>
+            </node>
+            <node id="14" infl="pl_num" pos="num" rel="hd" root="honderdduizend" sense="honderdduizend" special="hoofd"/>
+          </node>
+          <node gen="de" id="15" num="meas" pos="noun" rel="hd" root="gulden" sense="gulden" special="meas_mod"/>
+        </node>
+        <node id="16" pos="fixed" rel="svp" root="beschikbaar" sense="beschikbaar"/>
+        <node id="17" infl="inf" pos="verb" rel="hd" root="stel" sc="fixed([[beschikbaar],acc],norm_passive)" sense="beschikbaar-stel"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

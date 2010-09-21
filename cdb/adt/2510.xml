@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node id="4" neclass="ORG" num="both" pos="name" rel="hd" root="Vereniging" sense="Vereniging"/>
+      </node>
+      <node id="5" infl="modal_not_u" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="present"/>
+      <node cat="inf" id="6" rel="vc">
+        <node id="7" index="1" rel="su"/>
+        <node id="8" pos="adv" rel="mod" root="ook" sense="ook" special="sentence"/>
+        <node id="9" pos="adv" rel="mod" root="nog" sense="nog"/>
+        <node gen="de" id="10" num="pl" pos="noun" rel="obj1" root="bijeenkomst" sense="bijeenkomst"/>
+        <node id="11" infl="inf" pos="verb" rel="hd" root="organiseer" sc="transitive" sense="organiseer"/>
+        <node cat="pp" id="12" rel="mod">
+          <node id="13" pos="prep" rel="hd" root="in" sense="in"/>
+          <node cat="conj" id="14" rel="obj1">
+            <node id="15" neclass="LOC" num="both" pos="name" rel="cnj" root="Amsterdam" sense="Amsterdam"/>
+            <node id="16" neclass="LOC" num="both" pos="name" rel="cnj" root="Maastricht" sense="Maastricht"/>
+            <node id="17" pos="vg" rel="crd" root="en" sense="en"/>
+            <node id="18" neclass="LOC" num="both" pos="name" rel="cnj" root="Rotterdam" sense="Rotterdam"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="conj" id="2" rel="su">
+        <node cat="np" id="3" rel="cnj">
+          <node id="4" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node id="5" neclass="ORG" num="both" pos="name" rel="hd" root="VPRO" sense="VPRO"/>
+        </node>
+        <node id="6" pos="vg" rel="crd" root="en" sense="en"/>
+        <node cat="np" id="7" rel="cnj">
+          <node id="8" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node id="9" neclass="ORG" num="both" pos="name" rel="hd" root="VARA" sense="VARA"/>
+        </node>
+      </node>
+      <node id="10" infl="pl" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+      <node cat="pp" id="11" rel="mod">
+        <node id="12" pos="prep" rel="hd" root="in" sense="in"/>
+        <node cat="np" id="13" rel="obj1">
+          <node id="14" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="het" id="15" num="pl" pos="noun" rel="hd" root="oog" sense="oog"/>
+          <node cat="pp" id="16" rel="mod">
+            <node id="17" pos="prep" rel="hd" root="van" sense="van"/>
+            <node cat="np" id="18" rel="obj1">
+              <node id="19" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node aform="super" id="20" infl="e" pos="adj" rel="mod" root="meest" sense="meest" vform="adj"/>
+              <node gen="both" id="21" num="pl" pos="noun" rel="hd" root="mens" sense="mens"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node cat="np" id="22" rel="predc">
+        <node id="23" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node cat="ap" id="24" rel="mod">
+          <node aform="super" id="25" infl="no_e" pos="adj" rel="mod" root="meest" sense="meest" vform="adj"/>
+          <node aform="base" id="26" infl="e" pos="adj" rel="hd" root="onsympathiek" sense="onsympathiek" vform="adj"/>
+        </node>
+        <node gen="de" id="27" num="pl" pos="noun" rel="hd" root="omroep" sense="omroep"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

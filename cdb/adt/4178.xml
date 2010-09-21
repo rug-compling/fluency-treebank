@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg3" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="present"/>
+      <node cat="np" id="3" index="1" rel="su">
+        <node id="4" infl="de" pos="det" rel="det" root="deze" sense="deze" wh="nwh"/>
+        <node gen="de" id="5" num="sg" pos="noun" rel="hd" root="boetiek" sense="boetiek"/>
+      </node>
+      <node cat="ppart" id="6" rel="vc">
+        <node cat="cp" id="7" rel="mod">
+          <node id="8" pos="comp" rel="cmp" root="behalve" sc="pp" sense="behalve"/>
+          <node cat="pp" id="9" rel="body">
+            <node id="10" pos="prep" rel="hd" root="in" sense="in"/>
+            <node id="11" neclass="LOC" num="both" pos="name" rel="obj1" root="Amsterdam" sense="Amsterdam"/>
+          </node>
+        </node>
+        <node id="12" index="1" rel="obj1"/>
+        <node id="13" pos="adv" rel="mod" root="ook" sense="ook" special="sentence"/>
+        <node id="14" infl="psp" pos="verb" rel="hd" root="open" sc="transitive" sense="open"/>
+        <node cat="pp" id="15" rel="mod">
+          <node id="16" pos="prep" rel="hd" root="in" sense="in"/>
+          <node cat="np" id="17" rel="obj1">
+            <node id="18" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="het" id="19" num="pl" pos="noun" rel="hd" root="filiaal" sense="filiaal"/>
+            <node cat="conj" id="20" rel="app">
+              <node cat="mwu" id="21" mwu_root="Den Haag" mwu_sense="Den Haag" rel="cnj">
+                <node id="22" neclass="LOC" num="both" pos="name" rel="mwp" root="Den" sense="Den"/>
+                <node id="23" neclass="LOC" num="both" pos="name" rel="mwp" root="Haag" sense="Haag"/>
+              </node>
+              <node id="24" pos="vg" rel="crd" root="en" sense="en"/>
+              <node id="25" neclass="LOC" num="both" pos="name" rel="cnj" root="Rotterdam" sense="Rotterdam"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

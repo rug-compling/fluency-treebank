@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node cat="mwu" id="3" mwu_root="Denken en Doen" mwu_sense="Denken en Doen" rel="hd">
+          <node id="4" num="both" pos="name" rel="mwp" root="Denken" sense="Denken"/>
+          <node id="5" num="both" pos="name" rel="mwp" root="en" sense="en"/>
+          <node id="6" num="both" pos="name" rel="mwp" root="Doen" sense="Doen"/>
+        </node>
+        <node cat="np" id="7" rel="app">
+          <node gen="het" id="8" num="sg" pos="noun" rel="hd" root="maand_blad" sense="maand_blad"/>
+          <node cat="pp" id="9" rel="mod">
+            <node id="10" pos="prep" rel="hd" root="van" sense="van"/>
+            <node cat="np" id="11" rel="obj1">
+              <node id="12" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node cat="mwu" id="13" mwu_root="Ver. van Huisvrouwen" mwu_sense="Ver. van Huisvrouwen" rel="hd">
+                <node id="14" neclass="LOC" num="both" pos="name" rel="mwp" root="Ver." sense="Ver."/>
+                <node id="15" neclass="LOC" num="both" pos="name" rel="mwp" root="van" sense="van"/>
+                <node id="16" neclass="LOC" num="both" pos="name" rel="mwp" root="Huisvrouwen" sense="Huisvrouwen"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="17" infl="sg3" pos="verb" rel="hd" root="doe" sc="transitive_ndev" sense="doe" tense="present"/>
+      <node cat="pp" id="18" rel="mod">
+        <node id="19" pos="prep" rel="hd" root="in" sense="in"/>
+        <node cat="np" id="20" rel="obj1">
+          <node id="21" infl="het" pos="det" rel="det" root="dit" sense="dit" wh="nwh"/>
+          <node gen="het" id="22" num="sg" pos="noun" rel="hd" root="opzicht" sense="opzicht"/>
+        </node>
+      </node>
+      <node cat="np" id="23" rel="obj1">
+        <node id="24" infl="enkele" pos="det" rel="det" root="enkel" sense="enkel" special="adj_number"/>
+        <node gen="de" id="25" num="pl" pos="noun" rel="hd" root="suggestie" sense="suggestie"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

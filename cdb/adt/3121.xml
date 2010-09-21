@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" pos="pp" rel="mod" root="daarmee" sense="daarmee" special="er"/>
+      <node id="3" infl="sg3" pos="verb" rel="hd" root="krijg" sc="fixed([svp_er_pp(bij),acc],no_passive)" sense="krijg-bij" tense="present"/>
+      <node cat="np" id="4" rel="su">
+        <node id="5" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node cat="mwu" id="6" mwu_root="Wetenschappelijk Onderwijsbureau" mwu_sense="Wetenschappelijk Onderwijsbureau" rel="hd">
+          <node id="7" neclass="ORG" num="both" pos="name" rel="mwp" root="Wetenschappelijk" sense="Wetenschappelijk"/>
+          <node id="8" neclass="ORG" num="both" pos="name" rel="mwp" root="Onderwijsbureau" sense="Onderwijsbureau"/>
+        </node>
+        <node cat="pp" id="9" rel="mod">
+          <node id="10" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="11" rel="obj1">
+            <node id="12" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="13" num="sg" pos="noun" rel="hd" root="gemeente" sense="gemeente"/>
+            <node id="14" neclass="LOC" num="both" pos="name" rel="app" root="Rotterdam" sense="Rotterdam"/>
+          </node>
+        </node>
+      </node>
+      <node cat="np" id="15" rel="obj1">
+        <node id="16" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node gen="de" id="17" num="sg" pos="noun" rel="hd" root="dimensie" sense="dimensie"/>
+      </node>
+      <node cat="pp" id="18" rel="svp">
+        <node id="19" pos="adv" rel="obj1" root="er" sense="er" special="er"/>
+        <node id="20" pos="prep" rel="hd" root="bij" sense="bij"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="het" pos="det" rel="det" root="dat" sense="dat" wh="nwh"/>
+        <node gen="het" id="4" num="sg" pos="noun" rel="hd" root="dreigement" sense="dreigement"/>
+      </node>
+      <node id="5" infl="sg" pos="verb" rel="hd" root="behoef" sc="aux(te)" sense="behoef" tense="past"/>
+      <node cat="ti" id="6" rel="vc">
+        <node id="7" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+        <node cat="inf" id="8" rel="body">
+          <node id="9" index="1" rel="su"/>
+          <node id="10" infl="inf" pos="verb" rel="hd" root="word" sc="passive" sense="word"/>
+          <node cat="ppart" id="11" rel="vc">
+            <node id="12" index="1" rel="obj1"/>
+            <node id="13" pos="adv" rel="mod" root="niet" sense="niet"/>
+            <node id="14" infl="psp" pos="verb" rel="hd" root="voer_uit" sc="part_transitive(uit)" sense="voer_uit"/>
+            <node cat="cp" id="15" rel="mod">
+              <node id="16" pos="comp" rel="cmp" root="omdat" sense="omdat"/>
+              <node cat="ssub" id="17" rel="body">
+                <node id="18" neclass="LOC" num="both" pos="name" rel="su" root="Algiers" sense="Algiers"/>
+                <node id="19" infl="sg" pos="verb" rel="hd" root="geef_toe" sc="part_intransitive(toe)" sense="geef_toe" tense="past"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

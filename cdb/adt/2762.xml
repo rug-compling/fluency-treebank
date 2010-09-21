@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="serie" sense="serie"/>
+      </node>
+      <node id="5" infl="sg3" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="present"/>
+      <node cat="ppart" id="6" rel="vc">
+        <node id="7" index="1" rel="obj1"/>
+        <node cat="cp" id="8" rel="mod">
+          <node id="9" pos="adv" rel="mod" root="net" sc="modal" sense="net"/>
+          <node id="10" pos="comp" rel="cmp" root="als" sc="als" sense="als"/>
+          <node cat="np" id="11" rel="body">
+            <node id="12" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node id="13" num="both" pos="name" rel="hd" root="Fabeltjeskrant" sense="Fabeltjeskrant"/>
+          </node>
+        </node>
+        <node id="14" infl="psp" pos="verb" rel="hd" root="produceer" sc="transitive" sense="produceer"/>
+        <node cat="pp" id="15" rel="mod">
+          <node id="16" pos="prep" rel="hd" root="door" sense="door"/>
+          <node cat="mwu" id="17" mwu_root="Chanowski Productions N.V" mwu_sense="Chanowski Productions N.V" rel="obj1">
+            <node id="18" neclass="ORG" num="both" pos="name" rel="mwp" root="Chanowski" sense="Chanowski"/>
+            <node id="19" neclass="ORG" num="both" pos="name" rel="mwp" root="Productions" sense="Productions"/>
+            <node id="20" neclass="ORG" num="both" pos="name" rel="mwp" root="N.V" sense="N.V"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

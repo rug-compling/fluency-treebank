@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg" pos="verb" rel="hd" root="mag" sc="modifier(aux(inf))" sense="mag" tense="present"/>
+      <node cat="np" id="3" index="1" rel="su">
+        <node id="4" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="het" id="5" num="sg" pos="noun" rel="hd" root="land" sense="land"/>
+      </node>
+      <node cat="inf" id="6" rel="vc">
+        <node id="7" index="1" rel="su"/>
+        <node id="8" infl="inf" pos="verb" rel="hd" root="word" sc="passive" sense="word"/>
+        <node cat="ppart" id="9" rel="vc">
+          <node cat="np" id="10" rel="predc">
+            <node id="11" infl="een" pos="det" rel="det" root="een" sense="een"/>
+            <node aform="base" id="12" infl="no_e" pos="adj" rel="mod" root="goed" sense="goed" vform="adj"/>
+            <node gen="het" id="13" num="sg" pos="noun" rel="hd" root="voorbeeld" sense="voorbeeld"/>
+            <node id="14" pos="pp" rel="mod" root="hiervan" sense="hiervan" special="er"/>
+          </node>
+          <node id="15" index="1" rel="obj1"/>
+          <node cat="pp" id="16" rel="mod">
+            <node id="17" pos="prep" rel="hd" root="van" sense="van"/>
+            <node id="18" neclass="PER" num="both" pos="name" rel="obj1" root="Bartje" sense="Bartje"/>
+          </node>
+          <node id="19" infl="psp" pos="verb" rel="hd" root="noem" sc="pred_np" sense="noem"/>
+          <node cat="ap" id="20" rel="mod">
+            <node cat="np" id="21" rel="me">
+              <node id="22" pos="adv" rel="mod" root="bijna" sc="adv_noun_prep" sense="bijna"/>
+              <node id="23" infl="pl_num" pos="num" rel="det" root="10" sense="10" special="hoofd"/>
+              <node gen="de" id="24" num="meas" pos="noun" rel="hd" root="hectare" sense="hectare" special="meas_mod"/>
+            </node>
+            <node aform="base" id="25" infl="no_e" pos="adj" rel="hd" root="groot" sc="np_me" sense="groot" vform="adj"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

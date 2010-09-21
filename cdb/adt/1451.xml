@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="mod">
+        <node id="3" pos="adv" rel="mod" root="nog" sc="modal" sense="nog"/>
+        <node id="4" pos="prep" rel="hd" root="voor" sense="voor"/>
+        <node gen="de" id="5" num="sg" pos="noun" rel="obj1" root="rust" sense="rust"/>
+      </node>
+      <node id="6" infl="sg" pos="verb" rel="hd" root="word" sc="copula" sense="word" tense="past"/>
+      <node id="7" infl="het" pos="det" rel="su" root="het" sense="het" wh="nwh"/>
+      <node id="8" pos="adv" rel="mod" root="echter" sense="echter" special="sentence"/>
+      <node id="9" infl="both" pos="num" rel="predc" root="5-4" sense="5-4" special="hoofd"/>
+      <node cat="pp" id="10" rel="mod">
+        <node id="11" pos="adv" rel="mod" root="vooral" sc="modal" sense="vooral"/>
+        <node cat="mwu" id="12" mwu_root="dankzij" mwu_sense="dankzij" rel="hd">
+          <node id="13" pos="prep" rel="mwp" root="dank" sense="dank"/>
+          <node id="14" pos="prep" rel="mwp" root="zij" sense="zij"/>
+        </node>
+        <node cat="np" id="15" rel="obj1">
+          <node gen="both" id="16" num="both" pos="noun" rel="hd" root="onrustzaaier" sense="onrustzaaier"/>
+          <node id="17" neclass="PER" num="both" pos="name" rel="app" root="Zielhorst" sense="Zielhorst"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

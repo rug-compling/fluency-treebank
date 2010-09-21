@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" tense="present"/>
+      <node case="both" def="def" gen="de" id="3" index="1" num="both" per="thi" pos="pron" rel="su" root="ze" sense="ze" special="wkpro" wh="nwh"/>
+      <node cat="ppart" id="4" rel="vc">
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="vanuit" sense="vanuit"/>
+          <node cat="np" id="7" rel="obj1">
+            <node id="8" infl="de" pos="det" rel="det" root="die" sense="die" wh="nwh"/>
+            <node gen="de" id="9" num="sg" pos="noun" rel="hd" root="positie" sense="positie"/>
+          </node>
+        </node>
+        <node id="10" index="1" rel="su"/>
+        <node cat="np" id="11" rel="mod">
+          <node id="12" infl="het" pos="det" rel="det" root="dit" sense="dit" wh="nwh"/>
+          <node gen="het" id="13" num="sg" pos="noun" rel="hd" root="seizoen" sense="seizoen" special="tmp"/>
+        </node>
+        <node id="14" pos="adv" rel="mod" root="echter" sense="echter" special="sentence"/>
+        <node cat="mwu" id="15" mwu_root="sterk" mwu_sense="sterk" rel="predc">
+          <node aform="super" id="16" infl="pred" pos="adj" rel="mwp" root="het" sense="het" vform="adj"/>
+          <node aform="super" id="17" infl="pred" pos="adj" rel="mwp" root="allersterkst" sense="allersterkst" vform="adj"/>
+        </node>
+        <node id="18" infl="psp" pos="verb" rel="hd" root="blijk" sc="copula" sense="blijk"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

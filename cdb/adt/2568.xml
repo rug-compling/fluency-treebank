@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg3" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="present"/>
+      <node cat="ppart" id="3" rel="vc">
+        <node aform="base" id="4" infl="no_e" pos="adj" rel="mod" root="ijverig" sense="ijverig" vform="adj"/>
+        <node id="5" pos="adv" rel="mod" root="er" sense="er" special="er"/>
+        <node id="6" infl="psp" pos="verb" rel="hd" root="reken" sc="sbar" sense="reken"/>
+        <node cat="whsub" id="7" rel="vc">
+          <node cat="ap" id="8" index="1" rel="whd">
+            <node id="9" pos="adj" rel="mod" root="hoe" sense="hoe" wh="ywh"/>
+            <node aform="base" id="10" infl="no_e" pos="adj" rel="hd" root="lang" sense="lang" vform="adj"/>
+          </node>
+          <node cat="ssub" id="11" rel="body">
+            <node id="12" index="1" rel="mod"/>
+            <node id="13" infl="het" pos="det" rel="su" root="het" sense="het" wh="nwh"/>
+            <node id="14" pos="verb" rel="predc" root="vlieg" sc="intransitive" sense="vlieg" special="v_noun"/>
+            <node id="15" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+            <node cat="pp" id="16" rel="mod">
+              <node id="17" pos="prep" rel="hd" root="van" sense="van"/>
+              <node id="18" neclass="LOC" num="both" pos="name" rel="obj1" root="Engeland" sense="Engeland"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

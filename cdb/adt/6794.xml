@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="advp" id="2" rel="mod">
+        <node id="3" pos="adv" rel="hd" root="eind" sense="eind" special="tmp_app"/>
+        <node cat="np" id="4" rel="mod">
+          <node gen="de" id="5" num="sg" pos="noun" rel="hd" root="april" sense="april" special="tmp"/>
+          <node id="6" neclass="year" pos="noun" rel="mod" root="1970" sense="1970"/>
+        </node>
+      </node>
+      <node id="7" infl="pl" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="past"/>
+      <node id="8" pos="adv" rel="mod" root="er" sense="er" special="er"/>
+      <node cat="np" id="9" rel="su">
+        <node id="10" infl="pl_num" pos="num" rel="det" root="153.940" sense="153.940" special="hoofd"/>
+        <node gen="de" id="11" num="pl" pos="noun" rel="hd" root="woning" sense="woning"/>
+      </node>
+      <node cat="pp" id="12" rel="predc">
+        <node id="13" pos="prep" rel="hd" root="in" sense="in"/>
+        <node gen="de" id="14" num="sg" pos="noun" rel="obj1" root="aanbouw" sc="pred_pp(in)" sense="aanbouw"/>
+      </node>
+      <node cat="pp" id="15" rel="mod">
+        <node id="16" pos="prep" rel="hd" root="tegen" sense="tegen"/>
+        <node id="17" infl="pl_num" pos="num" rel="obj1" root="153.237" sense="153.237" special="hoofd"/>
+      </node>
+      <node cat="advp" id="18" rel="mod">
+        <node id="19" pos="adv" rel="hd" root="ultimo" sense="ultimo" special="tmp_app"/>
+        <node cat="np" id="20" rel="mod">
+          <node gen="de" id="21" num="sg" pos="noun" rel="hd" root="april" sense="april" special="tmp"/>
+          <node id="22" neclass="year" pos="noun" rel="mod" root="1969" sense="1969"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

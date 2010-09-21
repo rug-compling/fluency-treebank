@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node aform="base" id="3" infl="e" pos="adj" rel="mod" root="schril" sense="schril" vform="adj"/>
+        <node gen="het" id="4" num="pl" pos="noun" rel="hd" root="fluit_concert" sense="fluit_concert"/>
+      </node>
+      <node id="5" infl="pl" pos="verb" rel="hd" root="maak" sc="np_pc_pp(van)" sense="maak-van" tense="past"/>
+      <node cat="pp" id="6" rel="pc">
+        <node id="7" pos="prep" rel="hd" root="van" sense="van"/>
+        <node gen="de" id="8" num="sg" pos="noun" rel="obj1" root="Hout_rust" sense="Hout_rust"/>
+      </node>
+      <node cat="np" id="9" rel="obj1">
+        <node id="10" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node cat="ap" id="11" rel="mod">
+          <node aform="base" id="12" infl="no_e" pos="adj" rel="mod" root="wild" sense="wild" vform="adj"/>
+          <node aform="base" id="13" infl="e" pos="adj" rel="hd" root="laaiend" sense="laaiend" vform="adj"/>
+        </node>
+        <node gen="de" id="14" num="sg" pos="noun" rel="hd" root="hel" sense="hel"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

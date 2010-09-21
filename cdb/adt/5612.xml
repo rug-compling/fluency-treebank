@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="past"/>
+      <node gen="de" id="3" index="1" num="sg" pos="noun" rel="su" root="zij" sense="zij"/>
+      <node cat="ppart" id="4" rel="vc">
+        <node cat="np" id="5" rel="mod">
+          <node id="6" infl="het" pos="det" rel="det" root="dit" sense="dit" wh="nwh"/>
+          <node gen="het" id="7" num="sg" pos="noun" rel="hd" root="weekeinde" sense="weekeinde" special="tmp"/>
+        </node>
+        <node id="8" index="1" rel="obj1"/>
+        <node cat="pp" id="9" rel="mod">
+          <node id="10" pos="prep" rel="hd" root="door" sense="door"/>
+          <node cat="np" id="11" rel="obj1">
+            <node id="12" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node aform="base" id="13" infl="e" pos="adj" rel="mod" root="26_jarig" sense="26_jarig" vform="adj"/>
+            <node gen="de" id="14" num="sg" pos="noun" rel="hd" root="psychologie_student" sense="psychologie_student"/>
+            <node cat="mwu" id="15" mwu_root="B. R. de B." mwu_sense="B. R. de B." rel="app">
+              <node id="16" neclass="PER" num="both" pos="name" rel="mwp" root="B." sense="B."/>
+              <node id="17" neclass="PER" num="both" pos="name" rel="mwp" root="R." sense="R."/>
+              <node id="18" neclass="PER" num="both" pos="name" rel="mwp" root="de" sense="de"/>
+              <node id="19" neclass="PER" num="both" pos="name" rel="mwp" root="B." sense="B."/>
+            </node>
+          </node>
+        </node>
+        <node cat="pp" id="20" rel="mod">
+          <node id="21" pos="prep" rel="hd" root="met" sense="met"/>
+          <node cat="np" id="22" rel="obj1">
+            <node id="23" infl="een" pos="det" rel="det" root="een" sense="een"/>
+            <node gen="het" id="24" num="sg" pos="noun" rel="hd" root="mes" sense="mes"/>
+          </node>
+        </node>
+        <node id="25" infl="psp" pos="verb" rel="hd" root="val_aan" sc="part_transitive(aan)" sense="val_aan"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

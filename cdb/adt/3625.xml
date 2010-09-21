@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="mwu" id="2" mwu_root="nou ja" mwu_sense="nou ja" rel="tag">
+        <node id="3" pos="tag" rel="mwp" root="nou" sense="nou"/>
+        <node id="4" pos="tag" rel="mwp" root="ja" sense="ja"/>
+      </node>
+      <node cat="smain" id="5" rel="nucl">
+        <node case="both" def="def" gen="de" id="6" index="1" num="sg" per="je" pos="pron" rel="su" root="je" sense="je" special="wkpro" wh="nwh"/>
+        <node id="7" infl="sg" pos="verb" rel="hd" root="moet" sc="modifier(aux(inf))" sense="moet" tense="present"/>
+        <node cat="inf" id="8" rel="vc">
+          <node id="9" index="1" rel="su"/>
+          <node id="10" pos="adv" rel="mod" root="maar" sense="maar"/>
+          <node id="11" infl="inf" pos="verb" rel="hd" root="zeg" sc="tr_sbar" sense="zeg"/>
+          <node cat="whsub" id="12" rel="vc">
+            <node id="13" index="2" pos="adj" rel="whd" root="hoe" sense="hoe" wh="ywh"/>
+            <node cat="ssub" id="14" rel="body">
+              <node id="15" index="2" rel="mod"/>
+              <node case="both" def="def" gen="de" id="16" num="sg" per="je" pos="pron" rel="su" root="je" sense="je" special="wkpro" wh="nwh"/>
+              <node id="17" infl="het" pos="det" rel="obj1" root="het" sense="het" wh="nwh"/>
+              <node id="18" infl="sg3" pos="verb" rel="hd" root="vind" sc="transitive_ndev_ndev" sense="vind" tense="present"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

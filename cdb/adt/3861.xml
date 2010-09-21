@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" pos="adv" rel="mod" root="alleen" sc="modal" sense="alleen"/>
+        <node cat="mwu" id="4" mwu_root="Dick van Dijk" mwu_sense="Dick van Dijk" rel="hd">
+          <node id="5" neclass="PER" num="both" pos="name" rel="mwp" root="Dick" sense="Dick"/>
+          <node id="6" neclass="PER" num="both" pos="name" rel="mwp" root="van" sense="van"/>
+          <node id="7" neclass="PER" num="both" pos="name" rel="mwp" root="Dijk" sense="Dijk"/>
+        </node>
+      </node>
+      <node id="8" infl="sg" pos="verb" rel="hd" root="zorg" sc="pc_pp(voor)" sense="zorg-voor" tense="past"/>
+      <node cat="pp" id="9" rel="pc">
+        <node id="10" pos="prep" rel="hd" root="voor" sense="voor"/>
+        <node cat="np" id="11" rel="obj1">
+          <node id="12" infl="pl_num" pos="num" rel="det" root="twee" sense="twee" special="hoofd"/>
+          <node gen="de" id="13" num="pl" pos="noun" rel="hd" root="bres" sense="bres"/>
+          <node cat="pp" id="14" rel="mod">
+            <node id="15" pos="prep" rel="hd" root="in" sense="in"/>
+            <node cat="np" id="16" rel="obj1">
+              <node id="17" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node aform="base" id="18" infl="e" pos="adj" rel="mod" root="Schiedams" sense="Schiedams" vform="adj"/>
+              <node gen="de" id="19" num="sg" pos="noun" rel="hd" root="defensie" sense="defensie"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

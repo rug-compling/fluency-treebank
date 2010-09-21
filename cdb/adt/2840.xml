@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node cat="ppart" id="4" rel="mod">
+          <node id="5" pos="adv" rel="mod" root="inmiddels" sense="inmiddels"/>
+          <node aform="base" id="6" infl="e" pos="adj" rel="hd" root="gearriveerd" sense="gearriveerd" vform="psp"/>
+        </node>
+        <node gen="de" id="7" num="sg" pos="noun" rel="hd" root="politie" sense="politie"/>
+      </node>
+      <node id="8" infl="sg" pos="verb" rel="hd" root="verwijder" sc="transitive" sense="verwijder" tense="past"/>
+      <node cat="np" id="9" rel="obj1">
+        <node id="10" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="11" num="sg" pos="noun" rel="hd" root="orde" sc="app_measure" sense="orde"/>
+        <node gen="de" id="12" num="pl" pos="noun" rel="app" root="verstoorder" sense="verstoorder"/>
+      </node>
+      <node cat="pp" id="13" rel="mod">
+        <node id="14" pos="prep" rel="hd" root="van" sense="van"/>
+        <node cat="np" id="15" rel="obj1">
+          <node id="16" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+          <node gen="het" id="17" num="sg" pos="noun" rel="hd" root="kerk_terrein" sense="kerk_terrein"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

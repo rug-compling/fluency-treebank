@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="pl" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="past"/>
+      <node cat="np" id="3" index="1" rel="su">
+        <node id="4" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="both" id="5" num="both" pos="noun" rel="hd" root="zwartgroenen" sense="zwartgroenen"/>
+      </node>
+      <node cat="inf" id="6" rel="vc">
+        <node cat="pp" id="7" rel="pc">
+          <node id="8" pos="prep" rel="hd" root="aan" sense="aan"/>
+          <node cat="np" id="9" rel="obj1">
+            <node id="10" infl="een" pos="det" rel="det" root="een" sense="een"/>
+            <node aform="base" id="11" infl="no_e" pos="adj" rel="mod" root="gelijk" sense="gelijk" vform="adj"/>
+            <node gen="het" id="12" num="sg" pos="noun" rel="hd" root="spel" sense="spel"/>
+          </node>
+        </node>
+        <node id="13" index="1" rel="su"/>
+        <node id="14" pos="adv" rel="mod" root="dus" sense="dus" special="sentence"/>
+        <node id="15" infl="inf" pos="verb" rel="hd" root="heb" sc="np_pc_pp(aan)" sense="heb-aan"/>
+        <node cat="np" id="16" rel="obj1">
+          <node comparative="om" id="17" infl="wat" pos="det" rel="hd" root="voldoende" sense="voldoende" special="comp"/>
+          <node cat="oti" id="18" rel="obcomp">
+            <node id="19" pos="comp" rel="cmp" root="om" sc="om" sense="om"/>
+            <node cat="ti" id="20" rel="body">
+              <node id="21" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+              <node cat="inf" id="22" rel="body">
+                <node id="23" infl="inf" pos="verb" rel="hd" root="mag" sc="modifier(aux(inf))" sense="mag"/>
+                <node cat="inf" id="24" rel="vc">
+                  <node case="dat_acc" def="def" gen="de" id="25" num="both" per="thi" pos="pron" rel="obj1" root="zich" sense="zich" special="wkpro" wh="nwh"/>
+                  <node gen="de" id="26" num="sg" pos="noun" rel="predc" root="kampioen" sense="kampioen"/>
+                  <node id="27" infl="inf" pos="verb" rel="hd" root="noem" sc="pred_np" sense="noem"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

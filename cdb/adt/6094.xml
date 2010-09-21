@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="het" id="4" num="sg" pos="noun" rel="hd" root="balans_totaal" sense="balans_totaal"/>
+      </node>
+      <node id="5" infl="sg" pos="verb" rel="hd" root="groei" sc="ld_pp" sense="groei" tense="past"/>
+      <node cat="pp" id="6" rel="mod">
+        <node id="7" pos="prep" rel="hd" root="met" sense="met"/>
+        <node cat="np" id="8" rel="obj1">
+          <node id="9" infl="pl_num" pos="num" rel="det" root="22" sense="22" special="hoofd"/>
+          <node gen="both" id="10" num="meas" pos="noun" rel="hd" root="procent" sense="procent" special="meas_mod"/>
+        </node>
+      </node>
+      <node cat="pp" id="11" rel="ld">
+        <node id="12" pos="prep" rel="hd" root="tot" sense="tot"/>
+        <node cat="np" id="13" rel="obj1">
+          <node id="14" pos="adv" rel="mod" root="bijna" sc="adv_noun_prep" sense="bijna"/>
+          <node id="15" infl="both" pos="num" rel="det" root="5,2" sense="5,2" special="hoofd"/>
+          <node gen="both" id="16" num="meas" pos="noun" rel="hd" root="miljard" sc="measure" sense="miljard-MEAS" special="meas_mod"/>
+          <node gen="de" id="17" num="meas" pos="noun" rel="mod" root="gulden" sense="gulden" special="meas_mod"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

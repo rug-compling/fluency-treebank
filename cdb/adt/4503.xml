@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="storm" sense="storm"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="7" rel="obj1">
+            <node gen="de" id="8" num="pl" pos="noun" rel="hd" root="beschuldiging" sense="beschuldiging"/>
+            <node cat="pp" id="9" rel="mod">
+              <node cat="mwu" id="10" mwu_root="aan het adres van" mwu_sense="aan het adres van" rel="hd">
+                <node id="11" pos="prep" rel="mwp" root="aan" sense="aan"/>
+                <node id="12" pos="prep" rel="mwp" root="het" sense="het"/>
+                <node id="13" pos="prep" rel="mwp" root="adres" sense="adres"/>
+                <node id="14" pos="prep" rel="mwp" root="van" sense="van"/>
+              </node>
+              <node id="15" neclass="PER" num="both" pos="name" rel="obj1" root="Weinreb" sense="Weinreb"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="16" infl="sg" pos="verb" rel="hd" root="breek_los" sc="part_intransitive(los)" sense="breek_los" tense="past"/>
+    </node>
+  </node>
+</alpino_adt>

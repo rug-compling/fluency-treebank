@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="smain" id="2" rel="nucl">
+        <node case="nom" def="def" gen="de" id="3" index="1" num="pl" per="fir" pos="pron" rel="su" root="wij" sense="wij" wh="nwh"/>
+        <node id="4" infl="pl" pos="verb" rel="hd" root="wil" sc="modifier(aux(inf))" sense="wil" tense="present"/>
+        <node cat="inf" id="5" rel="vc">
+          <node id="6" index="1" rel="su"/>
+          <node cat="pp" id="7" rel="mod">
+            <node id="8" pos="adv" rel="mod" root="ook" sc="modal" sense="ook"/>
+            <node id="9" pos="prep" rel="hd" root="zonder" sense="zonder"/>
+            <node id="10" neclass="PER" num="both" pos="name" rel="obj1" root="Noerejew" sense="Noerejew"/>
+          </node>
+          <node aform="base" id="11" infl="no_e" pos="adj" rel="predc" root="groot" sense="groot" vform="adj"/>
+          <node id="12" infl="inf" pos="verb" rel="hd" root="ben" sc="copula" sense="ben"/>
+        </node>
+      </node>
+      <node cat="sv1" id="13" rel="tag">
+        <node id="14" infl="sg3" pos="verb" rel="hd" root="zeg" sc="tr_sbar" sense="zeg" tense="present"/>
+        <node cat="mwu" id="15" mwu_root="mr. Gerritsen" mwu_sense="mr. Gerritsen" rel="su">
+          <node id="16" neclass="PER" num="both" pos="name" rel="mwp" root="mr." sense="mr."/>
+          <node id="17" neclass="PER" num="both" pos="name" rel="mwp" root="Gerritsen" sense="Gerritsen"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

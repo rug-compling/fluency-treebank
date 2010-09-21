@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="mwu" id="2" mwu_root="Henk Elsink" mwu_sense="Henk Elsink" rel="su">
+        <node id="3" neclass="PER" num="both" pos="name" rel="mwp" root="Henk" sense="Henk"/>
+        <node id="4" neclass="PER" num="both" pos="name" rel="mwp" root="Elsink" sense="Elsink"/>
+      </node>
+      <node id="5" infl="sg" pos="verb" rel="hd" root="vind" sc="tr_sbar" sense="vind" tense="past"/>
+      <node cat="cp" id="6" rel="vc">
+        <node id="7" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+        <node cat="ssub" id="8" rel="body">
+          <node cat="np" id="9" rel="su">
+            <node id="10" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+            <node id="11" pos="verb" rel="hd" root="breng_uit" sc="intransitive" sense="breng_uit" special="v_noun"/>
+            <node cat="pp" id="12" rel="mod">
+              <node id="13" pos="prep" rel="hd" root="van" sense="van"/>
+              <node cat="np" id="14" rel="obj1">
+                <node id="15" infl="een" pos="det" rel="det" root="een" sense="een"/>
+                <node aform="base" id="16" infl="e" pos="adj" rel="mod" root="afgekeurd" sense="afgekeurd" vform="psp"/>
+                <node gen="de" id="17" num="sg" pos="noun" rel="hd" root="opname" sense="opname"/>
+              </node>
+            </node>
+          </node>
+          <node cat="np" id="18" rel="obj1">
+            <node id="19" infl="pron" pos="det" rel="det" root="zijn" sense="zijn"/>
+            <node gen="de" id="20" num="sg" pos="noun" rel="hd" root="populariteit" sense="populariteit"/>
+          </node>
+          <node cat="pp" id="21" rel="ld">
+            <node id="22" pos="prep" rel="hd" root="in" sense="in"/>
+            <node gen="het" id="23" num="sg" pos="noun" rel="obj1" root="diskrediet" sense="diskrediet"/>
+          </node>
+          <node id="24" infl="sg" pos="verb" rel="hd" root="breng" sc="np_ld_pp" sense="breng" tense="past"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

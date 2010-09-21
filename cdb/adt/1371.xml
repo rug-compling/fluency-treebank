@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="heer" sense="heer"/>
+        <node cat="mwu" id="5" mwu_root="G. J. Wassink" mwu_sense="G. J. Wassink" rel="app">
+          <node id="6" neclass="PER" num="both" pos="name" rel="mwp" root="G." sense="G."/>
+          <node id="7" neclass="PER" num="both" pos="name" rel="mwp" root="J." sense="J."/>
+          <node id="8" neclass="PER" num="both" pos="name" rel="mwp" root="Wassink" sense="Wassink"/>
+        </node>
+      </node>
+      <node id="9" infl="sg" pos="verb" rel="hd" root="fungeer" sc="als_copula" sense="fungeer" tense="past"/>
+      <node cat="cp" id="10" rel="predc">
+        <node id="11" pos="comp" rel="cmp" root="als" sc="als" sense="als"/>
+        <node gen="het" id="12" num="sg" pos="noun" rel="body" root="proef_konijn" sense="proef_konijn"/>
+      </node>
+      <node cat="pp" id="13" rel="mod">
+        <node id="14" pos="prep" rel="hd" root="voor" sense="voor"/>
+        <node cat="np" id="15" rel="obj1">
+          <node id="16" infl="alle" pos="det" rel="det" root="alle" sense="alle" wh="nwh"/>
+          <node gen="de" id="17" num="pl" pos="noun" rel="hd" root="wijk_bewoner" sense="wijk_bewoner"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

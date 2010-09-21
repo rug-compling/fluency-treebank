@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="mwu" id="2" mwu_root="Hij heeft koersinzicht" mwu_sense="Hij heeft koersinzicht" rel="ld">
+        <node id="3" num="both" pos="name" rel="mwp" root="Hij" sense="Hij"/>
+        <node id="4" num="both" pos="name" rel="mwp" root="heeft" sense="heeft"/>
+        <node id="5" num="both" pos="name" rel="mwp" root="koersinzicht" sense="koersinzicht"/>
+      </node>
+      <node id="6" infl="sg3" pos="verb" rel="hd" root="druk_uit" sc="part_np_ld_transitive(uit)" sense="druk_uit" tense="present"/>
+      <node cat="np" id="7" rel="su">
+        <node gen="de" id="8" num="sg" pos="noun" rel="hd" root="bondscoach" sense="bondscoach"/>
+        <node cat="mwu" id="9" mwu_root="Joop Middelink" mwu_sense="Joop Middelink" rel="app">
+          <node id="10" neclass="PER" num="both" pos="name" rel="mwp" root="Joop" sense="Joop"/>
+          <node id="11" neclass="PER" num="both" pos="name" rel="mwp" root="Middelink" sense="Middelink"/>
+        </node>
+      </node>
+      <node case="dat_acc" def="def" gen="de" id="12" num="both" per="thi" pos="pron" rel="obj1" root="zich" sense="zich" special="wkpro" wh="nwh"/>
+      <node aform="base" id="13" infl="no_e" pos="adj" rel="mod" root="voorzichtig" sense="voorzichtig" vform="adj"/>
+    </node>
+  </node>
+</alpino_adt>

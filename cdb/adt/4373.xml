@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node id="4" pos="num" rel="mod" root="eerste" sense="eerste" special="rang"/>
+        <node gen="de" id="5" num="sg" pos="noun" rel="hd" root="match" sense="match" special="tmp"/>
+        <node cat="pp" id="6" rel="mod">
+          <node id="7" pos="prep" rel="hd" root="om" sense="om"/>
+          <node cat="np" id="8" rel="obj1">
+            <node id="9" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+            <node gen="het" id="10" num="sg" pos="noun" rel="hd" root="wereldkampioenschap" sense="wereldkampioenschap"/>
+          </node>
+        </node>
+      </node>
+      <node id="11" infl="sg" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="past"/>
+      <node cat="ppart" id="12" rel="vc">
+        <node id="13" index="1" rel="obj1"/>
+        <node cat="pp" id="14" rel="mod">
+          <node id="15" pos="prep" rel="hd" root="in" sense="in"/>
+          <node id="16" neclass="year" pos="noun" rel="obj1" root="1904" sense="1904"/>
+        </node>
+        <node cat="pp" id="17" rel="mod">
+          <node id="18" pos="prep" rel="hd" root="tussen" sense="tussen"/>
+          <node cat="conj" id="19" rel="obj1">
+            <node id="20" neclass="PER" num="both" pos="name" rel="cnj" root="Weiss" sense="Weiss"/>
+            <node id="21" pos="vg" rel="crd" root="en" sense="en"/>
+            <node cat="mwu" id="22" mwu_root="De Haas" mwu_sense="De Haas" rel="cnj">
+              <node id="23" neclass="PER" num="both" pos="name" rel="mwp" root="De" sense="De"/>
+              <node id="24" neclass="PER" num="both" pos="name" rel="mwp" root="Haas" sense="Haas"/>
+            </node>
+          </node>
+        </node>
+        <node id="25" infl="psp" pos="verb" rel="hd" root="speel" sc="transitive" sense="speel"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

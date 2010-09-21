@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="advp" id="2" rel="mod">
+        <node id="3" pos="adv" rel="hd" root="gisteravond" sense="gisteravond" special="tmp"/>
+        <node id="4" pos="adv" rel="mod" root="laat" sense="laat" special="postadv"/>
+      </node>
+      <node id="5" infl="sg" pos="verb" rel="hd" root="zorg" sc="pc_pp(voor)" sense="zorg-voor" tense="past"/>
+      <node cat="np" id="6" rel="su">
+        <node id="7" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node aform="base" id="8" infl="e" pos="adj" rel="mod" root="20_jarig" sense="20_jarig" vform="adj"/>
+        <node gen="de" id="9" num="sg" pos="noun" rel="hd" root="student" sense="student"/>
+        <node cat="mwu" id="10" mwu_root="Peter Trakson" mwu_sense="Peter Trakson" rel="app">
+          <node id="11" neclass="PER" num="both" pos="name" rel="mwp" root="Peter" sense="Peter"/>
+          <node id="12" neclass="PER" num="both" pos="name" rel="mwp" root="Trakson" sense="Trakson"/>
+        </node>
+      </node>
+      <node cat="pp" id="13" rel="pc">
+        <node id="14" pos="prep" rel="hd" root="voor" sense="voor"/>
+        <node cat="np" id="15" rel="obj1">
+          <node id="16" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node aform="base" id="17" infl="no_e" pos="adj" rel="mod" root="nieuw" sense="nieuw" vform="adj"/>
+          <node gen="het" id="18" num="sg" pos="noun" rel="hd" root="incident" sense="incident"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node aform="base" id="4" infl="no_e" pos="adj" rel="mod" root="val_aan" sense="val_aan" vform="gerund"/>
+        <node id="5" pos="verb" rel="hd" root="roei" sc="intransitive" sense="roei" special="v_noun"/>
+        <node cat="pp" id="6" rel="mod">
+          <node id="7" pos="prep" rel="hd" root="van" sense="van"/>
+          <node id="8" neclass="PER" num="both" pos="name" rel="obj1" root="Pennink" sense="Pennink"/>
+        </node>
+      </node>
+      <node id="9" infl="modal_not_u" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="present"/>
+      <node cat="inf" id="10" rel="vc">
+        <node id="11" index="1" rel="su"/>
+        <node cat="pp" id="12" rel="mod">
+          <node id="13" pos="prep" rel="hd" root="bij" sense="bij"/>
+          <node cat="np" id="14" rel="obj1">
+            <node id="15" infl="een" pos="det" rel="det" root="een" sense="een"/>
+            <node aform="base" id="16" infl="no_e" pos="adj" rel="mod" root="licht" sense="licht" vform="adj"/>
+            <node gen="het" id="17" num="sg" pos="noun" rel="hd" root="tegen_wind_DIM" sense="tegen_wind_DIM"/>
+          </node>
+        </node>
+        <node cat="mwu" id="18" mwu_root="goed" mwu_sense="goed" rel="mod">
+          <node aform="super" id="19" infl="pred" pos="adj" rel="mwp" root="het" sense="het" vform="adj"/>
+          <node aform="super" id="20" infl="pred" pos="adj" rel="mwp" root="beste" sense="beste" vform="adj"/>
+        </node>
+        <node cat="mwu" id="21" mwu_root="uit de verf" mwu_sense="uit de verf" rel="svp">
+          <node id="22" pos="fixed" rel="mwp" root="uit" sense="uit"/>
+          <node id="23" pos="fixed" rel="mwp" root="de" sense="de"/>
+          <node id="24" pos="fixed" rel="mwp" root="verf" sense="verf"/>
+        </node>
+        <node id="25" infl="inf" pos="verb" rel="hd" root="kom" sc="fixed([[uit,de,verf]],no_passive)" sense="uit-de-verf-kom"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

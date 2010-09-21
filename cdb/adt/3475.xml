@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="bare_meas" pos="noun" rel="hd" root="man" sense="man"/>
+      </node>
+      <node id="5" infl="sg" pos="verb" rel="hd" root="moet" sc="modifier(aux(inf))" sense="moet" tense="past"/>
+      <node cat="inf" id="6" rel="vc">
+        <node id="7" index="1" rel="su"/>
+        <node cat="ppart" id="8" rel="vc">
+          <node id="9" index="1" rel="obj1"/>
+          <node cat="pp" id="10" rel="mod">
+            <node id="11" pos="prep" rel="hd" root="door" sense="door"/>
+            <node cat="np" id="12" rel="obj1">
+              <node gen="het" id="13" num="sg" pos="noun" rel="hd" root="personeel" sense="personeel"/>
+              <node cat="pp" id="14" rel="mod">
+                <node id="15" pos="prep" rel="hd" root="van" sense="van"/>
+                <node cat="np" id="16" rel="obj1">
+                  <node id="17" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                  <node gen="de" id="18" num="sg" pos="noun" rel="hd" root="brandweer" sense="brandweer"/>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node cat="pp" id="19" rel="mod">
+            <node id="20" pos="prep" rel="hd" root="onder" sense="onder"/>
+            <node cat="np" id="21" rel="obj1">
+              <node id="22" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node gen="de" id="23" num="sg" pos="noun" rel="hd" root="vracht_auto" sense="vracht_auto"/>
+            </node>
+            <node id="24" pos="part" rel="hdf" root="vandaan" sense="vandaan"/>
+          </node>
+          <node id="25" infl="psp" pos="verb" rel="hd" root="haal" sc="transitive" sense="haal"/>
+        </node>
+        <node id="26" infl="inf" pos="verb" rel="hd" root="word" sc="passive" sense="word"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="np" id="2" rel="dp">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node aform="base" id="4" infl="e" pos="adj" rel="mod" root="aanwezig" sense="aanwezig" vform="adj"/>
+        <node gen="both" id="5" num="both" pos="noun" rel="hd" root="logiesaccomodatie" sense="logiesaccomodatie"/>
+      </node>
+      <node cat="smain" id="6" rel="dp">
+        <node cat="np" id="7" rel="obj1">
+          <node cat="detp" id="8" rel="det">
+            <node aform="base" id="9" infl="no_e" pos="adj" rel="mod" root="ruim" sense="ruim" vform="adj"/>
+            <node id="10" infl="pl_num" pos="num" rel="hd" root="10.000" sense="10.000" special="hoofd"/>
+          </node>
+          <node gen="het" id="11" num="pl" pos="noun" rel="hd" root="bed" sense="bed"/>
+        </node>
+        <node id="12" infl="sg" pos="verb" rel="hd" root="moet" sc="nonp_pred_np_ndev" sense="moet" tense="present"/>
+        <node cat="np" id="13" rel="su">
+          <node cat="advp" id="14" rel="mod">
+            <node id="15" pos="adv" rel="mod" root="ook" sc="modal" sense="ook"/>
+            <node cat="mwu" id="16" mwu_root="&apos;s winters" mwu_sense="&apos;s winters" rel="hd">
+              <node id="17" pos="adv" rel="mwp" root="&apos;s" sense="&apos;s" special="tmp"/>
+              <node id="18" pos="adv" rel="mwp" root="winters" sense="winters" special="tmp"/>
+            </node>
+          </node>
+          <node id="19" pos="verb" rel="hd" root="word" sc="intransitive" sense="word" special="v_noun"/>
+        </node>
+        <node aform="base" id="20" infl="no_e" pos="adj" rel="mod" root="benut" sense="benut" vform="psp"/>
+        <node aform="base" id="21" infl="pred" pos="adj" rel="predc" root="zo" sense="zo" vform="adj"/>
+      </node>
+      <node cat="sv1" id="22" rel="dp">
+        <node id="23" infl="pl" pos="verb" rel="hd" root="meen" sc="transitive" sense="meen" tense="present"/>
+        <node case="nom" def="def" gen="de" id="24" num="both" per="thi" pos="pron" rel="su" root="zij" sense="zij" wh="nwh"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

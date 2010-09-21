@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node case="both" def="def" gen="de" id="2" index="1" num="both" per="thi" pos="pron" rel="su" root="ze" sense="ze" special="wkpro" wh="nwh"/>
+      <node id="3" infl="pl" pos="verb" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" tense="past"/>
+      <node cat="ppart" id="4" rel="vc">
+        <node id="5" index="1" rel="su"/>
+        <node cat="np" id="6" rel="ld">
+          <node id="7" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="8" num="sg" pos="noun" rel="hd" root="school" sense="school"/>
+        </node>
+        <node id="9" infl="psp" pos="verb" rel="hd" root="kom_binnen" sc="part_ld_transitive(binnen)" sense="kom_binnen"/>
+        <node cat="cp" id="10" rel="mod">
+          <node id="11" pos="comp" rel="cmp" root="door" sc="inf" sense="door"/>
+          <node cat="ti" id="12" rel="body">
+            <node id="13" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+            <node cat="inf" id="14" rel="body">
+              <node cat="np" id="15" rel="obj1">
+                <node id="16" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+                <node gen="het" id="17" num="sg" pos="noun" rel="hd" root="slot" sense="slot"/>
+                <node cat="pp" id="18" rel="mod">
+                  <node id="19" pos="prep" rel="hd" root="van" sense="van"/>
+                  <node cat="np" id="20" rel="obj1">
+                    <node id="21" infl="een" pos="det" rel="det" root="een" sense="een"/>
+                    <node gen="de" id="22" num="sg" pos="noun" rel="hd" root="deur" sense="deur"/>
+                  </node>
+                </node>
+              </node>
+              <node id="23" infl="inf" pos="verb" rel="hd" root="verbreek" sc="transitive" sense="verbreek"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

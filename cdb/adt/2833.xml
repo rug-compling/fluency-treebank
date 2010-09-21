@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="smain" id="2" rel="cnj">
+        <node case="both" def="def" gen="de" id="3" index="1" num="both" per="thi" pos="pron" rel="su" root="ze" sense="ze" special="wkpro" wh="nwh"/>
+        <node id="4" infl="pl" pos="verb" rel="hd" root="smijt" sc="np_ld_pp" sense="smijt" tense="past"/>
+        <node cat="np" id="5" rel="obj1">
+          <node id="6" infl="pl_num" pos="num" rel="det" root="vijf" sense="vijf" special="hoofd"/>
+          <node gen="de" id="7" num="pl" pos="noun" rel="hd" root="straat_klinker" sense="straat_klinker"/>
+        </node>
+        <node cat="pp" id="8" rel="ld">
+          <node id="9" pos="prep" rel="hd" root="door" sense="door"/>
+          <node cat="np" id="10" rel="obj1">
+            <node id="11" infl="een" pos="det" rel="det" root="een" sense="een"/>
+            <node gen="de" id="12" num="sg" pos="noun" rel="hd" root="etalage_ruit" sense="etalage_ruit"/>
+          </node>
+        </node>
+      </node>
+      <node id="13" pos="vg" rel="crd" root="en" sense="en"/>
+      <node cat="smain" id="14" rel="cnj">
+        <node id="15" index="1" rel="su"/>
+        <node id="16" infl="pl" pos="verb" rel="hd" root="stap" sc="ld_pp" sense="stap" tense="past"/>
+        <node cat="pp" id="17" rel="mod">
+          <node id="18" pos="prep" rel="hd" root="door" sense="door"/>
+          <node cat="np" id="19" rel="obj1">
+            <node id="20" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+            <node aform="base" id="21" infl="e" pos="adj" rel="mod" root="groot" sense="groot" vform="adj"/>
+            <node gen="het" id="22" num="sg" pos="noun" rel="hd" root="gat" sense="gat"/>
+          </node>
+        </node>
+        <node cat="pp" id="23" rel="ld">
+          <node id="24" pos="prep" rel="hd" root="naar" sc="loc_adv" sense="naar"/>
+          <node id="25" pos="adv" rel="obj1" root="binnen" sense="binnen" special="loc"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

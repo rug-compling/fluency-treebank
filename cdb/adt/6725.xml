@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" pos="adv" rel="mod" root="nu" sense="nu" special="tmp"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="past"/>
+      <node cat="np" id="4" rel="su">
+        <node id="5" neclass="PER" num="both" pos="name" rel="hd" root="Dangast" sense="Dangast"/>
+        <node cat="pp" id="6" rel="mod">
+          <node id="7" pos="prep" rel="hd" root="aan" sense="aan"/>
+          <node cat="np" id="8" rel="obj1">
+            <node id="9" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node id="10" neclass="LOC" num="both" pos="name" rel="hd" root="Jadeboezem" sense="Jadeboezem"/>
+          </node>
+        </node>
+      </node>
+      <node aform="base" id="11" infl="no_e" pos="adj" rel="mod" root="eindelijk" sense="eindelijk" vform="adj"/>
+      <node cat="mwu" id="12" mwu_root="aan de beurt" mwu_sense="aan de beurt" rel="predc">
+        <node aform="base" id="13" infl="pred" pos="adj" rel="mwp" root="aan" sense="aan" vform="adj"/>
+        <node aform="base" id="14" infl="pred" pos="adj" rel="mwp" root="de" sense="de" vform="adj"/>
+        <node aform="base" id="15" infl="pred" pos="adj" rel="mwp" root="beurt" sense="beurt" vform="adj"/>
+      </node>
+      <node aform="base" id="16" infl="no_e" pos="adj" rel="mod" root="eigenlijk" sense="eigenlijk" vform="adj"/>
+      <node cat="ap" id="17" rel="mod">
+        <node id="18" pos="adv" rel="mod" root="zo" sense="zo"/>
+        <node cat="mwu" id="19" mwu_root="dichtbij" mwu_sense="dichtbij" rel="hd">
+          <node aform="base" id="20" infl="no_e" pos="adj" rel="mwp" root="dicht" sense="dicht" vform="adj"/>
+          <node aform="base" id="21" infl="no_e" pos="adj" rel="mwp" root="bij" sense="bij" vform="adj"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

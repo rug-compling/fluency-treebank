@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="np" id="1" rel="--">
+      <node id="2" infl="een" pos="det" rel="det" root="een" sense="een"/>
+      <node gen="de" id="3" num="sg" pos="noun" rel="hd" root="theorie" sense="theorie"/>
+      <node cat="rel" id="4" rel="mod">
+        <node id="5" index="1" pos="pp" rel="rhd" root="waaraan" sense="waaraan" special="waar"/>
+        <node cat="ssub" id="6" rel="body">
+          <node cat="mwu" id="7" mwu_root="Mc. Luhan" mwu_sense="Mc. Luhan" rel="su">
+            <node id="8" neclass="PER" num="both" pos="name" rel="mwp" root="Mc." sense="Mc."/>
+            <node id="9" neclass="PER" num="both" pos="name" rel="mwp" root="Luhan" sense="Luhan"/>
+          </node>
+          <node cat="ap" id="10" rel="predc">
+            <node id="11" index="1" rel="pc"/>
+            <node id="12" pos="adv" rel="mod" root="niet" sense="niet"/>
+            <node aform="base" id="13" infl="no_e" pos="adj" rel="hd" root="vreemd" sc="pp(aan)" sense="vreemd-aan" vform="adj"/>
+          </node>
+          <node id="14" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

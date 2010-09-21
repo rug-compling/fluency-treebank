@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="mod">
+        <node id="3" pos="prep" rel="hd" root="in" sense="in"/>
+        <node cat="np" id="4" rel="obj1">
+          <node id="5" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="6" num="sg" pos="noun" rel="hd" root="mammoet_wet" sense="mammoet_wet"/>
+        </node>
+      </node>
+      <node id="7" infl="sg3" pos="verb" rel="hd" root="kom_voor" sc="part_intransitive(voor)" sense="kom_voor" tense="present"/>
+      <node cat="np" id="8" rel="su">
+        <node id="9" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node aform="base" id="10" infl="e" pos="adj" rel="mod" root="facultatieve" sense="facultatieve" vform="adj"/>
+        <node gen="het" id="11" num="sg" pos="noun" rel="hd" root="vak" sense="vak"/>
+        <node cat="mwu" id="12" mwu_root="muzische vorming" mwu_sense="muzische vorming" rel="app">
+          <node id="13" num="both" pos="name" rel="mwp" root="muzische" sense="muzische"/>
+          <node id="14" num="both" pos="name" rel="mwp" root="vorming" sense="vorming"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

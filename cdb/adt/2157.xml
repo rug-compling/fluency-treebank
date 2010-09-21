@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="np" id="2" rel="cnj">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="Noordzee_kust" sense="Noordzee_kust"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="met" sense="met"/>
+          <node gen="de" id="7" num="pl" pos="noun" rel="obj1" root="zee_vis_schotel" sense="zee_vis_schotel"/>
+        </node>
+      </node>
+      <node id="8" pos="vg" rel="crd" root="en" sense="en"/>
+      <node cat="np" id="9" rel="cnj">
+        <node id="10" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="11" num="sg" pos="noun" rel="hd" root="Ijsselmeer_kust" sense="Ijsselmeer_kust"/>
+        <node cat="pp" id="12" rel="mod">
+          <node id="13" pos="prep" rel="hd" root="met" sense="met"/>
+          <node cat="np" id="14" rel="obj1">
+            <node id="15" infl="een" pos="det" rel="det" root="een" sense="een"/>
+            <node gen="het" id="16" num="sg" pos="noun" rel="hd" root="deel" sense="deel" special="mod"/>
+            <node cat="pp" id="17" rel="mod">
+              <node id="18" pos="prep" rel="hd" root="van" sense="van"/>
+              <node cat="np" id="19" rel="obj1">
+                <node id="20" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+                <node gen="het" id="21" num="sg" pos="noun" rel="hd" root="meer_gebied" sense="meer_gebied"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node cat="pp" id="22" rel="mod">
+          <node id="23" pos="prep" rel="hd" root="met" sense="met"/>
+          <node cat="conj" id="24" rel="obj1">
+            <node id="25" pos="prefix" rel="cnj" root="paling" sense="paling"/>
+            <node id="26" pos="vg" rel="crd" root="en" sense="en"/>
+            <node gen="het" id="27" num="pl" pos="noun" rel="cnj" root="snoek_baar_gerecht" sense="snoek_baar_gerecht"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

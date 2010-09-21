@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="bond" sense="bond"/>
+      </node>
+      <node id="5" infl="modal_not_u" pos="verb" rel="hd" root="kan" sc="aux(inf)" sense="kan" tense="present"/>
+      <node cat="inf" id="6" rel="vc">
+        <node id="7" index="1" rel="su"/>
+        <node cat="mwu" id="8" mwu_root="nu eenmaal" mwu_sense="nu eenmaal" rel="mod">
+          <node id="9" pos="adv" rel="mwp" root="nu" sense="nu"/>
+          <node id="10" pos="adv" rel="mwp" root="eenmaal" sense="eenmaal"/>
+        </node>
+        <node id="11" pos="adv" rel="mod" root="niet" sense="niet"/>
+        <node cat="mwu" id="12" mwu_root="in het geweer" mwu_sense="in het geweer" rel="svp">
+          <node id="13" pos="fixed" rel="mwp" root="in" sense="in"/>
+          <node id="14" pos="fixed" rel="mwp" root="het" sense="het"/>
+          <node id="15" pos="fixed" rel="mwp" root="geweer" sense="geweer"/>
+        </node>
+        <node id="16" infl="inf" pos="verb" rel="hd" root="kom" sc="fixed([[in,het,geweer],pc(tegen)],no_passive)" sense="in-het-geweer-kom-tegen"/>
+        <node cat="pp" id="17" rel="pc">
+          <node id="18" pos="prep" rel="hd" root="tegen" sense="tegen"/>
+          <node cat="np" id="19" rel="obj1">
+            <node gen="both" id="20" num="pl" pos="noun" rel="hd" root="misbruik" sense="misbruik"/>
+            <node cat="rel" id="21" rel="mod">
+              <node case="no_obl" gen="de" id="22" index="2" pos="pron" rel="rhd" root="die" sense="die" wh="rel"/>
+              <node cat="ssub" id="23" rel="body">
+                <node id="24" index="2" rel="su"/>
+                <node id="25" pos="pp" rel="ld" root="binnenskamers" sense="binnenskamers"/>
+                <node id="26" infl="pl" pos="verb" rel="hd" root="blijf" sc="ld_pp" sense="blijf" tense="present"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

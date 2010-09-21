@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="past"/>
+      <node cat="np" id="3" index="1" rel="su">
+        <node id="4" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="5" num="sg" pos="noun" rel="hd" root="vergadering" sense="vergadering"/>
+      </node>
+      <node cat="ppart" id="6" rel="vc">
+        <node cat="pp" id="7" rel="mod">
+          <node id="8" pos="prep" rel="hd" root="rond" sense="rond"/>
+          <node gen="de" id="9" num="sg" pos="noun" rel="obj1" root="middernacht" sense="middernacht"/>
+        </node>
+        <node id="10" index="1" rel="obj1"/>
+        <node id="11" infl="psp" pos="verb" rel="hd" root="schors" sc="transitive" sense="schors"/>
+        <node cat="pp" id="12" rel="mod">
+          <node id="13" pos="prep" rel="hd" root="tot" sense="tot"/>
+          <node cat="np" id="14" rel="obj1">
+            <node id="15" infl="een" pos="det" rel="det" root="een" sense="een"/>
+            <node gen="het" id="16" num="sg" pos="noun" rel="hd" root="tijdstip" sense="tijdstip"/>
+            <node cat="pp" id="17" rel="mod">
+              <node id="18" pos="adv" rel="mod" root="vlak" sc="comp_prep" sense="vlak"/>
+              <node id="19" pos="prep" rel="hd" root="na" sense="na"/>
+              <node cat="np" id="20" rel="obj1">
+                <node id="21" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+                <node id="22" pos="verb" rel="hd" root="loop_af" sc="intransitive" sense="loop_af" special="v_noun"/>
+                <node cat="pp" id="23" rel="mod">
+                  <node id="24" pos="prep" rel="hd" root="van" sense="van"/>
+                  <node cat="np" id="25" rel="obj1">
+                    <node id="26" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+                    <node gen="het" id="27" num="sg" pos="noun" rel="hd" root="ultimatum" sense="ultimatum"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

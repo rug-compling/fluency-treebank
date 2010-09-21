@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" pos="adv" rel="mod" root="vervolgens" sense="vervolgens"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="vind" sc="pred_np_vp" sense="vind" tense="past"/>
+      <node case="nom" def="def" gen="de" id="4" num="sg" per="thi" pos="pron" rel="su" root="men" sense="men" wh="nwh"/>
+      <node id="5" pos="noun" rel="pobj1" root="het" sense="het" special="het"/>
+      <node aform="base" id="6" infl="no_e" pos="adj" rel="predc" root="ondemocratisch" sc="subject_vp" sense="ondemocratisch" vform="adj"/>
+      <node cat="ti" id="7" rel="vc">
+        <node id="8" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+        <node cat="inf" id="9" rel="body">
+          <node cat="cp" id="10" rel="predm">
+            <node id="11" pos="comp" rel="cmp" root="als" sc="als" sense="als"/>
+            <node cat="np" id="12" rel="body">
+              <node aform="super" id="13" infl="e" pos="adj" rel="mod" root="groot" sense="groot" vform="adj"/>
+              <node gen="de" id="14" num="sg" pos="noun" rel="hd" root="partij" sense="partij"/>
+            </node>
+          </node>
+          <node cat="ppart" id="15" rel="vc">
+            <node cat="pp" id="16" rel="ld">
+              <node id="17" pos="prep" rel="hd" root="buiten" sense="buiten"/>
+              <node cat="np" id="18" rel="obj1">
+                <node id="19" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                <node gen="de" id="20" num="sg" pos="noun" rel="hd" root="regering" sense="regering"/>
+              </node>
+            </node>
+            <node id="21" infl="psp" pos="verb" rel="hd" root="houd" sc="np_ld_pp" sense="houd"/>
+          </node>
+          <node id="22" infl="inf" pos="verb" rel="hd" root="word" sc="passive" sense="word"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

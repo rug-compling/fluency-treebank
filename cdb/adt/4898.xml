@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="predc">
+        <node id="3" pos="prep" rel="hd" root="van" sense="van"/>
+        <node cat="np" id="4" rel="obj1">
+          <node cat="ap" id="5" rel="mod">
+            <node aform="base" id="6" infl="no_e" pos="adj" rel="mod" root="geheel" sense="geheel" vform="adj"/>
+            <node aform="compar" id="7" infl="e" pos="adj" rel="hd" root="ander" sense="ander" vform="adj"/>
+          </node>
+          <node gen="de" id="8" num="sg" pos="noun" rel="hd" root="aard" sc="pred_pp(van)" sense="aard"/>
+        </node>
+      </node>
+      <node id="9" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+      <node cat="np" id="10" rel="su">
+        <node id="11" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="het" id="12" num="sg" pos="noun" rel="hd" root="boek_DIM" sense="boek_DIM"/>
+        <node cat="rel" id="13" rel="mod">
+          <node case="no_obl" gen="het" id="14" index="1" pos="pron" rel="rhd" root="dat" sense="dat" wh="rel"/>
+          <node cat="ssub" id="15" rel="body">
+            <node id="16" index="1" rel="obj1"/>
+            <node id="17" neclass="ORG" num="both" pos="name" rel="su" root="Jonckheere" sense="Jonckheere"/>
+            <node cat="ap" id="18" rel="mod">
+              <node id="19" pos="adv" rel="mod" root="vrijwel" sense="vrijwel"/>
+              <node aform="base" id="20" infl="no_e" pos="adj" rel="hd" root="gelijktijdig" sense="gelijktijdig" vform="adj"/>
+            </node>
+            <node cat="cp" id="21" rel="predm">
+              <node id="22" pos="comp" rel="cmp" root="als" sc="als" sense="als"/>
+              <node id="23" neclass="PER" num="both" pos="name" rel="body" root="Marnixpocket" sense="Marnixpocket"/>
+            </node>
+            <node id="24" infl="sg" pos="verb" rel="hd" root="laat" sc="aci" sense="laat" tense="past"/>
+            <node cat="inf" id="25" rel="vc">
+              <node id="26" index="1" rel="su"/>
+              <node id="27" infl="inf" pos="verb" rel="hd" root="verschijn" sc="intransitive" sense="verschijn"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

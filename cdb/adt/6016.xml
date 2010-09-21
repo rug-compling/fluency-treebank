@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="smain" id="2" rel="cnj">
+        <node id="3" index="1" neclass="LOC" num="both" pos="name" rel="su" root="Menzel" sense="Menzel"/>
+        <node id="4" infl="sg" pos="verb" rel="hd" root="wil" sc="modifier(aux(inf))" sense="wil" tense="past"/>
+        <node cat="inf" id="5" rel="vc">
+          <node id="6" index="1" rel="su"/>
+          <node cat="np" id="7" rel="obj1">
+            <node id="8" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="9" num="sg" pos="noun" rel="hd" root="rol" sense="rol"/>
+          </node>
+          <node aform="base" id="10" infl="pred" pos="adj" rel="mod" root="wel" sense="wel" vform="adj"/>
+          <node id="11" infl="inf" pos="verb" rel="hd" root="speel" sc="transitive" sense="speel"/>
+        </node>
+      </node>
+      <node id="12" pos="vg" rel="crd" root="maar" sense="maar"/>
+      <node cat="smain" id="13" rel="cnj">
+        <node cat="np" id="14" rel="su">
+          <node id="15" infl="pron" pos="det" rel="det" root="zijn" sense="zijn"/>
+          <node gen="het" id="16" num="sg" pos="noun" rel="hd" root="Duits" sense="Duits"/>
+        </node>
+        <node id="17" infl="sg" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="past"/>
+        <node id="18" pos="adv" rel="mod" root="niet" sense="niet"/>
+        <node cat="ap" id="19" rel="predc">
+          <node id="20" pos="adv" rel="mod" root="zo" sense="zo"/>
+          <node aform="super" id="21" infl="no_e" pos="adj" rel="hd" root="goed" sense="goed" vform="adj"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

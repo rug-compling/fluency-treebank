@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="mod">
+        <node id="3" pos="prep" rel="hd" root="bij" sense="bij"/>
+        <node cat="np" id="4" rel="obj1">
+          <node id="5" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node id="6" infl="pl_num" pos="det" rel="det" root="beide" sense="beide" special="adj_number"/>
+          <node gen="de" id="7" num="pl" pos="noun" rel="hd" root="bom_aanslag" sense="bom_aanslag"/>
+        </node>
+      </node>
+      <node id="8" infl="sg" pos="verb" rel="hd" root="loop_op" sc="part_transitive(op)" sense="loop_op" tense="past"/>
+      <node case="both" def="indef" gen="de" id="9" num="sg" per="thi" pos="pron" rel="su" root="niemand" sense="niemand" special="strpro" wh="nwh"/>
+      <node cat="np" id="10" rel="obj1">
+        <node id="11" infl="welk" pos="det" rel="det" root="enig" sense="enig"/>
+        <node aform="base" id="12" infl="no_e" pos="adj" rel="mod" root="persoonlijk" sense="persoonlijk" vform="adj"/>
+        <node gen="het" id="13" num="sg" pos="noun" rel="hd" root="letsel" sense="letsel"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

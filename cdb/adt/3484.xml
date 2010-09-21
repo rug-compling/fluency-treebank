@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="sv1" id="2" rel="cnj">
+        <node id="3" infl="sg" pos="verb" rel="hd" root="vraag" sc="transitive" sense="vraag" tense="past"/>
+        <node case="both" def="def" gen="de" id="4" num="both" per="thi" pos="pron" rel="su" root="ze" sense="ze" special="wkpro" wh="nwh"/>
+        <node gen="het" id="5" num="pl" pos="noun" rel="obj1" root="advies" sense="advies"/>
+      </node>
+      <node id="6" pos="vg" rel="crd" root="of" sense="of"/>
+      <node cat="sv1" id="7" rel="cnj">
+        <node id="8" infl="sg" pos="verb" rel="hd" root="sloop" sc="transitive" sense="sloop" tense="past"/>
+        <node case="both" def="def" gen="de" id="9" num="both" per="thi" pos="pron" rel="su" root="ze" sense="ze" special="wkpro" wh="nwh"/>
+        <node cat="np" id="10" rel="obj1">
+          <node cat="whrel" id="11" rel="predc">
+            <node case="both" def="indef" gen="het" id="12" index="1" num="sg" per="thi" pos="pron" rel="rhd" root="wat" sense="wat" special="nparg" wh="ywh"/>
+            <node cat="conj" id="13" rel="body">
+              <node cat="ssub" id="14" rel="cnj">
+                <node id="15" index="1" rel="su"/>
+                <node cat="ppart" id="16" index="2" rel="predc">
+                  <node id="17" pos="adv" rel="mod" root="maar" sense="maar"/>
+                  <node aform="base" id="18" infl="no_e" pos="adj" rel="hd" root="gesloopt" sense="gesloopt" vform="psp"/>
+                </node>
+                <node id="19" infl="sg" pos="verb" rel="hd" root="kan" sc="ap_copula" sense="kan" tense="past"/>
+              </node>
+              <node id="20" pos="vg" rel="crd" root="en" sense="en"/>
+              <node cat="ssub" id="21" rel="cnj">
+                <node id="22" index="1" rel="su"/>
+                <node id="23" index="2" rel="predc"/>
+                <node cat="pp" id="24" rel="mod">
+                  <node id="25" pos="prep" rel="hd" root="volgens" sense="volgens"/>
+                  <node case="dat_acc" def="def" gen="de" id="26" num="sg" per="thi" pos="pron" rel="obj1" root="haarzelf" sense="haarzelf" wh="nwh"/>
+                </node>
+                <node id="27" infl="sg" pos="verb" rel="hd" root="moet" sc="nonp_copula" sense="moet" tense="past"/>
+              </node>
+            </node>
+          </node>
+          <node id="28" pos="verb" rel="hd" root="word" sc="copula" sense="word" special="v_noun"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

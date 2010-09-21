@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg_heeft" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="present"/>
+      <node id="3" index="1" neclass="ORG" num="both" pos="name" rel="su" root="Eurotransplant" sense="Eurotransplant"/>
+      <node cat="ppart" id="4" rel="vc">
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="sinds" sense="sinds"/>
+          <node cat="np" id="7" rel="obj1">
+            <node id="8" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="9" num="sg" pos="noun" rel="hd" root="oprichting" sense="oprichting"/>
+            <node cat="ap" id="10" rel="mod">
+              <node cat="np" id="11" rel="me">
+                <node id="12" infl="pl_num" pos="num" rel="det" root="twee" sense="twee" special="hoofd"/>
+                <node gen="het" id="13" num="meas" pos="noun" rel="hd" root="jaar" sense="jaar" special="tmp"/>
+              </node>
+              <node id="14" pos="adj" rel="hd" root="geleden" sc="pred_np_me" sense="geleden"/>
+            </node>
+          </node>
+        </node>
+        <node id="15" index="1" rel="su"/>
+        <node cat="np" id="16" rel="obj1">
+          <node id="17" pos="adv" rel="mod" root="ongeveer" sc="noun_prep" sense="ongeveer"/>
+          <node id="18" infl="pl_num" pos="num" rel="det" root="250" sense="250" special="hoofd"/>
+          <node gen="de" id="19" num="pl" pos="noun" rel="hd" root="nier_transplantatie" sense="nier_transplantatie"/>
+        </node>
+        <node id="20" infl="psp" pos="verb" rel="hd" root="voer_uit" sc="part_transitive(uit)" sense="voer_uit"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

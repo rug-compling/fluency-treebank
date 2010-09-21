@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node gen="de" id="3" num="sg" pos="noun" rel="hd" root="professor" sense="professor"/>
+        <node id="4" neclass="PER" num="both" pos="name" rel="app" root="Verkuyl" sense="Verkuyl"/>
+      </node>
+      <node id="5" infl="sg3" pos="verb" rel="hd" root="stel" sc="fixed([[op,het,standpunt],refl,sbar],no_passive)" sense="zich-op-het-standpunt-stel" tense="present"/>
+      <node id="6" num="both" per="u_thi" pos="pron" refl="refl" rel="se" root="zich" sense="zich"/>
+      <node cat="mwu" id="7" mwu_root="op het standpunt" mwu_sense="op het standpunt" rel="svp">
+        <node id="8" pos="fixed" rel="mwp" root="op" sense="op"/>
+        <node id="9" pos="fixed" rel="mwp" root="het" sense="het"/>
+        <node id="10" pos="fixed" rel="mwp" root="standpunt" sense="standpunt"/>
+      </node>
+      <node cat="cp" id="11" rel="vc">
+        <node id="12" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+        <node cat="ssub" id="13" rel="body">
+          <node gen="de" id="14" num="sg" pos="noun" rel="su" root="corruptie" sense="corruptie"/>
+          <node id="15" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+          <node cat="np" id="16" rel="predc">
+            <node id="17" infl="een" pos="det" rel="det" root="een" sense="een"/>
+            <node aform="base" id="18" infl="no_e" pos="adj" rel="mod" root="onvermijdelijk" sense="onvermijdelijk" vform="adj"/>
+            <node gen="het" id="19" num="sg" pos="noun" rel="hd" root="bijverschijnsel" sense="bijverschijnsel"/>
+            <node cat="pp" id="20" rel="mod">
+              <node id="21" pos="prep" rel="hd" root="van" sense="van"/>
+              <node cat="np" id="22" rel="obj1">
+                <node aform="base" id="23" infl="no_e" pos="adj" rel="predc" root="onderontwikkeld" sense="onderontwikkeld" vform="adj"/>
+                <node id="24" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" special="v_noun"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

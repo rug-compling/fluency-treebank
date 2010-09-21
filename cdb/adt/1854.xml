@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node case="nom" def="def" gen="de" id="2" index="1" num="sg" per="fir" pos="pron" rel="su" root="ik" sense="ik" wh="nwh"/>
+      <node id="3" infl="modal_not_u" pos="verb" rel="hd" root="wil" sc="modifier(aux(inf))" sense="wil" tense="present"/>
+      <node cat="inf" id="4" rel="vc">
+        <node id="5" index="1" rel="su"/>
+        <node aform="base" id="6" infl="both" pos="adj" rel="mod" root="graag" sense="graag" vform="adj"/>
+        <node cat="np" id="7" rel="obj1">
+          <node id="8" infl="pron" pos="det" rel="det" root="mijn" sense="mijn"/>
+          <node aform="base" id="9" infl="both" pos="adj" rel="mod" root="eigen" sense="eigen" vform="adj"/>
+          <node gen="het" id="10" num="sg" pos="noun" rel="hd" root="tas_fabriek_DIM" sense="tas_fabriek_DIM"/>
+        </node>
+        <node id="11" infl="inf" pos="verb" rel="hd" root="begin" sc="transitive" sense="begin"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

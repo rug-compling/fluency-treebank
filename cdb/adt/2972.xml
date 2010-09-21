@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="np" id="1" rel="--">
+      <node aform="base" id="2" infl="e" pos="adj" rel="mod" root="Nederlands" sense="Nederlands" vform="adj"/>
+      <node cat="mwu" id="3" mwu_root="Science Fiction" mwu_sense="Science Fiction" rel="hd">
+        <node id="4" neclass="PER" num="both" pos="name" rel="mwp" root="Science" sense="Science"/>
+        <node id="5" neclass="PER" num="both" pos="name" rel="mwp" root="Fiction" sense="Fiction"/>
+      </node>
+      <node cat="pp" id="6" rel="mod">
+        <node id="7" pos="prep" rel="hd" root="van" sense="van"/>
+        <node cat="mwu" id="8" mwu_root="Mr. W. Bilderdijk" mwu_sense="Mr. W. Bilderdijk" rel="obj1">
+          <node id="9" neclass="PER" num="both" pos="name" rel="mwp" root="Mr." sense="Mr."/>
+          <node id="10" neclass="PER" num="both" pos="name" rel="mwp" root="W." sense="W."/>
+          <node id="11" neclass="PER" num="both" pos="name" rel="mwp" root="Bilderdijk" sense="Bilderdijk"/>
+        </node>
+      </node>
+      <node cat="pp" id="12" rel="mod">
+        <node id="13" pos="prep" rel="hd" root="tot" sense="tot"/>
+        <node cat="conj" id="14" rel="obj1">
+          <node cat="mwu" id="15" mwu_root="Harry Mulisch" mwu_sense="Harry Mulisch" rel="cnj">
+            <node id="16" neclass="PER" num="both" pos="name" rel="mwp" root="Harry" sense="Harry"/>
+            <node id="17" neclass="PER" num="both" pos="name" rel="mwp" root="Mulisch" sense="Mulisch"/>
+          </node>
+          <node id="18" pos="vg" rel="crd" root="en" sense="en"/>
+          <node cat="mwu" id="19" mwu_root="Raoul Chapkis" mwu_sense="Raoul Chapkis" rel="cnj">
+            <node id="20" neclass="PER" num="both" pos="name" rel="mwp" root="Raoul" sense="Raoul"/>
+            <node id="21" neclass="PER" num="both" pos="name" rel="mwp" root="Chapkis" sense="Chapkis"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="smain" id="2" rel="cnj">
+        <node cat="np" id="3" index="1" rel="su">
+          <node id="4" infl="geen" pos="det" rel="det" root="geen" sense="geen" wh="nwh"/>
+          <node gen="de" id="5" num="sg" pos="noun" rel="hd" root="flat_wijk" sense="flat_wijk"/>
+        </node>
+        <node id="6" infl="sg3" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="present"/>
+        <node cat="ppart" id="7" rel="vc">
+          <node id="8" index="1" rel="obj1"/>
+          <node id="9" infl="psp" pos="verb" rel="hd" root="bouw" sc="transitive" sense="bouw"/>
+        </node>
+      </node>
+      <node id="10" pos="vg" rel="crd" root="of" sense="of"/>
+      <node cat="smain" id="11" rel="cnj">
+        <node id="12" infl="sg3" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="present"/>
+        <node id="13" index="2" infl="het" pos="det" rel="su" root="het" sense="het" wh="nwh"/>
+        <node cat="ppart" id="14" rel="vc">
+          <node cat="pp" id="15" rel="mod">
+            <node id="16" pos="adv" rel="mod" root="direct" sc="comp_prep" sense="direct"/>
+            <node id="17" pos="prep" rel="hd" root="na" sense="na"/>
+            <node cat="np" id="18" rel="obj1">
+              <node gen="de" id="19" num="sg" pos="noun" rel="hd" root="oplevering" sense="oplevering"/>
+              <node cat="pp" id="20" rel="mod">
+                <node id="21" pos="prep" rel="hd" root="van" sense="van"/>
+                <node cat="np" id="22" rel="obj1">
+                  <node id="23" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+                  <node id="24" pos="num" rel="mod" root="eerste" sense="eerste" special="rang"/>
+                  <node gen="het" id="25" num="sg" pos="noun" rel="hd" root="huis" sense="huis"/>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node id="26" index="2" rel="obj1"/>
+          <node cat="cp" id="27" rel="mod">
+            <node id="28" pos="comp" rel="cmp" root="als" sc="als" sense="als"/>
+            <node aform="base" id="29" infl="both" pos="adj" rel="body" root="koop_model" sense="koop_model" vform="adj"/>
+          </node>
+          <node id="30" infl="psp" pos="verb" rel="hd" root="richt_in" sc="part_transitive(in)" sense="richt_in"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

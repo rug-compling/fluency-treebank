@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node id="2" infl="het" pos="det" rel="dp" root="dit" sense="dit" wh="nwh"/>
+      <node cat="oti" id="3" rel="dp">
+        <node id="4" pos="comp" rel="cmp" root="om" sc="om" sense="om"/>
+        <node cat="ti" id="5" rel="body">
+          <node id="6" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+          <node cat="inf" id="7" rel="body">
+            <node cat="np" id="8" rel="obj1">
+              <node id="9" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+              <node id="10" pos="verb" rel="hd" root="maak_over" sc="intransitive" sense="maak_over" special="v_noun"/>
+              <node cat="pp" id="11" rel="mod">
+                <node id="12" pos="prep" rel="hd" root="van" sense="van"/>
+                <node cat="np" id="13" rel="obj1">
+                  <node id="14" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                  <node gen="de" id="15" num="pl" pos="noun" rel="hd" root="premie" sense="premie"/>
+                </node>
+              </node>
+            </node>
+            <node id="16" infl="inf" pos="verb" rel="hd" root="vergemakkelijk" sc="transitive" sense="vergemakkelijk"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

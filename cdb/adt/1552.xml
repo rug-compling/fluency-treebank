@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="conj" id="2" index="1" rel="su">
+        <node id="3" neclass="ORG" num="both" pos="name" rel="cnj" root="Shell" sense="Shell"/>
+        <node id="4" pos="vg" rel="crd" root="en" sense="en"/>
+        <node id="5" neclass="PER" num="both" pos="name" rel="cnj" root="Bayer" sense="Bayer"/>
+      </node>
+      <node id="6" infl="pl" pos="verb" rel="hd" root="ga" sc="aux(inf)" sense="ga" tense="present"/>
+      <node cat="inf" id="7" rel="vc">
+        <node id="8" index="1" rel="su"/>
+        <node id="9" infl="inf" pos="verb" rel="hd" root="werk_samen" sc="part_intransitive(samen)" sense="werk_samen"/>
+        <node cat="ap" id="10" rel="mod">
+          <node cat="mwu" id="11" mwu_root="voor het eerst" mwu_sense="voor het eerst" rel="hd">
+            <node aform="base" id="12" infl="pred" pos="adj" rel="mwp" root="voor" sense="voor" vform="adj"/>
+            <node aform="base" id="13" infl="pred" pos="adj" rel="mwp" root="het" sense="het" vform="adj"/>
+            <node aform="base" id="14" infl="pred" pos="adj" rel="mwp" root="eerst" sense="eerst" vform="adj"/>
+          </node>
+          <node cat="pp" id="15" rel="mod">
+            <node id="16" pos="prep" rel="hd" root="in" sense="in"/>
+            <node cat="np" id="17" rel="obj1">
+              <node id="18" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node gen="de" id="19" num="sg" pos="noun" rel="hd" root="geschiedenis" sense="geschiedenis"/>
+              <node cat="pp" id="20" rel="mod">
+                <node id="21" pos="prep" rel="hd" root="van" sense="van"/>
+                <node cat="np" id="22" rel="obj1">
+                  <node id="23" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                  <node id="24" infl="pl_num" pos="num" rel="det" root="twee" sense="twee" special="hoofd"/>
+                  <node gen="het" id="25" num="pl" pos="noun" rel="hd" root="concern" sense="concern"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

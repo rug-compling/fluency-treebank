@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="smain" id="2" rel="nucl">
+        <node cat="np" id="3" index="1" rel="su">
+          <node id="4" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="5" num="sg" pos="noun" rel="hd" root="opbrengst" sense="opbrengst"/>
+        </node>
+        <node id="6" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="passive" sense="ben" tense="present"/>
+        <node cat="ppart" id="7" rel="vc">
+          <node id="8" index="1" rel="obj1"/>
+          <node cat="ap" id="9" rel="mod">
+            <node id="10" pos="adv" rel="mod" root="heel" sense="heel" special="intensifier"/>
+            <node aform="base" id="11" infl="no_e" pos="adj" rel="hd" root="normaal" sense="normaal" vform="adj"/>
+          </node>
+          <node cat="pp" id="12" rel="mod">
+            <node id="13" pos="prep" rel="hd" root="via" sense="via"/>
+            <node cat="np" id="14" rel="obj1">
+              <node id="15" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node gen="de" id="16" num="sg" pos="noun" rel="hd" root="afdeling" sc="app_measure" sense="afdeling"/>
+              <node gen="de" id="17" num="pl" pos="noun" rel="app" root="financiën" sense="financiën"/>
+            </node>
+          </node>
+          <node id="18" infl="psp" pos="verb" rel="hd" root="verantwoord" sc="transitive" sense="verantwoord"/>
+        </node>
+      </node>
+      <node cat="smain" id="19" rel="tag">
+        <node id="20" pos="adv" rel="vc" root="zo" sc="dip_sbar" sense="zo"/>
+        <node id="21" infl="sg3" pos="verb" rel="hd" root="verzeker" sc="sbar" sense="verzeker" tense="present"/>
+        <node cat="np" id="22" rel="su">
+          <node id="23" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="24" num="sg" pos="noun" rel="hd" root="gemeente_secretaris" sense="gemeente_secretaris"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

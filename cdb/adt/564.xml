@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="modal_inv" pos="verb" rel="hd" root="kan" sc="aux(inf)" sense="kan" tense="present"/>
+      <node case="both" def="def" gen="de" id="3" index="1" num="sg" per="je" pos="pron" rel="su" root="je" sense="je" special="wkpro" wh="nwh"/>
+      <node cat="inf" id="4" rel="vc">
+        <node cat="mwu" id="5" mwu_root="ten eerste" mwu_sense="ten eerste" rel="mod">
+          <node id="6" pos="adv" rel="mwp" root="ten" sense="ten"/>
+          <node id="7" pos="adv" rel="mwp" root="eerste" sense="eerste"/>
+        </node>
+        <node id="8" index="1" rel="su"/>
+        <node case="dat_acc" def="def" gen="de" id="9" num="sg" per="thi" pos="pron" rel="obj1" root="hem" sense="hem" special="wkpro" wh="nwh"/>
+        <node cat="mwu" id="10" mwu_root="uit de weg" mwu_sense="uit de weg" rel="svp">
+          <node id="11" pos="fixed" rel="mwp" root="uit" sense="uit"/>
+          <node id="12" pos="fixed" rel="mwp" root="de" sense="de"/>
+          <node id="13" pos="fixed" rel="mwp" root="weg" sense="weg"/>
+        </node>
+        <node id="14" infl="inf(no_e)" pos="verb" rel="hd" root="ga" sc="fixed([[uit,de,weg],acc],norm_passive)" sense="uit-de-weg-ga"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

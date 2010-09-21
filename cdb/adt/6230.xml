@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="relatie" sense="relatie"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="met" sense="met"/>
+          <node cat="np" id="7" rel="obj1">
+            <node aform="compar" id="8" infl="e" pos="adj" rel="mod" root="ander" sense="ander" vform="adj"/>
+            <node aform="base" id="9" infl="e" pos="adj" rel="mod" root="belangrijk" sense="belangrijk" vform="adj"/>
+            <node aform="base" id="10" infl="e" pos="adj" rel="mod" root="Nederlands" sense="Nederlands" vform="adj"/>
+            <node gen="de" id="11" num="pl" pos="noun" rel="hd" root="producent" sense="producent"/>
+            <node cat="pp" id="12" rel="mod">
+              <node id="13" pos="prep" rel="hd" root="van" sense="van"/>
+              <node gen="de" id="14" num="pl" pos="noun" rel="obj1" root="vlees_conserven" sense="vlees_conserven"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="15" infl="modal_not_u" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="present"/>
+      <node cat="inf" id="16" rel="vc">
+        <node id="17" index="1" rel="su"/>
+        <node id="18" infl="inf" pos="verb" rel="hd" root="word" sc="passive" sense="word"/>
+        <node cat="ppart" id="19" rel="vc">
+          <node id="20" index="1" rel="obj1"/>
+          <node id="21" pos="adv" rel="mod" root="nog" sense="nog"/>
+          <node id="22" infl="psp" pos="verb" rel="hd" root="breid_uit" sc="part_transitive(uit)" sense="breid_uit"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

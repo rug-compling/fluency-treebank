@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="obj1">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="kern" sense="kern"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="7" rel="obj1">
+            <node id="8" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="9" num="sg" pos="noun" rel="hd" root="crisis" sense="crisis"/>
+          </node>
+        </node>
+      </node>
+      <node id="10" infl="sg3" pos="verb" rel="hd" root="noem" sc="pred_np" sense="noem" tense="present"/>
+      <node case="nom" def="def" gen="de" id="11" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+      <node cat="mwu" id="12" mwu_root="intra_elite_rivaliteit" mwu_sense="intra_elite_rivaliteit" rel="predc">
+        <node gen="de" id="13" num="sg" pos="noun" rel="mwp" root="intra-elite" sense="intra-elite"/>
+        <node gen="de" id="14" num="sg" pos="noun" rel="mwp" root="rivaliteit" sense="rivaliteit"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

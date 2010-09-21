@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node id="2" pos="comp" rel="dlink" root="en" sc="root" sense="en"/>
+      <node cat="smain" id="3" rel="nucl">
+        <node id="4" pos="pp" rel="pc" root="daarmee" sense="daarmee" special="er"/>
+        <node id="5" infl="sg3" pos="verb" rel="hd" root="bedoel" sc="np_pc_pp(met)" sense="bedoel-met" tense="present"/>
+        <node cat="np" id="6" rel="su">
+          <node id="7" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node id="8" neclass="ORG" num="both" pos="name" rel="hd" root="VARA" sense="VARA"/>
+        </node>
+        <node aform="base" id="9" infl="no_e" pos="adj" rel="mod" root="eigenlijk" sense="eigenlijk" vform="adj"/>
+        <node cat="np" id="10" rel="obj1">
+          <node case="both" def="indef" gen="het" id="11" num="sg" per="thi" pos="pron" rel="hd" root="zoiets" sense="zoiets" special="strpro" wh="nwh"/>
+          <node cat="cp" id="12" rel="mod">
+            <node id="13" pos="comp" rel="cmp" root="als" sc="als" sense="als"/>
+            <node cat="conj" id="14" rel="body">
+              <node gen="de" id="15" num="sg" pos="noun" rel="cnj" root="cultuur" sense="cultuur"/>
+              <node id="16" pos="vg" rel="crd" root="en" sense="en"/>
+              <node cat="np" id="17" rel="cnj">
+                <node gen="both" id="18" num="sg" pos="noun" rel="predc" root="mens" sense="mens"/>
+                <node id="19" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" special="v_noun"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node case="nom" def="def" gen="de" id="2" num="sg" per="thi" pos="pron" rel="su" root="men" sense="men" wh="nwh"/>
+      <node id="3" infl="sg3" pos="verb" rel="hd" root="vrees" sc="sbar" sense="vrees" tense="present"/>
+      <node cat="cp" id="4" rel="vc">
+        <node id="5" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+        <node cat="ssub" id="6" rel="body">
+          <node cat="np" id="7" index="1" rel="su">
+            <node id="8" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node aform="compar" id="9" infl="e" pos="adj" rel="hd" root="ander" sense="ander" vform="adj"/>
+          </node>
+          <node id="10" infl="pl" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="present"/>
+          <node cat="inf" id="11" rel="vc">
+            <node cat="cp" id="12" rel="mod">
+              <node id="13" pos="comp" rel="cmp" root="als" sc="als" sense="als"/>
+              <node cat="ssub" id="14" rel="body">
+                <node cat="np" id="15" index="2" rel="su">
+                  <node id="16" infl="een" pos="det" rel="det" root="een" sense="een"/>
+                  <node aform="base" id="17" infl="e" pos="adj" rel="mod" root="Europees" sense="Europees" vform="adj"/>
+                  <node gen="de" id="18" num="sg" pos="noun" rel="hd" root="instelling" sense="instelling"/>
+                </node>
+                <node id="19" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" tense="present"/>
+                <node cat="ppart" id="20" rel="vc">
+                  <node id="21" index="2" rel="su"/>
+                  <node gen="both" id="22" num="sg" pos="noun" rel="mod" root="eenmaal" sense="eenmaal" special="tmp"/>
+                  <node cat="pp" id="23" rel="ld">
+                    <node id="24" pos="prep" rel="hd" root="in" sense="in"/>
+                    <node id="25" neclass="LOC" num="both" pos="name" rel="obj1" root="Parijs" sense="Parijs"/>
+                  </node>
+                  <node id="26" infl="psp" pos="verb" rel="hd" root="kom_terecht" sc="part_ld_pp(terecht)" sense="kom_terecht"/>
+                </node>
+              </node>
+            </node>
+            <node id="27" index="1" rel="su"/>
+            <node id="28" pos="adv" rel="mod" root="misschien" sense="misschien" special="sentence"/>
+            <node id="29" infl="inf" pos="verb" rel="hd" root="volg" sc="intransitive" sense="volg"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="mod">
+        <node aform="base" id="3" infl="no_e" pos="adj" rel="mod" root="vorig" sense="vorig" vform="adj"/>
+        <node gen="het" id="4" num="sg" pos="noun" rel="hd" root="weekend" sense="weekend" special="tmp"/>
+      </node>
+      <node id="5" infl="sg" pos="verb" rel="hd" root="kom_over" sc="part_ld_pp(over)" sense="kom_over" tense="past"/>
+      <node case="nom" def="def" gen="de" id="6" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+      <node aform="base" id="7" infl="both" pos="adj" rel="mod" root="even" sense="even" vform="adj"/>
+      <node cat="pp" id="8" rel="ld">
+        <node id="9" pos="prep" rel="hd" root="naar" sense="naar"/>
+        <node id="10" neclass="LOC" num="both" pos="name" rel="obj1" root="Engeland" sense="Engeland"/>
+      </node>
+      <node cat="pp" id="11" rel="mod">
+        <node id="12" pos="prep" rel="hd" root="voor" sense="voor"/>
+        <node cat="np" id="13" rel="obj1">
+          <node id="14" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node aform="base" id="15" infl="no_e" pos="adj" rel="mod" root="zeldzaam" sense="zeldzaam" vform="adj"/>
+          <node gen="het" id="16" num="sg" pos="noun" rel="hd" root="optreden" sense="optreden"/>
+        </node>
+      </node>
+      <node cat="pp" id="17" rel="mod">
+        <node id="18" pos="prep" rel="hd" root="in" sense="in"/>
+        <node cat="np" id="19" rel="obj1">
+          <node id="20" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+          <node gen="het" id="21" num="sg" pos="noun" rel="hd" root="openbaar" sense="openbaar"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

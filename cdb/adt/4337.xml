@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="het" id="4" num="sg" pos="noun" rel="hd" root="signalement" sense="signalement"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="mwu" id="7" mwu_root="Gerhard Schutte" mwu_sense="Gerhard Schutte" rel="obj1">
+            <node id="8" neclass="PER" num="both" pos="name" rel="mwp" root="Gerhard" sense="Gerhard"/>
+            <node id="9" neclass="PER" num="both" pos="name" rel="mwp" root="Schutte" sense="Schutte"/>
+          </node>
+        </node>
+      </node>
+      <node id="10" infl="sg3" pos="verb" rel="hd" root="luid" sc="intransitive" sense="luid" tense="present"/>
+    </node>
+  </node>
+</alpino_adt>

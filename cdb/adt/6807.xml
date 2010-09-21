@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" pos="adv" rel="mod" root="er" sense="er" special="er"/>
+      <node id="3" infl="pl" pos="verb" rel="hd" root="ben" sc="intransitive" sense="ben" tense="present"/>
+      <node cat="np" id="4" rel="su">
+        <node cat="detp" id="5" rel="det">
+          <node id="6" pos="adv" rel="mod" root="heel" sense="heel" special="intensifier"/>
+          <node id="7" infl="wat" pos="det" rel="hd" root="wat" sense="wat" wh="nwh"/>
+        </node>
+        <node gen="both" id="8" num="pl" pos="noun" rel="hd" root="mens" sense="mens"/>
+        <node cat="rel" id="9" rel="mod">
+          <node case="no_obl" gen="de" id="10" index="1" pos="pron" rel="rhd" root="die" sense="die" wh="rel"/>
+          <node cat="ssub" id="11" rel="body">
+            <node id="12" index="1" rel="su"/>
+            <node cat="advp" id="13" rel="mod">
+              <node id="14" pos="adv" rel="hd" root="niet" sense="niet"/>
+              <node id="15" pos="adv" rel="mod" root="eens" sense="eens"/>
+            </node>
+            <node gen="de" id="16" num="sg" pos="noun" rel="obj1" root="zin" sense="zin"/>
+            <node id="17" infl="pl" pos="verb" rel="hd" root="heb" sc="fixed([er_pp(in,_827),acc(zin),extra_vp(_827)],no_passive)" sense="zin-heb-in" tense="present"/>
+            <node cat="pp" id="18" rel="pc">
+              <node id="19" pos="adv" rel="pobj1" root="er" sense="er" special="er"/>
+              <node id="20" pos="prep" rel="hd" root="in" sense="in"/>
+              <node cat="ti" id="21" rel="vc">
+                <node id="22" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+                <node cat="inf" id="23" rel="body">
+                  <node id="24" index="1" rel="su"/>
+                  <node id="25" num="both" per="u_thi" pos="pron" refl="refl" rel="se" root="zich" sense="zich"/>
+                  <node id="26" infl="inf" pos="verb" rel="hd" root="beklaag" sc="refl" sense="zich-beklaag"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

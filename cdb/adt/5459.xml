@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="np" id="1" rel="--">
+      <node id="2" infl="een" pos="det" rel="det" root="een" sense="een"/>
+      <node cat="ppres" id="3" rel="mod">
+        <node id="4" pos="adv" rel="mod" root="altijd" sense="altijd" special="sentence"/>
+        <node aform="base" id="5" infl="e" pos="adj" rel="hd" root="munt_uit" sense="munt_uit" vform="gerund"/>
+      </node>
+      <node gen="de" id="6" num="sg" pos="noun" rel="hd" root="bezetting" sense="bezetting"/>
+      <node cat="pp" id="7" rel="mod">
+        <node id="8" pos="prep" rel="hd" root="met" sense="met"/>
+        <node cat="np" id="9" rel="obj1">
+          <node aform="base" id="10" infl="e" pos="adj" rel="mod" root="interessant" sense="interessant" vform="adj"/>
+          <node gen="de" id="11" num="pl" pos="noun" rel="hd" root="gast_acteur" sense="gast_acteur"/>
+        </node>
+      </node>
+      <node cat="np" id="12" rel="app">
+        <node gen="both" id="13" num="both" pos="noun" rel="hd" root="zoaals" sense="zoaals"/>
+        <node cat="np" id="14" rel="mod">
+          <node id="15" infl="het" pos="det" rel="det" root="dit" sense="dit" wh="nwh"/>
+          <node gen="de" id="16" num="meas" pos="noun" rel="hd" root="keer" sense="keer" special="tmp"/>
+        </node>
+        <node cat="mwu" id="17" mwu_root="Richard Conte" mwu_sense="Richard Conte" rel="app">
+          <node id="18" neclass="PER" num="both" pos="name" rel="mwp" root="Richard" sense="Richard"/>
+          <node id="19" neclass="PER" num="both" pos="name" rel="mwp" root="Conte" sense="Conte"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

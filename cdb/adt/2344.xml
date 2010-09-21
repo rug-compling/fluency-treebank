@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="oti" id="2" rel="mod">
+        <node id="3" pos="comp" rel="cmp" root="om" sc="om" sense="om"/>
+        <node cat="ti" id="4" rel="body">
+          <node id="5" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+          <node cat="inf" id="6" rel="body">
+            <node id="7" infl="inf" pos="verb" rel="hd" root="kan" sc="aux(inf)" sense="kan"/>
+            <node cat="inf" id="8" rel="vc">
+              <node case="both" def="indef" gen="het" id="9" num="sg" per="thi" pos="pron" rel="obj1" root="zoiets" sense="zoiets" special="strpro" wh="nwh"/>
+              <node id="10" infl="inf" pos="verb" rel="hd" root="bereik" sc="transitive" sense="bereik"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="11" infl="sg3" pos="verb" rel="hd" root="zoek" sc="pc_pp(naar)" sense="zoek-naar" tense="present"/>
+      <node id="12" neclass="PER" num="both" pos="name" rel="su" root="Bonies" sense="Bonies"/>
+      <node cat="pp" id="13" rel="pc">
+        <node id="14" pos="prep" rel="hd" root="naar" sense="naar"/>
+        <node cat="np" id="15" rel="obj1">
+          <node id="16" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node aform="base" id="17" infl="e" pos="adj" rel="mod" root="nieuw" sense="nieuw" vform="adj"/>
+          <node gen="de" id="18" num="sg" pos="noun" rel="hd" root="vorm" sense="vorm"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

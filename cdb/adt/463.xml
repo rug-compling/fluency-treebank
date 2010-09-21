@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="mwu" id="2" mwu_root="Mie Nakao" mwu_sense="Mie Nakao" rel="su">
+        <node id="3" neclass="PER" num="both" pos="name" rel="mwp" root="Mie" sense="Mie"/>
+        <node id="4" neclass="PER" num="both" pos="name" rel="mwp" root="Nakao" sense="Nakao"/>
+      </node>
+      <node id="5" infl="sg3" pos="verb" rel="hd" root="zing" sc="transitive" sense="zing" tense="present"/>
+      <node cat="conj" id="6" rel="obj1">
+        <node id="7" pos="vg" rel="crd" root="zowel" sense="zowel" special="left"/>
+        <node gen="het" id="8" num="pl" pos="noun" rel="cnj" root="chanson" sense="chanson"/>
+        <node id="9" pos="vg" rel="crd" root="als" sense="als" special="right"/>
+        <node gen="both" id="10" num="both" pos="noun" rel="cnj" root="schlagers" sense="schlagers"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

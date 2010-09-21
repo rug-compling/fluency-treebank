@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="pp" id="2" rel="tag">
+        <node id="3" pos="prep" rel="hd" root="aldus" sense="aldus"/>
+        <node id="4" neclass="PER" num="both" pos="name" rel="obj1" root="Elle" sense="Elle"/>
+      </node>
+      <node cat="smain" id="5" rel="nucl">
+        <node id="6" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="passive" sense="ben" tense="present"/>
+        <node cat="np" id="7" index="1" rel="su">
+          <node id="8" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="9" num="sg" pos="noun" rel="hd" root="cursus" sense="cursus"/>
+        </node>
+        <node cat="conj" id="10" rel="vc">
+          <node id="11" pos="vg" rel="crd" root="en" sense="en"/>
+          <node cat="ppart" id="12" rel="cnj">
+            <node id="13" index="2" pos="adv" rel="mod" root="overigens" sense="overigens" special="sentence"/>
+            <node id="14" index="1" rel="obj1"/>
+            <node cat="pp" id="15" index="3" rel="mod">
+              <node id="16" pos="prep" rel="hd" root="in" sense="in"/>
+              <node cat="np" id="17" rel="obj1">
+                <node id="18" pos="num" rel="mod" root="eerste" sense="eerste" special="rang"/>
+                <node gen="de" id="19" num="sg" pos="noun" rel="hd" root="instantie" sense="instantie"/>
+              </node>
+            </node>
+            <node id="20" infl="psp" pos="verb" rel="hd" root="zet_op" sc="part_transitive(op)" sense="zet_op"/>
+            <node cat="pp" id="21" index="4" rel="mod">
+              <node id="22" pos="prep" rel="hd" root="voor" sense="voor"/>
+              <node gen="de" id="23" num="pl" pos="noun" rel="obj1" root="volwassene" sense="volwassene"/>
+            </node>
+          </node>
+          <node cat="ppart" id="24" rel="cnj">
+            <node id="25" index="2" rel="mod"/>
+            <node id="26" index="1" rel="obj1"/>
+            <node id="27" index="3" rel="mod"/>
+            <node id="28" infl="psp" pos="verb" rel="hd" root="bestem" sc="transitive" sense="bestem"/>
+            <node id="29" index="4" rel="mod"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

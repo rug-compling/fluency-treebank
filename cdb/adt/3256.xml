@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="pl" pos="verb" rel="hd" root="kan" sc="aux(inf)" sense="kan" tense="present"/>
+      <node cat="np" id="3" index="1" rel="su">
+        <node id="4" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="het" id="5" num="pl" pos="noun" rel="hd" root="vakbond_lid" sense="vakbond_lid"/>
+      </node>
+      <node id="6" pos="adv" rel="predm" root="zelf" sense="zelf" special="predm"/>
+      <node cat="inf" id="7" rel="vc">
+        <node cat="pp" id="8" rel="mod">
+          <node cat="mwu" id="9" mwu_root="aan de hand van" mwu_sense="aan de hand van" rel="hd">
+            <node id="10" pos="prep" rel="mwp" root="aan" sense="aan"/>
+            <node id="11" pos="prep" rel="mwp" root="de" sense="de"/>
+            <node id="12" pos="prep" rel="mwp" root="hand" sense="hand"/>
+            <node id="13" pos="prep" rel="mwp" root="van" sense="van"/>
+          </node>
+          <node cat="np" id="14" rel="obj1">
+            <node id="15" infl="de" pos="det" rel="det" root="die" sense="die" wh="nwh"/>
+            <node gen="de" id="16" num="sg" pos="noun" rel="hd" root="informatie" sense="informatie"/>
+          </node>
+        </node>
+        <node id="17" index="1" rel="su"/>
+        <node cat="pp" id="18" rel="mod">
+          <node id="19" pos="prep" rel="hd" root="volgens" sense="volgens"/>
+          <node cat="mwu" id="20" mwu_root="De Graaf" mwu_sense="De Graaf" rel="obj1">
+            <node id="21" neclass="PER" num="both" pos="name" rel="mwp" root="De" sense="De"/>
+            <node id="22" neclass="PER" num="both" pos="name" rel="mwp" root="Graaf" sense="Graaf"/>
+          </node>
+        </node>
+        <node cat="np" id="23" rel="obj1">
+          <node id="24" infl="pron" pos="det" rel="det" root="hun" sense="hun"/>
+          <node gen="de" id="25" num="sg" pos="noun" rel="hd" root="partij_keuze" sense="partij_keuze"/>
+        </node>
+        <node id="26" infl="inf" pos="verb" rel="hd" root="bepaal" sc="transitive" sense="bepaal"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

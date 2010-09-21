@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" neclass="ORG" num="both" pos="name" rel="su" root="Everton" sense="Everton"/>
+      <node id="3" infl="sg_heeft" pos="verb" rel="hd" root="heb" sc="transitive_ndev" sense="heb" tense="present"/>
+      <node id="4" pos="adv" rel="mod" root="thans" sense="thans"/>
+      <node cat="np" id="5" rel="mod">
+        <node id="6" infl="pl_num" pos="num" rel="det" root="26" sense="26" special="hoofd"/>
+        <node gen="both" id="7" num="pl" pos="noun" rel="hd" root="punt" sense="punt" special="meas_mod"/>
+        <node cat="pp" id="8" rel="mod">
+          <node id="9" pos="prep" rel="hd" root="tegen" sense="tegen"/>
+          <node cat="conj" id="10" rel="obj1">
+            <node id="11" neclass="PER" num="both" pos="name" rel="cnj" root="Derby" sense="Derby"/>
+            <node id="12" pos="vg" rel="crd" root="en" sense="en"/>
+            <node id="13" neclass="LOC" num="both" pos="name" rel="cnj" root="Liverpool" sense="Liverpool"/>
+          </node>
+        </node>
+      </node>
+      <node id="14" pos="adv" rel="predm" root="elk" sense="elk" special="predm"/>
+      <node id="15" infl="pl_num" pos="num" rel="obj1" root="21" sense="21" special="hoofd"/>
+    </node>
+  </node>
+</alpino_adt>

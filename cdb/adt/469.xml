@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="vrouw" sense="vrouw"/>
+      </node>
+      <node id="5" infl="sg3" pos="verb" rel="hd" root="vind" sc="transitive_ndev_ndev" sense="vind" tense="present"/>
+      <node cat="pp" id="6" rel="mod">
+        <node id="7" pos="prep" rel="hd" root="bij" sense="bij"/>
+        <node case="dat_acc" def="def" gen="de" id="8" num="sg" per="thi" pos="pron" rel="obj1" root="hem" sense="hem" wh="nwh"/>
+      </node>
+      <node cat="np" id="9" rel="obj1">
+        <node gen="both" id="10" num="both" pos="noun" rel="hd" root="couture" sense="couture"/>
+        <node cat="rel" id="11" rel="mod">
+          <node case="no_obl" gen="de" id="12" index="1" pos="pron" rel="rhd" root="die" sense="die" wh="rel"/>
+          <node cat="ssub" id="13" rel="body">
+            <node id="14" index="1" rel="su"/>
+            <node gen="de" id="15" num="sg" pos="noun" rel="obj2" root="haar" sense="haar"/>
+            <node cat="mwu" id="16" mwu_root="prettig" mwu_sense="prettig" rel="predc">
+              <node aform="super" id="17" infl="pred" pos="adj" rel="mwp" root="het" sense="het" vform="adj"/>
+              <node aform="super" id="18" infl="pred" pos="adj" rel="mwp" root="prettigst" sense="prettigst" vform="adj"/>
+            </node>
+            <node id="19" infl="sg" pos="verb" rel="hd" root="zit" sc="so_nonp_copula" sense="zit" tense="present"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

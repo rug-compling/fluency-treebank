@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="ap" id="2" rel="mod">
+        <node id="3" pos="adv" rel="mod" root="al" sense="al"/>
+        <node cat="np" id="4" rel="me">
+          <node id="5" infl="pl_num" pos="num" rel="det" root="dertien" sense="dertien" special="hoofd"/>
+          <node gen="de" id="6" num="pl" pos="noun" rel="hd" root="eeuw" sense="eeuw" special="tmp"/>
+        </node>
+        <node aform="base" id="7" infl="no_e" pos="adj" rel="hd" root="lang" sc="np_me" sense="lang" vform="adj"/>
+      </node>
+      <node id="8" infl="pl" pos="verb" rel="hd" root="zit" sc="ld_pp" sense="zit" tense="present"/>
+      <node case="nom" def="def" gen="de" id="9" num="both" per="thi" pos="pron" rel="su" root="zij" sense="zij" wh="nwh"/>
+      <node cat="pp" id="10" rel="ld">
+        <node id="11" pos="prep" rel="hd" root="in" sense="in"/>
+        <node cat="np" id="12" rel="obj1">
+          <node id="13" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="14" num="sg" pos="noun" rel="hd" root="verdrukking" sense="verdrukking"/>
+          <node cat="oti" id="15" rel="mod">
+            <node id="16" pos="comp" rel="cmp" root="om" sc="om" sense="om"/>
+            <node cat="ti" id="17" rel="body">
+              <node id="18" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+              <node cat="inf" id="19" rel="body">
+                <node cat="np" id="20" rel="obj1">
+                  <node id="21" infl="pron" pos="det" rel="det" root="hun" sense="hun"/>
+                  <node aform="base" id="22" infl="no_e" pos="adj" rel="mod" root="nationaal" sense="nationaal" vform="adj"/>
+                  <node gen="het" id="23" num="sg" pos="noun" rel="hd" root="bestaan" sense="bestaan"/>
+                </node>
+                <node id="24" pos="fixed" rel="svp" root="overeind" sense="overeind"/>
+                <node id="25" infl="inf" pos="verb" rel="hd" root="houd" sc="fixed([[overeind],acc],norm_passive)" sense="overeind-houd"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

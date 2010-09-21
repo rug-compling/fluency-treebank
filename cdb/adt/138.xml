@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node aform="compar" id="2" infl="no_e" pos="adj" rel="mod" root="laat" sense="laat" vform="adj"/>
+      <node id="3" infl="pl" pos="verb" rel="hd" root="ga" sc="ld_dir" sense="ga" tense="past"/>
+      <node cat="np" id="4" rel="su">
+        <node id="5" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="6" num="pl" pos="noun" rel="hd" root="prijs" sense="prijs"/>
+      </node>
+      <node cat="pp" id="7" rel="mod">
+        <node id="8" pos="adv" rel="mod" root="mede" sc="comp_prep_verb" sense="mede"/>
+        <node cat="mwu" id="9" mwu_root="als gevolg van" mwu_sense="als gevolg van" rel="hd">
+          <node id="10" pos="prep" rel="mwp" root="als" sense="als"/>
+          <node id="11" pos="prep" rel="mwp" root="gevolg" sense="gevolg"/>
+          <node id="12" pos="prep" rel="mwp" root="van" sense="van"/>
+        </node>
+        <node gen="de" id="13" num="pl" pos="noun" rel="obj1" root="winstneming" sense="winstneming"/>
+      </node>
+      <node id="14" pos="adv" rel="mod" root="wat" sense="wat"/>
+      <node id="15" pos="adv" rel="ld" root="achteruit" sense="achteruit" special="dir"/>
+      <node cat="pp" id="16" rel="mod">
+        <node id="17" pos="prep" rel="hd" root="tot" sense="tot"/>
+        <node cat="conj" id="18" rel="obj1">
+          <node id="19" pos="vg" rel="crd" root="respectievelijk" sense="respectievelijk" special="left"/>
+          <node id="20" infl="pl_num" pos="num" rel="cnj" root="101" sense="101" special="hoofd"/>
+          <node id="21" pos="vg" rel="crd" root="en" sense="en"/>
+          <node id="22" infl="both" pos="num" rel="cnj" root="98,60" sense="98,60" special="hoofd"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="smain" id="2" rel="cnj">
+        <node case="nom" def="def" gen="de" id="3" index="1" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+        <node id="4" index="2" infl="sg_heeft" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="present"/>
+        <node cat="ppart" id="5" rel="vc">
+          <node id="6" index="1" rel="su"/>
+          <node cat="np" id="7" rel="obj1">
+            <node id="8" infl="pron" pos="det" rel="det" root="zijn" sense="zijn"/>
+            <node gen="de" id="9" num="sg" pos="noun" rel="hd" root="woning" sense="woning"/>
+          </node>
+          <node cat="np" id="10" rel="mod">
+            <node id="11" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node aform="base" id="12" infl="both" pos="adj" rel="mod" root="afgelopen" sense="afgelopen" vform="psp"/>
+            <node gen="het" id="13" num="pl" pos="noun" rel="hd" root="jaar" sense="jaar" special="tmp"/>
+          </node>
+          <node cat="pp" id="14" rel="mod">
+            <node id="15" pos="prep" rel="hd" root="voor" sense="voor"/>
+            <node cat="np" id="16" rel="obj1">
+              <node id="17" pos="adv" rel="mod" root="ongeveer" sc="noun_prep" sense="ongeveer"/>
+              <node id="18" infl="pl_num" pos="num" rel="det" root="1500" sense="1500" special="hoofd"/>
+              <node gen="de" id="19" num="meas" pos="noun" rel="hd" root="gulden" sense="gulden" special="meas_mod"/>
+            </node>
+          </node>
+          <node id="20" infl="psp" pos="verb" rel="hd" root="knap_op" sc="part_transitive(op)" sense="knap_op"/>
+        </node>
+      </node>
+      <node id="21" pos="vg" rel="crd" root="en" sense="en"/>
+      <node cat="smain" id="22" rel="cnj">
+        <node id="23" index="1" rel="su"/>
+        <node id="24" index="2" rel="hd"/>
+        <node cat="ppart" id="25" rel="vc">
+          <node id="26" index="1" rel="su"/>
+          <node cat="np" id="27" rel="obj1">
+            <node aform="base" id="28" infl="e" pos="adj" rel="mod" root="veel" sense="veel" vform="adj"/>
+            <node gen="het" id="29" num="pl" pos="noun" rel="hd" root="arbeid_uur" sense="arbeid_uur" special="tmp"/>
+          </node>
+          <node cat="pp" id="30" rel="pc">
+            <node id="31" pos="adv" rel="obj1" root="er" sense="er" special="er"/>
+            <node id="32" pos="prep" rel="hd" root="aan" sense="aan"/>
+          </node>
+          <node id="33" infl="psp" pos="verb" rel="hd" root="besteed" sc="np_pc_pp(aan)" sense="besteed-aan"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

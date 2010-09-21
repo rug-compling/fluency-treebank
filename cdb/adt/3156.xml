@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" index="1" neclass="LOC" num="both" pos="name" rel="su" root="Achterberg" sense="Achterberg"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="past"/>
+      <node cat="ppart" id="4" rel="vc">
+        <node id="5" index="1" rel="su"/>
+        <node cat="mwu" id="6" mwu_root="Wim Kras" mwu_sense="Wim Kras" rel="obj1">
+          <node id="7" neclass="PER" num="both" pos="name" rel="mwp" root="Wim" sense="Wim"/>
+          <node id="8" neclass="PER" num="both" pos="name" rel="mwp" root="Kras" sense="Kras"/>
+        </node>
+        <node cat="pp" id="9" rel="mod">
+          <node id="10" pos="prep" rel="hd" root="op" sense="op"/>
+          <node cat="np" id="11" rel="obj1">
+            <node aform="base" id="12" infl="e" pos="adj" rel="mod" root="onreglementair" sense="onreglementair" vform="adj"/>
+            <node gen="de" id="13" num="sg" pos="noun" rel="hd" root="wijze" sense="wijze"/>
+          </node>
+        </node>
+        <node cat="mwu" id="14" mwu_root="ten val" mwu_sense="ten val" rel="svp">
+          <node id="15" pos="fixed" rel="mwp" root="ten" sense="ten"/>
+          <node id="16" pos="fixed" rel="mwp" root="val" sense="val"/>
+        </node>
+        <node id="17" infl="psp" pos="verb" rel="hd" root="breng" sc="fixed([[ten,val],acc],norm_passive)" sense="ten-val-breng"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

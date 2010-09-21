@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node cat="mwu" id="3" mwu_root="Mr. J. Pabon" mwu_sense="Mr. J. Pabon" rel="hd">
+          <node id="4" neclass="PER" num="both" pos="name" rel="mwp" root="Mr." sense="Mr."/>
+          <node id="5" neclass="PER" num="both" pos="name" rel="mwp" root="J." sense="J."/>
+          <node id="6" neclass="PER" num="both" pos="name" rel="mwp" root="Pabon" sense="Pabon"/>
+        </node>
+        <node cat="pp" id="7" rel="mod">
+          <node id="8" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="9" rel="obj1">
+            <node id="10" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+            <node id="11" neclass="ORG" num="both" pos="name" rel="hd" root="Directoraat" sense="Directoraat"/>
+            <node cat="pp" id="12" rel="mod">
+              <node id="13" pos="prep" rel="hd" root="voor" sense="voor"/>
+              <node cat="np" id="14" rel="obj1">
+                <node id="15" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                <node id="16" neclass="ORG" num="both" pos="name" rel="hd" root="Arbeidsvoorziening" sense="Arbeidsvoorziening"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="17" infl="sg" pos="verb" rel="hd" root="vertel" sc="np_np" sense="vertel" tense="past"/>
+      <node case="dat_acc" def="def" gen="de" id="18" num="sg" per="fir" pos="pron" rel="obj2" root="mij" sense="mij" wh="nwh"/>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node gen="de" id="3" num="sg" pos="noun" rel="hd" root="scheepvaart" sense="scheepvaart"/>
+        <node cat="pp" id="4" rel="mod">
+          <node id="5" pos="prep" rel="hd" root="op" sense="op"/>
+          <node cat="np" id="6" rel="obj1">
+            <node id="7" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+            <node id="8" neclass="LOC" num="both" pos="name" rel="hd" root="Ijsselmeer" sense="Ijsselmeer"/>
+          </node>
+        </node>
+      </node>
+      <node id="9" infl="sg3" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="present"/>
+      <node cat="ppart" id="10" rel="vc">
+        <node id="11" index="1" rel="obj1"/>
+        <node id="12" pos="adv" rel="mod" root="dan" sense="dan" special="tmp"/>
+        <node id="13" pos="adv" rel="mod" root="ook" sense="ook" special="sentence"/>
+        <node aform="base" id="14" infl="no_e" pos="adj" rel="mod" root="uitdrukkelijk" sense="uitdrukkelijk" vform="adj"/>
+        <node id="15" infl="psp" pos="verb" rel="hd" root="ontraad" sc="transitive" sense="ontraad"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

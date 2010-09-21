@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node id="2" pos="tag" rel="tag" root="he" sense="he"/>
+      <node cat="np" id="3" rel="nucl">
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="kijk" sense="kijk"/>
+        <node gen="de" id="5" num="pl" pos="noun" rel="app" root="aap" sense="aap"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

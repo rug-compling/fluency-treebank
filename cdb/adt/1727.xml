@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node gen="het" id="4" num="sg" pos="noun" rel="hd" root="orgaan" sense="orgaan"/>
+        <node cat="rel" id="5" rel="mod">
+          <node case="no_obl" gen="het" id="6" index="2" pos="pron" rel="rhd" root="dat" sense="dat" wh="rel"/>
+          <node cat="ssub" id="7" rel="body">
+            <node id="8" index="2" rel="su"/>
+            <node aform="base" id="9" infl="no_e" pos="adj" rel="predc" root="ongebruikt" sense="ongebruikt" vform="adj"/>
+            <node id="10" infl="sg3" pos="verb" rel="hd" root="blijf" sc="copula" sense="blijf" tense="present"/>
+          </node>
+        </node>
+      </node>
+      <node id="11" infl="sg3" pos="verb" rel="hd" root="loop" sc="fixed([acc(gevaar),vp],no_passive)" sense="gevaar-loop" tense="present"/>
+      <node gen="het" id="12" num="sg" pos="noun" rel="obj1" root="gevaar" sense="gevaar"/>
+      <node cat="ti" id="13" rel="vc">
+        <node id="14" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+        <node cat="inf" id="15" rel="body">
+          <node id="16" index="1" rel="su"/>
+          <node id="17" infl="inf" pos="verb" rel="hd" root="kwijn_weg" sc="part_intransitive(weg)" sense="kwijn_weg"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

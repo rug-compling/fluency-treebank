@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="cp" id="2" rel="mod">
+        <node id="3" pos="comp" rel="cmp" root="toen" sense="toen"/>
+        <node cat="ssub" id="4" rel="body">
+          <node cat="np" id="5" rel="su">
+            <node case="nom" def="def" gen="de" id="6" num="pl" per="fir" pos="pron" rel="hd" root="wij" sense="wij" wh="nwh"/>
+            <node id="7" pos="adv" rel="mod" root="drieen" sense="drieen" special="predm"/>
+          </node>
+          <node id="8" infl="pl" pos="verb" rel="hd" root="kom_binnen" sc="part_intransitive(binnen)" sense="kom_binnen" tense="past"/>
+        </node>
+      </node>
+      <node id="9" infl="pl" pos="verb" rel="hd" root="zit" sc="nonp_copula" sense="zit" tense="past"/>
+      <node id="10" pos="adv" rel="mod" root="er" sense="er" special="er"/>
+      <node id="11" pos="adv" rel="mod" root="reeds" sense="reeds"/>
+      <node cat="np" id="12" rel="su">
+        <node id="13" infl="pl_num" pos="num" rel="det" root="vijf" sense="vijf" special="hoofd"/>
+        <node gen="both" id="14" num="pl" pos="noun" rel="hd" root="mens" sense="mens"/>
+      </node>
+      <node cat="ppart" id="15" rel="predc">
+        <node cat="pp" id="16" rel="mod">
+          <node id="17" pos="prep" rel="hd" root="over" sense="over"/>
+          <node cat="np" id="18" rel="obj1">
+            <node aform="base" id="19" infl="e" pos="adj" rel="mod" root="schriftelijk" sense="schriftelijk" vform="adj"/>
+            <node gen="de" id="20" num="pl" pos="noun" rel="hd" root="test" sense="test"/>
+          </node>
+        </node>
+        <node aform="base" id="21" infl="both" pos="adj" rel="hd" root="gebogen" sense="gebogen" vform="psp"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

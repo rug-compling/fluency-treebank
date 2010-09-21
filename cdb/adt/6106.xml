@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node id="1" infl="sg1" pos="verb" rel="--" root="vraag" sc="transitive" sense="vraag" tense="present"/>
+  </node>
+</alpino_adt>

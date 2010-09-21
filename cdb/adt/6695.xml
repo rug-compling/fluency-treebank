@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="np" id="2" rel="cnj">
+        <node cat="np" id="3" rel="obj1">
+          <node id="4" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+          <node gen="het" id="5" num="sg" pos="noun" rel="hd" root="AR_programma" sense="AR_programma"/>
+        </node>
+        <node id="6" pos="verb" rel="hd" root="volg" sc="transitive" sense="volg" special="v_noun"/>
+      </node>
+      <node id="7" pos="vg" rel="crd" root="of" sense="of"/>
+      <node cat="np" id="8" rel="cnj">
+        <node id="9" num="both" per="u_thi" pos="pron" refl="refl" rel="se" root="zich" sense="zich"/>
+        <node aform="base" id="10" infl="no_e" pos="adj" rel="predc" root="loyaal" sense="loyaal" vform="adj"/>
+        <node id="11" pos="verb" rel="hd" root="stel_op" sc="nonp_pred_refl" sense="zich-stel_op" special="v_noun"/>
+        <node cat="pp" id="12" rel="mod">
+          <node cat="mwu" id="13" mwu_root="ten opzichte van" mwu_sense="ten opzichte van" rel="hd">
+            <node id="14" pos="prep" rel="mwp" root="ten" sense="ten"/>
+            <node id="15" pos="prep" rel="mwp" root="opzichte" sense="opzichte"/>
+            <node id="16" pos="prep" rel="mwp" root="van" sense="van"/>
+          </node>
+          <node cat="np" id="17" rel="obj1">
+            <node id="18" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="19" num="sg" pos="noun" rel="hd" root="regering" sense="regering"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

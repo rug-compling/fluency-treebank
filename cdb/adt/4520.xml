@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="pl" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="present"/>
+      <node cat="np" id="3" index="1" rel="su">
+        <node cat="detp" id="4" rel="det">
+          <node id="5" infl="pl_indef" pos="det" rel="mod" root="een" sense="een" special="pre_num_adv"/>
+          <node id="6" infl="pl_num" pos="num" rel="hd" root="120.000" sense="120.000" special="hoofd"/>
+        </node>
+        <node gen="de" id="7" num="pl" pos="noun" rel="hd" root="tapijt_tegel" sense="tapijt_tegel"/>
+      </node>
+      <node cat="ppart" id="8" rel="vc">
+        <node aform="base" id="9" infl="no_e" pos="adj" rel="mod" root="dagelijks" sense="dagelijks" vform="adj"/>
+        <node cat="pp" id="10" rel="mod">
+          <node id="11" pos="prep" rel="hd" root="in" sense="in"/>
+          <node cat="np" id="12" rel="obj1">
+            <node id="13" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="14" num="pl" pos="noun" rel="hd" root="fabriek" sense="fabriek"/>
+            <node cat="pp" id="15" rel="mod">
+              <node id="16" pos="prep" rel="hd" root="in" sense="in"/>
+              <node cat="conj" id="17" rel="obj1">
+                <node id="18" neclass="LOC" num="both" pos="name" rel="cnj" root="Amersfoort" sense="Amersfoort"/>
+                <node id="19" pos="vg" rel="crd" root="en" sense="en"/>
+                <node id="20" neclass="PER" num="both" pos="name" rel="cnj" root="Scherpenzeel" sense="Scherpenzeel"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node id="21" index="1" rel="obj1"/>
+        <node id="22" infl="psp" pos="verb" rel="hd" root="vervaardig" sc="transitive" sense="vervaardig"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

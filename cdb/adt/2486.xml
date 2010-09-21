@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="pl" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="past"/>
+      <node case="both" def="def" gen="de" id="3" index="1" num="both" per="thi" pos="pron" rel="su" root="ze" sense="ze" special="wkpro" wh="nwh"/>
+      <node cat="ppart" id="4" rel="vc">
+        <node cat="np" id="5" index="2" rel="obj1">
+          <node id="6" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node id="7" pos="num" rel="mod" root="derde" sense="derde" special="rang"/>
+          <node gen="het" id="8" num="sg" pos="noun" rel="hd" root="meisje" sense="meisje"/>
+        </node>
+        <node id="9" index="1" rel="su"/>
+        <node id="10" pos="adv" rel="mod" root="al" sense="al"/>
+        <node id="11" pos="adv" rel="mod" root="bijna" sense="bijna" special="sentence"/>
+        <node id="12" infl="psp" pos="verb" rel="hd" root="haal_over" sc="part_np_vp_obj1(over)" sense="haal_over"/>
+        <node cat="oti" id="13" rel="vc">
+          <node id="14" pos="comp" rel="cmp" root="om" sc="om" sense="om"/>
+          <node cat="ti" id="15" rel="body">
+            <node id="16" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+            <node cat="inf" id="17" rel="body">
+              <node id="18" index="2" rel="su"/>
+              <node id="19" pos="adv" rel="mod" root="ook" sense="ook" special="sentence"/>
+              <node cat="pp" id="20" rel="ld">
+                <node id="21" pos="prep" rel="hd" root="naar" sense="naar"/>
+                <node cat="np" id="22" rel="obj1">
+                  <node id="23" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+                  <node gen="het" id="24" num="sg" pos="noun" rel="hd" root="buitenland" sense="buitenland"/>
+                </node>
+              </node>
+              <node id="25" infl="inf(no_e)" pos="verb" rel="hd" root="ga" sc="ld_pp" sense="ga"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="het" pos="det" rel="su" root="dit" sense="dit" wh="nwh"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="resulteer" sc="pc_pp(in)" sense="resulteer-in" tense="past"/>
+      <node cat="pp" id="4" rel="pc">
+        <node id="5" pos="prep" rel="hd" root="in" sense="in"/>
+        <node cat="conj" id="6" rel="obj1">
+          <node gen="de" id="7" num="sg" pos="noun" rel="cnj" root="ijzel" sense="ijzel"/>
+          <node id="8" pos="vg" rel="crd" root="en" sense="en"/>
+          <node cat="np" id="9" rel="cnj">
+            <node aform="base" id="10" infl="e" pos="adj" rel="mod" root="glad" sense="glad" vform="adj"/>
+            <node gen="de" id="11" num="pl" pos="noun" rel="hd" root="weg" sense="weg" special="tmp"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

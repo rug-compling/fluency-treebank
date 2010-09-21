@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="bom_ontploffing" sense="bom_ontploffing"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="in" sense="in"/>
+          <node cat="np" id="7" rel="obj1">
+            <node id="8" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="9" num="sg" pos="noun" rel="hd" root="landbouw_bank" sense="landbouw_bank"/>
+            <node cat="pp" id="10" rel="mod">
+              <node id="11" pos="prep" rel="hd" root="te" sc="nodet" sense="te"/>
+              <node id="12" neclass="LOC" num="both" pos="name" rel="obj1" root="Milaan" sense="Milaan"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="13" infl="sg" pos="verb" rel="hd" root="gebeur" sc="intransitive" sense="gebeur" tense="past"/>
+      <node cat="pp" id="14" rel="mod">
+        <node id="15" pos="prep" rel="hd" root="om" sense="om"/>
+        <node cat="np" id="16" rel="obj1">
+          <node cat="mwu" id="17" mwu_root="half 5" mwu_sense="half 5" rel="hd">
+            <node id="18" pos="noun" rel="mwp" root="half" sense="half" special="tmp"/>
+            <node id="19" pos="noun" rel="mwp" root="5" sense="5" special="tmp"/>
+          </node>
+          <node aform="base" id="20" infl="no_e" pos="adj" rel="mod" root="precies" sense="precies" vform="adj"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

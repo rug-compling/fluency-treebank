@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="smain" id="2" rel="cnj">
+        <node gen="de" id="3" num="sg" pos="noun" rel="su" root="stilstand" sense="stilstand"/>
+        <node id="4" infl="sg3" pos="verb" rel="hd" root="roep_op" sc="part_pc_pp(op,tot)" sense="roep_op-tot" tense="present"/>
+        <node cat="pp" id="5" rel="pc">
+          <node id="6" pos="prep" rel="hd" root="tot" sense="tot"/>
+          <node gen="de" id="7" num="sg" pos="noun" rel="obj1" root="bezinning" sense="bezinning"/>
+        </node>
+      </node>
+      <node id="8" pos="vg" rel="crd" root="en" sense="en"/>
+      <node cat="smain" id="9" rel="cnj">
+        <node id="10" infl="pl" pos="verb" rel="hd" root="ben_toe" sc="part_pc_pp(toe,aan)" sense="ben_toe-aan" tense="past"/>
+        <node case="nom" def="def" gen="de" id="11" num="pl" per="fir" pos="pron" rel="su" root="we" sense="we" special="wkpro" wh="nwh"/>
+        <node aform="base" id="12" infl="no_e" pos="adj" rel="mod" root="grondig" sense="grondig" vform="adj"/>
+        <node cat="pp" id="13" rel="pc">
+          <node id="14" pos="adv" rel="obj1" root="daar" sense="daar" special="er_loc"/>
+          <node id="15" pos="prep" rel="hd" root="aan" sense="aan"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

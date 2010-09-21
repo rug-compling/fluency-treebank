@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" pos="adv" rel="mod" root="zo" sense="zo"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="zeg" sc="intransitive" sense="zeg" tense="past"/>
+      <node cat="np" id="4" rel="su">
+        <node gen="de" id="5" num="sg" pos="noun" rel="hd" root="president_commissaris" sense="president_commissaris"/>
+        <node cat="np" id="6" rel="app">
+          <node id="7" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="8" num="sg" pos="noun" rel="hd" root="heer" sense="heer"/>
+          <node cat="mwu" id="9" mwu_root="A. P. Zwager" mwu_sense="A. P. Zwager" rel="app">
+            <node id="10" neclass="PER" num="both" pos="name" rel="mwp" root="A." sense="A."/>
+            <node id="11" neclass="PER" num="both" pos="name" rel="mwp" root="P." sense="P."/>
+            <node id="12" neclass="PER" num="both" pos="name" rel="mwp" root="Zwager" sense="Zwager"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

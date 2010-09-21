@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="deze" sense="deze" wh="nwh"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="tentoonstelling" sense="tentoonstelling"/>
+      </node>
+      <node id="5" infl="sg" pos="verb" rel="hd" root="kan" sc="aux(inf)" sense="kan" tense="past"/>
+      <node cat="inf" id="6" rel="vc">
+        <node id="7" index="1" rel="su"/>
+        <node id="8" infl="inf" pos="verb" rel="hd" root="word" sc="passive" sense="word"/>
+        <node cat="ppart" id="9" rel="vc">
+          <node id="10" index="1" rel="obj1"/>
+          <node id="11" pos="adv" rel="mod" root="mede" sense="mede"/>
+          <node id="12" infl="psp" pos="verb" rel="hd" root="realiseer" sc="transitive" sense="realiseer"/>
+          <node cat="pp" id="13" rel="mod">
+            <node id="14" pos="prep" rel="hd" root="door" sense="door"/>
+            <node cat="np" id="15" rel="obj1">
+              <node id="16" pos="verb" rel="hd" root="draag_bij" sc="intransitive" sense="draag_bij" special="v_noun"/>
+              <node cat="pp" id="17" rel="mod">
+                <node id="18" pos="prep" rel="hd" root="van" sense="van"/>
+                <node cat="np" id="19" rel="obj1">
+                  <node id="20" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+                  <node gen="het" id="21" num="sg" pos="noun" rel="hd" root="comité" sc="app_measure" sense="comité"/>
+                  <node cat="np" id="22" rel="app">
+                    <node aform="base" id="23" infl="e" pos="adj" rel="mod" root="kulturele" sense="kulturele" vform="adj"/>
+                    <node gen="de" id="24" num="pl" pos="noun" rel="hd" root="betrekking" sense="betrekking"/>
+                    <node id="25" neclass="LOC" num="both" pos="name" rel="app" root="Nederland_Tsjechoslowakije" sense="Nederland_Tsjechoslowakije"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

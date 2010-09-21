@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="pron" neclass="PER" pos="det" rel="det" root="Citroen" sense="Citroen" special="name"/>
+        <node gen="het" id="4" num="sg" pos="noun" rel="hd" root="vaderland" sense="vaderland"/>
+      </node>
+      <node id="5" infl="sg3" pos="verb" rel="hd" root="sla" sc="transitive" sense="sla" tense="present"/>
+      <node cat="pp" id="6" rel="mod">
+        <node id="7" pos="prep" rel="hd" root="in" sense="in"/>
+        <node cat="np" id="8" rel="obj1">
+          <node id="9" infl="het" pos="det" rel="det" root="dit" sense="dit" wh="nwh"/>
+          <node gen="het" id="10" num="sg" pos="noun" rel="hd" root="opzicht" sense="opzicht"/>
+        </node>
+      </node>
+      <node cat="pp" id="11" rel="mod">
+        <node id="12" pos="prep" rel="hd" root="op" sense="op"/>
+        <node cat="np" id="13" rel="obj1">
+          <node id="14" infl="sg_num" pos="det" rel="det" root="menig" sense="menig"/>
+          <node gen="de" id="15" num="sg" pos="noun" rel="hd" root="plaats" sense="plaats" special="meas_mod"/>
+        </node>
+      </node>
+      <node cat="np" id="16" rel="obj1">
+        <node id="17" infl="geen" pos="det" rel="det" root="geen" sense="geen" wh="nwh"/>
+        <node aform="compar" id="18" infl="no_e" pos="adj" rel="mod" root="goed" sense="goed" vform="adj"/>
+        <node gen="both" id="19" num="sg" pos="noun" rel="hd" root="figuur" sense="figuur"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

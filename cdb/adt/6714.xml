@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="past"/>
+      <node case="nom" def="def" gen="de" id="3" index="1" num="sg" per="fir" pos="pron" rel="su" root="ik" sense="ik" wh="nwh"/>
+      <node cat="inf" id="4" rel="vc">
+        <node cat="cp" id="5" rel="mod">
+          <node id="6" pos="comp" rel="cmp" root="als" sc="als" sense="als"/>
+          <node cat="ssub" id="7" rel="body">
+            <node case="nom" def="def" gen="de" id="8" num="sg" per="fir" pos="pron" rel="su" root="ik" sense="ik" wh="nwh"/>
+            <node gen="de" id="9" num="sg" pos="noun" rel="predc" root="werkgever" sense="werkgever"/>
+            <node id="10" infl="sg" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="past"/>
+          </node>
+        </node>
+        <node id="11" index="1" rel="su"/>
+        <node cat="pp" id="12" rel="mod">
+          <node id="13" pos="prep" rel="hd" root="voor" sense="voor"/>
+          <node cat="np" id="14" rel="obj1">
+            <node id="15" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="16" num="sg" pos="noun" rel="hd" root="heer" sense="heer"/>
+            <node id="17" neclass="PER" num="both" pos="name" rel="app" root="Lieaard" sense="Lieaard"/>
+          </node>
+        </node>
+        <node cat="np" id="18" rel="obj1">
+          <node id="19" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node gen="het" id="20" num="sg" pos="noun" rel="hd" root="stand_beeld" sense="stand_beeld"/>
+        </node>
+        <node id="21" infl="inf" pos="verb" rel="hd" root="richt_op" sc="part_transitive(op)" sense="richt_op"/>
+        <node cat="pp" id="22" rel="mod">
+          <node id="23" pos="prep" rel="hd" root="in" sense="in"/>
+          <node cat="mwu" id="24" mwu_root="Oude Pekela" mwu_sense="Oude Pekela" rel="obj1">
+            <node id="25" neclass="LOC" num="both" pos="name" rel="mwp" root="Oude" sense="Oude"/>
+            <node id="26" neclass="LOC" num="both" pos="name" rel="mwp" root="Pekela" sense="Pekela"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

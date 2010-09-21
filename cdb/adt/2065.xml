@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node cat="mwu" id="3" mwu_root="Johnny Hodges" mwu_sense="Johnny Hodges" rel="hd">
+          <node id="4" neclass="PER" num="both" pos="name" rel="mwp" root="Johnny" sense="Johnny"/>
+          <node id="5" neclass="PER" num="both" pos="name" rel="mwp" root="Hodges" sense="Hodges"/>
+        </node>
+        <node cat="ppart" id="6" rel="mod">
+          <node aform="base" id="7" infl="no_e" pos="adj" rel="hd" root="bijgenaamd" sc="transitive" sense="bijgenaamd" vform="psp"/>
+          <node id="8" neclass="PER" num="both" pos="name" rel="obj1" root="Rabbit" sense="Rabbit"/>
+        </node>
+      </node>
+      <node id="9" infl="sg" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="past"/>
+      <node cat="np" id="10" rel="predc">
+        <node gen="both" id="11" num="both" pos="noun" rel="hd" root="geboortig" sense="geboortig"/>
+        <node cat="pp" id="12" rel="mod">
+          <node id="13" pos="prep" rel="hd" root="uit" sense="uit"/>
+          <node cat="np" id="14" rel="obj1">
+            <node id="15" neclass="LOC" num="both" pos="name" rel="hd" root="Cambridge" sense="Cambridge"/>
+            <node cat="pp" id="16" rel="mod">
+              <node id="17" pos="prep" rel="hd" root="in" sense="in"/>
+              <node id="18" neclass="LOC" num="both" pos="name" rel="obj1" root="Massachusets" sense="Massachusets"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

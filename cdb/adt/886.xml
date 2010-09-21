@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="both" id="4" num="both" pos="noun" rel="hd" root="synchrocyclotron" sense="synchrocyclotron"/>
+        <node cat="rel" id="5" rel="mod">
+          <node case="no_obl" gen="het" id="6" index="1" pos="pron" rel="rhd" root="dat" sense="dat" wh="rel"/>
+          <node cat="ssub" id="7" rel="body">
+            <node id="8" index="1" rel="su"/>
+            <node id="9" infl="sg" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="past"/>
+            <node cat="ppart" id="10" rel="vc">
+              <node id="11" index="1" rel="obj1"/>
+              <node cat="ap" id="12" rel="mod">
+                <node cat="np" id="13" rel="me">
+                  <node id="14" infl="pl_num" pos="num" rel="det" root="twintig" sense="twintig" special="hoofd"/>
+                  <node gen="het" id="15" num="meas" pos="noun" rel="hd" root="jaar" sense="jaar" special="tmp"/>
+                </node>
+                <node id="16" pos="adj" rel="hd" root="geleden" sc="pred_np_me" sense="geleden"/>
+              </node>
+              <node cat="pp" id="17" rel="predc">
+                <node id="18" pos="prep" rel="hd" root="in" sense="in"/>
+                <node gen="het" id="19" num="sg" pos="noun" rel="obj1" root="bedrijf" sc="pred_pp(in)" sense="bedrijf"/>
+              </node>
+              <node id="20" infl="psp" pos="verb" rel="hd" root="stel" sc="pp_pred_np(in,bedrijf)" sense="in-bedrijf-stel"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="21" infl="sg3" pos="verb" rel="hd" root="functioneer" sc="intransitive" sense="functioneer" tense="present"/>
+      <node cat="pp" id="22" rel="mod">
+        <node id="23" pos="prep" rel="hd" root="op" sense="op"/>
+        <node cat="np" id="24" rel="obj1">
+          <node id="25" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+          <node gen="het" id="26" num="sg" pos="noun" rel="hd" root="ogenblik" sense="ogenblik" special="tmp"/>
+        </node>
+      </node>
+      <node cat="advp" id="27" rel="mod">
+        <node id="28" pos="adv" rel="mod" root="nog" sc="modal" sense="nog"/>
+        <node id="29" pos="adv" rel="hd" root="steeds" sense="steeds"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="kaartverkoop" sense="kaartverkoop"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="7" rel="obj1">
+            <node id="8" infl="het" pos="det" rel="det" root="dit" sense="dit" wh="nwh"/>
+            <node aform="base" id="9" infl="e" pos="adj" rel="mod" root="bijzonder" sense="bijzonder" vform="adj"/>
+            <node gen="het" id="10" num="sg" pos="noun" rel="hd" root="concert" sense="concert"/>
+          </node>
+        </node>
+      </node>
+      <node id="11" infl="sg" pos="verb" rel="hd" root="start" sc="intransitive" sense="start" tense="present"/>
+      <node cat="advp" id="12" rel="mod">
+        <node id="13" pos="adv" rel="hd" root="morgenochtend" sense="morgenochtend" special="tmp"/>
+        <node cat="pp" id="14" rel="mod">
+          <node id="15" pos="prep" rel="hd" root="om" sense="om"/>
+          <node cat="mwu" id="16" mwu_root="tien uur" mwu_sense="tien uur" rel="obj1">
+            <node id="17" pos="noun" rel="mwp" root="tien" sense="tien" special="tmp"/>
+            <node id="18" pos="noun" rel="mwp" root="uur" sense="uur" special="tmp"/>
+          </node>
+        </node>
+      </node>
+      <node cat="pp" id="19" rel="mod">
+        <node id="20" pos="prep" rel="hd" root="bij" sense="bij"/>
+        <node cat="np" id="21" rel="obj1">
+          <node id="22" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="23" num="sg" pos="noun" rel="hd" root="kassa" sense="kassa"/>
+          <node cat="pp" id="24" rel="mod">
+            <node id="25" pos="prep" rel="hd" root="van" sense="van"/>
+            <node cat="np" id="26" rel="obj1">
+              <node id="27" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+              <node id="28" neclass="LOC" num="both" pos="name" rel="hd" root="Concertgebouw" sense="Concertgebouw"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

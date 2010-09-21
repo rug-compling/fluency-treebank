@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="het" pos="det" rel="obj1" root="dit" sense="dit" wh="nwh"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="vertel" sc="transitive" sense="vertel" tense="past"/>
+      <node cat="np" id="4" rel="su">
+        <node cat="mwu" id="5" mwu_root="ir. B. Vrijhof" mwu_sense="ir. B. Vrijhof" rel="hd">
+          <node id="6" neclass="ORG" num="both" pos="name" rel="mwp" root="ir." sense="ir."/>
+          <node id="7" neclass="ORG" num="both" pos="name" rel="mwp" root="B." sense="B."/>
+          <node id="8" neclass="ORG" num="both" pos="name" rel="mwp" root="Vrijhof" sense="Vrijhof"/>
+        </node>
+        <node cat="np" id="9" rel="app">
+          <node gen="de" id="10" num="sg" pos="noun" rel="hd" root="adjunct_directeur" sc="app_measure" sense="adjunct_directeur"/>
+          <node cat="np" id="11" rel="app">
+            <node gen="het" id="12" num="pl" pos="noun" rel="hd" root="gemeente_plantsoen" sense="gemeente_plantsoen"/>
+            <node cat="pp" id="13" rel="mod">
+              <node id="14" pos="prep" rel="hd" root="van" sense="van"/>
+              <node cat="mwu" id="15" mwu_root="Den Haag" mwu_sense="Den Haag" rel="obj1">
+                <node id="16" neclass="LOC" num="both" pos="name" rel="mwp" root="Den" sense="Den"/>
+                <node id="17" neclass="LOC" num="both" pos="name" rel="mwp" root="Haag" sense="Haag"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

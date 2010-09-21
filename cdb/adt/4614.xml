@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="terug_val" sense="terug_val"/>
+      </node>
+      <node id="5" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+      <node id="6" pos="adv" rel="mod" root="vooral" sense="vooral"/>
+      <node cat="np" id="7" rel="predc">
+        <node id="8" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node gen="de" id="9" num="sg" pos="noun" rel="hd" root="kwestie" sense="kwestie"/>
+        <node cat="pp" id="10" rel="mod">
+          <node id="11" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="12" rel="obj1">
+            <node gen="de" id="13" num="sg" pos="noun" rel="hd" root="mentaliteit" sense="mentaliteit"/>
+            <node cat="pp" id="14" rel="mod">
+              <node id="15" pos="prep" rel="hd" root="in" sense="in"/>
+              <node cat="np" id="16" rel="obj1">
+                <node id="17" infl="onze" pos="det" rel="det" root="ons" sense="ons"/>
+                <node gen="de" id="18" num="sg" pos="noun" rel="hd" root="ploeg" sense="ploeg"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

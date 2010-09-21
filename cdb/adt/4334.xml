@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="het" id="4" num="sg" pos="noun" rel="hd" root="ongeluk" sense="ongeluk"/>
+      </node>
+      <node id="5" infl="sg" pos="verb" rel="hd" root="gebeur" sc="intransitive" sense="gebeur" tense="past"/>
+      <node cat="pp" id="6" rel="mod">
+        <node id="7" pos="prep" rel="hd" root="op" sense="op"/>
+        <node cat="np" id="8" rel="obj1">
+          <node id="9" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="10" num="sg" pos="noun" rel="hd" root="hoek" sense="hoek"/>
+          <node cat="pp" id="11" rel="mod">
+            <node id="12" pos="prep" rel="hd" root="van" sense="van"/>
+            <node cat="conj" id="13" rel="obj1">
+              <node cat="np" id="14" rel="cnj">
+                <node id="15" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                <node id="16" neclass="LOC" num="both" pos="name" rel="hd" root="Ceintuurbaan" sense="Ceintuurbaan"/>
+              </node>
+              <node id="17" pos="vg" rel="crd" root="en" sense="en"/>
+              <node cat="np" id="18" rel="cnj">
+                <node id="19" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                <node cat="mwu" id="20" mwu_root="Van Woustraat" mwu_sense="Van Woustraat" rel="hd">
+                  <node id="21" neclass="LOC" num="both" pos="name" rel="mwp" root="Van" sense="Van"/>
+                  <node id="22" neclass="LOC" num="both" pos="name" rel="mwp" root="Woustraat" sense="Woustraat"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

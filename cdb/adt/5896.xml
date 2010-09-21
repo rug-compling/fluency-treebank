@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="pl" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="present"/>
+      <node cat="np" id="3" index="1" rel="su">
+        <node id="4" infl="pl_num" pos="num" rel="det" root="drie" sense="drie" special="hoofd"/>
+        <node gen="het" id="5" num="pl" pos="noun" rel="hd" root="werk" sense="werk"/>
+      </node>
+      <node cat="ppart" id="6" rel="vc">
+        <node id="7" pos="adv" rel="mod" root="tevens" sense="tevens"/>
+        <node id="8" index="1" rel="obj1"/>
+        <node cat="pp" id="9" rel="pc">
+          <node id="10" pos="prep" rel="hd" root="met" sense="met"/>
+          <node cat="np" id="11" rel="obj1">
+            <node id="12" infl="een" pos="det" rel="det" root="een" sense="een"/>
+            <node gen="de" id="13" num="sg" pos="noun" rel="hd" root="prijs" sense="prijs"/>
+            <node cat="pp" id="14" rel="mod">
+              <node id="15" pos="prep" rel="hd" root="van" sense="van"/>
+              <node cat="mwu" id="16" mwu_root="flo 1000" mwu_sense="flo 1000" rel="obj1">
+                <node gen="both" id="17" num="bare_meas" pos="noun" rel="mwp" root="flo" sense="flo" special="amount_meas_mod"/>
+                <node gen="both" id="18" num="bare_meas" pos="noun" rel="mwp" root="1000" sense="1000" special="amount_meas_mod"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node id="19" infl="psp" pos="verb" rel="hd" root="bekroon" sc="np_pc_pp(met)" sense="bekroon-met"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="np" id="1" rel="--">
+      <node id="2" infl="pron" neclass="PER" pos="det" rel="det" root="Appels" sense="Appels" special="name"/>
+      <node gen="de" id="3" num="pl" pos="noun" rel="hd" root="oogappel" sense="oogappel"/>
+    </node>
+  </node>
+</alpino_adt>

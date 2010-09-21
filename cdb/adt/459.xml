@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" pos="adv" rel="mod" root="ruim" sc="modal" sense="ruim"/>
+        <node id="4" infl="pl_num" pos="num" rel="det" root="dertig" sense="dertig" special="hoofd"/>
+        <node gen="both" id="5" num="meas" pos="noun" rel="hd" root="procent" sense="procent" special="meas_mod"/>
+        <node cat="pp" id="6" rel="mod">
+          <node id="7" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="8" rel="obj1">
+            <node id="9" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="het" id="10" num="pl" pos="noun" rel="hd" root="tientallen" sc="measure" sense="tientallen-MEAS"/>
+            <node cat="np" id="11" rel="mod">
+              <node gen="both" id="12" num="pl" pos="noun" rel="hd" root="miljoen" sc="measure" sense="miljoen-MEAS" special="meas_mod"/>
+              <node cat="np" id="13" rel="mod">
+                <node aform="base" id="14" infl="e" pos="adj" rel="mod" root="Japans" sense="Japans" vform="adj"/>
+                <node gen="de" id="15" num="pl" pos="noun" rel="hd" root="tv_kijker" sense="tv_kijker"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="16" infl="sg3" pos="verb" rel="hd" root="sla_over" sc="part_transitive(over)" sense="sla_over" tense="present"/>
+      <node id="17" pos="adv" rel="mod" root="nooit" sense="nooit" special="tmp"/>
+      <node cat="np" id="18" rel="obj1">
+        <node id="19" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node gen="de" id="20" num="sg" pos="noun" rel="hd" root="aflevering" sense="aflevering"/>
+        <node cat="pp" id="21" rel="mod">
+          <node id="22" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="23" rel="obj1">
+            <node id="24" infl="de" pos="det" rel="det" root="deze" sense="deze" wh="nwh"/>
+            <node aform="base" id="25" infl="e" pos="adj" rel="mod" root="wekelijks" sense="wekelijks" vform="adj"/>
+            <node gen="de" id="26" num="sg" pos="noun" rel="hd" root="show" sense="show"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="het" id="4" num="pl" pos="noun" rel="hd" root="dier" sense="dier"/>
+        <node cat="rel" id="5" rel="mod">
+          <node case="no_obl" gen="de" id="6" index="1" pos="pron" rel="rhd" root="die" sense="die" wh="rel"/>
+          <node cat="ssub" id="7" rel="body">
+            <node id="8" index="1" rel="su"/>
+            <node id="9" infl="pl" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="past"/>
+            <node cat="ap" id="10" rel="predc">
+              <node aform="base" id="11" infl="pred" pos="adj" rel="hd" root="onderweg" sc="pp(naar)" sense="onderweg-naar" vform="adj"/>
+              <node cat="pp" id="12" rel="pc">
+                <node id="13" pos="prep" rel="hd" root="naar" sense="naar"/>
+                <node cat="np" id="14" rel="obj1">
+                  <node id="15" infl="een" pos="det" rel="det" root="een" sense="een"/>
+                  <node gen="de" id="16" num="sg" pos="noun" rel="hd" root="slachterij" sense="slachterij"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="17" infl="pl" pos="verb" rel="hd" root="vind" sc="transitive_ndev_ndev" sense="vind" tense="past"/>
+      <node id="18" pos="adv" rel="mod" root="dus" sense="dus" special="sentence"/>
+      <node cat="np" id="19" rel="obj1">
+        <node id="20" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node aform="base" id="21" infl="no_e" pos="adj" rel="mod" root="vroegtijdig" sense="vroegtijdig" vform="adj"/>
+        <node gen="het" id="22" num="sg" pos="noun" rel="hd" root="einde" sense="einde" special="tmp"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

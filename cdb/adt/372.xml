@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="het" id="4" num="sg" pos="noun" rel="hd" root="lichaam" sense="lichaam"/>
+      </node>
+      <node id="5" infl="sg_heeft" pos="verb" rel="hd" root="heb" sc="transitive_ndev" sense="heb" tense="present"/>
+      <node cat="np" id="6" rel="obj1">
+        <node aform="compar" id="7" infl="meer" pos="adj" rel="det" root="minder" sense="minder" vform="adj"/>
+        <node gen="de" id="8" num="sg" pos="noun" rel="hd" root="behoefte" sense="behoefte"/>
+        <node cat="pp" id="9" rel="mod">
+          <node id="10" pos="prep" rel="hd" root="aan" sense="aan"/>
+          <node gen="de" id="11" num="pl" pos="noun" rel="obj1" root="voeding_stof" sense="voeding_stof"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" pos="pp" rel="pc" root="daaruit" sense="daaruit" special="er"/>
+      <node id="3" infl="sg3" pos="verb" rel="hd" root="blijk" sc="pp_sbar_subj(uit)" sense="blijk-uit" tense="present"/>
+      <node id="4" pos="adv" rel="mod" root="namelijk" sense="namelijk" special="sentence"/>
+      <node cat="cp" id="5" rel="su">
+        <node id="6" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+        <node cat="ssub" id="7" rel="body">
+          <node cat="np" id="8" rel="su">
+            <node id="9" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="10" num="pl" pos="noun" rel="hd" root="ondernemer" sense="ondernemer"/>
+          </node>
+          <node id="11" pos="adv" rel="mod" root="niet" sense="niet"/>
+          <node id="12" infl="pl" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+          <node cat="ppart" id="13" rel="predc">
+            <node aform="base" id="14" infl="no_e" pos="adj" rel="hd" root="bereid" sc="object_vp" sense="bereid" vform="psp"/>
+            <node cat="ti" id="15" rel="vc">
+              <node id="16" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+              <node cat="inf" id="17" rel="body">
+                <node cat="np" id="18" rel="obj1">
+                  <node id="19" infl="een" pos="det" rel="det" root="een" sense="een"/>
+                  <node gen="het" id="20" num="sg" pos="noun" rel="hd" root="minimum_loon" sense="minimum_loon"/>
+                  <node cat="pp" id="21" rel="mod">
+                    <node id="22" pos="prep" rel="hd" root="van" sense="van"/>
+                    <node cat="np" id="23" rel="obj1">
+                      <node cat="mwu" id="24" mwu_root="flo 230" mwu_sense="flo 230" rel="hd">
+                        <node gen="both" id="25" num="bare_meas" pos="noun" rel="mwp" root="flo" sense="flo" special="amount_meas_mod"/>
+                        <node gen="both" id="26" num="bare_meas" pos="noun" rel="mwp" root="230" sense="230" special="amount_meas_mod"/>
+                      </node>
+                      <node cat="pp" id="27" rel="mod">
+                        <node id="28" pos="prep" rel="hd" root="per" sense="per"/>
+                        <node gen="de" id="29" num="sg" pos="noun" rel="obj1" root="week" sense="week" special="tmp"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node id="30" infl="inf" pos="verb" rel="hd" root="garandeer" sc="transitive" sense="garandeer"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

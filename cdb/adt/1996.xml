@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node gen="de" id="3" num="pl" pos="noun" rel="hd" root="vertegenwoordiger" sense="vertegenwoordiger"/>
+        <node cat="pp" id="4" rel="mod">
+          <node id="5" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="conj" id="6" rel="obj1">
+            <node cat="np" id="7" rel="cnj">
+              <node id="8" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node id="9" neclass="ORG" num="both" pos="name" rel="hd" root="JAL" sense="JAL"/>
+            </node>
+            <node id="10" pos="vg" rel="crd" root="en" sense="en"/>
+            <node id="11" neclass="PER" num="both" pos="name" rel="cnj" root="Aereflot" sense="Aereflot"/>
+          </node>
+        </node>
+      </node>
+      <node id="12" infl="pl" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="present"/>
+      <node cat="inf" id="13" rel="vc">
+        <node id="14" index="1" rel="su"/>
+        <node id="15" pos="adv" rel="mod" root="binnenkort" sense="binnenkort" special="tmp"/>
+        <node id="16" infl="inf" pos="verb" rel="hd" root="kom_bijeen" sc="part_intransitive(bijeen)" sense="kom_bijeen"/>
+        <node cat="oti" id="17" rel="mod">
+          <node id="18" pos="comp" rel="cmp" root="om" sc="om" sense="om"/>
+          <node cat="ti" id="19" rel="body">
+            <node id="20" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+            <node cat="inf" id="21" rel="body">
+              <node id="22" infl="inf(no_e)" pos="verb" rel="hd" root="ga" sc="aux(inf)" sense="ga"/>
+              <node cat="inf" id="23" rel="vc">
+                <node id="24" infl="inf" pos="verb" rel="hd" root="praat" sc="intransitive" sense="praat"/>
+                <node cat="pp" id="25" rel="mod">
+                  <node id="26" pos="prep" rel="hd" root="over" sense="over"/>
+                  <node cat="np" id="27" rel="obj1">
+                    <node id="28" infl="een" pos="det" rel="det" root="een" sense="een"/>
+                    <node aform="base" id="29" infl="e" pos="adj" rel="mod" root="commercieel" sense="commercieel" vform="adj"/>
+                    <node gen="de" id="30" num="sg" pos="noun" rel="hd" root="overeenkomst" sense="overeenkomst"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

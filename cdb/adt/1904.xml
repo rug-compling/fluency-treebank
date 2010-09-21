@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="mod">
+        <node id="3" pos="prep" rel="hd" root="voor" sense="voor"/>
+        <node cat="np" id="4" rel="obj1">
+          <node id="5" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node gen="het" id="6" num="sg" pos="noun" rel="hd" root="bedrijf" sense="bedrijf"/>
+        </node>
+      </node>
+      <node id="7" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+      <node cat="np" id="8" rel="su">
+        <node id="9" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node aform="base" id="10" infl="no_e" pos="adj" rel="mod" root="half" sense="half" vform="adj"/>
+        <node gen="both" id="11" num="sg" pos="noun" rel="hd" root="idee" sense="idee"/>
+        <node cat="pp" id="12" rel="mod">
+          <node id="13" pos="prep" rel="hd" root="per" sense="per"/>
+          <node cat="np" id="14" rel="obj1">
+            <node id="15" infl="pl_num" pos="num" rel="det" root="100" sense="100" special="hoofd"/>
+            <node gen="de" id="16" num="bare_meas" pos="noun" rel="hd" root="man" sense="man"/>
+          </node>
+        </node>
+        <node cat="pp" id="17" rel="mod">
+          <node id="18" pos="prep" rel="hd" root="per" sense="per"/>
+          <node gen="het" id="19" num="meas" pos="noun" rel="obj1" root="jaar" sense="jaar" special="tmp"/>
+        </node>
+      </node>
+      <node aform="base" id="20" infl="no_e" pos="adj" rel="predc" root="houdbaar" sense="houdbaar" vform="adj"/>
+    </node>
+  </node>
+</alpino_adt>

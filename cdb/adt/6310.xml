@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="ontwikkeling" sense="ontwikkeling"/>
+      </node>
+      <node id="5" infl="sg" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="past"/>
+      <node cat="mwu" id="6" mwu_root="onder meer" mwu_sense="onder meer" rel="mod">
+        <node id="7" pos="adv" rel="mwp" root="onder" sense="onder"/>
+        <node id="8" pos="adv" rel="mwp" root="meer" sense="meer"/>
+      </node>
+      <node cat="np" id="9" rel="predc">
+        <node id="10" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="het" id="11" num="sg" pos="noun" rel="hd" root="gevolg" sense="gevolg"/>
+        <node cat="pp" id="12" rel="mod">
+          <node id="13" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="14" rel="obj1">
+            <node id="15" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node cat="ppres" id="16" rel="mod">
+              <node id="17" pos="adv" rel="mod" root="steeds" sense="steeds"/>
+              <node aform="base" id="18" infl="e" pos="adj" rel="hd" root="groei" sense="groei" vform="gerund"/>
+            </node>
+            <node gen="de" id="19" num="sg" pos="noun" rel="hd" root="belangstelling" sense="belangstelling"/>
+            <node cat="pp" id="20" rel="mod">
+              <node id="21" pos="prep" rel="hd" root="voor" sense="voor"/>
+              <node cat="np" id="22" rel="obj1">
+                <node id="23" neclass="LOC" num="both" pos="name" rel="hd" root="Groot-Brittannie" sense="Groot-Brittannie"/>
+                <node cat="cp" id="24" rel="mod">
+                  <node id="25" pos="comp" rel="cmp" root="als" sc="als" sense="als"/>
+                  <node gen="het" id="26" num="sg" pos="noun" rel="body" root="toerist_land" sense="toerist_land"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="np" id="2" rel="cnj">
+        <node aform="base" id="3" infl="e" pos="adj" rel="mod" root="belangrijk" sense="belangrijk" vform="adj"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="uitbreiding" sense="uitbreiding"/>
+      </node>
+      <node id="5" pos="vg" rel="crd" root="en" sense="en"/>
+      <node cat="np" id="6" rel="cnj">
+        <node gen="de" id="7" num="sg" pos="noun" rel="hd" root="hervorming" sense="hervorming"/>
+        <node cat="pp" id="8" rel="mod">
+          <node id="9" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="10" rel="obj1">
+            <node id="11" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="het" id="12" num="pl" pos="noun" rel="hd" root="voedsel_hulp_programma" sense="voedsel_hulp_programma"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="pl" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="present"/>
+      <node case="nom" def="def" gen="de" id="3" index="1" num="pl" per="fir" pos="pron" rel="su" root="wij" sense="wij" wh="nwh"/>
+      <node cat="ppart" id="4" rel="vc">
+        <node cat="oti" id="5" rel="mod">
+          <node id="6" pos="comp" rel="cmp" root="om" sc="om" sense="om"/>
+          <node cat="ti" id="7" rel="body">
+            <node id="8" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+            <node cat="inf" id="9" rel="body">
+              <node cat="np" id="10" rel="obj1">
+                <node id="11" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                <node gen="de" id="12" num="pl" pos="noun" rel="hd" root="vraag" sense="vraag"/>
+              </node>
+              <node id="13" infl="inf" pos="verb" rel="hd" root="beantwoord" sc="transitive" sense="beantwoord"/>
+            </node>
+          </node>
+        </node>
+        <node id="14" index="1" rel="su"/>
+        <node cat="np" id="15" rel="obj1">
+          <node id="16" pos="verb" rel="hd" root="boek" sc="intransitive" sense="boek" special="v_noun"/>
+          <node cat="pp" id="17" rel="mod">
+            <node id="18" pos="prep" rel="hd" root="over" sense="over"/>
+            <node cat="conj" id="19" rel="obj1">
+              <node cat="np" id="20" rel="cnj">
+                <node id="21" infl="het" pos="det" rel="det" root="ons" sense="ons"/>
+                <node aform="base" id="22" infl="e" pos="adj" rel="mod" root="politiek" sense="politiek" vform="adj"/>
+                <node gen="het" id="23" num="sg" pos="noun" rel="hd" root="stelsel" sense="stelsel"/>
+              </node>
+              <node gen="het" id="24" num="sg" pos="noun" rel="cnj" root="onderwijs" sense="onderwijs"/>
+              <node id="25" pos="vg" rel="crd" root="en" sense="en"/>
+              <node cat="np" id="26" rel="cnj">
+                <node aform="base" id="27" infl="e" pos="adj" rel="mod" root="sociaal" sense="sociaal" vform="adj"/>
+                <node gen="de" id="28" num="pl" pos="noun" rel="hd" root="toestand" sense="toestand"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node id="29" infl="psp" pos="verb" rel="hd" root="koop" sc="transitive" sense="koop"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

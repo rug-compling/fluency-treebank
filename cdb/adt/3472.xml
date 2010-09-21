@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="whrel" id="2" rel="sat">
+        <node cat="ap" id="3" index="1" rel="rhd">
+          <node id="4" pos="adj" rel="mod" root="hoe" sense="hoe" wh="ywh"/>
+          <node aform="base" id="5" infl="no_e" pos="adj" rel="hd" root="paradijselijk" sense="paradijselijk" vform="adj"/>
+        </node>
+        <node cat="ssub" id="6" rel="body">
+          <node cat="np" id="7" index="2" rel="su">
+            <node aform="base" id="8" infl="e" pos="adj" rel="mod" root="veel" sense="veel" vform="adj"/>
+            <node aform="base" id="9" infl="e" pos="adj" rel="mod" root="Nederlands" sense="Nederlands" vform="adj"/>
+            <node gen="de" id="10" num="pl" pos="noun" rel="hd" root="jongere" sense="jongere"/>
+          </node>
+          <node id="11" infl="pl" pos="verb" rel="hd" root="mag" sc="modifier(aux(inf))" sense="mag" tense="present"/>
+          <node cat="inf" id="12" rel="vc">
+            <node id="13" index="1" rel="predc"/>
+            <node id="14" index="2" rel="su"/>
+            <node id="15" neclass="LOC" num="both" pos="name" rel="obj1" root="Cuba" sense="Cuba"/>
+            <node id="16" pos="adv" rel="mod" root="ook" sense="ook" special="sentence"/>
+            <node id="17" infl="inf" pos="verb" rel="hd" root="vind" sc="pred_np" sense="vind"/>
+          </node>
+        </node>
+      </node>
+      <node cat="smain" id="18" rel="nucl">
+        <node id="19" infl="sg3" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="present"/>
+        <node cat="ppart" id="20" rel="vc">
+          <node cat="pp" id="21" rel="pc">
+            <node id="22" pos="prep" rel="hd" root="over" sense="over"/>
+            <node cat="np" id="23" rel="obj1">
+              <node aform="base" id="24" infl="e" pos="adj" rel="mod" root="verdoof" sense="verdoof" vform="gerund"/>
+              <node gen="het" id="25" num="pl" pos="noun" rel="hd" root="middel" sense="middel"/>
+            </node>
+          </node>
+          <node id="26" pos="adv" rel="mod" root="niet" sense="niet"/>
+          <node id="27" infl="psp" pos="verb" rel="hd" root="discussieer" sc="pc_pp(over)" sense="discussieer-over"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" pos="noun" rel="sup" root="het" sense="het" special="het"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="ben" sc="copula_sbar" sense="ben" tense="past"/>
+      <node aform="base" id="4" infl="no_e" pos="adj" rel="predc" root="duidelijk" sc="subject_sbar_no_het" sense="duidelijk" vform="adj"/>
+      <node cat="cp" id="5" rel="su">
+        <node id="6" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+        <node cat="ssub" id="7" rel="body">
+          <node cat="np" id="8" rel="su">
+            <node id="9" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="10" num="pl" pos="noun" rel="hd" root="liberaal" sense="liberaal"/>
+          </node>
+          <node cat="pp" id="11" rel="mod">
+            <node id="12" pos="prep" rel="hd" root="met" sense="met"/>
+            <node cat="np" id="13" rel="obj1">
+              <node id="14" infl="de" pos="det" rel="det" root="deze" sense="deze" wh="nwh"/>
+              <node gen="de" id="15" num="sg" pos="noun" rel="hd" root="benoeming" sense="benoeming"/>
+            </node>
+          </node>
+          <node cat="np" id="16" rel="obj1">
+            <node id="17" infl="een" pos="det" rel="det" root="een" sense="een"/>
+            <node aform="base" id="18" infl="e" pos="adj" rel="mod" root="goed" sense="goed" vform="adj"/>
+            <node gen="de" id="19" num="sg" pos="noun" rel="hd" root="beurt" sense="beurt"/>
+          </node>
+          <node id="20" infl="pl" pos="verb" rel="hd" root="maak" sc="transitive" sense="maak" tense="present"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

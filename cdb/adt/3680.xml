@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="ld">
+        <node id="3" pos="prep" rel="hd" root="op" sense="op"/>
+        <node cat="np" id="4" rel="obj1">
+          <node id="5" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="both" id="6" num="sg" pos="noun" rel="hd" root="omslag" sense="omslag"/>
+          <node cat="pp" id="7" rel="mod">
+            <node id="8" pos="prep" rel="hd" root="van" sense="van"/>
+            <node cat="np" id="9" rel="obj1">
+              <node id="10" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+              <node gen="het" id="11" num="sg" pos="noun" rel="hd" root="boek" sense="boek"/>
+              <node cat="rel" id="12" rel="mod">
+                <node case="no_obl" gen="het" id="13" index="1" pos="pron" rel="rhd" root="dat" sense="dat" wh="rel"/>
+                <node cat="ssub" id="14" rel="body">
+                  <node id="15" index="1" rel="su"/>
+                  <node cat="np" id="16" rel="obj1">
+                    <node id="17" infl="de" pos="det" rel="det" root="deze" sense="deze" wh="nwh"/>
+                    <node gen="de" id="18" num="sg" pos="noun" rel="hd" root="titel" sense="titel"/>
+                  </node>
+                  <node id="19" infl="sg3" pos="verb" rel="hd" root="draag" sc="transitive" sense="draag" tense="present"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="20" infl="sg3" pos="verb" rel="hd" root="kom_voor" sc="part_ld_pp(voor)" sense="kom_voor" tense="present"/>
+      <node cat="np" id="21" rel="su">
+        <node id="22" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="het" id="23" num="sg" pos="noun" rel="hd" root="vraagteken" sense="vraagteken"/>
+      </node>
+      <node id="24" pos="adv" rel="mod" root="niet" sense="niet"/>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="past"/>
+      <node cat="np" id="3" index="1" rel="su">
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="koningin" sense="koningin"/>
+        <node id="5" neclass="PER" num="both" pos="name" rel="app" root="Elizabeth" sense="Elizabeth"/>
+      </node>
+      <node cat="ppart" id="6" rel="vc">
+        <node cat="pp" id="7" rel="mod">
+          <node id="8" pos="prep" rel="hd" root="bij" sense="bij"/>
+          <node cat="np" id="9" rel="obj1">
+            <node id="10" infl="pron" pos="det" rel="det" root="haar" sense="haar"/>
+            <node gen="de" id="11" num="sg" pos="noun" rel="hd" root="aankomst" sense="aankomst"/>
+          </node>
+        </node>
+        <node id="12" index="1" rel="obj1"/>
+        <node id="13" infl="psp" pos="verb" rel="hd" root="ontvang" sc="transitive" sense="ontvang"/>
+        <node cat="pp" id="14" rel="mod">
+          <node id="15" pos="prep" rel="hd" root="met" sense="met"/>
+          <node cat="np" id="16" rel="obj1">
+            <node id="17" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="18" num="sg" pos="noun" rel="hd" root="kreet" sense="kreet"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

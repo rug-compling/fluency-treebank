@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="luchtverontreiniging" sense="luchtverontreiniging"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="in" sense="in"/>
+          <node cat="np" id="7" rel="obj1">
+            <node id="8" infl="een" pos="det" rel="det" root="een" sense="een"/>
+            <node aform="base" id="9" infl="no_e" pos="adj" rel="mod" root="groot" sense="groot" vform="adj"/>
+            <node gen="het" id="10" num="sg" pos="noun" rel="hd" root="gedeelte" sense="gedeelte"/>
+            <node cat="pp" id="11" rel="mod">
+              <node id="12" pos="prep" rel="hd" root="van" sense="van"/>
+              <node cat="mwu" id="13" mwu_root="Den Haag" mwu_sense="Den Haag" rel="obj1">
+                <node id="14" neclass="LOC" num="both" pos="name" rel="mwp" root="Den" sense="Den"/>
+                <node id="15" neclass="LOC" num="both" pos="name" rel="mwp" root="Haag" sense="Haag"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="16" infl="sg3" pos="verb" rel="hd" root="overschrijd" sc="transitive" sense="overschrijd" tense="present"/>
+      <node cat="np" id="17" rel="mod">
+        <node id="18" infl="pl_num" pos="num" rel="det" root="21" sense="21" special="hoofd"/>
+        <node gen="de" id="19" num="pl" pos="noun" rel="hd" root="dag" sense="dag" special="tmp"/>
+        <node cat="pp" id="20" rel="mod">
+          <node id="21" pos="prep" rel="hd" root="per" sense="per"/>
+          <node gen="het" id="22" num="meas" pos="noun" rel="obj1" root="jaar" sense="jaar" special="tmp"/>
+        </node>
+      </node>
+      <node cat="np" id="23" rel="obj1">
+        <node id="24" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node aform="base" id="25" infl="e" pos="adj" rel="mod" root="toelaatbaar" sense="toelaatbaar" vform="adj"/>
+        <node gen="de" id="26" num="sg" pos="noun" rel="hd" root="grens" sense="grens"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" num="both" pos="name" rel="su" root="Mendes-France" sense="Mendes-France"/>
+      <node id="3" infl="sg3" pos="verb" rel="hd" root="behoor" sc="pc_pp(tot)" sense="behoor-tot" tense="present"/>
+      <node cat="pp" id="4" rel="pc">
+        <node id="5" pos="prep" rel="hd" root="tot" sense="tot"/>
+        <node cat="np" id="6" rel="obj1">
+          <node id="7" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="8" num="sg" pos="noun" rel="hd" root="oprichter" sense="oprichter"/>
+          <node cat="pp" id="9" rel="mod">
+            <node id="10" pos="prep" rel="hd" root="van" sense="van"/>
+            <node cat="np" id="11" rel="obj1">
+              <node id="12" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+              <node aform="base" id="13" infl="e" pos="adj" rel="mod" root="internationaal" sense="internationaal" vform="adj"/>
+              <node aform="base" id="14" infl="e" pos="adj" rel="mod" root="monetair" sense="monetair" vform="adj"/>
+              <node gen="het" id="15" num="sg" pos="noun" rel="hd" root="fonds" sense="fonds"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

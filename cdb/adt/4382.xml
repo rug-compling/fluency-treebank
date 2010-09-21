@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="conj" id="2" rel="su">
+        <node cat="mwu" id="3" mwu_root="Bijenkorf Beheer" mwu_sense="Bijenkorf Beheer" rel="cnj">
+          <node id="4" neclass="PER" num="both" pos="name" rel="mwp" root="Bijenkorf" sense="Bijenkorf"/>
+          <node id="5" neclass="PER" num="both" pos="name" rel="mwp" root="Beheer" sense="Beheer"/>
+        </node>
+        <node id="6" pos="vg" rel="crd" root="en" sense="en"/>
+        <node id="7" neclass="ORG" num="both" pos="name" rel="cnj" root="Calve" sense="Calve"/>
+      </node>
+      <node id="8" infl="pl" pos="verb" rel="hd" root="geef_prijs" sc="part_transitive(prijs)" sense="geef_prijs" tense="past"/>
+      <node id="9" pos="adv" rel="predm" root="ieder" sense="ieder" special="predm"/>
+      <node cat="np" id="10" rel="obj1">
+        <node id="11" infl="pl_num" pos="num" rel="det" root="6" sense="6" special="hoofd"/>
+        <node gen="both" id="12" num="pl" pos="noun" rel="hd" root="punt" sense="punt" special="meas_mod"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

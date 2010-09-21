@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="ti" id="1" rel="--">
+      <node id="2" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+      <node cat="inf" id="3" rel="body">
+        <node id="4" pos="adv" rel="mod" root="nu" sense="nu" special="tmp"/>
+        <node cat="du" id="5" rel="predm">
+          <node id="6" pos="adv" rel="dp" root="eens" sense="eens" special="eenmaal"/>
+          <node cat="ap" id="7" rel="dp">
+            <node id="8" pos="adv" rel="mod" root="niet" sense="niet"/>
+            <node aform="base" id="9" infl="pred" pos="adj" rel="hd" root="om" sense="om" vform="adj"/>
+          </node>
+        </node>
+        <node cat="np" id="10" rel="obj2">
+          <node id="11" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node cat="mwu" id="12" mwu_root="happy few" mwu_sense="happy few" rel="hd">
+            <node id="13" neclass="MISC" num="sg" pos="name" rel="mwp" root="happy" sense="happy"/>
+            <node id="14" neclass="MISC" num="sg" pos="name" rel="mwp" root="few" sense="few"/>
+          </node>
+        </node>
+        <node cat="np" id="15" rel="obj1">
+          <node id="16" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node cat="ppart" id="17" rel="mod">
+            <node aform="base" id="18" infl="no_e" pos="adj" rel="mod" root="overvloedig" sense="overvloedig" vform="adj"/>
+            <node aform="base" id="19" infl="e" pos="adj" rel="hd" root="belegd" sense="belegd" vform="psp"/>
+          </node>
+          <node gen="de" id="20" num="sg" pos="noun" rel="hd" root="boterham" sense="boterham"/>
+        </node>
+        <node id="21" infl="inf" pos="verb" rel="hd" root="bezorg" sc="np_np" sense="bezorg"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

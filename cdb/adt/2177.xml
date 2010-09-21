@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="mod">
+        <node id="3" pos="prep" rel="hd" root="in" sense="in"/>
+        <node cat="np" id="4" rel="obj1">
+          <node id="5" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node cat="ap" id="6" rel="mod">
+            <node cat="pp" id="7" rel="mod">
+              <node id="8" pos="prep" rel="hd" root="tijdens" sense="tijdens"/>
+              <node cat="np" id="9" rel="obj1">
+                <node id="10" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                <node gen="de" id="11" num="sg" pos="noun" rel="hd" root="jaarwisseling" sense="jaarwisseling" special="tmp"/>
+              </node>
+            </node>
+            <node aform="compar" id="12" infl="anders" pos="adj" rel="mod" root="anders" sense="anders" vform="adj"/>
+            <node id="13" pos="adv" rel="mod" root="zo" sense="zo"/>
+            <node aform="base" id="14" infl="e" pos="adj" rel="hd" root="rumoerig" sense="rumoerig" vform="adj"/>
+          </node>
+          <node gen="de" id="15" num="sg" pos="noun" rel="hd" root="wijk" sense="wijk"/>
+          <node id="16" neclass="LOC" num="both" pos="name" rel="app" root="Helpman" sense="Helpman"/>
+          <node cat="pp" id="17" rel="mod">
+            <node id="18" pos="prep" rel="hd" root="in" sense="in"/>
+            <node id="19" neclass="LOC" num="both" pos="name" rel="obj1" root="GRONINGEN" sense="GRONINGEN"/>
+          </node>
+        </node>
+      </node>
+      <node id="20" infl="sg" pos="verb" rel="hd" root="blijf" sc="copula" sense="blijf" tense="past"/>
+      <node id="21" infl="het" pos="det" rel="su" root="het" sense="het" wh="nwh"/>
+      <node cat="np" id="22" rel="mod">
+        <node id="23" pos="adv" rel="mod" root="ook" sc="modal" sense="ook"/>
+        <node id="24" infl="het" pos="det" rel="det" root="dit" sense="dit" wh="nwh"/>
+        <node gen="het" id="25" num="meas" pos="noun" rel="hd" root="jaar" sense="jaar" special="tmp"/>
+      </node>
+      <node aform="base" id="26" infl="no_e" pos="adj" rel="predc" root="rustig" sense="rustig" vform="adj"/>
+    </node>
+  </node>
+</alpino_adt>

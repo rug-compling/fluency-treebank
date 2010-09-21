@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="pl" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="present"/>
+      <node cat="np" id="3" index="1" rel="su">
+        <node aform="base" id="4" infl="e" pos="adj" rel="mod" root="divers" sense="divers" vform="adj"/>
+        <node gen="het" id="5" num="pl" pos="noun" rel="hd" root="carrosserie_bedrijf" sense="carrosserie_bedrijf"/>
+      </node>
+      <node cat="ppart" id="6" rel="vc">
+        <node cat="pp" id="7" rel="mod">
+          <node id="8" pos="prep" rel="hd" root="in" sense="in"/>
+          <node id="9" neclass="LOC" num="both" pos="name" rel="obj1" root="Duitsland" sense="Duitsland"/>
+        </node>
+        <node id="10" index="1" rel="su"/>
+        <node id="11" num="both" per="u_thi" pos="pron" refl="refl" rel="se" root="zich" sense="zich"/>
+        <node cat="pp" id="12" rel="pc">
+          <node id="13" pos="prep" rel="hd" root="op" sense="op"/>
+          <node cat="np" id="14" rel="obj1">
+            <node id="15" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="16" num="sg" pos="noun" rel="hd" root="productie" sense="productie"/>
+            <node cat="pp" id="17" rel="mod">
+              <node id="18" pos="prep" rel="hd" root="van" sense="van"/>
+              <node cat="np" id="19" rel="obj1">
+                <node id="20" infl="de" pos="det" rel="det" root="deze" sense="deze" wh="nwh"/>
+                <node gen="het" id="21" num="pl" pos="noun" rel="hd" root="vervoer_middel" sense="vervoer_middel"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node id="22" infl="psp" pos="verb" rel="hd" root="leg_toe" sc="part_refl_pc_pp(toe,op)" sense="zich-leg_toe-op"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

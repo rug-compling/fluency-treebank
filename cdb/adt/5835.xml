@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg_heeft" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="present"/>
+      <node cat="np" id="3" index="1" rel="su">
+        <node cat="mwu" id="4" mwu_root="dr. Schilling" mwu_sense="dr. Schilling" rel="hd">
+          <node id="5" neclass="PER" num="both" pos="name" rel="mwp" root="dr." sense="dr."/>
+          <node id="6" neclass="PER" num="both" pos="name" rel="mwp" root="Schilling" sense="Schilling"/>
+        </node>
+        <node cat="pp" id="7" rel="mod">
+          <node id="8" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="9" rel="obj1">
+            <node id="10" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="11" num="sg" pos="noun" rel="hd" root="universiteit" sense="universiteit"/>
+            <node cat="pp" id="12" rel="mod">
+              <node id="13" pos="prep" rel="hd" root="van" sense="van"/>
+              <node cat="mwu" id="14" mwu_root="Rhode Island" mwu_sense="Rhode Island" rel="obj1">
+                <node id="15" neclass="LOC" num="both" pos="name" rel="mwp" root="Rhode" sense="Rhode"/>
+                <node id="16" neclass="LOC" num="both" pos="name" rel="mwp" root="Island" sense="Island"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node cat="ppart" id="17" rel="vc">
+        <node id="18" pos="adv" rel="mod" root="onlangs" sense="onlangs" special="tmp"/>
+        <node id="19" index="1" rel="su"/>
+        <node cat="np" id="20" rel="obj1">
+          <node id="21" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node aform="base" id="22" infl="no_e" pos="adj" rel="mod" root="nieuw" sense="nieuw" vform="adj"/>
+          <node gen="het" id="23" num="sg" pos="noun" rel="hd" root="argument" sense="argument"/>
+        </node>
+        <node id="24" infl="psp" pos="verb" rel="hd" root="voer_aan" sc="part_transitive(aan)" sense="voer_aan"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="het" id="4" num="sg" pos="noun" rel="hd" root="congres" sense="congres"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="over" sense="over"/>
+          <node cat="conj" id="7" rel="obj1">
+            <node cat="np" id="8" rel="cnj">
+              <node id="9" index="1" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node id="10" pos="prefix" rel="hd" root="inkomens" sense="inkomens"/>
+            </node>
+            <node id="11" pos="vg" rel="crd" root="en" sense="en"/>
+            <node cat="np" id="12" rel="cnj">
+              <node id="13" index="1" rel="det"/>
+              <node gen="de" id="14" num="sg" pos="noun" rel="hd" root="vermogen_verdeling" sense="vermogen_verdeling"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="15" infl="sg" pos="verb" rel="hd" root="begin" sc="pc_pp(met)" sense="begin-met" tense="past"/>
+      <node cat="pp" id="16" rel="pc">
+        <node id="17" pos="prep" rel="hd" root="met" sense="met"/>
+        <node cat="np" id="18" rel="obj1">
+          <node id="19" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node cat="ppart" id="20" rel="mod">
+            <node aform="base" id="21" infl="no_e" pos="adj" rel="mod" root="luid" sense="luid" vform="adj"/>
+            <node aform="base" id="22" infl="e" pos="adj" rel="hd" root="bejubeld" sense="bejubeld" vform="psp"/>
+          </node>
+          <node gen="de" id="23" num="sg" pos="noun" rel="hd" root="afwijzing" sense="afwijzing"/>
+          <node cat="pp" id="24" rel="mod">
+            <node id="25" pos="prep" rel="hd" root="van" sense="van"/>
+            <node cat="np" id="26" rel="obj1">
+              <node cat="np" id="27" rel="det">
+                <node gen="de" id="28" num="sg" pos="noun" rel="hd" root="minister" sense="minister"/>
+                <node id="29" infl="pron" neclass="PER" pos="det" rel="app" root="Roolvink" sense="Roolvink" special="name"/>
+              </node>
+              <node gen="de" id="30" num="sg" pos="noun" rel="hd" root="loon_wet" sense="loon_wet"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

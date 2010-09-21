@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="smain" id="2" rel="dp">
+        <node cat="np" id="3" rel="su">
+          <node id="4" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+          <node id="5" pos="verb" rel="hd" root="organiseer" sc="intransitive" sense="organiseer" special="v_noun"/>
+          <node cat="pp" id="6" rel="mod">
+            <node id="7" pos="prep" rel="hd" root="van" sense="van"/>
+            <node gen="het" id="8" num="pl" pos="noun" rel="obj1" root="pop_festival" sense="pop_festival"/>
+          </node>
+        </node>
+        <node id="9" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+        <node gen="de" id="10" num="sg" pos="noun" rel="predc" root="business" sense="business"/>
+      </node>
+      <node cat="smain" id="11" rel="dp">
+        <node id="12" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="pc_pp(aan)" sense="ben-aan" tense="present"/>
+        <node cat="np" id="13" rel="su">
+          <node id="14" pos="noun" rel="hd" root="niets" sc="iets" sense="niets"/>
+          <node aform="base" id="15" infl="no_e" pos="adj" rel="mod" root="kwaad" sense="kwaad" special="iets" vform="adj"/>
+        </node>
+        <node cat="pp" id="16" rel="pc">
+          <node id="17" pos="adv" rel="obj1" root="daar" sense="daar" special="er_loc"/>
+          <node id="18" pos="prep" rel="hd" root="aan" sense="aan"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

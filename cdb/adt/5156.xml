@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="tanker" sense="tanker"/>
+        <node cat="np" id="5" rel="app">
+          <node id="6" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node cat="mwu" id="7" mwu_root="Ton Shosei Maru" mwu_sense="Ton Shosei Maru" rel="hd">
+            <node id="8" neclass="ORG" num="both" pos="name" rel="mwp" root="Ton" sense="Ton"/>
+            <node id="9" neclass="ORG" num="both" pos="name" rel="mwp" root="Shosei" sense="Shosei"/>
+            <node id="10" neclass="ORG" num="both" pos="name" rel="mwp" root="Maru" sense="Maru"/>
+          </node>
+        </node>
+      </node>
+      <node id="11" infl="sg" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="past"/>
+      <node cat="ppart" id="12" rel="vc">
+        <node id="13" index="1" rel="obj1"/>
+        <node cat="ap" id="14" rel="mod">
+          <node cat="np" id="15" rel="me">
+            <node id="16" infl="pl_num" pos="num" rel="det" root="vijf" sense="vijf" special="hoofd"/>
+            <node gen="het" id="17" num="meas" pos="noun" rel="hd" root="jaar" sense="jaar" special="tmp"/>
+          </node>
+          <node id="18" pos="adj" rel="hd" root="geleden" sc="pred_np_me" sense="geleden"/>
+        </node>
+        <node id="19" infl="psp" pos="verb" rel="hd" root="bouw" sc="transitive" sense="bouw"/>
+        <node cat="pp" id="20" rel="mod">
+          <node id="21" pos="prep" rel="hd" root="door" sense="door"/>
+          <node cat="np" id="22" rel="obj1">
+            <node id="23" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node cat="mwu" id="24" mwu_root="Kawasaki Scheepswerven" mwu_sense="Kawasaki Scheepswerven" rel="hd">
+              <node id="25" neclass="ORG" num="both" pos="name" rel="mwp" root="Kawasaki" sense="Kawasaki"/>
+              <node id="26" neclass="ORG" num="both" pos="name" rel="mwp" root="Scheepswerven" sense="Scheepswerven"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

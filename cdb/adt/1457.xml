@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="mwu" id="2" mwu_root="Olympia&apos;s Toer door Nederland" mwu_sense="Olympia&apos;s Toer door Nederland" rel="su">
+        <node id="3" num="both" pos="name" rel="mwp" root="Olympia&apos;s" sense="Olympia&apos;s"/>
+        <node id="4" num="both" pos="name" rel="mwp" root="Toer" sense="Toer"/>
+        <node id="5" num="both" pos="name" rel="mwp" root="door" sense="door"/>
+        <node id="6" num="both" pos="name" rel="mwp" root="Nederland" sense="Nederland"/>
+      </node>
+      <node id="7" infl="sg3" pos="verb" rel="hd" root="ga_door" sc="part_intransitive(door)" sense="ga_door" tense="present"/>
+      <node cat="pp" id="8" rel="mod">
+        <node id="9" pos="prep" rel="hd" root="in" sense="in"/>
+        <node id="10" neclass="year" pos="noun" rel="obj1" root="1970" sense="1970"/>
+      </node>
+      <node aform="base" id="11" infl="no_e" pos="adj" rel="mod" root="definitief" sense="definitief" vform="adj"/>
+    </node>
+  </node>
+</alpino_adt>

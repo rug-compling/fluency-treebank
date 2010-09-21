@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="advp" id="2" rel="cnj">
+        <node cat="mwu" id="3" mwu_root="&apos;s woensdagavonds" mwu_sense="&apos;s woensdagavonds" rel="hd">
+          <node id="4" pos="adv" rel="mwp" root="&apos;s" sense="&apos;s" special="tmp"/>
+          <node id="5" pos="adv" rel="mwp" root="woensdagavonds" sense="woensdagavonds" special="tmp"/>
+        </node>
+        <node cat="pp" id="6" rel="mod">
+          <node id="7" pos="prep" rel="hd" root="in" sense="in"/>
+          <node cat="np" id="8" rel="obj1">
+            <node cat="mwu" id="9" mwu_root="de Doelen" mwu_sense="de Doelen" rel="hd">
+              <node id="10" neclass="LOC" num="both" pos="name" rel="mwp" root="de" sense="de"/>
+              <node id="11" neclass="LOC" num="both" pos="name" rel="mwp" root="Doelen" sense="Doelen"/>
+            </node>
+            <node cat="pp" id="12" rel="mod">
+              <node id="13" pos="prep" rel="hd" root="in" sense="in"/>
+              <node id="14" neclass="LOC" num="both" pos="name" rel="obj1" root="Rotterdam" sense="Rotterdam"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="15" pos="vg" rel="crd" root="en" sense="en"/>
+      <node cat="np" id="16" rel="cnj">
+        <node id="17" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node aform="base" id="18" infl="e" pos="adj" rel="mod" root="volg" sense="volg" vform="gerund"/>
+        <node gen="de" id="19" num="sg" pos="noun" rel="hd" root="avond" sense="avond" special="tmp"/>
+        <node cat="pp" id="20" rel="mod">
+          <node id="21" pos="prep" rel="hd" root="in" sense="in"/>
+          <node cat="np" id="22" rel="obj1">
+            <node id="23" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+            <node id="24" neclass="LOC" num="both" pos="name" rel="hd" root="Concertgebouw" sense="Concertgebouw"/>
+            <node cat="pp" id="25" rel="mod">
+              <node id="26" pos="prep" rel="hd" root="in" sense="in"/>
+              <node id="27" neclass="LOC" num="both" pos="name" rel="obj1" root="Amsterdam" sense="Amsterdam"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

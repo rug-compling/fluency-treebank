@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="het" id="4" num="pl" pos="noun" rel="hd" root="voorstel" sense="voorstel"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="tot" sense="tot"/>
+          <node cat="np" id="7" rel="obj1">
+            <node gen="de" id="8" num="sg" pos="noun" rel="hd" root="wijziging" sense="wijziging"/>
+            <node cat="np" id="9" rel="mod">
+              <node id="10" infl="der" pos="det" rel="det" root="de" sense="de"/>
+              <node gen="het" id="11" num="pl" pos="noun" rel="hd" root="statuut" sense="statuut"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="12" infl="pl" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="past"/>
+      <node cat="ppart" id="13" rel="vc">
+        <node id="14" index="1" rel="obj1"/>
+        <node cat="pp" id="15" rel="mod">
+          <node id="16" pos="adv" rel="mod" root="praktisch" sc="adv_noun_prep" sense="praktisch"/>
+          <node id="17" pos="prep" rel="hd" root="zonder" sense="zonder"/>
+          <node cat="np" id="18" rel="obj1">
+            <node id="19" infl="welke" pos="det" rel="det" root="enig" sense="enig"/>
+            <node gen="de" id="20" num="sg" pos="noun" rel="hd" root="discussie" sense="discussie"/>
+          </node>
+        </node>
+        <node id="21" infl="psp" pos="verb" rel="hd" root="keur_goed" sc="part_transitive(goed)" sense="keur_goed"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

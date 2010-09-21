@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="mod">
+        <node id="3" pos="prep" rel="hd" root="in" sense="in"/>
+        <node cat="np" id="4" rel="obj1">
+          <node id="5" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+          <node gen="het" id="6" num="sg" pos="noun" rel="hd" root="zomer_seizoen" sense="zomer_seizoen" special="tmp"/>
+        </node>
+      </node>
+      <node id="7" infl="pl" pos="verb" rel="hd" root="kom" sc="ld_pp" sense="kom" tense="present"/>
+      <node cat="np" id="8" rel="mod">
+        <node id="9" pos="adv" rel="mod" root="nog" sc="modal" sense="nog"/>
+        <node id="10" infl="het" pos="det" rel="det" root="ieder" sense="ieder" wh="nwh"/>
+        <node gen="het" id="11" num="meas" pos="noun" rel="hd" root="jaar" sense="jaar" special="tmp"/>
+      </node>
+      <node cat="conj" id="12" rel="su">
+        <node cat="np" id="13" rel="cnj">
+          <node cat="conj" id="14" index="1" rel="det">
+            <node id="15" pos="prefix" rel="cnj" root="zestig" sense="zestig"/>
+            <node id="16" pos="vg" rel="crd" root="à" sense="à"/>
+            <node id="17" infl="pl_num" pos="num" rel="cnj" root="zeventigduizend" sense="zeventigduizend" special="hoofd"/>
+          </node>
+          <node gen="de" id="18" num="pl" pos="noun" rel="hd" root="katholiek" sense="katholiek"/>
+        </node>
+        <node id="19" pos="vg" rel="crd" root="en" sense="en"/>
+        <node cat="np" id="20" rel="cnj">
+          <node id="21" index="1" rel="det"/>
+          <node gen="de" id="22" num="pl" pos="noun" rel="hd" root="niet_katholiek" sense="niet_katholiek"/>
+        </node>
+      </node>
+      <node cat="pp" id="23" rel="ld">
+        <node id="24" pos="prep" rel="hd" root="naar" sense="naar"/>
+        <node cat="np" id="25" rel="obj1">
+          <node id="26" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node cat="mwu" id="27" mwu_root="H. Landstichting" mwu_sense="H. Landstichting" rel="hd">
+            <node id="28" neclass="ORG" num="both" pos="name" rel="mwp" root="H." sense="H."/>
+            <node id="29" neclass="ORG" num="both" pos="name" rel="mwp" root="Landstichting" sense="Landstichting"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

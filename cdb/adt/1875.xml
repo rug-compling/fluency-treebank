@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node id="2" pos="tag" rel="tag" root="ja" sense="ja"/>
+      <node cat="smain" id="3" rel="nucl">
+        <node cat="np" id="4" rel="su">
+          <node id="5" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+          <node gen="het" id="6" num="sg" pos="noun" rel="hd" root="been" sense="been"/>
+        </node>
+        <node id="7" infl="sg3" pos="verb" rel="hd" root="blijf" sc="copula" sense="blijf" tense="present"/>
+        <node id="8" pos="adv" rel="mod" root="vooralsnog" sense="vooralsnog"/>
+        <node aform="base" id="9" infl="no_e" pos="adj" rel="predc" root="zichtbaar" sense="zichtbaar" vform="adj"/>
+        <node cat="pp" id="10" rel="mod">
+          <node id="11" pos="adv" rel="mod" root="ook" sc="modal" sense="ook"/>
+          <node id="12" pos="prep" rel="hd" root="via" sense="via"/>
+          <node cat="np" id="13" rel="obj1">
+            <node aform="base" id="14" infl="e" pos="adj" rel="mod" root="doorzichtig" sense="doorzichtig" vform="adj"/>
+            <node gen="het" id="15" num="pl" pos="noun" rel="hd" root="materiaal" sense="materiaal"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

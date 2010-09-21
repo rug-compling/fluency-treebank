@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="het" id="4" num="sg" pos="noun" rel="hd" root="verloop" sense="verloop"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="7" rel="obj1">
+            <node id="8" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="9" num="sg" pos="noun" rel="hd" root="strijd" sense="strijd"/>
+            <node cat="pp" id="10" rel="mod">
+              <node id="11" pos="prep" rel="hd" root="om" sense="om"/>
+              <node cat="np" id="12" rel="obj1">
+                <node id="13" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                <node gen="de" id="14" num="sg" pos="noun" rel="hd" root="wereldtitel" sense="wereldtitel"/>
+              </node>
+            </node>
+            <node cat="pp" id="15" rel="mod">
+              <node id="16" pos="prep" rel="hd" root="in" sense="in"/>
+              <node id="17" neclass="LOC" num="both" pos="name" rel="obj1" root="Moskou" sense="Moskou"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="18" infl="sg" pos="verb" rel="hd" root="laat_toe" sc="part_transitive(toe)" sense="laat_toe" tense="present"/>
+      <node cat="np" id="19" rel="obj1">
+        <node id="20" infl="geen" pos="det" rel="det" root="geen" sense="geen" wh="nwh"/>
+        <node aform="compar" id="21" infl="e" pos="adj" rel="mod" root="ander" sense="ander" vform="adj"/>
+        <node gen="de" id="22" num="sg" pos="noun" rel="hd" root="conclusie" sense="conclusie"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

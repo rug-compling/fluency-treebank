@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="smain" id="2" rel="cnj">
+        <node cat="mwu" id="3" mwu_root="Twentsche Kabel" mwu_sense="Twentsche Kabel" rel="su">
+          <node id="4" neclass="ORG" num="both" pos="name" rel="mwp" root="Twentsche" sense="Twentsche"/>
+          <node id="5" neclass="ORG" num="both" pos="name" rel="mwp" root="Kabel" sense="Kabel"/>
+        </node>
+        <node id="6" infl="sg" pos="verb" rel="hd" root="trek_aan" sc="part_transitive(aan)" sense="trek_aan" tense="past"/>
+        <node cat="pp" id="7" rel="mod">
+          <node id="8" pos="prep" rel="hd" root="per" sense="per"/>
+          <node gen="het" id="9" num="sg" pos="noun" rel="obj1" root="saldo" sense="saldo"/>
+        </node>
+        <node cat="np" id="10" rel="obj1">
+          <node cat="mwu" id="11" mwu_root="8 1/2" mwu_sense="8 1/2" rel="det">
+            <node id="12" infl="pl_num" pos="num" rel="mwp" root="8" sense="8" special="hoofd"/>
+            <node id="13" infl="pl_num" pos="num" rel="mwp" root="1/2" sense="1/2" special="hoofd"/>
+          </node>
+          <node gen="both" id="14" num="meas" pos="noun" rel="hd" root="punt" sense="punt" special="meas_mod"/>
+        </node>
+      </node>
+      <node id="15" pos="vg" rel="crd" root="en" sense="en"/>
+      <node cat="smain" id="16" rel="cnj">
+        <node id="17" neclass="ORG" num="both" pos="name" rel="su" root="Furness" sense="Furness"/>
+        <node id="18" infl="sg" pos="verb" rel="hd" root="word" sc="copula" sense="word" tense="past"/>
+        <node cat="ap" id="19" rel="predc">
+          <node cat="mwu" id="20" mwu_root="flo 3" mwu_sense="flo 3" rel="me">
+            <node gen="both" id="21" num="bare_meas" pos="noun" rel="mwp" root="flo" sense="flo" special="amount_meas_mod"/>
+            <node gen="both" id="22" num="bare_meas" pos="noun" rel="mwp" root="3" sense="3" special="amount_meas_mod"/>
+          </node>
+          <node aform="compar" id="23" infl="no_e" pos="adj" rel="hd" root="duur" sense="duur" vform="adj"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

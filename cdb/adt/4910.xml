@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="deze" sense="deze" wh="nwh"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="plant_groei" sense="plant_groei"/>
+        <node cat="rel" id="5" rel="mod">
+          <node case="no_obl" gen="de" id="6" index="1" pos="pron" rel="rhd" root="die" sense="die" wh="rel"/>
+          <node cat="ssub" id="7" rel="body">
+            <node id="8" index="1" rel="su"/>
+            <node id="9" pos="adv" rel="mod" root="ook" sense="ook" special="sentence"/>
+            <node cat="np" id="10" rel="obj1">
+              <node id="11" infl="wat" pos="det" rel="det" root="wat" sense="wat" wh="nwh"/>
+              <node gen="het" id="12" num="sg" pos="noun" rel="hd" root="struikgewas" sense="struikgewas"/>
+            </node>
+            <node id="13" infl="sg" pos="verb" rel="hd" root="omvat" sc="transitive" sense="omvat" tense="present"/>
+          </node>
+        </node>
+      </node>
+      <node id="14" infl="sg3" pos="verb" rel="hd" root="scherm_af" sc="part_transitive(af)" sense="scherm_af" tense="present"/>
+      <node cat="np" id="15" rel="obj1">
+        <node id="16" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="17" num="sg" pos="noun" rel="hd" root="bodem" sense="bodem"/>
+      </node>
+      <node cat="pp" id="18" rel="mod">
+        <node id="19" pos="prep" rel="hd" root="tegen" sense="tegen"/>
+        <node cat="np" id="20" rel="obj1">
+          <node id="21" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="22" num="sg" pos="noun" rel="hd" root="zon" sense="zon"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

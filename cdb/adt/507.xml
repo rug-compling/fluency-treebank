@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="argumentatie" sense="argumentatie"/>
+        <node cat="rel" id="5" rel="mod">
+          <node id="6" index="1" pos="pp" rel="rhd" root="waarvan" sense="waarvan" special="waar"/>
+          <node cat="ssub" id="7" rel="body">
+            <node id="8" index="1" rel="pc"/>
+            <node case="nom" def="def" gen="de" id="9" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+            <node id="10" num="both" per="u_thi" pos="pron" refl="refl" rel="se" root="zich" sense="zich"/>
+            <node id="11" infl="sg" pos="verb" rel="hd" root="bedien" sc="refl_pc_pp(van)" sense="zich-bedien-van" tense="past"/>
+          </node>
+        </node>
+      </node>
+      <node id="12" infl="sg" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="past"/>
+      <node id="13" pos="adv" rel="mod" root="soms" sense="soms" special="sentence"/>
+      <node id="14" pos="adv" rel="mod" root="bijna" sense="bijna" special="sentence"/>
+      <node aform="base" id="15" infl="no_e" pos="adj" rel="predc" root="beledig" sense="beledig" vform="gerund"/>
+    </node>
+  </node>
+</alpino_adt>

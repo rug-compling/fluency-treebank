@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="smain" id="2" rel="dp">
+        <node case="nom" def="def" gen="de" id="3" index="1" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+        <node id="4" infl="modal_not_u" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="present"/>
+        <node cat="inf" id="5" rel="vc">
+          <node id="6" index="1" rel="su"/>
+          <node id="7" infl="inf" pos="verb" rel="hd" root="verg" sc="transitive" sense="verg"/>
+          <node cat="np" id="8" rel="obj1">
+            <node id="9" infl="een" pos="det" rel="det" root="een" sense="een"/>
+            <node gen="de" id="10" num="sg" pos="noun" rel="hd" root="investering" sense="investering"/>
+            <node cat="pp" id="11" rel="mod">
+              <node id="12" pos="prep" rel="hd" root="van" sense="van"/>
+              <node cat="mwu" id="13" mwu_root="flo 419 miljoen" mwu_sense="flo 419 miljoen" rel="obj1">
+                <node gen="both" id="14" num="bare_meas" pos="noun" rel="mwp" root="flo" sense="flo" special="amount_meas_mod"/>
+                <node gen="both" id="15" num="bare_meas" pos="noun" rel="mwp" root="419" sense="419" special="amount_meas_mod"/>
+                <node gen="both" id="16" num="bare_meas" pos="noun" rel="mwp" root="miljoen" sense="miljoen" special="amount_meas_mod"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node cat="smain" id="17" rel="dp">
+        <node cat="np" id="18" index="2" rel="su">
+          <node id="19" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="20" num="sg" pos="noun" rel="hd" root="aanleg" sense="aanleg"/>
+        </node>
+        <node id="21" infl="modal_not_u" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="present"/>
+        <node cat="inf" id="22" rel="vc">
+          <node id="23" index="2" rel="su"/>
+          <node cat="np" id="24" rel="me">
+            <node id="25" infl="pl_num" pos="num" rel="det" root="acht" sense="acht" special="hoofd"/>
+            <node gen="het" id="26" num="meas" pos="noun" rel="hd" root="jaar" sense="jaar" special="tmp"/>
+          </node>
+          <node id="27" infl="inf" pos="verb" rel="hd" root="duur" sc="meas" sense="duur"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

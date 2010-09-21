@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node aform="compar" id="2" infl="no_e" pos="adj" rel="mod" root="ver" sense="ver" vform="adj"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="past"/>
+      <node id="4" neclass="PER" num="both" pos="name" rel="su" root="Borgers" sense="Borgers"/>
+      <node cat="conj" id="5" rel="predc">
+        <node cat="np" id="6" rel="cnj">
+          <node gen="de" id="7" num="sg" pos="noun" rel="hd" root="bestuurder" sense="bestuurder"/>
+          <node cat="pp" id="8" rel="mod">
+            <node id="9" pos="prep" rel="hd" root="van" sense="van"/>
+            <node cat="np" id="10" rel="obj1">
+              <node id="11" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node cat="mwu" id="12" mwu_root="Bond van Nederlandse Speeltuinverenigingen" mwu_sense="Bond van Nederlandse Speeltuinverenigingen" rel="hd">
+                <node id="13" neclass="ORG" num="both" pos="name" rel="mwp" root="Bond" sense="Bond"/>
+                <node id="14" neclass="ORG" num="both" pos="name" rel="mwp" root="van" sense="van"/>
+                <node id="15" neclass="ORG" num="both" pos="name" rel="mwp" root="Nederlandse" sense="Nederlandse"/>
+                <node id="16" neclass="ORG" num="both" pos="name" rel="mwp" root="Speeltuinverenigingen" sense="Speeltuinverenigingen"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node id="17" pos="vg" rel="crd" root="en" sense="en"/>
+        <node cat="np" id="18" rel="cnj">
+          <node gen="de" id="19" num="sg" pos="noun" rel="hd" root="redacteur" sense="redacteur"/>
+          <node cat="pp" id="20" rel="mod">
+            <node id="21" pos="prep" rel="hd" root="van" sense="van"/>
+            <node cat="np" id="22" rel="obj1">
+              <node aform="base" id="23" infl="e" pos="adj" rel="mod" root="divers" sense="divers" vform="adj"/>
+              <node gen="het" id="24" num="pl" pos="noun" rel="hd" root="blad" sense="blad"/>
+              <node cat="pp" id="25" rel="mod">
+                <node id="26" pos="prep" rel="hd" root="van" sense="van"/>
+                <node cat="np" id="27" rel="obj1">
+                  <node id="28" infl="de" pos="det" rel="det" root="deze" sense="deze" wh="nwh"/>
+                  <node gen="de" id="29" num="sg" pos="noun" rel="hd" root="bond" sense="bond"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

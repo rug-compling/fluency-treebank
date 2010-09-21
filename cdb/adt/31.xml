@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="np" id="1" rel="--">
+      <node id="2" infl="de" pos="det" rel="det" root="de" sense="de"/>
+      <node cat="mwu" id="3" mwu_root="Monte Carlo" mwu_sense="Monte Carlo" rel="mod">
+        <node id="4" neclass="LOC" num="both" pos="name" rel="mwp" root="Monte" sense="Monte"/>
+        <node id="5" neclass="LOC" num="both" pos="name" rel="mwp" root="Carlo" sense="Carlo"/>
+      </node>
+      <node gen="de" id="6" num="sg" pos="noun" rel="hd" root="coupe" sense="coupe"/>
+      <node cat="rel" id="7" rel="mod">
+        <node case="no_obl" gen="de" id="8" index="1" pos="pron" rel="rhd" root="die" sense="die" wh="rel"/>
+        <node cat="ssub" id="9" rel="body">
+          <node id="10" index="1" rel="su"/>
+          <node cat="np" id="11" rel="obj1">
+            <node id="12" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node aform="base" id="13" infl="e" pos="adj" rel="mod" root="zeef" sense="zeef" vform="gerund"/>
+            <node gen="de" id="14" num="sg" pos="noun" rel="hd" root="wagen_serie" sense="wagen_serie"/>
+            <node cat="pp" id="15" rel="mod">
+              <node id="16" pos="prep" rel="hd" root="van" sense="van"/>
+              <node id="17" neclass="ORG" num="both" pos="name" rel="obj1" root="Chevrolet" sense="Chevrolet"/>
+            </node>
+          </node>
+          <node id="18" infl="sg3" pos="verb" rel="hd" root="vorm" sc="transitive" sense="vorm" tense="present"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

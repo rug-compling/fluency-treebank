@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="heer" sense="heer"/>
+        <node id="5" neclass="LOC" num="both" pos="name" rel="app" root="Post" sense="Post"/>
+      </node>
+      <node id="6" infl="sg" pos="verb" rel="hd" root="onderstreep" sc="sbar" sense="onderstreep" tense="past"/>
+      <node cat="cp" id="7" rel="vc">
+        <node id="8" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+        <node cat="ssub" id="9" rel="body">
+          <node cat="np" id="10" rel="su">
+            <node id="11" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+            <node gen="het" id="12" num="sg" pos="noun" rel="hd" root="beroep" sense="beroep"/>
+            <node cat="pp" id="13" rel="mod">
+              <node id="14" pos="prep" rel="hd" root="van" sense="van"/>
+              <node cat="np" id="15" rel="obj1">
+                <node id="16" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                <node gen="de" id="17" num="sg" pos="noun" rel="hd" root="advocaat" sense="advocaat"/>
+              </node>
+            </node>
+          </node>
+          <node cat="pp" id="18" rel="mod">
+            <node id="19" pos="prep" rel="hd" root="in" sense="in"/>
+            <node cat="np" id="20" rel="obj1">
+              <node aform="base" id="21" infl="e" pos="adj" rel="mod" root="hoog" sense="hoog" vform="adj"/>
+              <node gen="de" id="22" num="sg" pos="noun" rel="hd" root="mate" sense="mate"/>
+            </node>
+          </node>
+          <node cat="np" id="23" rel="predc">
+            <node id="24" infl="een" pos="det" rel="det" root="een" sense="een"/>
+            <node aform="base" id="25" infl="e" pos="adj" rel="mod" root="maatschappelijk" sense="maatschappelijk" vform="adj"/>
+            <node gen="de" id="26" num="sg" pos="noun" rel="hd" root="bezigheid" sense="bezigheid"/>
+          </node>
+          <node id="27" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node id="2" pos="tag" rel="tag" root="hier" sense="hier"/>
+      <node cat="du" id="3" rel="nucl">
+        <node gen="de" id="4" num="sg" pos="noun" rel="sat" root="kijk" sense="kijk"/>
+        <node cat="smain" id="5" rel="nucl">
+          <node id="6" infl="pl" pos="verb" rel="hd" root="wil" sc="modifier(aux(inf))" sense="wil" tense="present"/>
+          <node case="both" def="def" gen="de" id="7" index="1" num="both" per="thi" pos="pron" rel="su" root="ze" sense="ze" special="wkpro" wh="nwh"/>
+          <node cat="inf" id="8" rel="vc">
+            <node cat="conj" id="9" rel="mod">
+              <node cat="pp" id="10" rel="cnj">
+                <node id="11" pos="prep" rel="hd" root="in" sense="in"/>
+                <node id="12" neclass="LOC" num="both" pos="name" rel="obj1" root="Hamburg" sense="Hamburg"/>
+              </node>
+              <node id="13" pos="vg" rel="crd" root="en" sense="en"/>
+              <node cat="pp" id="14" rel="cnj">
+                <node id="15" pos="prep" rel="hd" root="in" sense="in"/>
+                <node id="16" neclass="LOC" num="both" pos="name" rel="obj1" root="Londen" sense="Londen"/>
+              </node>
+            </node>
+            <node id="17" index="1" rel="su"/>
+            <node case="dat_acc" def="def" gen="de" id="18" num="sg" per="fir" pos="pron" rel="obj1" root="mij" sense="mij" wh="nwh"/>
+            <node aform="base" id="19" infl="pred" pos="adj" rel="mod" root="wel" sense="wel" vform="adj"/>
+            <node id="20" infl="inf" pos="verb" rel="hd" root="opereer" sc="transitive" sense="opereer"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

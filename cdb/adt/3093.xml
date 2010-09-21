@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="mod">
+        <node id="3" pos="prep" rel="hd" root="met" sense="met"/>
+        <node cat="np" id="4" rel="obj1">
+          <node id="5" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node gen="de" id="6" num="sg" pos="noun" rel="hd" root="achterstand" sense="achterstand"/>
+          <node cat="pp" id="7" rel="mod">
+            <node id="8" pos="prep" rel="hd" root="van" sense="van"/>
+            <node cat="np" id="9" rel="obj1">
+              <node id="10" pos="adv" rel="mod" root="amper" sc="noun_prep" sense="amper"/>
+              <node id="11" infl="pl_num" pos="num" rel="det" root="twintig" sense="twintig" special="hoofd"/>
+              <node gen="de" id="12" num="meas" pos="noun" rel="hd" root="meter" sense="meter" special="meas_mod"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="13" infl="sg" pos="verb" rel="hd" root="ga" sc="ld_pp" sense="ga" tense="past"/>
+      <node id="14" neclass="PER" num="both" pos="name" rel="su" root="Ickx" sense="Ickx"/>
+      <node cat="cp" id="15" rel="mod">
+        <node id="16" pos="comp" rel="cmp" root="na" sc="inf" sense="na"/>
+        <node cat="ti" id="17" rel="body">
+          <node id="18" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+          <node cat="inf" id="19" rel="body">
+            <node id="20" infl="inf" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb"/>
+            <node cat="ppart" id="21" rel="vc">
+              <node cat="np" id="22" rel="obj1">
+                <node id="23" infl="both" pos="num" rel="det" root="338,4" sense="338,4" special="hoofd"/>
+                <node gen="de" id="24" num="pl" pos="noun" rel="hd" root="kilo_meter" sense="kilo_meter" special="meas_mod"/>
+              </node>
+              <node id="25" infl="psp" pos="verb" rel="hd" root="leg_af" sc="part_transitive(af)" sense="leg_af"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node cat="pp" id="26" rel="ld">
+        <node id="27" pos="prep" rel="hd" root="door" sense="door"/>
+        <node cat="np" id="28" rel="obj1">
+          <node id="29" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="30" num="sg" pos="noun" rel="hd" root="finish" sense="finish"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="pl" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="present"/>
+      <node cat="np" id="3" index="1" rel="su">
+        <node id="4" infl="pl_num" pos="num" rel="det" root="twee" sense="twee" special="hoofd"/>
+        <node gen="het" id="5" num="pl" pos="noun" rel="hd" root="partij_blok" sense="partij_blok"/>
+      </node>
+      <node cat="ppart" id="6" rel="vc">
+        <node aform="base" id="7" infl="no_e" pos="adj" rel="mod" root="lang" sense="lang" vform="adj"/>
+        <node id="8" index="1" rel="su"/>
+        <node cat="pp" id="9" rel="ld">
+          <node id="10" pos="prep" rel="hd" root="tegenover" sense="tegenover"/>
+          <node case="dat_acc" def="def" gen="de" id="11" num="pl" per="thi" pos="pron" rel="obj1" root="elkaar" sense="elkaar" wh="nwh"/>
+        </node>
+        <node id="12" infl="psp" pos="verb" rel="hd" root="sta" sc="ld_pp" sense="sta"/>
+        <node cat="pp" id="13" rel="mod">
+          <node id="14" pos="prep" rel="hd" root="zonder" sc="sbar" sense="zonder"/>
+          <node cat="cp" id="15" rel="vc">
+            <node id="16" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+            <node cat="ssub" id="17" rel="body">
+              <node cat="np" id="18" index="2" rel="su">
+                <node id="19" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                <node case="both" def="indef" gen="both" id="20" num="sg" per="thi" pos="pron" rel="hd" root="een" sense="een" wh="nwh"/>
+              </node>
+              <node id="21" infl="sg" pos="verb" rel="hd" root="wil" sc="modifier(aux(inf))" sense="wil" tense="past"/>
+              <node cat="inf" id="22" rel="vc">
+                <node id="23" index="2" rel="su"/>
+                <node cat="np" id="24" rel="obj2">
+                  <node id="25" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                  <node gen="both" id="26" num="sg" pos="noun" rel="hd" root="ander" sense="ander"/>
+                </node>
+                <node gen="het" id="27" num="sg" pos="noun" rel="obj1" root="iets" sense="iets" special="meas_mod"/>
+                <node id="28" infl="inf" pos="verb" rel="hd" root="geef_toe" sc="part_np_np(toe)" sense="geef_toe"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

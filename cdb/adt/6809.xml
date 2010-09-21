@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node aform="base" id="2" infl="no_e" pos="adj" rel="predm" root="lach" sense="lach" vform="gerund"/>
+      <node id="3" infl="sg3" pos="verb" rel="hd" root="vertel" sc="sbar" sense="vertel" tense="present"/>
+      <node id="4" neclass="LOC" num="both" pos="name" rel="su" root="Kopland" sense="Kopland"/>
+      <node cat="whsub" id="5" rel="vc">
+        <node id="6" index="1" pos="adj" rel="whd" root="hoe" sense="hoe" wh="ywh"/>
+        <node cat="ssub" id="7" rel="body">
+          <node id="8" index="1" rel="mod"/>
+          <node cat="np" id="9" rel="su">
+            <node id="10" infl="een" pos="det" rel="det" root="een" sense="een"/>
+            <node aform="compar" id="11" infl="e" pos="adj" rel="mod" root="ander" sense="ander" vform="adj"/>
+            <node gen="de" id="12" num="sg" pos="noun" rel="hd" root="interviewer" sense="interviewer"/>
+          </node>
+          <node cat="pp" id="13" rel="mod">
+            <node id="14" pos="prep" rel="hd" root="in" sense="in"/>
+            <node cat="np" id="15" rel="obj1">
+              <node id="16" infl="pron" pos="det" rel="det" root="zijn" sense="zijn"/>
+              <node gen="het" id="17" num="sg" pos="noun" rel="hd" root="verhaal" sense="verhaal"/>
+            </node>
+          </node>
+          <node id="18" pos="verb" rel="obj1" root="ding" sc="intransitive" sense="ding" special="v_noun"/>
+          <node id="19" infl="sg" pos="verb" rel="hd" root="schrijf" sc="transitive" sense="schrijf" tense="past"/>
+        </node>
+      </node>
+      <node id="20" pos="comp" rel="mod" root="zoals" sc="zoals" sense="zoals"/>
+    </node>
+  </node>
+</alpino_adt>

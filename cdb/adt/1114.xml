@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" pos="noun" rel="sup" root="het" sense="het" special="het"/>
+      <node id="3" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula_sbar" sense="ben" tense="present"/>
+      <node cat="pp" id="4" rel="predc">
+        <node id="5" pos="prep" rel="hd" root="buiten" sense="buiten"/>
+        <node gen="de" id="6" num="sg" pos="noun" rel="obj1" root="twijfel" sc="pred_pp(buiten,subject_sbar)" sense="twijfel"/>
+      </node>
+      <node cat="cp" id="7" rel="su">
+        <node id="8" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+        <node cat="ssub" id="9" rel="body">
+          <node cat="np" id="10" index="1" rel="su">
+            <node cat="ap" id="11" rel="mod">
+              <node aform="base" id="12" infl="pred" pos="adj" rel="mod" root="wel" sense="wel" vform="adj"/>
+              <node id="13" pos="adv" rel="mod" root="wat" sense="wat"/>
+              <node aform="base" id="14" infl="no_e" pos="adj" rel="hd" root="erg" sense="erg" vform="adj"/>
+            </node>
+            <node aform="base" id="15" infl="no_e" pos="adj" rel="hd" root="veel" sense="veel" vform="adj"/>
+          </node>
+          <node id="16" infl="sg3" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="present"/>
+          <node cat="ppart" id="17" rel="vc">
+            <node id="18" pos="adv" rel="mod" root="hier" sense="hier" special="er_loc"/>
+            <node id="19" index="1" rel="obj1"/>
+            <node cat="pp" id="20" rel="pc">
+              <node id="21" pos="prep" rel="hd" root="aan" sense="aan"/>
+              <node cat="np" id="22" rel="obj1">
+                <node id="23" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+                <node gen="het" id="24" num="sg" pos="noun" rel="hd" root="verkeer" sense="verkeer"/>
+              </node>
+            </node>
+            <node id="25" infl="psp" pos="verb" rel="hd" root="offer_op" sc="part_np_pc_pp(op,aan)" sense="offer_op-aan"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

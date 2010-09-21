@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="mwu" id="1" mwu_root="dat wil zeggen" mwu_sense="dat wil zeggen" rel="--">
+      <node id="2" pos="comp" rel="mwp" root="dat" sc="np" sense="dat"/>
+      <node id="3" pos="comp" rel="mwp" root="wil" sc="np" sense="wil"/>
+      <node id="4" pos="comp" rel="mwp" root="zeggen" sc="np" sense="zeggen"/>
+    </node>
+  </node>
+</alpino_adt>

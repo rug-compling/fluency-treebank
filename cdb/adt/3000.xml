@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="np" id="1" rel="--">
+      <node case="both" def="indef" gen="het" id="2" num="sg" per="thi" pos="pron" rel="hd" root="zoiets" sense="zoiets" special="strpro" wh="nwh"/>
+      <node cat="cp" id="3" rel="mod">
+        <node id="4" pos="comp" rel="cmp" root="als" sc="als" sense="als"/>
+        <node cat="pp" id="5" rel="body">
+          <node id="6" pos="prep" rel="hd" root="op" sense="op"/>
+          <node cat="np" id="7" rel="obj1">
+            <node id="8" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="9" num="sg" pos="noun" rel="hd" root="markt" sense="markt"/>
+            <node id="10" pos="adv" rel="mod" root="dus" sense="dus" special="postnp"/>
+            <node cat="whrel" id="11" rel="mod">
+              <node id="12" index="1" pos="adv" rel="rhd" root="waar" sense="waar" special="er_loc" wh="ywh"/>
+              <node cat="ssub" id="13" rel="body">
+                <node id="14" index="1" rel="mod"/>
+                <node gen="de" id="15" index="2" num="pl" pos="noun" rel="su" root="stand_werker" sense="stand_werker"/>
+                <node id="16" infl="pl" pos="verb" rel="hd" root="tracht" sc="vp" sense="tracht" tense="present"/>
+                <node cat="ti" id="17" rel="vc">
+                  <node id="18" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+                  <node cat="inf" id="19" rel="body">
+                    <node id="20" index="2" rel="su"/>
+                    <node cat="np" id="21" rel="obj1">
+                      <node id="22" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+                      <node gen="het" id="23" num="sg" pos="noun" rel="hd" root="publiek" sense="publiek"/>
+                    </node>
+                    <node cat="pp" id="24" rel="ld">
+                      <node id="25" pos="prep" rel="hd" root="naar" sense="naar"/>
+                      <node case="dat_acc" def="def" gen="de" id="26" num="both" per="thi" pos="pron" rel="obj1" root="zich" sense="zich" special="wkpro" wh="nwh"/>
+                      <node id="27" pos="part" rel="hdf" root="toe" sense="toe"/>
+                    </node>
+                    <node id="28" infl="inf" pos="verb" rel="hd" root="lok" sc="np_ld_pp" sense="lok"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node aform="base" id="4" infl="e" pos="adj" rel="mod" root="lang" sense="lang" vform="adj"/>
+        <node gen="de" id="5" num="sg" pos="noun" rel="hd" root="reeks" sense="reeks"/>
+        <node cat="pp" id="6" rel="mod">
+          <node id="7" pos="prep" rel="hd" root="van" sense="van"/>
+          <node gen="de" id="8" num="pl" pos="noun" rel="obj1" root="diefstal" sense="diefstal"/>
+        </node>
+      </node>
+      <node id="9" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="passive" sense="ben" tense="present"/>
+      <node cat="ppart" id="10" rel="vc">
+        <node id="11" index="1" rel="obj1"/>
+        <node cat="pp" id="12" rel="ld">
+          <node id="13" pos="prep" rel="hd" root="tot" sense="tot"/>
+          <node gen="de" id="14" num="sg" pos="noun" rel="obj1" root="klaarheid" sense="klaarheid"/>
+        </node>
+        <node id="15" infl="psp" pos="verb" rel="hd" root="breng" sc="np_ld_pp" sense="breng"/>
+        <node cat="pp" id="16" rel="mod">
+          <node id="17" pos="prep" rel="hd" root="met" sense="met"/>
+          <node cat="np" id="18" rel="obj1">
+            <node gen="de" id="19" num="sg" pos="noun" rel="hd" root="aanhouding" sense="aanhouding"/>
+            <node cat="pp" id="20" rel="mod">
+              <node id="21" pos="prep" rel="hd" root="van" sense="van"/>
+              <node cat="np" id="22" rel="obj1">
+                <node id="23" infl="pl_num" pos="num" rel="det" root="vier" sense="vier" special="hoofd"/>
+                <node gen="de" id="24" num="pl" pos="noun" rel="hd" root="man" sense="man"/>
+                <node cat="pp" id="25" rel="mod">
+                  <node id="26" pos="prep" rel="hd" root="uit" sense="uit"/>
+                  <node cat="mwu" id="27" mwu_root="Den Haag" mwu_sense="Den Haag" rel="obj1">
+                    <node id="28" neclass="LOC" num="both" pos="name" rel="mwp" root="Den" sense="Den"/>
+                    <node id="29" neclass="LOC" num="both" pos="name" rel="mwp" root="Haag" sense="Haag"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

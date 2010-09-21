@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node aform="super" id="4" infl="e" pos="adj" rel="mod" root="groot" sense="groot" vform="adj"/>
+        <node gen="het" id="5" num="sg" pos="noun" rel="hd" root="deel" sense="deel" special="mod"/>
+        <node cat="pp" id="6" rel="mod">
+          <node id="7" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="8" rel="obj1">
+            <node id="9" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="10" num="sg" pos="noun" rel="hd" root="bevolking" sense="bevolking"/>
+          </node>
+        </node>
+      </node>
+      <node id="11" infl="sg" pos="verb" rel="hd" root="besta" sc="pc_pp(uit)" sense="besta-uit" tense="past"/>
+      <node cat="pp" id="12" rel="mod">
+        <node id="13" pos="prep" rel="hd" root="in" sense="in"/>
+        <node id="14" neclass="year" pos="noun" rel="obj1" root="1572" sense="1572"/>
+      </node>
+      <node cat="pp" id="15" rel="pc">
+        <node id="16" pos="prep" rel="hd" root="uit" sense="uit"/>
+        <node gen="both" id="17" num="both" pos="noun" rel="obj1" root="armoedzaaiers" sense="armoedzaaiers"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="sv1" id="1" rel="--">
+      <node id="2" infl="sg1" pos="verb" rel="hd" root="kom" sc="pc_pp(om)" sense="kom-om" tense="present"/>
+      <node cat="advp" id="3" rel="mod">
+        <node id="4" pos="adv" rel="hd" root="ergens" sc="iets" sense="ergens"/>
+        <node aform="compar" id="5" infl="er" pos="adj" rel="mod" root="anders" sense="anders" special="anders"/>
+      </node>
+      <node id="6" pos="adv" rel="mod" root="maar" sense="maar"/>
+      <node id="7" pos="adv" rel="mod" root="eens" sense="eens" special="tmp"/>
+      <node cat="pp" id="8" rel="pc">
+        <node id="9" pos="adv" rel="obj1" root="daar" sense="daar" special="er_loc"/>
+        <node id="10" pos="prep" rel="hd" root="om" sense="om"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

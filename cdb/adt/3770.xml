@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="smain" id="2" rel="nucl">
+        <node case="nom" def="def" gen="de" id="3" index="1" num="pl" per="fir" pos="pron" rel="su" root="wij" sense="wij" wh="nwh"/>
+        <node id="4" infl="pl" pos="verb" rel="hd" root="wil" sc="modifier(aux(inf))" sense="wil" tense="present"/>
+        <node cat="inf" id="5" rel="vc">
+          <node id="6" index="1" rel="su"/>
+          <node id="7" infl="inf" pos="verb" rel="hd" root="weet" sc="tr_sbar" sense="weet"/>
+          <node cat="whsub" id="8" rel="vc">
+            <node id="9" index="2" pos="adj" rel="whd" root="hoe" sense="hoe" wh="ywh"/>
+            <node cat="ssub" id="10" rel="body">
+              <node id="11" index="2" rel="predc"/>
+              <node cat="np" id="12" rel="su">
+                <node id="13" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+                <node gen="het" id="14" num="sg" pos="noun" rel="hd" root="tolerantie_klimaat" sense="tolerantie_klimaat"/>
+                <node cat="pp" id="15" rel="mod">
+                  <node id="16" pos="prep" rel="hd" root="in" sense="in"/>
+                  <node cat="mwu" id="17" mwu_root="Den Haag" mwu_sense="Den Haag" rel="obj1">
+                    <node id="18" neclass="LOC" num="both" pos="name" rel="mwp" root="Den" sense="Den"/>
+                    <node id="19" neclass="LOC" num="both" pos="name" rel="mwp" root="Haag" sense="Haag"/>
+                  </node>
+                </node>
+              </node>
+              <node id="20" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node cat="pp" id="21" rel="tag">
+        <node id="22" pos="prep" rel="hd" root="aldus" sense="aldus"/>
+        <node cat="np" id="23" rel="obj1">
+          <node id="24" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="25" num="sg" pos="noun" rel="hd" root="heer" sense="heer"/>
+          <node cat="mwu" id="26" mwu_root="Van Hoek" mwu_sense="Van Hoek" rel="app">
+            <node id="27" neclass="PER" num="both" pos="name" rel="mwp" root="Van" sense="Van"/>
+            <node id="28" neclass="PER" num="both" pos="name" rel="mwp" root="Hoek" sense="Hoek"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="mwu" id="1" mwu_root="All you need is love" mwu_sense="All you need is love" rel="--">
+      <node id="2" num="both" pos="name" rel="mwp" root="All" sense="All"/>
+      <node id="3" num="both" pos="name" rel="mwp" root="you" sense="you"/>
+      <node id="4" num="both" pos="name" rel="mwp" root="need" sense="need"/>
+      <node id="5" num="both" pos="name" rel="mwp" root="is" sense="is"/>
+      <node id="6" num="both" pos="name" rel="mwp" root="love" sense="love"/>
+    </node>
+  </node>
+</alpino_adt>

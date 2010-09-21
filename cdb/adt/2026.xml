@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg3" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="present"/>
+      <node cat="ppart" id="3" rel="vc">
+        <node id="4" infl="psp" pos="verb" rel="hd" root="denk" sc="pc_pp(aan)" sense="denk-aan"/>
+        <node cat="pp" id="5" rel="pc">
+          <node id="6" pos="prep" rel="hd" root="aan" sense="aan"/>
+          <node cat="conj" id="7" rel="obj1">
+            <node gen="de" id="8" num="pl" pos="noun" rel="cnj" root="speel_plaats" sense="speel_plaats"/>
+            <node id="9" pos="vg" rel="crd" root="en" sense="en"/>
+            <node gen="de" id="10" num="pl" pos="noun" rel="cnj" root="crèche" sense="crèche"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

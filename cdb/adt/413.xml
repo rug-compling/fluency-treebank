@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="mod">
+        <node id="3" pos="prep" rel="hd" root="in" sense="in"/>
+        <node cat="np" id="4" rel="obj1">
+          <node id="5" infl="pl_num" pos="num" rel="det" root="20" sense="20" special="hoofd"/>
+          <node gen="het" id="6" num="meas" pos="noun" rel="hd" root="jaar" sc="measure" sense="jaar-MEAS" special="tmp"/>
+          <node gen="both" id="7" num="both" pos="noun" rel="mod" root="tijds" sense="tijds"/>
+        </node>
+      </node>
+      <node id="8" infl="sg" pos="verb" rel="hd" root="vertaal" sc="transitive" sense="vertaal" tense="past"/>
+      <node id="9" neclass="PER" num="both" pos="name" rel="su" root="Stals" sense="Stals"/>
+      <node cat="cp" id="10" rel="mod">
+        <node id="11" pos="comp" rel="cmp" root="inclusief" sc="np" sense="inclusief"/>
+        <node cat="np" id="12" rel="body">
+          <node gen="de" id="13" num="pl" pos="noun" rel="hd" root="duizenden" sc="measure" sense="duizenden-MEAS"/>
+          <node gen="de" id="14" num="pl" pos="noun" rel="mod" root="voetnoot" sense="voetnoot"/>
+        </node>
+      </node>
+      <node cat="np" id="15" rel="obj1">
+        <node id="16" infl="pl_num" pos="num" rel="det" root="vijf" sense="vijf" special="hoofd"/>
+        <node gen="de" id="17" num="pl" pos="noun" rel="hd" root="tragedie" sense="tragedie"/>
+        <node cat="pp" id="18" rel="mod">
+          <node id="19" pos="prep" rel="hd" root="van" sense="van"/>
+          <node id="20" neclass="PER" num="both" pos="name" rel="obj1" root="Vondel" sense="Vondel"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

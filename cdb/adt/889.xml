@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg" pos="verb" rel="hd" root="mag" sc="modifier(aux(inf))" sense="mag" tense="present"/>
+      <node cat="mwu" id="3" index="1" mwu_root="Go Ahead" mwu_sense="Go Ahead" rel="su">
+        <node id="4" neclass="ORG" num="both" pos="name" rel="mwp" root="Go" sense="Go"/>
+        <node id="5" neclass="ORG" num="both" pos="name" rel="mwp" root="Ahead" sense="Ahead"/>
+      </node>
+      <node cat="inf" id="6" rel="vc">
+        <node id="7" pos="adv" rel="mod" root="toch" sense="toch"/>
+        <node id="8" index="1" rel="su"/>
+        <node cat="np" id="9" rel="obj1">
+          <node id="10" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="11" num="sg" pos="noun" rel="hd" root="toekomst" sense="toekomst"/>
+        </node>
+        <node cat="pp" id="12" rel="mod">
+          <node id="13" pos="prep" rel="hd" root="met" sense="met"/>
+          <node cat="np" id="14" rel="obj1">
+            <node id="15" infl="de" pos="det" rel="det" root="deze" sense="deze" wh="nwh"/>
+            <node gen="de" id="16" num="pl" pos="noun" rel="hd" root="speler" sense="speler"/>
+          </node>
+        </node>
+        <node cat="pp" id="17" rel="mod">
+          <node id="18" pos="prep" rel="hd" root="met" sense="met"/>
+          <node gen="het" id="19" num="sg" pos="noun" rel="obj1" root="vertrouwen" sense="vertrouwen"/>
+        </node>
+        <node id="20" infl="inf(no_e)" pos="verb" rel="hd" root="zie_tegemoet" sc="part_transitive(tegemoet)" sense="zie_tegemoet"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

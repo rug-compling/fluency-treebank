@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg_heeft" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="present"/>
+      <node id="3" index="1" neclass="PER" num="both" pos="name" rel="su" root="Nastase" sense="Nastase"/>
+      <node cat="ppart" id="4" rel="vc">
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="ondanks" sense="ondanks"/>
+          <node cat="np" id="7" rel="obj1">
+            <node id="8" infl="pron" pos="det" rel="det" root="zijn" sense="zijn"/>
+            <node gen="de" id="9" num="sg" pos="noun" rel="hd" root="blessure" sense="blessure"/>
+          </node>
+        </node>
+        <node id="10" index="1" rel="su"/>
+        <node id="11" infl="het" pos="det" rel="obj1" root="het" sense="het" wh="nwh"/>
+        <node case="dat_acc" def="def" gen="de" id="12" num="sg" per="fir" pos="pron" rel="obj2" root="mij" sense="mij" wh="nwh"/>
+        <node id="13" pos="adv" rel="mod" root="niet" sense="niet"/>
+        <node aform="base" id="14" infl="no_e" pos="adj" rel="predc" root="gemakkelijk" sense="gemakkelijk" vform="adj"/>
+        <node id="15" infl="psp" pos="verb" rel="hd" root="maak" sc="so_pred_np" sense="maak"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

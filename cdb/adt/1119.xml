@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="het" id="4" num="sg" pos="noun" rel="hd" root="complex" sense="complex"/>
+      </node>
+      <node id="5" infl="sg3" pos="verb" rel="hd" root="kom" sc="ld_pp" sense="kom" tense="present"/>
+      <node cat="pp" id="6" rel="ld">
+        <node id="7" pos="prep" rel="hd" root="op" sense="op"/>
+        <node cat="np" id="8" rel="obj1">
+          <node id="9" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node cat="ap" id="10" rel="mod">
+            <node cat="np" id="11" rel="me">
+              <node id="12" infl="pl_num" pos="num" rel="det" root="47" sense="47" special="hoofd"/>
+              <node gen="de" id="13" num="meas" pos="noun" rel="hd" root="hectare" sense="hectare" special="meas_mod"/>
+            </node>
+            <node aform="base" id="14" infl="no_e" pos="adj" rel="hd" root="groot" sc="np_me" sense="groot" vform="adj"/>
+          </node>
+          <node gen="het" id="15" num="sg" pos="noun" rel="hd" root="terrein" sense="terrein"/>
+          <node cat="pp" id="16" rel="mod">
+            <node id="17" pos="prep" rel="hd" root="tussen" sense="tussen"/>
+            <node cat="conj" id="18" rel="obj1">
+              <node id="19" neclass="ORG" num="both" pos="name" rel="cnj" root="Werkspoor" sense="Werkspoor"/>
+              <node id="20" pos="vg" rel="crd" root="en" sense="en"/>
+              <node cat="mwu" id="21" mwu_root="Climax Molybden" mwu_sense="Climax Molybden" rel="cnj">
+                <node id="22" neclass="PER" num="both" pos="name" rel="mwp" root="Climax" sense="Climax"/>
+                <node id="23" neclass="PER" num="both" pos="name" rel="mwp" root="Molybden" sense="Molybden"/>
+              </node>
+            </node>
+          </node>
+          <node cat="pp" id="24" rel="mod">
+            <node id="25" pos="prep" rel="hd" root="aan" sense="aan"/>
+            <node cat="np" id="26" rel="obj1">
+              <node id="27" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node id="28" neclass="LOC" num="both" pos="name" rel="hd" root="Theemsweg" sense="Theemsweg"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

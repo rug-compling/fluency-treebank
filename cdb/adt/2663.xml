@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="advp" id="2" rel="mod">
+        <node id="3" pos="adv" rel="mod" root="ook" sc="modal" sense="ook"/>
+        <node id="4" pos="adv" rel="hd" root="vanmorgen" sense="vanmorgen" special="tmp"/>
+      </node>
+      <node id="5" infl="pl" pos="verb" rel="hd" root="kom_voor" sc="part_intransitive(voor)" sense="kom_voor" tense="past"/>
+      <node aform="base" id="6" infl="no_e" pos="adj" rel="mod" root="plaatselijk" sense="plaatselijk" vform="adj"/>
+      <node cat="pp" id="7" rel="mod">
+        <node cat="mwu" id="8" mwu_root="als gevolg van" mwu_sense="als gevolg van" rel="hd">
+          <node id="9" pos="prep" rel="mwp" root="als" sense="als"/>
+          <node id="10" pos="prep" rel="mwp" root="gevolg" sense="gevolg"/>
+          <node id="11" pos="prep" rel="mwp" root="van" sense="van"/>
+        </node>
+        <node cat="np" id="12" rel="obj1">
+          <node id="13" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node aform="base" id="14" infl="e" pos="adj" rel="mod" root="sterk" sense="sterk" vform="adj"/>
+          <node gen="de" id="15" num="sg" pos="noun" rel="hd" root="afkoeling" sense="afkoeling"/>
+        </node>
+      </node>
+      <node gen="het" id="16" num="pl" pos="noun" rel="su" root="mist_gebied" sense="mist_gebied"/>
+    </node>
+  </node>
+</alpino_adt>

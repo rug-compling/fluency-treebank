@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="cp" id="2" rel="predm">
+        <node id="3" pos="comp" rel="cmp" root="als" sc="als" sense="als"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="body" root="afsluiting" sense="afsluiting"/>
+      </node>
+      <node id="5" infl="modal_not_u" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="present"/>
+      <node cat="np" id="6" index="1" rel="su">
+        <node id="7" infl="pron" neclass="PER" pos="det" rel="det" root="Bach" sense="Bach" special="name"/>
+        <node id="8" neclass="LOC" num="both" pos="name" rel="hd" root="Passacaglia" sense="Passacaglia"/>
+        <node cat="pp" id="9" rel="mod">
+          <node id="10" pos="prep" rel="hd" root="in" sense="in"/>
+          <node cat="mwu" id="11" mwu_root="c kl" mwu_sense="c kl" rel="obj1">
+            <node id="12" pos="noun" rel="mwp" root="c" sense="c"/>
+            <node id="13" pos="noun" rel="mwp" root="kl" sense="kl"/>
+          </node>
+        </node>
+      </node>
+      <node cat="inf" id="14" rel="vc">
+        <node id="15" index="1" rel="su"/>
+        <node id="16" infl="inf" pos="verb" rel="hd" root="klink" sc="intransitive" sense="klink"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

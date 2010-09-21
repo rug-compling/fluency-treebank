@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="smain" id="2" rel="nucl">
+        <node case="nom" def="def" gen="de" id="3" index="1" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+        <node id="4" infl="sg" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="past"/>
+        <node cat="conj" id="5" rel="vc">
+          <node cat="ppart" id="6" rel="cnj">
+            <node id="7" index="1" rel="obj1"/>
+            <node id="8" infl="psp" pos="verb" rel="hd" root="respecteer" sc="transitive" sense="respecteer"/>
+          </node>
+          <node id="9" pos="vg" rel="crd" root="en" sense="en"/>
+          <node cat="ppart" id="10" rel="cnj">
+            <node id="11" index="1" rel="obj1"/>
+            <node id="12" infl="psp" pos="verb" rel="hd" root="aanvaard" sc="transitive" sense="aanvaard"/>
+          </node>
+        </node>
+      </node>
+      <node cat="cp" id="13" rel="sat">
+        <node cat="mwu" id="14" mwu_root="zij het" mwu_sense="zij het" rel="cmp">
+          <node id="15" pos="comp" rel="mwp" root="zij" sc="pp" sense="zij"/>
+          <node id="16" pos="comp" rel="mwp" root="het" sc="pp" sense="het"/>
+        </node>
+        <node cat="pp" id="17" rel="body">
+          <node id="18" pos="prep" rel="hd" root="met" sense="met"/>
+          <node cat="np" id="19" rel="obj1">
+            <node id="20" infl="een" pos="det" rel="det" root="een" sense="een"/>
+            <node gen="het" id="21" num="sg" pos="noun" rel="hd" root="beetje" sc="measure" sense="beetje-MEAS" special="mod"/>
+            <node gen="de" id="22" num="sg" pos="noun" rel="mod" root="tegenzin" sense="tegenzin"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

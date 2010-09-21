@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" pos="noun" rel="su" root="het" sense="het" special="het"/>
+      <node id="3" infl="pl" pos="verb" rel="hd" root="ben" sc="cleft" sense="ben" tense="present"/>
+      <node cat="advp" id="4" rel="mod">
+        <node id="5" pos="adv" rel="mod" root="nog" sc="modal" sense="nog"/>
+        <node id="6" pos="adv" rel="hd" root="altijd" sense="altijd" special="sentence"/>
+      </node>
+      <node cat="conj" id="7" rel="predc">
+        <node gen="de" id="8" num="pl" pos="noun" rel="cnj" root="Italiaan" sense="Italiaan"/>
+        <node id="9" pos="vg" rel="crd" root="of" sense="of"/>
+        <node cat="np" id="10" rel="cnj">
+          <node cat="mwu" id="11" mwu_root="tenminste" mwu_sense="tenminste" rel="mod">
+            <node id="12" pos="adv" rel="mwp" root="ten" sense="ten" special="sentence"/>
+            <node id="13" pos="adv" rel="mwp" root="minste" sense="minste" special="sentence"/>
+          </node>
+          <node gen="both" id="14" num="pl" pos="noun" rel="hd" root="mens" sense="mens"/>
+          <node cat="pp" id="15" rel="mod">
+            <node id="16" pos="prep" rel="hd" root="van" sense="van"/>
+            <node cat="np" id="17" rel="obj1">
+              <node aform="base" id="18" infl="e" pos="adj" rel="mod" root="Italiaans" sense="Italiaans" vform="adj"/>
+              <node gen="de" id="19" num="sg" pos="noun" rel="hd" root="afkomst" sense="afkomst"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

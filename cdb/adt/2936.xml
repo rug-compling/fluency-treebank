@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="mod">
+        <node id="3" pos="prep" rel="hd" root="in" sense="in"/>
+        <node cat="np" id="4" rel="obj1">
+          <node id="5" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node aform="base" id="6" infl="e" pos="adj" rel="mod" root="lokaal" sense="lokaal" vform="adj"/>
+          <node gen="de" id="7" num="sg" pos="noun" rel="hd" root="markt" sense="markt"/>
+        </node>
+      </node>
+      <node id="8" infl="sg" pos="verb" rel="hd" root="besta" sc="intransitive" sense="besta" tense="past"/>
+      <node cat="np" id="9" rel="su">
+        <node cat="ap" id="10" rel="mod">
+          <node id="11" pos="adv" rel="mod" root="zeer" sense="zeer"/>
+          <node aform="base" id="12" infl="e" pos="adj" rel="hd" root="groot" sense="groot" vform="adj"/>
+        </node>
+        <node gen="de" id="13" num="sg" pos="noun" rel="hd" root="belangstelling" sense="belangstelling"/>
+        <node cat="pp" id="14" rel="mod">
+          <node id="15" pos="prep" rel="hd" root="voor" sense="voor"/>
+          <node cat="np" id="16" rel="obj1">
+            <node gen="het" id="17" num="pl" pos="noun" rel="hd" root="aandeel" sense="aandeel"/>
+            <node cat="mwu" id="18" mwu_root="Lucas Bols" mwu_sense="Lucas Bols" rel="app">
+              <node id="19" neclass="PER" num="both" pos="name" rel="mwp" root="Lucas" sense="Lucas"/>
+              <node id="20" neclass="PER" num="both" pos="name" rel="mwp" root="Bols" sense="Bols"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

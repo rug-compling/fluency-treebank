@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="sv1" id="1" rel="--">
+      <node id="2" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+      <node cat="np" id="3" rel="su">
+        <node id="4" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="5" num="sg" pos="noun" rel="hd" root="minister" sense="minister"/>
+      </node>
+      <node cat="ppart" id="6" rel="predc">
+        <node aform="base" id="7" infl="no_e" pos="adj" rel="hd" root="bereid" sc="object_vp" sense="bereid" vform="psp"/>
+        <node cat="ti" id="8" rel="vc">
+          <node id="9" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+          <node cat="inf" id="10" rel="body">
+            <node cat="np" id="11" rel="obj1">
+              <node id="12" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+              <node gen="het" id="13" num="sg" pos="noun" rel="hd" root="omroep_onderwijs" sense="omroep_onderwijs"/>
+            </node>
+            <node id="14" infl="inf" pos="verb" rel="hd" root="financier" sc="transitive" sense="financier"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

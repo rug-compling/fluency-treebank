@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="het" id="4" num="sg" pos="noun" rel="hd" root="alarm" sense="alarm"/>
+      </node>
+      <node id="5" infl="sg" pos="verb" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" tense="past"/>
+      <node cat="ppart" id="6" rel="vc">
+        <node id="7" index="1" rel="su"/>
+        <node cat="pp" id="8" rel="mod">
+          <node id="9" pos="prep" rel="hd" root="bij" sense="bij"/>
+          <node cat="np" id="10" rel="obj1">
+            <node id="11" infl="de" pos="det" rel="det" root="deze" sense="deze" wh="nwh"/>
+            <node gen="de" id="12" num="sg" pos="noun" rel="hd" root="inbraak_poging" sense="inbraak_poging"/>
+          </node>
+        </node>
+        <node id="13" pos="adv" rel="mod" root="niet" sense="niet"/>
+        <node id="14" infl="psp" pos="verb" rel="hd" root="ga_over" sc="part_intransitive(over)" sense="ga_over"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

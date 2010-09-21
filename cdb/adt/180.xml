@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="Chu_fractie_voorzitter" sense="Chu_fractie_voorzitter"/>
+        <node cat="mwu" id="5" mwu_root="J. T. Mellema" mwu_sense="J. T. Mellema" rel="app">
+          <node id="6" neclass="PER" num="both" pos="name" rel="mwp" root="J." sense="J."/>
+          <node id="7" neclass="PER" num="both" pos="name" rel="mwp" root="T." sense="T."/>
+          <node id="8" neclass="PER" num="both" pos="name" rel="mwp" root="Mellema" sense="Mellema"/>
+        </node>
+      </node>
+      <node id="9" infl="sg" pos="verb" rel="hd" root="zeg" sc="intransitive" sense="zeg" tense="past"/>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="mod">
+        <node id="3" pos="prep" rel="hd" root="in" sense="in"/>
+        <node cat="np" id="4" rel="obj1">
+          <node id="5" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+          <node gen="het" id="6" num="sg" pos="noun" rel="hd" root="molen_museum" sense="molen_museum"/>
+          <node cat="pp" id="7" rel="mod">
+            <node id="8" pos="prep" rel="hd" root="in" sense="in"/>
+            <node cat="mwu" id="9" mwu_root="Koog aan de Zaan" mwu_sense="Koog aan de Zaan" rel="obj1">
+              <node id="10" neclass="LOC" num="both" pos="name" rel="mwp" root="Koog" sense="Koog"/>
+              <node id="11" neclass="LOC" num="both" pos="name" rel="mwp" root="aan" sense="aan"/>
+              <node id="12" neclass="LOC" num="both" pos="name" rel="mwp" root="de" sense="de"/>
+              <node id="13" neclass="LOC" num="both" pos="name" rel="mwp" root="Zaan" sense="Zaan"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="14" infl="sg3" pos="verb" rel="hd" root="exposeer" sc="transitive" sense="exposeer" tense="present"/>
+      <node cat="mwu" id="15" mwu_root="Jan Kruyver" mwu_sense="Jan Kruyver" rel="su">
+        <node id="16" neclass="PER" num="both" pos="name" rel="mwp" root="Jan" sense="Jan"/>
+        <node id="17" neclass="PER" num="both" pos="name" rel="mwp" root="Kruyver" sense="Kruyver"/>
+      </node>
+      <node cat="conj" id="18" rel="obj1">
+        <node id="19" pos="vg" rel="crd" root="en" sense="en"/>
+        <node cat="np" id="20" rel="cnj">
+          <node gen="de" id="21" num="pl" pos="noun" rel="hd" root="tekening" sense="tekening"/>
+          <node cat="pp" id="22" index="1" rel="mod">
+            <node id="23" pos="prep" rel="hd" root="van" sense="van"/>
+            <node gen="de" id="24" num="pl" pos="noun" rel="obj1" root="molen" sense="molen"/>
+          </node>
+        </node>
+        <node cat="np" id="25" rel="cnj">
+          <node gen="both" id="26" num="pl" pos="noun" rel="hd" root="schilderij" sense="schilderij"/>
+          <node id="27" index="1" rel="mod"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

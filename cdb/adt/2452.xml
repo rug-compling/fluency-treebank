@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="passive" sense="ben" tense="present"/>
+      <node cat="ppart" id="3" rel="vc">
+        <node cat="pp" id="4" rel="mod">
+          <node cat="mwu" id="5" mwu_root="naar aanleiding van" mwu_sense="naar aanleiding van" rel="hd">
+            <node id="6" pos="prep" rel="mwp" root="naar" sense="naar"/>
+            <node id="7" pos="prep" rel="mwp" root="aanleiding" sense="aanleiding"/>
+            <node id="8" pos="prep" rel="mwp" root="van" sense="van"/>
+          </node>
+          <node cat="np" id="9" rel="obj1">
+            <node id="10" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+            <node gen="het" id="11" num="sg" pos="noun" rel="hd" root="rapport" sense="rapport"/>
+          </node>
+        </node>
+        <node id="12" infl="psp" pos="verb" rel="hd" root="stel_in" sc="part_transitive(in)" sense="stel_in"/>
+        <node cat="np" id="13" index="1" rel="obj1">
+          <node id="14" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node gen="het" id="15" num="sg" pos="noun" rel="hd" root="onderzoek" sense="onderzoek"/>
+          <node cat="rel" id="16" rel="mod">
+            <node case="no_obl" gen="het" id="17" index="2" pos="pron" rel="rhd" root="dat" sense="dat" wh="rel"/>
+            <node cat="ssub" id="18" rel="body">
+              <node id="19" index="2" rel="su"/>
+              <node id="20" pos="adv" rel="mod" root="nog" sense="nog"/>
+              <node id="21" infl="sg3" pos="verb" rel="hd" root="duur_voort" sc="part_intransitive(voort)" sense="duur_voort" tense="present"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="22" index="1" rel="su"/>
+    </node>
+  </node>
+</alpino_adt>

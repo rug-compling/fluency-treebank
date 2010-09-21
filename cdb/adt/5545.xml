@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node aform="base" id="4" infl="both" pos="adj" rel="mod" root="vier-lijns" sense="vier-lijns" vform="adj"/>
+        <node gen="de" id="5" num="sg" pos="noun" rel="hd" root="verdediging" sense="verdediging"/>
+        <node cat="conj" id="6" rel="app">
+          <node cat="mwu" id="7" mwu_root="De Jong" mwu_sense="De Jong" rel="cnj">
+            <node id="8" neclass="PER" num="both" pos="name" rel="mwp" root="De" sense="De"/>
+            <node id="9" neclass="PER" num="both" pos="name" rel="mwp" root="Jong" sense="Jong"/>
+          </node>
+          <node id="10" neclass="PER" num="both" pos="name" rel="cnj" root="Zwart" sense="Zwart"/>
+          <node id="11" neclass="PER" num="both" pos="name" rel="cnj" root="Weide" sense="Weide"/>
+          <node id="12" pos="vg" rel="crd" root="en" sense="en"/>
+          <node id="13" neclass="PER" num="both" pos="name" rel="cnj" root="Lippold" sense="Lippold"/>
+        </node>
+      </node>
+      <node id="14" infl="sg" pos="verb" rel="hd" root="speel" sc="intransitive" sense="speel" tense="past"/>
+      <node cat="ap" id="15" rel="mod">
+        <node id="16" pos="adv" rel="mod" root="zeer" sense="zeer"/>
+        <node aform="base" id="17" infl="no_e" pos="adj" rel="hd" root="bekwaam" sense="bekwaam" vform="adj"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg" pos="verb" rel="hd" root="moet" sc="modifier(aux(inf))" sense="moet" tense="present"/>
+      <node id="3" index="1" neclass="LOC" num="both" pos="name" rel="su" root="Oost-Europa" sense="Oost-Europa"/>
+      <node cat="inf" id="4" rel="vc">
+        <node id="5" index="1" rel="su"/>
+        <node id="6" infl="inf" pos="verb" rel="hd" root="word" sc="passive" sense="word"/>
+        <node cat="ppart" id="7" rel="vc">
+          <node cat="pp" id="8" rel="mod">
+            <node id="9" pos="prep" rel="hd" root="volgens" sense="volgens"/>
+            <node id="10" neclass="PER" num="both" pos="name" rel="obj1" root="Schiller" sense="Schiller"/>
+          </node>
+          <node id="11" index="1" rel="obj1"/>
+          <node id="12" pos="adv" rel="mod" root="niet" sense="niet"/>
+          <node aform="base" id="13" infl="pred" pos="adj" rel="mod" root="alleen" sense="alleen" vform="adj"/>
+          <node id="14" infl="psp" pos="verb" rel="hd" root="zie" sc="als_pred_np" sense="zie"/>
+          <node cat="cp" id="15" rel="predc">
+            <node id="16" pos="comp" rel="cmp" root="als" sc="als" sense="als"/>
+            <node cat="np" id="17" rel="body">
+              <node id="18" infl="een" pos="det" rel="det" root="een" sense="een"/>
+              <node gen="de" id="19" num="sg" pos="noun" rel="hd" root="afzet_markt" sense="afzet_markt"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

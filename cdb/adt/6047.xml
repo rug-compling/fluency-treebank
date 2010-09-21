@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node case="nom" def="def" gen="de" id="2" index="1" num="sg" per="fir" pos="pron" rel="su" root="ik" sense="ik" wh="nwh"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="moet" sc="modifier(aux(inf))" sense="moet" tense="present"/>
+      <node cat="inf" id="4" rel="vc">
+        <node id="5" index="1" rel="su"/>
+        <node id="6" infl="inf" pos="verb" rel="hd" root="zeg" sc="tr_sbar" sense="zeg"/>
+        <node cat="cp" id="7" rel="vc">
+          <node id="8" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+          <node cat="ssub" id="9" rel="body">
+            <node case="nom" def="def" gen="de" id="10" num="sg" per="fir" pos="pron" rel="su" root="ik" sense="ik" wh="nwh"/>
+            <node cat="pp" id="11" rel="pc">
+              <node id="12" pos="prep" rel="hd" root="met" sense="met"/>
+              <node cat="np" id="13" rel="obj1">
+                <node id="14" infl="het" pos="det" rel="det" root="dit" sense="dit" wh="nwh"/>
+                <node gen="both" id="15" num="sg" pos="noun" rel="hd" root="soort" sc="measure" sense="soort-MEAS"/>
+                <node gen="het" id="16" num="sg" pos="noun" rel="mod" root="werk" sense="werk"/>
+              </node>
+            </node>
+            <node cat="ap" id="17" rel="mod">
+              <node id="18" pos="adv" rel="mod" root="niet" sense="niet"/>
+              <node aform="base" id="19" infl="no_e" pos="adj" rel="hd" root="goed" sense="goed" vform="adj"/>
+            </node>
+            <node gen="de" id="20" num="sg" pos="noun" rel="obj1" root="raad" sense="raad"/>
+            <node id="21" infl="sg" pos="verb" rel="hd" root="weet" sc="fixed([{[acc(raad),pc(met)]}],no_passive)" sense="raad-weet-met" tense="present"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

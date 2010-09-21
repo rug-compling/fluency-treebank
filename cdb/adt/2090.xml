@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="het" pos="det" rel="su" root="dat" sense="dat" wh="nwh"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="geschied" sc="intransitive" sense="geschied" tense="past"/>
+      <node cat="pp" id="4" rel="mod">
+        <node id="5" pos="prep" rel="hd" root="door" sense="door"/>
+        <node cat="np" id="6" rel="obj1">
+          <node id="7" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="8" num="sg" pos="noun" rel="hd" root="Fransman" sense="Fransman"/>
+          <node id="9" neclass="PER" num="both" pos="name" rel="app" root="Geneste" sense="Geneste"/>
+          <node cat="rel" id="10" rel="mod">
+            <node case="no_obl" gen="de" id="11" index="1" pos="pron" rel="rhd" root="die" sense="die" wh="rel"/>
+            <node cat="ssub" id="12" rel="body">
+              <node id="13" index="1" rel="su"/>
+              <node cat="pp" id="14" rel="mod">
+                <node id="15" pos="prep" rel="hd" root="met" sense="met"/>
+                <node cat="mwu" id="16" mwu_root="Odeon K" mwu_sense="Odeon K" rel="obj1">
+                  <node id="17" neclass="PER" num="both" pos="name" rel="mwp" root="Odeon" sense="Odeon"/>
+                  <node id="18" neclass="PER" num="both" pos="name" rel="mwp" root="K" sense="K"/>
+                </node>
+              </node>
+              <node cat="pp" id="19" rel="mod">
+                <node id="20" pos="prep" rel="hd" root="in" sense="in"/>
+                <node cat="np" id="21" rel="obj1">
+                  <node id="22" infl="both" pos="num" rel="det" root="54,3" sense="54,3" special="hoofd"/>
+                  <node gen="de" id="23" num="pl" pos="noun" rel="hd" root="seconde" sense="seconde" special="tmp"/>
+                </node>
+              </node>
+              <node aform="base" id="24" infl="no_e" pos="adj" rel="mod" root="foutloos" sense="foutloos" vform="adj"/>
+              <node cat="pp" id="25" rel="ld">
+                <node id="26" pos="prep" rel="hd" root="over" sense="over"/>
+                <node cat="np" id="27" rel="obj1">
+                  <node id="28" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                  <node gen="de" id="29" num="pl" pos="noun" rel="hd" root="hindernis" sense="hindernis"/>
+                </node>
+              </node>
+              <node id="30" infl="sg" pos="verb" rel="hd" root="raas" sc="ld_pp" sense="raas" tense="past"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

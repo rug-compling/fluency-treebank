@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node case="nom" def="def" gen="de" id="2" index="1" num="sg" per="fir" pos="pron" rel="su" root="ik" sense="ik" wh="nwh"/>
+      <node id="3" infl="subjunctive" pos="verb" rel="hd" root="ga" sc="aux(inf)" sense="ga"/>
+      <node cat="inf" id="4" rel="vc">
+        <node id="5" index="1" rel="su"/>
+        <node cat="cp" id="6" rel="mod">
+          <node id="7" pos="comp" rel="cmp" root="als" sc="als" sense="als"/>
+          <node cat="ssub" id="8" rel="body">
+            <node case="nom" def="def" gen="de" id="9" num="sg" per="fir" pos="pron" rel="su" root="ik" sense="ik" wh="nwh"/>
+            <node id="10" pos="adv" rel="ld" root="terug" sense="terug" special="dir"/>
+            <node id="11" infl="sg1" pos="verb" rel="hd" root="ben" sc="ld_dir" sense="ben" tense="present"/>
+            <node cat="pp" id="12" rel="mod">
+              <node id="13" pos="prep" rel="hd" root="in" sense="in"/>
+              <node gen="de" id="14" num="pl" pos="noun" rel="obj1" root="Zweed" sense="Zweed"/>
+            </node>
+          </node>
+        </node>
+        <node cat="np" id="15" rel="mod">
+          <node id="16" infl="pl_num" pos="num" rel="det" root="twee" sense="twee" special="hoofd"/>
+          <node gen="de" id="17" num="pl" pos="noun" rel="hd" root="week" sense="week" special="tmp"/>
+        </node>
+        <node cat="mwu" id="18" mwu_root="rustig aan" mwu_sense="rustig aan" rel="mod">
+          <node aform="base" id="19" infl="pred" pos="adj" rel="mwp" root="rustig" sense="rustig" vform="adj"/>
+          <node aform="base" id="20" infl="pred" pos="adj" rel="mwp" root="aan" sense="aan" vform="adj"/>
+        </node>
+        <node id="21" infl="inf(no_e)" pos="verb" rel="hd" root="doe" sc="intransitive" sense="doe"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

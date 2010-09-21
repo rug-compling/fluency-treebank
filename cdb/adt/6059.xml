@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="mod">
+        <node id="3" pos="prep" rel="hd" root="van" sense="van"/>
+        <node cat="np" id="4" rel="obj1">
+          <node id="5" infl="de" pos="det" rel="det" root="deze" sense="deze" wh="nwh"/>
+          <node gen="de" id="6" num="sg" pos="noun" rel="hd" root="groep" sense="groep"/>
+        </node>
+      </node>
+      <node id="7" infl="sg" pos="verb" rel="hd" root="toon" sc="pred_refl" sense="zich-toon" tense="past"/>
+      <node cat="mwu" id="8" mwu_root="Jan Janssen" mwu_sense="Jan Janssen" rel="su">
+        <node id="9" neclass="PER" num="both" pos="name" rel="mwp" root="Jan" sense="Jan"/>
+        <node id="10" neclass="PER" num="both" pos="name" rel="mwp" root="Janssen" sense="Janssen"/>
+      </node>
+      <node id="11" num="both" per="u_thi" pos="pron" refl="refl" rel="se" root="zich" sense="zich"/>
+      <node cat="pp" id="12" rel="mod">
+        <node id="13" pos="prep" rel="hd" root="in" sense="in"/>
+        <node cat="np" id="14" rel="obj1">
+          <node id="15" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="16" num="sg" pos="noun" rel="hd" root="sprint" sense="sprint"/>
+        </node>
+      </node>
+      <node id="17" pos="adv" rel="mod" root="veruit" sense="veruit"/>
+      <node cat="np" id="18" rel="predc">
+        <node id="19" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node aform="super" id="20" infl="e" pos="adj" rel="hd" root="snel" sense="snel" vform="adj"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

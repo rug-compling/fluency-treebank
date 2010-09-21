@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" pos="noun" rel="sup" root="het" sense="het" special="het"/>
+      <node id="3" infl="sg3" pos="verb" rel="hd" root="schijn" sc="dip_sbar_subj_opt_het" sense="schijn" tense="present"/>
+      <node cat="cp" id="4" rel="su">
+        <node id="5" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+        <node cat="ssub" id="6" rel="body">
+          <node cat="np" id="7" rel="su">
+            <node id="8" infl="het" pos="det" rel="det" root="dit" sense="dit" wh="nwh"/>
+            <node gen="het" id="9" num="sg" pos="noun" rel="hd" root="overleg" sense="overleg"/>
+          </node>
+          <node id="10" pos="adv" rel="mod" root="niet" sense="niet"/>
+          <node cat="ap" id="11" rel="mod">
+            <node aform="base" id="12" infl="no_e" pos="adj" rel="mod" root="erg" sense="erg" vform="adj"/>
+            <node aform="base" id="13" infl="no_e" pos="adj" rel="hd" root="vlot" sense="vlot" vform="adj"/>
+          </node>
+          <node id="14" infl="sg3" pos="verb" rel="hd" root="verloop" sc="intransitive" sense="verloop" tense="present"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

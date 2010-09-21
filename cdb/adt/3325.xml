@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node id="2" pos="comp" rel="dlink" root="maar" sc="root" sense="maar"/>
+      <node cat="smain" id="3" rel="nucl">
+        <node id="4" infl="sg" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="past"/>
+        <node id="5" index="1" infl="het" pos="det" rel="su" root="dat" sense="dat" wh="nwh"/>
+        <node cat="inf" id="6" rel="vc">
+          <node cat="cp" id="7" rel="mod">
+            <node id="8" pos="comp" rel="cmp" root="als" sc="als" sense="als"/>
+            <node cat="ssub" id="9" rel="body">
+              <node case="nom" def="def" gen="de" id="10" index="2" num="pl" per="fir" pos="pron" rel="su" root="we" sense="we" special="wkpro" wh="nwh"/>
+              <node id="11" infl="pl" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="past"/>
+              <node cat="inf" id="12" rel="vc">
+                <node id="13" index="2" rel="su"/>
+                <node id="14" pos="adv" rel="mod" root="steeds" sense="steeds"/>
+                <node cat="pp" id="15" rel="pc">
+                  <node id="16" pos="prep" rel="hd" root="met" sense="met"/>
+                  <node id="17" neclass="PER" num="both" pos="name" rel="obj1" root="Noerejew" sense="Noerejew"/>
+                </node>
+                <node id="18" infl="inf" pos="verb" rel="hd" root="kom" sc="pc_pp(met)" sense="kom-met"/>
+              </node>
+            </node>
+          </node>
+          <node id="19" num="both" per="u_thi" pos="pron" refl="refl" rel="se" root="zich" sense="zich"/>
+          <node id="20" index="1" rel="su"/>
+          <node cat="mwu" id="21" mwu_root="op den duur" mwu_sense="op den duur" rel="mod">
+            <node id="22" pos="adv" rel="mwp" root="op" sense="op" special="sentence"/>
+            <node id="23" pos="adv" rel="mwp" root="den" sense="den" special="sentence"/>
+            <node id="24" pos="adv" rel="mwp" root="duur" sense="duur" special="sentence"/>
+          </node>
+          <node id="25" infl="inf" pos="verb" rel="hd" root="wreek" sc="refl" sense="zich-wreek"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

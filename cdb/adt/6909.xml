@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node case="nom" def="def" gen="de" id="2" index="1" num="sg" per="fir" pos="pron" rel="su" root="ik" sense="ik" wh="nwh"/>
+      <node id="3" infl="sg1" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="present"/>
+      <node cat="inf" id="4" rel="vc">
+        <node id="5" index="1" rel="su"/>
+        <node id="6" infl="inf" pos="verb" rel="hd" root="hoor" sc="aci_no_obj" sense="hoor"/>
+        <node cat="inf" id="7" rel="vc">
+          <node id="8" infl="inf" pos="verb" rel="hd" root="fluister" sc="sbar" sense="fluister"/>
+          <node cat="cp" id="9" rel="vc">
+            <node id="10" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+            <node cat="ssub" id="11" rel="body">
+              <node cat="np" id="12" rel="su">
+                <node id="13" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                <node aform="compar" id="14" infl="e" pos="adj" rel="mod" root="ander" sense="ander" vform="adj"/>
+                <node gen="het" id="15" num="pl" pos="noun" rel="hd" root="bestuur_lid" sense="bestuur_lid"/>
+              </node>
+              <node id="16" infl="wat" pos="det" rel="obj1" root="wat" sense="wat" wh="nwh"/>
+              <node cat="mwu" id="17" mwu_root="van plan" mwu_sense="van plan" rel="svp">
+                <node id="18" pos="fixed" rel="mwp" root="van" sense="van"/>
+                <node id="19" pos="fixed" rel="mwp" root="plan" sense="plan"/>
+              </node>
+              <node id="20" infl="pl" pos="verb" rel="hd" root="ben" sc="fixed([[van,plan],acc],no_passive)" sense="van-plan-ben" tense="present"/>
+              <node cat="pp" id="21" rel="mod">
+                <node id="22" pos="prep" rel="hd" root="met" sense="met"/>
+                <node case="dat_acc" def="def" gen="de" id="23" num="sg" per="fir" pos="pron" rel="obj1" root="me" sense="me" special="wkpro" wh="nwh"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

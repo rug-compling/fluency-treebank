@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="pl" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="past"/>
+      <node cat="np" id="3" index="1" rel="su">
+        <node id="4" infl="pl_num" pos="num" rel="det" root="dertien" sense="dertien" special="hoofd"/>
+        <node gen="de" id="5" num="pl" pos="noun" rel="hd" root="geestelijke" sense="geestelijke"/>
+      </node>
+      <node cat="ppart" id="6" rel="vc">
+        <node cat="pp" id="7" rel="mod">
+          <node id="8" pos="prep" rel="hd" root="in" sense="in"/>
+          <node cat="np" id="9" rel="obj1">
+            <node id="10" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+            <node gen="het" id="11" num="sg" pos="noun" rel="hd" root="najaar" sense="najaar" special="tmp"/>
+          </node>
+        </node>
+        <node cat="pp" id="12" rel="mod">
+          <node id="13" pos="prep" rel="hd" root="in" sense="in"/>
+          <node id="14" neclass="LOC" num="both" pos="name" rel="obj1" root="Brazilie" sense="Brazilie"/>
+        </node>
+        <node id="15" index="1" rel="obj1"/>
+        <node id="16" infl="psp" pos="verb" rel="hd" root="arresteer" sc="transitive" sense="arresteer"/>
+        <node cat="pp" id="17" rel="mod">
+          <node id="18" pos="prep" rel="hd" root="wegens" sense="wegens"/>
+          <node cat="np" id="19" rel="obj1">
+            <node aform="base" id="20" infl="e" pos="adj" rel="mod" root="maoïstisch" sense="maoïstisch" vform="adj"/>
+            <node gen="de" id="21" num="pl" pos="noun" rel="hd" root="tendens" sense="tendens"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

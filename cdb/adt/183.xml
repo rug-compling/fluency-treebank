@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="whq" id="1" rel="--">
+      <node id="2" index="1" pos="adj" rel="whd" root="hoe" sense="hoe" wh="ywh"/>
+      <node cat="sv1" id="3" rel="body">
+        <node id="4" index="1" rel="mod"/>
+        <node id="5" infl="sg3" pos="verb" rel="hd" root="denk" sc="pc_pp(over)" sense="denk-over" tense="present"/>
+        <node id="6" neclass="PER" num="both" pos="name" rel="su" root="Serge" sense="Serge"/>
+        <node cat="pp" id="7" rel="pc">
+          <node id="8" pos="prep" rel="hd" root="over" sense="over"/>
+          <node cat="np" id="9" rel="obj1">
+            <node id="10" infl="alle" pos="det" rel="det" root="alle" sense="alle" wh="nwh"/>
+            <node gen="de" id="11" num="pl" pos="noun" rel="hd" root="vrijheid" sense="vrijheid"/>
+            <node cat="rel" id="12" rel="mod">
+              <node case="no_obl" gen="de" id="13" index="2" pos="pron" rel="rhd" root="die" sense="die" wh="rel"/>
+              <node cat="ssub" id="14" rel="body">
+                <node case="nom" def="def" gen="de" id="15" index="3" num="sg" per="thi" pos="pron" rel="su" root="men" sense="men" wh="nwh"/>
+                <node id="16" infl="modal_not_u" pos="verb" rel="hd" root="kan" sc="aux(inf)" sense="kan" tense="present"/>
+                <node cat="inf" id="17" rel="vc">
+                  <node id="18" index="2" rel="obj1"/>
+                  <node id="19" index="3" rel="su"/>
+                  <node id="20" num="both" per="u_thi" pos="pron" refl="refl" rel="se" root="zich" sense="zich"/>
+                  <node cat="pp" id="21" rel="mod">
+                    <node id="22" pos="prep" rel="hd" root="op" sense="op"/>
+                    <node cat="np" id="23" rel="obj1">
+                      <node id="24" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+                      <node gen="het" id="25" num="sg" pos="noun" rel="hd" root="ogenblik" sense="ogenblik" special="tmp"/>
+                    </node>
+                  </node>
+                  <node id="26" infl="inf" pos="verb" rel="hd" root="permitteer" sc="refl_np" sense="zich-permitteer"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

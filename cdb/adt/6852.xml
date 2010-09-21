@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node case="both" def="def" gen="de" id="2" num="sg" per="je" pos="pron" rel="su" root="je" sense="je" special="wkpro" wh="nwh"/>
+      <node id="3" infl="sg3" pos="verb" rel="hd" root="zie" sc="aci" sense="zie" tense="present"/>
+      <node cat="np" id="4" index="1" rel="obj1">
+        <node aform="base" id="5" infl="no_e" pos="adj" rel="det" root="zoveel" sense="zoveel" vform="adj"/>
+        <node gen="de" id="6" num="pl" pos="noun" rel="hd" root="verhouding" sense="verhouding"/>
+      </node>
+      <node cat="inf" id="7" rel="vc">
+        <node cat="pp" id="8" rel="mod">
+          <node id="9" pos="prep" rel="hd" root="om" sense="om"/>
+          <node case="both" def="def" gen="de" id="10" num="sg" per="je" pos="pron" rel="obj1" root="je" sense="je" special="wkpro" wh="nwh"/>
+          <node id="11" pos="part" rel="hdf" root="heen" sense="heen"/>
+        </node>
+        <node id="12" index="1" rel="su"/>
+        <node cat="mwu" id="13" mwu_root="naar de knoppen" mwu_sense="naar de knoppen" rel="svp">
+          <node id="14" pos="fixed" rel="mwp" root="naar" sense="naar"/>
+          <node id="15" pos="fixed" rel="mwp" root="de" sense="de"/>
+          <node id="16" pos="fixed" rel="mwp" root="knoppen" sense="knoppen"/>
+        </node>
+        <node id="17" infl="inf(no_e)" pos="verb" rel="hd" root="ga" sc="fixed([[naar,de,knoppen]],no_passive)" sense="naar-de-knoppen-ga"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

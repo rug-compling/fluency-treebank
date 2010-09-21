@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="mwu" id="1" mwu_root="ten tweede" mwu_sense="ten tweede" rel="--">
+      <node id="2" pos="adv" rel="mwp" root="ten" sense="ten"/>
+      <node id="3" pos="adv" rel="mwp" root="tweede" sense="tweede"/>
+    </node>
+  </node>
+</alpino_adt>

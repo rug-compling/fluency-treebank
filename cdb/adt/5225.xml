@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" pos="adv" rel="mod" root="er" sense="er" special="er"/>
+      <node id="3" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="intransitive" sense="ben" tense="present"/>
+      <node cat="np" id="4" rel="su">
+        <node aform="base" id="5" infl="no_e" pos="adj" rel="det" root="weinig" sense="weinig" vform="adj"/>
+        <node gen="de" id="6" num="sg" pos="noun" rel="hd" root="kans" sc="sbar" sense="kans"/>
+        <node cat="cp" id="7" rel="vc">
+          <node id="8" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+          <node cat="ssub" id="9" rel="body">
+            <node cat="mwu" id="10" index="1" mwu_root="Den Haag" mwu_sense="Den Haag" rel="su">
+              <node id="11" neclass="LOC" num="both" pos="name" rel="mwp" root="Den" sense="Den"/>
+              <node id="12" neclass="LOC" num="both" pos="name" rel="mwp" root="Haag" sense="Haag"/>
+            </node>
+            <node id="13" infl="modal_not_u" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="present"/>
+            <node cat="inf" id="14" rel="vc">
+              <node id="15" index="1" rel="su"/>
+              <node cat="np" id="16" rel="obj2">
+                <node id="17" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+                <node cat="ppart" id="18" rel="mod">
+                  <node cat="pp" id="19" rel="mod">
+                    <node id="20" pos="prep" rel="hd" root="met" sense="met"/>
+                    <node gen="de" id="21" num="sg" pos="noun" rel="obj1" root="sluiting" sense="sluiting"/>
+                  </node>
+                  <node aform="base" id="22" infl="e" pos="adj" rel="hd" root="bedreigd" sense="bedreigd" vform="psp"/>
+                </node>
+                <node id="23" neclass="ORG" num="both" pos="name" rel="hd" root="Artis" sense="Artis"/>
+              </node>
+              <node aform="base" id="24" infl="no_e" pos="adj" rel="mod" root="financieel" sense="financieel" vform="adj"/>
+              <node id="25" infl="inf" pos="verb" rel="hd" root="kom_tegemoet" sc="part_so_np_pass(tegemoet)" sense="kom_tegemoet"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

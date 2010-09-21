@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="smain" id="2" rel="cnj">
+        <node cat="np" id="3" rel="su">
+          <node id="4" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="5" num="sg" pos="noun" rel="hd" root="heer" sense="heer"/>
+          <node id="6" neclass="PER" num="both" pos="name" rel="app" root="Sleiffer" sense="Sleiffer"/>
+        </node>
+        <node id="7" infl="sg3" pos="verb" rel="hd" root="werk" sc="intransitive" sense="werk" tense="present"/>
+        <node cat="cp" id="8" rel="mod">
+          <node id="9" pos="comp" rel="cmp" root="als" sc="als" sense="als"/>
+          <node gen="both" id="10" num="both" pos="noun" rel="body" root="bankemploye" sense="bankemploye"/>
+        </node>
+        <node cat="pp" id="11" rel="mod">
+          <node id="12" pos="prep" rel="hd" root="buiten" sense="buiten"/>
+          <node id="13" neclass="LOC" num="both" pos="name" rel="obj1" root="Gorkum" sense="Gorkum"/>
+        </node>
+      </node>
+      <node id="14" pos="vg" rel="crd" root="en" sense="en"/>
+      <node cat="smain" id="15" rel="cnj">
+        <node cat="np" id="16" rel="su">
+          <node id="17" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="18" num="sg" pos="noun" rel="hd" root="heer" sense="heer"/>
+          <node id="19" neclass="PER" num="both" pos="name" rel="app" root="Breen" sense="Breen"/>
+        </node>
+        <node id="20" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+        <node cat="ppart" id="21" rel="predc">
+          <node aform="base" id="22" infl="both" pos="adj" rel="hd" root="verbonden" sc="pp(aan)" sense="verbonden-aan" vform="psp"/>
+          <node cat="pp" id="23" rel="pc">
+            <node id="24" pos="prep" rel="hd" root="aan" sense="aan"/>
+            <node cat="np" id="25" rel="obj1">
+              <node id="26" infl="een" pos="det" rel="det" root="een" sense="een"/>
+              <node gen="de" id="27" num="sg" pos="noun" rel="hd" root="suiker_fabriek" sense="suiker_fabriek"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

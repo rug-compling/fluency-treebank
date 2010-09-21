@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="mod">
+        <node id="3" pos="prep" rel="hd" root="in" sense="in"/>
+        <node id="4" neclass="year" pos="noun" rel="obj1" root="1956" sense="1956"/>
+      </node>
+      <node id="5" infl="sg" pos="verb" rel="hd" root="schrijf" sc="so_pp_np" sense="schrijf" tense="past"/>
+      <node cat="np" id="6" rel="su">
+        <node id="7" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="8" num="sg" pos="noun" rel="hd" root="directeur-generaal" sense="directeur-generaal"/>
+      </node>
+      <node id="9" pos="adv" rel="mod" root="al" sense="al"/>
+      <node cat="pp" id="10" rel="obj2">
+        <node id="11" pos="prep" rel="hd" root="aan" sense="aan"/>
+        <node cat="np" id="12" rel="obj1">
+          <node id="13" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="14" num="sg" pos="noun" rel="hd" root="staatssecretaris" sense="staatssecretaris"/>
+          <node cat="pp" id="15" rel="mod">
+            <node id="16" pos="prep" rel="hd" root="van" sense="van"/>
+            <node gen="de" id="17" num="sg" pos="noun" rel="obj1" root="marine" sense="marine"/>
+          </node>
+        </node>
+      </node>
+      <node cat="np" id="18" rel="obj1">
+        <node id="19" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node gen="de" id="20" num="sg" pos="noun" rel="hd" root="brief" sense="brief"/>
+        <node cat="rel" id="21" rel="mod">
+          <node id="22" index="1" pos="pp" rel="rhd" root="waarin" sense="waarin" special="waar"/>
+          <node cat="ssub" id="23" rel="body">
+            <node id="24" index="1" rel="mod"/>
+            <node case="nom" def="def" gen="de" id="25" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+            <node cat="np" id="26" rel="obj1">
+              <node id="27" infl="een" pos="det" rel="det" root="een" sense="een"/>
+              <node gen="het" id="28" num="sg" pos="noun" rel="hd" root="vermoeden" sense="vermoeden"/>
+            </node>
+            <node id="29" infl="sg" pos="verb" rel="hd" root="heb" sc="transitive_ndev" sense="heb" tense="past"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

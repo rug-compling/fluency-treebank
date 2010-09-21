@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="pp" id="1" rel="--">
+      <node id="2" pos="prep" rel="hd" root="over" sense="over"/>
+      <node cat="np" id="3" rel="obj1">
+        <node id="4" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="5" num="sg" pos="noun" rel="hd" root="opmerking" sc="sbar" sense="opmerking"/>
+        <node cat="pp" id="6" rel="mod">
+          <node id="7" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="mwu" id="8" mwu_root="prof. Euwe" mwu_sense="prof. Euwe" rel="obj1">
+            <node id="9" neclass="PER" num="both" pos="name" rel="mwp" root="prof." sense="prof."/>
+            <node id="10" neclass="PER" num="both" pos="name" rel="mwp" root="Euwe" sense="Euwe"/>
+          </node>
+        </node>
+        <node cat="cp" id="11" rel="vc">
+          <node id="12" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+          <node cat="ssub" id="13" rel="body">
+            <node id="14" infl="de" pos="det" rel="su" root="deze" sense="deze" wh="nwh"/>
+            <node cat="np" id="15" rel="mod">
+              <node aform="base" id="16" infl="no_e" pos="adj" rel="mod" root="volg" sense="volg" vform="gerund"/>
+              <node gen="het" id="17" num="meas" pos="noun" rel="hd" root="jaar" sense="jaar" special="tmp"/>
+            </node>
+            <node id="18" pos="adv" rel="mod" root="misschien" sense="misschien" special="sentence"/>
+            <node id="19" pos="adv" rel="mod" root="weer" sense="weer"/>
+            <node id="20" infl="sg3" pos="verb" rel="hd" root="doe_mee" sc="part_pc_pp(mee,aan)" sense="doe_mee-aan" tense="present"/>
+            <node cat="pp" id="21" rel="pc">
+              <node id="22" pos="prep" rel="hd" root="aan" sense="aan"/>
+              <node cat="np" id="23" rel="obj1">
+                <node id="24" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+                <node gen="het" id="25" num="sg" pos="noun" rel="hd" root="kampioenschap" sense="kampioenschap"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

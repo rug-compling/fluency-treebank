@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="het" pos="det" rel="su" root="het" sense="het" wh="nwh"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="past"/>
+      <node cat="np" id="4" rel="predc">
+        <node id="5" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node aform="base" id="6" infl="e" pos="adj" rel="mod" root="46_jarig" sense="46_jarig" vform="adj"/>
+        <node gen="de" id="7" num="sg" pos="noun" rel="hd" root="schipper" sense="schipper"/>
+        <node cat="mwu" id="8" mwu_root="B. H." mwu_sense="B. H." rel="app">
+          <node id="9" neclass="PER" num="both" pos="name" rel="mwp" root="B." sense="B."/>
+          <node id="10" neclass="PER" num="both" pos="name" rel="mwp" root="H." sense="H."/>
+        </node>
+        <node cat="pp" id="11" rel="mod">
+          <node id="12" pos="prep" rel="hd" root="uit" sense="uit"/>
+          <node cat="np" id="13" rel="obj1">
+            <node id="14" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node aform="base" id="15" infl="e" pos="adj" rel="mod" root="Fries" sense="Fries" vform="adj"/>
+            <node gen="de" id="16" num="sg" pos="noun" rel="hd" root="hoofdstad" sense="hoofdstad"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

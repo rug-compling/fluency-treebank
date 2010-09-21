@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node case="nom" def="def" gen="de" id="2" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="geloof" sc="sbar" sense="geloof" tense="past"/>
+      <node id="4" pos="adv" rel="mod" root="niet" sense="niet"/>
+      <node cat="cp" id="5" rel="vc">
+        <node id="6" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+        <node cat="ssub" id="7" rel="body">
+          <node cat="np" id="8" rel="su">
+            <node id="9" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="10" num="pl" pos="noun" rel="hd" root="bedoeling" sense="bedoeling"/>
+            <node cat="pp" id="11" rel="mod">
+              <node id="12" pos="prep" rel="hd" root="van" sense="van"/>
+              <node id="13" neclass="PER" num="both" pos="name" rel="obj1" root="Kosygin" sense="Kosygin"/>
+            </node>
+          </node>
+          <node aform="base" id="14" infl="no_e" pos="adj" rel="predc" root="eerlijk" sense="eerlijk" vform="adj"/>
+          <node id="15" infl="pl" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="past"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node cat="mwu" id="4" mwu_root="Gazelle Rijwielfabriek" mwu_sense="Gazelle Rijwielfabriek" rel="hd">
+          <node id="5" num="both" pos="name" rel="mwp" root="Gazelle" sense="Gazelle"/>
+          <node id="6" num="both" pos="name" rel="mwp" root="Rijwielfabriek" sense="Rijwielfabriek"/>
+        </node>
+      </node>
+      <node id="7" infl="sg_heeft" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="present"/>
+      <node cat="ppart" id="8" rel="vc">
+        <node id="9" index="1" rel="su"/>
+        <node cat="np" id="10" rel="obj1">
+          <node id="11" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+          <node cat="ppart" id="12" rel="mod">
+            <node cat="pp" id="13" rel="mod">
+              <node id="14" pos="prep" rel="hd" root="op" sense="op"/>
+              <node cat="mwu" id="15" mwu_root="30 september" mwu_sense="30 september" rel="obj1">
+                <node id="16" pos="noun" rel="mwp" root="30" sense="30" special="tmp"/>
+                <node id="17" pos="noun" rel="mwp" root="september" sense="september" special="tmp"/>
+              </node>
+            </node>
+            <node aform="base" id="18" infl="e" pos="adj" rel="hd" root="geëindigd" sense="geëindigd" vform="psp"/>
+          </node>
+          <node gen="het" id="19" num="sg" pos="noun" rel="hd" root="boek_jaar" sense="boek_jaar" special="tmp"/>
+          <node id="20" infl="both" pos="num" rel="app" root="1968-&apos;69" sense="1968-&apos;69" special="hoofd"/>
+        </node>
+        <node id="21" infl="psp" pos="verb" rel="hd" root="sluit_af" sc="part_transitive(af)" sense="sluit_af"/>
+        <node cat="pp" id="22" rel="mod">
+          <node id="23" pos="prep" rel="hd" root="met" sense="met"/>
+          <node cat="np" id="24" rel="obj1">
+            <node id="25" infl="een" pos="det" rel="det" root="een" sense="een"/>
+            <node gen="het" id="26" num="sg" pos="noun" rel="hd" root="verlies" sense="verlies"/>
+            <node cat="pp" id="27" rel="mod">
+              <node id="28" pos="prep" rel="hd" root="van" sense="van"/>
+              <node cat="mwu" id="29" mwu_root="flo 709.000" mwu_sense="flo 709.000" rel="obj1">
+                <node gen="both" id="30" num="bare_meas" pos="noun" rel="mwp" root="flo" sense="flo" special="amount_meas_mod"/>
+                <node gen="both" id="31" num="bare_meas" pos="noun" rel="mwp" root="709.000" sense="709.000" special="amount_meas_mod"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node case="nom" def="def" gen="de" id="2" num="sg" per="fir" pos="pron" rel="su" root="ik" sense="ik" wh="nwh"/>
+      <node id="3" infl="sg1" pos="verb" rel="hd" root="hoop" sc="tr_sbar" sense="hoop" tense="present"/>
+      <node cat="cp" id="4" rel="vc">
+        <node id="5" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+        <node cat="ssub" id="6" rel="body">
+          <node gen="de" id="7" index="1" num="sg" pos="noun" rel="su" root="god" sense="god"/>
+          <node id="8" infl="modal_not_u" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="present"/>
+          <node cat="inf" id="9" rel="vc">
+            <node id="10" index="1" rel="su"/>
+            <node id="11" infl="inf" pos="verb" rel="hd" root="ben" sc="copula" sense="ben"/>
+            <node cat="ap" id="12" rel="predc">
+              <node aform="compar" id="13" infl="no_e" pos="adj" rel="hd" root="genadig" sense="genadig" vform="adj"/>
+              <node cat="pp" id="14" rel="mod">
+                <node id="15" pos="prep" rel="hd" root="voor" sense="voor"/>
+                <node case="both" def="def" gen="de" id="16" num="sg" per="u" pos="pron" rel="obj1" root="u" sense="u" wh="nwh"/>
+              </node>
+              <node cat="cp" id="17" rel="obcomp">
+                <node id="18" pos="comparative" rel="cmp" root="dan" sense="dan"/>
+                <node cat="ssub" id="19" rel="body">
+                  <node case="both" def="def" gen="de" id="20" index="2" num="sg" per="u" pos="pron" rel="su" root="u" sense="u" wh="nwh"/>
+                  <node id="21" infl="sg_hebt" pos="verb" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" tense="present"/>
+                  <node cat="ppart" id="22" rel="vc">
+                    <node id="23" index="2" rel="su"/>
+                    <node cat="pp" id="24" rel="mod">
+                      <node id="25" pos="prep" rel="hd" root="voor" sense="voor"/>
+                      <node cat="np" id="26" rel="obj1">
+                        <node gen="de" id="27" num="sg" pos="noun" rel="hd" root="sergeant" sense="sergeant"/>
+                        <node id="28" neclass="PER" num="both" pos="name" rel="app" root="Meijer" sense="Meijer"/>
+                      </node>
+                    </node>
+                    <node id="29" infl="psp" pos="verb" rel="hd" root="ben" sc="intransitive" sense="ben"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

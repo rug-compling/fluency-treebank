@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="pl" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="present"/>
+      <node gen="both" id="3" index="1" num="pl" pos="noun" rel="su" root="punt" sense="punt" special="meas_mod"/>
+      <node cat="ppart" id="4" rel="vc">
+        <node cat="cp" id="5" rel="mod">
+          <node id="6" pos="comp" rel="cmp" root="als" sc="als" sense="als"/>
+          <node cat="ssub" id="7" rel="body">
+            <node id="8" index="2" neclass="ORG" num="both" pos="name" rel="su" root="Vorwarts" sense="Vorwarts"/>
+            <node id="9" infl="sg" pos="verb" rel="hd" root="moet" sc="modifier(aux(inf))" sense="moet" tense="present"/>
+            <node cat="inf" id="10" rel="vc">
+              <node id="11" index="2" rel="su"/>
+              <node id="12" pos="adv" rel="mod" root="echter" sense="echter" special="sentence"/>
+              <node cat="pp" id="13" rel="pc">
+                <node id="14" pos="prep" rel="hd" root="tegen" sense="tegen"/>
+                <node cat="np" id="15" rel="obj1">
+                  <node cat="ppart" id="16" rel="mod">
+                    <node aform="base" id="17" infl="no_e" pos="adj" rel="mod" root="slecht" sense="slecht" vform="adj"/>
+                    <node aform="base" id="18" infl="e" pos="adj" rel="hd" root="geklasseerd" sense="geklasseerd" vform="psp"/>
+                  </node>
+                  <node gen="de" id="19" num="pl" pos="noun" rel="hd" root="opponent" sense="opponent"/>
+                </node>
+              </node>
+              <node id="20" infl="inf" pos="verb" rel="hd" root="speel" sc="pc_pp(tegen)" sense="speel-tegen"/>
+            </node>
+          </node>
+        </node>
+        <node id="21" pos="adv" rel="mod" root="er" sense="er" special="er"/>
+        <node id="22" index="1" rel="obj1"/>
+        <node id="23" infl="psp" pos="verb" rel="hd" root="verlies" sc="transitive" sense="verlies"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

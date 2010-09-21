@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" pos="pp" rel="mod" root="daarom" sense="daarom" special="er"/>
+      <node id="3" infl="pl" pos="verb" rel="hd" root="juich_toe" sc="part_transitive(toe)" sense="juich_toe" tense="present"/>
+      <node case="nom" def="def" gen="de" id="4" num="both" per="thi" pos="pron" rel="su" root="zij" sense="zij" wh="nwh"/>
+      <node cat="np" id="5" rel="obj1">
+        <node id="6" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="het" id="7" num="sg" pos="noun" rel="hd" root="streven" sc="vp" sense="streven"/>
+        <node cat="oti" id="8" rel="vc">
+          <node id="9" pos="comp" rel="cmp" root="om" sc="om" sense="om"/>
+          <node cat="ti" id="10" rel="body">
+            <node id="11" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+            <node cat="inf" id="12" rel="body">
+              <node id="13" infl="inf" pos="verb" rel="hd" root="kom" sc="pc_pp(tot)" sense="kom-tot"/>
+              <node cat="pp" id="14" rel="pc">
+                <node id="15" pos="prep" rel="hd" root="tot" sense="tot"/>
+                <node cat="np" id="16" rel="obj1">
+                  <node id="17" infl="een" pos="det" rel="det" root="een" sense="een"/>
+                  <node gen="het" id="18" num="sg" pos="noun" rel="hd" root="congres_centrum" sense="congres_centrum"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

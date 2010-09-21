@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="pl_num" pos="num" rel="det" root="46" sense="46" special="hoofd"/>
+        <node gen="de" id="4" num="pl" pos="noun" rel="hd" root="aandeelhouder" sense="aandeelhouder"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="met" sense="met"/>
+          <node cat="np" id="7" rel="obj1">
+            <node id="8" infl="pl_num" pos="num" rel="det" root="945" sense="945" special="hoofd"/>
+            <node gen="de" id="9" num="pl" pos="noun" rel="hd" root="stem" sense="stem"/>
+          </node>
+        </node>
+      </node>
+      <node id="10" infl="pl" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="past"/>
+      <node cat="pp" id="11" rel="mod">
+        <node id="12" pos="prep" rel="hd" root="op" sense="op"/>
+        <node cat="np" id="13" rel="obj1">
+          <node id="14" infl="de" pos="det" rel="det" root="deze" sense="deze" wh="nwh"/>
+          <node aform="base" id="15" infl="e" pos="adj" rel="mod" root="rumoerig" sense="rumoerig" vform="adj"/>
+          <node cat="ap" id="16" rel="mod">
+            <node cat="np" id="17" rel="me">
+              <node id="18" pos="adv" rel="mod" root="bijna" sc="adv_noun_prep" sense="bijna"/>
+              <node id="19" infl="both" pos="num" rel="det" root="3,5" sense="3,5" special="hoofd"/>
+              <node gen="het" id="20" num="meas" pos="noun" rel="hd" root="uur" sense="uur" special="tmp"/>
+            </node>
+            <node aform="base" id="21" infl="e" pos="adj" rel="hd" root="durend" sc="np_me" sense="durend" vform="adj"/>
+          </node>
+          <node gen="de" id="22" num="sg" pos="noun" rel="hd" root="vergadering" sense="vergadering"/>
+        </node>
+      </node>
+      <node aform="base" id="23" infl="no_e" pos="adj" rel="predc" root="aanwezig" sense="aanwezig" vform="adj"/>
+    </node>
+  </node>
+</alpino_adt>

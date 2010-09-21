@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="mod">
+        <node id="3" pos="prep" rel="hd" root="op" sense="op"/>
+        <node cat="np" id="4" rel="obj1">
+          <node id="5" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node aform="compar" id="6" infl="e" pos="adj" rel="mod" root="laag" sense="laag" vform="adj"/>
+          <node aform="base" id="7" infl="e" pos="adj" rel="mod" root="lokaal" sense="lokaal" vform="adj"/>
+          <node gen="de" id="8" num="sg" pos="noun" rel="hd" root="markt" sense="markt"/>
+        </node>
+      </node>
+      <node id="9" infl="sg" pos="verb" rel="hd" root="zorg" sc="pc_pp(voor)" sense="zorg-voor" tense="past"/>
+      <node id="10" neclass="PER" num="both" pos="name" rel="su" root="Hagemeijer" sense="Hagemeijer"/>
+      <node cat="pp" id="11" rel="pc">
+        <node id="12" pos="prep" rel="hd" root="voor" sense="voor"/>
+        <node cat="np" id="13" rel="obj1">
+          <node id="14" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node gen="de" id="15" num="sg" pos="noun" rel="hd" root="verrassing" sense="verrassing"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

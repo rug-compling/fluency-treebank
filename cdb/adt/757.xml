@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" pos="pp" rel="mod" root="daarom" sense="daarom" special="er"/>
+      <node id="3" infl="sg3" pos="verb" rel="hd" root="blijf" sc="copula" sense="blijf" tense="present"/>
+      <node cat="np" id="4" rel="su">
+        <node id="5" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="het" id="6" num="sg" pos="noun" rel="hd" root="advies" sense="advies"/>
+        <node cat="pp" id="7" rel="mod">
+          <node id="8" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="9" rel="obj1">
+            <node aform="base" id="10" infl="no_e" pos="adj" rel="mod" root="vorig" sense="vorig" vform="adj"/>
+            <node gen="het" id="11" num="meas" pos="noun" rel="hd" root="jaar" sense="jaar" special="tmp"/>
+          </node>
+        </node>
+      </node>
+      <node id="12" pos="adv" rel="mod" root="nog" sense="nog"/>
+      <node id="13" pos="adv" rel="mod" root="immer" sense="immer"/>
+      <node aform="base" id="14" infl="no_e" pos="adj" rel="predc" root="geldig" sense="geldig" vform="adj"/>
+    </node>
+  </node>
+</alpino_adt>

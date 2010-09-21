@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="pl" pos="noun" rel="hd" root="militair" sense="militair"/>
+        <node cat="conj" id="5" rel="app">
+          <node cat="mwu" id="6" mwu_root="Van Wingerden" mwu_sense="Van Wingerden" rel="cnj">
+            <node id="7" neclass="PER" num="both" pos="name" rel="mwp" root="Van" sense="Van"/>
+            <node id="8" neclass="PER" num="both" pos="name" rel="mwp" root="Wingerden" sense="Wingerden"/>
+          </node>
+          <node id="9" pos="vg" rel="crd" root="en" sense="en"/>
+          <node id="10" neclass="PER" num="both" pos="name" rel="cnj" root="Steenbeek" sense="Steenbeek"/>
+        </node>
+      </node>
+      <node id="11" infl="pl" pos="verb" rel="hd" root="ben" sc="passive" sense="ben" tense="present"/>
+      <node cat="ppart" id="12" rel="vc">
+        <node id="13" index="1" rel="obj1"/>
+        <node cat="pp" id="14" rel="mod">
+          <node id="15" pos="prep" rel="hd" root="op" sense="op"/>
+          <node cat="mwu" id="16" mwu_root="12 mei 1940" mwu_sense="12 mei 1940" rel="obj1">
+            <node id="17" pos="noun" rel="mwp" root="12" sense="12" special="tmp"/>
+            <node id="18" pos="noun" rel="mwp" root="mei" sense="mei" special="tmp"/>
+            <node id="19" pos="noun" rel="mwp" root="1940" sense="1940" special="tmp"/>
+          </node>
+        </node>
+        <node cat="pp" id="20" rel="mod">
+          <node id="21" pos="prep" rel="hd" root="in" sense="in"/>
+          <node id="22" neclass="LOC" num="both" pos="name" rel="obj1" root="Breda" sense="Breda"/>
+        </node>
+        <node cat="mwu" id="23" mwu_root="ten onrechte" mwu_sense="ten onrechte" rel="mod">
+          <node aform="base" id="24" infl="pred" pos="adj" rel="mwp" root="ten" sense="ten" vform="adj"/>
+          <node aform="base" id="25" infl="pred" pos="adj" rel="mwp" root="onrechte" sense="onrechte" vform="adj"/>
+        </node>
+        <node id="26" infl="psp" pos="verb" rel="hd" root="schiet_dood" sc="part_transitive(dood)" sense="schiet_dood"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

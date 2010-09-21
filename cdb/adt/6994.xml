@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="bisschop" sense="bisschop"/>
+      </node>
+      <node id="5" infl="sg_heeft" pos="verb" rel="hd" root="heb" sc="fixed([vc(maak,pass_te,intransitive),pc(met),acc],no_passive)" sense="heb-met-maak" tense="present"/>
+      <node cat="conj" id="6" rel="mod">
+        <node aform="base" id="7" infl="no_e" pos="adj" rel="cnj" root="officieel" sense="officieel" vform="adj"/>
+        <node id="8" pos="vg" rel="crd" root="en" sense="en"/>
+        <node cat="ap" id="9" rel="cnj">
+          <node aform="base" id="10" infl="no_e" pos="adj" rel="mod" root="zeker" sense="zeker" vform="adj"/>
+          <node aform="base" id="11" infl="no_e" pos="adj" rel="hd" root="bestuurlijk" sense="bestuurlijk" vform="adj"/>
+        </node>
+      </node>
+      <node gen="het" id="12" num="sg" pos="noun" rel="obj1" root="niets" sense="niets" special="meas_mod"/>
+      <node cat="pp" id="13" rel="pc">
+        <node id="14" pos="prep" rel="hd" root="met" sense="met"/>
+        <node cat="np" id="15" rel="obj1">
+          <node id="16" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node aform="base" id="17" infl="e" pos="adj" rel="mod" root="Beverwijkse" sense="Beverwijkse" vform="adj"/>
+          <node gen="de" id="18" num="sg" pos="noun" rel="hd" root="school" sense="school"/>
+        </node>
+      </node>
+      <node cat="ti" id="19" rel="svp">
+        <node id="20" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+        <node id="21" infl="inf" pos="verb" rel="body" root="maak" sc="fixed_dep(intransitive)" sense="maak"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

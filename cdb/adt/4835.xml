@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node cat="mwu" id="3" mwu_root="Cammell Laird" mwu_sense="Cammell Laird" rel="hd">
+          <node id="4" neclass="ORG" num="both" pos="name" rel="mwp" root="Cammell" sense="Cammell"/>
+          <node id="5" neclass="ORG" num="both" pos="name" rel="mwp" root="Laird" sense="Laird"/>
+        </node>
+        <node id="6" pos="adv" rel="mod" root="bijvoorbeeld" sense="bijvoorbeeld" special="postnp"/>
+      </node>
+      <node id="7" infl="sg" pos="verb" rel="hd" root="ben" sc="passive" sense="ben" tense="past"/>
+      <node cat="ppart" id="8" rel="vc">
+        <node id="9" index="1" rel="obj1"/>
+        <node id="10" pos="adv" rel="mod" root="eerst" sense="eerst"/>
+        <node id="11" infl="psp" pos="verb" rel="hd" root="belast" sc="np_pc_pp(met)" sense="belast-met"/>
+        <node cat="pp" id="12" rel="pc">
+          <node id="13" pos="prep" rel="hd" root="met" sense="met"/>
+          <node cat="np" id="14" rel="obj1">
+            <node id="15" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node aform="base" id="16" infl="e" pos="adj" rel="mod" root="winstgevend" sense="winstgevend" vform="adj"/>
+            <node gen="de" id="17" num="sg" pos="noun" rel="hd" root="bouw" sense="bouw"/>
+            <node cat="pp" id="18" rel="mod">
+              <node id="19" pos="prep" rel="hd" root="van" sense="van"/>
+              <node cat="np" id="20" rel="obj1">
+                <node id="21" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                <node aform="base" id="22" infl="e" pos="adj" rel="mod" root="nieuw" sense="nieuw" vform="adj"/>
+                <node aform="base" id="23" infl="e" pos="adj" rel="mod" root="Brits" sense="Brits" vform="adj"/>
+                <node id="24" neclass="LOC" num="both" pos="name" rel="hd" root="Polariskernonderzeeers" sense="Polariskernonderzeeers"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="mwu" id="2" mwu_root="maar ach" mwu_sense="maar ach" rel="tag">
+        <node id="3" pos="tag" rel="mwp" root="maar" sense="maar"/>
+        <node id="4" pos="tag" rel="mwp" root="ach" sense="ach"/>
+      </node>
+      <node cat="whq" id="5" rel="nucl">
+        <node id="6" index="1" pos="adv" rel="whd" root="waar" sense="waar" special="er_loc" wh="ywh"/>
+        <node cat="sv1" id="7" rel="body">
+          <node id="8" infl="pl" pos="verb" rel="hd" root="praat" sc="pc_pp(over)" sense="praat-over" tense="present"/>
+          <node case="nom" def="def" gen="de" id="9" num="pl" per="fir" pos="pron" rel="su" root="we" sense="we" special="wkpro" wh="nwh"/>
+          <node cat="pp" id="10" rel="pc">
+            <node id="11" index="1" rel="obj1"/>
+            <node id="12" pos="prep" rel="hd" root="over" sense="over"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

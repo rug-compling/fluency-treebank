@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="pl" pos="verb" rel="hd" root="kan" sc="aux(inf)" sense="kan" tense="past"/>
+      <node cat="np" id="3" index="1" rel="su">
+        <node id="4" infl="alle" pos="det" rel="det" root="alle" sense="alle" wh="nwh"/>
+        <node gen="de" id="5" num="pl" pos="noun" rel="hd" root="gemeente" sense="gemeente"/>
+      </node>
+      <node cat="inf" id="6" rel="vc">
+        <node cat="pp" id="7" rel="mod">
+          <node id="8" pos="prep" rel="hd" root="tot" sense="tot"/>
+          <node id="9" pos="adv" rel="obj1" root="nog" sense="nog"/>
+          <node id="10" pos="part" rel="hdf" root="toe" sense="toe"/>
+        </node>
+        <node cat="pp" id="11" rel="mod">
+          <node id="12" pos="prep" rel="hd" root="in" sense="in"/>
+          <node gen="het" id="13" num="sg" pos="noun" rel="obj1" root="principe" sense="principe"/>
+        </node>
+        <node id="14" index="1" rel="su"/>
+        <node cat="np" id="15" rel="obj1">
+          <node id="16" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node aform="base" id="17" infl="e" pos="adj" rel="mod" root="dergelijk" sense="dergelijk" vform="adj"/>
+          <node gen="de" id="18" num="sg" pos="noun" rel="hd" root="uitkering" sense="uitkering"/>
+        </node>
+        <node id="19" infl="inf" pos="verb" rel="hd" root="verstrek" sc="transitive" sense="verstrek"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

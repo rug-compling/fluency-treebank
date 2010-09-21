@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node id="2" pos="comp" rel="dlink" root="maar" sc="root" sense="maar"/>
+      <node cat="smain" id="3" rel="nucl">
+        <node cat="np" id="4" rel="mod">
+          <node id="5" pos="adv" rel="mod" root="reeds" sc="modal" sense="reeds"/>
+          <node id="6" infl="het" pos="det" rel="det" root="datzelfde" sense="datzelfde" wh="nwh"/>
+          <node gen="het" id="7" num="meas" pos="noun" rel="hd" root="jaar" sense="jaar" special="tmp"/>
+        </node>
+        <node id="8" infl="sg" pos="verb" rel="hd" root="blijk" sc="dip_sbar_subj_no_het" sense="blijk" tense="past"/>
+        <node cat="cp" id="9" rel="su">
+          <node id="10" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+          <node cat="ssub" id="11" rel="body">
+            <node cat="np" id="12" index="1" rel="su">
+              <node id="13" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node gen="de" id="14" num="sg" pos="noun" rel="hd" root="kwantiteit" sense="kwantiteit"/>
+            </node>
+            <node id="15" infl="sg" pos="verb" rel="hd" root="ga" sc="aux(inf)" sense="ga" tense="past"/>
+            <node cat="inf" id="16" rel="vc">
+              <node id="17" index="1" rel="su"/>
+              <node cat="np" id="18" rel="obj1">
+                <node id="19" infl="pron" pos="det" rel="det" root="haar" sense="haar"/>
+                <node id="20" pos="verb" rel="hd" root="recht" sc="intransitive" sense="recht" special="v_noun"/>
+              </node>
+              <node id="21" infl="inf" pos="verb" rel="hd" root="herneem" sc="transitive" sense="herneem"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

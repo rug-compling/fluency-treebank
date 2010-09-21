@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="actie" sense="actie"/>
+        <node cat="rel" id="5" rel="mod">
+          <node id="6" index="1" pos="pp" rel="rhd" root="waaraan" sense="waaraan" special="waar"/>
+          <node cat="ssub" id="7" rel="body">
+            <node id="8" index="1" rel="pc"/>
+            <node id="9" infl="pl" pos="verb" rel="hd" root="werk_mee" sc="part_pc_pp(mee,aan)" sense="werk_mee-aan" tense="present"/>
+            <node cat="np" id="10" rel="su">
+              <node id="11" infl="pl_num" pos="num" rel="det" root="2850" sense="2850" special="hoofd"/>
+              <node gen="de" id="12" num="pl" pos="noun" rel="hd" root="school" sense="school"/>
+              <node cat="rel" id="13" rel="mod">
+                <node id="14" index="2" pos="pp" rel="rhd" root="waarvan" sense="waarvan" special="waar"/>
+                <node cat="np" id="15" rel="body">
+                  <node id="16" index="2" rel="mod"/>
+                  <node id="17" infl="pl_num" pos="num" rel="hd" root="82" sense="82" special="hoofd"/>
+                  <node cat="pp" id="18" rel="mod">
+                    <node id="19" pos="prep" rel="hd" root="in" sense="in"/>
+                    <node id="20" neclass="LOC" num="both" pos="name" rel="obj1" root="Groningen" sense="Groningen"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="21" infl="sg3" pos="verb" rel="hd" root="duur" sc="pc_pp(tot)" sense="duur-tot" tense="present"/>
+      <node cat="pp" id="22" rel="pc">
+        <node id="23" pos="prep" rel="hd" root="tot" sense="tot"/>
+        <node cat="mwu" id="24" mwu_root="31 december" mwu_sense="31 december" rel="obj1">
+          <node id="25" pos="noun" rel="mwp" root="31" sense="31" special="tmp"/>
+          <node id="26" pos="noun" rel="mwp" root="december" sense="december" special="tmp"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" pos="noun" rel="sup" root="het" sense="het" special="het"/>
+      <node id="3" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula_sbar" sense="ben" tense="present"/>
+      <node aform="base" id="4" infl="no_e" pos="adj" rel="predc" root="onvermijdelijk" sc="subject_sbar" sense="onvermijdelijk" vform="adj"/>
+      <node cat="cp" id="5" rel="su">
+        <node id="6" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+        <node cat="ssub" id="7" rel="body">
+          <node cat="np" id="8" rel="su">
+            <node id="9" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node cat="ppart" id="10" rel="mod">
+              <node id="11" pos="adv" rel="mod" root="zo" sense="zo"/>
+              <node aform="base" id="12" infl="both" pos="adj" rel="hd" root="geslagen" sense="geslagen" vform="psp"/>
+            </node>
+            <node gen="de" id="13" num="pl" pos="noun" rel="hd" root="vluchteling" sense="vluchteling"/>
+          </node>
+          <node id="14" pos="adv" rel="mod" root="straks" sense="straks" special="tmp"/>
+          <node id="15" pos="adv" rel="mod" root="weer" sense="weer"/>
+          <node cat="pp" id="16" rel="pc">
+            <node id="17" pos="prep" rel="hd" root="met" sc="pc_adv" sense="met"/>
+            <node cat="ppart" id="18" rel="obj1">
+              <node aform="base" id="19" infl="no_e" pos="adj" rel="mod" root="militair" sense="militair" vform="adj"/>
+              <node aform="base" id="20" infl="no_e" pos="adj" rel="hd" root="geweld" sense="geweld" vform="psp"/>
+            </node>
+          </node>
+          <node cat="ti" id="21" rel="svp">
+            <node id="22" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+            <node id="23" infl="inf" pos="verb" rel="body" root="maak" sc="fixed_dep(intransitive)" sense="maak"/>
+          </node>
+          <node id="24" infl="pl" pos="verb" rel="hd" root="krijg" sc="fixed([vc(maak,pass_te,intransitive),pc(met)],no_passive)" sense="krijg-met-maak" tense="present"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

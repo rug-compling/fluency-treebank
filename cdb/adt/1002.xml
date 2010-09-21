@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node case="nom" def="def" gen="de" id="2" num="both" per="thi" pos="pron" rel="su" root="zij" sense="zij" wh="nwh"/>
+      <node id="3" infl="pl" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+      <node cat="np" id="4" rel="predc">
+        <node id="5" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="6" num="pl" pos="noun" rel="hd" root="opvolger" sense="opvolger"/>
+        <node cat="pp" id="7" rel="mod">
+          <node id="8" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="conj" id="9" rel="obj1">
+            <node id="10" pos="vg" rel="crd" root="respectievelijk" sense="respectievelijk" special="left"/>
+            <node cat="np" id="11" rel="cnj">
+              <node gen="de" id="12" num="sg" pos="noun" rel="hd" root="wethouder" sense="wethouder"/>
+              <node cat="mwu" id="13" mwu_root="R. S. Killian" mwu_sense="R. S. Killian" rel="app">
+                <node id="14" neclass="PER" num="both" pos="name" rel="mwp" root="R." sense="R."/>
+                <node id="15" neclass="PER" num="both" pos="name" rel="mwp" root="S." sense="S."/>
+                <node id="16" neclass="PER" num="both" pos="name" rel="mwp" root="Killian" sense="Killian"/>
+              </node>
+            </node>
+            <node id="17" pos="vg" rel="crd" root="en" sense="en"/>
+            <node cat="mwu" id="18" mwu_root="H. Slob" mwu_sense="H. Slob" rel="cnj">
+              <node id="19" neclass="PER" num="both" pos="name" rel="mwp" root="H." sense="H."/>
+              <node id="20" neclass="PER" num="both" pos="name" rel="mwp" root="Slob" sense="Slob"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

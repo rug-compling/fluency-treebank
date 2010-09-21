@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" neclass="PER" num="both" pos="name" rel="hd" root="Katsuko" sense="Katsuko"/>
+        <node id="4" infl="pl_num" pos="num" rel="mod" root="23" sense="23" special="hoofd"/>
+        <node cat="mwu" id="5" mwu_root="bijvoorbeeld" mwu_sense="bijvoorbeeld" rel="mod">
+          <node id="6" pos="adv" rel="mwp" root="bij" sense="bij" special="postnp"/>
+          <node id="7" pos="adv" rel="mwp" root="voorbeeld" sense="voorbeeld" special="postnp"/>
+        </node>
+      </node>
+      <node id="8" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="present"/>
+      <node cat="np" id="9" rel="predc">
+        <node id="10" infl="pron" neclass="LOC" pos="det" rel="det" root="Japan" sense="Japan" special="name"/>
+        <node aform="super" id="11" infl="e" pos="adj" rel="mod" root="beroemd" sense="beroemd" vform="adj"/>
+        <node gen="de" id="12" num="sg" pos="noun" rel="hd" root="danseres" sense="danseres"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

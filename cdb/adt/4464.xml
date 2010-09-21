@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="ap" id="2" rel="cnj">
+        <node aform="base" id="3" infl="no_e" pos="adj" rel="hd" root="onverklaarbaar" sense="onverklaarbaar" vform="adj"/>
+        <node id="4" pos="adv" rel="mod" root="eigenlijk" sense="eigenlijk" special="postadj"/>
+      </node>
+      <node id="5" pos="vg" rel="crd" root="maar" sense="maar"/>
+      <node cat="smain" id="6" rel="cnj">
+        <node cat="pp" id="7" rel="mod">
+          <node id="8" pos="prep" rel="hd" root="vanaf" sense="vanaf"/>
+          <node cat="np" id="9" rel="obj1">
+            <node id="10" infl="het" pos="det" rel="det" root="dat" sense="dat" wh="nwh"/>
+            <node gen="both" id="11" num="sg" pos="noun" rel="hd" root="moment" sense="moment" special="tmp"/>
+          </node>
+        </node>
+        <node id="12" infl="sg" pos="verb" rel="hd" root="ga" sc="ap_copula" sense="ga" tense="past"/>
+        <node id="13" infl="het" pos="det" rel="su" root="het" sense="het" wh="nwh"/>
+        <node aform="base" id="14" infl="no_e" pos="adj" rel="mod" root="plotseling" sense="plotseling" vform="adj"/>
+        <node aform="compar" id="15" infl="no_e" pos="adj" rel="predc" root="goed" sense="goed" vform="adj"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

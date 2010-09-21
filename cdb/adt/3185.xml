@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="concentratie" sense="concentratie"/>
+      </node>
+      <node id="5" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="passive" sense="ben" tense="present"/>
+      <node cat="ppart" id="6" rel="vc">
+        <node id="7" index="1" rel="obj1"/>
+        <node id="8" infl="psp" pos="verb" rel="hd" root="realiseer" sc="transitive" sense="realiseer"/>
+        <node cat="cp" id="9" rel="mod">
+          <node id="10" pos="comp" rel="cmp" root="doordat" sense="doordat"/>
+          <node cat="ssub" id="11" rel="body">
+            <node cat="np" id="12" index="2" rel="su">
+              <node id="13" infl="alle" pos="det" rel="det" root="alle" sense="alle" wh="nwh"/>
+              <node gen="het" id="14" num="pl" pos="noun" rel="hd" root="aandeel" sense="aandeel"/>
+              <node cat="mwu" id="15" mwu_root="Zomer en Keuning" mwu_sense="Zomer en Keuning" rel="app">
+                <node id="16" neclass="ORG" num="both" pos="name" rel="mwp" root="Zomer" sense="Zomer"/>
+                <node id="17" neclass="ORG" num="both" pos="name" rel="mwp" root="en" sense="en"/>
+                <node id="18" neclass="ORG" num="both" pos="name" rel="mwp" root="Keuning" sense="Keuning"/>
+              </node>
+            </node>
+            <node id="19" infl="pl" pos="verb" rel="hd" root="ben" sc="passive" sense="ben" tense="present"/>
+            <node cat="ppart" id="20" rel="vc">
+              <node id="21" index="2" rel="obj1"/>
+              <node cat="pp" id="22" rel="mod">
+                <node id="23" pos="prep" rel="hd" root="door" sense="door"/>
+                <node id="24" neclass="ORG" num="both" pos="name" rel="obj1" root="Kluwer" sense="Kluwer"/>
+              </node>
+              <node id="25" infl="psp" pos="verb" rel="hd" root="verkrijg" sc="transitive" sense="verkrijg"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

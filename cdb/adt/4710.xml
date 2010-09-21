@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" neclass="PER" num="both" pos="name" rel="su" root="Zagalo" sense="Zagalo"/>
+      <node id="3" infl="sg" pos="verb" rel="hd" root="speel" sc="intransitive" sense="speel" tense="past"/>
+      <node cat="cp" id="4" rel="mod">
+        <node id="5" pos="comp" rel="cmp" root="als" sc="als" sense="als"/>
+        <node cat="np" id="6" rel="body">
+          <node aform="base" id="7" infl="both" pos="adj" rel="mod" root="teruggetrokken" sense="teruggetrokken" vform="psp"/>
+          <node gen="de" id="8" num="sg" pos="noun" rel="hd" root="linksbuiten" sense="linksbuiten"/>
+        </node>
+      </node>
+      <node cat="pp" id="9" rel="mod">
+        <node id="10" pos="prep" rel="hd" root="in" sense="in"/>
+        <node cat="np" id="11" rel="obj1">
+          <node id="12" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+          <node aform="base" id="13" infl="e" pos="adj" rel="mod" root="Braziliaans" sense="Braziliaans" vform="adj"/>
+          <node gen="het" id="14" num="sg" pos="noun" rel="hd" root="elftal" sense="elftal"/>
+          <node cat="rel" id="15" rel="mod">
+            <node case="no_obl" gen="het" id="16" index="1" pos="pron" rel="rhd" root="dat" sense="dat" wh="rel"/>
+            <node cat="ssub" id="17" rel="body">
+              <node id="18" index="1" rel="su"/>
+              <node cat="pp" id="19" rel="mod">
+                <node id="20" pos="prep" rel="hd" root="in" sense="in"/>
+                <node cat="conj" id="21" rel="obj1">
+                  <node id="22" infl="both" pos="num" rel="cnj" root=",58" sense=",58" special="hoofd"/>
+                  <node id="23" pos="vg" rel="crd" root="en" sense="en"/>
+                  <node id="24" infl="both" pos="num" rel="cnj" root=",62" sense=",62" special="hoofd"/>
+                </node>
+              </node>
+              <node gen="de" id="25" num="sg" pos="noun" rel="predc" root="wereldkampioen" sense="wereldkampioen"/>
+              <node id="26" infl="sg" pos="verb" rel="hd" root="word" sc="copula" sense="word" tense="past"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

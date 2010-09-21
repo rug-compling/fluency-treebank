@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="pl" pos="verb" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" tense="present"/>
+      <node cat="np" id="3" index="1" rel="su">
+        <node id="4" infl="pl_num" pos="num" rel="det" root="90" sense="90" special="hoofd"/>
+        <node gen="de" id="5" num="bare_meas" pos="noun" rel="hd" root="man" sense="man"/>
+        <node cat="pp" id="6" rel="mod">
+          <node id="7" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="8" rel="obj1">
+            <node id="9" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node aform="base" id="10" infl="e" pos="adj" rel="mod" root="technisch" sense="technisch" vform="adj"/>
+            <node gen="de" id="11" num="sg" pos="noun" rel="hd" root="dienst" sense="dienst"/>
+          </node>
+        </node>
+      </node>
+      <node cat="ppart" id="12" rel="vc">
+        <node cat="pp" id="13" rel="mod">
+          <node id="14" pos="prep" rel="hd" root="bij" sense="bij"/>
+          <node cat="np" id="15" rel="obj1">
+            <node cat="mwu" id="16" mwu_root="Koninklijke Scholten-Honig" mwu_sense="Koninklijke Scholten-Honig" rel="hd">
+              <node id="17" neclass="ORG" num="both" pos="name" rel="mwp" root="Koninklijke" sense="Koninklijke"/>
+              <node id="18" neclass="ORG" num="both" pos="name" rel="mwp" root="Scholten-Honig" sense="Scholten-Honig"/>
+            </node>
+            <node cat="pp" id="19" rel="mod">
+              <node id="20" pos="prep" rel="hd" root="te" sc="nodet" sense="te"/>
+              <node id="21" neclass="PER" num="both" pos="name" rel="obj1" root="Koog" sense="Koog"/>
+            </node>
+          </node>
+        </node>
+        <node id="22" pos="adv" rel="mod" root="gisteren" sense="gisteren" special="tmp"/>
+        <node id="23" index="1" rel="su"/>
+        <node cat="pp" id="24" rel="predc">
+          <node id="25" pos="prep" rel="hd" root="in" sense="in"/>
+          <node gen="de" id="26" num="sg" pos="noun" rel="obj1" root="staking" sc="pred_pp(in)" sense="staking"/>
+        </node>
+        <node id="27" infl="psp" pos="verb" rel="hd" root="ga" sc="pp_copula(in,staking)" sense="in-staking-ga"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

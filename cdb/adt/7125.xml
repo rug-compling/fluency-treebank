@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="np" id="2" rel="cnj">
+        <node id="3" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node gen="het" id="4" num="sg" pos="noun" rel="hd" root="bom_alarm" sense="bom_alarm"/>
+      </node>
+      <node id="5" pos="vg" rel="crd" root="en" sense="en"/>
+      <node gen="de" id="6" num="pl" pos="noun" rel="cnj" root="demonstratie" sense="demonstratie"/>
+    </node>
+  </node>
+</alpino_adt>

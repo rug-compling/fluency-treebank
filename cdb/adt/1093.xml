@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="pp" id="2" rel="nucl">
+        <node id="3" pos="prep" rel="hd" root="op" sense="op"/>
+        <node cat="np" id="4" rel="obj1">
+          <node id="5" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+          <node gen="het" id="6" num="sg" pos="noun" rel="hd" root="ogenblik" sense="ogenblik" special="tmp"/>
+        </node>
+      </node>
+      <node cat="smain" id="7" rel="tag">
+        <node id="8" pos="adv" rel="vc" root="zo" sc="dip_sbar" sense="zo"/>
+        <node id="9" infl="sg3" pos="verb" rel="hd" root="schrijf" sc="sbar" sense="schrijf" tense="present"/>
+        <node cat="np" id="10" rel="su">
+          <node id="11" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+          <node aform="base" id="12" infl="e" pos="adj" rel="mod" root="economisch" sense="economisch" vform="adj"/>
+          <node gen="het" id="13" num="sg" pos="noun" rel="hd" root="dag_blad" sense="dag_blad"/>
+          <node cat="mwu" id="14" mwu_root="Les Echos is de Eeg" mwu_sense="Les Echos is de Eeg" rel="app">
+            <node id="15" num="both" pos="name" rel="mwp" root="Les" sense="Les"/>
+            <node id="16" num="both" pos="name" rel="mwp" root="Echos" sense="Echos"/>
+            <node id="17" num="both" pos="name" rel="mwp" root="is" sense="is"/>
+            <node id="18" num="both" pos="name" rel="mwp" root="de" sense="de"/>
+            <node id="19" num="both" pos="name" rel="mwp" root="Eeg" sense="Eeg"/>
+          </node>
+        </node>
+        <node cat="ppart" id="20" rel="mod">
+          <node cat="pp" id="21" rel="pc">
+            <node id="22" pos="prep" rel="hd" root="in" sense="in"/>
+            <node cat="np" id="23" rel="obj1">
+              <node id="24" infl="pl_num" pos="num" rel="det" root="drie" sense="drie" special="hoofd"/>
+              <node gen="de" id="25" num="pl" pos="noun" rel="hd" root="zone" sense="zone"/>
+            </node>
+          </node>
+          <node aform="base" id="26" infl="no_e" pos="adj" rel="hd" root="verdeeld" sc="pp(in)" sense="verdeeld-in" vform="psp"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

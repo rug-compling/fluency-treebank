@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="smain" id="2" rel="cnj">
+        <node cat="np" id="3" index="1" rel="su">
+          <node id="4" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node gen="de" id="5" num="sg" pos="noun" rel="hd" root="hoofd_rol_speler" sense="hoofd_rol_speler"/>
+          <node cat="pp" id="6" rel="mod">
+            <node id="7" pos="prep" rel="hd" root="in" sense="in"/>
+            <node cat="np" id="8" rel="obj1">
+              <node id="9" neclass="LOC" num="both" pos="name" rel="hd" root="Mandragora" sense="Mandragora"/>
+              <node cat="pp" id="10" rel="mod">
+                <node id="11" pos="prep" rel="hd" root="van" sense="van"/>
+                <node id="12" neclass="PER" num="both" pos="name" rel="obj1" root="Machiavelli" sense="Machiavelli"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node id="13" infl="sg" pos="verb" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" tense="past"/>
+        <node cat="ppart" id="14" rel="vc">
+          <node id="15" index="1" rel="su"/>
+          <node aform="base" id="16" infl="no_e" pos="adj" rel="predc" root="ziek" sense="ziek" vform="adj"/>
+          <node id="17" infl="psp" pos="verb" rel="hd" root="word" sc="copula" sense="word"/>
+        </node>
+      </node>
+      <node id="18" pos="vg" rel="crd" root="en" sense="en"/>
+      <node cat="smain" id="19" rel="cnj">
+        <node cat="np" id="20" rel="su">
+          <node id="21" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node gen="de" id="22" num="sg" pos="noun" rel="hd" root="vervanger" sense="vervanger"/>
+        </node>
+        <node id="23" infl="sg" pos="verb" rel="hd" root="ben" sc="intransitive" sense="ben" tense="past"/>
+        <node id="24" pos="adv" rel="mod" root="er" sense="er" special="er"/>
+        <node id="25" pos="adv" rel="mod" root="niet" sense="niet"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

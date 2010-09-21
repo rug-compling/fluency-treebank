@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="conj" id="1" rel="--">
+      <node cat="np" id="2" rel="cnj">
+        <node id="3" infl="een" pos="det" rel="det" root="een" sense="een"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="rol_prent" sense="rol_prent"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="voor" sense="voor"/>
+          <node cat="np" id="7" rel="obj1">
+            <node id="8" infl="alle" pos="det" rel="det" root="alle" sense="alle" wh="nwh"/>
+            <node gen="de" id="9" num="pl" pos="noun" rel="hd" root="leeftijd" sense="leeftijd"/>
+          </node>
+        </node>
+      </node>
+      <node id="10" pos="vg" rel="crd" root="en" sense="en"/>
+      <node cat="smain" id="11" rel="cnj">
+        <node id="12" infl="sg3" pos="verb" rel="hd" root="kom_voor" sc="part_ld_pp(voor)" sense="kom_voor" tense="present"/>
+        <node cat="np" id="13" rel="su">
+          <node id="14" infl="geen" pos="det" rel="det" root="geen" sense="geen" wh="nwh"/>
+          <node aform="base" id="15" infl="both" pos="adj" rel="mod" root="onvertogen" sense="onvertogen" vform="adj"/>
+          <node gen="het" id="16" num="sg" pos="noun" rel="hd" root="woord" sense="woord"/>
+        </node>
+        <node cat="pp" id="17" rel="ld">
+          <node id="18" pos="adv" rel="obj1" root="er" sense="er" special="er"/>
+          <node id="19" pos="prep" rel="hd" root="in" sense="in"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="modal_not_u" pos="verb" rel="hd" root="wil" sc="modifier(aux(inf))" sense="wil" tense="present"/>
+      <node case="nom" def="def" gen="de" id="3" index="1" num="sg" per="fir" pos="pron" rel="su" root="ik" sense="ik" wh="nwh"/>
+      <node cat="inf" id="4" rel="vc">
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="ondanks" sense="ondanks"/>
+          <node cat="np" id="7" rel="obj1">
+            <node gen="de" id="8" num="pl" pos="noun" rel="hd" root="oplossing" sense="oplossing"/>
+            <node cat="rel" id="9" rel="mod">
+              <node case="no_obl" gen="de" id="10" index="2" pos="pron" rel="rhd" root="die" sense="die" wh="rel"/>
+              <node cat="ssub" id="11" rel="body">
+                <node id="12" index="2" rel="obj1"/>
+                <node case="nom" def="def" gen="de" id="13" num="sg" per="fir" pos="pron" rel="su" root="ik" sense="ik" wh="nwh"/>
+                <node id="14" infl="sg" pos="verb" rel="hd" root="krijg_binnen" sc="part_transitive(binnen)" sense="krijg_binnen" tense="past"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node id="15" index="1" rel="su"/>
+        <node id="16" infl="het" pos="det" rel="obj1" root="het" sense="het" wh="nwh"/>
+        <node gen="de" id="17" num="sg" pos="noun" rel="obj2" root="u" sense="u"/>
+        <node id="18" pos="adv" rel="mod" root="toch" sense="toch"/>
+        <node id="19" pos="adv" rel="mod" root="opnieuw" sense="opnieuw"/>
+        <node id="20" infl="inf" pos="verb" rel="hd" root="bied_aan" sc="part_np_np(aan)" sense="bied_aan"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

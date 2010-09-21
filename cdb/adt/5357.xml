@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" index="1" rel="su">
+        <node id="3" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="4" num="sg" pos="noun" rel="hd" root="effect_beurs" sense="effect_beurs"/>
+        <node cat="pp" id="5" rel="mod">
+          <node id="6" pos="prep" rel="hd" root="in" sense="in"/>
+          <node cat="mwu" id="7" mwu_root="Wall Street" mwu_sense="Wall Street" rel="obj1">
+            <node id="8" neclass="LOC" num="both" pos="name" rel="mwp" root="Wall" sense="Wall"/>
+            <node id="9" neclass="LOC" num="both" pos="name" rel="mwp" root="Street" sense="Street"/>
+          </node>
+        </node>
+      </node>
+      <node id="10" infl="sg_heeft" pos="verb" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="present"/>
+      <node cat="ppart" id="11" rel="vc">
+        <node id="12" index="1" rel="su"/>
+        <node id="13" pos="adv" rel="mod" root="gisteren" sense="gisteren" special="tmp"/>
+        <node cat="np" id="14" rel="obj1">
+          <node aform="base" id="15" infl="e" pos="adj" rel="mod" root="fors" sense="fors" vform="adj"/>
+          <node gen="de" id="16" num="pl" pos="noun" rel="hd" root="koer_schommeling" sense="koer_schommeling"/>
+        </node>
+        <node id="17" infl="psp" pos="verb" rel="hd" root="maak_door" sc="part_transitive(door)" sense="maak_door"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

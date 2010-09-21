@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="mod">
+        <node id="3" pos="prep" rel="hd" root="op" sense="op"/>
+        <node cat="np" id="4" rel="obj1">
+          <node cat="mwu" id="5" mwu_root="23 februari" mwu_sense="23 februari" rel="hd">
+            <node id="6" pos="noun" rel="mwp" root="23" sense="23" special="tmp"/>
+            <node id="7" pos="noun" rel="mwp" root="februari" sense="februari" special="tmp"/>
+          </node>
+          <node id="8" pos="adv" rel="mod" root="jongstleden" sense="jongstleden" special="postn"/>
+        </node>
+      </node>
+      <node id="9" infl="sg" pos="verb" rel="hd" root="rijd" sc="np_ld_pp" sense="rijd" tense="past"/>
+      <node id="10" neclass="PER" num="both" pos="name" rel="su" root="Yvette" sense="Yvette"/>
+      <node cat="np" id="11" rel="obj1">
+        <node id="12" infl="pron" pos="det" rel="det" root="haar" sense="haar"/>
+        <node gen="de" id="13" num="sg" pos="noun" rel="hd" root="echt_genoot" sense="echt_genoot"/>
+      </node>
+      <node cat="pp" id="14" rel="ld">
+        <node id="15" pos="prep" rel="hd" root="naar" sense="naar"/>
+        <node cat="np" id="16" rel="obj1">
+          <node id="17" infl="een" pos="det" rel="det" root="een" sense="een"/>
+          <node gen="de" id="18" num="sg" pos="noun" rel="hd" root="vergadering" sense="vergadering"/>
+          <node cat="pp" id="19" rel="mod">
+            <node id="20" pos="prep" rel="hd" root="van" sense="van"/>
+            <node gen="de" id="21" num="pl" pos="noun" rel="obj1" root="middenstander" sense="middenstander"/>
+          </node>
+          <node cat="pp" id="22" rel="mod">
+            <node id="23" pos="prep" rel="hd" root="in" sense="in"/>
+            <node cat="np" id="24" rel="obj1">
+              <node id="25" infl="een" pos="det" rel="det" root="een" sense="een"/>
+              <node aform="base" id="26" infl="both" pos="adj" rel="mod" root="nabijgelegen" sense="nabijgelegen" vform="adj"/>
+              <node gen="het" id="27" num="sg" pos="noun" rel="hd" root="dorp" sense="dorp"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

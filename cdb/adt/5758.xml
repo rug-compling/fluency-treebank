@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="het" id="4" num="sg" pos="noun" rel="hd" root="PvdA_kamer_lid" sense="PvdA_kamer_lid"/>
+        <node id="5" neclass="PER" num="both" pos="name" rel="app" root="Franssen" sense="Franssen"/>
+      </node>
+      <node id="6" infl="sg" pos="verb" rel="hd" root="stel" sc="fixed([{[pc(over),acc(vraag)]}],norm_passive)" sense="vraag-stel-over" tense="past"/>
+      <node gen="de" id="7" num="pl" pos="noun" rel="obj1" root="vraag" sense="vraag"/>
+      <node cat="pp" id="8" rel="pc">
+        <node id="9" pos="adv" rel="obj1" root="er" sense="er" special="er"/>
+        <node id="10" pos="prep" rel="hd" root="over" sense="over"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

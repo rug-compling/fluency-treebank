@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="conj" id="2" rel="su">
+        <node id="3" neclass="PER" num="both" pos="name" rel="cnj" root="Benjamins" sense="Benjamins"/>
+        <node id="4" pos="vg" rel="crd" root="en" sense="en"/>
+        <node id="5" neclass="PER" num="both" pos="name" rel="cnj" root="Zoetemelk" sense="Zoetemelk"/>
+      </node>
+      <node id="6" infl="pl" pos="verb" rel="hd" root="word" sc="copula" sense="word" tense="present"/>
+      <node gen="de" id="7" num="sg" pos="noun" rel="predc" root="prof" sense="prof"/>
+    </node>
+  </node>
+</alpino_adt>

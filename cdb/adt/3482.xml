@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node id="4" neclass="ORG" num="both" pos="name" rel="hd" root="Bouwcentrumrapport" sense="Bouwcentrumrapport"/>
+      </node>
+      <node id="5" infl="sg3" pos="verb" rel="hd" root="doe" sc="aci_no_obj" sense="doe" tense="present"/>
+      <node cat="inf" id="6" rel="vc">
+        <node id="7" pos="pp" rel="pc" root="daaraan" sense="daaraan" special="er"/>
+        <node id="8" infl="inf" pos="verb" rel="hd" root="twijfel" sc="pc_pp(aan)" sense="twijfel-aan"/>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

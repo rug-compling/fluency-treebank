@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg3" pos="verb" rel="hd" root="word" sc="passive" sense="word" tense="present"/>
+      <node cat="np" id="3" index="1" rel="su">
+        <node id="4" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node gen="de" id="5" num="sg" pos="noun" rel="hd" root="kachel" sense="kachel"/>
+      </node>
+      <node cat="ppart" id="6" rel="vc">
+        <node id="7" pos="adv" rel="mod" root="intussen" sense="intussen" special="sentence"/>
+        <node id="8" index="1" rel="obj1"/>
+        <node id="9" infl="psp" pos="verb" rel="hd" root="steek_aan" sc="part_transitive(aan)" sense="steek_aan"/>
+        <node cat="oti" id="10" rel="mod">
+          <node id="11" pos="comp" rel="cmp" root="om" sc="om" sense="om"/>
+          <node cat="ti" id="12" rel="body">
+            <node id="13" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+            <node cat="inf" id="14" rel="body">
+              <node cat="np" id="15" rel="obj1">
+                <node id="16" infl="de" pos="det" rel="det" root="de" sense="de"/>
+                <node gen="de" id="17" num="sg" pos="noun" rel="hd" root="kilte" sense="kilte"/>
+              </node>
+              <node id="18" pos="adv" rel="mod" root="wat" sense="wat"/>
+              <node id="19" infl="inf" pos="verb" rel="hd" root="verdrijf" sc="transitive" sense="verdrijf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

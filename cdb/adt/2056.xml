@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" index="1" neclass="LOC" num="both" pos="name" rel="su" root="Noord-Brabant" sense="Noord-Brabant"/>
+      <node id="3" infl="sg3" pos="verb" rel="hd" root="bedank" sc="er_pp_vp(voor)" sense="bedank-voor" tense="present"/>
+      <node cat="pp" id="4" rel="pc">
+        <node id="5" pos="adv" rel="pobj1" root="er" sense="er" special="er"/>
+        <node id="6" pos="prep" rel="hd" root="voor" sense="voor"/>
+        <node cat="oti" id="7" rel="vc">
+          <node id="8" pos="comp" rel="cmp" root="om" sc="om" sense="om"/>
+          <node cat="ti" id="9" rel="body">
+            <node id="10" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+            <node cat="inf" id="11" rel="body">
+              <node id="12" index="1" rel="su"/>
+              <node cat="pp" id="13" rel="mod">
+                <node id="14" pos="prep" rel="hd" root="in" sense="in"/>
+                <node cat="np" id="15" rel="obj1">
+                  <node id="16" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+                  <node aform="base" id="17" infl="no_e" pos="adj" rel="mod" root="westelijk" sense="westelijk" vform="adj"/>
+                  <node gen="het" id="18" num="sg" pos="noun" rel="hd" root="deel" sense="deel" special="mod"/>
+                </node>
+              </node>
+              <node cat="np" id="19" rel="predc">
+                <node id="20" infl="een" pos="det" rel="det" root="een" sense="een"/>
+                <node id="21" pos="num" rel="mod" root="tweede" sense="tweede" special="rang"/>
+                <node gen="de" id="22" num="sg" pos="noun" rel="hd" root="randstad" sense="randstad"/>
+              </node>
+              <node id="23" infl="inf" pos="verb" rel="hd" root="word" sc="copula" sense="word"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

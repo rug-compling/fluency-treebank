@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="du" id="1" rel="--">
+      <node cat="smain" id="2" rel="dp">
+        <node case="nom" def="def" gen="de" id="3" num="sg" per="thi" pos="pron" rel="su" root="hij" sense="hij" wh="nwh"/>
+        <node id="4" infl="sg" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="past"/>
+        <node cat="conj" id="5" rel="predc">
+          <node aform="base" id="6" infl="no_e" pos="adj" rel="cnj" root="teleurgesteld" sense="teleurgesteld" vform="psp"/>
+          <node cat="np" id="7" rel="cnj">
+            <node id="8" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node aform="base" id="9" infl="e" pos="adj" rel="mod" root="oud" sense="oud" vform="adj"/>
+            <node gen="de" id="10" num="sg" pos="noun" rel="hd" root="meester" sense="meester"/>
+          </node>
+        </node>
+      </node>
+      <node cat="smain" id="11" rel="dp">
+        <node id="12" index="1" infl="het" pos="det" rel="su" root="het" sense="het" wh="nwh"/>
+        <node id="13" infl="sg" pos="verb" rel="hd" root="ben" sc="te_passive" sense="ben" tense="past"/>
+        <node cat="ti" id="14" rel="vc">
+          <node id="15" pos="comp" rel="cmp" root="te" sc="te" sense="te"/>
+          <node cat="inf" id="16" rel="body">
+            <node id="17" index="1" rel="obj1"/>
+            <node case="dat_acc" def="def" gen="de" id="18" num="sg" per="thi" pos="pron" rel="obj2" root="hem" sense="hem" wh="nwh"/>
+            <node id="19" infl="inf(no_e)" pos="verb" rel="hd" root="zie_aan" sc="part_np_np(aan)" sense="zie_aan"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

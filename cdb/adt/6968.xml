@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node gen="het" id="2" num="pl" pos="noun" rel="su" root="gerucht" sense="gerucht"/>
+      <node id="3" infl="pl" pos="verb" rel="hd" root="wil" sc="modifier(tr_sbar)" sense="wil" tense="past"/>
+      <node cat="cp" id="4" rel="vc">
+        <node id="5" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+        <node cat="ssub" id="6" rel="body">
+          <node cat="np" id="7" index="1" rel="su">
+            <node id="8" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="9" num="pl" pos="noun" rel="hd" root="onderneming" sense="onderneming"/>
+          </node>
+          <node id="10" infl="pl" pos="verb" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="past"/>
+          <node cat="inf" id="11" rel="vc">
+            <node id="12" index="1" rel="su"/>
+            <node cat="np" id="13" rel="obj1">
+              <node id="14" infl="een" pos="det" rel="det" root="een" sense="een"/>
+              <node gen="de" id="15" num="sg" pos="noun" rel="hd" root="fusie" sense="fusie"/>
+            </node>
+            <node id="16" infl="inf" pos="verb" rel="hd" root="bereid_voor" sc="part_transitive(voor)" sense="bereid_voor"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

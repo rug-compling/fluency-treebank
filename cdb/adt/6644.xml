@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node id="2" infl="sg_heeft" pos="verb" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" tense="present"/>
+      <node id="3" index="1" pos="noun" rel="su" root="het" sense="het" special="het"/>
+      <node cat="ppart" id="4" rel="vc">
+        <node cat="mwu" id="5" mwu_root="tot dusver" mwu_sense="tot dusver" rel="mod">
+          <node id="6" pos="adv" rel="mwp" root="tot" sense="tot" special="sentence"/>
+          <node id="7" pos="adv" rel="mwp" root="dusver" sense="dusver" special="sentence"/>
+        </node>
+        <node id="8" index="1" rel="sup"/>
+        <node id="9" pos="adv" rel="mod" root="nog" sense="nog"/>
+        <node id="10" pos="adv" rel="mod" root="niet" sense="niet"/>
+        <node id="11" infl="psp" pos="verb" rel="hd" root="kom_voor" sc="part_sbar_subj(voor)" sense="kom_voor"/>
+        <node cat="cp" id="12" rel="su">
+          <node id="13" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+          <node cat="ssub" id="14" rel="body">
+            <node cat="np" id="15" rel="su">
+              <node id="16" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node gen="de" id="17" num="sg" pos="noun" rel="hd" root="staat" sense="staat"/>
+            </node>
+            <node id="18" infl="sg3" pos="verb" rel="hd" root="leen" sc="intransitive" sense="leen" tense="present"/>
+            <node cat="pp" id="19" rel="mod">
+              <node id="20" pos="prep" rel="hd" root="tegen" sense="tegen"/>
+              <node cat="np" id="21" rel="obj1">
+                <node id="22" infl="een" pos="det" rel="det" root="een" sense="een"/>
+                <node gen="de" id="23" num="sg" pos="noun" rel="hd" root="rente" sense="rente"/>
+                <node cat="pp" id="24" rel="mod">
+                  <node id="25" pos="prep" rel="hd" root="van" sense="van"/>
+                  <node cat="np" id="26" rel="obj1">
+                    <node id="27" infl="both" pos="num" rel="det" root="7,75" sense="7,75" special="hoofd"/>
+                    <node gen="both" id="28" num="meas" pos="noun" rel="hd" root="procent" sense="procent" special="meas_mod"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

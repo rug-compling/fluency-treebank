@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node aform="base" id="2" infl="pred" pos="adj" rel="mod" root="wel" sense="wel" vform="adj"/>
+      <node id="3" infl="sg3" pos="verb" rel="hd" root="eis" sc="sbar" sense="eis" tense="present"/>
+      <node case="nom" def="def" gen="de" id="4" num="sg" per="thi" pos="pron" rel="su" root="men" sense="men" wh="nwh"/>
+      <node cat="cp" id="5" rel="vc">
+        <node id="6" pos="comp" rel="cmp" root="dat" sc="dat" sense="dat"/>
+        <node cat="ssub" id="7" rel="body">
+          <node cat="np" id="8" rel="su">
+            <node id="9" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="10" num="sg" pos="noun" rel="hd" root="overheid" sense="overheid"/>
+          </node>
+          <node cat="np" id="11" rel="obj1">
+            <node id="12" infl="de" pos="det" rel="det" root="de" sense="de"/>
+            <node gen="de" id="13" num="sg" pos="noun" rel="hd" root="aankoop" sense="aankoop"/>
+            <node cat="pp" id="14" rel="mod">
+              <node id="15" pos="prep" rel="hd" root="van" sense="van"/>
+              <node cat="np" id="16" rel="obj1">
+                <node id="17" infl="het" pos="det" rel="det" root="dit" sense="dit" wh="nwh"/>
+                <node gen="het" id="18" num="sg" pos="noun" rel="hd" root="terrein" sense="terrein"/>
+              </node>
+            </node>
+          </node>
+          <node cat="pp" id="19" rel="svp">
+            <node id="20" pos="prep" rel="hd" root="voor" sense="voor"/>
+            <node cat="np" id="21" rel="obj1">
+              <node id="22" infl="pron" pos="det" rel="det" root="haar" sense="haar"/>
+              <node gen="de" id="23" num="sg" pos="noun" rel="hd" root="rekening" sense="rekening"/>
+            </node>
+          </node>
+          <node id="24" infl="sg3" pos="verb" rel="hd" root="neem" sc="fixed([svp_pp(voor,rekening),acc],norm_passive)" sense="voor-rekening-neem" tense="present"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

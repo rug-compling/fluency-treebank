@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="het" pos="det" rel="det" root="dit" sense="dit" wh="nwh"/>
+        <node gen="het" id="4" num="sg" pos="noun" rel="hd" root="bulletin" sense="bulletin"/>
+      </node>
+      <node id="5" infl="sg3" pos="verb" rel="hd" root="ga" sc="ap_copula" sense="ga" tense="present"/>
+      <node cat="ppart" id="6" rel="predc">
+        <node aform="base" id="7" infl="no_e" pos="adj" rel="hd" root="vergezeld" sc="pp(van)" sense="vergezeld-van" vform="psp"/>
+        <node cat="pp" id="8" rel="pc">
+          <node id="9" pos="prep" rel="hd" root="van" sense="van"/>
+          <node cat="np" id="10" rel="obj1">
+            <node id="11" infl="een" pos="det" rel="det" root="een" sense="een"/>
+            <node gen="het" id="12" num="sg" pos="noun" rel="hd" root="aantal" sc="measure" sense="aantal-MEAS"/>
+            <node cat="np" id="13" rel="mod">
+              <node aform="base" id="14" infl="e" pos="adj" rel="mod" root="pastoraal" sense="pastoraal" vform="adj"/>
+              <node gen="de" id="15" num="pl" pos="noun" rel="hd" root="aanbeveling" sense="aanbeveling"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>

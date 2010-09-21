@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="pp" id="2" rel="mod">
+        <node cat="mwu" id="3" mwu_root="in tegenstelling tot" mwu_sense="in tegenstelling tot" rel="hd">
+          <node id="4" pos="prep" rel="mwp" root="in" sense="in"/>
+          <node id="5" pos="prep" rel="mwp" root="tegenstelling" sense="tegenstelling"/>
+          <node id="6" pos="prep" rel="mwp" root="tot" sense="tot"/>
+        </node>
+        <node cat="np" id="7" rel="obj1">
+          <node id="8" infl="de" pos="det" rel="det" root="de" sense="de"/>
+          <node cat="ap" id="9" rel="mod">
+            <node id="10" pos="adv" rel="mod" root="zeer" sense="zeer"/>
+            <node aform="base" id="11" infl="e" pos="adj" rel="hd" root="gunstig" sense="gunstig" vform="adj"/>
+          </node>
+          <node gen="de" id="12" num="sg" pos="noun" rel="hd" root="tendentie" sense="tendentie"/>
+          <node cat="pp" id="13" rel="mod">
+            <node id="14" pos="prep" rel="hd" root="van" sense="van"/>
+            <node cat="np" id="15" rel="obj1">
+              <node id="16" infl="de" pos="det" rel="det" root="de" sense="de"/>
+              <node gen="de" id="17" num="pl" pos="noun" rel="hd" root="staat_lening" sense="staat_lening"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="18" infl="pl" pos="verb" rel="hd" root="ben" sc="copula" sense="ben" tense="past"/>
+      <node cat="np" id="19" rel="su">
+        <node id="20" infl="de" pos="det" rel="det" root="de" sense="de"/>
+        <node aform="base" id="21" infl="e" pos="adj" rel="mod" root="internationaal" sense="internationaal" vform="adj"/>
+        <node gen="de" id="22" num="pl" pos="noun" rel="hd" root="waarde" sense="waarde"/>
+      </node>
+      <node gen="het" id="23" num="sg" pos="noun" rel="predc" root="zwak" sense="zwak"/>
+    </node>
+  </node>
+</alpino_adt>

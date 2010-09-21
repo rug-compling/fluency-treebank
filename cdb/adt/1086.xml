@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_adt version="1.3">
+  <node cat="top" id="0" rel="top">
+    <node cat="smain" id="1" rel="--">
+      <node cat="np" id="2" rel="su">
+        <node id="3" infl="het" pos="det" rel="det" root="het" sense="het" wh="nwh"/>
+        <node gen="het" id="4" num="sg" pos="noun" rel="hd" root="licht" sense="licht"/>
+      </node>
+      <node id="5" infl="sg" pos="verb" rel="hd" root="ga" sc="pc_pp(op)" sense="ga-op" tense="past"/>
+      <node id="6" pos="adv" rel="mod" root="toen" sense="toen" special="tmp"/>
+      <node cat="pp" id="7" rel="pc">
+        <node id="8" pos="prep" rel="hd" root="op" sense="op"/>
+        <node gen="het" id="9" num="sg" pos="noun" rel="obj1" root="rood" sense="rood"/>
+      </node>
+      <node cat="pp" id="10" rel="mod">
+        <node id="11" pos="prep" rel="hd" root="bij" sense="bij"/>
+        <node id="12" neclass="LOC" num="both" pos="name" rel="obj1" root="Laren" sense="Laren"/>
+      </node>
+      <node cat="whrel" id="13" rel="mod">
+        <node case="both" def="indef" gen="het" id="14" index="1" num="sg" per="thi" pos="pron" rel="rhd" root="wat" sense="wat" special="nparg" wh="ywh"/>
+        <node cat="ssub" id="15" rel="body">
+          <node id="16" index="1" rel="su"/>
+          <node cat="np" id="17" rel="obj1">
+            <node id="18" infl="een" pos="det" rel="det" root="een" sense="een"/>
+            <node aform="base" id="19" infl="no_e" pos="adj" rel="mod" root="sterk" sense="sterk" vform="adj"/>
+            <node gen="het" id="20" num="sg" pos="noun" rel="hd" root="offensief" sense="offensief"/>
+          </node>
+          <node cat="mwu" id="21" mwu_root="ten gevolge" mwu_sense="ten gevolge" rel="svp">
+            <node id="22" pos="fixed" rel="mwp" root="ten" sense="ten"/>
+            <node id="23" pos="fixed" rel="mwp" root="gevolge" sense="gevolge"/>
+          </node>
+          <node id="24" infl="sg" pos="verb" rel="hd" root="heb" sc="fixed([[ten,gevolge],acc],no_passive)" sense="ten-gevolge-heb" tense="past"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</alpino_adt>
