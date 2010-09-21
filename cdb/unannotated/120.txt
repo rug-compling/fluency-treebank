@@ -1,0 +1,8 @@
+zij wilden inspraak , democratisering , gelijkheid , medezeggenschap
+zij wilden democratisering , gelijkheid , medezeggenschap , inspraak
+zij wilden gelijkheid , medezeggenschap , democratisering , inspraak
+zij wilden medezeggenschap , inspraak , democratisering , gelijkheid
+zij wilden gelijkheid , medezeggenschap , inspraak , democratisering
+zij wouden inspraak , democratisering , gelijkheid , medezeggenschap
+zij wouden democratisering , gelijkheid , inspraak , medezeggenschap
+zij wouden inspraak , gelijkheid , medezeggenschap , democratisering

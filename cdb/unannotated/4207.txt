@@ -1,0 +1,8 @@
+de rector voert de besluiten uit en de leraar-vergadering heeft de algemene leiding
+de rector voert de besluiten uit en de algemene leiding heeft de leraarsvergadering
+de algemene leiding heeft de leraar-vergadering en de rector voert de besluiten uit
+de algemene leiding heeft de leraarsvergadering en de rector voert de besluiten uit
+de leraar-vergadering heeft de algemene leiding en de besluiten voert de rector uit
+de leraarsvergadering heeft de algemene leiding en de besluiten voert de rector uit
+de besluiten voert de rector uit en de algemene leiding heeft de leraar-vergadering
+de besluiten voert de rector uit en de algemene leiding heeft de leraarvergadering

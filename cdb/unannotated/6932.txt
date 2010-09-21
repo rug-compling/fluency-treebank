@@ -1,0 +1,8 @@
+ze zijn grijswit en roodbruin , de pony's zijn wollig
+de pony's zijn wollig , ze zijn grijswit en roodbruin
+ze zijn roodbruin en grijs_wit , de pony's zijn wollig
+de pony's zijn wollig ; ze zijn roodbruin en grijswit
+ze zijn roodbruin en grijswit ; de pony's zijn wollig
+ze zijn grijs-wit en roodbruin ; de pony's zijn wollig
+de pony's zijn wollig , roodbruin en grijs-wit zijn ze
+de pony's zijn wollig ... ze zijn grijswit en roodbruin

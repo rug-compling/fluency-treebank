@@ -1,0 +1,8 @@
+de gevolgen zijn haat , misverstanden , vertekeningen
+de gevolgen zijn haat , vertekeningen , misverstanden
+de gevolgen zijn misverstanden , haat , vertekeningen
+de gevolgen zijn misverstanden , vertekeningen , haat
+haat , vertekeningen , misverstanden zijn de gevolgen
+misverstanden , vertekeningen , haat zijn de gevolgen
+vertekeningen , haat , misverstanden zijn de gevolgen
+vertekeningen , misverstanden , haat zijn de gevolgen

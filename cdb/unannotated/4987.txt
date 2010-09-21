@@ -1,0 +1,4 @@
+deelnemers 668.346 , bruto inleg flo 1.404.796,50 prijzenbedrag flo 632.158,50
+deelnemers 668.346 , bruto inleg 632.158,50 flo 1.404.796,50 prijzenbedrag flo
+bruto inleg 632.158,50 flo 1.404.796,50 prijzenbedrag flo , deelnemers 668.346
+bruto inleg flo 1.404.796,50 prijzenbedrag flo 632.158,50 , deelnemers 668.346

@@ -1,0 +1,8 @@
+de rector-directeur heeft de leiding , de leraar heeft onvoldoende zeggenschap
+de leraar heeft onvoldoende zeggenschap , de leiding heeft de rector-directeur
+de leiding heeft de rector-directeur , de leraar heeft onvoldoende zeggenschap
+de rectordirecteur heeft de leiding , onvoldoende zeggenschap heeft de leraar
+de leraar heeft onvoldoende zeggenschap ; de rector-directeur heeft de leiding
+onvoldoende zeggenschap heeft de leraar , de rectordirecteur heeft de leiding
+onvoldoende zeggenschap heeft de leraar , de rectorsdirecteur heeft de leiding
+de rectorsdirecteur heeft de leiding - de leraar heeft onvoldoende zeggenschap

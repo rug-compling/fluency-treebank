@@ -1,0 +1,8 @@
+daar is terugschrijven bij voorbaat overbodig
+terugschrijven is daar overbodig bij voorbaat
+terugschrijven is overbodig daar bij voorbaat
+bij voorbaat is terugschrijven daar overbodig
+bij voorbaat is daar terugschrijven overbodig
+overbodig is bij voorbaat daar terugschrijven
+bij voorbaat is terugschrijven overbodig daar
+overbodig is bij voorbaat terugschrijven daar

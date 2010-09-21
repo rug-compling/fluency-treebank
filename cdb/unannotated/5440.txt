@@ -1,0 +1,8 @@
+maar het spelpeil is uitstekend tot behoorlijk
+maar het spelpeil is behoorlijk tot uitstekend
+maar het spelspeil is uitstekend tot behoorlijk
+maar het spel-peil is behoorlijk tot uitstekend
+maar uitstekend tot behoorlijk is het spelpeil
+maar behoorlijk tot uitstekend is het spelpeil
+maar uitstekend tot behoorlijk is het spelspeil
+maar behoorlijk tot uitstekend is het spel-peil

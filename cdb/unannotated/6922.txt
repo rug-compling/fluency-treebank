@@ -1,0 +1,8 @@
+je nieuwe functie ; Ik ga voorlichting geven over de EEG
+Ik ga voorlichting over de EEG geven ; je nieuwe functie
+voorlichting over de EEG ga Ik geven ... je nieuwe functie
+je nieuwe functie ; voorlichting over de EEG ga Ik geven
+je nieuwe functie - voorlichting over de EEG ga Ik geven
+Ik ga voorlichting geven over de EEG ; je nieuwe funktie
+je nieuwe funktie ... Ik ga voorlichting geven over de EEG
+Ik ga voorlichting over de EEG geven - je nieuwe funktie

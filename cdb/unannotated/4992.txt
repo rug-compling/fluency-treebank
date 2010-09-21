@@ -1,0 +1,6 @@
+behalve Italie , Oostenrijk en de twee genoemde Belgie
+behalve Oostenrijk , Italie en de twee genoemde Belgie
+behalve Oostenrijk , de twee genoemde Belgie en Italie
+behalve de twee genoemde Belgie , Oostenrijk en Italie
+behalve Italie , de twee genoemde Belgie en Oostenrijk
+behalve de twee genoemde Belgie , Italie en Oostenrijk

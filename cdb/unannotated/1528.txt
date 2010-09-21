@@ -1,0 +1,6 @@
+maar waar blijven Den Haag , Rotterdam en Amsterdam
+maar waar blijven Den Haag , Amsterdam en Rotterdam
+maar waar blijven Amsterdam , Rotterdam en Den Haag
+maar waar blijven Rotterdam , Amsterdam en Den Haag
+maar waar blijven Rotterdam , Den Haag en Amsterdam
+maar waar blijven Amsterdam , Den Haag en Rotterdam

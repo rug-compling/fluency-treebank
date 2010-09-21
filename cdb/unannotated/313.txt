@@ -1,0 +1,8 @@
+dit is een staakt-het-vuren of geen tijdelijke wapenstilstand
+dit is geen tijdelijke wapenstilstand of een staakt-het-vuren
+dit is 'n staakt-het-vuren of geen tijdelijke wapenstilstand
+dit is geen tijdelijke wapenstilstand of 'n staakt-het-vuren
+een staakt-het-vuren of geen tijdelijke wapenstilstand is dit
+geen tijdelijke wapenstilstand of een staakt-het-vuren is dit
+'n staakt-het-vuren of geen tijdelijke wapenstilstand is dit
+geen tijdelijke wapenstilstand of 'n staakt-het-vuren is dit

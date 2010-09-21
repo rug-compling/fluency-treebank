@@ -1,0 +1,8 @@
+rookvlees , rosbief , pekelvlees , porties leverworst
+porties leverworst , rosbief , rookvlees , pekelvlees
+porties leverworst , pekelvlees , rosbief , rookvlees
+pekelvlees , rookvlees , rosbief , porties leverworst
+rookvlees , pekelvlees , porties leverworst , rosbief
+pekelvlees , rookvlees , porties leverworst , rosbief
+rosbief , porties leverworst , pekelvlees , rookvlees
+rosbief , porties leverworst , rookvlees , pekelvlees

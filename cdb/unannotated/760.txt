@@ -1,0 +1,8 @@
+Jungk staat kritisch tegenover het , militair-industrieel complex
+Jungk staat kritisch tegenover het complex , militairsindustrieel
+tegenover het , militair-industrieel complex staat Jungk kritisch
+kritisch staat Jungk tegenover het complex , militairindustrieel
+kritisch staat Jungk tegenover het , militairindustrieel complex
+tegenover het , militair_industrieel complex staat Jungk kritisch
+tegenover het complex , militair_industrieel staat Jungk kritisch
+tegenover het complex , militairsindustrieel staat Jungk kritisch

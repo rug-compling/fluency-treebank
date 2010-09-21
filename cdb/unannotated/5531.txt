@@ -1,0 +1,8 @@
+priesters en leken , mannen en vrouwen , gehuwden en ongehuwden
+leken : mannen en vrouwen , gehuwden en ongehuwden en priesters
+leken , vrouwen , gehuwden en ongehuwden en mannen en priesters
+priesters en leken , mannen en vrouwen : ongehuwden en gehuwden
+priesters en leken : vrouwen , ongehuwden en gehuwden en mannen
+leken : mannen en vrouwen : gehuwden en ongehuwden en priesters
+leken , vrouwen : gehuwden en ongehuwden en mannen en priesters
+priesters en leken : vrouwen : ongehuwden en gehuwden en mannen

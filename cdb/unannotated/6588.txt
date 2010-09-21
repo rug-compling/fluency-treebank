@@ -1,0 +1,8 @@
+een ruime mess-room , gelegenheid tot douchen , centrale verwarming , een bar , compartimenten met telefoon
+een ruime messroom , gelegenheid tot douchen , een bar , centrale verwarming , compartimenten met telefoon
+een bar , gelegenheid tot douchen , een ruime mess-room , centrale verwarming , compartimenten met telefoon
+gelegenheid tot douchen , centrale verwarming , compartimenten met telefoon , een bar , een ruime mess-room
+gelegenheid tot douchen , centrale verwarming , compartimenten met telefoon , een bar , een ruime messroom
+een bar , gelegenheid tot douchen , compartimenten met telefoon , een ruime messroom , centrale verwarming
+gelegenheid tot douchen , compartimenten met telefoon , centrale verwarming , een bar , een ruime messroom
+een bar , centrale verwarming , gelegenheid tot douchen , compartimenten met telefoon , een ruime mess-room

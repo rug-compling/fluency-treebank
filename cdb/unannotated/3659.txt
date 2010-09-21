@@ -1,0 +1,8 @@
+het was gisteren moederdag , weet u
+weet u : het was gisteren moederdag
+het was gisteren moederdag : weet u
+moederdag was het gisteren , weet u
+weet u : het was moederdag gisteren
+weet u : gisteren was het moederdag
+weet u : moederdag was gisteren het
+moederdag was het gisteren . weet u

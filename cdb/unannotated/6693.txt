@@ -1,0 +1,8 @@
+Locarno 67 , Munchen 17 millimeter regen , Zurich 18
+Munchen 17 millimeter regen , Locarno 67 , Zurich 18
+Munchen 17 millimeter regen , Zurich 18 , Locarno 67
+Locarno 67 , Zurich 18 , Munchen 17 millimeter regen
+Zurich 18 , Locarno 67 , Munchen 17 millimeter regen
+17 millimeter Munchen regen , Zurich 18 , Locarno 67
+Zurich 18 , 17 millimeter Munchen regen , Locarno 67
+Zurich 18 , Locarno 67 , 17 millimeter Munchen regen

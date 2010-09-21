@@ -1,0 +1,8 @@
+de nieuwe deden de oude stukken 96.50 55.30
+de nieuwe deden 96.50 55.30 de oude stukken
+de oude stukken deden de nieuwe 96.50 55.30
+de oude stukken deden 96.50 de nieuwe 55.30
+96.50 deden de nieuwe 55.30 de oude stukken
+55.30 deden de oude stuks 96.50 de nieuwe
+55.30 deden 96.50 de oude stuks de nieuwe
+55.30 deden 96.50 de nieuwe de oude stuks

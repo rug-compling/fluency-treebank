@@ -1,0 +1,6 @@
+het stuurkarakter is licht onderstuurd
+het stuur-karakter is licht onderstuurd
+het stuurskarakter is licht onderstuurd
+licht onderstuurd is het stuurkarakter
+licht onderstuurd is het stuur-karakter
+licht onderstuurd is het stuurskarakter

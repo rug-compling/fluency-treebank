@@ -1,0 +1,8 @@
+van ' smorgens tot ' savonds is gesproken over :
+van 's morgens tot 's avonds is gesproken over :
+van 's-morgens tot 's-avonds is gesproken over :
+van des morgens tot des avonds is gesproken over :
+over : is gesproken van ' smorgens tot ' savonds
+over : is gesproken van ' smorgens tot 's avonds
+over : is gesproken van ' smorgens tot 's-avonds
+over : is gesproken van ' smorgens tot des avonds

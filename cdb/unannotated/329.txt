@@ -1,0 +1,8 @@
+Caledonian , Atlantis , Capitol International en Overseas National zijn vaste klanten van Schiphol
+Capitol International , Overseas National , Atlantis en Caledonian zijn vaste klanten van Schiphol
+Atlantis , Caledonian , Overseas National en Capitol International zijn vaste klanten van Schiphol
+Overseas National , Capitol International , Caledonian en Atlantis zijn vaste klanten van Schiphol
+vaste klanten van Schiphol zijn Caledonian , Atlantis , Overseas National en Capitol International
+vaste klanten van Schiphol zijn Caledonian , Capitol International , Atlantis en Overseas National
+vaste klanten van Schiphol zijn Capitol International , Atlantis , Caledonian en Overseas National
+vaste klanten van Schiphol zijn Capitol International , Atlantis , Overseas National en Caledonian

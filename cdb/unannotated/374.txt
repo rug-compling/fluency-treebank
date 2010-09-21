@@ -1,0 +1,8 @@
+dat brengt ongemakken met zich mee als :
+dat brengt ongemakken mee met zich als :
+met zich brengt als : dat ongemakken mee
+met zich brengt dat als : ongemakken mee
+als : brengt dat ongemakken mee met zich
+met zich brengt dat ongemakken als : mee
+ongemakken brengt als : met zich dat mee
+ongemakken brengt dat mee als : met zich

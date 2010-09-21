@@ -1,0 +1,8 @@
+kneu , memelig en pimpel zijn een paar voorbeelden
+kneu , pimpel en memelig zijn een paar voorbeelden
+memelig , pimpel en kneu zijn een paar voorbeelden
+pimpel , kneu en memelig zijn een paar voorbeelden
+een paar voorbeelden zijn kneu , memelig en pimpel
+een paar voorbeelden zijn kneu , pimpel en memelig
+een paar voorbeelden zijn memelig , kneu en pimpel
+een paar voorbeelden zijn pimpel , memelig en kneu

@@ -1,0 +1,8 @@
+de selectie is geen vrienden van elkaar
+de selectie is geen vrienden van mekaar
+de selektie is geen vrienden van elkaar
+geen vrienden van elkaar is de selectie
+de selektie is geen vrienden van mekaar
+geen vrienden van mekaar is de selectie
+geen vrienden van elkaar is de selektie
+geen vrienden van mekaar is de selektie

@@ -1,0 +1,8 @@
+de setstanden waren 15-6 , 15-6 , 15-5 en 12-15
+de setstanden waren 15-6 , 15-5 , 15-6 en 12-15
+de setstanden waren 15-6 , 12-15 , 15-6 en 15-5
+de setstanden waren 15-5 , 15-6 , 12-15 en 15-6
+12-15 , 15-5 , 15-6 en 15-6 waren de setstanden
+12-15 , 15-6 , 15-6 en 15-5 waren de setstanden
+15-6 , 12-15 , 15-5 en 15-6 waren de setstanden
+15-6 , 12-15 , 15-6 en 15-5 waren de setstanden

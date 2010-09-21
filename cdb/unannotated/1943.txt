@@ -1,0 +1,8 @@
+in City-Den Haag , CityAmsterdam en Lumiere-Rotterdam
+in City-Den Haag , Lumiere-Rotterdam en CityAmsterdam
+in CityAmsterdam , Lumiere-Rotterdam en City-Den Haag
+in Lumiere-Rotterdam , City-Den Haag en CityAmsterdam
+City-Den Haag , CityAmsterdam en Lumiere-Rotterdam in
+CityAmsterdam , Lumiere-Rotterdam en City-Den Haag in
+Lumiere-Rotterdam , City-Den Haag en CityAmsterdam in
+Lumiere-Rotterdam , CityAmsterdam en City-Den Haag in

@@ -1,0 +1,8 @@
+de Statenvertaling blijft hier iets dichter bij met :
+hier blijft de Statenvertaling met : iets dichter bij
+hier blijft met : de Statenvertaling iets dichter bij
+met : blijft hier bij de Statenvertaling iets dichter
+de Statenvertaling blijft hier bij iets dichter met :
+iets dichter blijft de Statenvertaling met : hier bij
+iets dichter blijft de Statenvertaling hier bij met :
+met : blijft iets dichter hier de Statenvertaling bij
