@@ -1,0 +1,12 @@
+#!/usr/bin/ruby
+
+STDIN.each_line { |line|
+  (user, lfId, sent) = line.split(/\|/)
+
+  if !File.directory?(user)
+    Dir.mkdir(user)
+  end
+
+  f = File.open("#{user}/#{lfId}.txt", "a")
+  f.print(sent)
+}
